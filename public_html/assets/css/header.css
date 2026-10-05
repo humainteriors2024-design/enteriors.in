@@ -1,0 +1,55 @@
+/* =====================================================================
+   ENTERIORS — 6. HEADER: top bar, mega menu, mobile menu
+   ===================================================================== */
+@layer header {
+  /* 4.18 SITE HEADER + mega menu -------------------------------------- */
+  .site-header { position: sticky; top: 0; z-index: 100; background: var(--ink); border-bottom: 1px solid var(--ink-3); }
+  .site-header__bar { display: flex; align-items: center; gap: var(--sp-5); height: var(--header-h); }
+  .logo { font-family: var(--font-display); font-size: 1.75rem; letter-spacing: .08em; color: var(--white); text-decoration: none; flex-shrink: 0; }
+  .logo span { color: var(--red); }
+  .logo sup { font-family: var(--font-body); font-size: .5rem; font-weight: 600; letter-spacing: .2em; color: var(--gold); }
+  .logo:hover { color: var(--white); }
+
+  .nav { display: flex; align-items: stretch; height: 100%; flex: 1; }
+  .nav__item { position: static; display: flex; align-items: center; }
+  .nav__link {
+    display: flex; align-items: center; height: 100%; padding: 0 .7rem; gap: .3rem;
+    font-size: .74rem; font-weight: 500; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--muted-dark); text-decoration: none; border-bottom: 2px solid transparent; transition: color var(--ease), border-color var(--ease);
+  }
+  .nav__link:hover, .nav__item:focus-within .nav__link, .nav__link[aria-current="page"] { color: var(--white); border-bottom-color: var(--red); }
+  .nav__toggle { color: var(--muted-dark); padding: 0 .2rem; height: 100%; }
+  .nav__toggle svg { width: 10px; height: 10px; stroke: currentColor; fill: none; stroke-width: 2.5; transition: transform var(--ease); }
+  .nav__item.is-open .nav__toggle svg { transform: rotate(180deg); }
+  .site-header__actions { margin-left: auto; display: flex; align-items: center; gap: var(--sp-4); }
+  .site-header__phone { color: var(--white); text-decoration: none; font-weight: 600; font-size: var(--fs-sm); white-space: nowrap; }
+  .site-header__phone:hover { color: var(--gold); }
+  .site-header--minimal .site-header__bar { justify-content: space-between; }
+
+  .mega {
+    position: absolute; left: 0; right: 0; top: 100%; display: none;
+    background: var(--ink); border-top: 2px solid var(--red); border-bottom: 1px solid var(--ink-3);
+    padding-block: var(--sp-6) var(--sp-7); box-shadow: var(--shadow-lg);
+  }
+  .nav__item.is-open .mega { display: block; }
+  @media (hover: hover) and (min-width: 1101px) { .nav__item:hover .mega { display: block; } }
+  .mega__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: var(--sp-6); }
+  .burger { display: none; margin-left: auto; padding: var(--sp-2); }
+  .burger span { display: block; width: 22px; height: 2px; background: var(--white); margin: 5px 0; }
+  .mobile-nav { display: none; }
+
+  @media (max-width: 1100px) {
+    .nav, .site-header:not(.site-header--minimal) .site-header__actions { display: none; }
+    .site-header--minimal .site-header__phone { display: none; }
+    .burger { display: block; }
+    .mobile-nav { position: absolute; top: 100%; left: 0; right: 0; height: calc(100vh - var(--header-h)); height: calc(100dvh - var(--header-h)); background: var(--ink); overflow-y: auto; padding: var(--sp-5) var(--gutter) var(--sp-8); }   /* hangs under the sticky header */
+    .mobile-nav.is-open { display: block; }
+    .mobile-nav details { border-bottom: 1px solid var(--ink-3); }
+    .mobile-nav summary { list-style: none; cursor: pointer; padding: var(--sp-4) 0; color: var(--white); text-transform: uppercase; letter-spacing: .08em; font-size: .9rem; display: flex; justify-content: space-between; }
+    .mobile-nav summary::after { content: '+'; color: var(--red); }
+    .mobile-nav details[open] summary::after { content: '–'; }
+    .mobile-nav .link-list { padding-bottom: var(--sp-4); }
+    .mobile-nav__link { display: block; padding: var(--sp-4) 0; border-bottom: 1px solid var(--ink-3); color: var(--white); text-transform: uppercase; letter-spacing: .08em; font-size: .9rem; text-decoration: none; }
+    .mobile-nav .btn { margin-top: var(--sp-5); width: 100%; }
+  }
+}

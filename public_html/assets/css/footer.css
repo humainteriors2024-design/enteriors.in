@@ -1,0 +1,19 @@
+/* =====================================================================
+   ENTERIORS — 7. FOOTER
+   ===================================================================== */
+@layer footer {
+  /* 4.19 SITE FOOTER --------------------------------------------------- */
+  .site-footer { background: var(--ink); color: #9A9A9A; border-top: 2px solid var(--red); }
+  .site-footer__top { display: flex; justify-content: space-between; align-items: center; gap: var(--sp-5); flex-wrap: wrap; padding-block: var(--sp-6); border-bottom: 1px solid var(--ink-3); }
+  .site-footer__tagline { font-family: var(--font-serif); font-style: italic; color: var(--muted-dark); margin-top: var(--sp-1); }
+  .site-footer__links { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: var(--sp-6); padding-block: var(--sp-7); border-bottom: 1px solid var(--ink-3); }
+  .site-footer__links .link-list__title { color: var(--white); border: 0; padding: 0; }
+  .site-footer__bottom { display: flex; justify-content: space-between; gap: var(--sp-4); flex-wrap: wrap; padding-block: var(--sp-5); font-size: var(--fs-xs); color: #7A7A7A; }
+  .site-footer__bottom a { color: #9A9A9A; text-decoration: none; }
+  .site-footer__bottom a:hover { color: var(--gold); }
+  .site-footer__areas { padding-block: var(--sp-5); border-bottom: 1px solid var(--ink-3); font-size: var(--fs-xs); line-height: 1.8; }
+  .site-footer__areas strong, .site-footer__areas a { color: var(--white); text-decoration: none; }
+  .site-footer--minimal { border-top-width: 1px; }
+  .site-footer--minimal .site-footer__bottom { align-items: center; }
+  .site-footer--minimal .nap { display: flex; flex-wrap: wrap; gap: var(--sp-4); margin: 0; }
+}

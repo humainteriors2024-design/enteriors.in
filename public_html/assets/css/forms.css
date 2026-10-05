@@ -1,0 +1,40 @@
+/* =====================================================================
+   ENTERIORS — 5b. LEAD FORMS: the five form looks + the pop-up form
+   Fields (.form, .field, .input) are styled in components.css; this file
+   only lays out each variant. Markup: includes/components/lead-form.php
+   ===================================================================== */
+@layer components {
+  .form__title { font-family: var(--font-serif); font-size: 1.4rem; font-weight: var(--weight-subheading); line-height: 1.2; }
+  .form__text { font-size: var(--fs-sm); color: var(--muted); margin-top: calc(var(--sp-2) * -1); }
+  .field label small { font-weight: 400; letter-spacing: 0; text-transform: none; }
+  .field.has-error .input { border-color: var(--red); }
+  .field__error { font-size: var(--fs-xs); color: var(--red); }
+  .lead-form .btn[disabled] { opacity: .65; cursor: progress; }
+
+  /* 2. compact · 4. callback · 5. quote — light card */
+  .lead-card { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--red); border-radius: var(--radius-lg); padding: var(--sp-6); max-width: 560px; }
+  .lead-card--quote { max-width: 720px; }
+  .lead-card .form__error { color: var(--red); }
+
+  /* 3. inline — one row: text | name | mobile | button */
+  .lead-strip { display: grid; grid-template-columns: minmax(200px, 1fr) minmax(0, 2.2fr); gap: var(--sp-5); align-items: center; background: var(--red-tint); border: 1px solid #F3D4D9; border-radius: var(--radius-lg); padding: var(--sp-5) var(--sp-6); }
+  .lead-strip__text strong { display: block; font-family: var(--font-serif); font-size: 1.3rem; font-weight: var(--weight-subheading); line-height: 1.2; }
+  .lead-strip__text span { font-size: var(--fs-sm); color: var(--muted); }
+  .lead-form--inline { gap: var(--sp-2); }
+  .lead-form__fields { display: grid; grid-template-columns: 1fr 1fr auto; gap: var(--sp-3); align-items: end; }
+  .lead-form--inline .form__note { margin: 0; }
+  .lead-form--inline .form__error { color: var(--red); }
+  .section--dark .lead-strip { background: var(--ink-2); border-color: var(--ink-3); }
+  .section--dark .lead-strip__text span, .section--dark .lead-strip .form__note { color: var(--muted-dark); }
+  @media (max-width: 900px) {
+    .lead-strip { grid-template-columns: 1fr; padding: var(--sp-5); }
+    .lead-form__fields { grid-template-columns: 1fr; }
+  }
+
+  /* Pop-up form (native <dialog>) */
+  .lead-dialog { border: 0; padding: 0; border-radius: var(--radius-lg); width: min(92vw, 460px); max-height: 92vh; overflow-y: auto; box-shadow: var(--shadow-lg); margin: auto; }
+  .lead-dialog::backdrop { background: rgba(8, 8, 8, .7); }
+  .lead-dialog .lead-card { margin: 0; border-radius: var(--radius-lg); max-width: none; }
+  .lead-dialog__close { position: absolute; top: var(--sp-2); right: var(--sp-3); font-size: 1.8rem; line-height: 1; color: var(--muted); padding: var(--sp-1) var(--sp-2); z-index: 1; }
+  .lead-dialog__close:hover { color: var(--red); }
+}

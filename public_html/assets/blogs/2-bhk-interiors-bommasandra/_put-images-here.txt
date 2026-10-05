@@ -1,0 +1,6 @@
+Images for 2 BHK Interiors in Bommasandra: Budget, Layout and a 60-Day Plan
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Compact 2 BHK apartment living room and kitchen in Bommasandra

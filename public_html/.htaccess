@@ -1,0 +1,109 @@
+# ================= ENTERIORS · server rules (MilesWeb / LiteSpeed) =================
+Options -Indexes
+DirectoryIndex index.php index.html
+ErrorDocument 404 /404.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # 1. Force HTTPS and non-www on the live domain  (swap the domain if you choose www).
+  #    Other addresses (a test sub-domain) are left alone so staging keeps working.
+  RewriteCond %{HTTP_HOST} ^(www\.)?enteriors\.in$ [NC]
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteRule ^ https://enteriors.in%{REQUEST_URI} [L,R=301]
+
+  # 2. Private folders: never served to visitors or Google
+  RewriteRule ^(includes|_templates)(/|$) - [F,L]
+
+  # 3. /sitemap.xml, /robots.txt and /llms.txt (site map for AI assistants) are generated
+  RewriteRule ^sitemap\.xml$ sitemap.php [L]
+  RewriteRule ^robots\.txt$ robots.php [L]
+  RewriteRule ^llms\.txt$ llms.php [L]
+
+  # 4. Blog posts: the file /blogs/<slug>.php is shown at /blogs/<slug>/
+  RewriteCond %{THE_REQUEST} \s/+blogs/([a-z0-9\-]+)\.php[\s?] [NC]
+  RewriteRule ^blogs/([a-z0-9\-]+)\.php$ /blogs/$1/ [L,R=301]
+  RewriteCond %{DOCUMENT_ROOT}/blogs/$1.php -f
+  RewriteRule ^blogs/([a-z0-9\-]+)/?$ blogs/$1.php [L]
+
+  # 5. Hide "index.php" from URLs:  /materials/index.php → /materials/
+  RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.php[\s?] [NC]
+  RewriteRule ^(.*/)?index\.php$ /$1 [L,R=301]
+
+  # 6. Add the trailing slash to folder URLs:  /materials → /materials/
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^(.+[^/])$ /$1/ [L,R=301]
+
+  # 7. Moved or renamed pages — one line each, e.g.
+  # RewriteRule ^old-page/?$ /new-page/ [L,R=301]
+  RewriteRule ^calculators/budget(-planner)?/?$ /calculators/home-interior-quote/ [L,R=301]
+  RewriteRule ^trends-2026/?$ /trends/ [L,R=301]
+  # MIGRATED-REDIRECTS-START (tools/migrate.php)
+  RewriteRule ^blog/4bhk\-villa\-duplex\-interior\-cost\-bangalore/?$ /cost/4-bhk-villa-cost/ [L,R=301]
+  RewriteRule ^blog/interior\-renovation\-cost/?$ /cost/home-renovation-cost/ [L,R=301]
+  RewriteRule ^blog/bwp\-plywood\-interiors/?$ /materials/marine-plywood/ [L,R=301]
+  RewriteRule ^blog/interior\-material\-brands\-india/?$ /blogs/interior-material-brands-india/ [L,R=301]
+  RewriteRule ^blog/modular\-kitchen\-storage\-guide/?$ /modular-kitchen/storage-solutions/ [L,R=301]
+  RewriteRule ^blog/modular\-kitchen\-storage/?$ /blogs/modular-kitchen-storage-units-explained/ [L,R=301]
+  RewriteRule ^blog/indo\-colonial\-interior\-design\-guide/?$ /styles/indo-colonial/ [L,R=301]
+  RewriteRule ^blog/japandi\-interior\-design\-guide/?$ /styles/japandi/ [L,R=301]
+  RewriteRule ^blog/minimalist\-home\-design\-guide/?$ /styles/minimalist/ [L,R=301]
+  RewriteRule ^blog/monochrome\-interior\-design\-guide/?$ /styles/monochrome/ [L,R=301]
+  RewriteRule ^blog/kerala\-rajasthani\-regional\-interior\-design\-styles/?$ /styles/regional-kerala-rajasthan/ [L,R=301]
+  RewriteRule ^blog/home\-interior\-planning\-checklist/?$ /planning/home-planning-checklist/ [L,R=301]
+  RewriteRule ^blog/best\-interior\-designers\-in\-hyderabad/?$ /blogs/best-interior-designers-hyderabad/ [L,R=301]
+  RewriteRule ^blog/best\-interior\-designers\-in\-pune/?$ /blogs/best-interior-designers-pune/ [L,R=301]
+  # MIGRATED-REDIRECTS-END
+  # Old /blogs/ slugs that were linked before the guides moved (Oct 2026)
+  RewriteRule ^blogs/4bhk-villa-duplex-interior-cost-bangalore/?$ /cost/4-bhk-villa-cost/ [L,R=301]
+  RewriteRule ^blogs/bwp-plywood-guide/?$ /materials/marine-plywood/ [L,R=301]
+  RewriteRule ^blogs/calibrated-vs-normal-plywood/?$ /compare/calibrated-vs-normal-plywood/ [L,R=301]
+  RewriteRule ^blogs/essential-vs-luxury-interiors/?$ /cost/essential-vs-luxury-budget/ [L,R=301]
+  RewriteRule ^blogs/interior-design-timeline/?$ /planning/interior-timeline/ [L,R=301]
+  RewriteRule ^blogs/interior-renovation-cost/?$ /cost/home-renovation-cost/ [L,R=301]
+  RewriteRule ^blogs/japandi-interior-design-guide/?$ /styles/japandi/ [L,R=301]
+  RewriteRule ^blogs/kitchen-layouts-guide/?$ /modular-kitchen/ [L,R=301]
+  RewriteRule ^blogs/l-shape-kitchen-design/?$ /blogs/l-shape-modular-kitchen-designs/ [L,R=301]
+  RewriteRule ^blogs/minimalist-home-design-guide/?$ /styles/minimalist/ [L,R=301]
+  RewriteRule ^blogs/modular-kitchen-storage-ideas/?$ /modular-kitchen/storage-solutions/ [L,R=301]
+  RewriteRule ^blogs/plywood-guide/?$ /materials/plywood-guide/ [L,R=301]
+  RewriteRule ^blogs/u-shape-kitchen-design/?$ /blogs/u-shape-kitchen-designs/ [L,R=301]
+  RewriteRule ^rooms/sofa-buying-guide/?$ /furniture/sofa-buying-guide/ [L,R=301]
+  RewriteRule ^rooms/tv-unit-designs?/?$ /furniture/tv-unit-design/ [L,R=301]
+  RewriteRule ^portfolio/?$ /partners/huma-interiors/ [L,R=301]
+  # any other old /blog/<slug> address → /blogs/<slug>/
+  RewriteRule ^blog/?$ /blogs/ [L,R=301]
+  RewriteRule ^blog/([a-z0-9\-]+)/?$ /blogs/$1/ [L,R=301]
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+# Browser caching (CSS/JS get ?v=<date> automatically when you change them)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 1 year"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/xml image/svg+xml
+</IfModule>
+
+# Notes left for you inside the image folders are not for visitors
+<FilesMatch "^(README|_[a-z\-]+)\.txt$">
+  Require all denied
+</FilesMatch>

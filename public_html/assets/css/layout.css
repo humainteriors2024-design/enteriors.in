@@ -1,0 +1,40 @@
+/* =====================================================================
+   ENTERIORS — 4. LAYOUT: container, sections, grids, reading columns
+   ===================================================================== */
+@layer layout {
+  .container { width: 100%; max-width: var(--max); margin-inline: auto; padding-inline: var(--gutter); }
+  .container--text { max-width: calc(var(--max-text) + 2 * var(--gutter)); }
+
+  /* Sections: vertical rhythm + background themes */
+  .section { padding-block: var(--sp-8); }
+  .section--tight { padding-block: var(--sp-6); }
+  .section--grey { background: var(--surface); }
+  .section--dark { background: var(--ink); color: var(--white); }
+  .section--dark a:not(.btn) { color: var(--white); }
+  .section--panel { background: var(--ink-2); }   /* dark, one step lighter (calculator) */
+
+  /* Auto-fitting grid: set --min on the element to change card width */
+  .grid { display: grid; gap: var(--sp-5); grid-template-columns: repeat(auto-fill, minmax(min(var(--min, 260px), 100%), 1fr)); }
+  .grid--sm { --min: 190px; }
+  .grid--lg { --min: 340px; }
+  /* "Lined" grid: cards share 1px borders (home hub look) */
+  .grid--lined { gap: 0; grid-template-columns: repeat(auto-fit, minmax(min(var(--min, 260px), 100%), 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+  .grid--lined > * { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .section--dark .grid--lined, .section--dark .grid--lined > * { border-color: var(--ink-3); }
+
+  * + .section-head { margin-top: var(--sp-8); }   /* space before a second title in one section */
+
+  /* Stack: even vertical spacing between children */
+  .stack > * + * { margin-top: var(--stack, var(--sp-4)); }
+  /* Cluster: items in a wrapping row */
+  .cluster { display: flex; flex-wrap: wrap; gap: var(--gap, var(--sp-2)); align-items: center; }
+
+  /* Article page: TOC | content | share */
+  .page-grid { display: grid; grid-template-columns: 240px minmax(0, 1fr) 56px; gap: var(--sp-7); align-items: start; }
+  .page-grid__side { position: sticky; top: calc(var(--header-h) + var(--sp-5)); }
+  .page-grid--aside { grid-template-columns: minmax(0, 1fr) 380px; }  /* content + form (tool pages) */
+  @media (max-width: 1024px) {
+    .page-grid, .page-grid--aside { grid-template-columns: minmax(0, 1fr); gap: var(--sp-5); }
+    .page-grid__side { position: static; }
+  }
+}
