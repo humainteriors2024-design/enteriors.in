@@ -1,0 +1,11 @@
+Images for Study Table Design: Ergonomic Sizes for Adults and Children
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Wall-mounted study table with open shelves and a task lamp beside a window
+  kids-study-table-with-shelves-and-lamp.jpg    Kids study table with shelves and lamp
+  ergonomic-desk-posture-side-view.jpg          Side view of a good study posture: feet flat, elbows level with the desk, screen top at eye level
+  two-child-study-wall-with-pinboard.jpg        A shared study wall for two children with drawer pedestals, a pin-board and task lights
+  home-office-corner-with-bookshelf-backdrop.jpgA home office corner facing a bookshelf backdrop, lit from the side for video calls
+  height-adjustable-kids-desk-with-footrest.jpg A height-adjustable desk and chair with a footrest, set for a child about 135 cm tall

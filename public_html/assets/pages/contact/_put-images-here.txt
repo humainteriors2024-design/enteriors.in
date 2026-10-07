@@ -1,0 +1,6 @@
+Images for Contact Enteriors
+Upload JPG, PNG or WebP. The file name becomes the alt text, so use plain words.
+WebP + JPG with the same name: browsers get the smaller WebP.
+
+This page is waiting for:
+  hero.jpg   main image: under the title, on cards and when the page is shared (1600×900 or larger)

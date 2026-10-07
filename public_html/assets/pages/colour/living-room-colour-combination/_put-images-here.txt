@@ -1,0 +1,11 @@
+Images for Living Room Colour Combinations: 7 Schemes for Indian Homes
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Living room with a terracotta accent wall, warm white walls and a cane chair
+  terracotta-accent-wall-living-room.jpg        Terracotta accent wall living room
+  japandi-living-room-greige-and-charcoal.jpg   A Japandi living room in greige with a charcoal accent, light oak and linen
+  olive-tv-wall-warm-white-living-dining.jpg    An olive TV wall in an open living–dining room with warm white walls and cane dining chairs
+  muted-accent-colour-swatches-olive-terracotta-navy-teal.jpgMuted accent swatches that age well: olive, terracotta, ink navy and deep teal
+  living-room-paint-samples-on-floor-tile.jpg   Paint sample boards held against beige vitrified tiles to check undertones before choosing

@@ -1,0 +1,11 @@
+Images for Wall Design for Indian Homes: Finishes, Materials and Cost
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Living room feature wall with walnut veneer panelling, a fluted section and warm cove light
+  wall-finishes-sample-board.jpg                Wall finishes sample board
+  feature-wall-in-humid-coastal-apartment.jpg   A WPC fluted feature wall in a coastal apartment: polymer panels shrug off the year-round humidity that swells MDF
+  veneer-and-fluted-panel-tv-wall.jpg           Plain walnut veneer with a fluted section behind the TV and a warm cove light: two finishes, one clear junction
+  grazing-light-on-textured-wall.jpg            A cove light 200 mm from the wall grazes a lime texture, showing depth that front lighting would flatten
+  wall-elevation-drawing-with-switch-positions.jpgA wall elevation marking switches, TV bracket and panel joints before work starts

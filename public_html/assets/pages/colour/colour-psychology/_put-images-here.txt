@@ -1,0 +1,11 @@
+Images for Colour Psychology at Home: What the Evidence Actually Shows
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Colour wheel beside muted wall samples in blue, green and terracotta
+  muted-colour-palette-indian-living-room.jpg   Muted colour palette indian living room
+  restful-bedroom-light-muted-blue.jpg          Light, muted blue in a bedroom: restful because it is soft and pale, not simply because it is blue
+  warm-evening-lighting-living-room.jpg         Layered 2700 K lamps in the evening: light colour affects mood more reliably than wall colour
+  muted-green-study-corner.jpg                  A study corner in muted green with neutral 4000 K task light: calm without being dull
+  designer-and-family-reviewing-colour-palette.jpgReviewing a room palette with a designer: purpose, light and family preferences first, hue last

@@ -1,0 +1,11 @@
+Images for Laminate vs Veneer: A designer's honest guide to the ₹2 lakh decision most homeowners…
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Laminate vs Veneer: A designer's honest guide to the ₹2 lakh decision most homeowners…
+  modern-modular-kitchen-with-mix-of-laminate-and-veneer-finis.jpgModern modular kitchen with mix of laminate and veneer finis
+  natural-wood-veneer-sheet-with-grain-texture.jpgNatural wood veneer sheet with grain texture
+  luxury-living-room-with-veneer-tv-unit-and-warm-wood-panelli.jpgLuxury living room with veneer TV unit and warm wood panelli
+  modular-wardrobe-with-mix-of-laminate-and-veneer-shutters.jpgModular wardrobe with mix of laminate and veneer shutters
+  premium-interior-with-mixed-finishes-veneer-feature-wall-and.jpgPremium interior with mixed finishes veneer feature wall and

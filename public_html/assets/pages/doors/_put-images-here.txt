@@ -1,0 +1,11 @@
+Images for Door Design for Home: Types, Materials, Sizes and Cost
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Teak main door with brass handle and a matching frame in a Bangalore apartment
+  door-material-samples-teak-flush-wpc.jpg      Door material samples teak flush WPC
+  bedroom-flush-door-laminate-with-matt-black-handle.jpgA 32 mm solid-core flush bedroom door in oak laminate with a matt black lever handle
+  accessible-bathroom-sliding-door-lever-handle.jpgAn outward-sliding bathroom door with a lever handle and level threshold: safer for elderly family members
+  door-hardware-hinges-mortise-lock-lever.jpg   Door hardware laid out: ball-bearing hinges, a mortise lock body and a lever handle
+  pivot-main-door-villa-entrance.jpg            An oversized pivot main door at a villa entrance, sheltered by a deep canopy against sun and rain

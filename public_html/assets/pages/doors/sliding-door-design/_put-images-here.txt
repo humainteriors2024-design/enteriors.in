@@ -1,0 +1,12 @@
+Images for Sliding Door Design: Systems, Tracks, Materials and Where They Suit
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Fluted glass sliding door between a living room and a study
+  fluted-glass-sliding-door-study.jpg           Fluted glass sliding door study
+  top-hung-sliding-track-soft-close-detail.jpg  A top-hung track with ball-bearing rollers and a soft-close damper: the hardware that decides how a sliding door feels
+  fluted-glass-kitchen-sliding-doors-black-frame.jpgTwin fluted-glass sliding doors in black frames between a kitchen and dining area
+  pocket-door-into-walk-in-closet.jpg           A pocket door sliding fully into the wall at a walk-in closet entrance
+  slatted-wood-sliding-panels-tv-room.jpg       Floor-to-ceiling slatted oak sliding panels closing off a TV room from the living area
+  sliding-door-flush-handle-and-hook-lock.jpg   A flush sliding-door handle with an integrated hook lock for privacy

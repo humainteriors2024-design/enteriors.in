@@ -1,0 +1,12 @@
+Images for Texture Paint Designs: Types, How They Are Made and Cost
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Close-up of a trowel-applied stucco texture wall lit from above
+  trowel-stucco-texture-feature-wall.jpg        Trowel stucco texture feature wall
+  exterior-grain-texture-villa-facade.jpg       A fine-grain exterior texture in a light sand colour on a villa façade: sheds rain and reflects heat
+  applicator-trowelling-stucco-texture.jpg      Trowelled stucco is built in thin crossing layers by one applicator, so the pattern stays consistent
+  clay-look-limewash-bedroom-wall.jpg           A clay-tone limewash behind a bed: soft, matt and cloudy, the most requested texture of 2026
+  texture-paint-sample-boards-four-finishes.jpg Four texture samples on boards: roller, sand, stucco and limewash, viewed under the same light
+  finished-texture-wall-site-visit.jpg          Visiting an applicator's finished wall in daylight before booking the job

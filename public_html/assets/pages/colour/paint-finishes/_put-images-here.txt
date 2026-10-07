@@ -1,0 +1,11 @@
+Images for Types of Paint Finish: Sheen, Emulsion, Enamel and Distemper
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Painted boards showing matt, eggshell, satin and gloss sheen under the same light
+  paint-sheen-comparison-boards.jpg             Paint sheen comparison boards
+  satin-paint-kitchen-wall-wiped-clean.jpg      A satin-finish kitchen wall being wiped clean: higher sheen means easier cleaning
+  wall-putty-sanding-before-primer.jpg          Sanding wall putty smooth before primer: the stage that decides how flat the final wall looks
+  paint-blistering-from-damp-wall.jpg           Blistering paint on a wall shared with a bathroom: the cause is damp, not the paint
+  paint-system-cans-putty-primer-emulsion.jpg   A complete painting system: wall putty, primer and finish emulsion from one range

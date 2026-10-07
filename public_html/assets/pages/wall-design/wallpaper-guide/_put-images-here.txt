@@ -1,0 +1,12 @@
+Images for Wallpaper for Walls: Types, Materials, Roll Sizes and Installation
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Bedroom feature wall in a botanical non-woven wallpaper
+  non-woven-botanical-wallpaper-bedroom.jpg     Non woven botanical wallpaper bedroom
+  wallpaper-roll-label-symbols.jpg              The symbols on a roll label: washability, light-fastness, paste-the-wall and dry-strippable
+  hanging-non-woven-wallpaper-plumb-line.jpg    Hanging the first drop of non-woven wallpaper to a plumb line, with paste applied to the wall
+  wallpapered-dining-niche-ceiling.jpg          A patterned wallpaper on the ceiling of a dining niche: a small area, a strong effect
+  pattern-repeat-measurement-on-wallpaper.jpg   Measuring the pattern repeat on a roll: a larger repeat means more waste and more rolls
+  wallpaper-batch-numbers-checked-on-rolls.jpg  Checking that every roll carries the same batch number before hanging

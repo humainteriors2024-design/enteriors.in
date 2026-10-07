@@ -1,0 +1,11 @@
+Images for Furniture Design for Home: Dimensions, Materials and Construction
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Living room with a floating TV unit, a linen sofa and a solid wood coffee table
+  furniture-joinery-and-board-samples.jpg       Furniture joinery and board samples
+  living-room-furniture-plan-with-clearances.jpgA living room plan with walkway, sofa-to-table and TV viewing clearances marked
+  raised-furniture-legs-for-floor-mopping.jpg   Furniture raised on slim legs: easier daily mopping and no water at the board edges
+  edge-banding-and-hinge-quality-check.jpg      Checking edge-banding and branded soft-close hinges inside a built-in unit
+  carpenter-reviewing-wardrobe-elevation-drawing.jpgA wardrobe elevation drawing with internal layout, reviewed on site before cutting starts

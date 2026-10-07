@@ -1,0 +1,12 @@
+Images for TV Unit Design: Sizes, Heights, Wiring, Storage and Materials
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Floating TV unit in oak laminate below a TV on a fluted panel wall
+  floating-tv-unit-with-fluted-back-panel.jpg   Floating TV unit with fluted back panel
+  sofa-to-tv-viewing-distance-diagram.jpg       Viewing distance and angle from a three-seater sofa to a 55-inch TV in a typical living room
+  tv-unit-ventilated-device-bay-flap-door.jpg   A ventilated device bay behind a cane-faced flap door, so remote signals and air pass through
+  japandi-tv-unit-oak-slats-low-plinth.jpg      A Japandi TV wall: light oak slats, a low plinth unit and a soft linen-coloured wall
+  tv-wall-planning-tape-marks-before-panelling.jpgTape marks for TV size, bracket and socket positions on the wall before panelling
+  cable-free-tv-wall-concealed-conduit.jpg      A cable-free TV wall: every wire runs in a concealed conduit to the media unit below

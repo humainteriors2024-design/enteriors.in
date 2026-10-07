@@ -1,0 +1,11 @@
+Images for Sofa Buying Guide: Frame, Springs, Foam, Fabric and Size
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Cutaway of a sofa showing a hardwood frame, springs and layered foam
+  sofa-frame-springs-foam-cutaway.jpg           Sofa frame springs foam cutaway
+  sofa-cushion-layers-hr-foam-fibre-wrap.jpg    A cut sofa cushion: firm HR foam core, softer top layer and polyester fibre wrap
+  taped-sofa-outline-on-living-room-floor.jpg   Masking tape marking a planned L-shaped sofa on the floor, to test the fit before ordering
+  custom-sofa-frame-in-workshop.jpg             A custom sofa frame in a workshop before upholstery: the stage to inspect joints and springs
+  teak-frame-sofa-with-removable-cushions.jpg   An exposed teak-frame sofa with removable cushion covers: a practical Indian-modern style
