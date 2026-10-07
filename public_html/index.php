@@ -5,15 +5,16 @@
      Pillars, calculators, search list ... includes/nav.php (read automatically)
      Phone, facts, areas, forms .......... includes/config.php
      Photos ............................... /assets/pages/home/  (see the note in data/home.php)
-   Styles: home.css + tool.css (estimator). Scripts: home.js (search), calc.js (estimator, worked out on the server).
+   Styles: home.css + tool.css (estimator) + finder.css (trending designs, find a designer).
+   Scripts: home.js (search), calc.js (estimator, worked out on the server), finder.js (photo switcher on design cards).
    ===================================================================== */
 $page = [
   'type'        => 'home',
   'title'       => 'Enteriors: Home Interior Guides, Costs and Calculators',
   'description' => 'Plan home interiors with confidence: guides to modular kitchens, wardrobes, materials and costs for Indian homes, free calculators and a free consultation.',
   'updated'     => '2026-10-03',
-  'css'         => ['tool'],
-  'js'          => ['home', 'calc'],
+  'css'         => ['tool', 'finder'],
+  'js'          => ['home', 'calc', 'finder'],
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/data/home.php';
@@ -92,6 +93,62 @@ foreach (posts() as $po) $suggest[$po['url']] = [$po['title'], 'Blog'];
 <?php foreach ($tier(1) as $h0) echo card($h0['href'], $h0['label'], $h0['blurb'], icon: $h0['icon'], tags: $topics($h0), meta: 'Read the guide →', always: true); ?>
     </div>
     <div class="mt-8"><?= component('lead-form', ['variant' => 'inline', 'id' => 'home-callback', 'title' => 'Prefer to talk it through?', 'text' => 'Leave your number and an interior expert will call you back.']) ?></div>
+  </div>
+</section>
+
+<!-- ============ 4b. TRENDING DESIGNS (includes/data/trends.php; 'trending' => true first, then newest) ============ -->
+<?php
+$TD = trends_db();
+$homeDesigns = $TD['designs'];
+uasort($homeDesigns, fn($a, $b) => [(int) !empty($b['trending']), $b['added']] <=> [(int) !empty($a['trending']), $a['added']]);
+$homeDesigns = array_slice($homeDesigns, 0, 8, true);
+$designTypes = ['modular-kitchen', 'full-home', 'living-room', 'master-bedroom', 'kids-room', 'wardrobe', 'pooja-room', 'false-ceiling', 'bathroom', 'villa'];
+?>
+<section class="section section--grey" id="trending-designs">
+  <div class="container">
+    <?= section_head('Trending', 'designs', 'Homes and rooms from every state', FINDER['designs_url'], 'All ' . count($TD['designs']) . ' designs') ?>
+    <div class="home-trend-types">
+<?php foreach ($designTypes as $k) echo '<a class="tag tag--pill" href="' . e(finder_url(FINDER['designs_url'], ['type' => [$k]])) . '">' . e($TD['types'][$k]['label']) . '</a>'; ?>
+    </div>
+    <div class="dgrid dgrid--compact">
+<?php foreach ($homeDesigns as $k => $d) echo design_card($k, $d, true, true); ?>
+    </div>
+    <p class="mt-6"><a class="btn btn--outline" href="<?= e(FINDER['designs_url']) ?>">Browse trending designs by city, style and budget →</a></p>
+  </div>
+</section>
+
+<!-- ============ 4c. FIND AN INTERIOR DESIGNER (searches /services/find-designer/) ============ -->
+<section class="section section--dark" id="find-designer" data-cta-zone="home-finder">
+  <div class="container home-finder">
+    <div>
+      <span class="eyebrow">Find a designer</span>
+      <h2 class="section-title mt-4">Find the right <em>interior designer</em></h2>
+      <p class="subheading mt-4">Interior designers, freelancers, contractors and carpenters near you. Search by area, pincode or apartment, then compare reviews, budget level, warranty and what they do.</p>
+      <ul class="ticks mt-6">
+        <li>Nearest first when you search by pincode or area</li>
+        <li>Filter by warranty, own factory, end-to-end, civil, plumbing and electrical work</li>
+        <li>Contact them directly after a quick email check: your details go only to them</li>
+      </ul>
+      <div class="home-finder__links">
+<?php foreach (['designer' => 'Interior designers', 'freelancer' => 'Freelancers', 'contractor' => 'Contractors', 'carpenter' => 'Carpenters'] as $k => $l) echo '<a href="' . e(finder_url(FINDER['pros_url'], ['type' => [$k]])) . '">' . e($l) . ' →</a>'; ?>
+      </div>
+    </div>
+    <form class="home-finder__form" method="get" action="<?= e(FINDER['pros_url']) ?>">
+      <div class="home-finder__row">
+        <div class="field"><label for="hf-type">Looking for</label>
+          <select class="input" id="hf-type" name="type"><option value="">Anyone</option><option value="designer">Interior designer</option><option value="freelancer">Freelance designer</option><option value="contractor">Contractor</option><option value="carpenter">Carpenter</option></select></div>
+        <div class="field"><label for="hf-near">Where</label>
+          <input class="input" id="hf-near" name="near" type="search" maxlength="<?= (int) FINDER['search_chars'] ?>" data-word-limit="<?= (int) FINDER['search_words'] ?>" placeholder="Area, pincode or apartment" autocomplete="off"></div>
+      </div>
+      <div class="field"><label>Your requirements <small>(optional)</small></label>
+        <div class="home-finder__chips">
+<?php foreach (['budget' => 'Budget', 'mid' => 'Mid-range', 'premium' => 'Premium', 'luxury' => 'Luxury'] as $k => $l) echo '<label><input type="checkbox" name="seg[]" value="' . $k . '"><span>' . e($l) . '</span></label>';
+      foreach (pros_db()['reqs'] as $k => $l) if ($k !== '3d-design') echo '<label><input type="checkbox" name="req[]" value="' . e($k) . '"><span>' . e($l) . '</span></label>'; ?>
+        </div>
+      </div>
+      <p class="finder-search__hint" data-word-hint>Up to <?= (int) FINDER['search_words'] ?> words, e.g. "Whitefield" or "560102".</p>
+      <button class="btn btn--primary btn--block" type="submit">Find designers →</button>
+    </form>
   </div>
 </section>
 

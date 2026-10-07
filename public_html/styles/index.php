@@ -131,7 +131,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 <h2>How to choose a style in five steps</h2>
 <ol class="steps">
-  <li><strong>Collect references</strong>Save 20 to 30 photos of rooms you like, without analysing them yet.</li>
+  <li><strong>Collect references</strong>Save 20 to 30 photos of rooms you like, without analysing them yet. Our <a href="/trending-designs/">trending designs</a> can be filtered by style, room and budget.</li>
   <li><strong>Find the common thread</strong>Lay them side by side and note what repeats: wall colour, wood tone, furniture shape, amount of display. The repeats are your style, whatever its name.</li>
   <li><strong>Check it against your home</strong>Compare it with your daylight, room sizes, ceiling height and routine. Dark wood needs light, open shelves need dusting, and pale upholstery is hard work with small children.</li>
   <li><strong>Fix a palette and three materials</strong>Two base colours, one accent and three materials, for example a matte laminate, one wood tone and one metal.</li>

@@ -126,7 +126,21 @@ function designer_method($place = '', $extra = '') {
   return '<div class="callout callout--pillar designer-method" id="how-we-chose">'
        . '<span class="callout__title">How these firms were chosen</span>'
        . '<p>Each firm has a studio, office or showroom ' . $where . ' with a published address or locality, its own website showing completed work, and takes on the kind of project this page covers. We include a spread of budgets on purpose. Firms are grouped by segment, from luxury to budget, and listed alphabetically within each group. The segment is our reading of the firm\'s own positioning and published pricing, not a quality score.' . ($extra ? ' ' . e($extra) : '') . '</p>'
-       . '<p>' . e($db['disclosure']) . ' Last checked ' . designers_checked() . '.</p></div>';
+       . '<p>' . e($db['disclosure']) . ' Last checked ' . designers_checked() . '.</p>' . designer_finder_links() . '</div>';
+}
+
+/* "Search the directory / see designs" line under the method note: filtered to the page's city when we have listings there */
+function designer_finder_links() {
+  global $page;
+  if (!function_exists('finder_route') || !is_live(FINDER['pros_url'])) return '';
+  $c = $page['city'] ?? '';
+  $city = $c && city_name($c) ? ['city' => $c, 'state' => city_state($c)] : [];
+  $pros = $city && array_filter(pros_db()['pros'], fn($p) => in_array($c, $p['serves'], true));
+  $designs = $city && array_filter(trends_db()['designs'], fn($d) => $d['city'] === $c);
+  $name = $city ? city_name($c) : '';
+  return '<p>Want someone near your street? Search the <a href="' . e(finder_url(FINDER['pros_url'], $pros ? $city : [])) . '">designer directory</a>'
+       . ($pros ? ' for ' . e($name) : '') . ' by area, pincode, apartment and reviews, or browse <a href="' . e(finder_url(FINDER['designs_url'], $designs ? $city : [])) . '">trending designs'
+       . ($designs ? ' from ' . e($name) : '') . '</a> with their approximate budgets.</p>';
 }
 
 /* Price bands for a city, in the same grades as the cost guide and calculators.

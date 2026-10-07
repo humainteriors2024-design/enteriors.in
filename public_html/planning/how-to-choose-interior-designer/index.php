@@ -114,7 +114,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Set your budget</strong>Decide a realistic range before any design meeting, using our <a href="/cost/2-bhk-interior-cost/">2 BHK</a> or <a href="/cost/3-bhk-interior-cost/">3 BHK</a> cost guides.</li>
   <li><strong>Collect references</strong>Save images of homes you like and note what you like in each: colour, storage, lighting.</li>
   <li><strong>Write a room-by-room brief</strong>List storage needs, appliances, who uses each room, and must-haves.</li>
-  <li><strong>Shortlist three or four</strong>From recommendations, reviews on independent platforms, visits to finished homes and our <a href="/interior-designer-near-me/">lists of interior designers by city</a>.</li>
+  <li><strong>Shortlist three or four</strong>From recommendations, reviews on independent platforms, visits to finished homes, our <a href="/interior-designer-near-me/">lists of interior designers by city</a> and the <a href="/services/find-designer/">designer directory</a>, which you can search by area, pincode and apartment.</li>
   <li><strong>Visit sites</strong>One finished home and one project in progress for each shortlisted firm.</li>
   <li><strong>Visit the factory if they have one</strong>An hour there tells you more than a sales presentation.</li>
   <li><strong>Compare quotes line by line</strong>Same scope, same specification, then compare totals.</li>

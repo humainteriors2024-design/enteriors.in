@@ -1,0 +1,5 @@
+Logos for the designer directory (/services/find-designer/)
+
+One square logo per professional, named exactly as their key in includes/data/pros.php:
+  /assets/pros/<key>.jpg   (or .png / .webp, at least 160 x 160 px)
+Without a logo the card shows the firm's initials. Easiest: /admin/images.php → "Find a designer: logos".

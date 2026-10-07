@@ -46,6 +46,9 @@ $here = current_path();
 <?php if (NAP['phone']): ?>
       <a class="site-header__phone" href="<?= e(nap_phone_href()) ?>" data-track="call"><?= e(NAP['phone']) ?></a>
 <?php endif; ?>
+<?php if (is_live(FINDER['pros_url'])): ?>
+      <a href="<?= e(FINDER['pros_url']) ?>" class="btn btn--outline btn--sm site-header__find">Find a Designer</a>
+<?php endif; ?>
 <?php if (is_live(SITE['cta']['href'])): ?>
       <a href="<?= e(SITE['cta']['href']) ?>" class="btn btn--primary btn--sm site-header__cta"><?= e(SITE['cta']['label']) ?></a>
 <?php endif; ?>
@@ -62,6 +65,9 @@ $here = current_path();
 <?php   else: ?>
     <details><summary><?= e($h['label']) ?></summary><?= link_list($links) ?></details>
 <?php   endif; endforeach; ?>
+<?php if (is_live(FINDER['pros_url'])): ?>
+    <a href="<?= e(FINDER['pros_url']) ?>" class="btn btn--outline">Find a Designer</a>
+<?php endif; ?>
     <a href="<?= e(SITE['cta2']['href']) ?>" class="btn btn--primary" data-open-lead><?= e(SITE['cta2']['label']) ?></a>
 <?php if (is_live(SITE['cta']['href'])): ?>
     <a href="<?= e(SITE['cta']['href']) ?>" class="btn btn--outline"><?= e(SITE['cta']['label']) ?></a>

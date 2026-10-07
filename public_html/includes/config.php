@@ -217,3 +217,37 @@ const ADMIN = [
 ];
 const STICKY_CTA     = true;    // floating Call / Consultation buttons after scrolling
 const LEAD_DIALOG    = true;    // "Free consultation" buttons open a pop-up form instead of leaving the page
+
+/* ---------- 12. TRENDING DESIGNS, DESIGNER DIRECTORY AND OTP ENQUIRIES ----------
+   Pages: /trending-designs/ and /services/find-designer/ (engine: includes/finder.php).
+   Data:  includes/data/trends.php · includes/data/pros.php · includes/data/places.php
+   "Contact" and "Mail" buttons open a form; the visitor's email is verified with a one-time
+   code before api/enquiry.php sends the enquiry to the firm (or to LEADS['notify_email']
+   while the firm has no verified email in pros.php). */
+const FINDER = [
+  'designs_url'   => '/trending-designs/',
+  'pros_url'      => '/services/find-designer/',
+  'per_page'      => 24,      // results per page
+  'search_words'  => 4,       // search boxes accept at most this many words …
+  'search_chars'  => 60,      // … and this many characters
+  'index_samples' => false,   // false = while sample listings are shown, these pages are noindex and stay out of the sitemap
+];
+const ENQUIRY = [
+  'endpoint'       => '/api/enquiry.php',
+  'otp_minutes'    => 10,     // a code works for this long
+  'otp_attempts'   => 5,      // wrong codes allowed before the code is cancelled
+  'otp_resends'    => 2,      // extra codes the visitor can ask for
+  'resend_seconds' => 45,     // wait before another code can be sent
+  'per_ip_hour'    => 8,      // enquiries started from one connection per hour
+  'per_email_hour' => 3,      // codes sent to one email address per hour …
+  'per_email_day'  => 6,      // … and per day (stops anyone flooding someone else's inbox)
+  'per_phone_day'  => 6,      // enquiries per mobile number per day
+  'daily_cap'      => 300,    // codes sent by the whole site per day
+  'repeat_hours'   => 24,     // the same person contacting the same firm again within this time is not sent twice
+  'copy_admin'     => true,   // also send a copy of every enquiry to LEADS['notify_email']
+  'confirm_user'   => true,   // email the visitor a copy of what was sent
+  'envelope_from'  => '',     // optional: 'no-reply@enteriors.in' if your host needs a fixed sender for mail() to deliver
+  'sms_webhook'    => '',     // optional: URL that also sends the code by SMS (receives JSON: phone, code, minutes)
+  'block_domains'  => ['mailinator.com', 'guerrillamail.com', 'sharklasers.com', '10minutemail.com', 'tempmail.com', 'temp-mail.org',
+                       'yopmail.com', 'trashmail.com', 'getnada.com', 'dispostable.com', 'maildrop.cc', 'throwawaymail.com', 'fakeinbox.com'],
+];

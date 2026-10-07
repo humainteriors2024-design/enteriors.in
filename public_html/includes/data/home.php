@@ -17,6 +17,7 @@ $HOME = [
     'title' => 'Know Before<br>You Design.<br><em>Build Smart.</em>',
     'text'  => 'Clear guides to modular kitchens, wardrobes, materials and costs for Indian homes, with free calculators. Read first, then talk to a designer with the right questions.',
     'pills' => [   // quick links under the search box (only live pages show)
+      ['Trending designs', '/trending-designs/'], ['Find a designer', '/services/find-designer/'],
       ['Kitchen guide', '/modular-kitchen/'], ['Wardrobe guide', '/wardrobe/'], ['Interior cost', '/cost/'],
       ['2 BHK cost', '/cost/2-bhk-interior-cost/'], ['3 BHK cost', '/cost/3-bhk-interior-cost/'],
       ['Acrylic vs laminate', '/compare/acrylic-vs-laminate/'], ['Plywood grades', '/materials/plywood-guide/'], ['Glossary', '/glossary/'],

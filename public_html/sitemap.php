@@ -23,6 +23,13 @@ if (!is_staging()) {
     $urls[$url] = $date;
   }
   foreach (posts() as $slug => $p) if (empty($p['canonical'])) $urls[$p['url']] = $p['updated'] ?? $p['date'];
+  // trending designs and the designer directory: listing pages only while they are indexable (no sample listings),
+  // and one entry per real (non-sample) design and professional
+  foreach (['designs' => FINDER['designs_url'], 'pros' => FINDER['pros_url']] as $sec => $base) {
+    if (finder_noindex($sec)) { unset($urls[$base]); continue; }
+    foreach ($sec === 'designs' ? trends_db()['designs'] : pros_db()['pros'] as $k => $x)
+      if (empty($x['sample'])) $urls[$base . $k . '/'] = $x['added'] ?? (pros_db()['checked'] ?? date('Y-m-d'));
+  }
   if (!posts()) unset($urls[BLOG_BASE . '/']);   // no empty blog hub in the sitemap
   ksort($urls);
 }

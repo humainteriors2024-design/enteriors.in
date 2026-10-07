@@ -25,9 +25,11 @@ function current_path() {
 }
 
 // Does a page exist on the server? Used to hide links to pages not uploaded yet.
-// Works for folder pages (/materials/ → materials/index.php) and blog posts (/blogs/slug/ → blogs/slug.php).
+// Works for folder pages (/materials/ → materials/index.php), blog posts (/blogs/slug/ → blogs/slug.php)
+// and the design and directory detail pages (includes/finder.php).
 function is_live($href) {
   if (SHOW_ALL_LINKS || $href === '/' || str_starts_with($href, '#') || preg_match('#^(https?:|tel:|mailto:)#', $href)) return true;
+  if (function_exists('finder_route') && ($r = finder_route(strtok($href, '#?')))) return $r[2];   // /trending-designs/<key>/, /services/find-designer/<key>/
   $path = rtrim($_SERVER['DOCUMENT_ROOT'], '/') . strtok($href, '#?');
   return is_file($path . 'index.php') || is_file($path . 'index.html') || is_file(rtrim($path, '/') . '.php');
 }

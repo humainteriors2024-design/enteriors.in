@@ -34,6 +34,7 @@ function media_dir($pg = null) {
    folder is created with a short note listing the file names the page is waiting for, so you never
    have to create image folders by hand: write the page, open it once, then upload into the folder. */
 function media_folder_ready($dir, $pg = []) {
+  if (!empty($pg['no_media_note'])) return;   // pages that manage their own photo folders (trending designs)
   $abs = rtrim($_SERVER['DOCUMENT_ROOT'], '/') . $dir;
   $pageFile = current(array_filter(get_included_files(), fn($f) => !preg_match('#[/\\\\](includes[/\\\\]|preview-router\.php$)#', $f)));
   $note = $abs . '/_put-images-here.txt';

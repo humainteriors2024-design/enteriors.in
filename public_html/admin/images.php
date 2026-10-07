@@ -37,6 +37,16 @@ function admin_pages($root) {
   $db = designers_db(); $slots = [];
   foreach ($db['firms'] as $k => $f) $slots[$f['image'] ?? $k] = $f['name'] . ' (firm card image)';
   $out['/interior-designers/'] = ['url' => '/interior-designer-near-me/', 'title' => 'Interior designer directory: firm images', 'dir' => $db['img_dir'], 'slots' => $slots];
+  // Trending designs: up to 10 photos each (01 = the main one); they replace the sample illustrations
+  foreach (trends_db()['designs'] as $k => $d) {
+    $slots = [];
+    for ($i = 1; $i <= 10; $i++) $slots[sprintf('%02d', $i)] = $i === 1 ? 'Main photo (landscape, 3:2)' : 'Photo ' . $i;
+    $out[design_url($k)] = ['url' => design_url($k), 'title' => 'Trending design: ' . $d['title'], 'dir' => '/assets/trending/' . $k, 'slots' => $slots];
+  }
+  // Find a designer: one square logo per professional
+  $slots = [];
+  foreach (pros_db()['pros'] as $k => $p) $slots[$k] = $p['name'] . ' (square logo)';
+  $out[FINDER['pros_url']] = ['url' => FINDER['pros_url'], 'title' => 'Find a designer: logos', 'dir' => '/assets/pros', 'slots' => $slots];
   ksort($out);
   return $out;
 }

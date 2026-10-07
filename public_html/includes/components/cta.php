@@ -27,7 +27,7 @@ if ($variant === 'strip'): ?>
   <h2><?= e($p['title'] ?? 'Ready to plan yours with a designer?') ?></h2>
   <p><?= e($p['text'] ?? 'Get matched with a verified interior designer in Bangalore or Hosur and compare up to three itemised quotes. Free, no obligation.') ?></p>
   <div class="cluster" style="--gap: var(--sp-3)">
-    <a class="btn btn--primary" href="<?= e($live ? $find : $consult['href']) ?>"<?= $live ? '' : ' data-open-lead' ?>><?= e($p['button'] ?? ($live ? 'Find a verified designer →' : $consult['label'] . ' →')) ?></a>
+    <a class="btn btn--primary" href="<?= e($live ? $find : $consult['href']) ?>"<?= $live ? '' : ' data-open-lead' ?>><?= e($p['button'] ?? ($live ? 'Find a designer near you →' : $consult['label'] . ' →')) ?></a>
 <?php if (is_live(SITE['cta']['href'])): ?>
     <a class="btn btn--outline" href="<?= e(SITE['cta']['href']) ?>"><?= e(SITE['cta']['label']) ?></a>
 <?php endif; ?>

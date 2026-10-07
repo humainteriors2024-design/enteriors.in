@@ -30,6 +30,14 @@ ErrorDocument 404 /404.php
   RewriteRule ^blogs/best-interior-designers-pune(\.php|/)?$ /interior-designers/pune/ [L,R=301]
   RewriteRule ^blog/top\-20\-best\-interior\-designers\-bangalore/?$ /interior-designers/bangalore/ [L,R=301]
 
+  # 3c. Trending designs and the designer directory: one PHP file shows every design / profile page
+  #     (/trending-designs/<key>/ and /services/find-designer/<key>/; unknown keys show the 404 page)
+  RewriteRule ^(trending-designs|services/find-designer)/([a-z0-9\-]+)$ /$1/$2/ [L,R=301]
+  RewriteRule ^trending-designs/([a-z0-9\-]+)/$ trending-designs/index.php [L]
+  RewriteRule ^services/find-designer/([a-z0-9\-]+)/$ services/find-designer/index.php [L]
+  RewriteRule ^(trending|trending-design|designs|design-ideas)/?$ /trending-designs/ [L,R=301]
+  RewriteRule ^(find-designer|find-a-designer|find-interior-designer|find-an-interior-designer)/?$ /services/find-designer/ [L,R=301]
+
   # 4. Blog posts: the file /blogs/<slug>.php is shown at /blogs/<slug>/
   RewriteCond %{THE_REQUEST} \s/+blogs/([a-z0-9\-]+)\.php[\s?] [NC]
   RewriteRule ^blogs/([a-z0-9\-]+)\.php$ /blogs/$1/ [L,R=301]
@@ -75,7 +83,7 @@ ErrorDocument 404 /404.php
   Header always set X-Content-Type-Options "nosniff"
   Header always set X-Frame-Options "SAMEORIGIN"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
-  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(self)"
 </IfModule>
 
 # Browser caching (CSS/JS get ?v=<date> automatically when you change them)

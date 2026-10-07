@@ -24,6 +24,8 @@
   .site-header__actions { margin-left: auto; display: flex; align-items: center; gap: var(--sp-4); }
   .site-header__phone { color: var(--white); text-decoration: none; font-weight: 600; font-size: var(--fs-sm); white-space: nowrap; }
   .site-header__phone:hover { color: var(--gold); }
+  .site-header__find { white-space: nowrap; }
+  @media (max-width: 1420px) { .site-header__find { display: none; } }   /* menu has the Designs entry; the button returns on wide screens */
   .site-header--minimal .site-header__bar { justify-content: space-between; }
 
   .mega {

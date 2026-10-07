@@ -1,6 +1,6 @@
 <?php
 http_response_code(404);
-$page = ['type' => 'page', 'title' => 'Page not found', 'noindex' => true,
+$page = ['type' => 'page', 'title' => 'Page not found', 'noindex' => true, 'no_media_note' => true,   // no image folder for made-up addresses
   'description' => "The page you were looking for has moved or doesn't exist. Start from one of the Enteriors knowledge hubs below."];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>

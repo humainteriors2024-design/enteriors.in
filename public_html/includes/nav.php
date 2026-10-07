@@ -446,8 +446,34 @@ $HUBS = [
         lnk('Maharashtra', '/interior-designers/maharashtra/'),
         lnk('Famous Interior Designers of India', '/interior-designers/famous-interior-designers-india/'),
         lnk('How to Choose a Designer', '/planning/how-to-choose-interior-designer/'),
+        lnk('Find a Designer Near You', '/services/find-designer/'),
       ]],
     ],
+  ],
+
+  /* ---------------- TRENDING DESIGNS — project gallery with filters (includes/data/trends.php) ---------------- */
+  [
+    'key' => 'trending-designs', 'label' => 'Designs', 'href' => '/trending-designs/', 'icon' => '🖼️', 'tier' => 0, 'menu' => true,
+    'keyword' => 'trending interior designs',
+    'blurb' => 'Homes and rooms from every state, with the firm, designer, style and approximate budget.',
+    'groups' => [
+      ['title' => 'Rooms', 'links' => [
+        lnk('Modular Kitchens', '/trending-designs/?type=modular-kitchen'), lnk('Living Rooms', '/trending-designs/?type=living-room'),
+        lnk('Master Bedrooms', '/trending-designs/?type=master-bedroom'), lnk('Kids Rooms', '/trending-designs/?type=kids-room'),
+        lnk('Wardrobes', '/trending-designs/?type=wardrobe'), lnk('Pooja Rooms', '/trending-designs/?type=pooja-room'),
+      ]],
+      ['title' => 'Homes and spaces', 'links' => [
+        lnk('Full Home Interiors', '/trending-designs/?type=full-home'), lnk('Villas and Houses', '/trending-designs/?type=villa'),
+        lnk('Renovations', '/trending-designs/?type=renovation'), lnk('False Ceilings', '/trending-designs/?type=false-ceiling'),
+        lnk('Offices', '/trending-designs/?type=office'), lnk('Cafés and Shops', '/trending-designs/?type=cafe-retail'),
+      ]],
+      ['title' => 'By budget', 'gold' => true, 'links' => [
+        lnk('Under ₹3 lakh', '/trending-designs/?budget=under-3'), lnk('₹3–6 lakh', '/trending-designs/?budget=3-6'),
+        lnk('₹6–10 lakh', '/trending-designs/?budget=6-10'), lnk('₹10–20 lakh', '/trending-designs/?budget=10-20'),
+        lnk('All Trending Designs', '/trending-designs/'),
+      ]],
+    ],
+    'feature' => ['label' => 'Directory', 'title' => 'Find a Designer', 'text' => 'Designers, freelancers, contractors and carpenters by area, pincode and reviews.', 'href' => '/services/find-designer/', 'cta' => 'Search near you'],
   ],
 
   /* ---------------- TOOLS, SERVICES, BLOG ---------------- */
@@ -470,7 +496,8 @@ $HUBS = [
     'blurb' => 'Find a verified designer and compare quotes.',
     'groups' => [
       ['title' => 'Get help', 'links' => [
-        lnk('Find a Verified Designer', '/services/find-designer/'),
+        lnk('Find a Designer', '/services/find-designer/'),
+        lnk('Trending Designs', '/trending-designs/'),
         lnk('Get 3 Quotes', '/services/get-3-quotes/'),
         lnk('3D Visualisation', '/services/3d-visualisation/'),
         lnk('Turnkey Execution', '/services/turnkey-execution/'),
@@ -489,7 +516,7 @@ $HUBS = [
   ],
 ];
 
-/* Header: at most five pillar entries (those with 'menu' => true) plus one "Guides" menu
+/* Header: the pillar entries with 'menu' => true (keep it to six) plus one "Guides" menu
    that lists every other pillar. */
 $GUIDES_MENU = [
   'key' => 'guides', 'label' => 'Guides', 'href' => '', 'groups' => [
@@ -532,7 +559,7 @@ function hub_for($url) {
 // Short menu label for a URL (used by breadcrumbs), or null
 function nav_label($url) {
   global $HUBS, $GUIDES_MENU;
-  $extra = ['/compare/' => 'Comparisons', '/glossary/' => 'Glossary'];
+  $extra = ['/compare/' => 'Comparisons', '/glossary/' => 'Glossary', '/trending-designs/' => 'Trending Designs', '/services/find-designer/' => 'Find a Designer'];
   if (isset($extra[$url])) return $extra[$url];
   foreach ($HUBS as $h) {
     if ($h['href'] === $url) return $h['label'];
@@ -556,6 +583,7 @@ $FOOTER = [
     lnk('Interior Design Styles', '/styles/'), lnk('Room Guides', '/rooms/'), lnk('False Ceiling Guide', '/false-ceiling/'),
     lnk('Flooring Guide', '/flooring/'), lnk('Wall Design', '/wall-design/'), lnk('Colour Guide', '/colour/'),
     lnk('Doors & Partitions', '/doors/'), lnk('Furniture Design', '/furniture/'), lnk('Trends 2026', '/trends/'),
+    lnk('Trending Designs', '/trending-designs/'),
   ],
   'Learn' => [
     lnk('Materials Guide', '/materials/'), lnk('Home Planning', '/planning/'), lnk('Home Vastu Guide', '/vastu/'),
@@ -566,6 +594,7 @@ $FOOTER = [
     lnk('Find a Designer', '/services/find-designer/'),
   ],
   'Find Interior Designers' => [
+    lnk('Find a Designer (directory)', '/services/find-designer/'),
     lnk('Interior Designers Near Me', '/interior-designer-near-me/'), lnk('Best in India', '/interior-designers/india/'),
     lnk('Bangalore', '/interior-designers/bangalore/'), lnk('Mumbai', '/interior-designers/mumbai/'), lnk('Hyderabad', '/interior-designers/hyderabad/'),
     lnk('Chennai', '/interior-designers/chennai/'), lnk('Pune', '/interior-designers/pune/'), lnk('Gurgaon', '/interior-designers/gurgaon/'),
