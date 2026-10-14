@@ -26,7 +26,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Scandinavian minimalism had a good run. But walk into any design-forward Indian home in 2026 and you'll notice something shifting: homeowners are looking inward — at India's own regional design languages — for interiors that feel rooted, personal, and impossible to replicate from a Pinterest board.</p>
 <p>Two styles lead this revival: <strong>Kerala's tharavad-inspired warmth</strong> and <strong>Rajasthan's haveli-born grandeur</strong>. They sit at opposite ends of India's design spectrum — one shaped by monsoon and timber, the other by desert and stone — and that contrast is exactly what makes them worth understanding side by side.</p>
 <p>In this guide, we go deep on both: the philosophy, the signature elements, room-by-room application, realistic Bangalore budgets, and — most importantly — how to adapt centuries-old design languages to a 1,200 sq ft apartment without losing the plot.</p>
-<h2>01.Why Regional Styles Are Having a Moment</h2>
+<h2>Why Regional Styles Are Having a Moment</h2>
 <p>Three forces are driving the return of regional Indian interiors:</p>
 <ul>
   <li><strong>Fatigue with the "global template".</strong> Grey-and-white minimalism now looks the same in Bangalore, Berlin, and Bangkok. Regional styles offer identity — a home that could only belong to <em>you</em>.</li>
@@ -34,7 +34,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Climate wisdom.</strong> These styles evolved for Indian conditions — Kerala's design breathes in humidity; Rajasthani thick-wall, small-opening logic tames heat. Traditional isn't just pretty; it's practical.</li>
 </ul>
 <div class="callout"><span class="callout__title">The Enteriors Take</span>You don't have to choose between "traditional" and "modern". The best regional interiors we build are 70% contemporary shell, 30% regional soul — enough character to transport you, enough restraint to live comfortably. Keep that ratio in mind throughout this guide.</div>
-<h2>02.Kerala Style Interior Design, Decoded</h2>
+<h2>Kerala Style Interior Design, Decoded</h2>
 <p>Image: Kerala-style living room — teak rafter ceiling, brass uruli with floating flowers, cane armchairs, terracotta floor <br>(replace with project photo — filename suggestion: kerala-style-living-room-interior-design.jpg)</p>
 <p>The Kerala living room formula: dark wood above, warm terracotta below, brass and greenery in between.</p>
 <p>Kerala's interior language descends from the <strong>tharavad</strong> — the ancestral joint-family home — and its architectural masterpiece, the <strong>nalukettu</strong>: a four-winged house wrapped around an open central courtyard (<em>nadumuttam</em>). Everything about the style flows from two facts of Kerala life: relentless monsoons and abundant timber.</p>
@@ -47,7 +47,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Brass Gold</strong>Uruli, lamps</p>
 <p><strong>Palm Green</strong>Plants, textiles</p>
 <p><strong>Lime White</strong>Walls, base tone</p>
-<h2>03.Kerala Style: 7 Signature Elements</h2>
+<h2>Kerala Style: 7 Signature Elements</h2>
 <h3>1. Exposed wooden ceilings &amp; rafters</h3>
 <p>The single most transformative Kerala move. Traditional homes show off their sloped timber roof structure; in a flat-slab apartment, we recreate the effect with <strong>teak-finish veneer rafters or slat panelling</strong> on the ceiling — usually over the living or dining zone only, so the effect stays special rather than heavy.</p>
 <h3>2. The charupadi (built-in reclining seat)</h3>
@@ -64,7 +64,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>You may not have a nadumuttam, but you can honour the instinct: one generous indoor-plant moment (an areca or fishtail palm), a skylit or brightest-corner "green zone", and furniture arranged to face it. Kerala homes always orbit around light and green.</p>
 <p>Image: Charupadi-style wooden window seat with sloped armrests, cushions in palm green <br>(replace with project photo — filename suggestion: charupadi-window-seat-kerala-interior.jpg)</p>
 <p>A charupadi-inspired window seat: one built-in element that carries the entire Kerala story.</p>
-<h2>04.The Kerala Look, Room by Room</h2>
+<h2>The Kerala Look, Room by Room</h2>
 <h3>Living room</h3>
 <p>Anchor with a wood-slat or rafter ceiling feature, lime-white walls, and a low teak-finish sofa with palm-green and mustard cushions. Add one cane armchair, a brass floor lamp, and a large potted palm. Floor: terracotta-tone tile or a warm-toned engineered wood.</p>
 <h3>Kitchen</h3>
@@ -73,7 +73,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>A panelled wood headboard wall (vertical slats or shallow rosette-carved panels), handloom kasavu-inspired bedding (off-white with gold borders), warm 2700K lighting, and a single brass wall sconce. Keep wardrobes in matte light tones so the room doesn't darken.</p>
 <h3>Pooja unit</h3>
 <p>This is where Kerala style is unbeatable: a compact teak-finish unit with a carved valance, brass nilavilakku, and a subtle warm spotlight creates a shrine that feels generations old — even in a 3-foot niche.</p>
-<h2>05.Rajasthani Style Interior Design, Decoded</h2>
+<h2>Rajasthani Style Interior Design, Decoded</h2>
 <p>Image: Rajasthani-style living room — scalloped arch niche in ochre wall, sapphire-blue sofa, block-printed cushions, carved wood coffee table <br>(replace with project photo — filename suggestion: rajasthani-style-living-room-interior-design.jpg)</p>
 <p>The Rajasthani formula: one architectural arch, one jewel tone, layers of pattern — and confidence.</p>
 <p>Rajasthani interiors descend from the <strong>haveli</strong> — the ornate mansions of Shekhawati merchants — and the palaces of Jaipur, Udaipur, and Jodhpur. Where Kerala's design answers the monsoon, Rajasthan's answers the desert: thick walls, small deep-set openings, shaded courtyards — and then, as if to compensate for the muted landscape outside, an <strong>explosion of colour, pattern, and ornament inside</strong>.</p>
@@ -86,7 +86,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Desert Ochre</strong>Walls, araish finish</p>
 <p><strong>Emerald</strong>Velvet, accents</p>
 <p><strong>Jaipur Pink</strong>Feature walls</p>
-<h2>06.Rajasthani Style: 7 Signature Elements</h2>
+<h2>Rajasthani Style: 7 Signature Elements</h2>
 <h3>1. The arch (your single highest-impact move)</h3>
 <p>One scalloped or cusped arch — as a doorway trim, a headboard silhouette, a niche, or a mirror frame — telegraphs "Rajasthan" faster than anything else. In apartments, we build arches in MDF/ply with paint or veneer finish; no structural work needed.</p>
 <h3>2. Jharokha mirrors &amp; niches</h3>
@@ -103,7 +103,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Araish — Rajasthan's polished lime plaster — gives walls a soft marble-like glow. Modern lime-based or specialty paint finishes replicate it well. Pair one araish-look ochre wall with a hand-painted floral border for the full haveli effect.</p>
 <p>Image: Laser-cut jaali partition screen between foyer and living room, warm backlight casting patterned shadows <br>(replace with project photo — filename suggestion: jaali-partition-rajasthani-interior-design.jpg)</p>
 <p>A backlit jaali partition: privacy, pattern, and the best light show in the house.</p>
-<h2>07.The Rajasthani Look, Room by Room</h2>
+<h2>The Rajasthani Look, Room by Room</h2>
 <h3>Living room</h3>
 <p>One jewel-toned wall (deep blue or ochre araish-look finish), a scalloped-arch niche with a brass artefact, a sapphire or emerald velvet sofa, block-printed cushions, a carved wood coffee table, and a patterned dhurrie. Ceiling stays white — the drama lives on the walls.</p>
 <h3>Bedroom</h3>
@@ -112,7 +112,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Rajasthani style loves a dining moment: a long sheesham-finish table, upholstered chairs in two alternating jewel tones, a jaali or fresco-style feature wall, and a cluster of metal pendant lamps. Brass or copper serveware completes it.</p>
 <h3>Foyer</h3>
 <p>The highest-ROI zone for this style: jharokha mirror + carved console + one ruby accent wall + patterned floor tile inlay. Guests get the full haveli welcome in eight square feet.</p>
-<h2>08.Kerala vs Rajasthani: Side-by-Side</h2>
+<h2>Kerala vs Rajasthani: Side-by-Side</h2>
 <div class="table-wrap">
 <table>
   <thead>
@@ -132,7 +132,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Can't Choose? You Don't Have To</span>The two styles share DNA: courtyard-centric planning, carved wood, brass, and craft. A "Kerala base + Rajasthani jewellery" home — teak tones and calm walls, punctuated by one jaali screen and block-printed textiles — is one of the most requested hybrid briefs at Enteriors, and it works beautifully.</div>
-<h2>09.Blending Regional Style Into a Modern Flat: The 70/30 Rule</h2>
+<h2>Blending Regional Style Into a Modern Flat: The 70/30 Rule</h2>
 <p>Here's the framework we use on every regional-themed project:</p>
 <ol>
   <li><strong>Keep the shell contemporary (70%).</strong> White or warm-neutral walls, clean modular kitchen carcasses, simple flooring, modern lighting infrastructure. This keeps the home bright, resale-friendly, and easy to update.</li>
@@ -141,7 +141,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Light it like the original.</strong> Kerala: warm, low, layered — 2700K, floor and table lamps. Rajasthani: dramatic pools and shadows — spotlit niches, backlit jaali, lantern pendants.</li>
   <li><strong>Leave breathing room.</strong> Both styles evolved in large homes. In a flat, negative space is what lets a carved piece or a brass uruli actually be <em>seen</em>.</li>
 </ol>
-<h2>10.What It Costs in Bangalore (2026)</h2>
+<h2>What It Costs in Bangalore (2026)</h2>
 <p>Indicative add-on costs over a standard interior package, for a 2–3BHK. Actuals vary with material grade and carving complexity — <a href="/blogs/hidden-costs-home-interiors/">watch for these hidden costs</a> on any quote you compare.</p>
 <div class="table-wrap">
 <table>

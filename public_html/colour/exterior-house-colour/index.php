@@ -66,7 +66,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <?= img('warm-white-house-teak-brown-trims') ?>
 
 <h2>Heat: why light colours keep a house cooler</h2>
-<p>Sunlight absorbed by a wall turns into heat. A colour's light reflectance value (LRV) is a good everyday guide to how much it reflects: a warm white around LRV 80 reflects far more than a mid-brown around LRV 20. The effect is strongest on west-facing walls and roof slabs, which take the hottest afternoon sun. Heat-reflective "cool" coatings for roofs and walls use special pigments that also reflect infrared, and can lower surface temperatures further. Dark colours are best kept for window frames, grilles and small bands.</p>
+<p>Sunlight absorbed by a wall turns into heat. A colour's light reflectance value (LRV) is a good everyday guide to how much it reflects: a warm white around LRV 80 reflects far more than a mid-brown around LRV 20. The effect is strongest on west-facing walls and roof slabs, which take the hottest afternoon sun.</p>
+<p>Heat-reflective "cool" coatings for roofs and walls use special pigments that also reflect infrared, and can lower surface temperatures further. Dark colours are best kept for window frames, grilles and small bands.</p>
 
 <h2>Dust, rain and algae</h2>
 <ul>
@@ -77,7 +78,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 
 <h2>Fading: which pigments last</h2>
-<p>Colour fading in sun depends on the pigment. Iron oxide pigments (the earthy reds, browns, yellows and ochres) and titanium dioxide (white) are very stable. Bright reds, blues, violets and greens rely more on organic pigments, which fade faster under strong UV. That is why terracotta and teak brown look good for years, while a bright blue gate can look washed out in two summers. For saturated accents, ask for a colour from the brand's exterior fade-resistant range.</p>
+<p>Colour fading in sun depends on the pigment. Iron oxide pigments (the earthy reds, browns, yellows and ochres) and titanium dioxide (white) are very stable. Bright reds, blues, violets and greens rely more on organic pigments, which fade faster under strong UV.</p>
+<p>That is why terracotta and teak brown look good for years, while a bright blue gate can look washed out in two summers. For saturated accents, ask for a colour from the brand's exterior fade-resistant range.</p>
 
 <h2>Exterior paint types</h2>
 <div class="table-wrap">

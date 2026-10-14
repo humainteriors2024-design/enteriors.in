@@ -145,7 +145,9 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 
 <h2>Accent colours that age well</h2>
-<p>Accent walls are repainted more often than main walls because tastes change. Some colours date faster than others. Muted, slightly greyed versions of earthy and natural colours (olive rather than lime, terracotta rather than orange, ink navy rather than royal blue, deep teal rather than turquoise) tend to look current for longer, and they sit comfortably with wood, stone and cane. Bright saturated accents work best in cushions and art, which can be changed in an afternoon.</p>
+<p>Accent walls are repainted more often than main walls because tastes change. Some colours date faster than others.</p>
+<p>Muted, slightly greyed versions of earthy and natural colours (olive rather than lime, terracotta rather than orange, ink navy rather than royal blue, deep teal rather than turquoise) tend to look current for longer, and they sit comfortably with wood, stone and cane.</p>
+<p>Bright saturated accents work best in cushions and art, which can be changed in an afternoon.</p>
 <?= img('muted-accent-colour-swatches-olive-terracotta-navy-teal', caption: 'Muted accent swatches that age well: olive, terracotta, ink navy and deep teal') ?>
 
 <h2>Terms explained</h2>

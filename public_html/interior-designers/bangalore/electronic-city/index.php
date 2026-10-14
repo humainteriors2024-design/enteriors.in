@@ -40,7 +40,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Electronic City, in south-east Bangalore along Hosur Road, grew around its IT parks and now holds tens of thousands of apartments in large gated communities, from Phase 1 and Phase 2 out towards Hebbagodi, Bommasandra and Chandapura. Home interiors here follow the housing: mostly 2 and 3 BHK flats, many bought by first-time owners and many let out to people working nearby. This guide covers what interior design in Electronic City usually involves, the local conditions that should change your specification, and a plan from handover to move-in.</p>
+<p>Electronic City, in south-east Bangalore along Hosur Road, grew around its IT parks and now holds tens of thousands of apartments in large gated communities, from Phase 1 and Phase 2 out towards Hebbagodi, Bommasandra and Chandapura.</p>
+<p>Home interiors here follow the housing: mostly 2 and 3 BHK flats, many bought by first-time owners and many let out to people working nearby. This guide covers what interior design in Electronic City usually involves, the local conditions that should change your specification, and a plan from handover to move-in.</p>
 
 <h2>What homes in Electronic City usually need</h2>
 <ul>

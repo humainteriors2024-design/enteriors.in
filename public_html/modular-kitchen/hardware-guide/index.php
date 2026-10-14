@@ -24,7 +24,9 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 <p>Why Hardware Matters</p>
 <h2>Hardware Is the Invisible Backbone of Every Interior — And the Most Compromised</h2>
-<p>Ask a homeowner what they noticed first in their new kitchen and they will say the countertop colour or the shutter finish. Ask them what annoyed them most after two years, and they will almost always describe a drawer that doesn't close properly, a hinge that squeaks, a shelf channel that keeps slipping, or a cabinet door that sags. That is hardware failure — and it is the most common, most avoidable, and most silently substituted element in Indian interiors.</p>
+<p>Ask a homeowner what they noticed first in their new kitchen and they will say the countertop colour or the shutter finish.</p>
+<p>Ask them what annoyed them most after two years, and they will almost always describe a drawer that doesn't close properly, a hinge that squeaks, a shelf channel that keeps slipping, or a cabinet door that sags.</p>
+<p>That is hardware failure — and it is the most common, most avoidable, and most silently substituted element in Indian interiors.</p>
 <p>Hardware is the skeleton that determines how a kitchen or wardrobe feels to use every single day. The most beautiful kitchen with poor hardware is a frustrating kitchen. A simple, clean kitchen with excellent hardware is a joy. The difference in cost between economy hardware and world-class hardware across an entire 2BHK is typically ₹30,000–₹80,000 — less than 10% of the total interior budget. Yet it accounts for more than 60% of the day-to-day experience.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>The hardware rule every homeowner should know:</strong> Furniture ages visually. Hardware ages functionally. You will repaint a shutter, re-laminate a surface, or swap a handle for aesthetics. But if the hinge mechanism fails, the drawer side cracks, or the lift-up pneumatic loses pressure — the entire unit needs rework. <strong>Hardware is not where you save cost. It is where you protect your investment.</strong></div>
 <p>Trending Now · 2025–26</p>

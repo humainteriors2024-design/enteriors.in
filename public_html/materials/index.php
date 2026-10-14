@@ -38,7 +38,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Underneath the drawings, every interior quotation is a list of materials: a board, a finish, an edge band and some hardware, repeated for each cabinet. Knowing what those words mean is the surest way to compare two quotes and to check what arrives at site. This guide covers the interior design materials used in Indian homes in the order you should choose them, with indicative Bengaluru prices for October 2026 and a detailed page on each one. Unfamiliar terms are explained in the <a href="/glossary/">materials glossary</a>.</p>
+<p>Underneath the drawings, every interior quotation is a list of materials: a board, a finish, an edge band and some hardware, repeated for each cabinet. Knowing what those words mean is the surest way to compare two quotes and to check what arrives at site.</p>
+<p>This guide covers the interior design materials used in Indian homes in the order you should choose them, with indicative Bengaluru prices for October 2026 and a detailed page on each one. Unfamiliar terms are explained in the <a href="/glossary/">materials glossary</a>.</p>
 
 <h2>How interior woodwork is built: three layers</h2>
 <p>A kitchen cabinet, a wardrobe and a TV unit are all made the same way.</p>

@@ -26,11 +26,11 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 ?>
 <p>Wallpaper has quietly become the most transformative tool in modern Indian interior design — capable of turning a plain 10×10 bedroom into a statement room in a single afternoon, at a fraction of the cost of structural renovation. But most buyers walk in with a budget and walk out confused. This guide ends the confusion for good.</p>
 <p>Whether you're renovating an apartment in Bangalore, decorating a villa in Hyderabad, or sprucing up a rental flat in Delhi — the cost, type, brand, and installation decisions covered here will apply directly to your project.</p>
-<h2>Section 01 What is Wallpaper?</h2>
+<h2>What is Wallpaper?</h2>
 <p>Wallpaper is a decorative covering material applied to interior walls and ceilings using adhesives. Modern wallpapers are engineered products — far removed from the fragile printed paper of the 1970s — and are available in PVC, vinyl, fabric, grasscloth, non-woven synthetic blends, and digital-printed substrates.</p>
 <p>The global wallpaper industry crossed $12 billion USD in 2024, with India representing one of the fastest-growing markets driven by urban housing boom, rising aspirational standards, and the explosion of interior design content on social platforms. Today, digital printing allows any image, pattern, or colour to be produced on demand at resolutions exceeding 1440 DPI — making truly custom walls accessible at mid-range budgets.</p>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>📜<br><br><strong>Modern Wallpaper Technology</strong><br><br>Peel-and-stick wallpapers now use repositionable adhesive technology, making them ideal for rental homes. Luxury designer wallpapers use hand-printed grasscloth or silk substrates that double as acoustic insulation. Digital murals achieve photographic quality at 1440 DPI on washable vinyl — all mass-available in India as of 2025.</div>
-<h2>Section 02 Wallpaper Cost Per Square Foot in India (2026)</h2>
+<h2>Wallpaper Cost Per Square Foot in India (2026)</h2>
 <p>The price of wallpaper in India varies enormously — from <strong>₹40/sq ft for basic PVC</strong> to <strong>₹1,500+/sq ft for imported designer murals</strong>. Here is the complete 2026 pricing reference:</p>
 <div class="table-wrap">
 <table>
@@ -64,7 +64,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   <li><strong>Surface preparation:</strong> Rough or damp walls requiring extensive putty work add ₹800–₹2,500 to project cost</li>
   <li><strong>Installation in Tier 1 cities:</strong> Labour in Mumbai/Delhi/Bangalore runs 20–30% higher than Tier 2</li>
 </ul>
-<h2>Section 03 Types of Wallpapers</h2>
+<h2>Types of Wallpapers</h2>
 <p>Understanding wallpaper types is the single most important buying decision. The wrong type in a humid bathroom or a high-traffic hallway costs double in replacements.</p>
 <p>PVC Wallpaper</p>
 <p>₹40–₹120/sq ft</p>
@@ -106,7 +106,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Any image printed at high resolution on vinyl or non-woven substrate. Photo-realistic landscapes, brand murals, family portraits, geometric abstracts — completely unlimited design freedom.</p>
 <p>Fully customPhoto-realisticUnique to you</p>
 <p>Minimum order sizesLead time needed</p>
-<h2>Section 04 Wallpaper Materials Explained</h2>
+<h2>Wallpaper Materials Explained</h2>
 <h3>Paper Wallpaper</h3>
 <p>The original and most affordable substrate. Single or duplex paper with printed pattern. <strong>Not recommended for Indian conditions</strong> — absorbs humidity, yellows with age, and tears easily. Lifespan: 3–5 years. Cost: ₹20–₹60/sq ft. Used mainly for low-budget temporary installations.</p>
 <h3>PVC &amp; Vinyl</h3>
@@ -117,7 +117,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Grasscloth uses woven seagrass or jute yarns on a paper backing. Bamboo wallpaper features split bamboo strands in geometric weaves. Cork wallpaper uses thin cork veneer sliced from bark. All three offer genuine natural texture, thermal insulation properties, and acoustic absorption. However, none tolerate moisture — restrict them to air-conditioned, low-humidity rooms.</p>
 <h3>Silk &amp; Textile Wallpaper</h3>
 <p>Silk fabric laminated to non-woven backing creates a luminous, hand-woven appearance unique to luxury hospitality interiors. Cost: ₹350–₹900/sq ft. Requires professional installation, solvent-based adhesives, and specialised maintenance. ROI is strong in premium residential and boutique hospitality segments.</p>
-<h2>Section 05 Wallpaper Finishes and Textures</h2>
+<h2>Wallpaper Finishes and Textures</h2>
 <p>The finish determines how the wall reads in different lighting conditions and how practical it is for a given room:</p>
 <div class="table-wrap">
 <table>
@@ -137,7 +137,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   </tbody>
 </table>
 </div>
-<h2>Section 06 Room-Wise Wallpaper Selection Guide</h2>
+<h2>Room-Wise Wallpaper Selection Guide</h2>
 <p>The best wallpaper for each room is determined by three factors: <strong>traffic level, humidity exposure, and desired mood.</strong> Here are our recommendations:</p>
 <p>Living Room</p>
 <p>Non-Woven or Vinyl, Feature Wall</p>
@@ -164,7 +164,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Waterproof Vinyl (Backsplash Area)</p>
 <p>Standard wallpaper cannot survive near stovetops or sinks. Use only oil-and-waterproof vinyl, limited to walls away from direct heat and steam. Behind stoves — always use tiles instead.</p>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span>⚠️<br><br><strong>Avoid Wallpaper in Bathrooms (Most Cases)</strong><br><br>Standard wallpaper — including most vinyl — is not suitable for full bathroom application in India due to steam and water splashes. Waterproof ceramic or porcelain tiles remain the correct choice. Exception: powder rooms (no shower/bath) can use high-quality vinyl on walls above the tile line.</div>
-<h2>Section 07 Wallpaper Applications &amp; Uses</h2>
+<h2>Wallpaper Applications &amp; Uses</h2>
 <p>Beyond residential bedrooms, wallpaper has become a core commercial interior tool. Here's where it delivers the highest ROI:</p>
 <ul>
   <li><strong>Feature &amp; Accent Walls:</strong> A single feature wall uses 40–80 sq ft of material — the minimum investment for maximum visual impact</li>
@@ -176,7 +176,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   <li><strong>Corporate Offices:</strong> Brand logo murals, motivational murals, and acoustic fabric panels are the leading corporate applications</li>
   <li><strong>False Ceilings:</strong> Light, fabric-backed wallpapers can be applied to false ceiling panels for unique upward accents</li>
 </ul>
-<h2>Section 08 Advantages of Wallpapers</h2>
+<h2>Advantages of Wallpapers</h2>
 <h3>1. Thousands of Design Options</h3>
 <p>Paint offers roughly 1,500–2,000 colours per brand. Wallpaper offers effectively <strong>unlimited design options</strong> — any colour, any pattern, any texture, any image. Floral, geometric, abstract, photographic, 3D, metallic, natural — the design library is inexhaustible and refreshes seasonally.</p>
 <h3>2. Quick Installation vs. Renovation</h3>
@@ -189,7 +189,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Solid marble costs ₹250–₹600/sq ft installed. A marble-effect wallpaper costs ₹80–₹200/sq ft installed — delivering 70–80% of the visual impact at 30% of the cost. Same comparison applies to wood panelling, grasscloth, and fabric walls.</p>
 <h3>6. Acoustic and Insulation Benefits</h3>
 <p>Fabric and natural fibre wallpapers absorb sound, reducing echo in large living rooms and home theatres. Non-woven and foam-backed wallpapers add a marginal thermal insulation layer on external walls.</p>
-<h2>Section 09 Disadvantages of Wallpapers</h2>
+<h2>Disadvantages of Wallpapers</h2>
 <h3>Moisture Sensitivity</h3>
 <p>All wallpapers except waterproof vinyl are vulnerable to sustained moisture. In humid Indian cities (Kerala, Goa, coastal Maharashtra), moisture can penetrate wall surfaces and cause adhesive failure within 2–4 years on non-treated walls.</p>
 <h3>Installation Skill Required</h3>
@@ -198,7 +198,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Paint can be retouched on a damaged patch. Wallpaper must be replaced in full rolls or panels — you cannot patch a wallpaper wall neatly. This is the single biggest practical disadvantage. A damaged section often forces full-wall replacement.</p>
 <h3>Surface Preparation Dependency</h3>
 <p>Wallpaper amplifies every wall flaw. Applying wallpaper on uneven, damp, or chalky surfaces leads to peeling within months. Surface prep (putty, sanding, primer) is not optional — it's a non-negotiable prerequisite that adds ₹8–₹20/sq ft to the project cost.</p>
-<h2>Section 10 Wallpaper vs Paint: Full Comparison</h2>
+<h2>Wallpaper vs Paint: Full Comparison</h2>
 <div class="table-wrap">
 <table>
   <thead>
@@ -222,7 +222,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <blockquote>
 <p>"The best projects I've done in Indian homes combine both — paint for ceilings and wet zones, wallpaper for the single wall that makes the room." — Principal Designer, Hyderabad Studio</p>
 </blockquote>
-<h2>Section 11 Wallpaper for Indian Climate Conditions</h2>
+<h2>Wallpaper for Indian Climate Conditions</h2>
 <p>India's diverse climate is the primary technical challenge for wallpaper longevity. Here's a city-by-city and condition-by-condition guide:</p>
 <h3>Low-Humidity Cities (Good Wallpaper Conditions)</h3>
 <p><strong>Bangalore, Pune, Delhi (winters), Hyderabad, Ahmedabad:</strong> Moderate humidity and temperatures make these India's best cities for wallpaper longevity. Standard PVC and vinyl wallpapers perform excellently. Non-woven performs for 12–15 years in Bangalore's climate.</p>
@@ -246,13 +246,13 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   </tbody>
 </table>
 </div>
-<h2>Section 12 Interior vs. Exterior Wallpapers</h2>
+<h2>Interior vs. Exterior Wallpapers</h2>
 <p>The vast majority of wallpapers sold in India — and globally — are designed exclusively for interior use. Here is why and what the exterior market looks like:</p>
 <h3>Interior Wallpaper (Standard)</h3>
 <p>All the types discussed above are interior products. They are not engineered to withstand direct rain, UV radiation, temperature extremes, or biological growth from outdoor exposure. Installing a standard interior wallpaper on an exterior-facing wall (even inside a room) near windows or on uninsulated external walls accelerates degradation significantly.</p>
 <h3>Exterior Wallpaper / Façade Cladding</h3>
 <p>A small category of UV-stabilised, waterproof vinyl wraps and weather-resistant textured panels exist for exterior commercial applications — typically shopping centres, retail façades, and commercial buildings. These are not wallpaper in the traditional sense but large-format vinyl graphics and architectural films. Cost: ₹300–₹800/sq ft installed. Lifespan with UV-laminate: 5–8 years outdoors.</p>
-<h2>Section 13 Custom Wallpaper Guide</h2>
+<h2>Custom Wallpaper Guide</h2>
 <p>Custom wallpaper — printing any image at wall-scale — has become genuinely mainstream in India since 2022, driven by the availability of wide-format UV and latex printers. Here's everything you need to know:</p>
 <h3>What Custom Wallpaper Can Do</h3>
 <ul>
@@ -277,7 +277,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   <li>UV-laminate specified if wall receives direct sunlight</li>
   <li>Installation quoted as part of order — most custom vendors offer package pricing</li>
 </ul>
-<h2>Section 15 Wallpaper Installation Process</h2>
+<h2>Wallpaper Installation Process</h2>
 <p>Professional installation is the difference between a 2-year wallpaper and a 12-year wallpaper — even with identical materials. Here is the correct process:</p>
 <p>1</p>
 <p><strong>Site Measurement &amp; Planning</strong></p>
@@ -309,7 +309,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>10</p>
 <p><strong>Final Inspection &amp; Drying</strong></p>
 <p>Inspect every seam, edge, and bubble under raking light (torch held sideways). Allow 24–48 hours to dry with room well-ventilated before pushing furniture back against the wall.</p>
-<h2>Section 16 Wallpaper Adhesives &amp; Pasting Methods</h2>
+<h2>Wallpaper Adhesives &amp; Pasting Methods</h2>
 <div class="table-wrap">
 <table>
   <thead>
@@ -325,7 +325,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>💡<br><br><strong>Pasting Method Matters</strong><br><br><strong>Paste-the-wall</strong> (apply adhesive to wall, not paper): Recommended for non-woven wallpapers — the paper doesn't expand when wetted, preventing dimensional changes. <strong>Paste-the-paper</strong> (apply to back of wallpaper): Traditional method for PVC and vinyl; allows paper to fully absorb adhesive and expand before hanging. <strong>Peel-and-stick</strong>: For temporary or rental installations; no adhesive required.</div>
-<h2>Section 17 Wallpaper Maintenance Tips</h2>
+<h2>Wallpaper Maintenance Tips</h2>
 <ul>
   <li><strong>Dust regularly:</strong> Use a soft, dry microfibre cloth or feather duster every 2–4 weeks — especially in rooms with ceiling fans</li>
   <li><strong>Wipe stains immediately:</strong> Fresh stains wipe off vinyl wallpaper with a damp cloth; dried stains require mild soap solution and gentle circular motion</li>
@@ -336,7 +336,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   <li><strong>Re-stick lifting edges promptly:</strong> A lifting edge addressed within days is a 5-minute fix; left for weeks, it becomes a full panel replacement</li>
   <li><strong>Natural fibre care:</strong> Grasscloth and fabric wallpapers should only be dry-dusted — never wetted. Use a vacuum brush attachment on lowest suction</li>
 </ul>
-<h2>Section 18 Common Wallpaper Problems</h2>
+<h2>Common Wallpaper Problems</h2>
 <h3>Peeling</h3>
 <p><strong>Causes:</strong> Inadequate surface priming, moisture in wall, low-quality adhesive, high-humidity room without moisture barrier. <strong>Prevention:</strong> Always prime and use moisture-resistant adhesive in humid climates. <strong>Solution:</strong> Re-adhere with heavy-duty border adhesive while the area is still accessible; if widespread, full removal and reinstallation.</p>
 <h3>Bubbling</h3>
@@ -347,7 +347,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p><strong>Causes:</strong> Wallpaper shrinkage during drying, insufficient adhesive at edges, or over-trimming that left a gap. <strong>Prevention:</strong> Butt seams (not overlap), use seam sealer, and ensure edges are fully adhered before drying. <strong>Solution:</strong> Apply seam sealer or clear wallpaper paste with a fine brush; press seam roller. Act within days of first noticing — open seams grow.</p>
 <h3>Colour Fading</h3>
 <p><strong>Causes:</strong> UV exposure on south and west-facing walls, inadequate UV resistance of the print. <strong>Prevention:</strong> Specify UV-resistant vinyl or laminated surface; install UV-blocking window films. <strong>Solution:</strong> No in-situ fix — faded wallpaper must be replaced. Document brand and product code at installation for exact reordering.</p>
-<h2>Section 19 Best Wallpaper Brands in India (2026)</h2>
+<h2>Best Wallpaper Brands in India (2026)</h2>
 <p>The Indian wallpaper market now has a well-developed brand ecosystem spanning budget domestic manufacturers to imported luxury labels:</p>
 <p>Marshalls Wallcoverings</p>
 <p>Mid to Premium</p>

@@ -39,7 +39,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Wall panelling has moved from hotel lobbies into ordinary Indian apartments, mostly on two walls: the TV wall and the wall behind the bed. Done well, it adds warmth, hides cables and improves the acoustics a little. Done badly, it warps, shows joint gaps after one monsoon and dates the room. The difference is almost entirely in the core board, the fixing and the joint detail, which this page explains. For other finishes, see the <a href="/wall-design/">wall design guide</a>.</p>
+<p>Wall panelling has moved from hotel lobbies into ordinary Indian apartments, mostly on two walls: the TV wall and the wall behind the bed. Done well, it adds warmth, hides cables and improves the acoustics a little. Done badly, it warps, shows joint gaps after one monsoon and dates the room.</p>
+<p>The difference is almost entirely in the core board, the fixing and the joint detail, which this page explains. For other finishes, see the <a href="/wall-design/">wall design guide</a>.</p>
 
 <h2>How a panelled wall is built</h2>
 <p>A panelled wall has three layers, and each has its own job.</p>
@@ -101,7 +102,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The <a href="/furniture/tv-unit-design/">TV unit design guide</a> covers mounting heights and viewing distances.</p>
 
 <h2>Moisture, heat and termites</h2>
-<p>Panels fail at the edges. Edge-band or seal every cut edge, keep a 3–5 mm expansion gap at the floor and ceiling, and never panel a wall with active damp. In termite-prone ground-floor homes, use treated battens and a borer-proof board, and ask for anti-termite treatment of the wall behind. WPC panels resist both moisture and termites but expand in heat, so they need the expansion gaps specified by the maker; see <a href="/wall-design/pvc-vs-wpc-wall-panels/">PVC vs WPC wall panels</a>.</p>
+<p>Panels fail at the edges. Edge-band or seal every cut edge, keep a 3–5 mm expansion gap at the floor and ceiling, and never panel a wall with active damp. In termite-prone ground-floor homes, use treated battens and a borer-proof board, and ask for anti-termite treatment of the wall behind.</p>
+<p>WPC panels resist both moisture and termites but expand in heat, so they need the expansion gaps specified by the maker; see <a href="/wall-design/pvc-vs-wpc-wall-panels/">PVC vs WPC wall panels</a>.</p>
 
 <h2>Checklist before you sign a quote</h2>
 <ul>

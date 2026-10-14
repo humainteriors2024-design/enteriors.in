@@ -57,7 +57,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Walls are the largest surface in any room, yet most homes give them one coat of emulsion and leave them alone. That is not a mistake: a plain, well-painted wall is the right background for most of a home. The question is where a different finish earns its cost, and which one survives Indian conditions: monsoon humidity, hard water, cooking fumes and the occasional seepage from the flat above. This guide answers that with the specifications that matter, then links to a detailed page on each finish.</p>
+<p>Walls are the largest surface in any room, yet most homes give them one coat of emulsion and leave them alone. That is not a mistake: a plain, well-painted wall is the right background for most of a home.</p>
+<p>The question is where a different finish earns its cost, and which one survives Indian conditions: monsoon humidity, hard water, cooking fumes and the occasional seepage from the flat above. This guide answers that with the specifications that matter, then links to a detailed page on each finish.</p>
 
 <h2>Start with the wall, not the finish</h2>
 <p>Before choosing anything decorative, check three things. They decide which finishes are even possible.</p>
@@ -83,7 +84,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p class="table-note">Indicative Bengaluru rates, October 2026, before GST. "Life" assumes normal household use and a dry wall.</p>
 
 <h2>Paint, texture and limewash: finishes you apply</h2>
-<p>Applied finishes bond to the plaster, so they cost least and are easiest to change. Plain emulsion is the baseline everywhere. <a href="/wall-design/texture-paint/">Texture paint</a> builds a raised or patterned surface from a thicker, filler-rich coating; it hides minor wall flaws and works on exteriors when an exterior-grade product is used. Limewash and mineral finishes are breathable and give a soft, cloudy depth that suits the warm-minimal look now common in Indian homes (see <a href="/trends/limewash-textures/">limewash textures</a>). How sheen changes durability is explained in <a href="/colour/paint-finishes/">types of paint finish</a>.</p>
+<p>Applied finishes bond to the plaster, so they cost least and are easiest to change. Plain emulsion is the baseline everywhere. <a href="/wall-design/texture-paint/">Texture paint</a> builds a raised or patterned surface from a thicker, filler-rich coating; it hides minor wall flaws and works on exteriors when an exterior-grade product is used.</p>
+<p>Limewash and mineral finishes are breathable and give a soft, cloudy depth that suits the warm-minimal look now common in Indian homes (see <a href="/trends/limewash-textures/">limewash textures</a>). How sheen changes durability is explained in <a href="/colour/paint-finishes/">types of paint finish</a>.</p>
 
 <h2>Panels: finishes you fix</h2>
 <p>Panels are fixed over the wall on adhesive, clips or a batten frame. That makes them more expensive but also more forgiving: they hide uneven walls and wiring, and they come off without damaging the plaster.</p>

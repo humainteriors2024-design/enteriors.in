@@ -191,10 +191,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Melamine</h3>
 <p>A budget-friendly factory finish suited to utility and back-of-house cabinetry on HDHMR boards.</p>
 <h2>Is HDHMR Safe for Kitchens?</h2>
-<p>HDHMR is one of the most recommended board choices for modern modular kitchens precisely because of where kitchens fail other boards: regular splashing, steam from cooking, and frequent shutter operation. Base cabinets directly under sinks still benefit from an additional drip tray or sealant strip, since no moisture-resistant board — HDHMR included — is designed for standing water. Wall cabinets away from direct steam see virtually no added risk, and pantry and tall units perform reliably given HDHMR's strong screw retention under repeated use.</p>
+<p>HDHMR is one of the most recommended board choices for modern modular kitchens precisely because of where kitchens fail other boards: regular splashing, steam from cooking, and frequent shutter operation.</p>
+<p>Base cabinets directly under sinks still benefit from an additional drip tray or sealant strip, since no moisture-resistant board — HDHMR included — is designed for standing water. Wall cabinets away from direct steam see virtually no added risk, and pantry and tall units perform reliably given HDHMR's strong screw retention under repeated use.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Practical takeaway:</strong> HDHMR shutters paired with a properly sealed sink base and good edge banding cover the vast majority of real kitchen moisture risk.</div>
 <h2>Is HDHMR Safe for Children's Furniture?</h2>
-<p>Safety for children's furniture comes down to formaldehyde emission ratings rather than the board category itself — look for E0 or E1 rated HDHMR, which indicates low formaldehyde off-gassing suitable for bedrooms, compared to higher-emission E2-rated boards. Beyond emissions, request rounded edge profiles on children's furniture corners, and confirm the supplier can show relevant safety certification for the specific batch used. HDHMR's surface durability against scuffs and dents also makes it a practical, long-wearing choice for actively used children's room furniture.</p>
+<p>Safety for children's furniture comes down to formaldehyde emission ratings rather than the board category itself — look for E0 or E1 rated HDHMR, which indicates low formaldehyde off-gassing suitable for bedrooms, compared to higher-emission E2-rated boards.</p>
+<p>Beyond emissions, request rounded edge profiles on children's furniture corners, and confirm the supplier can show relevant safety certification for the specific batch used. HDHMR's surface durability against scuffs and dents also makes it a practical, long-wearing choice for actively used children's room furniture.</p>
 <h2>How Long Does HDHMR Last?</h2>
 <h4>Budget Apartment</h4>
 <p>Typically performs well for 12–15 years under light, careful daily use.</p>
@@ -310,7 +312,10 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>You need furniture for fully outdoor use or constant water exposure (go with BWP plywood), or you're furnishing a dry, low-stress, budget-critical space (basic MDF or particle board is enough).</div>
 <p>HDHMR earns its premium specifically in moisture-prone, frequently-used furniture — kitchens, wardrobes, vanities — where its combination of density, moisture resistance, and machinability genuinely outperforms cheaper boards over the furniture's lifetime. It's not the universal "best" board, and treating it as one wastes money in rooms that never needed that level of performance.</p>
 <h2>Conclusion</h2>
-<p>HDHMR sits in a deliberate middle ground: stronger and more moisture-resistant than MDF or particle board, more machinable and often more affordable than premium plywood. It performs reliably in the rooms that matter most for daily wear — kitchens, wardrobes, bathroom vanities — provided you verify genuine density and resin quality rather than assuming all HDHMR is equal. It is not the right choice for sustained water exposure or full outdoor use, and for dry, low-stress furniture, a cheaper board does the job just as well. The right material always depends on the room, the budget, and how long you actually need the furniture to last — not on chasing a single "best" board across your entire home.</p>
+<p>HDHMR sits in a deliberate middle ground: stronger and more moisture-resistant than MDF or particle board, more machinable and often more affordable than premium plywood.</p>
+<p>It performs reliably in the rooms that matter most for daily wear — kitchens, wardrobes, bathroom vanities — provided you verify genuine density and resin quality rather than assuming all HDHMR is equal.</p>
+<p>It is not the right choice for sustained water exposure or full outdoor use, and for dry, low-stress furniture, a cheaper board does the job just as well.</p>
+<p>The right material always depends on the room, the budget, and how long you actually need the furniture to last — not on chasing a single "best" board across your entire home.</p>
 <p>↑ Back to top of guide</p>
 <h2>Related Guides in This Series</h2>
 <ul>

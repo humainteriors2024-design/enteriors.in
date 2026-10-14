@@ -37,7 +37,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>A wardrobe is usually the largest piece of furniture in a bedroom, and once it is fixed to the wall it stays there for many years, so the order of decisions matters. The room decides which type fits, the floor space decides the doors, your clothes decide the layout inside, and only then do boards, finishes and hardware come in. This guide to wardrobe designs for bedrooms follows that order, with common sizes and indicative Bengaluru prices, and links to a detailed page for each step.</p>
+<p>A wardrobe is usually the largest piece of furniture in a bedroom, and once it is fixed to the wall it stays there for many years, so the order of decisions matters.</p>
+<p>The room decides which type fits, the floor space decides the doors, your clothes decide the layout inside, and only then do boards, finishes and hardware come in. This guide to wardrobe designs for bedrooms follows that order, with common sizes and indicative Bengaluru prices, and links to a detailed page for each step.</p>
 
 <h2>Wardrobe types at a glance</h2>
 <p>Four types cover almost every bedroom. Measure the wall, the clear floor in front of it and the ceiling height first; those three figures usually make the choice for you.</p>

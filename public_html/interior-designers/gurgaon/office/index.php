@@ -42,7 +42,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Gurgaon is one of India's largest office markets, from the towers of Cyber City and Udyog Vihar to newer business parks along Golf Course Extension Road and Sohna Road. Office interiors here are a different job from homes: approvals, services and furniture lead times decide the schedule. This page lists seven firms that design and fit out offices in the city, and sets out how a project runs. For home interiors, see the <a href="/interior-designers/gurgaon/">top 10 interior designers in Gurgaon</a>.</p>
+<p>Gurgaon is one of India's largest office markets, from the towers of Cyber City and Udyog Vihar to newer business parks along Golf Course Extension Road and Sohna Road. Office interiors here are a different job from homes: approvals, services and furniture lead times decide the schedule.</p>
+<p>This page lists seven firms that design and fit out offices in the city, and sets out how a project runs. For home interiors, see the <a href="/interior-designers/gurgaon/">top 10 interior designers in Gurgaon</a>.</p>
 
 <h2>Office interior designers in Gurgaon at a glance</h2>
 <?= designer_table() ?>

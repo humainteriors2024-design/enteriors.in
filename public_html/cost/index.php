@@ -57,7 +57,9 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Interior budgets go wrong for one of two reasons: the first number was a guess, or two quotations that looked alike were describing different things. This guide gives you a realistic first number for interior design cost in Bangalore, shows how it splits across rooms, and explains what to check so that the quotations you collect can be compared line by line. All prices are indicative for Bengaluru in October 2026 and include GST unless stated; Hosur usually comes in 5–10% lower.</p>
+<p>Interior budgets go wrong for one of two reasons: the first number was a guess, or two quotations that looked alike were describing different things.</p>
+<p>This guide gives you a realistic first number for interior design cost in Bangalore, shows how it splits across rooms, and explains what to check so that the quotations you collect can be compared line by line.</p>
+<p>All prices are indicative for Bengaluru in October 2026 and include GST unless stated; Hosur usually comes in 5–10% lower.</p>
 
 <h2>Interior cost calculator</h2>
 <p>Choose your home type, grade and scope for a first estimate. It uses the same rates as the tables on this page.</p>
@@ -105,7 +107,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p class="table-note">Including GST. Kitchen figures exclude appliances.</p>
-<p>Two items are priced by area and sit outside the table. A gypsum false ceiling costs about ₹85–160 per sq ft before GST depending on the design; see <a href="/cost/false-ceiling-cost/">false ceiling cost</a>. Flooring ranges from about ₹90–220 per sq ft laid for vitrified tiles to several times that for marble or engineered wood; see <a href="/cost/flooring-cost-per-sqft/">flooring cost per sq ft</a>. For an older home that needs civil, plumbing and electrical work as well, read <a href="/cost/home-renovation-cost/">home renovation cost</a>.</p>
+<p>Two items are priced by area and sit outside the table. A gypsum false ceiling costs about ₹85–160 per sq ft before GST depending on the design; see <a href="/cost/false-ceiling-cost/">false ceiling cost</a>.</p>
+<p>Flooring ranges from about ₹90–220 per sq ft laid for vitrified tiles to several times that for marble or engineered wood; see <a href="/cost/flooring-cost-per-sqft/">flooring cost per sq ft</a>. For an older home that needs civil, plumbing and electrical work as well, read <a href="/cost/home-renovation-cost/">home renovation cost</a>.</p>
 <p>You can price a kitchen in detail in the <a href="/calculators/modular-kitchen/">modular kitchen calculator</a> and a wardrobe in the <a href="/calculators/wardrobe-cost/">wardrobe calculator</a>.</p>
 
 <h2>Where the money goes</h2>

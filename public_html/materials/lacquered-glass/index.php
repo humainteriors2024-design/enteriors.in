@@ -22,11 +22,14 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<h2>01What is lacquered glass, exactly?</h2>
-<p>Lacquered glass — also sold as back-painted glass, painted glass, or coloured float glass — is ordinary float or tempered glass that has been spray-coated on one side with a pigmented lacquer, then cured under heat. The painted face gets installed against the wall or substrate, so the side you actually see is the raw, untouched glass front. That's the entire trick behind its look: you're not staring at paint, you're staring at colour <em>through</em> glass, which is why it reads as deep and glossy rather than flat like a painted wall.</p>
-<p>It's worth separating from a few materials people confuse it with. Tinted glass has colour mixed into the glass itself during manufacturing — it's uniform but limited to a handful of shades. Mirrored glass uses a reflective metallic coating, not pigment. Acrylic (PMMA) sheet looks similar from across a room but is a plastic, not glass, and behaves very differently under heat and scratching. If a supplier says "painted glass" or "back-painted glass," they almost always mean the same product as lacquered glass.</p>
+<h2>What is lacquered glass, exactly?</h2>
+<p>Lacquered glass — also sold as back-painted glass, painted glass, or coloured float glass — is ordinary float or tempered glass that has been spray-coated on one side with a pigmented lacquer, then cured under heat.</p>
+<p>The painted face gets installed against the wall or substrate, so the side you actually see is the raw, untouched glass front.</p>
+<p>That's the entire trick behind its look: you're not staring at paint, you're staring at colour <em>through</em> glass, which is why it reads as deep and glossy rather than flat like a painted wall.</p>
+<p>It's worth separating from a few materials people confuse it with. Tinted glass has colour mixed into the glass itself during manufacturing — it's uniform but limited to a handful of shades. Mirrored glass uses a reflective metallic coating, not pigment.</p>
+<p>Acrylic (PMMA) sheet looks similar from across a room but is a plastic, not glass, and behaves very differently under heat and scratching. If a supplier says "painted glass" or "back-painted glass," they almost always mean the same product as lacquered glass.</p>
 <div class="callout"><span class="callout__title">Worth knowing</span>Almost all lacquered glass sold for interiors today starts as <strong>tempered (toughened) glass</strong>, not annealed glass. If a quote doesn't specify tempering, ask — it changes both safety rating and price.</div>
-<h2>02How it's manufactured</h2>
+<h2>How it's manufactured</h2>
 <p>The process is fairly consistent across fabricators, and understanding it explains most of the pros and cons later in this guide:</p>
 <ol>
   <li><strong>Cutting &amp; edge-work</strong> — float glass is cut to size and the edges are ground/polished before any coating touches it, since edges can't be reworked afterward without damaging the finish.</li>
@@ -36,7 +39,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Curing</strong> — panels go through a heat-curing oven so the lacquer fully cross-links rather than air-drying, which would leave it softer and more prone to scratching from the back during installation and adhesive bonding.</li>
 </ol>
 <p>Because tempering has to happen <em>before</em> the lacquer goes on, every cut, hole, or notch needs to be specified at order time. Lacquered glass cannot be safely cut, drilled, or trimmed on-site — that single fact drives more buying mistakes than anything else in this guide, and we'll come back to it.</p>
-<h2>03Where it actually gets used at home</h2>
+<h2>Where it actually gets used at home</h2>
 <p>Lacquered glass earns its place in a fairly specific set of interior applications — it's a finish material, not a structural one, so it's almost always installed over or bonded to a backing surface:</p>
 <ul>
   <li><strong>Kitchen splashbacks</strong> — the single biggest use case. One seamless panel behind a hob avoids the grout lines and grease traps of tile.</li>
@@ -46,7 +49,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Sliding door and partition infill</strong> — gives a partition colour and privacy without the weight of stone or the cost of veneered timber.</li>
   <li><strong>Table tops and counters (light duty)</strong> — used more for side tables and vanity tops than load-bearing kitchen counters, where stone is usually a better fit.</li>
 </ul>
-<h2>04Pros and cons, without the sales pitch</h2>
+<h2>Pros and cons, without the sales pitch</h2>
 <p>Most material round-ups list these side by side as if every pro applies to every project. They don't — context matters, and we've flagged where each point actually holds true.</p>
 <h3>What it genuinely does well</h3>
 <ul>
@@ -68,7 +71,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Lead time</strong> — custom colour, size, and cut-outs typically mean a production wait, not an off-the-shelf pickup.</li>
 </ul>
 <div class="callout"><span class="callout__title">Honest take</span>If your main goal is a clean, grout-free splashback or feature wall and you're willing to plan cut-outs precisely up front, lacquered glass usually delivers. If you need a surface that tolerates heavy daily impact, frequent on-site changes, or you're working to a tight budget, it's worth weighing the alternatives in the next section first.</div>
-<h2>05Lacquered glass vs. the usual alternatives</h2>
+<h2>Lacquered glass vs. the usual alternatives</h2>
 <p>Here's how it actually stacks up against the three materials people most often cross-shop it with.</p>
 <div class="table-wrap">
 <table>
@@ -87,7 +90,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>*Relative ranking only — see the cost section below for actual price drivers, since region and finish swing this significantly.</p>
-<h2>06What actually drives the price</h2>
+<h2>What actually drives the price</h2>
 <p>Lacquered glass is quoted per square foot or square metre, and the spread between a "cheap" and "premium" quote for the exact same size usually comes down to five things:</p>
 <div class="table-wrap">
 <table>
@@ -104,7 +107,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Ask before you sign</span>Get the lacquer brand/type, coat count, and tempering confirmed <em>in writing</em> on the quote — "painted glass" alone tells you almost nothing about durability.</div>
-<h2>07Maintenance and everyday care</h2>
+<h2>Maintenance and everyday care</h2>
 <p>This is genuinely one of the lower-maintenance wall and splashback finishes available, provided you avoid a short list of mistakes:</p>
 <h3>Do</h3>
 <ul>
@@ -118,7 +121,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Don't use strong ammonia-based or acidic cleaners on the edges, where sealant or adhesive is exposed.</li>
   <li>Don't let suction-cup hooks, magnetic racks, or adhesive strips sit for months without checking — some residues are harder to remove from a glossy lacquer face than from matte tile.</li>
 </ul>
-<h2>08Durability and where it actually fails</h2>
+<h2>Durability and where it actually fails</h2>
 <p>In our experience reviewing installations and talking to fabricators, lacquered glass rarely fails from the face simply wearing out. When it does fail early, it's almost always one of three things:</p>
 <ul>
   <li><strong>Edge impact</strong> — a dropped pan, a moved appliance, or a hard knock on an unprotected corner is the most common cause of cracked panels, especially near hob edges.</li>
@@ -126,7 +129,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Poor lacquer cure</strong> — panels from fabricators that skip the heat-curing step or use a thin single coat are the ones we see yellowing, fading near windows, or showing adhesion failure (the lacquer separating slightly from the glass) within a few years.</li>
 </ul>
 <p>Properly fabricated and installed, expect a realistic 15–25 year service life on the glass and lacquer itself — the limiting factor is usually a kitchen renovation cycle, not the material wearing out.</p>
-<h2>09Buying checklist — what to confirm before you order</h2>
+<h2>Buying checklist — what to confirm before you order</h2>
 <p>Use this as a literal checklist with your fabricator or contractor:</p>
 <ul>
   <li>Confirmed as tempered (toughened) glass, with thickness specified in writing.</li>
@@ -138,5 +141,5 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Written warranty terms covering lacquer adhesion and colour stability, not just breakage.</li>
   <li>A clear answer on lead time, since custom colours and sizes are rarely stock items.</li>
 </ul>
-<h2>10Frequently asked questions</h2>
+<h2>Frequently asked questions</h2>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

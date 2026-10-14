@@ -58,7 +58,8 @@ Bathroom renovations have the highest risk of hidden cost escalation of any inte
 <p>Budget Range</p>
 <p>₹1.2L–4.5L</p>
 <h4>Structural Constraints &amp; What They Mean</h4>
-<p>In a multistorey apartment, your plumbing drains into a shared vertical shaft. This means you cannot relocate a toilet without either raising the floor slab (expensive, requires structural approval) or using a macerator/pump system. The practical rule: <strong>keep WC position fixed, relocate basin and shower freely within the same bathroom</strong>. A 1.5m basin shift costs ₹8,000–15,000 in plumbing labour. A WC relocation can cost ₹40,000–80,000+ and may not even be permitted by your housing society.</p>
+<p>In a multistorey apartment, your plumbing drains into a shared vertical shaft. This means you cannot relocate a toilet without either raising the floor slab (expensive, requires structural approval) or using a macerator/pump system. The practical rule: <strong>keep WC position fixed, relocate basin and shower freely within the same bathroom</strong>.</p>
+<p>A 1.5m basin shift costs ₹8,000–15,000 in plumbing labour. A WC relocation can cost ₹40,000–80,000+ and may not even be permitted by your housing society.</p>
 <h4>What Works Best for Apartments</h4>
 <ul>
   <li>A wall-hung WC (instead of floor-mounted) frees 15–20 cm of visual floor space, making the bathroom appear larger — the single most impactful upgrade in a small apartment bathroom</li>
@@ -205,19 +206,24 @@ The grout colour and type directly affects how the bathroom reads — and how mu
 <p>🪣</p>
 <p>Basin &amp; Tap</p>
 <p>Under-counter basin: ₹4,000–18,000 · Vessel/above-counter: ₹6,000–30,000</p>
-<p>Under-counter basins (set into the vanity top) are the most practical for daily use — no pooling at the base of a vessel basin, wipe-clean counter around it, visually clean line. Above-counter vessel basins are stunning but collect water at the junction between vessel and counter. Tap quality matters most for longevity: ceramic disc cartridges (specified in quality taps) last 20+ years without dripping. Brass body taps with PVD finish (Physical Vapour Deposition) resist tarnishing 4–5 times better than standard chrome in Indian hard-water conditions.</p>
+<p>Under-counter basins (set into the vanity top) are the most practical for daily use — no pooling at the base of a vessel basin, wipe-clean counter around it, visually clean line. Above-counter vessel basins are stunning but collect water at the junction between vessel and counter.</p>
+<p>Tap quality matters most for longevity: ceramic disc cartridges (specified in quality taps) last 20+ years without dripping. Brass body taps with PVD finish (Physical Vapour Deposition) resist tarnishing 4–5 times better than standard chrome in Indian hard-water conditions.</p>
 <p>🛁</p>
 <p>Bathtub</p>
 <p>Acrylic: ₹18,000–45,000 · Cast iron: ₹55,000–1.8L · Stone resin: ₹80,000–3L</p>
-<p>Acrylic freestanding tubs have improved dramatically in quality — 5–6mm thick acrylic with fibreglass reinforcement is warm to the touch, light enough for most floor slabs, and available in a wide range of forms. Cast iron enamelled tubs are the benchmark for heat retention (keeps water warm 30+ minutes) and durability, but weigh 130–180 kg — always verify your slab's load capacity before specifying. Stone resin (composite stone + resin) is the premium modern standard: heavier than acrylic, lighter than cast iron, beautiful matte surface, 30–40 year lifespan.</p>
+<p>Acrylic freestanding tubs have improved dramatically in quality — 5–6mm thick acrylic with fibreglass reinforcement is warm to the touch, light enough for most floor slabs, and available in a wide range of forms.</p>
+<p>Cast iron enamelled tubs are the benchmark for heat retention (keeps water warm 30+ minutes) and durability, but weigh 130–180 kg — always verify your slab's load capacity before specifying. Stone resin (composite stone + resin) is the premium modern standard: heavier than acrylic, lighter than cast iron, beautiful matte surface, 30–40 year lifespan.</p>
 <p>🪞</p>
 <p>Vanity Mirror</p>
 <p>Standard mirror: ₹1,200–4,500 · Backlit smart mirror: ₹8,000–35,000</p>
-<p>The mirror is the most-used surface in a vanity room — it deserves serious specification. A backlit mirror (LED behind frosted panel at perimeter) provides the ideal grooming light: even, shadow-free, and flattering. A smart mirror with integrated demister pad (heated element on the back) eliminates post-shower fogging in under 60 seconds — the ₹3,000–5,000 add-on that gets used every single day. Size: at minimum, the mirror should equal the vanity width. Floor-to-ceiling mirrors on the entire vanity wall double the perceived size of the room.</p>
+<p>The mirror is the most-used surface in a vanity room — it deserves serious specification. A backlit mirror (LED behind frosted panel at perimeter) provides the ideal grooming light: even, shadow-free, and flattering.</p>
+<p>A smart mirror with integrated demister pad (heated element on the back) eliminates post-shower fogging in under 60 seconds — the ₹3,000–5,000 add-on that gets used every single day. Size: at minimum, the mirror should equal the vanity width. Floor-to-ceiling mirrors on the entire vanity wall double the perceived size of the room.</p>
 <p>🔥</p>
 <p>Geyser / Water Heater</p>
 <p>Storage 15L: ₹6,000–18,000 · Instant: ₹3,500–12,000 · Heat pump: ₹35,000–75,000</p>
-<p>Instant geysers (tankless) save 30–40% energy vs storage for single-point use. For simultaneous use (shower + basin), a storage geyser is more practical. Specify a 5-star BEE-rated unit regardless of type. Heat pump water heaters consume 65–75% less electricity than resistance geysers — the payback period is 3–5 years in Indian electricity tariff conditions, after which you save ₹4,000–8,000 per year in electricity costs. Locate the geyser as close to the point of use as possible — every additional metre of pipe adds water wastage waiting for hot water to arrive.</p>
+<p>Instant geysers (tankless) save 30–40% energy vs storage for single-point use. For simultaneous use (shower + basin), a storage geyser is more practical. Specify a 5-star BEE-rated unit regardless of type.</p>
+<p>Heat pump water heaters consume 65–75% less electricity than resistance geysers — the payback period is 3–5 years in Indian electricity tariff conditions, after which you save ₹4,000–8,000 per year in electricity costs.</p>
+<p>Locate the geyser as close to the point of use as possible — every additional metre of pipe adds water wastage waiting for hot water to arrive.</p>
 <p>The Centrepiece</p>
 <h2>Designing the Vanity Unit</h2>
 <p>The vanity unit — the cabinet beneath and around the basin, the mirror zone, the counter surface — is the room's functional and aesthetic anchor. It is what you look at, touch, and use the most. Yet it receives less design attention than any other element in the room. Here is how to design it correctly.</p>
@@ -253,13 +259,17 @@ Soft-close hinges and drawer runners in a bathroom will outlast standard hinges 
 <p>The mirror zone requires shadow-free, even illumination at face level. The ideal solution is side lighting — two vertical strip lights (or backlit mirror with perimeter LED) flanking the mirror. Face-level light at 2700K–3000K is the most flattering and functional. Avoid downlights above the mirror entirely: they create under-eye shadows and make faces look tired. A backlit mirror with a 3000K LED perimeter achieves this in a single fixture. Recommended lux at face: 300–500 lux.</p>
 <p>Zone 2 · Shower</p>
 <p>Wet Zone Task Light</p>
-<p>Shower zone lighting must use IP65-rated (or higher) recessed downlights — bathroom downlights without wet-area rating are a safety hazard and code violation. A 9–12W warm-white (3000K) IP65 downlight centred above the shower position provides adequate illumination without glare into the eyes during showering. For rain shower heads centred on the ceiling, position the downlight slightly toward the tap wall so it does not compete with the shower head for ceiling space. Use only GU10 LED fittings — they generate less heat and last 10–15 years.</p>
+<p>Shower zone lighting must use IP65-rated (or higher) recessed downlights — bathroom downlights without wet-area rating are a safety hazard and code violation. A 9–12W warm-white (3000K) IP65 downlight centred above the shower position provides adequate illumination without glare into the eyes during showering.</p>
+<p>For rain shower heads centred on the ceiling, position the downlight slightly toward the tap wall so it does not compete with the shower head for ceiling space. Use only GU10 LED fittings — they generate less heat and last 10–15 years.</p>
 <p>Zone 3 · Ambient</p>
 <p>General Fill Light</p>
-<p>The ambient layer — general overhead illumination — fills the room and provides functional light for entering, cleaning, and non-specific use. A single 12–18W LED batten or 2–3 recessed downlights (IP44 for non-wet areas) on a separate switch provides the base layer. Colour temperature: 3000K–4000K for a neutral, clean appearance. Consider a dimmer on the ambient circuit — turning the bathroom to 20% brightness at midnight for nighttime visits is more comfortable than full illumination and won't wake you fully.</p>
+<p>The ambient layer — general overhead illumination — fills the room and provides functional light for entering, cleaning, and non-specific use. A single 12–18W LED batten or 2–3 recessed downlights (IP44 for non-wet areas) on a separate switch provides the base layer. Colour temperature: 3000K–4000K for a neutral, clean appearance.</p>
+<p>Consider a dimmer on the ambient circuit — turning the bathroom to 20% brightness at midnight for nighttime visits is more comfortable than full illumination and won't wake you fully.</p>
 <p>Zone 4 · Accent</p>
 <p>Atmospheric &amp; Accent Lighting</p>
-<p>An optional but transformative layer. LED strip lighting under a floating vanity unit creates a warm glow at floor level that makes the space feel grounded. A cove light above the shower niche (recessed shelf in the shower wall, a 30×20 cm cut-out in the tile) illuminates toiletries from below and creates a dramatic focal point. Niches are the most underused design element in Indian shower design — they are tiled into the wall during construction, cost ₹1,500–3,000 each, and eliminate shower caddy clutter permanently.</p>
+<p>An optional but transformative layer. LED strip lighting under a floating vanity unit creates a warm glow at floor level that makes the space feel grounded.</p>
+<p>A cove light above the shower niche (recessed shelf in the shower wall, a 30×20 cm cut-out in the tile) illuminates toiletries from below and creates a dramatic focal point.</p>
+<p>Niches are the most underused design element in Indian shower design — they are tiled into the wall during construction, cost ₹1,500–3,000 each, and eliminate shower caddy clutter permanently.</p>
 <div class="callout"><span class="callout__title">Note</span>The IP Rating Rule</p>
 All bathrooms are divided into zones by Indian and international electrical standards. Zone 0 (inside the bath/shower) requires IP67. Zone 1 (above the bath/shower to 2.25m height) requires IP45. Zone 2 (60cm from bath/shower edge) requires IP44. Outside these zones, standard IP20 fittings are acceptable. Never install a non-rated light fixture in zones 0 or 1 — it is a safety violation and insurance risk. Every Indian bathroom renovation should include this zone check with the electrician.</div>
 <p>Organisation</p>
@@ -291,7 +301,8 @@ All bathrooms are divided into zones by Indian and international electrical stan
 <p>Indian bathrooms have a chronic towel problem — towels don't dry fully, smell within 24 hours, and migrate to floor racks and door hooks. A heated towel rail (electric, 75–150W, ₹4,500–12,000 installed) dries towels completely within 20 minutes of use. Non-negotiable for monsoon regions. A second option: an open ventilated shelf above the door frame, where warm air naturally accumulates.</p>
 <p>Infrastructure</p>
 <h2>Waterproofing &amp; Drainage: The Work That Never Shows</h2>
-<p>Waterproofing is the most important single element of any bathroom renovation. It is also the one most frequently compromised — by untrained contractors, by budget pressure, and by homeowners who do not know enough to ask the right questions. A failed waterproof membrane causes water to seep through the slab, damaging the ceiling of the floor below, corroding structural reinforcement, and creating mould within the wall assembly. Repairs cost 3–5 times the cost of doing it right the first time.</p>
+<p>Waterproofing is the most important single element of any bathroom renovation. It is also the one most frequently compromised — by untrained contractors, by budget pressure, and by homeowners who do not know enough to ask the right questions.</p>
+<p>A failed waterproof membrane causes water to seep through the slab, damaging the ceiling of the floor below, corroding structural reinforcement, and creating mould within the wall assembly. Repairs cost 3–5 times the cost of doing it right the first time.</p>
 <h3>The Four-Layer Waterproofing System</h3>
 <ul>
   <li><strong>Layer 1 — Slab preparation:</strong> Chip off all old tiles to bare concrete. Fill all cracks with polymer-modified mortar. Ensure no waterproof membrane is ever applied over old tiles — this is the single most common contractor shortcut and a guaranteed failure point.</li>

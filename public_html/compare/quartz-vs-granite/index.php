@@ -24,7 +24,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Choosing between quartz and granite is one of the most consequential decisions in any kitchen or bathroom renovation — and one of the most misunderstood. Both are premium materials. Both look stunning. But they perform very differently in day-to-day life, carry different maintenance burdens, hit different price points, and suit different lifestyles. This guide covers every factor that matters — from Mohs hardness and porosity to ROI, indoor air quality, and the best choice for outdoor kitchens.</p>
+<p>Choosing between quartz and granite is one of the most consequential decisions in any kitchen or bathroom renovation — and one of the most misunderstood. Both are premium materials. Both look stunning. But they perform very differently in day-to-day life, carry different maintenance burdens, hit different price points, and suit different lifestyles.</p>
+<p>This guide covers every factor that matters — from Mohs hardness and porosity to ROI, indoor air quality, and the best choice for outdoor kitchens.</p>
 <p>Section 01 — Definitions</p>
 <h2>What Are Quartz and Granite Countertops?</h2>
 <p>Engineered Stone</p>

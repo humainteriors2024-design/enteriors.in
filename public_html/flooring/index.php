@@ -82,7 +82,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 <p>Large-format and slab tiles give fewer joints, at about ₹200–450 per sq ft laid, and need a very flat base.</p>
 <h3>Slip resistance, sizes and joints</h3>
-<p>Wet areas need a matt or textured finish. Many makers print an R rating on the box: R10 or higher is the usual advice for bathroom floors, and R11 for open balconies and outdoor steps. Common floor sizes are 600 × 600 mm and 600 × 1200 mm; bathrooms use smaller tiles so the floor can follow the slope to the drain. Leave a 2–3 mm grout joint even with straight-edged tiles, and use epoxy grout in kitchens and bathrooms, where it resists stains.</p>
+<p>Wet areas need a matt or textured finish. Many makers print an R rating on the box: R10 or higher is the usual advice for bathroom floors, and R11 for open balconies and outdoor steps.</p>
+<p>Common floor sizes are 600 × 600 mm and 600 × 1200 mm; bathrooms use smaller tiles so the floor can follow the slope to the drain. Leave a 2–3 mm grout joint even with straight-edged tiles, and use epoxy grout in kitchens and bathrooms, where it resists stains.</p>
 
 <h2>Natural stone: marble, granite and Kota</h2>
 <p><strong>Marble</strong> is laid as slabs on a mortar bed, then ground and polished on site. It is porous and fairly soft, so it needs sealing after laying and a fresh polish every few years. Indian varieties such as Makrana are harder-wearing than many imported marbles, which are chosen for their white ground and veining. The <a href="/materials/marble-guide/">marble guide</a> compares varieties and finishes.</p>

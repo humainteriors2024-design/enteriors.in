@@ -44,7 +44,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Room by room interior design treats a home as a set of small projects that share one budget, one palette and one work schedule. Each room has a different job: the kitchen is a workplace, a bedroom is mostly storage and rest, and the living room is where the family sits with its guests. This guide sets out what to decide first in each room, the sizes that keep it comfortable, how the money usually divides and the order of work on site.</p>
+<p>Room by room interior design treats a home as a set of small projects that share one budget, one palette and one work schedule. Each room has a different job: the kitchen is a workplace, a bedroom is mostly storage and rest, and the living room is where the family sits with its guests.</p>
+<p>This guide sets out what to decide first in each room, the sizes that keep it comfortable, how the money usually divides and the order of work on site.</p>
 
 <h2>How to plan a home room by room</h2>
 <p>Use the same four steps in every room. The order stops you from choosing a laminate colour before you know where the wardrobe will stand.</p>
@@ -88,7 +89,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 <h2>Bedrooms and private rooms</h2>
 <h3>Master bedroom</h3>
-<p>Bedroom design begins with the bed. Put the headboard against a solid wall with about 2 ft clear on each side, then give the longest remaining wall to the wardrobe. A wardrobe is 24 inches deep, so check that hinged doors can open fully without touching the bed, or choose sliding doors. Layouts are shown in <a href="/rooms/master-bedroom/">master bedroom design</a>. A dresser works best near daylight with a light on each side of the mirror; see <a href="/furniture/dressing-table-design/">dressing table design</a>.</p>
+<p>Bedroom design begins with the bed. Put the headboard against a solid wall with about 2 ft clear on each side, then give the longest remaining wall to the wardrobe. A wardrobe is 24 inches deep, so check that hinged doors can open fully without touching the bed, or choose sliding doors.</p>
+<p>Layouts are shown in <a href="/rooms/master-bedroom/">master bedroom design</a>. A dresser works best near daylight with a light on each side of the mirror; see <a href="/furniture/dressing-table-design/">dressing table design</a>.</p>
 <h3>Kids room</h3>
 <p>Plan a kids room to grow with the child. Build a full-height wardrobe with adjustable shelves and a hanging rail that can be raised, keep the bed as loose furniture that can be replaced, and leave open floor for play. Avoid themed built-in furniture that will be outgrown in a few years. More in <a href="/rooms/kids-room/">kids room ideas</a>.</p>
 <h3>Study and home office</h3>

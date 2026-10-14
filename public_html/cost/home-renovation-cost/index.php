@@ -28,7 +28,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 <p>Ask five contractors for a renovation quote and you'll get five numbers that differ by lakhs — for the same flat. That's not (always) dishonesty. It's because "renovation" can mean anything from a paint refresh to gutting the home down to brick. Until the scope is pinned down, the price can't be.</p>
 <p>This guide pins it down. We'll separate renovation into three clear scopes with per-sq-ft rates, give you room-by-room budgets for the two most expensive rooms in any renovation (kitchen and bathroom), expose the hidden costs that surface only after demolition, and end with a practical framework — including the contingency percentage we insist on for every project.</p>
-<h2>01.The Quick Answer</h2>
+<h2>The Quick Answer</h2>
 <h4>Cosmetic Refresh</h4>
 <p>₹150–400 / sq ft</p>
 <p>Painting, minor repairs, lighting swaps, soft furnishings. No civil work. A 1,000 sq ft 2BHK: <strong>₹1.5–4 L</strong>.</p>
@@ -39,7 +39,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>₹1,800–3,500+ / sq ft</p>
 <p>Demolition, civil changes, full plumbing/electrical rework, all-new interiors. A 2BHK: <strong>₹18–35 L+</strong>.</p>
 <div class="callout"><span class="callout__title">The one rule that saves projects</span>Whatever your estimate says, <strong>add a 10–15% contingency</strong> before you commit. Renovation is the only kind of interior work where you discover the real condition of the house <em>after</em> work begins — seepage behind tiles, corroded pipes, dead wiring. Projects fail on the surprises, not the plan.</div>
-<h2>02.Why Renovation Costs Differently Than New Interiors</h2>
+<h2>Why Renovation Costs Differently Than New Interiors</h2>
 <p>If you've priced interiors for a new flat, recalibrate — renovation carries four cost layers a new home never sees:</p>
 <ul>
   <li><strong>Demolition &amp; debris removal (₹15–40/sq ft).</strong> Old cabinetry, tiles, and false ceilings must be broken, bagged, carried down, and legally disposed of. In high-rises, debris lift charges and society rules add more.</li>
@@ -50,7 +50,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Image: Renovation in progress — kitchen stripped to brick, exposed old plumbing lines marked for rework <br>(replace: renovation-demolition-stage-kitchen.jpg)</p>
 <p>Image: The same kitchen after renovation — new modular units, quartz counter, task lighting <br>(replace: renovation-completed-kitchen.jpg)</p>
 <p>What quotes can't see: the state of walls and pipes behind old tiles is unknown until demolition day — which is why contingency isn't optional.</p>
-<h2>03.Renovation Cost Per Sq Ft, by Scope (Bangalore 2026)</h2>
+<h2>Renovation Cost Per Sq Ft, by Scope (Bangalore 2026)</h2>
 <div class="table-wrap">
 <table>
   <thead>
@@ -66,7 +66,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>Rates assume standard-grade materials. Premium finishes (veneer, acrylic, imported hardware, natural stone) push each band up 30–60% — for exactly what changes between grades, see our <a href="/cost/essential-vs-luxury-budget/">essential vs luxury interiors comparison</a>.</p>
-<h2>04.Full-Home Renovation Budgets by Flat Size</h2>
+<h2>Full-Home Renovation Budgets by Flat Size</h2>
 <div class="table-wrap">
 <table>
   <thead>
@@ -91,7 +91,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Flooring (partial)~₹1.0 L</p>
 <p>Contingency (~10%)~₹0.7 L</p>
 <p>Notice the kitchen and wardrobes alone consume half the budget — which is why the next two sections go deep on the rooms that decide your total.</p>
-<h2>05.Kitchen Renovation Cost, in Detail</h2>
+<h2>Kitchen Renovation Cost, in Detail</h2>
 <p>The kitchen is renovation's heavyweight: it combines carpentry, plumbing, electrical, gas, and ventilation in one small room. Typical 2026 budgets:</p>
 <div class="table-wrap">
 <table>
@@ -111,7 +111,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <div class="callout"><span class="callout__title">The ₹80,000 decision</span>Keeping your sink, gas point, and drainage where they are is the single biggest kitchen saving. Relocating them means breaking floors, rerouting pipes, and re-waterproofing — typically ₹30,000–80,000 before a single cabinet is built. Change the layout only if the current one genuinely fails you; our <a href="/blogs/l-shape-modular-kitchen-designs/">L-shape</a> and <a href="/blogs/u-shape-kitchen-designs/">U-shape kitchen guides</a> show what each layout does best.</div>
 <p>One more kitchen-specific warning: this is the wettest room in the house, so the plywood grade inside your cabinets matters more than the finish outside them. Insist on moisture-resistant cores — our <a href="/materials/marine-plywood/">BWP plywood guide</a> explains exactly what to specify and why.</p>
-<h2>06.Bathroom Renovation Cost, in Detail</h2>
+<h2>Bathroom Renovation Cost, in Detail</h2>
 <p>Per square foot, bathrooms are the most expensive space in any home — small rooms, dense with plumbing, tiling, and waterproofing. Typical budgets per bathroom:</p>
 <div class="table-wrap">
 <table>
@@ -131,7 +131,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Never economise here</span><strong>Waterproofing is the one line item you must never trim.</strong> A failed membrane means seepage into your own bedroom wall — or your downstairs neighbour's ceiling — and redoing it later costs 3–4× more because everything above it must be broken again. Insist on a proper waterproofing system with curing time and a written warranty.</div>
-<h2>07.Bedroom, Living Room &amp; Other Spaces</h2>
+<h2>Bedroom, Living Room &amp; Other Spaces</h2>
 <h3>Bedroom renovation: ₹1.5–4 L per room</h3>
 <p>Typically a wardrobe (₹80,000–2 L depending on size and finish), a headboard or panelled feature wall (₹30,000–80,000), false ceiling with cove (₹25,000–60,000), painting, and electrical updates. Add ₹40,000–1 L if flooring changes.</p>
 <h3>Living + dining renovation: ₹2–6 L</h3>
@@ -144,7 +144,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Main door refurbishment:</strong> polish or replacement — ₹8,000–60,000.</li>
   <li><strong>Safety/handover items:</strong> deep cleaning, pest treatment, touch-ups — ₹10,000–25,000.</li>
 </ul>
-<h2>08.The 7 Factors That Swing Your Cost Most</h2>
+<h2>The 7 Factors That Swing Your Cost Most</h2>
 <ol>
   <li><strong>Age of the property.</strong> Homes older than 15 years usually need full electrical rewiring (old wiring can't handle modern loads) and plumbing replacement — a ₹1.5–4 L layer newer flats skip.</li>
   <li><strong>Whether wet areas move.</strong> Relocating kitchens or bathrooms multiplies civil and plumbing cost, and in apartments may not be permitted at all.</li>
@@ -154,7 +154,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Living in vs moving out.</strong> Occupied renovations run 15–25% slower. Compare that cost with two months' rent nearby before deciding.</li>
   <li><strong>Scope creep.</strong> The famous "while we're at it..." Every mid-project addition is priced without competition and delays everything behind it. Freeze scope before demolition day.</li>
 </ol>
-<h2>09.Hidden Costs: The Post-Demolition Surprises</h2>
+<h2>Hidden Costs: The Post-Demolition Surprises</h2>
 <p>These are the items that most commonly appear <em>after</em> the quote is signed. Ask about every one of them upfront — and read our full guide to <a href="/blogs/hidden-costs-home-interiors/">hidden costs in home interiors</a> for the new-interiors equivalents:</p>
 <ul>
   <li><strong>Debris disposal beyond estimate</strong> — old flats often yield 30–50% more debris than assumed.</li>
@@ -179,7 +179,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Get itemised quotes only.</strong> Lump-sum quotes hide both padding and omissions.</li>
   <li><strong>Never skip waterproofing, wiring, or ply grade to save money.</strong> These are the three savings that always return as bigger bills.</li>
 </ol>
-<h2>11.Timelines &amp; a Safe Payment Structure</h2>
+<h2>Timelines &amp; a Safe Payment Structure</h2>
 <div class="table-wrap">
 <table>
   <thead>

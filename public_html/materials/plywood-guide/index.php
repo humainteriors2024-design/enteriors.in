@@ -100,7 +100,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>A long shelf that carries books or vessels needs a thicker board or a support in the middle. <a href="/materials/block-board/">Block board</a> is another option for long shelves and doors. Whatever thickness is quoted, it should be written into the quotation for each part, including the back panel.</p>
 
 <h2>Core, species and calibrated plywood</h2>
-<p>The grade tells you about the glue; the core tells you about the wood. Plywood made from hardwood veneers such as gurjan is denser and heavier, and it holds screws more firmly. Sheets with a softer core such as poplar are lighter and cheaper, and are acceptable for lightly loaded parts in dry rooms. Two sheets of the same grade can therefore differ a good deal in weight and price, so ask what the core is.</p>
+<p>The grade tells you about the glue; the core tells you about the wood. Plywood made from hardwood veneers such as gurjan is denser and heavier, and it holds screws more firmly. Sheets with a softer core such as poplar are lighter and cheaper, and are acceptable for lightly loaded parts in dry rooms.</p>
+<p>Two sheets of the same grade can therefore differ a good deal in weight and price, so ask what the core is.</p>
 <p>Calibrated plywood has been sanded to a uniform thickness across the whole sheet. This matters for modular, machine-made furniture, where the cutting, drilling and edge-banding machines are set to one thickness and an uneven sheet leaves stepped joints. It matters less for furniture built by hand on site, though an even sheet is still easier to work.</p>
 
 <h2>How to check a plywood sheet at site</h2>

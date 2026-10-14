@@ -22,11 +22,12 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<h2>01What is Duco paint finish, exactly?</h2>
-<p>"Duco" started as a DuPont trade name for nitrocellulose (NC) lacquer, but in the Indian and South Asian interior trade today it's used as a generic term for a sprayed, high-build paint finish on wood, MDF, or plywood — usually nitrocellulose or, increasingly, polyurethane (PU) based. Ask three carpenters what "Duco" means and you'll often get three slightly different answers, which is exactly why this guide separates the marketing term from the actual coating chemistry underneath it.</p>
+<h2>What is Duco paint finish, exactly?</h2>
+<p>"Duco" started as a DuPont trade name for nitrocellulose (NC) lacquer. In the Indian interior trade today it simply means a sprayed, high-build paint finish on wood, MDF or plywood. The paint is usually nitrocellulose or, increasingly, polyurethane (PU).</p>
+<p>Ask three carpenters what "Duco" means and you'll often get three slightly different answers, which is exactly why this guide separates the marketing term from the actual coating chemistry underneath it.</p>
 <p>The result is a smooth, often high-gloss or satin surface, available in essentially any custom colour, applied directly over a primed wood substrate rather than over a laminate or veneer sheet. That's the core distinction from laminate finishes: Duco is paint built up in multiple sprayed coats and sanded between layers, not a pre-manufactured sheet glued onto a panel.</p>
 <div class="callout"><span class="callout__title">Worth knowing</span>When a quote says "Duco finish," always ask whether it's <strong>NC (nitrocellulose)</strong> or <strong>PU (polyurethane)</strong> based. PU costs more but resists yellowing, moisture, and chipping noticeably better — the two get sold under the same word far too often.</div>
-<h2>02How it's actually applied</h2>
+<h2>How it's actually applied</h2>
 <p>Whether done in a factory spray booth or on-site by a contractor, the sequence is largely the same, and skipping steps here is where most "bad Duco job" complaints come from:</p>
 <ol>
   <li><strong>Surface preparation</strong> — the MDF or wood panel is sanded smooth and any joints or grain are filled with putty, since every imperfection shows through a glossy sprayed finish far more than it would under laminate.</li>
@@ -36,7 +37,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Curing &amp; buffing</strong> — the panel is left to cure (PU needs longer than NC) and, for high-gloss finishes, often buffed to remove any orange-peel texture and bring up the final shine.</li>
 </ol>
 <p>Because this is a wet, sprayed process, it's far more dependent on workmanship, dust control, and curing time than a factory laminate sheet is. A rushed cure or a dusty spray environment is the single biggest reason two "Duco" quotes at similar prices can produce visibly different quality.</p>
-<h2>03Where it actually gets used at home</h2>
+<h2>Where it actually gets used at home</h2>
 <ul>
   <li><strong>Wardrobe and cabinet shutters</strong> — the most common application, prized for a seamless, joint-free coloured front compared to laminate edge-banding.</li>
   <li><strong>Kitchen shutters</strong> — popular for matte and satin Duco in particular, though it needs more careful upkeep near hobs than glass or laminate.</li>
@@ -45,7 +46,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Decorative grills, frames &amp; metal accents</strong> — Duco-style spray paint is also used on MDF jaali work and some light metal trim, though true metal surfaces are more often powder-coated.</li>
   <li><strong>Ceiling cove and trim detailing</strong> — occasionally sprayed on POP or wood trims for a uniform, factory-smooth colour finish.</li>
 </ul>
-<h2>04Pros and cons, without the sales pitch</h2>
+<h2>Pros and cons, without the sales pitch</h2>
 <p>The honest version of this list depends heavily on whether you're getting PU or NC, and on the quality of the spray job — both of which we flag below.</p>
 <h3>What it genuinely does well</h3>
 <ul>
@@ -67,7 +68,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Higher cost than laminate</strong> for an equivalent area, owing to the labour-intensive multi-coat spray-and-sand process.</li>
 </ul>
 <div class="callout"><span class="callout__title">Honest take</span>If you want a seamless, richly coloured, slightly premium look on shutters or doors and you're ordering PU-grade Duco from a vendor whose previous work you can actually inspect, it's a strong choice. If you're price-shopping the cheapest "Duco finish" quote without knowing what's being sprayed, you're more likely to be disappointed within a couple of years than with a comparable laminate.</div>
-<h2>05Duco vs. the usual alternatives</h2>
+<h2>Duco vs. the usual alternatives</h2>
 <div class="table-wrap">
 <table>
   <thead>
@@ -84,7 +85,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>*Relative ranking only — region, brand of paint, and finish (matte/gloss/metallic) all shift this meaningfully; see the cost section for real drivers.</p>
-<h2>06What actually drives the price</h2>
+<h2>What actually drives the price</h2>
 <div class="table-wrap">
 <table>
   <thead>
@@ -101,7 +102,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Ask before you sign</span>Get the paint brand and whether it's NC or PU written on the quote, along with the number of coats. "Duco finish — ₹/sq.ft" with nothing else specified is the most common way buyers end up underwhelmed.</div>
-<h2>07Maintenance and everyday care</h2>
+<h2>Maintenance and everyday care</h2>
 <h3>Do</h3>
 <ul>
   <li>Wipe with a soft, dry or barely damp microfibre cloth for daily dusting.</li>
@@ -115,7 +116,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Don't let standing water sit at the base of Duco-finished kitchen shutters or near sink cabinets — substrate swelling, not paint failure, is usually what happens first.</li>
   <li>Don't use adhesive hooks or tapes long-term on glossy Duco surfaces; residue removal can mar the sheen.</li>
 </ul>
-<h2>08Durability and where it actually fails</h2>
+<h2>Durability and where it actually fails</h2>
 <p>Based on common issues reported by carpenters and homeowners over a few years of use, Duco finish problems tend to trace back to one of these:</p>
 <ul>
   <li><strong>NC paint ageing</strong> — nitrocellulose lacquer is more prone to yellowing, surface micro-cracking, and reduced gloss retention over 3–5 years, particularly with sun exposure, compared with PU.</li>
@@ -124,7 +125,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Substrate moisture ingress</strong> — once water gets behind the paint film at an unsealed joint or cut edge, the MDF beneath can swell, lifting or cracking the finish from underneath rather than the paint simply wearing out.</li>
 </ul>
 <p>A well-specified PU Duco job, properly cured and on good-quality MDF or wood, realistically holds up for 8–15 years of normal household use before a refresh is worth considering; NC-based jobs are more commonly refreshed in the 4–7 year range.</p>
-<h2>09Buying checklist — what to confirm before you order</h2>
+<h2>Buying checklist — what to confirm before you order</h2>
 <ul>
   <li>Confirmed in writing whether the paint system is NC or PU based.</li>
   <li>Number of coats specified (primer, colour coats, clear top coat) — not just "Duco finish" as a line item.</li>
@@ -135,5 +136,5 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Warranty terms covering chipping, yellowing, and peeling — not just general "manufacturing defects" language.</li>
   <li>A maintenance sheet from the vendor specifying safe cleaning agents for that particular paint system.</li>
 </ul>
-<h2>10Frequently asked questions</h2>
+<h2>Frequently asked questions</h2>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

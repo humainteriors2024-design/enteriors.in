@@ -178,7 +178,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </ul>
 
     <h2>Getting a quote you can compare</h2>
-    <p>Ask each firm for the same four numbers: base-unit rate per rft, wall-unit rate per rft, countertop rate per sq ft, and a list of accessories with brand and model. With those, quotes can be compared line by line instead of by the bottom figure. Our guide to <a href="/planning/how-to-choose-interior-designer/">choosing an interior designer</a> has the full question list, and the <a href="/cost/2-bhk-interior-cost/">2 BHK</a> and <a href="/cost/3-bhk-interior-cost/">3 BHK</a> cost guides show how the kitchen fits into a whole-home budget. For the whole flat, item by item, use the <a href="/calculators/home-interior-quote/">room-by-room quote builder</a>.</p>
+    <p>Ask each firm for the same four numbers: base-unit rate per rft, wall-unit rate per rft, countertop rate per sq ft, and a list of accessories with brand and model. With those, quotes can be compared line by line instead of by the bottom figure.</p>
+<p>Our guide to <a href="/planning/how-to-choose-interior-designer/">choosing an interior designer</a> has the full question list, and the <a href="/cost/2-bhk-interior-cost/">2 BHK</a> and <a href="/cost/3-bhk-interior-cost/">3 BHK</a> cost guides show how the kitchen fits into a whole-home budget. For the whole flat, item by item, use the <a href="/calculators/home-interior-quote/">room-by-room quote builder</a>.</p>
     <p>Not sure about colours? See <a href="/blogs/kitchen-colour-combinations/">two-colour laminate combinations</a>, the <a href="/materials/acrylic-finish/">acrylic finish guide</a> or <a href="/modular-kitchen/hardware-guide/">kitchen hardware explained</a>.</p>
     <?= component('faq') ?>
   </div>

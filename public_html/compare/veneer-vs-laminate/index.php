@@ -33,14 +33,14 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Two homeowners walk into the same showroom. Both want a modular kitchen. One walks out with full veneer, ₹3.2 lakhs lighter. The other walks out with a smart laminate-veneer mix, the same look in photos, ₹1.4 lakhs in their pocket. The only difference? One had read this guide.</p>
 <p>Laminate or veneer is the single most expensive material decision in your home interior — and the most misunderstood. Most guides online tell you that laminate is "durable and cheap" and veneer is "luxurious and natural" and call it a day. That tells you what each material is. It does not tell you which is right for your home.</p>
 <p>We've installed both finishes across hundreds of Bangalore and Hosur homes. This guide is the conversation we have with every client who asks the question, written down properly for the first time.</p>
-<h2>00 — In a hurryThe 2-minute answer</h2>
+<h2>The 2-minute answer</h2>
 <h3>Short version, before you scroll</h3>
 <p>Laminate is a synthetic decorative sheet pressed onto your board. Cheaper, more durable, more uniform, easier to maintain. Veneer is a real slice of wood pasted onto your board. More expensive, more elegant, more authentic, more demanding.</p>
 <p>Neither is universally "better". The right answer depends on where the furniture is going, how much you cook, and how long you'll live in the home. Here's the snap verdict:</p>
 <p><strong>The best answer for 80% of homes:</strong> use both. Laminate where it works hardest, veneer where it's most seen. See the hybrid approach →</p>
 <?= img('modern-modular-kitchen-with-mix-of-laminate-and-veneer-finis') ?>
 <p>A real Enteriors project — laminate on the daily-use lowers, veneer panelling on the statement upper wall.</p>
-<h2>01 — DefinitionsWhat is laminate, really?</h2>
+<h2>What is laminate, really?</h2>
 <p>A laminate is a decorative composite sheet made by pressing multiple layers of kraft paper, decorative print paper and clear protective resin under extreme heat (around 140°C) and high pressure (over 1,400 PSI). The result is a thin, hard, plastic-like surface — usually between 0.8mm and 1.2mm thick — that gets glued onto a base board like MDF, plywood or HDF.</p>
 <p>The decorative layer (the print sheet just below the protective top) is what gives laminate its colour or wood-grain pattern. Because this is printed, laminate can mimic almost any material — Italian marble, Burmese teak, brushed concrete, even brushed brass — at a fraction of the cost.</p>
 <h3>The four types of laminate you'll see in quotations</h3>
@@ -59,7 +59,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Curved edges</p>
 <h3>The grain you see is a printed photograph</h3>
 <p>Here's the part most homeowners miss: when you look at a "walnut wood" laminate, you are looking at a high-resolution photograph of real walnut wood, printed on paper, sealed under resin. This is why two sheets of the same wooden laminate look identical — and why a careful eye can spot the repeat after a few square metres. Premium laminate brands use multiple print patterns and randomise them to mask this; cheap laminate doesn't bother.</p>
-<h2>02 — DefinitionsWhat is veneer, really?</h2>
+<h2>What is veneer, really?</h2>
 <?= img('natural-wood-veneer-sheet-with-grain-texture') ?>
 <p>A natural wood veneer sheet — no two are ever identical because the grain is grown, not printed.</p>
 <p>A veneer is a thin slice of real wood — typically between 0.3mm and 0.6mm — peeled or sliced directly from a tree log, then glued onto a stronger base board (most commonly plywood or MDF). Where laminate fakes the look of wood through printing, veneer <em>is</em> wood. That distinction is the entire reason for the price gap.</p>
@@ -82,10 +82,11 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h4>Smoked / Dyed Veneer</h4>
 <p>Veneer dyed during manufacturing to a specific colour — grey, white, deep black. Lets you get the wood grain in a non-wood colour. Good for modern, design-led interiors where you want the texture without the wood tone.</p>
 <h3>How veneer is finished — and why it matters</h3>
-<p>A raw veneer is dull and unprotected. To make it usable as a furniture surface, it has to be sealed with a top coat — usually <strong>PU (polyurethane) finish</strong> or melamine polish. The top coat is what gives veneer its sheen, depth and protection. This means when you pay for "veneer finish", you're actually paying for veneer + the top coat applied over it. Cheap veneer with no proper top coat will scratch, stain and fade in 2–3 years. Premium veneer with a 6-coat PU finish can last 15+ years.</p>
+<p>A raw veneer is dull and unprotected. To make it usable as a furniture surface, it has to be sealed with a top coat — usually <strong>PU (polyurethane) finish</strong> or melamine polish. The top coat is what gives veneer its sheen, depth and protection.</p>
+<p>This means when you pay for "veneer finish", you're actually paying for veneer + the top coat applied over it. Cheap veneer with no proper top coat will scratch, stain and fade in 2–3 years. Premium veneer with a 6-coat PU finish can last 15+ years.</p>
 <h4>The line most homeowners miss</h4>
 <p>Veneer is the substrate, not the finish. A "veneer kitchen" is technically a veneer-and-PU kitchen. If a vendor quotes "veneer" without specifying the top coat, ask: melamine, PU, or NC lacquer? PU costs more but lasts twice as long.</p>
-<h2>03 — ComparisonThe 14-point head-to-head</h2>
+<h2>The 14-point head-to-head</h2>
 <p>Everyone publishes a "laminate vs veneer" table. Most stop at six rows. Here is the full one, the one we actually use with clients.</p>
 <div class="table-wrap">
 <table>
@@ -110,7 +111,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<h2>04 — InvestmentReal 2026 cost in India</h2>
+<h2>Real 2026 cost in India</h2>
 <p>Most online comparisons say "veneer is expensive, laminate is affordable" and stop there. Useless. Here is what each finish actually costs in India in 2026, by quality tier, including all top coats.</p>
 <h4>Laminate — per square foot, installed</h4>
 <p>Budget laminate (0.8mm)</p>
@@ -139,7 +140,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Natural teak veneer + PU finish:</strong> ₹50,000 – 70,000</li>
 </ul>
 <p>The gap is real — and that's only for the kitchen. Apply the same logic across wardrobes, TV unit and dining, and the full-home difference between laminate and veneer easily clears ₹2 lakhs on a 3BHK. Which is what makes the next section the most important one in this guide.</p>
-<h2>05 — InteractiveFind your match in 60 seconds</h2>
+<h2>Find your match in 60 seconds</h2>
 <p>Answer five quick questions. We'll tell you whether your home wants laminate, veneer, or a hybrid — and why. No email, no signup. Just the verdict.</p>
 <p>Live Decision Tool</p>
 <h3>The Laminate vs Veneer Finder</h3>
@@ -151,7 +152,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Question 5 of 5How often will this surface actually get used?</p>
 <div class="callout"><span class="callout__title">Your verdict</span><h4>—</h4>
 <p>—</div>
-<h2>06 — Room-by-roomThe verdict for every room in your home</h2>
+<h2>The verdict for every room in your home</h2>
 <p>Generic advice fails because every room of an Indian home has different demands. Here's our specific recommendation for the seven places this question actually comes up.</p>
 <h4>Modular Kitchen</h4>
 <p>Laminate</p>
@@ -179,7 +180,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Veneer on the back wall or library shelving for ambience; laminate on the desk and storage drawers for daily wear. Mixes well within the same room.</p>
 <?= img('luxury-living-room-with-veneer-tv-unit-and-warm-wood-panelli') ?>
 <p>A textbook veneer placement — natural wood grain on the TV wall, where it's most seen and least touched.</p>
-<h2>07 — InsiderThe hybrid approach (what designers actually do)</h2>
+<h2>The hybrid approach (what designers actually do)</h2>
 <h3>The 70-30 rule we use with most clients</h3>
 <p>For roughly 8 in 10 homes, the right answer is not laminate <em>or</em> veneer. It's both — strategically allocated. We call it the 70-30 split: roughly 70% of the surfaces in laminate, 30% in veneer, placed where it'll be seen and admired but rarely abused.</p>
 <p>The result looks like a full-veneer home from the entrance, performs like a laminate home in daily use, and costs 40–55% less than going veneer on everything.</p>
@@ -200,7 +201,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Any rental or short-stay property</li>
 </ul>
 <p>Pair this with consistent hardware (the same handle finish across both laminate and veneer units) and the join becomes invisible. Most guests cannot tell which is which.</p>
-<h2>08 — Honest5 scams every homeowner falls for</h2>
+<h2>5 scams every homeowner falls for</h2>
 <ol>
   <li><strong>The "recon veneer sold as natural" trick.</strong> Reconstituted veneer costs 30–50% less than natural — but visually looks similar to an untrained eye. Many vendors quote natural prices and ship recon. Ask for the species name and origin in writing: "natural Burma teak" or "natural American walnut". Vague answers mean recon.</li>
   <li><strong>The "veneer ply" bundle.</strong> Vendors sometimes quote a "veneer finish kitchen" at suspiciously low rates by skipping the top coat — leaving you with raw veneer that scratches and stains within months. Always insist on PU finish or melamine top coat in the BOQ.</li>
@@ -208,7 +209,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>The "matching grain" promise.</strong> Natural veneer cannot perfectly match across multiple shutters. If a vendor promises identical grain on 8 shutters of natural teak veneer, they're either selling you recon or planning to swap mid-job. Set expectations early.</li>
   <li><strong>The "lifetime warranty" claim.</strong> No interior finish has a lifetime warranty in any honest sense. Realistic warranties: 5 years on laminate, 7–10 years on veneer with proper PU finish. Anything beyond that is marketing.</li>
 </ol>
-<h2>09 — VerifyThe quality detection checklist</h2>
+<h2>The quality detection checklist</h2>
 <p>Whether you've gone laminate, veneer or both, run through this checklist before signing off. These are the seven checks our quality team does on every unit before it leaves the factory.</p>
 <p>01</p>
 <p><strong>Brand and code stamped on the back.</strong> Genuine HPL laminate from Merino, Greenlam, Sundek, Royale Touche etc. carries a printed code on the reverse side. No code = no traceability = likely counterfeit.</p>
@@ -236,7 +237,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Day-to-day care:</strong> dust weekly with a soft cloth. Quarterly polish with a veneer-specific wax or compound. Keep out of direct sun where possible — south-facing windows will fade veneer over years. Refinishing every 8–10 years adds 5+ years of life each cycle.</p>
 <h4>The 10-year cost reality</h4>
 <p>Laminate kitchen at ₹150/sqft, expected replacement at year 10: total 10-year cost ≈ ₹150/sqft. Veneer kitchen at ₹500/sqft, with one ₹100/sqft refinish at year 8: total 10-year cost ≈ ₹600/sqft. Veneer is ~4x the laminate cost over a decade — not the 3x sticker difference would suggest. Worth knowing before you commit.</p>
-<h2>11 — VerdictThe right call by budget tier</h2>
+<h2>The right call by budget tier</h2>
 <p>One last lens. Whatever the room, here's how we'd advise based on the overall interior budget you're working with.</p>
 <p>BudgetUnder ₹15 lakh</p>
 <p><strong>Go all-laminate.</strong> Don't even consider veneer at this tier — the budget will not stretch to do veneer properly, and badly-applied veneer is worse than a great laminate. Spend the saved money on better hardware, better lighting, and BWP/HDHMR boards. Use premium HPL (1mm) for visible surfaces, standard LPL for internal carcasses.</p>

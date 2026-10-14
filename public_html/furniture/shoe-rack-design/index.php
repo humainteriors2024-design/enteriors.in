@@ -96,7 +96,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Use BWR plywood or HDHMR with laminate; avoid unsealed MDF and particle board, which swell when wet shoes and mopping water reach them. Metal shelves and perforated steel work well in utility areas. See the <a href="/materials/">materials guide</a> for board grades.</p>
 
 <h2>Foyer layout</h2>
-<p>A good foyer combines the shoe cabinet with a bench, hooks or a closet for bags and umbrellas, a key tray and a mirror. Keep the walkway at least 900 mm clear in front, and light it with a sensor or a soft cove so it is usable at night. For the full entrance, see the <a href="/rooms/foyer-entrance/">foyer and entrance guide</a>, and for the door itself, <a href="/doors/main-door-design/">main door design</a>. Price a foyer unit in the <a href="/calculators/home-interior-quote/">quote builder</a>.</p>
+<p>A good foyer combines the shoe cabinet with a bench, hooks or a closet for bags and umbrellas, a key tray and a mirror. Keep the walkway at least 900 mm clear in front, and light it with a sensor or a soft cove so it is usable at night.</p>
+<p>For the full entrance, see the <a href="/rooms/foyer-entrance/">foyer and entrance guide</a>, and for the door itself, <a href="/doors/main-door-design/">main door design</a>. Price a foyer unit in the <a href="/calculators/home-interior-quote/">quote builder</a>.</p>
 <h2>Worked example: a foyer unit for a 3 BHK</h2>
 <div class="table-wrap">
 <table>

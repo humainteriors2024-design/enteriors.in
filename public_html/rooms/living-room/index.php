@@ -45,7 +45,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Current Trends</li>
   <li>Complete Planning Checklist</li>
 </ol>
-<h2>1. Understanding the Role of a Living Room</h2>
+<h2>Understanding the Role of a Living Room</h2>
 <p>The living room is the only space in your home that carries a dual burden: it must impress guests and comfort family simultaneously. It is the first room visitors see, the last room most families leave at night, and the most photographed space in every home renovation reel.</p>
 <p>In modern Indian homes, the living room has evolved dramatically. It is no longer just a formal seating area reserved for guests. Today it is:</p>
 <ul>
@@ -58,7 +58,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>In larger homes (3BHK+, villas), a distinction often arises. A <strong>formal living room</strong> near the entrance is curated for guests, kept tidy, and designed with premium materials. A <strong>family room</strong> deeper in the home is casual, child-friendly, and built for everyday use. If you're planning a large home, consider having both — you'll never regret it.</p>
 <h3>Multi-Functional Living in Apartments</h3>
 <p>In 1BHK and compact 2BHK apartments, the living room often merges with the dining area, study nook, or even a guest sleeping space. This demands thoughtful zoning using rugs, lighting, and furniture placement — a skill we'll cover in the layout section.</p>
-<h2>2. Living Room Planning Fundamentals</h2>
+<h2>Living Room Planning Fundamentals</h2>
 <p>Before you visit a single showroom or open a single design app, spend time answering these foundational questions. Every design decision that follows should trace back to these answers.</p>
 <h3>Assessing Your Family's Requirements</h3>
 <div class="table-wrap">
@@ -82,7 +82,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Entertainment Room</strong> <br> TV-centric. Large screen, surround sound, blackout curtains, recliners. Low ambient light.</p>
 <p><strong>Living + Dining Combo</strong> <br> Common in apartments. Requires careful zoning with rugs, lighting, and visual separation.</p>
 <p><strong>Living + Pooja Integration</strong> <br> Traditional homes. Requires a dedicated Pooja corner with proper Vastu alignment.</p>
-<h2>3. Living Room Size Planning</h2>
+<h2>Living Room Size Planning</h2>
 <h3>Typical Dimensions by Home Type</h3>
 <div class="table-wrap">
 <table>
@@ -106,7 +106,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Sofa back to wall:</strong> At least 8–10 cm for air circulation and wall protection</li>
 </ul>
 <p><strong>⚠️ Enteriors Tip:</strong> Always plan with a measured floor plan — even a hand-drawn one with accurate dimensions. Furniture that looks perfect on a showroom floor can make a room feel like a corridor once it is placed. Use graph paper or a free app like Planner 5D to test layouts before buying.</p>
-<h2>4. Living Room Layout Planning</h2>
+<h2>Living Room Layout Planning</h2>
 <p>Layout is the single most impactful decision you will make — more than the colour on your walls or the sofa you choose. A poor layout makes even expensive furniture feel cramped. A great layout makes a modest room feel generous.</p>
 <h3>The 5 Most Popular Layouts for Indian Living Rooms</h3>
 <h4>1. Linear Layout (Sofa Facing TV)</h4>
@@ -121,7 +121,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Furniture is pulled away from the walls and arranged around a central focal point — often a statement coffee table or a rug. Creates a lounge-like feel and is gaining popularity in premium modern homes. Best for: Square rooms, living rooms where the TV is not the dominant feature.</p>
 <h3>Traffic Flow Planning — The Rule Most People Ignore</h3>
 <p>Before finalising any layout, draw the movement paths in your room: entry to sofa, sofa to balcony, sofa to dining, main door to corridor. Every one of these paths should be 90 cm or wider. Furniture that blocks a natural traffic path will frustrate you every single day.</p>
-<h2>5. Living Room Interior Design Styles</h2>
+<h2>Living Room Interior Design Styles</h2>
 <p>Your design style is the visual language of your living room. It dictates material choices, furniture silhouettes, colour palettes, and the overall mood of the space. Here is an honest breakdown of the styles most relevant to Indian homeowners.</p>
 <h3>🏙️ Modern</h3>
 <p><strong>Characteristics:</strong> Clean lines, minimal ornamentation, mix of metal and glass with wood, neutral base with bold accents.</p>
@@ -160,7 +160,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Budget range:</strong> ₹1.5 – ₹6 Lakhs. Boho can be achieved beautifully on a budget with curated thrift and handcraft shopping.</p>
 <p><strong>Maintenance:</strong> Moderate to high. Lots of fabrics and knick-knacks accumulate dust quickly.</p>
 <p><strong>💡 Style Selection Tip:</strong> Don't pick a style because it looks good on Instagram. Pick a style that matches your lifestyle. A Bohemian home requires patience for maintenance. A Luxury Modern home requires a housekeeper. Ask yourself: "Am I willing to live this style every day?" before committing.</p>
-<h2>6. Colour Selection Guide</h2>
+<h2>Colour Selection Guide</h2>
 <p>Colour is the most affordable and most impactful element in interior design. It sets the mood, affects the perceived size of the room, and ties every other element together. Choose wrong, and even the most expensive furniture looks out of place.</p>
 <h3>Colour Psychology for Living Rooms</h3>
 <div class="table-wrap">
@@ -191,7 +191,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Dark room (low natural light):</strong> Warm whites (not stark white) and warm lighting to compensate</li>
   <li><strong>Large room:</strong> Can handle deeper, bolder colours without feeling oppressive</li>
 </ul>
-<h2>7. Flooring Selection Guide</h2>
+<h2>Flooring Selection Guide</h2>
 <p>Flooring is one of the most permanent decisions in your living room — and one of the most expensive to redo. Choose thoughtfully, not just for looks, but for durability, maintenance, and how it will age over years of daily use.</p>
 <div class="table-wrap">
 <table>
@@ -210,7 +210,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p><strong>⚠️ Enteriors Recommendation:</strong> In Indian climates, avoid solid hardwood flooring as a primary choice — humidity warps it over time. Engineered wood or SPC gives you the warm look of wood with far better moisture resistance. If you want the premium look at a mid-range price, high-quality GVT tiles with a wood or marble pattern are an excellent choice.</p>
-<h2>8. Ceiling Design Planning</h2>
+<h2>Ceiling Design Planning</h2>
 <p>The ceiling is the most underestimated surface in a living room. Designers call it the "fifth wall" — and a well-designed ceiling can completely transform the feel of a space, adding depth, drama, or warmth depending on the treatment.</p>
 <h3>False Ceiling Options Compared</h3>
 <div class="table-wrap">
@@ -234,7 +234,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Floating Ceiling:</strong> A portion of the ceiling appears to "float" with a gap and lit from below — a favourite in luxury interiors.</li>
   <li><strong>Minimal Ceiling:</strong> No false ceiling; a clean flat surface with a single designer pendant or chandelier. Best for homes with 10ft+ ceiling height.</li>
 </ul>
-<h2>9. Wall Design Guide</h2>
+<h2>Wall Design Guide</h2>
 <p>Your walls are the largest canvas in the room. Most homeowners default to plain painted walls, but even a single well-designed feature wall can elevate a living room from ordinary to memorable.</p>
 <h3>Paint Finishes</h3>
 <ul>
@@ -259,7 +259,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<h2>10. TV Unit Planning Guide</h2>
+<h2>TV Unit Planning Guide</h2>
 <p>The TV unit is the visual anchor of most Indian living rooms. It sets the tone for the entire space and needs to balance aesthetics with serious storage and technology requirements.</p>
 <h3>Types of TV Units</h3>
 <ul>
@@ -291,7 +291,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<h2>11. Sofa Selection Guide</h2>
+<h2>Sofa Selection Guide</h2>
 <p>Your sofa is the most used piece of furniture in the home. It needs to be comfortable enough for marathon Netflix sessions, durable enough for everyday family life, and beautiful enough to anchor your living room's design.</p>
 <h3>Sofa Types — Which One is Right for You?</h3>
 <div class="table-wrap">
@@ -356,7 +356,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<h2>14. Lighting Design Guide</h2>
+<h2>Lighting Design Guide</h2>
 <p>Lighting is the single most underinvested element in Indian living rooms — and the one that professional designers obsess over most. A room lit with a single overhead light feels flat, harsh, and institutional. A room with layered lighting feels warm, dimensional, and intentional.</p>
 <h3>The Three Layers of Lighting — Plan All Three</h3>
 <p><strong>1. Ambient (General) Lighting</strong> — the base layer. Provides overall illumination. Achieved via: false ceiling downlights, cove lights, chandeliers. Aim for 150–200 lux in a living room.</p>
@@ -385,7 +385,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>5000K+ (Cool White / Daylight):</strong> Avoid in living rooms. Feels harsh and clinical. Reserve for kitchens and bathrooms.</li>
 </ul>
 <p><strong>💡 Pro Tip:</strong> Use dimmable switches for all your ambient lighting. The ability to lower the light level in the evening is one of the highest-value upgrades you can make. Budget ₹300–₹500 extra per switch; the difference in ambience is remarkable.</p>
-<h2>15. Electrical Planning</h2>
+<h2>Electrical Planning</h2>
 <p>Electrical planning is the foundation that must be laid before any walls are plastered, any false ceiling is built, and any furniture is placed. Changes after execution are expensive, messy, and disruptive. Plan this in detail, upfront.</p>
 <h3>Living Room Electrical Planning Checklist</h3>
 <ul>
@@ -398,7 +398,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>✅ <strong>Switch locations:</strong> Main light switch near entry; dimmer switch accessible from sofa position</li>
   <li>✅ <strong>Concealed wiring:</strong> All wires run through PVC conduit inside walls — never surface run in a living room</li>
 </ul>
-<h2>16. Window &amp; Curtain Planning</h2>
+<h2>Window &amp; Curtain Planning</h2>
 <p>Curtains do far more than block light — they frame the room, add softness to hard architectural surfaces, and control privacy, acoustics, and thermal comfort. A room without curtains almost always looks unfinished.</p>
 <h3>Curtain Types</h3>
 <ul>
@@ -441,7 +441,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<h2>19. Living Room Technology Planning</h2>
+<h2>Living Room Technology Planning</h2>
 <p>Smart home technology is no longer the exclusive domain of premium builds. Thoughtful tech integration in the living room significantly improves daily comfort, energy efficiency, and the overall experience of the space.</p>
 <ul>
   <li><strong>Smart Lighting:</strong> Philips Hue or similar systems let you control colour temperature and brightness by time of day or mood. Integrate with voice assistants for hands-free control.</li>
@@ -451,7 +451,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Smart AC Control:</strong> Smart plugs or dedicated smart ACs allow temperature scheduling and remote control — reducing energy waste significantly.</li>
 </ul>
 <p><strong>💡 Future-Proofing Tip:</strong> Even if you're not ready for smart home technology today, run the conduit pipes during construction. The cost of adding pipes during civil work is near zero. The cost of retrofitting them after walls are plastered is enormous.</p>
-<h2>20. Vastu for Living Room (India-Focused)</h2>
+<h2>Vastu for Living Room (India-Focused)</h2>
 <p>Whether you follow Vastu as a spiritual practice or simply appreciate its logic (many of its principles align with common sense spatial planning), here are the widely accepted guidelines for Indian living rooms.</p>
 <div class="table-wrap">
 <table>
@@ -469,7 +469,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<h2>21. Material Selection Guide for Living Room Furniture</h2>
+<h2>Material Selection Guide for Living Room Furniture</h2>
 <div class="table-wrap">
 <table>
   <thead>
@@ -486,7 +486,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<h2>22. Living Room Budget Planning</h2>
+<h2>Living Room Budget Planning</h2>
 <p>One of the most searched questions in Indian home design is "How much does a living room interior cost?" Here is an honest, current breakdown across four tiers.</p>
 <div class="table-wrap">
 <table>
@@ -519,7 +519,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p><strong>💡 Enteriors Budget Wisdom:</strong> Always keep a 10–15% contingency buffer. In every living room project — regardless of budget — there are surprises: an uneven wall that needs extra preparation, a tile that's out of stock, a light fitting that takes 3 weeks to deliver. Budget for the unexpected and you will never be stressed.</p>
-<h2>23. Living Room Execution Process — Step by Step</h2>
+<h2>Living Room Execution Process — Step by Step</h2>
 <p>Even the most beautiful design fails when execution is chaotic. Here is the sequence that every professional interior designer follows — and that every homeowner should insist upon.</p>
 <ol>
   <li><strong>Requirement Gathering</strong> — Document family needs, style preferences, budget limits, and timeline.</li>
@@ -538,7 +538,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Curtain Fitting</strong> — Curtain tracks or rods fitted, curtains hung and dressed.</li>
   <li><strong>Styling &amp; Décor</strong> — The final layer: rugs, cushions, plants, artwork, accessories placed.</li>
 </ol>
-<h2>24. Common Mistakes Homeowners Make (And How to Avoid Them)</h2>
+<h2>Common Mistakes Homeowners Make (And How to Avoid Them)</h2>
 <div class="table-wrap">
 <table>
   <thead>
@@ -555,7 +555,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<h2>25. Living Room Maintenance Guide</h2>
+<h2>Living Room Maintenance Guide</h2>
 <p>A beautiful living room stays beautiful only with consistent care. Here is your maintenance schedule broken down by category.</p>
 <div class="table-wrap">
 <table>
@@ -573,7 +573,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<h2>27. Living Room Trends (2026 &amp; Beyond)</h2>
+<h2>Living Room Trends (2026 &amp; Beyond)</h2>
 <p>Design trends are a starting point — not a rulebook. Use them to keep your home feeling current, but always filter them through your personal style and practical needs.</p>
 <ul>
   <li><strong>Curved Furniture:</strong> Rounded sofas, arched doorways, and organic furniture silhouettes are replacing rigid angular forms. Feels warmer and more human.</li>
@@ -585,7 +585,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Multi-Functional Furniture:</strong> Storage ottomans, sofa cum beds, extendable coffee tables, and modular shelving are essential in urban apartment living.</li>
   <li><strong>Minimal Luxury:</strong> The old equation of "more = premium" is giving way to fewer, better pieces with exceptional craftsmanship and materials.</li>
 </ul>
-<h2>29. The Complete Living Room Planning Checklist</h2>
+<h2>The Complete Living Room Planning Checklist</h2>
 <p>Print this or save it to your notes. Work through it in order before finalising any purchase or execution decision.</p>
 <h3>📐 Measurements</h3>
 <ul>

@@ -105,7 +105,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ol>
 
 <h2>What colour research does and does not show</h2>
-<p>Colour affects how a room <em>feels</em>, but research on colour and mood is less certain than popular articles suggest: responses vary with culture, age, light and saturation more than with hue alone. Practical effects are better established: light, high-LRV colours make rooms feel larger and brighter; low-saturation colours are easier to live with for years; strong contrast draws the eye. The evidence is summarised in <a href="/colour/colour-psychology/">colour psychology at home</a>, with traditional directional colour guidance covered in the <a href="/vastu/">vastu guide</a>.</p>
+<p>Colour affects how a room <em>feels</em>, but research on colour and mood is less certain than popular articles suggest: responses vary with culture, age, light and saturation more than with hue alone.</p>
+<p>Practical effects are better established: light, high-LRV colours make rooms feel larger and brighter; low-saturation colours are easier to live with for years; strong contrast draws the eye. The evidence is summarised in <a href="/colour/colour-psychology/">colour psychology at home</a>, with traditional directional colour guidance covered in the <a href="/vastu/">vastu guide</a>.</p>
 <h2>Colour by room: a quick reference</h2>
 <div class="table-wrap">
 <table>

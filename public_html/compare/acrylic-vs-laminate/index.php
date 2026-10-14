@@ -48,7 +48,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Laminate and acrylic are the two finishes most homeowners end up choosing between for kitchen and wardrobe shutters. Both are thin sheets bonded to a board, both come in matte and gloss, and across a showroom they can look alike. They behave differently once the cooking starts. This comparison belongs to our guide to <a href="/materials/">interior design materials</a> and sets acrylic vs laminate side by side on looks, wear, cleaning and cost, with indicative Bengaluru prices for October 2026.</p>
+<p>Laminate and acrylic are the two finishes most homeowners end up choosing between for kitchen and wardrobe shutters. Both are thin sheets bonded to a board, both come in matte and gloss, and across a showroom they can look alike. They behave differently once the cooking starts.</p>
+<p>This comparison belongs to our guide to <a href="/materials/">interior design materials</a> and sets acrylic vs laminate side by side on looks, wear, cleaning and cost, with indicative Bengaluru prices for October 2026.</p>
 
 <h2>What laminate and acrylic are</h2>
 <p><strong>Laminate</strong> is made from layers of paper soaked in resin and pressed under heat into a hard sheet about 0.8–1 mm thick. The top layer is a printed paper sealed with hard resin, which is why laminate can carry any colour, grain or pattern. The sheet is pressed onto plywood, HDHMR or MDF. Grades and textures are covered in the <a href="/materials/laminate-guide/">laminate guide</a>.</p>
@@ -96,7 +97,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 <h2>Cost: what moving to acrylic adds</h2>
 <p>The finish changes the cabinet price, not the whole kitchen. Acrylic costs about 1.3–1.4 times the same kitchen cabinet in laminate, and up to about 1.6 times with the dearest sheets.</p>
-<p>Take the standard-grade L-shape kitchen in our <a href="/modular-kitchen/">modular kitchen guide</a>: about 10 ft of base units and 8 ft of wall units, at roughly ₹1.9–2.6 lakh including GST. At ₹4,500–6,000 per running foot of base unit, with wall units at about 65% of that rate, the cabinets come to roughly ₹68,000–91,000 before GST in laminate. Moving every shutter to acrylic adds about ₹24,000–43,000 including 18% GST and takes the total to roughly ₹2.15–3 lakh. The countertop, accessories and installation stay the same.</p>
+<p>Take the standard-grade L-shape kitchen in our <a href="/modular-kitchen/">modular kitchen guide</a>: about 10 ft of base units and 8 ft of wall units, at roughly ₹1.9–2.6 lakh including GST.</p>
+<p>At ₹4,500–6,000 per running foot of base unit, with wall units at about 65% of that rate, the cabinets come to roughly ₹68,000–91,000 before GST in laminate. Moving every shutter to acrylic adds about ₹24,000–43,000 including 18% GST and takes the total to roughly ₹2.15–3 lakh. The countertop, accessories and installation stay the same.</p>
 <p class="table-note">Indicative Bengaluru figures for October 2026. The addition depends on the sheet type and the core board.</p>
 <p>Wardrobes are priced per square foot of front, and acrylic raises that rate in a broadly similar proportion. To price your own lengths, the <a href="/calculators/modular-kitchen/">modular kitchen calculator</a> shows the same kitchen in laminate and in acrylic.</p>
 

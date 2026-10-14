@@ -82,7 +82,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <div class="callout callout--warn"><span class="callout__title">Keep flames away from the door</span>Place diyas and camphor on a metal or stone plate at least 300 mm from the door line and from any wood shelf above. Avoid fabric curtains behind jaali, and do not fit PVC or acrylic sheet panels near flames.</div>
 
 <h2>Pooja units without a separate room</h2>
-<p>In compact apartments the pooja space is often a wall unit or a niche in the living or dining room. Here the "door" is a pair of shutters on the unit, usually 600–1000 mm wide, in jaali, fluted glass or wood. Keep the unit at least 900 mm above the floor if you pray standing, or at sitting height if you sit. Costs for complete units are in <a href="/cost/pooja-room-cost/">pooja room cost</a>, and traditional placement guidance is in <a href="/vastu/pooja-room-vastu/">pooja room vastu</a>.</p>
+<p>In compact apartments the pooja space is often a wall unit or a niche in the living or dining room. Here the "door" is a pair of shutters on the unit, usually 600–1000 mm wide, in jaali, fluted glass or wood.</p>
+<p>Keep the unit at least 900 mm above the floor if you pray standing, or at sitting height if you sit. Costs for complete units are in <a href="/cost/pooja-room-cost/">pooja room cost</a>, and traditional placement guidance is in <a href="/vastu/pooja-room-vastu/">pooja room vastu</a>.</p>
 <h2>Jaali patterns and what they suit</h2>
 <div class="table-wrap">
 <table>

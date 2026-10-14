@@ -53,7 +53,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Every year brings new looks to showrooms, catalogues and newly finished homes. Some fix a real problem and stay. Others look tired within a few years, or are expensive to remove once built in. This guide covers 13 interior design trends of 2026, explains where each works in an Indian home, and gives a plain verdict: lasting, use in small doses, or likely to date. The verdicts are the editorial opinion of this site, not the result of any survey or sales data.</p>
+<p>Every year brings new looks to showrooms, catalogues and newly finished homes. Some fix a real problem and stay. Others look tired within a few years, or are expensive to remove once built in.</p>
+<p>This guide covers 13 interior design trends of 2026, explains where each works in an Indian home, and gives a plain verdict: lasting, use in small doses, or likely to date. The verdicts are the editorial opinion of this site, not the result of any survey or sales data.</p>
 
 <h2>How to read a trend</h2>
 <p>Put anything described as current through three questions.</p>
@@ -154,5 +155,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p class="table-note">Indicative Bengaluru rates for October 2026, including GST, for kitchen, wardrobes, TV unit, false ceiling, painting, lighting and curtains. Loose furniture, flooring and bathrooms are extra. Hosur is usually 5–10% lower.</p>
-<p>In essential grade, spend on boards and hardware and let colour carry the trend. In standard grade, choose one feature per room. In premium grade the risk is too many features competing in one space. Estimate your own home in the <a href="/calculators/home-interior-quote/">interior cost calculator</a>, and ask for each trend-led item as a separate line in the quotation so it can be removed later. For the longer view, see <a href="/styles/">interior design styles</a> and the <a href="/materials/">materials guide</a>.</p>
+<p>In essential grade, spend on boards and hardware and let colour carry the trend. In standard grade, choose one feature per room. In premium grade the risk is too many features competing in one space.</p>
+<p>Estimate your own home in the <a href="/calculators/home-interior-quote/">interior cost calculator</a>, and ask for each trend-led item as a separate line in the quotation so it can be removed later. For the longer view, see <a href="/styles/">interior design styles</a> and the <a href="/materials/">materials guide</a>.</p>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

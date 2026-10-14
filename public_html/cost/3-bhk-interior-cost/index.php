@@ -54,7 +54,8 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>A 3 BHK gives you more rooms to furnish, but it does not simply cost 1.5 times a 2 BHK. The kitchen stays similar in size, the third bedroom usually gets simpler storage, and a larger share goes into ceilings, lighting and the living room. Use the calculator for a first number, then read the room-wise ranges to see where your own choices will push it. All prices include GST and are indicative for Bengaluru as of September 2026.</p>
+<p>A 3 BHK gives you more rooms to furnish, but it does not simply cost 1.5 times a 2 BHK. The kitchen stays similar in size, the third bedroom usually gets simpler storage, and a larger share goes into ceilings, lighting and the living room.</p>
+<p>Use the calculator for a first number, then read the room-wise ranges to see where your own choices will push it. All prices include GST and are indicative for Bengaluru as of September 2026.</p>
 
 <h2>3 BHK interior cost calculator</h2>
 <?= component('estimator', ['home' => '3 BHK', 'scope' => false, 'extras' => true, 'addons' => ['balcony', 'utility'], 'min' => 1000, 'max' => 2500, 'stack' => true, 'title' => 'Your 3 BHK estimate']) ?>

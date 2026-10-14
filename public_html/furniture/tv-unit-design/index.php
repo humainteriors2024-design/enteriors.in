@@ -98,7 +98,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>Cost</h2>
 <p>Built-in TV units are priced per square foot of front. In Bengaluru, indicatively, a laminate low unit runs about ₹1,200–1,800 per sq ft and a TV back panel ₹500–1,200 per sq ft depending on finish, before GST. Price your own layout with the <a href="/calculators/home-interior-quote/">room-by-room quote builder</a>; colour ideas for the TV wall are in <a href="/colour/living-room-colour-combination/">living room colour combinations</a>.</p>
 <h2>Viewing angle: the other half of the distance rule</h2>
-<p>Distance tells you how far to sit; viewing angle tells you how big the screen looks. Home-cinema guidance (from organisations such as THX and SMPTE) generally recommends that the screen fills roughly 30–40 degrees of your field of view for an immersive picture. In practice, for most Indian living rooms, the 1.0–1.5 × diagonal rule lands within that range for 4K screens. Also check the horizontal angle from every seat: viewers sitting more than about 30–40 degrees off-centre see colour and contrast shift on many LCD panels.</p>
+<p>Distance tells you how far to sit; viewing angle tells you how big the screen looks. Home-cinema guidance (from organisations such as THX and SMPTE) generally recommends that the screen fills roughly 30–40 degrees of your field of view for an immersive picture.</p>
+<p>In practice, for most Indian living rooms, the 1.0–1.5 × diagonal rule lands within that range for 4K screens. Also check the horizontal angle from every seat: viewers sitting more than about 30–40 degrees off-centre see colour and contrast shift on many LCD panels.</p>
 <?= img('sofa-to-tv-viewing-distance-diagram', caption: 'Viewing distance and angle from a three-seater sofa to a 55-inch TV in a typical living room') ?>
 
 <h2>Worked example: a 55-inch TV wall in a 2 BHK</h2>

@@ -49,7 +49,9 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>A search for interior designers near me returns a map, a few ads and a long list of firms that all promise the best homes in town. This guide explains how to turn that list into a shortlist: what "near" should mean, how the results are chosen, which type of firm fits your budget, and how to compare the firms you meet. For twenty Indian cities we have done the first round for you, with each firm's published address and the work it takes on.</p>
+<p>A search for interior designers near me returns a map, a few ads and a long list of firms that all promise the best homes in town.</p>
+<p>This guide explains how to turn that list into a shortlist: what "near" should mean, how the results are chosen, which type of firm fits your budget, and how to compare the firms you meet.</p>
+<p>For twenty Indian cities we have done the first round for you, with each firm's published address and the work it takes on.</p>
 
 <h2>What "near me" should mean for an interior designer</h2>
 <p>Interior work is not a one-visit job. A full home needs a site measurement, design meetings, electrical and carpentry stages, installation and a snag list, and then service visits for the life of the warranty. Every one of those depends on someone from the firm reaching your home.</p>

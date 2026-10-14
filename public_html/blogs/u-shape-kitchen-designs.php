@@ -11,7 +11,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <h2>What a U-Shape Kitchen Actually Is</h2>
 <p>A U-shape kitchen wraps cabinetry around <strong>three connected walls</strong>, forming a horseshoe with one open end. The cook stands inside the U, surrounded on three sides by counter, storage, and appliances — everything within a pivot and a step.</p>
 <p>Where the L-shape kitchen is about <em>opening up</em> — keeping one side free for flow and connection — the U-shape is about <em>enclosing and equipping</em>. It is the layout you choose when the kitchen's job is serious daily cooking, when storage is the priority, and when you have the floor space to give three walls to the work.</p>
-<p>This is a fundamentally different design philosophy, and it leads to a fundamentally different set of trade-offs. Most kitchen guides treat layouts as interchangeable boxes you pour colours into. They are not. The shape determines how you move, how much you can store, how many people can cook at once, and how the room feels. So before we talk about a single colour or finish, let us answer the only question that matters first: should you even build a U?</p>
+<p>This is a fundamentally different design philosophy, and it leads to a fundamentally different set of trade-offs. Most kitchen guides treat layouts as interchangeable boxes you pour colours into. They are not. The shape determines how you move, how much you can store, how many people can cook at once, and how the room feels.</p>
+<p>So before we talk about a single colour or finish, let us answer the only question that matters first: should you even build a U?</p>
 <?= img('spacious-u-shape-modular-kitchen-wrapping-three-walls-with-a') ?>
 <p>A U-shape kitchen surrounds the cook with counter and storage on three sides</p>
 <h2>Should You Choose a U-Shape? (Read This First)</h2>

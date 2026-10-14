@@ -38,7 +38,9 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>The kitchen is the most engineered room in a home. Water, heat, oil and weight all meet in a few square feet, and every cabinet is opened many times a day. That is why kitchen decisions are best taken in a fixed order: the layout decides how you move, the boards decide how long the cabinets last, the finish decides how it looks and cleans, and the hardware decides how it feels to use. This guide follows that order and links to a detailed page for each step.</p>
+<p>The kitchen is the most engineered room in a home. Water, heat, oil and weight all meet in a few square feet, and every cabinet is opened many times a day.</p>
+<p>That is why kitchen decisions are best taken in a fixed order: the layout decides how you move, the boards decide how long the cabinets last, the finish decides how it looks and cleans, and the hardware decides how it feels to use.</p>
+<p>This guide follows that order and links to a detailed page for each step.</p>
 
 <h2>What makes a kitchen modular</h2>
 <p>A modular kitchen is assembled from separate cabinets (modules) that are cut, edge-banded and drilled in a factory and then fixed together on site. Three kinds of module do most of the work:</p>
