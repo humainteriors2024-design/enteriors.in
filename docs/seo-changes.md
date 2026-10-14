@@ -89,3 +89,40 @@ removed (the targets already carry partner links).
 While the pre-launch lock is on, nothing new is indexed. The 301s make sure old links, bookmarks
 and any URL Google crawled earlier land on the right page in one hop. Keep the 301 lines in
 `.htaccess` permanently.
+
+## 4. Pillar → cluster → sub-page structure (task 7)
+
+The structure lives in one file, `includes/nav.php` (each pillar and its cluster pages). Every
+page was crawled and its links in the main content (header, footer and menus excluded) were
+checked against that structure. Result after the fixes:
+
+| Check | Result |
+|---|---|
+| Every pillar links to every live cluster page in its group | Yes ("In this guide" cards on each pillar) |
+| Every cluster page links up to its own pillar | Yes (the "Part of our guide to …" line under the H1, the breadcrumb and the "Keep reading" cards) |
+| Every cluster page links to at least one sibling in the same pillar | Yes |
+| Every blog post links to its pillar | Yes ("Part of a bigger guide" box) |
+| `/interior-designer-near-me/` → every city page → every locality / segment page under that city | Yes |
+| Locality and segment pages link to their city page and to each other | **Added**: a "More in <City>" line on every `/interior-designers/<city>/<page>/` (built automatically in `includes/foot.php`, so new locality pages get it too) |
+| Orphan pages (no internal link in) | None, apart from utility pages that are meant to be unlinked and are noindex: `/verify/`, `/thank-you/`, `/style-guide/` |
+| Broken internal links | None |
+
+### Links fixed
+
+- 15 links used old addresses for pages that exist under another URL, so they showed as plain text
+  instead of links (for example `/blogs/interior-design-timeline/` → `/planning/interior-timeline/`,
+  `/blogs/bwp-plywood-guide/` → `/materials/marine-plywood/`, `/rooms/tv-unit-designs/` →
+  `/furniture/tv-unit-design/`). They now point to the right page.
+- Links to the merged and moved pages (section 2) now point straight to their new URLs; no page
+  links to a redirect.
+- "Vanity & Dressing" in the Wardrobe and Room Guides menus became "Dressing Table Design";
+  "Balcony Ideas" became "Balcony Design Ideas" and now opens the moved page.
+
+### Links to pages not written yet
+
+53 links point to pages that are planned but not yet uploaded (for example
+`/wardrobe/sliding-wardrobe/`, `/cost/modular-kitchen-cost/`, the vastu room pages, the trends
+pages). The site already handles these: on the live site the words show as plain text (no broken
+link), on staging they get a dotted underline, and the link switches on by itself the day the
+page is uploaded. They were left in place on purpose. A further 62 such links point to directory
+profiles that stay hidden until `PHASE2` is switched on.

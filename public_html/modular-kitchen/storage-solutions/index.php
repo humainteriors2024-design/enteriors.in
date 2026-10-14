@@ -107,7 +107,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Image: Bottle and spice pull-outs extended beside the hob, oils and masala boxes visible <br>(replace: spice-bottle-pullout-kitchen.jpg)</p>
 <p>The base-cabinet dream team: a three-drawer bank for the prep zone, and slim pull-outs flanking the hob.</p>
 <h2>05.Corner Storage: Rescuing the Kitchen's Dead Zone</h2>
-<p>Every <a href="/blogs/l-shape-kitchen-design/">L-shaped</a> and <a href="/blogs/u-shape-kitchen-design/">U-shaped kitchen</a> has at least one corner cabinet — and with a plain shelf inside, up to 60% of its volume becomes a black hole you reach into blind. Corner mechanisms exist to fix exactly this. The main options:</p>
+<p>Every <a href="/blogs/l-shape-modular-kitchen-designs/">L-shaped</a> and <a href="/blogs/u-shape-kitchen-designs/">U-shaped kitchen</a> has at least one corner cabinet — and with a plain shelf inside, up to 60% of its volume becomes a black hole you reach into blind. Corner mechanisms exist to fix exactly this. The main options:</p>
 <div class="table-wrap">
 <table>
   <thead>
@@ -181,7 +181,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p><strong>The quick verdicts:</strong> Plywood beats MDF wherever screws bear load or moisture exists. HDHMR beats particle board in every way for a small premium. Stainless steel outlasts wood but costs 2–3× and feels industrial unless finished well. On the finish question — acrylic vs laminate, matte vs gloss — acrylic and PU give the premium mirror or velvet look but show scratches and fingerprints more; quality laminates hide daily wear best. For the full grade-by-grade breakdown, read our <a href="/blogs/bwp-plywood-guide/">BWP plywood guide</a> and <a href="/blogs/calibrated-vs-normal-plywood/">calibrated vs normal plywood comparison</a>.</p>
+<p><strong>The quick verdicts:</strong> Plywood beats MDF wherever screws bear load or moisture exists. HDHMR beats particle board in every way for a small premium. Stainless steel outlasts wood but costs 2–3× and feels industrial unless finished well. On the finish question — acrylic vs laminate, matte vs gloss — acrylic and PU give the premium mirror or velvet look but show scratches and fingerprints more; quality laminates hide daily wear best. For the full grade-by-grade breakdown, read our <a href="/materials/marine-plywood/">BWP plywood guide</a> and <a href="/compare/calibrated-vs-normal-plywood/">calibrated vs normal plywood comparison</a>.</p>
 <h2>11.Hardware Brands: Hettich vs Blum vs Häfele (and the Rest)</h2>
 <p>Hardware is the moving heart of storage — channels, hinges, lift systems, and corner mechanisms. It's also where cutting cost hurts most, because hardware is what fails first in cheap kitchens.</p>
 <div class="table-wrap">
@@ -205,8 +205,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <ul>
   <li><strong>Straight:</strong> no corners to solve — spend the savings on a full drawer bank and one tall pantry at the end.</li>
   <li><strong>Parallel:</strong> put cooking storage on the hob wall, washing/pantry on the other; two slim tall units bookending the runs work beautifully.</li>
-  <li><strong>L-shaped:</strong> one corner to engineer (magic corner), tall units on the shorter arm. Full playbook in our <a href="/blogs/l-shape-kitchen-design/">L-shape kitchen guide</a>.</li>
-  <li><strong>U-shaped:</strong> two corners — budget for two mechanisms or design one corner as an appliance garage. See our <a href="/blogs/u-shape-kitchen-design/">U-shape kitchen guide</a>.</li>
+  <li><strong>L-shaped:</strong> one corner to engineer (magic corner), tall units on the shorter arm. Full playbook in our <a href="/blogs/l-shape-modular-kitchen-designs/">L-shape kitchen guide</a>.</li>
+  <li><strong>U-shaped:</strong> two corners — budget for two mechanisms or design one corner as an appliance garage. See our <a href="/blogs/u-shape-kitchen-designs/">U-shape kitchen guide</a>.</li>
   <li><strong>Island / peninsula / G-shaped:</strong> islands add drawer real estate and can host the bin pull-out; peninsulas take the serving-zone storage; open-kitchen concepts push you toward handle-less, fully closed storage so the kitchen reads as furniture from the living room.</li>
 </ul>
 <h3>By family size &amp; lifestyle</h3>
@@ -240,7 +240,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p><strong>Budget vs premium, honestly:</strong> the premium tier buys you higher load ratings, longer cycle life, smoother motion, and longer warranties — not different functionality. If the budget forces choices, put premium hardware in the four or five drawers you'll open most, and value hardware everywhere else. For where storage sits inside a whole-kitchen budget, see our <a href="/blogs/interior-renovation-cost/">renovation cost guide</a> and <a href="/blogs/essential-vs-luxury-interiors/">essential vs luxury comparison</a>; and audit any quote against our <a href="/blogs/hidden-costs-home-interiors/">hidden costs checklist</a>.</p>
+<p><strong>Budget vs premium, honestly:</strong> the premium tier buys you higher load ratings, longer cycle life, smoother motion, and longer warranties — not different functionality. If the budget forces choices, put premium hardware in the four or five drawers you'll open most, and value hardware everywhere else. For where storage sits inside a whole-kitchen budget, see our <a href="/cost/home-renovation-cost/">renovation cost guide</a> and <a href="/cost/essential-vs-luxury-budget/">essential vs luxury comparison</a>; and audit any quote against our <a href="/blogs/hidden-costs-home-interiors/">hidden costs checklist</a>.</p>
 <h2>14.Timelines &amp; Warranties: What to Expect, What to Demand</h2>
 <h3>How long a modular kitchen with full storage takes</h3>
 <div class="table-wrap">
@@ -253,7 +253,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <tr><td>Factory production</td><td>3–5 weeks</td><td>Imported hardware (Blum lift systems, LeMans arms) can add 1–2 weeks lead time</td></tr>
     <tr><td>Site installation</td><td>4–8 days</td><td>Modular advantage: cabinets arrive finished; site work is assembly + fitting</td></tr>
     <tr><td>Accessory fitting &amp; alignment</td><td>1–2 days</td><td>Channel alignment and soft-close tuning — insist this isn't rushed</td></tr>
-    <tr><td><strong>Total (new kitchen)</strong></td><td><strong>5–8 weeks</strong></td><td>Within a renovation, sequence after civil and plumbing — see our <a href="/blogs/interior-design-timeline/">timeline guide</a></td></tr>
+    <tr><td><strong>Total (new kitchen)</strong></td><td><strong>5–8 weeks</strong></td><td>Within a renovation, sequence after civil and plumbing — see our <a href="/planning/interior-timeline/">timeline guide</a></td></tr>
   </tbody>
 </table>
 </div>

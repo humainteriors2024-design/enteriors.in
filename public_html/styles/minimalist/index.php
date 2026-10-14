@@ -107,7 +107,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p><strong>Natural vs artificial:</strong> the style is agnostic, but honest. A laminate should look like a good laminate, not imitate marble; a quartz should be plain or subtly veined, not a printed drama slab. The one upgrade we push at every budget: <strong>anti-fingerprint super-matte on any surface hands touch daily</strong> — it's the difference between a kitchen that looks new at year five and one that looks tired at year one. The ply-grade logic underneath it all is covered in our <a href="/blogs/calibrated-vs-normal-plywood/">plywood guide</a>.</p>
+<p><strong>Natural vs artificial:</strong> the style is agnostic, but honest. A laminate should look like a good laminate, not imitate marble; a quartz should be plain or subtly veined, not a printed drama slab. The one upgrade we push at every budget: <strong>anti-fingerprint super-matte on any surface hands touch daily</strong> — it's the difference between a kitchen that looks new at year five and one that looks tired at year one. The ply-grade logic underneath it all is covered in our <a href="/compare/calibrated-vs-normal-plywood/">plywood guide</a>.</p>
 <p>Section 06</p>
 <h2>Furniture Style: Low, Flush, and Mostly Built-In</h2>
 <p>Minimalist furniture follows four rules: <strong>low profiles, straight or barely-eased silhouettes, visual lightness, and built-in beats loose</strong>.</p>
@@ -124,7 +124,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Section 07</p>
 <h2>Minimalism Room by Room: Build Specs</h2>
 <h3>Kitchen</h3>
-<p>Slab shutters, handle-less — either Gola/J-profile channels or push-to-open on uppers. One finish for all base and wall units; the tall-unit bank may go one shade deeper. Backsplash is where minimalist kitchens are won: <strong>run the countertop quartz up the wall</strong> or use one large-format plain tile — a busy backsplash undoes every flush shutter around it. Appliances integrate behind panels wherever budget allows; the chimney is a concealed or slim linear model, never a decorative pyramid. Corner units get LeMans or magic-corner internals, tall units get pantry pull-outs — because a minimalist counter is only possible when the storage behind it works hard. An island earns its place only above roughly 12×10ft of kitchen; below that, a breakfast ledge off the counter does the job without choking circulation. Our <a href="/blogs/kitchen-layouts-guide/">kitchen layouts guide</a> and <a href="/blogs/modular-kitchen-storage-ideas/">storage internals guide</a> go deeper on both decisions.</p>
+<p>Slab shutters, handle-less — either Gola/J-profile channels or push-to-open on uppers. One finish for all base and wall units; the tall-unit bank may go one shade deeper. Backsplash is where minimalist kitchens are won: <strong>run the countertop quartz up the wall</strong> or use one large-format plain tile — a busy backsplash undoes every flush shutter around it. Appliances integrate behind panels wherever budget allows; the chimney is a concealed or slim linear model, never a decorative pyramid. Corner units get LeMans or magic-corner internals, tall units get pantry pull-outs — because a minimalist counter is only possible when the storage behind it works hard. An island earns its place only above roughly 12×10ft of kitchen; below that, a breakfast ledge off the counter does the job without choking circulation. Our <a href="/modular-kitchen/">kitchen layouts guide</a> and <a href="/modular-kitchen/storage-solutions/">storage internals guide</a> go deeper on both decisions.</p>
 <h3>Bedroom</h3>
 <p>The wardrobe wall <em>is</em> the room: one flush run, floor to ceiling, in one finish — this single decision delivers more calm than everything else combined. The bed sits low; bedside pendants hang instead of table lamps, freeing the side ledges to stay empty. The dressing unit folds into the wardrobe line (a shutter-integrated mirror) rather than standing alone. Soft furnishing follows the two-texture rule: one bed fabric, one throw, done.</p>
 <h3>Living room</h3>
@@ -241,7 +241,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p><strong>Material upgrades worth taking, in order:</strong> anti-fingerprint super-matte on kitchen and wardrobe fronts → dimmers on main circuits → quartz backsplash → veneer on the one wall you see from the sofa. <strong>Hidden costs to budget:</strong> precision-installation labour on handle-less systems (₹15–40k across a home), LED drivers and profiles for concealed lighting (₹20–60k), dimmer modules, and the spare-laminate sheets mentioned above. Factory-direct procurement removes the 20–30% showroom margin on exactly the finishes this style spends on — the honest math is the same as in our <a href="/blogs/essential-vs-luxury-interiors/">essential vs luxury guide</a>.</p>
+<p><strong>Material upgrades worth taking, in order:</strong> anti-fingerprint super-matte on kitchen and wardrobe fronts → dimmers on main circuits → quartz backsplash → veneer on the one wall you see from the sofa. <strong>Hidden costs to budget:</strong> precision-installation labour on handle-less systems (₹15–40k across a home), LED drivers and profiles for concealed lighting (₹20–60k), dimmer modules, and the spare-laminate sheets mentioned above. Factory-direct procurement removes the 20–30% showroom margin on exactly the finishes this style spends on — the honest math is the same as in our <a href="/cost/essential-vs-luxury-budget/">essential vs luxury guide</a>.</p>
 <p><strong>How we priced this guide</strong> <br> Bands compiled from Enteriors delivered minimalist and warm-minimalist projects (2025–mid 2026) across Bangalore and Hosur, cross-checked against current factory input costs for IS 303/IS 710 ply, super-matte laminates, quartz and branded hardware as of July 2026. Excludes GST (18%), civil, electrical rework and appliances. Final pricing follows measured site dimensions and signed material selections.</p>
 <p>Section 14</p>
 <h2>Project Timeline: Design to Handover</h2>
@@ -260,7 +260,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Stage-by-stage detail for any project type lives in our <a href="/blogs/interior-design-timeline/">interior design timeline guide</a>; larger-format budgets in the <a href="/blogs/4bhk-villa-duplex-interior-cost-bangalore/">4BHK, villa &amp; duplex cost guide</a>.</p>
+<p>Stage-by-stage detail for any project type lives in our <a href="/planning/interior-timeline/">interior design timeline guide</a>; larger-format budgets in the <a href="/cost/4-bhk-villa-cost/">4BHK, villa &amp; duplex cost guide</a>.</p>
 <p>Section 15</p>
 <h2>Minimalist vs the Styles It's Confused With</h2>
 <div class="table-wrap">
@@ -280,7 +280,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p><strong>The one-line separations we use with clients:</strong> Scandinavian is minimalism with a sweater on — same reduction, more warmth and forgiveness. Japandi is minimalism with roots — the same restraint grounded in dark wood and a touch of imperfection (full treatment in our <a href="/blogs/japandi-interior-design-guide/">Japandi guide</a>). Contemporary is minimalism's social cousin — it borrows the calm but keeps shopping. And Modern, strictly, is a fixed mid-20th-century vocabulary, while minimalism is a discipline you can apply to almost any vocabulary.</p>
+<p><strong>The one-line separations we use with clients:</strong> Scandinavian is minimalism with a sweater on — same reduction, more warmth and forgiveness. Japandi is minimalism with roots — the same restraint grounded in dark wood and a touch of imperfection (full treatment in our <a href="/styles/japandi/">Japandi guide</a>). Contemporary is minimalism's social cousin — it borrows the calm but keeps shopping. And Modern, strictly, is a fixed mid-20th-century vocabulary, while minimalism is a discipline you can apply to almost any vocabulary.</p>
 <p>📷</p>
 <p>Split comparison: minimalist flush living room vs Scandinavian layered living room (AI prompt #25 in kit). <br> File: <code>minimalist-vs-scandinavian-interior-comparison.webp</code> · 1200×800 <br> Alt: <code>Minimalist vs Scandinavian interior design comparison in an Indian living room</code></p>
 <p>Same reduction, different warmth: minimalism strips the layering that Scandinavian celebrates.</p>

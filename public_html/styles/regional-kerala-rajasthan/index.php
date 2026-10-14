@@ -68,7 +68,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Living room</h3>
 <p>Anchor with a wood-slat or rafter ceiling feature, lime-white walls, and a low teak-finish sofa with palm-green and mustard cushions. Add one cane armchair, a brass floor lamp, and a large potted palm. Floor: terracotta-tone tile or a warm-toned engineered wood.</p>
 <h3>Kitchen</h3>
-<p>Kerala kitchens translate beautifully to modular formats: <strong>deep wood-grain laminate shutters</strong> (dark teak or walnut tones), a terracotta or handmade-look tile backsplash, and open shelves displaying brass and bell-metal vessels. If you're planning layouts, our guides to <a href="/blogs/l-shape-kitchen-design/">L-shape kitchens</a> and <a href="/blogs/u-shape-kitchen-design/">U-shape kitchens</a> pair perfectly with this material palette.</p>
+<p>Kerala kitchens translate beautifully to modular formats: <strong>deep wood-grain laminate shutters</strong> (dark teak or walnut tones), a terracotta or handmade-look tile backsplash, and open shelves displaying brass and bell-metal vessels. If you're planning layouts, our guides to <a href="/blogs/l-shape-modular-kitchen-designs/">L-shape kitchens</a> and <a href="/blogs/u-shape-kitchen-designs/">U-shape kitchens</a> pair perfectly with this material palette.</p>
 <h3>Bedroom</h3>
 <p>A panelled wood headboard wall (vertical slats or shallow rosette-carved panels), handloom kasavu-inspired bedding (off-white with gold borders), warm 2700K lighting, and a single brass wall sconce. Keep wardrobes in matte light tones so the room doesn't darken.</p>
 <h3>Pooja unit</h3>
@@ -159,7 +159,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Material choices move these numbers dramatically — if you're weighing plywood grades for humid conditions (very relevant to the Kerala look), our <a href="/blogs/bwp-plywood-guide/">BWP plywood guide</a> and <a href="/blogs/calibrated-vs-normal-plywood/">calibrated vs normal plywood comparison</a> will save you from expensive mistakes. And for overall project planning, see our <a href="/blogs/interior-design-timeline/">interior design timeline guide</a>.</p>
+<p>Material choices move these numbers dramatically — if you're weighing plywood grades for humid conditions (very relevant to the Kerala look), our <a href="/materials/marine-plywood/">BWP plywood guide</a> and <a href="/compare/calibrated-vs-normal-plywood/">calibrated vs normal plywood comparison</a> will save you from expensive mistakes. And for overall project planning, see our <a href="/planning/interior-timeline/">interior design timeline guide</a>.</p>
 <h2>11.5 Mistakes That Turn "Heritage" Into "Theme Park"</h2>
 <ol>
   <li><strong>Covering every surface.</strong> If the ceiling, walls, floor, and furniture all shout, nothing is heard. Pick your hero surfaces; mute the rest.</li>

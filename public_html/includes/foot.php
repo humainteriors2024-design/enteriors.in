@@ -25,6 +25,17 @@ if ($reading):
 
   if ($t === 'post') echo component('cta', ['variant' => 'pillar', 'hub' => $hub]);   // blog posts feed their pillar
 
+  // City sub-pages (/interior-designers/<city>/<page>/) link up to their city page and sideways to each other
+  if (preg_match('#^/interior-designers/([a-z\-]+)/([a-z\-]+)/$#', $path, $cm) && ($cityRow = designer_city($cm[1]))) {
+    $sib = [];
+    foreach (glob(rtrim($_SERVER['DOCUMENT_ROOT'], '/') . "/interior-designers/{$cm[1]}/*/index.php") ?: [] as $f) {
+      $u = "/interior-designers/{$cm[1]}/" . basename(dirname($f)) . '/';
+      if ($u !== $path) $sib[] = '<a href="' . e($u) . '">' . e(nav_label($u) ?? ucwords(str_replace('-', ' ', basename(dirname($f))))) . '</a>';
+    }
+    echo '<nav class="callout callout--pillar mt-8" aria-label="More pages for ' . e($cityRow['name']) . '"><span class="callout__title">More in ' . e($cityRow['name']) . '</span>'
+       . '<a href="' . e($cityRow['url']) . '">Interior designers in ' . e($cityRow['name']) . '</a>' . ($sib ? ' · ' . implode(' · ', $sib) : '') . '</nav>';
+  }
+
   // Sources, standards and method: citations make a page more trustworthy to readers and to AI answer engines
   if ($page['sources']): ?>
     <section class="sources mt-8" id="sources">

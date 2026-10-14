@@ -65,7 +65,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Rates assume standard-grade materials. Premium finishes (veneer, acrylic, imported hardware, natural stone) push each band up 30–60% — for exactly what changes between grades, see our <a href="/blogs/essential-vs-luxury-interiors/">essential vs luxury interiors comparison</a>.</p>
+<p>Rates assume standard-grade materials. Premium finishes (veneer, acrylic, imported hardware, natural stone) push each band up 30–60% — for exactly what changes between grades, see our <a href="/cost/essential-vs-luxury-budget/">essential vs luxury interiors comparison</a>.</p>
 <h2>04.Full-Home Renovation Budgets by Flat Size</h2>
 <div class="table-wrap">
 <table>
@@ -109,8 +109,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<div class="callout"><span class="callout__title">The ₹80,000 decision</span>Keeping your sink, gas point, and drainage where they are is the single biggest kitchen saving. Relocating them means breaking floors, rerouting pipes, and re-waterproofing — typically ₹30,000–80,000 before a single cabinet is built. Change the layout only if the current one genuinely fails you; our <a href="/blogs/l-shape-kitchen-design/">L-shape</a> and <a href="/blogs/u-shape-kitchen-design/">U-shape kitchen guides</a> show what each layout does best.</div>
-<p>One more kitchen-specific warning: this is the wettest room in the house, so the plywood grade inside your cabinets matters more than the finish outside them. Insist on moisture-resistant cores — our <a href="/blogs/bwp-plywood-guide/">BWP plywood guide</a> explains exactly what to specify and why.</p>
+<div class="callout"><span class="callout__title">The ₹80,000 decision</span>Keeping your sink, gas point, and drainage where they are is the single biggest kitchen saving. Relocating them means breaking floors, rerouting pipes, and re-waterproofing — typically ₹30,000–80,000 before a single cabinet is built. Change the layout only if the current one genuinely fails you; our <a href="/blogs/l-shape-modular-kitchen-designs/">L-shape</a> and <a href="/blogs/u-shape-kitchen-designs/">U-shape kitchen guides</a> show what each layout does best.</div>
+<p>One more kitchen-specific warning: this is the wettest room in the house, so the plywood grade inside your cabinets matters more than the finish outside them. Insist on moisture-resistant cores — our <a href="/materials/marine-plywood/">BWP plywood guide</a> explains exactly what to specify and why.</p>
 <h2>06.Bathroom Renovation Cost, in Detail</h2>
 <p>Per square foot, bathrooms are the most expensive space in any home — small rooms, dense with plumbing, tiling, and waterproofing. Typical budgets per bathroom:</p>
 <div class="table-wrap">
@@ -172,7 +172,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Renovate in the right order, once.</strong> Civil → plumbing/electrical → waterproofing → tiling → carpentry → painting. Out-of-order work gets redone.</li>
   <li><strong>Retile over existing floors</strong> where height and structure allow.</li>
   <li><strong>Refinish instead of replace</strong> — solid wood doors, good granite, and structurally sound wardrobe carcasses can be re-laminated or polished for 30–40% of replacement cost.</li>
-  <li><strong>Spend by zone, not uniformly</strong> — premium in kitchen and master wardrobe, standard elsewhere (the hybrid logic from our <a href="/blogs/essential-vs-luxury-interiors/">essential vs luxury guide</a>).</li>
+  <li><strong>Spend by zone, not uniformly</strong> — premium in kitchen and master wardrobe, standard elsewhere (the hybrid logic from our <a href="/cost/essential-vs-luxury-budget/">essential vs luxury guide</a>).</li>
   <li><strong>Buy sanitaryware and appliances during sale seasons</strong> and have the contractor install — but confirm warranty responsibility in writing first.</li>
   <li><strong>Freeze the design before demolition.</strong> Mid-project changes are the most expensive purchases you'll ever make.</li>
   <li><strong>Move out if the project exceeds 6 weeks</strong> — the speed gain usually beats the rent.</li>
@@ -192,7 +192,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>For a stage-by-stage walkthrough of what happens when, see our <a href="/blogs/interior-design-timeline/">interior design timeline guide</a>.</p>
+<p>For a stage-by-stage walkthrough of what happens when, see our <a href="/planning/interior-timeline/">interior design timeline guide</a>.</p>
 <h3>Payment structure that protects you</h3>
 <p>A fair, milestone-linked schedule looks like: <strong>10% booking → 40% on material/factory order → 40% on delivery and installation milestones → 10% on snag-free handover</strong>. Walk away from anyone demanding 70–80% before work begins, and hold that final 10% until every snag on your punch list is closed.</p>
 <h4>How we compiled these figures</h4>

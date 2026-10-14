@@ -82,7 +82,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>📷</p>
 <p>Enteriors modular kitchen from a 4BHK project — island or L-shape, premium finish. <br> File: <code>4bhk-modular-kitchen-cost-bangalore.webp</code> · 1200×800 <br> Alt: <code>Premium modular kitchen with acrylic finish in a 4BHK Bangalore home</code></p>
 <p>The kitchen is the single largest line item in most 4BHK budgets — typically 18–24% of the total.</p>
-<p>Planning the kitchen first is smart budgeting — our guides on <a href="/blogs/modular-kitchen-storage-ideas/">modular kitchen storage</a> and <a href="/blogs/kitchen-layouts-guide/">choosing the right kitchen layout</a> break down where each rupee goes inside that ₹6–9 lakh band.</p>
+<p>Planning the kitchen first is smart budgeting — our guides on <a href="/modular-kitchen/storage-solutions/">modular kitchen storage</a> and <a href="/modular-kitchen/">choosing the right kitchen layout</a> break down where each rupee goes inside that ₹6–9 lakh band.</p>
 <p>Section 04</p>
 <h2>Duplex-Specific Costs: Where the Extra 12–20% Goes</h2>
 <p>A duplex is the same rooms plus <strong>four line items apartments never see</strong>. These are the numbers most online cost guides skip entirely — and where under-informed buyers get surprised at the second site visit.</p>
@@ -122,7 +122,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Villa material rule of thumb</strong> Anything touching weather — decks, terrace units, outdoor counters, gate-facing panels — must be BWP-710 grade ply, WPC or HDPE. Using interior-grade MR ply outdoors is the single most common villa defect we're called in to redo. Our <a href="/blogs/plywood-guide/">plywood grade guide</a> explains the IS 303 vs IS 710 difference in plain language.</div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Villa material rule of thumb</strong> Anything touching weather — decks, terrace units, outdoor counters, gate-facing panels — must be BWP-710 grade ply, WPC or HDPE. Using interior-grade MR ply outdoors is the single most common villa defect we're called in to redo. Our <a href="/materials/plywood-guide/">plywood grade guide</a> explains the IS 303 vs IS 710 difference in plain language.</div>
 <p>📷</p>
 <p>Villa exterior/terrace deck or home theatre from an Enteriors project. <br> File: <code>villa-interior-cost-home-theatre-terrace.webp</code> · 1200×800 <br> Alt: <code>Villa home theatre room and terrace deck interior work in Bangalore</code></p>
 <p>Home theatres and outdoor decks are the two fastest-growing villa requests in our 2025–26 order book.</p>
@@ -142,7 +142,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>The smart move on large homes is <strong>mixed-grade specification</strong>: premium/luxury where hands and eyes go daily (kitchen shutters, master wardrobe, living TV wall), standard grade inside carcasses, lofts and guest rooms. Done right, this delivers a luxury-feel home at a premium-band price. For the deeper comparison, see our guide on <a href="/blogs/essential-vs-luxury-interiors/">essential vs luxury interiors</a> and <a href="/blogs/calibrated-vs-normal-plywood/">calibrated vs normal plywood</a>.</p>
+<p>The smart move on large homes is <strong>mixed-grade specification</strong>: premium/luxury where hands and eyes go daily (kitchen shutters, master wardrobe, living TV wall), standard grade inside carcasses, lofts and guest rooms. Done right, this delivers a luxury-feel home at a premium-band price. For the deeper comparison, see our guide on <a href="/cost/essential-vs-luxury-budget/">essential vs luxury interiors</a> and <a href="/compare/calibrated-vs-normal-plywood/">calibrated vs normal plywood</a>.</p>
 <p>Section 07</p>
 <h2>Hidden Costs &amp; Precautions: Read This Before You Sign</h2>
 <p>Large-home quotes fail buyers in predictable ways. After auditing hundreds of competitor BOQs that clients bring to us for second opinions, these are the eight precautions that protect a ₹30–80 lakh project:</p>
@@ -220,7 +220,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Factory-direct manufacturing is what keeps these timelines honest: modules are machined and finished in controlled conditions while your site is being prepared, then installed in a short, clean window. For a stage-by-stage walkthrough, read our <a href="/blogs/interior-design-timeline/">interior design timeline guide</a>.</p>
+<p>Factory-direct manufacturing is what keeps these timelines honest: modules are machined and finished in controlled conditions while your site is being prepared, then installed in a short, clean window. For a stage-by-stage walkthrough, read our <a href="/planning/interior-timeline/">interior design timeline guide</a>.</p>
 <p>Section 11</p>
 <p>E</p>
 <h4>Enteriors Design Team</h4>
