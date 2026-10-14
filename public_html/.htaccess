@@ -57,7 +57,12 @@ ErrorDocument 404 /404.php
   RewriteRule ^blogs?/vastu\-for\-home\-interiors\-room\-by\-room(\.php|/)?$ /vastu/ [L,R=301]
   RewriteRule ^blogs?/veneer\-finish\-luxury\-wood\-guide(\.php|/)?$ /materials/wood-veneer/ [L,R=301]
   RewriteRule ^rooms/vanity\-dressing/?$ /furniture/dressing-table-design/ [L,R=301]
-  RewriteRule ^rooms/utility\-area/?$ /rooms/balcony/ [L,R=301]   # the page was a balcony guide; a real utility-area page can reuse the URL later (remove this line then)
+  # /rooms/utility-area/ was a balcony guide; a real utility-area page can reuse the URL later (remove the next line then)
+  RewriteRule ^rooms/utility\-area/?$ /rooms/balcony/ [L,R=301]
+
+  # 3e. Firm sign-in removed (Oct 2026, see _removed-company/): answer "410 Gone" even if old files are still on the server
+  RewriteRule ^company(/.*)?$ - [G,L]
+  RewriteRule ^admin/companies\.php$ - [G,L]
 
   # 4. Blog posts: the file /blogs/<slug>.php is shown at /blogs/<slug>/
   RewriteCond %{THE_REQUEST} \s/+blogs/([a-z0-9\-]+)\.php[\s?] [NC]
