@@ -78,8 +78,8 @@ url,pillar,primary_keyword,search_intent,secondary_keywords,status,decision_and_
 /interior-designer-near-me/,interior-designers,interior designers near me,Local (commercial),find interior designer near me; how to compare designers,indexable at launch,"Keep. Pillar; the only page targeting ""near me""."
 /interior-designers/bangalore/,interior-designers,interior designers in bangalore,Local (commercial),best interior designers in bangalore; home interior designers bangalore,indexable at launch,Keep. One page per city.
 /interior-designers/bangalore/budget/,interior-designers,budget interior designers in bangalore,Local (commercial),low cost interior designers bangalore,indexable at launch,Keep. Locality / segment page under its city.
-/interior-designers/bangalore/chandapura/,interior-designers,interior designers in chandapura,Local (commercial),home interiors chandapura,indexable at launch,Keep. Locality / segment page under its city.
-/interior-designers/bangalore/electronic-city/,interior-designers,interior designers in electronic city,Local (commercial),home interiors electronic city,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/bangalore/chandapura/,interior-designers,interior design in chandapura,Local (commercial),home interiors chandapura; interior designers in chandapura,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/bangalore/electronic-city/,interior-designers,home interiors in electronic city,Local (commercial),interior design electronic city; interior designers in electronic city,indexable at launch,Keep. Locality / segment page under its city.
 /interior-designers/bangalore/indiranagar/,interior-designers,interior designers in indiranagar,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
 /interior-designers/bangalore/kitchen/,interior-designers,kitchen interior designers in bangalore,Local (commercial),modular kitchen designers bangalore,indexable at launch,Keep. Locality / segment page under its city.
 /interior-designers/bangalore/luxury/,interior-designers,luxury interior designers in bangalore,Local (commercial),high end interior designers bangalore,indexable at launch,Keep. Locality / segment page under its city.
@@ -179,7 +179,7 @@ url,pillar,primary_keyword,search_intent,secondary_keywords,status,decision_and_
 /trends/,trends,interior design trends 2026,Informational,home decor trends india,indexable at launch,Keep. Pillar.
 /vastu/,vastu,home vastu tips,Informational,vastu for home room by room,indexable at launch,"Keep. Pillar. Absorbs /blogs/vastu-for-home-interiors-room-by-room/ (301); dining, bathroom, balcony, mirrors and remedies sections added."
 /verify/,internal,—,—,,noindex (internal),Noindex utility page (email verification). No keyword.
-/wall-design/,wall-design,wall design for living room,Informational,wall design ideas; wall finishes,indexable at launch,Keep. Pillar.
+/wall-design/,wall-design,wall design ideas,Informational,wall design for living room; wall finishes,indexable at launch,Keep. Pillar.
 /wall-design/pvc-vs-wpc-wall-panels/,wall-design,pvc vs wpc wall panels,Commercial investigation,wpc wall panel price,indexable at launch,Keep.
 /wall-design/stone-wall-cladding/,wall-design,stone wall cladding,Informational,stone cladding for walls,indexable at launch,Keep.
 /wall-design/texture-paint/,wall-design,texture paint design,Informational,wall texture designs,indexable at launch,Keep.

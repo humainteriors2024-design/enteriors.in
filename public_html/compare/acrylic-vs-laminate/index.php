@@ -8,6 +8,7 @@
 $page = [
   'type'         => 'compare',
   'title'        => 'Acrylic vs Laminate: Which Finish for Kitchens and Wardrobes?',
+  'hero_alt'   => 'Acrylic and laminate kitchen shutter samples side by side',
   'seo_title'    => 'Acrylic vs Laminate: Kitchen & Wardrobe Finish',
   'crumb'        => 'Acrylic vs Laminate',
   'description'  => 'Acrylic vs laminate for kitchen and wardrobe shutters: looks, scratch and heat resistance, cleaning, repair and cost compared, with Bengaluru prices.',

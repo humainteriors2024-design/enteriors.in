@@ -5,12 +5,12 @@
 $page = [
   'type'         => 'article',
   'title'        => 'Art Deco Revival Interior Design: The Complete 2026 Guide for Indian Homes',
-  'seo_title'    => 'Art Deco Revival Interior Design',
-  'description'  => 'Art Deco was never a decorating trend. It was a worldview — that beauty, geometry, and material honesty could belong in the same room without apology. A…',
-  'lede'         => 'Art Deco was never a decorating trend. It was a worldview — that beauty, geometry, and material honesty could belong in the same room without apology. A…',
-  'hero_alt'     => 'Art Deco Revival Interior Design: The Complete 2026 Guide for Indian Homes',
+  'seo_title'    => 'Art Deco Interior Design for Indian Homes (2026)',
+  'description'  => 'Art deco interior design for Indian homes: principles, shapes, jewel-tone palettes, materials, furniture and room-by-room plans, including the kitchen.',
+  'lede'         => 'Geometry, rich materials and one metallic per room: how to bring art deco into a modern Indian apartment without it looking like a film set.',
+  'hero_alt'     => 'Art deco living room with a curved velvet sofa, brass accents and a geometric rug',
   'published'    => '2026-07-04',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'faq' => [
     'Is Art Deco Revival too dramatic for daily living?' => 'Not if it\'s executed with restraint. The failure mode of Deco is theatrical excess — too many jewel tones, too much gold, too many patterns. A disciplined Deco Revival home with warm neutral base, one jewel accent, and a single hero material per room feels sophisticated rather than theatrical. The style is meant to be lived in, not visited.',
     'How much does a Deco Revival 2BHK cost in Bangalore?' => 'Entry-tier Deco Revival for a 950–1050 sq ft 2BHK runs ₹9–12 lakh all-in. Mid-tier runs ₹13–17 lakh. Premium execution starts at ₹18 lakh and can reach ₹24 lakh with real marble and imported fixtures. These figures include modular kitchen, wardrobes, furniture, lighting, false ceiling, painting, and soft furnishings — but exclude civil work, electrical rewiring, and appliances.',

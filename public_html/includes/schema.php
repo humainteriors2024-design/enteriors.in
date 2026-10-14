@@ -14,8 +14,9 @@ function schema_json($page, $crumbs, $canonical) {
     '@type' => 'PostalAddress', 'streetAddress' => NAP['street'], 'addressLocality' => NAP['locality'],
     'addressRegion' => NAP['region'], 'postalCode' => NAP['postal_code'], 'addressCountry' => NAP['country'],
   ]);
+  $type = NAP['schema_type'] === 'auto' ? ((NAP['street'] && NAP['postal_code'] && NAP['phone']) ? 'HomeAndConstructionBusiness' : 'Organization') : NAP['schema_type'];
   $org = array_filter([
-    '@type' => NAP['schema_type'], '@id' => $id('org'), 'name' => SITE['name'], 'legalName' => NAP['legal_name'],
+    '@type' => $type, '@id' => $id('org'), 'name' => SITE['name'], 'legalName' => NAP['legal_name'],
     'url' => $u . '/', 'logo' => $u . SITE['logo'], 'image' => $u . SITE['image'], 'description' => SITE['description'],
     'email' => NAP['email'], 'telephone' => NAP['phone'], 'address' => count($address) > 2 ? $address : null,
     'areaServed' => array_map(fn($c) => ['@type' => 'City', 'name' => $c], NAP['area_served']),
@@ -23,7 +24,7 @@ function schema_json($page, $crumbs, $canonical) {
     'contactPoint' => (NAP['phone'] || NAP['email']) ? array_filter(['@type' => 'ContactPoint', 'contactType' => 'customer service',
       'telephone' => NAP['phone'], 'email' => NAP['email'], 'areaServed' => 'IN', 'availableLanguage' => ['English', 'Hindi', 'Kannada']]) : null,
   ]);
-  if (NAP['schema_type'] !== 'Organization') {           // LocalBusiness-only fields
+  if ($type !== 'Organization') {                         // LocalBusiness-only fields
     $org['openingHours'] = NAP['hours'];
     if (NAP['geo']['lat']) $org['geo'] = ['@type' => 'GeoCoordinates', 'latitude' => NAP['geo']['lat'], 'longitude' => NAP['geo']['lng']];
     if (NAP['map_url']) $org['hasMap'] = NAP['map_url'];

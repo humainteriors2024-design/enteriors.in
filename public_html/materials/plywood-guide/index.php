@@ -18,6 +18,7 @@ $BOARDS = [   // board => [link or '', water tolerance, screw holding, surface, 
 $page = [
   'type'         => 'article',
   'title'        => 'Types of Plywood for Interiors: Grades, Thickness, Brands and Price',
+  'hero_alt'   => 'Stack of plywood sheets showing their layered edges',
   'seo_title'    => 'Types of Plywood: Grades, Thickness and Price',
   'crumb'        => 'Plywood Guide',
   'description'  => 'Types of plywood for Indian interiors: MR, BWR and BWP grades, IS 303 and IS 710, the right thickness for each part, 18 mm prices and how to check a sheet.',

@@ -120,6 +120,23 @@ function finder_sample_note($sec) {
 function sample_badge($x) { return !empty($x['sample']) ? '<span class="badge badge--sample">Sample</span>' : ''; }
 
 /* ---------- money, labels ---------- */
+/* Text that fits a limit without being cut mid-word: whole sentences first, then whole words (for titles and descriptions) */
+function fit_text($s, $max) {
+  $s = trim(preg_replace('/\s+/u', ' ', (string) $s));
+  if (mb_strlen($s) <= $max) return $s;
+  $out = '';
+  foreach (preg_split('/(?<=[.!?])\s+/u', $s) as $sent) { if (mb_strlen($out . ' ' . $sent) > $max) break; $out = trim($out . ' ' . $sent); }
+  if ($out !== '') return $out;
+  $cut = mb_substr($s, 0, $max + 1);
+  return rtrim(mb_substr($cut, 0, (int) mb_strrpos($cut, ' ')), ' ,;:—-') . '.';
+}
+// A short page title for a design: "Japandi kitchen in HSR Layout, Bengaluru" (fits 53 characters with " | Enteriors")
+function design_seo_title($d) {
+  $T = trends_db(); $style = $T['styles'][$d['style']]['label'] ?? ''; $type = strtolower($T['types'][$d['type']]['label'] ?? '');
+  foreach ([$d['title'], "$style $type in {$d['area']}, " . city_name($d['city']), "$style $type in " . city_name($d['city']), "$style $type"] as $t)
+    if (mb_strlen($t) <= 53) return $t;
+  return fit_text($d['title'], 52);
+}
 function money_short($n) {
   $n = (int) $n;
   if ($n >= 10000000) return '₹' . rtrim(rtrim(number_format($n / 10000000, 2), '0'), '.') . ' crore';

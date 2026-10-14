@@ -4,13 +4,13 @@
    Images: /assets/pages/cost/false-ceiling-cost/   (hero.jpg = main image) */
 $page = [
   'type'         => 'article',
-  'title'        => 'FALSE CEILING COST GUIDE',
-  'seo_title'    => 'False Ceiling Cost Guide 2026 | India',
-  'description'  => 'A false ceiling (also called a drop ceiling or suspended ceiling) is a secondary ceiling installed below the main structural ceiling, creating a gap…',
-  'lede'         => 'A false ceiling (also called a drop ceiling or suspended ceiling) is a secondary ceiling installed below the main structural ceiling, creating a gap…',
-  'hero_alt'     => 'FALSE CEILING COST GUIDE',
+  'title'        => 'False Ceiling Cost per Sq Ft: Gypsum, POP and More (2026)',
+  'seo_title'    => 'False Ceiling Cost per Sq Ft in India (2026)',
+  'description'  => 'False ceiling cost per sq ft in 2026: gypsum, POP, PVC and wooden ceilings, peripheral and layered designs, and room-wise costs with lights included.',
+  'lede'         => 'What a false ceiling costs by material and design, room by room, and the lighting and electrical costs that sit on top.',
+  'hero_alt'     => 'Living room with a gypsum false ceiling and cove lighting',
   'published'    => '2026-06-14',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>

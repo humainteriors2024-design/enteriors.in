@@ -5,12 +5,12 @@
 $page = [
   'type'         => 'article',
   'title'        => 'Mid-Century Modern Interior Design: The Complete 2026 Guide for Indian Homes',
-  'seo_title'    => 'Mid-Century Modern Interior Design',
-  'description'  => 'If a design style could survive seventy years, three continents, and the entire Instagram era without losing its personality, it earned the right to be…',
-  'lede'         => 'If a design style could survive seventy years, three continents, and the entire Instagram era without losing its personality, it earned the right to be…',
-  'hero_alt'     => 'Mid-Century Modern Interior Design: The Complete 2026 Guide for Indian Homes',
+  'seo_title'    => 'Mid-Century Modern Interior Design for India',
+  'description'  => 'Mid-century modern interior design for Indian homes: core ideas, colours, materials, furniture sized for flats, and kitchen, bedroom and living room plans.',
+  'lede'         => 'Clean lines, warm wood and tapered legs: how to plan a mid-century modern home that works with Indian cooking and space.',
+  'hero_alt'     => 'Mid-century modern living room with a teak sideboard and tapered-leg armchairs',
   'published'    => '2026-07-04',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'faq' => [
     'Is Mid-Century Modern out of style in 2026?' => 'Not remotely. Mid-Century Modern has been continuously in style since its revival in the mid-2000s, and shows no sign of fading. Design classics don\'t obey cycles the way trends do — pieces designed in 1956 sell at the same price today, indexed for inflation, that they sold for in 1985. If anything, the style has become more mainstream, with luxury brands, mid-tier retail and factory-direct workshops all offering MCM options. In our Bangalore market, MCM is now the most requested style after Contemporary — and unlike Contemporary, it will still look right in 2036.',
     'What\'s the difference between Mid-Century and Mid-Century Modern?' => '"Mid-Century" refers to a time period (roughly 1945–1969). "Mid-Century Modern" refers specifically to the design movement of that period. In practice most people use them interchangeably, and both are correct in casual conversation. When you\'re specifying a style to a designer, "Mid-Century Modern" is the more precise term because it signals design intent, not just a date.',

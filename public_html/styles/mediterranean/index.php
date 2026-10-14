@@ -5,12 +5,12 @@
 $page = [
   'type'         => 'article',
   'title'        => 'Mediterranean & Coastal Interior Design: The Complete 2026 Guide for Indian Homes',
-  'seo_title'    => 'Mediterranean & Coastal Interior Design',
-  'description'  => 'Mediterranean and Coastal are not the same style. They come from opposite ends of history and geography — one from centuries of Southern European…',
-  'lede'         => 'Mediterranean and Coastal are not the same style. They come from opposite ends of history and geography — one from centuries of Southern European…',
-  'hero_alt'     => 'Mediterranean & Coastal Interior Design: The Complete 2026 Guide for Indian Homes',
+  'seo_title'    => 'Mediterranean and Coastal Interior Design',
+  'description'  => 'Mediterranean and coastal interior design for Indian homes: where each comes from, principles, colours, materials, furniture and room-by-room plans.',
+  'lede'         => 'Two related but different styles, explained side by side, with the materials and colours that suit Indian light and humidity.',
+  'hero_alt'     => 'Coastal living room with white walls, blue accents and cane furniture',
   'published'    => '2026-07-04',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'faq' => [
     'Isn\'t Mediterranean-Coastal a bit dated in 2026?' => 'No — it\'s currently the fastest-growing premium residential style in India by market share. What is dated is the 2010s heavy-Tuscan version (dark wood everywhere, gold accents, mustard walls). The 2026 Mediterranean-Coastal is lighter, more Coastal-influenced, and more disciplined. Well-executed versions are increasing in demand, not decreasing.',
     'How much does a Mediterranean-Coastal 2BHK cost in Bangalore?' => 'Entry-tier for a 950–1050 sqft 2BHK runs ₹6–8 lakh all-in. Mid-tier ₹9–12 lakh. Premium ₹13–17 lakh. Luxury ₹18 lakh+. Cheaper than any other comparable premium style. Includes modular kitchen, wardrobes, furniture, lighting, false ceiling, painting, soft furnishings; excludes civil work, electrical rewiring, appliances.',

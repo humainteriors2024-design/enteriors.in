@@ -5,12 +5,12 @@
 $page = [
   'type'         => 'article',
   'title'        => '50 Interior Design Mistakes to Avoid Before Designing Your Home',
-  'seo_title'    => '50 Interior Design Mistakes to Avoid Before Designing Your…',
-  'description'  => 'Most mistakes start before a single shutter is fabricated — homeowners jump straight to colors and finishes without finalizing layouts, electrical…',
-  'lede'         => 'Most mistakes start before a single shutter is fabricated — homeowners jump straight to colors and finishes without finalizing layouts, electrical…',
-  'hero_alt'     => '50 Interior Design Mistakes to Avoid Before Designing Your Home',
+  'seo_title'    => '50 Interior Design Mistakes to Avoid',
+  'description'  => '50 interior design mistakes to avoid: space planning, budget, materials, kitchen, wardrobe, living room and bedroom errors, and how to prevent each.',
+  'lede'         => 'Most mistakes start before a single shutter is made. Here are fifty of them, grouped by stage, with the fix for each.',
+  'hero_alt'     => 'Kitchen with a wall unit door that clashes with the chimney, an example of a planning mistake',
   'published'    => '2026-06-19',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'quick_answer' => 'Every mistake in this guide is cheaper to prevent at the planning stage than to fix after installation.',
   'faq' => [
     'What is the biggest interior design mistake?' => 'Starting without a finalized plan and budget — most other mistakes on this list trace back to skipping this first step.',

@@ -49,6 +49,7 @@ $SCORE = ['Design quality and space planning' => 15, 'Material specification in 
 $page = [
   'type'         => 'article',
   'title'        => 'How to Choose an Interior Designer: Questions, Red Flags and a Scorecard',
+  'hero_alt'   => 'Homeowner reviewing a 3D design and quotation with an interior designer',
   'seo_title'    => 'How to Choose an Interior Designer (2026)',
   'crumb'        => 'How to Choose a Designer',
   'description'  => 'How to choose an interior designer in India: types of firms, 25 questions to ask, how to read portfolios and quotes, red flags and a scoring sheet.',

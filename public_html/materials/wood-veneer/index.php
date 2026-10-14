@@ -2,6 +2,7 @@
 $page = [
   'type'         => 'article',
   'title'        => 'Wood Veneer for Home Interiors: Species, Cuts, Costs and Care',
+  'hero_alt'   => 'Walnut wood veneer wardrobe shutters with book-matched grain',
   'seo_title'    => 'Wood Veneer Guide: Types, Cost & Care (2026)',
   'crumb'        => 'Wood Veneer',
   'description'  => 'Wood veneer for Indian interiors: natural vs recon veneer, species, slicing cuts, matching patterns, PU polish options, 2026 costs, care and a buying checklist.',

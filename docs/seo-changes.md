@@ -126,3 +126,28 @@ pages). The site already handles these: on the live site the words show as plain
 link), on staging they get a dotted underline, and the link switches on by itself the day the
 page is uploaded. They were left in place on purpose. A further 62 such links point to directory
 profiles that stay hidden until `PHASE2` is switched on.
+
+## 5. SEO tagging on every page (task 8)
+
+Every page gets its tags from one template (`includes/head.php` and `includes/schema.php`), so the
+audit was run on the rendered HTML of all 317 crawled pages.
+
+| Tag | Rule | Before | After |
+|---|---|---|---|
+| `<title>` | Unique, keyword first, ≤ 65 characters with " \| Enteriors" | 18 too long, several cut mid-word with "…" | All unique and ≤ 65 |
+| Meta description | Unique, 110–160 characters, a real sentence | 51 were the first paragraph cut off with "…"; 15 over 160 | All rewritten or trimmed; none cut off |
+| Subheading (lede) under the H1 | A real sentence | The same cut-off text as the description showed on the page | Rewritten on every affected page |
+| H1 | Exactly one, containing the page's primary keyword | One per page, but several had no keyword or were cut off ("The Complete Decision Guide", "Stop Lighting Your Home by Guesswork.", "FALSE CEILING COST GUIDE") | Keyword-first H1s |
+| Canonical | Self-referencing (or the main page for paginated lists) | Present | Unchanged |
+| Open Graph | og:title, og:description, og:url, og:image (+ size and alt when a hero photo exists) | Present | og:image:alt now uses descriptive hero alt text |
+| Breadcrumb schema | `BreadcrumbList` on every page except the home page | Present | Unchanged |
+| Article schema | `Article` on guides, `BlogPosting` on posts, with author, dates, citations | Present | Unchanged |
+| FAQ schema | `FAQPage` wherever FAQs are shown | Missing on the home page | Added (148 pages) |
+| LocalBusiness | Only where true | Firms on city pages were plain `Organization` | Firms with a published studio address are now `HomeAndConstructionBusiness` (a LocalBusiness type). Enteriors itself switches automatically once you add a street, postal code and phone in `config.php` → `NAP` (`schema_type` is now `'auto'`) |
+| Image alt text | Every `<img>` has alt; decorative ones are empty | No image without alt | Descriptive hero alt added to 18 guides; the rest fall back to the page title |
+
+Design and directory detail pages now build short titles (style + room + area + city) and cut
+descriptions at a sentence or word, never mid-word, so real listings added later are tagged well
+automatically.
+
+Utility pages (`/thank-you/`, `/verify/`, `/style-guide/`) are noindex and kept short on purpose.

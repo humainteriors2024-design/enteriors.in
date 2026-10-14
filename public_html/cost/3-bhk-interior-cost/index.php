@@ -28,6 +28,7 @@ $page = [
   'css'          => ['tool'],
   'js'           => ['calc'],
   'title'        => '3 BHK Interior Cost in Bangalore: Calculator and Budget Plan',
+  'hero_alt'   => '3 BHK apartment living room with a false ceiling and TV wall',
   'seo_title'    => '3 BHK Interior Cost Bangalore: Calculator (2026)',
   'crumb'        => '3 BHK Interior Cost',
   'description'  => 'Estimate your 3 BHK interior cost with a free calculator, room-wise ranges, sample budgets from ₹8L to ₹25L, a wardrobe calculator and phase-wise planning tips.',

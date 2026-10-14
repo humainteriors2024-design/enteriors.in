@@ -5,12 +5,12 @@
 $page = [
   'type'         => 'article',
   'title'        => 'Standard Interior Dimensions Guide for Indian Homes (2026)',
-  'seo_title'    => 'Standard Interior Dimensions Guide for Indian Homes (2026)',
-  'description'  => 'Every comfortable, functional home is built on correct measurements. Get the dimensions wrong and even the most beautiful design feels cramped, unsafe…',
-  'lede'         => 'Every comfortable, functional home is built on correct measurements. Get the dimensions wrong and even the most beautiful design feels cramped, unsafe…',
-  'hero_alt'     => 'Standard Interior Dimensions Guide for Indian Homes (2026)',
+  'seo_title'    => 'Standard Interior Dimensions for Indian Homes',
+  'description'  => 'Standard interior dimensions for Indian homes: wardrobes, kitchens, TV units, study tables, lofts, pooja units and walkways, with ergonomic reasons.',
+  'lede'         => 'The measurements that make a home comfortable, item by item, so you can check any drawing before it goes to the factory.',
+  'hero_alt'     => 'Measuring tape across a kitchen counter during site measurement',
   'published'    => '2026-06-19',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'faq' => [
     'What is the standard wardrobe depth in India?' => '22"–24" for hinged wardrobes and 24"–26" for sliding wardrobes is standard across most Indian modular setups.',
     'What is the ideal kitchen counter height?' => '34"–35" works for most users; this should be adjusted to 36"–38" for taller users or 30"–32" for shorter users.',

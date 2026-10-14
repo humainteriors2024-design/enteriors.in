@@ -5,12 +5,12 @@
 $page = [
   'type'         => 'compare',
   'title'        => 'Modular Kitchen vs Carpenter-Made Kitchen',
-  'seo_title'    => 'Modular Kitchen vs Carpenter-Made Kitchen | Complete Guide',
-  'description'  => 'The definitive guide comparing modular kitchens vs carpenter-made kitchens — covering cost, quality, durability, finish, timeline, and which is right for…',
-  'lede'         => 'The definitive guide comparing modular kitchens vs carpenter-made kitchens — covering cost, quality, durability, finish, timeline, and which is right for…',
-  'hero_alt'     => 'Modular Kitchen vs Carpenter-Made Kitchen',
+  'seo_title'    => 'Modular Kitchen vs Carpenter Kitchen: Full Comparison',
+  'description'  => 'Modular kitchen vs carpenter-made kitchen: cost, materials, finish, durability, timeline and warranty compared, with which suits your home and budget.',
+  'lede'         => 'Factory-made or built on site? A side-by-side look at cost, quality, finish, time and after-sales service, and how to decide.',
+  'hero_alt'     => 'Factory-made modular kitchen next to a carpenter-built kitchen',
   'published'    => '2026-06-12',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>

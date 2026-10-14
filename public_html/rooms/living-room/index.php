@@ -8,7 +8,7 @@ $page = [
   'seo_title'    => 'Living Room Interior Design Guide for Indian Homes',
   'description'  => 'Plan a living room that works: layout, TV wall, seating, storage, lighting, materials and budget, with sizes and mistakes to avoid in Indian apartments.',
   'lede'         => 'Plan a living room that works: layout, TV wall, seating, storage, lighting, materials and budget, with sizes and mistakes to avoid in Indian apartments.',
-  'hero_alt'     => 'Living Room Interior Design Guide for Indian Homes',
+  'hero_alt'     => 'Living room with a sofa, TV wall, rug and layered lighting',
   'published'    => '2026-06-11',
   'updated'      => '2026-10-04',
 ];

@@ -5,12 +5,12 @@
 $page = [
   'type'         => 'article',
   'title'        => 'Japandi Interior Design: The Complete Guide for Indian Homes — Beyond the Buddha Statue',
-  'seo_title'    => 'Japandi Interior Design: Complete Guide for Indian Homes',
-  'description'  => 'Japandi interior design guide for India, 2026 — real costs for 2BHK & 3BHK, materials, maintenance, Japandi vs Scandinavian, and mistakes to avoid.',
-  'lede'         => 'Japandi interior design guide for India, 2026 — real costs for 2BHK & 3BHK, materials, maintenance, Japandi vs Scandinavian, and mistakes to avoid.',
-  'hero_alt'     => 'Japandi Interior Design: The Complete Guide for Indian Homes — Beyond the Buddha Statue',
+  'seo_title'    => 'Japandi Interior Design for Indian Homes',
+  'description'  => 'Japandi interior design for Indian homes: rooms, materials, upkeep, 2 BHK and 3 BHK costs, timelines, Japandi vs Scandinavian, and mistakes to avoid.',
+  'lede'         => 'Japandi blends Japanese restraint with Scandinavian comfort. Here is what it looks like in an Indian flat, what it costs and how to keep it.',
+  'hero_alt'     => 'Japandi living room with a low oak table, linen sofa and paper lamp',
   'published'    => '2026-07-03',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'quick_answer' => 'Japandi interior design merges Japanese restraint with Scandinavian warmth: warm off-white walls, darker woods like walnut and smoked oak, low furniture and deliberately empty surfaces. In India it costs about ₹9–20 lakh for a 2BHK and ₹13–28 lakh for a 3BHK in most bands, and suits owners who value calm over display — and can live with less on show.',
   'faq' => [
     'Is Japandi interior design expensive in India?' => 'Japandi runs 10–15% above a standard modern interior of the same size. A 2BHK costs roughly ₹9–12 lakh (essential), ₹14–20 lakh (premium) and ₹22–35 lakh (luxury); a 3BHK runs ₹13–17 lakh, ₹19–28 lakh and ₹30–50 lakh respectively. The premium sits in veneer and super-matte finishes, dark-stained woods and handle-less hardware — not in decoration.',

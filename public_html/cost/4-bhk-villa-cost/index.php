@@ -5,12 +5,12 @@
 $page = [
   'type'         => 'article',
   'title'        => '4BHK, Villa & Duplex Interior Design Cost in Bangalore — What Large Homes Really Cost',
-  'seo_title'    => '4BHK, Villa & Duplex Interior Design Cost in Bangalore…',
-  'description'  => '2026 price guide: 4BHK, duplex & villa interiors in Bangalore — room-wise costs, staircase & double-height budgets, hidden charges & factory-direct rates.',
-  'lede'         => '2026 price guide: 4BHK, duplex & villa interiors in Bangalore — room-wise costs, staircase & double-height budgets, hidden charges & factory-direct rates.',
-  'hero_alt'     => '4BHK, Villa & Duplex Interior Design Cost in Bangalore — What Large Homes Really Cost',
+  'seo_title'    => '4 BHK and Villa Interior Cost in Bangalore (2026)',
+  'description'  => '4 BHK, villa and duplex interior cost in Bangalore for 2026: room-wise budgets, staircase and double-height costs, grades, hidden charges and savings.',
+  'lede'         => 'Why large homes do not price like small homes scaled up, and a room-by-room budget for 4 BHK apartments, duplexes and villas.',
+  'hero_alt'     => 'Double-height living room in a villa with a staircase',
   'published'    => '2026-07-03',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'quick_answer' => 'In 2026, complete 4BHK interiors in Bangalore cost ₹18–26 lakh (essential), ₹28–45 lakh (premium) and ₹50 lakh–₹1 crore+ (luxury). A duplex adds a 12–20% premium for staircase and double-height work, while villa interiors run ₹35 lakh–₹1.5 crore+ depending on built-up area and outdoor spaces. Factory-direct pricing typically saves 20–30% versus retail studios for the same material specification.',
   'faq' => [
     'What is the average cost of 4BHK interiors in Bangalore in 2026?' => 'A full 4BHK home interior in Bangalore typically costs ₹18–26 lakh for an essential package, ₹28–45 lakh for a premium package, and ₹50 lakh to ₹1 crore+ for luxury finishes. The final figure depends on carpet area, material grade (MR vs BWP plywood, laminate vs acrylic vs veneer), hardware brand and the number of custom units.',

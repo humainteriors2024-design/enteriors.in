@@ -73,9 +73,10 @@ const NAP = [
   'map_url'     => '',                   // TODO: Google Maps share link
   'map_embed'   => '',                   // optional: the src="" of a Google Maps embed (contact page)
   'geo'         => ['lat' => '', 'lng' => ''],
-  // 'Organization' for a content site. Switch to 'HomeAndConstructionBusiness' ONLY if you
-  // have a real address customers can visit and a Google Business Profile.
-  'schema_type' => 'Organization',
+  // 'auto' = Organization until street, postal code and phone above are filled in, then LocalBusiness
+  // (HomeAndConstructionBusiness) with the address, hours and map. Fill them in ONLY if customers can
+  // visit that address and it matches your Google Business Profile exactly.
+  'schema_type' => 'auto',
 ];
 
 /* ---------- 3. SOCIAL LINKS (footer icons + sameAs in schema) — '' hides one ---------- */

@@ -12,14 +12,16 @@
    ===================================================================== */
 $page = [
   'type'        => 'home',
-  'title'       => 'Home Interior Design: Trending Designs, Ideas and Costs | Enteriors',
-  'description' => 'Home interior design for Indian homes: trending interior designs, guides to modular kitchens, wardrobes and materials, and a free itemised interior cost calculator.',
+  'title'       => 'Home Interior Design: Trending Designs, Ideas and Costs',
+  'seo_title'   => 'Home Interior Design: Trending Designs and Costs | Enteriors',   // the home page title carries the brand itself
+  'description' => 'Home interior design for Indian homes: trending designs, guides to kitchens, wardrobes and materials, and a free itemised interior cost calculator.',
   'updated'     => '2026-10-14',
   'css'         => ['tool', 'finder'],
   'js'          => ['home', 'calc', 'finder'],
 ];
-require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/data/home.php';
+$page['faq'] = $HOME['faq'];   // the questions shown near the bottom of the page, also sent as FAQPage structured data
+require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 $hero    = $HOME['hero'];
 $homeDir = MEDIA['page_dir'] . '/home';
 $tier    = fn($n) => array_filter($HUBS, fn($h0) => ($h0['tier'] ?? 0) === $n);

@@ -17,7 +17,7 @@ $ty  = $T['types'][$d['type']];
 $imgs = design_images($key, $d);
 $city = places_db()['cities'][$d['city']];
 $all  = $T['designs'];
-$desc = mb_strlen($d['summary']) > 158 ? rtrim(mb_substr($d['summary'], 0, 155), " ,.;:") . '…' : $d['summary'];
+$desc = fit_text($d['summary'], 155);
 $real = empty($d['sample']);
 
 $page = [
@@ -25,7 +25,7 @@ $page = [
   'css'           => ['finder'],
   'js'            => ['finder', 'enquiry'],
   'title'         => $d['title'],
-  'seo_title'     => mb_strlen($d['title']) > 58 ? preg_replace('/ (in|on) [^,]+, ([^,]+)$/u', ' in $2', $d['title']) : $d['title'],
+  'seo_title'     => design_seo_title($d),
   'description'   => $desc,
   'crumb'         => $ty['label'] . ' in ' . city_name($d['city']),
   'updated'       => $d['added'],

@@ -4,13 +4,13 @@
    Images: /assets/pages/compare/matte-vs-glossy-finish/   (hero.jpg = main image) */
 $page = [
   'type'         => 'compare',
-  'title'        => 'Matte vs Glossy: which finish wins in each room of your home?',
-  'seo_title'    => 'Matte vs Glossy',
-  'description'  => 'Every paint or surface finish contains microscopic particles that determine how much light they scatter. Matte finishes have irregular, flat particles —…',
-  'lede'         => 'Every paint or surface finish contains microscopic particles that determine how much light they scatter. Matte finishes have irregular, flat particles —…',
-  'hero_alt'     => 'Matte vs Glossy: which finish wins in each room of your home?',
+  'title'        => 'Matte vs Glossy Finish: Which Wins in Each Room?',
+  'seo_title'    => 'Matte vs Glossy Finish: Which to Choose, Room by Room',
+  'description'  => 'Matte vs glossy finish for paint, laminate and shutters: how each handles fingerprints, scratches, light and cleaning, and the right choice for every room.',
+  'lede'         => 'How matte and glossy surfaces differ in light, wear and cleaning, and which finish suits each room of an Indian home.',
+  'hero_alt'     => 'Matte and glossy kitchen shutters side by side under the same light',
   'published'    => '2026-06-11',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>

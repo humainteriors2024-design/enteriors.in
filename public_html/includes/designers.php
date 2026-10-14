@@ -170,7 +170,8 @@ function designer_itemlist($pg, $canonical) {
   foreach ($rows as $i => [$key, $f, $note, $o]) {
     $c = $o ? designer_city($o[0]) : null;
     $items[] = ['@type' => 'ListItem', 'position' => $i + 1, 'item' => array_filter([
-      '@type' => 'Organization', 'name' => $f['name'], 'url' => $f['url'],
+      '@type' => ($o && $o[2]) ? 'HomeAndConstructionBusiness' : 'Organization',   // a firm with a published studio address is a local business
+      'name' => $f['name'], 'url' => $f['url'],
       'address' => $o ? array_filter(['@type' => 'PostalAddress', 'streetAddress' => $o[2] ?: null, 'addressLocality' => $c['official'] ?? null, 'addressRegion' => $c['state'] ?? null, 'addressCountry' => 'IN']) : null,
     ])];
   }

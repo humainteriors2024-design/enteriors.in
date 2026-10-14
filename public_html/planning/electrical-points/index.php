@@ -4,13 +4,13 @@
    Images: /assets/pages/planning/electrical-points/   (hero.jpg = main image) */
 $page = [
   'type'         => 'article',
-  'title'        => 'The Complete Electrical Planning Guide for Home Interiors',
-  'seo_title'    => 'Complete Electrical Planning Guide for Home Interiors 2026',
-  'description'  => 'The ultimate electrical planning guide for home interiors 2026. Room-wise point planning, modular kitchen, false ceiling, AC, smart home, CCTV, inverter &…',
-  'lede'         => 'The ultimate electrical planning guide for home interiors 2026. Room-wise point planning, modular kitchen, false ceiling, AC, smart home, CCTV, inverter &…',
-  'hero_alt'     => 'The Complete Electrical Planning Guide for Home Interiors',
+  'title'        => 'Electrical Points Planning for Home Interiors: Room by Room',
+  'seo_title'    => 'Electrical Points Planning for Home Interiors',
+  'description'  => 'Electrical points planning for home interiors: when to plan, reading drawings, and room-by-room points for TV, kitchen, false ceiling, AC and smart homes.',
+  'lede'         => 'Plan every switch, socket and light point before walls are closed: a room-by-room list, the right heights and the mistakes that cost the most.',
+  'hero_alt'     => 'Electrical layout drawing marked with socket and switch points',
   'published'    => '2026-06-15',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>

@@ -84,6 +84,7 @@ foreach ($TERMS as $t => $v) $byLetter[strtoupper($t[0])][$t] = $v;
 $page = [
   'type'         => 'article',
   'title'        => 'Interior Materials Glossary A–Z',
+  'hero_alt'   => 'Samples of plywood, laminate, veneer, stone and hardware on a table',
   'seo_title'    => 'Interior Materials A–Z Glossary for India',
   'crumb'        => 'Materials A–Z',
   'description'  => 'Interior materials glossary A–Z for Indian homes: boards, finishes, stones, tiles, metals, textiles and hardware in plain words, with where each one works best.',

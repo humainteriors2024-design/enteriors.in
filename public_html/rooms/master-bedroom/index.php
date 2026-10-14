@@ -4,13 +4,13 @@
    Images: /assets/pages/rooms/master-bedroom/   (hero.jpg = main image) */
 $page = [
   'type'         => 'article',
-  'title'        => 'The Complete Master Bedroom Design Guide',
-  'seo_title'    => 'The Complete Master Bedroom Design Guide',
-  'description'  => 'A comprehensive guide to planning your master bedroom — from room sizes and wardrobe layouts to lighting, materials, budgets, and execution. Everything a…',
-  'lede'         => 'A comprehensive guide to planning your master bedroom — from room sizes and wardrobe layouts to lighting, materials, budgets, and execution. Everything a…',
-  'hero_alt'     => 'The Complete Master Bedroom Design Guide',
+  'title'        => 'Master Bedroom Design: Layout, Storage, Lighting and Materials',
+  'seo_title'    => 'Master Bedroom Design: Layout, Storage and Lighting',
+  'description'  => 'Master bedroom design: room sizes, layouts, wardrobes, styles, colours, flooring, false ceiling, lighting, materials and budget, with mistakes to avoid.',
+  'lede'         => 'Plan the master bedroom from the bed outwards: layout, wardrobe wall, light and materials, with sizes and budgets for Indian flats.',
+  'hero_alt'     => 'Master bedroom with an upholstered bed, wardrobe wall and warm bedside lights',
   'published'    => '2026-06-11',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>

@@ -5,12 +5,12 @@
 $page = [
   'type'         => 'compare',
   'title'        => 'Quartz vs Granite Countertops: The Only Comparison You Need',
-  'seo_title'    => 'Quartz vs Granite Countertops: The Only Comparison You Need',
-  'description'  => 'Choosing between quartz and granite is one of the most consequential decisions in any kitchen or bathroom renovation — and one of the most misunderstood.…',
-  'lede'         => 'Choosing between quartz and granite is one of the most consequential decisions in any kitchen or bathroom renovation — and one of the most misunderstood.…',
-  'hero_alt'     => 'Quartz vs Granite Countertops: The Only Comparison You Need',
+  'seo_title'    => 'Quartz vs Granite Countertops: Which Is Better?',
+  'description'  => 'Quartz vs granite countertops: heat, stains, scratches, maintenance, looks and price per sq ft compared for Indian kitchens, with a clear verdict.',
+  'lede'         => 'How quartz and granite behave under Indian cooking, what each costs and how to choose the right stone for your kitchen or bathroom.',
+  'hero_alt'     => 'Quartz and granite countertop samples on a kitchen counter',
   'published'    => '2026-06-10',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'faq' => [
     'Is Quartz Better Than Granite?' => 'Neither is objectively "better" — they excel in different areas. Quartz is better for low-maintenance households, hygiene-critical environments, and consistent design. Granite is better for heat-intensive cooking, outdoor installations, natural aesthetics, and repairability. The best choice depends entirely on your lifestyle, kitchen use, and design preferences.',
     'Does Quartz Crack More Easily Than Granite?' => 'Not in normal use. Quartz\'s engineered resin binders actually give it slightly better flexural strength than granite under uniform load. However, quartz is more vulnerable to thermal cracking from sudden heat shock — placing an extremely hot pot directly on quartz creates a thermal gradient the resin cannot handle. Granite can develop cracks from sharp impact near edges, especially in thinner 2cm slabs.',

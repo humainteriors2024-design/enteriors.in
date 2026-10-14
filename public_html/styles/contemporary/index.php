@@ -2,6 +2,7 @@
 $page = [
   'type'         => 'article',
   'title'        => 'Contemporary Interior Design for Indian Homes',
+  'hero_alt'   => 'Contemporary living room with clean lines and warm wood accents',
   'seo_title'    => 'Contemporary Interior Design for Indian Homes',
   'crumb'        => 'Contemporary',
   'description'  => 'Contemporary interior design for Indian homes: core principles, a warm colour palette, Indian craft accents, room-by-room ideas, materials and cost.',

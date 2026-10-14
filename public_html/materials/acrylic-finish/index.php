@@ -2,6 +2,7 @@
 $page = [
   'type'         => 'article',
   'title'        => 'Acrylic Finish for Kitchens and Wardrobes: Costs, Care and Pitfalls',
+  'hero_alt'   => 'High-gloss acrylic kitchen shutters reflecting window light',
   'seo_title'    => 'Acrylic Finish for Kitchens & Wardrobes (2026)',
   'crumb'        => 'Acrylic',
   'description'  => 'Acrylic finish for Indian homes: gloss vs matte, what a real acrylic panel is, 2026 costs, fingerprint and scratch fixes, and how it compares with laminate.',

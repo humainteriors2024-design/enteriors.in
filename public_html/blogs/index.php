@@ -22,7 +22,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <div class="container">
     <?= component('breadcrumbs') ?>
     <span class="eyebrow mt-6">Blog</span>
-    <h1>Ideas and how-to articles</h1>
+    <h1>Interior design blog: ideas and how-to articles</h1>
     <p class="subheading">Design ideas, colour combinations and practical how-tos. Every article points to the full guide it belongs to.</p>
 <?php if (count($cats) > 1): ?>
     <div class="cluster mt-6">

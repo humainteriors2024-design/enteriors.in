@@ -4,13 +4,13 @@
    Images: /assets/pages/rooms/pooja-room/   (hero.jpg = main image) */
 $page = [
   'type'         => 'article',
-  'title'        => 'Pooja Room Planning Guide',
-  'seo_title'    => 'Pooja Room Planning Guide',
-  'description'  => 'India\'s most complete Pooja Room Planning Guide — covering Vastu, dimensions, materials, lighting, ventilation, fire safety, storage, and budgets for…',
-  'lede'         => 'India\'s most complete Pooja Room Planning Guide — covering Vastu, dimensions, materials, lighting, ventilation, fire safety, storage, and budgets for…',
-  'hero_alt'     => 'Pooja Room Planning Guide',
+  'title'        => 'Pooja Room Design: Size, Placement, Materials and Lighting',
+  'seo_title'    => 'Pooja Room Design: Size, Placement and Materials',
+  'description'  => 'Pooja room design for Indian homes: types, location, sizes, layouts, vastu, styles, materials, lighting, ventilation, fire safety and budgets.',
+  'lede'         => 'How to plan a pooja room or unit that fits your home and rituals, with sizes, materials, safe lighting and lamp placement.',
+  'hero_alt'     => 'Wooden pooja unit with jaali doors and a brass diya',
   'published'    => '2026-06-12',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>

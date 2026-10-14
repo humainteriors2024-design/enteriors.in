@@ -5,13 +5,13 @@
    Image slots in the text (add these files to the image folder): transitional-style-living-room-with-neutral-palette-and-laye */
 $page = [
   'type'         => 'article',
-  'title'        => 'Transitional Style Interiors: The Complete Design Guide',
-  'seo_title'    => 'Transitional Style Interiors',
-  'description'  => 'A complete, expert-written guide to Transitional style interiors — philosophy, colors, materials, furniture, room-by-room design, costs, maintenance, and…',
-  'lede'         => 'A complete, expert-written guide to Transitional style interiors — philosophy, colors, materials, furniture, room-by-room design, costs, maintenance, and…',
-  'hero_alt'     => 'Transitional Style Interiors: The Complete Design Guide',
+  'title'        => 'Transitional Interior Design: The Complete Guide for Indian Homes',
+  'seo_title'    => 'Transitional Interior Design for Indian Homes',
+  'description'  => 'Transitional interior design: the philosophy, colours, materials, furniture and room-by-room plans that blend classic and modern, with costs and upkeep.',
+  'lede'         => 'Transitional style sits between classic and modern. Here is how to get the balance right in each room.',
+  'hero_alt'     => 'Transitional living room mixing a classic sofa with modern lighting',
   'published'    => '2026-07-03',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'faq' => [
     'Is Transitional style the same as Modern style?' => 'No. Modern strips away ornamentation and historical reference entirely. Transitional keeps a light hand of traditional detailing — a curved furniture leg, classic drapery, a subtle moulding — while using a modern, neutral palette and cleaner silhouettes than true Traditional design.',
     'Does Transitional style suit small apartments?' => 'Yes, often better than heavier Traditional styles, because its furniture carries less visual weight. The key is restraint: fewer, better pieces and a consistent neutral palette that keeps a compact space feeling calm rather than cramped.',

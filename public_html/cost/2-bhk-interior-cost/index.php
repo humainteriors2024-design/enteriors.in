@@ -20,6 +20,7 @@ $R = fn($n) => '₹' . number_format($n);   // plain rupees
 $page = [
   'type'         => 'article',
   'title'        => '2 BHK Interior Cost in Bangalore: Itemised Budget for 2026',
+  'hero_alt'   => '2 BHK apartment living and dining area with modular storage',
   'seo_title'    => '2 BHK Interior Cost in Bangalore (2026 Budget)',
   'crumb'        => '2 BHK Interior Cost',
   'description'  => '2 BHK interior cost in Bangalore for 750–1,300 sq ft: an itemised budget in three grades, kitchen and wardrobe rates, board choice, timeline and hidden costs.',

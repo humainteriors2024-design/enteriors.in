@@ -317,7 +317,7 @@ $HUBS = [
   /* ---------------- PHASE 2 (Oct 2026) — DESIGN & MATERIAL HUB PILLARS ---------------- */
   [
     'key' => 'wall-design', 'label' => 'Wall Design', 'href' => '/wall-design/', 'icon' => '🧱', 'tier' => 2,
-    'keyword' => 'wall design for living room',
+    'keyword' => 'wall design ideas',
     'blurb' => 'Panelling, texture paint, cladding and wallpaper: materials, specs and cost.',
     'groups' => [
       ['title' => 'Wall finishes', 'links' => [

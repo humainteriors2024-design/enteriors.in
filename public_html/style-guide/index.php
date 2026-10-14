@@ -3,7 +3,7 @@
    Open /style-guide/ to see what exists before building a page; copy the snippet shown under each block.
    If something is not here, add it to the right CSS file and component first, then use it. */
 $page = ['type' => 'page', 'title' => 'Style Guide', 'noindex' => true, 'css' => ['article', 'tool'],
-  'description' => 'Enteriors design system reference: colours, fonts, spacing, cards, article blocks, calls to action, the five lead forms and the image helpers used across the site.'];
+  'description' => 'Enteriors design system: colours, fonts, spacing, cards, article blocks, calls to action and forms used across the site.'];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 $colours = ['--red' => 'Links, buttons, accents', '--red-dark' => 'Hover', '--red-tint' => 'Light red fills', '--gold' => 'Accents on dark only',
   '--ink' => 'Header, footer, dark sections', '--ink-2' => 'Panels on dark', '--text' => 'Body text', '--muted' => 'Secondary text',

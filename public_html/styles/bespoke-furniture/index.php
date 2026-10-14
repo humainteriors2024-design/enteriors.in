@@ -5,12 +5,12 @@
 $page = [
   'type'         => 'article',
   'title'        => 'Bespoke Interiors & Custom Furniture: The Complete 2026 Guide for Indian Homes',
-  'seo_title'    => 'Bespoke Interiors & Custom Furniture',
-  'description'  => 'Every furniture retailer in Bangalore claims to offer "bespoke." Every interior designer calls their work "custom." Most of them are lying — not…',
-  'lede'         => 'Every furniture retailer in Bangalore claims to offer "bespoke." Every interior designer calls their work "custom." Most of them are lying — not…',
-  'hero_alt'     => 'Bespoke Interiors & Custom Furniture: The Complete 2026 Guide for Indian Homes',
+  'seo_title'    => 'Bespoke Furniture and Custom Interiors in India',
+  'description'  => 'Bespoke furniture in India: what truly custom means, the specification document, materials, construction quality, and where it beats modular furniture.',
+  'lede'         => 'What separates real bespoke furniture from decorated modular units, and where paying for custom work makes sense.',
+  'hero_alt'     => 'Custom walnut sideboard with hand-finished joinery',
   'published'    => '2026-07-04',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'faq' => [
     'Is bespoke furniture really worth the premium?' => 'Selectively, yes — for specific pieces in specific situations. Comprehensively, no. Bespoke is worth the premium for master bedroom wardrobes, sofas, dining tables over 8 feet, bar cabinets, and pieces solving specific storage or architectural problems. It is not worth the premium for guest bedroom furniture, standard-dimension side tables, or dining chairs. The mix is the professional answer.',
     'How do I know if something is genuinely bespoke or just marketed that way?' => 'Apply the three-question test: (1) Was this design created for my project specifically? (2) Can I change dimensions freely without cost impact? (3) Can I select materials outside your standard board? Three "yes" answers = genuine bespoke. Any "no" = semi-custom or made-to-measure sold as bespoke.',
