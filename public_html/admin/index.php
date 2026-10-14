@@ -84,7 +84,7 @@ $table = function ($title, $data, $head = 'Leads') {
 <header>
   <h1><?= e(SITE['name']) ?> reports<?= is_staging() ? ' · STAGING (test data)' : '' ?></h1>
   <nav>Period: <?php foreach ([7 => '7 days', 30 => '30 days', 90 => '90 days', 0 => 'All time'] as $d => $t) echo '<a href="?days=' . $d . '"' . ($d === $days ? ' class="on"' : '') . '>' . $t . '</a>'; ?>
-    · <a href="/admin/images.php">Images</a> · <a href="/admin/designs.php">Add a design</a> · <a href="?download=leads">Download leads CSV</a> <a href="?download=calc">Download calculator log</a></nav>
+    · <a href="/admin/images.php">Images</a> · <a href="/admin/designs.php">Add a design</a> · <a href="/admin/indexnow.php">IndexNow</a> · <a href="?download=leads">Download leads CSV</a> <a href="?download=calc">Download calculator log</a></nav>
 </header>
 <main>
   <section class="wide">

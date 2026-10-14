@@ -60,6 +60,7 @@ is still the better choice.
 - `config.php` → `const LAUNCHED = true;` turns on indexing, the sitemap and llms.txt. Then check
   `/robots.txt`, `/sitemap.xml` and the page source (`<meta name="robots">` should say `index, follow`).
 - **Submit the sitemap only after this.** Before launch, `/sitemap.xml` answers "not found" on purpose.
-  Then Search Console → Sitemaps → `https://enteriors.in/sitemap.xml`.
+  Then Search Console → Sitemaps → `https://enteriors.in/sitemap.xml`, and `/admin/indexnow.php` →
+  Submit for Bing and the other IndexNow engines (see [`ga4-setup.md`](ga4-setup.md), section 6).
 - `config.php` → `const PHASE2 = true;` only if the "Find a designer" directory and the other
   phase-2 pages should go live at the same time.

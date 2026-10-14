@@ -128,7 +128,7 @@ $val = fn($k) => e(is_array($v[$k] ?? '') ? '' : (string) ($v[$k] ?? ''));
 <body>
 <header>
   <h1><?= e(SITE['name']) ?> · Add a design<?= is_staging() ? ' · STAGING' : '' ?></h1>
-  <nav><a href="/admin/">Reports</a> · <a href="/admin/images.php">Images</a> · <a href="/trending-designs/" target="_blank">Trending designs ↗</a></nav>
+  <nav><a href="/admin/">Reports</a> · <a href="/admin/images.php">Images</a> · <a href="/admin/indexnow.php">IndexNow</a> · <a href="/trending-designs/" target="_blank">Trending designs ↗</a></nav>
 </header>
 <main>
 <?php if ($mx): ?><div class="msg <?= $mt === 'ok' ? 'ok' : 'err' ?>"><?= e($mx) ?></div><?php endif; ?>

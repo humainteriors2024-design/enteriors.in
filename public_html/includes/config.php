@@ -106,6 +106,7 @@ const TRACKING = [
   'google_ads'        => '',                   // optional, later: Google Ads 'AW-XXXXXXXXXX' (loads through the same Google tag, no second tag)
   'google_ads_lead'   => '',                   // optional, later: the Ads conversion label sent with each generate_lead
   'on_staging'        => false,                // true = also load the tags on a staging address (for testing only)
+  'indexnow_key'      => 'c87fa4a9510f7c3ed112221462b2a5f0',   // IndexNow (Bing, Yandex, Seznam, Naver): its key file /<key>.txt is in public_html. Submit from /admin/indexnow.php
 ];
 
 /* ---------- 5. LEAD FORMS ----------

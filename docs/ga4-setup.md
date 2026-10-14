@@ -186,19 +186,33 @@ Custom dimensions only fill in from the day you create them. Register them befor
 
 ---
 
-## 6. Google Search Console
+## 6. Google Search Console and sitemaps
 
-1. In Search Console, add a **URL-prefix** property for `https://enteriors.in/` and choose the
-   **HTML tag** method.
-2. Copy only the code inside `content="…"` into `config.php` → `TRACKING['gsc_verification']`, then
-   upload `config.php`. The tag is printed on every page, even before launch.
-3. Click **Verify**.
-4. Submit the sitemap only after launch. While `LAUNCHED = false`, `/sitemap.xml` answers "not found"
-   on purpose. After setting `LAUNCHED = true`, submit `https://enteriors.in/sitemap.xml` in
-   Search Console → Sitemaps.
-5. Link Search Console to GA4 (section 5).
+**Verify the site** with one of these methods (any one is enough):
 
----
+- **Domain property (recommended):** in Search Console add `enteriors.in` as a *Domain* property and
+  copy the `google-site-verification=…` TXT record into MilesWeb → cPanel → Zone Editor →
+  `enteriors.in` → Add Record (TXT). This covers http, https and www in one property.
+- **HTML tag:** add a *URL-prefix* property for `https://enteriors.in/`, choose **HTML tag**, copy
+  only the code inside `content="…"` into `config.php` → `TRACKING['gsc_verification']` and upload
+  `config.php`. The tag is printed on every page.
+- **HTML file:** download the `google….html` file Search Console offers and upload it into
+  `public_html/`. Nothing in the code needs to change.
+
+**Submit the sitemap** after the site is out of the pre-launch lock (`config.php` →
+`const LAUNCHED = true;`). Before that, `/sitemap.xml` answers "not found" on purpose and every page
+is noindex.
+
+1. Search Console → Sitemaps → enter `sitemap.xml` → Submit. It lists every indexable page (164 at
+   the last check). Sample listings, utility pages and phase-2 pages are left out automatically. It
+   is also named in `/robots.txt`, so Google finds it on its own as well.
+2. **Bing and others (IndexNow):** open `/admin/indexnow.php` (needs the admin password) and press
+   **Submit**. It sends every sitemap page to Bing, Yandex, Seznam and Naver at once, using the
+   IndexNow key already in `public_html/c87fa4a9510f7c3ed112221462b2a5f0.txt`. Use it again after
+   adding or updating several pages. Google does not use IndexNow, so the Search Console submit is
+   still needed for Google. Also add the site to Bing Webmaster Tools; it can import everything from
+   Search Console.
+3. Link Search Console to GA4 (section 5).
 
 ## 7. Where each enquiry came from (lead emails)
 

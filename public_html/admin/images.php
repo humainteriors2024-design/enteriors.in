@@ -112,7 +112,7 @@ $token = admin_token();
 <body>
 <header>
   <h1><?= e(SITE['name']) ?> · Images<?= is_staging() ? ' · STAGING' : '' ?></h1>
-  <nav><a href="/admin/">Reports</a> · <a href="/admin/designs.php">Add a design</a></nav>
+  <nav><a href="/admin/">Reports</a> · <a href="/admin/designs.php">Add a design</a> · <a href="/admin/indexnow.php">IndexNow</a></nav>
 </header>
 <main>
 <?php if ($text): ?><div class="msg <?= $type === 'ok' ? 'ok' : 'err' ?>"><?= e($text) ?></div><?php endif; ?>

@@ -9,32 +9,7 @@
    ===================================================================== */
 require __DIR__ . '/includes/site.php';
 if (site_locked()) { http_response_code(404); header('Content-Type: text/plain; charset=utf-8'); echo "Not found.\n"; exit; }
-$root = rtrim($_SERVER['DOCUMENT_ROOT'] ?: __DIR__, '/');
-$skip = '#^/(includes|assets|api|admin|_templates|style-guide|thank-you|blogs/[^/]+)(/|$)#';
-$urls = [];
-if (!site_locked()) {
-  $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($root, FilesystemIterator::SKIP_DOTS));
-  foreach ($it as $file) {
-    if ($file->getFilename() !== 'index.php') continue;
-    $dir = str_replace($root, '', $file->getPath());
-    $url = ($dir === '' ? '' : $dir) . '/';
-    if (preg_match($skip, $url) || str_contains($url, '/.') || str_contains($url, '/_')) continue;
-    $src = file_get_contents($file->getPathname());
-    if (preg_match("#'noindex'\s*=>\s*true|'canonical'\s*=>\s*'/#", $src)) continue;   // hidden, or points Google at another page
-    $date = preg_match("#'updated'\s*=>\s*'(\d{4}-\d{2}-\d{2})'#", $src, $m) ? $m[1] : date('Y-m-d', $file->getMTime());
-    $urls[$url] = $date;
-  }
-  foreach (posts() as $slug => $p) if (empty($p['canonical'])) $urls[$p['url']] = $p['updated'] ?? $p['date'];
-  // trending designs and the designer directory: listing pages only while they are indexable (no sample listings),
-  // and one entry per real (non-sample) design and professional
-  foreach (['designs' => FINDER['designs_url'], 'pros' => FINDER['pros_url']] as $sec => $base) {
-    if (finder_noindex($sec)) { unset($urls[$base]); continue; }
-    foreach ($sec === 'designs' ? trends_db()['designs'] : pros_db()['pros'] as $k => $x)
-      if (empty($x['sample'])) $urls[$base . $k . '/'] = $x['added'] ?? (pros_db()['checked'] ?? date('Y-m-d'));
-  }
-  if (!posts()) unset($urls[BLOG_BASE . '/']);   // no empty blog hub in the sitemap
-  ksort($urls);
-}
+$urls = sitemap_urls();   // includes/functions.php (the IndexNow tool in /admin/ uses the same list)
 header('Content-Type: application/xml; charset=utf-8');
 echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";

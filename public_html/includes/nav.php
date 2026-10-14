@@ -491,6 +491,7 @@ $HUBS = [
   /* ---------------- TRENDING DESIGNS — project gallery with filters (includes/data/trends.php) ---------------- */
   [
     'key' => 'trending-designs', 'label' => 'Designs', 'href' => '/trending-designs/', 'icon' => '🖼️', 'tier' => 0, 'menu' => true,
+    'menu_label' => 'Trending Designs ' . date('Y'),   // the header shows this (desktop menu and mobile menu); 'label' stays for breadcrumbs
     'keyword' => 'trending interior designs',
     'blurb' => 'Homes and rooms from every state, with the firm, designer, style and approximate budget.',
     'groups' => [
