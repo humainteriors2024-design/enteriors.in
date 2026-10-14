@@ -88,7 +88,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 <h2>Bedrooms and private rooms</h2>
 <h3>Master bedroom</h3>
-<p>Bedroom design begins with the bed. Put the headboard against a solid wall with about 2 ft clear on each side, then give the longest remaining wall to the wardrobe. A wardrobe is 24 inches deep, so check that hinged doors can open fully without touching the bed, or choose sliding doors. Layouts are shown in <a href="/rooms/master-bedroom/">master bedroom design</a>. A dresser works best near daylight with a light on each side of the mirror; see <a href="/rooms/vanity-dressing/">vanity and dressing units</a>.</p>
+<p>Bedroom design begins with the bed. Put the headboard against a solid wall with about 2 ft clear on each side, then give the longest remaining wall to the wardrobe. A wardrobe is 24 inches deep, so check that hinged doors can open fully without touching the bed, or choose sliding doors. Layouts are shown in <a href="/rooms/master-bedroom/">master bedroom design</a>. A dresser works best near daylight with a light on each side of the mirror; see <a href="/furniture/dressing-table-design/">dressing table design</a>.</p>
 <h3>Kids room</h3>
 <p>Plan a kids room to grow with the child. Build a full-height wardrobe with adjustable shelves and a hanging rail that can be raised, keep the bed as loose furniture that can be replaced, and leave open floor for play. Avoid themed built-in furniture that will be outgrown in a few years. More in <a href="/rooms/kids-room/">kids room ideas</a>.</p>
 <h3>Study and home office</h3>
@@ -104,7 +104,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Pooja room.</strong> A wall unit suits most apartments. Plan a drawer for lamps and incense, a stone or tile surface under the lamp, and ventilation. See <a href="/rooms/pooja-room/">pooja room designs</a>. Many families follow the traditional preference for the north-east, described in <a href="/vastu/pooja-room-vastu/">pooja room vastu</a>.</li>
   <li><strong>Crockery unit.</strong> Keep it beside the dining table, with glass shutters above for display and closed drawers below for cutlery and linen. See <a href="/rooms/crockery-unit/">crockery unit designs</a>.</li>
   <li><strong>Foyer.</strong> A shoe unit, a seat, a mirror and a place for keys cover most needs. See <a href="/rooms/foyer-entrance/">foyer and entrance design</a>.</li>
-  <li><strong>Balcony.</strong> Choose one main use and buy outdoor-grade materials. Never block the drain or the floor slope. See <a href="/rooms/balcony/">balcony ideas</a>.</li>
+  <li><strong>Balcony.</strong> Choose one main use and buy outdoor-grade materials. Never block the drain or the floor slope. See <a href="/rooms/balcony/">balcony design ideas</a>.</li>
   <li><strong>Utility.</strong> Fix the washing machine and sink positions first, then add water-resistant cabinets above. See <a href="/rooms/utility-area/">utility area design</a>.</li>
   <li><strong>Home bar.</strong> A counter or a cabinet inside the dining or living area is usually enough, with a top that wipes clean. See <a href="/rooms/home-bar/">home bar ideas</a>.</li>
 </ul>

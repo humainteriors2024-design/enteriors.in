@@ -35,9 +35,6 @@ return [
     ['For more styles, see these {a}.', 'stylish dressing table designs', 'https://humainteriors.com/blogs/stylish-dressing-table-designs.php', 'follow', 'Ideas from our partner studio'],
     ['Combining the dresser with the wardrobe? Huma Interiors shows {a}.', 'wardrobe and dressing table layouts', 'https://humainteriors.com/blogs/wardrobe-with-dressing-table-designs-layouts-ideas-for-your-bedroom.php', 'nofollow', ''],
   ],
-  '/rooms/vanity-dressing/' => [
-    ['See these {a} for bedrooms where the dresser is built into the wardrobe wall.', 'wardrobe with dressing table designs', 'https://humainteriors.com/blogs/wardrobe-with-dressing-table-designs-layouts-ideas-for-your-bedroom.php', 'follow', 'Ideas from our partner studio'],
-  ],
   '/doors/glass-partition-design/' => [
     ['For partitions between the entrance and the hall, see these {a}.', 'hall partition designs', 'https://humainteriors.com/blogs/hall-partition-design.php', 'follow', 'Ideas from our partner studio'],
   ],
@@ -57,17 +54,11 @@ return [
   '/rooms/master-bedroom/' => [
     ['For the bed wall, Huma Interiors has {a}.', 'more bedroom wall designs', 'https://humainteriors.com/blogs/bedroom-wall-design-ideas.php', 'nofollow', 'More ideas'],
   ],
-  '/blogs/two-colour-kitchen-laminates/' => [
-    ['For more pairings photographed in real kitchens, see these {a}.', 'two-colour combinations for kitchen laminates', 'https://humainteriors.com/blogs/two-colour-combination-for-kitchen-laminates.php', 'follow', 'From our partner studio'],
-  ],
   '/blogs/kitchen-colour-combinations/' => [
     ['Choosing laminates? Huma Interiors lists {a}.', 'two-colour laminate combinations', 'https://humainteriors.com/blogs/two-colour-combination-for-kitchen-laminates.php', 'nofollow', 'More ideas'],
   ],
   '/furniture/tv-unit-design/' => [
     ['See these {a} for wall-mounted, panelled and floor-standing units.', 'modern TV unit designs for living rooms', 'https://humainteriors.com/blogs/modern-tv-unit-designs-for-living-rooms.php', 'follow', 'Ideas from our partner studio'],
-  ],
-  '/blogs/2-bhk-interior-cost-breakdown/' => [
-    ['For layouts to go with the budget, see these {a}.', '2 BHK flat interior design ideas', 'https://humainteriors.com/blogs/2-bhk-flat-interior-design.php', 'follow', 'From our partner studio'],
   ],
   '/cost/2-bhk-interior-cost/' => [
     ['Want a second opinion from a working studio? Huma Interiors publishes its own {a}.', '2 BHK interior cost in Bangalore', 'https://humainteriors.com/2bhk-interior-cost.php', 'sponsored', 'Sponsored · partner studio'],

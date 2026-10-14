@@ -4,13 +4,13 @@
    Images: /assets/pages/planning/home-planning-checklist/   (hero.jpg = main image) */
 $page = [
   'type'         => 'article',
-  'title'        => 'Home Interior Planning Checklist: From Possession Day to Handover',
-  'seo_title'    => 'Home Interior Planning Checklist',
-  'description'  => 'A complete home interior planning checklist covering budget, space planning, kitchen, wardrobe, lighting, electrical, materials and 25 common mistakes to avoid.',
-  'lede'         => 'A complete home interior planning checklist covering budget, space planning, kitchen, wardrobe, lighting, electrical, materials and 25 common mistakes to avoid.',
+  'title'        => 'Home Interior Checklist: Every Decision Before Work Starts',
+  'seo_title'    => 'Home Interior Checklist for a New Home',
+  'description'  => 'Home interior checklist for a new home: budget, measurements, space planning, kitchen, wardrobes, electrical, lighting, materials, vendors and execution, in the order you decide them.',
+  'lede'         => 'Every interior decision in the order you will make it, from your family\'s needs and budget to materials, vendors and the final snag list.',
   'hero_alt'     => 'Home Interior Planning Checklist: From Possession Day to Handover',
   'published'    => '2025-06-11',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>

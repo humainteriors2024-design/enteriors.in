@@ -1,0 +1,336 @@
+url,pillar,primary_keyword,search_intent,secondary_keywords,status,decision_and_notes
+/,home,home interior design,Commercial investigation,home interiors; interior design ideas india; trending interior designs (section),indexable at launch,Keep. Brand home page; owns the head term.
+/about/,company,enteriors,Navigational,about enteriors,indexable at launch,Keep. Brand page.
+/blogs/,blog,interior design blog,Informational,home interior ideas articles,indexable at launch,Keep. Blog hub (8 posts after the merges below).
+/blogs/2-bhk-interior-cost-breakdown/,blog,—,—,,301 → /cost/2-bhk-interior-cost/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/3-bhk-interior-budget-planning/,blog,—,—,,301 → /cost/3-bhk-interior-cost/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/acrylic-finish-benefits-costs/,blog,—,—,,301 → /materials/acrylic-finish/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/acrylic-vs-laminate-complete-comparison/,blog,—,—,,301 → /compare/acrylic-vs-laminate/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/choosing-an-interior-designer-checklist/,blog,—,—,,301 → /planning/how-to-choose-interior-designer/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/contemporary-living-india/,blog,—,—,,301 → /styles/contemporary/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/hdhmr-board-carpenter-guide/,blog,—,—,,301 → /materials/hdhmr-board/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/hidden-costs-home-interiors/,cost,hidden costs in home interiors,Informational,interior quotation exclusions; interior budget overrun,indexable at launch,Keep.
+/blogs/interior-material-brands-india/,materials,interior material brands in india,Commercial investigation,best plywood brands; hardware brands india,indexable at launch,Keep.
+/blogs/interior-materials-a-to-z/,blog,—,—,,301 → /glossary/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/japandi-wabi-sabi-meets-scandinavian/,blog,—,—,,301 → /styles/japandi/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/kitchen-colour-combinations/,modular-kitchen,kitchen colour combination,Informational,two colour kitchen laminates; modular kitchen colour combination,indexable at launch,Keep. Absorbs /blogs/modular-kitchen-colour-pairings/ and /blogs/two-colour-kitchen-laminates/ (301).
+/blogs/kitchen-renovation-cost/,modular-kitchen,kitchen renovation cost,Commercial investigation,kitchen remodel cost india,indexable at launch,Keep. Renovation of an existing kitchen; new kitchens = calculator.
+/blogs/kitchen-storage-solutions-guide/,blog,—,—,,301 → /modular-kitchen/storage-solutions/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/l-shape-modular-kitchen-designs/,modular-kitchen,l shape modular kitchen design,Informational,l shaped kitchen ideas,indexable at launch,Keep.
+/blogs/minimalist-home-design-ideas/,blog,—,—,,301 → /styles/minimalist/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/modular-kitchen-colour-pairings/,blog,—,—,,301 → /blogs/kitchen-colour-combinations/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/modular-kitchen-planning-guide/,blog,—,—,,301 → /modular-kitchen/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/modular-kitchen-storage-units-explained/,blog,—,—,,301 → /modular-kitchen/storage-solutions/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/planning-home-interiors-hosur-road/,interior-designers,home interiors on hosur road,Local (commercial),interiors bommasandra; hosur road apartments,indexable at launch,"RE-TARGETED to the Hosur Road corridor (title named Electronic City and Chandapura, which have their own pages)."
+/blogs/two-colour-kitchen-laminates/,blog,—,—,,301 → /blogs/kitchen-colour-combinations/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/u-shape-kitchen-designs/,modular-kitchen,u shape kitchen design,Informational,u shaped modular kitchen,indexable at launch,Keep.
+/blogs/vastu-for-home-interiors-room-by-room/,blog,—,—,,301 → /vastu/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/veneer-finish-luxury-wood-guide/,blog,—,—,,301 → /materials/wood-veneer/,MERGED: duplicated the target page (it was already canonicalised to it). Unique material folded into the target; old URL redirects permanently.
+/blogs/wallpaper-cost-per-sq-ft/,wall-design,wallpaper cost per sq ft,Commercial investigation,wallpaper price per roll india,indexable at launch,Keep. Cost intent; types/fixing = /wall-design/wallpaper-guide/.
+/calculators/,calculators,interior design calculators,Transactional,home interior cost calculators,indexable at launch,Keep. Hub of the four tools.
+/calculators/home-interior-quote/,calculators,interior cost calculator,Transactional,home interior cost calculator; interior design estimate,indexable at launch,"Keep. Owns ""interior cost calculator""."
+/calculators/interior-cost/,calculators,interior cost per sq ft calculator,Transactional,quick interior estimate by sq ft,indexable at launch,"RE-TARGETED: was also titled ""Interior Cost Calculator"" (competed with /calculators/home-interior-quote/)."
+/calculators/modular-kitchen/,modular-kitchen,modular kitchen cost calculator,Transactional,modular kitchen price calculator; kitchen cost per running foot,indexable at launch,Keep.
+/calculators/wardrobe-cost/,wardrobe,wardrobe cost calculator,Transactional,wardrobe price per sq ft,indexable at launch,Keep.
+/colour/,colour,wall colour combination,Informational,colour combination for house,indexable at launch,Keep. Pillar.
+/colour/bedroom-colour-combination/,colour,bedroom colour combination,Informational,two colour combination for bedroom walls,indexable at launch,Keep.
+/colour/colour-psychology/,colour,colour psychology in interior design,Informational,colour psychology home,indexable at launch,Keep.
+/colour/exterior-house-colour/,colour,exterior house colour combination,Informational,house outside colour,indexable at launch,Keep.
+/colour/living-room-colour-combination/,colour,living room colour combination,Informational,hall colour combination,indexable at launch,Keep.
+/colour/paint-finishes/,colour,types of paint finish,Informational,emulsion vs enamel; matte vs satin paint,indexable at launch,Keep.
+/compare/,materials,interior material comparisons,Informational,which material is better for interiors,indexable at launch,Keep. Hub of the comparison pages.
+/compare/acrylic-vs-laminate/,materials,acrylic vs laminate,Commercial investigation,acrylic or laminate for kitchen,indexable at launch,Keep. Absorbs /blogs/acrylic-vs-laminate-complete-comparison/ (301).
+/compare/bwp-vs-bwr-vs-mr-plywood/,materials,bwp vs bwr vs mr plywood,Commercial investigation,mr vs bwr plywood; bwr vs bwp,indexable at launch,Keep. Owns the grade comparison.
+/compare/calibrated-vs-normal-plywood/,materials,calibrated plywood vs normal plywood,Commercial investigation,calibrated plywood meaning,indexable at launch,Keep.
+/compare/engineered-wood-vs-plywood/,materials,engineered wood vs plywood,Commercial investigation,engineered wood furniture vs plywood,indexable at launch,Keep.
+/compare/hdhmr-vs-plywood/,materials,hdhmr vs plywood,Commercial investigation,hdhmr or plywood for kitchen,indexable at launch,Keep.
+/compare/matte-vs-glossy-finish/,materials,matte vs glossy finish,Commercial investigation,matte or gloss kitchen,indexable at launch,Keep.
+/compare/mdf-vs-plywood/,materials,mdf vs plywood,Commercial investigation,plywood vs mdf for furniture,indexable at launch,Keep.
+/compare/modular-vs-carpenter-kitchen/,modular-kitchen,modular kitchen vs carpenter kitchen,Commercial investigation,modular vs carpenter made kitchen,indexable at launch,Keep.
+/compare/quartz-vs-granite/,materials,quartz vs granite,Commercial investigation,quartz or granite countertop,indexable at launch,Keep.
+/compare/sliding-vs-hinged-wardrobe/,wardrobe,sliding vs hinged wardrobe,Commercial investigation,sliding or openable wardrobe,indexable at launch,Keep.
+/compare/veneer-vs-laminate/,materials,veneer vs laminate,Commercial investigation,laminate or veneer for wardrobe,indexable at launch,Keep.
+/contact/,company,contact enteriors,Navigational,free interior design consultation bangalore,indexable at launch,Keep. Contact / consultation form.
+/cost/,cost,interior design cost in bangalore,Commercial investigation,home interior cost per sq ft; interior design cost 2026,indexable at launch,Keep. Pillar.
+/cost/1-bhk-interior-cost/,cost,1 bhk interior cost,Commercial investigation,1bhk interior design cost; 1 bhk interior budget,indexable at launch,Keep.
+/cost/2-bhk-interior-cost/,cost,2 bhk interior cost,Commercial investigation,2bhk interior design cost bangalore; 2 bhk interior budget,indexable at launch,Keep. Absorbs /blogs/2-bhk-interior-cost-breakdown/ (301).
+/cost/3-bhk-interior-cost/,cost,3 bhk interior cost,Commercial investigation,3bhk interior design cost bangalore; 3 bhk interior budget plan,indexable at launch,Keep. Absorbs /blogs/3-bhk-interior-budget-planning/ (301).
+/cost/4-bhk-villa-cost/,cost,4 bhk and villa interior cost,Commercial investigation,villa interior design cost; duplex interior cost,indexable at launch,Keep.
+/cost/essential-vs-luxury-budget/,cost,basic vs premium interior design,Commercial investigation,mid-range vs luxury interiors; interior budget tiers,indexable at launch,Keep.
+/cost/false-ceiling-cost/,cost,false ceiling cost per sq ft,Commercial investigation,gypsum false ceiling cost; pop ceiling rate,indexable at launch,Keep. Cost intent; design intent is /false-ceiling/.
+/cost/home-renovation-cost/,cost,home renovation cost,Commercial investigation,interior renovation cost bangalore; flat renovation cost,indexable at launch,Keep. Distinct from kitchen renovation (blog).
+/doors/,doors,door design for home,Informational,types of doors for home,indexable at launch,Keep. Pillar.
+/doors/flush-vs-solid-wood-door/,doors,flush door vs solid wood door,Commercial investigation,flush door price,indexable at launch,Keep.
+/doors/glass-partition-design/,doors,glass partition design,Informational,glass partition for living room,indexable at launch,Keep.
+/doors/main-door-design/,doors,main door design,Informational,main door design for flat,indexable at launch,Keep.
+/doors/pooja-room-door-design/,doors,pooja room door design,Informational,mandir door design,indexable at launch,Keep.
+/doors/sliding-door-design/,doors,sliding door design,Informational,sliding door for home,indexable at launch,Keep.
+/false-ceiling/,false-ceiling,false ceiling design,Informational,false ceiling types; gypsum vs pop ceiling,indexable at launch,Keep. Pillar. Cost intent sits on /cost/false-ceiling-cost/.
+/flooring/,flooring,flooring types in india,Informational,best flooring for home india; tiles vs marble vs wooden flooring,indexable at launch,Keep. Pillar.
+/furniture/,furniture,furniture design for home,Informational,home furniture sizes and materials,indexable at launch,Keep. Pillar.
+/furniture/bed-design/,furniture,bed design with storage,Informational,double bed design; hydraulic bed,indexable at launch,Keep.
+/furniture/dressing-table-design/,furniture,dressing table design,Informational,dressing unit design; dressing area ideas,indexable at launch,Keep. Absorbs /rooms/vanity-dressing/ (301).
+/furniture/shoe-rack-design/,furniture,shoe rack design,Informational,shoe cabinet design,indexable at launch,Keep.
+/furniture/sofa-buying-guide/,furniture,sofa buying guide,Commercial investigation,how to choose a sofa,indexable at launch,Keep.
+/furniture/study-table-design/,furniture,study table design,Informational,study table for kids and adults,indexable at launch,Keep.
+/furniture/tv-unit-design/,furniture,tv unit design,Informational,tv unit for living room,indexable at launch,Keep.
+/glossary/,materials,interior materials glossary,Informational,interior design terms; interior materials a to z,indexable at launch,Keep. Absorbs /blogs/interior-materials-a-to-z/ (301).
+/interior-designer-near-me/,interior-designers,interior designers near me,Local (commercial),find interior designer near me; how to compare designers,indexable at launch,"Keep. Pillar; the only page targeting ""near me""."
+/interior-designers/bangalore/,interior-designers,interior designers in bangalore,Local (commercial),best interior designers in bangalore; home interior designers bangalore,indexable at launch,Keep. One page per city.
+/interior-designers/bangalore/budget/,interior-designers,budget interior designers in bangalore,Local (commercial),low cost interior designers bangalore,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/bangalore/chandapura/,interior-designers,interior designers in chandapura,Local (commercial),home interiors chandapura,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/bangalore/electronic-city/,interior-designers,interior designers in electronic city,Local (commercial),home interiors electronic city,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/bangalore/indiranagar/,interior-designers,interior designers in indiranagar,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/bangalore/kitchen/,interior-designers,kitchen interior designers in bangalore,Local (commercial),modular kitchen designers bangalore,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/bangalore/luxury/,interior-designers,luxury interior designers in bangalore,Local (commercial),high end interior designers bangalore,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/belgaum/,interior-designers,interior designers in belgaum,Local (commercial),best interior designers in belgaum; home interior designers belgaum,indexable at launch,Keep. One page per city.
+/interior-designers/chennai/,interior-designers,interior designers in chennai,Local (commercial),best interior designers in chennai; home interior designers chennai,indexable at launch,Keep. One page per city.
+/interior-designers/chennai/architects/,interior-designers,architects and interior designers in chennai,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/chennai/low-budget/,interior-designers,low budget interior designers in chennai,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/coimbatore/,interior-designers,interior designers in coimbatore,Local (commercial),best interior designers in coimbatore; home interior designers coimbatore,indexable at launch,Keep. One page per city.
+/interior-designers/delhi/,interior-designers,interior designers in delhi,Local (commercial),residential interior designers delhi,indexable at launch,Keep.
+/interior-designers/delhi/office/,interior-designers,office interior designers in delhi,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/erode/,interior-designers,interior designers in erode,Local (commercial),best interior designers in erode; home interior designers erode,indexable at launch,Keep. One page per city.
+/interior-designers/famous-interior-designers-india/,interior-designers,famous interior designers in india,Informational,top indian interior designers (people),indexable at launch,"Keep. People, not companies."
+/interior-designers/gurgaon/,interior-designers,interior designers in gurgaon,Local (commercial),best interior designers in gurgaon; home interior designers gurgaon,indexable at launch,Keep. One page per city.
+/interior-designers/gurgaon/office/,interior-designers,office interior designers in gurgaon,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/hyderabad/,interior-designers,interior designers in hyderabad,Local (commercial),best interior designers in hyderabad; home interior designers hyderabad,indexable at launch,Keep. One page per city.
+/interior-designers/hyderabad/kukatpally/,interior-designers,interior designers in kukatpally,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/india/,interior-designers,best interior designers in india,Commercial investigation,top interior design companies india,indexable at launch,"Keep. Companies; people are on the ""famous"" page."
+/interior-designers/kolkata/,interior-designers,interior designers in kolkata,Local (commercial),best interior designers in kolkata; home interior designers kolkata,indexable at launch,Keep. One page per city.
+/interior-designers/madurai/,interior-designers,interior designers in madurai,Local (commercial),best interior designers in madurai; home interior designers madurai,indexable at launch,Keep. One page per city.
+/interior-designers/maharashtra/,interior-designers,interior designers in maharashtra,Local (commercial),,indexable at launch,Keep. State page; Mumbai and Pune have their own city pages.
+/interior-designers/mumbai/,interior-designers,interior designers in mumbai,Local (commercial),best interior designers in mumbai; home interior designers mumbai,indexable at launch,Keep. One page per city.
+/interior-designers/mumbai/andheri/,interior-designers,interior designers in andheri,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/mumbai/bandra/,interior-designers,interior designers in bandra,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/mumbai/luxury/,interior-designers,luxury interior designers in mumbai,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/mumbai/malad/,interior-designers,interior designers in malad,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/mumbai/mulund/,interior-designers,interior designers in mulund,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/mysore/,interior-designers,interior designers in mysore,Local (commercial),best interior designers in mysore; home interior designers mysore,indexable at launch,Keep. One page per city.
+/interior-designers/nellore/,interior-designers,interior designers in nellore,Local (commercial),best interior designers in nellore; home interior designers nellore,indexable at launch,Keep. One page per city.
+/interior-designers/pune/,interior-designers,interior designers in pune,Local (commercial),best interior designers in pune; home interior designers pune,indexable at launch,Keep. One page per city.
+/interior-designers/pune/kharadi/,interior-designers,interior designers in kharadi,Local (commercial),,indexable at launch,Keep. Locality / segment page under its city.
+/interior-designers/tirunelveli/,interior-designers,interior designers in tirunelveli,Local (commercial),best interior designers in tirunelveli; home interior designers tirunelveli,indexable at launch,Keep. One page per city.
+/interior-designers/trichy/,interior-designers,interior designers in trichy,Local (commercial),best interior designers in trichy; home interior designers trichy,indexable at launch,Keep. One page per city.
+/interior-designers/vellore/,interior-designers,interior designers in vellore,Local (commercial),best interior designers in vellore; home interior designers vellore,indexable at launch,Keep. One page per city.
+/interior-designers/vijayawada/,interior-designers,interior designers in vijayawada,Local (commercial),best interior designers in vijayawada; home interior designers vijayawada,indexable at launch,Keep. One page per city.
+/interior-designers/vizag/,interior-designers,interior designers in vizag,Local (commercial),best interior designers in vizag; home interior designers vizag,indexable at launch,Keep. One page per city.
+/interior-designers/warangal/,interior-designers,interior designers in warangal,Local (commercial),best interior designers in warangal; home interior designers warangal,indexable at launch,Keep. One page per city.
+/materials/,materials,interior design materials,Informational,materials used in interior design india,indexable at launch,Keep. Pillar.
+/materials/acrylic-finish/,materials,acrylic finish,Informational,acrylic kitchen shutters; acrylic sheet price,indexable at launch,Keep. Absorbs /blogs/acrylic-finish-benefits-costs/ (301).
+/materials/bwr-plywood/,materials,bwr plywood,Commercial investigation,bwr vs bwp plywood (secondary),indexable at launch,Keep.
+/materials/duco-paint/,materials,duco paint finish,Informational,duco polish cost,indexable at launch,Keep.
+/materials/glass-finish/,materials,glass types for interiors,Informational,toughened glass; frosted glass; glass finishes,indexable at launch,Keep.
+/materials/gurjan-plywood/,materials,gurjan plywood,Commercial investigation,gurjan face veneer plywood,indexable at launch,Keep.
+/materials/hdhmr-board/,materials,hdhmr board,Informational,hdhmr board price; hdhmr full form,indexable at launch,Keep. Absorbs /blogs/hdhmr-board-carpenter-guide/ (301).
+/materials/lacquered-glass/,materials,lacquered glass,Informational,lacquered glass kitchen shutters,indexable at launch,Keep.
+/materials/laminate-guide/,materials,laminate sheet for furniture,Informational,types of laminates; laminate thickness,indexable at launch,Keep.
+/materials/marine-plywood/,materials,marine plywood,Commercial investigation,bwp plywood; is 710 plywood,indexable at launch,Keep.
+/materials/mdf-board/,materials,mdf board,Informational,mdf board uses; mdf price,indexable at launch,Keep.
+/materials/membrane-finish/,materials,membrane finish,Informational,membrane kitchen shutters,indexable at launch,Keep.
+/materials/particle-board/,materials,particle board,Informational,particle board furniture; prelam particle board,indexable at launch,Keep.
+/materials/plywood-guide/,materials,types of plywood,Informational,plywood guide for interiors; plywood thickness and price,indexable at launch,"RE-TARGETED: was ""MR vs BWR vs BWP"", which /compare/bwp-vs-bwr-vs-mr-plywood/ owns."
+/materials/pu-finish/,materials,pu finish,Informational,pu paint furniture; pu polish cost,indexable at launch,Keep.
+/materials/wood-veneer/,materials,wood veneer,Informational,veneer finish furniture; veneer sheet price,indexable at launch,Keep. Absorbs /blogs/veneer-finish-luxury-wood-guide/ (301).
+/modular-kitchen/,modular-kitchen,modular kitchen design,Commercial investigation,modular kitchen planning; kitchen layout types,indexable at launch,"Keep. Pillar. Absorbs /blogs/modular-kitchen-planning-guide/ (301); ventilation, appliances and lighting sections added."
+/modular-kitchen/hardware-guide/,modular-kitchen,kitchen and wardrobe hardware,Informational,soft close hinges; drawer channels; hettich vs hafele,indexable at launch,Keep.
+/modular-kitchen/open-kitchen-ideas/,modular-kitchen,open kitchen design,Informational,open kitchen ideas india; open kitchen with living room,indexable at launch,Keep.
+/modular-kitchen/storage-solutions/,modular-kitchen,modular kitchen storage,Informational,kitchen storage ideas; kitchen accessories list,indexable at launch,Keep. Absorbs /blogs/kitchen-storage-solutions-guide/ and /blogs/modular-kitchen-storage-units-explained/ (301).
+/planning/,planning,home interior planning,Informational,how to plan home interiors,indexable at launch,Keep. Pillar.
+/planning/electrical-points/,planning,electrical points planning for home,Informational,electrical layout for interiors,indexable at launch,Keep.
+/planning/home-planning-checklist/,planning,home interior checklist,Informational,interior design checklist for new home,indexable at launch,"RE-TITLED: H1 no longer says ""possession day to handover"" (overlapped the handover checklist)."
+/planning/how-to-choose-interior-designer/,planning,how to choose an interior designer,Commercial investigation,questions to ask interior designer,indexable at launch,Keep. Absorbs /blogs/choosing-an-interior-designer-checklist/ (301).
+/planning/interior-design-mistakes/,planning,interior design mistakes,Informational,home interior mistakes to avoid,indexable at launch,Keep.
+/planning/interior-timeline/,planning,home interior timeline,Informational,how long does interior work take,indexable at launch,Keep.
+/planning/lighting-design/,planning,home lighting design,Informational,lighting for living room india; colour temperature,indexable at launch,Keep.
+/planning/new-home-handover-checklist/,planning,flat handover checklist,Informational,new flat possession inspection checklist,indexable at launch,RE-TITLED to the possession-inspection intent.
+/planning/standard-interior-dimensions/,planning,standard interior dimensions,Informational,standard furniture sizes india,indexable at launch,Keep.
+/privacy/,company,enteriors privacy policy,Navigational,,indexable at launch,Keep.
+/rooms/,rooms,room by room interior design,Informational,interior design for every room,indexable at launch,Keep. Pillar.
+/rooms/balcony/,rooms,balcony design ideas,Informational,balcony work from home setup; balcony flooring and furniture,indexable at launch,"MOVED from /rooms/utility-area/ (301): the page was a balcony guide, not a utility-area guide. Title now carries the keyword (was ""The Work Balcony Room"")."
+/rooms/bathroom/,rooms,bathroom interior design,Informational,bathroom vanity design; bathroom tiles and fittings,indexable at launch,"RE-TARGETED: title was ""The Vanity & Bathroom"" (no keyword, and ""vanity"" overlapped the dressing pages)."
+/rooms/crockery-unit/,rooms,crockery unit design,Informational,crockery cabinet design,indexable at launch,Keep.
+/rooms/kids-room/,rooms,kids room design,Informational,kids study room design; children bedroom ideas,indexable at launch,"RE-TARGETED: title said ""study room guide for kids"", which left the page's own URL topic (kids room) unowned."
+/rooms/living-room/,rooms,living room interior design,Informational,living room design india,indexable at launch,Keep.
+/rooms/master-bedroom/,rooms,master bedroom design,Informational,master bedroom interior,indexable at launch,Keep.
+/rooms/pooja-room/,rooms,pooja room design,Informational,mandir design for home,indexable at launch,Keep. Doors and vastu have their own pages.
+/rooms/utility-area/,rooms,—,—,,301 → /rooms/balcony/,MOVED: the content was a balcony guide; the URL now matches it.
+/rooms/vanity-dressing/,rooms,—,—,,301 → /furniture/dressing-table-design/,MERGED: both pages targeted dressing unit / dressing table; the useful rows were folded into the target.
+/services/find-designer/,services,interior designer directory,Commercial investigation,find interior designer by area; interior contractors and carpenters,noindex now (samples / phase 2),"RE-TARGETED away from ""near me"" (owned by /interior-designer-near-me/). Phase 2: hidden and noindex until PHASE2 = true."
+/style-guide/,internal,—,—,,noindex (internal),"Internal component library: noindex, disallowed in robots.txt. No keyword."
+/styles/,styles,interior design styles,Informational,types of interior design styles india,indexable at launch,Keep. Pillar.
+/styles/art-deco/,styles,art deco interior design,Informational,art deco home india,indexable at launch,Keep.
+/styles/bespoke-furniture/,styles,bespoke furniture,Commercial investigation,custom furniture india,indexable at launch,Keep.
+/styles/contemporary/,styles,contemporary interior design,Informational,contemporary home design india,indexable at launch,Keep. Absorbs /blogs/contemporary-living-india/ (301; it had the same title).
+/styles/indo-colonial/,styles,indo colonial interior design,Informational,colonial style interiors india,indexable at launch,Keep.
+/styles/japandi/,styles,japandi interior design,Informational,japandi style india,indexable at launch,Keep. Absorbs /blogs/japandi-wabi-sabi-meets-scandinavian/ (301).
+/styles/luxury-interior/,styles,luxury interior design,Informational,modern luxury interiors india,indexable at launch,Keep. Style intent; local intent sits on /interior-designers/*/luxury/.
+/styles/mediterranean/,styles,mediterranean interior design,Informational,coastal interior design india,indexable at launch,Keep.
+/styles/mid-century-modern/,styles,mid century modern interior design,Informational,mid-century furniture india,indexable at launch,Keep.
+/styles/minimalist/,styles,minimalist home design,Informational,minimalist interior design india,indexable at launch,Keep. Absorbs /blogs/minimalist-home-design-ideas/ (301).
+/styles/modern/,styles,modern interior design,Informational,modern home interiors india,indexable at launch,Keep. Distinct from contemporary.
+/styles/monochrome/,styles,monochrome interior design,Informational,black and white interiors,indexable at launch,Keep.
+/styles/regional-kerala-rajasthan/,styles,kerala and rajasthani interior design,Informational,kerala traditional interiors; rajasthani interiors,indexable at launch,Keep.
+/styles/scandinavian/,styles,scandinavian interior design,Informational,nordic interiors india,indexable at launch,Keep.
+/styles/traditional-indian/,styles,traditional indian interior design,Informational,indian ethnic interiors,indexable at launch,Keep.
+/styles/transitional/,styles,transitional interior design,Informational,transitional style home,indexable at launch,Keep.
+/thank-you/,internal,—,—,,noindex (internal),Noindex utility page. No keyword.
+/trending-designs/,trending-designs,trending interior designs,Commercial investigation,interior design ideas by city; latest home interior designs,noindex now (samples / phase 2),Keep. Noindex while sample listings are shown (FINDER index_samples).
+/trends/,trends,interior design trends 2026,Informational,home decor trends india,indexable at launch,Keep. Pillar.
+/vastu/,vastu,home vastu tips,Informational,vastu for home room by room,indexable at launch,"Keep. Pillar. Absorbs /blogs/vastu-for-home-interiors-room-by-room/ (301); dining, bathroom, balcony, mirrors and remedies sections added."
+/verify/,internal,—,—,,noindex (internal),Noindex utility page (email verification). No keyword.
+/wall-design/,wall-design,wall design for living room,Informational,wall design ideas; wall finishes,indexable at launch,Keep. Pillar.
+/wall-design/pvc-vs-wpc-wall-panels/,wall-design,pvc vs wpc wall panels,Commercial investigation,wpc wall panel price,indexable at launch,Keep.
+/wall-design/stone-wall-cladding/,wall-design,stone wall cladding,Informational,stone cladding for walls,indexable at launch,Keep.
+/wall-design/texture-paint/,wall-design,texture paint design,Informational,wall texture designs,indexable at launch,Keep.
+/wall-design/wall-panelling/,wall-design,wall panelling design,Informational,wooden wall panelling,indexable at launch,Keep.
+/wall-design/wallpaper-guide/,wall-design,wallpaper for walls,Informational,types of wallpaper,indexable at launch,Keep. Cost intent sits on /blogs/wallpaper-cost-per-sq-ft/.
+/wardrobe/,wardrobe,wardrobe designs for bedroom,Commercial investigation,wardrobe types; wardrobe cost,indexable at launch,Keep. Pillar.
+/wardrobe/wardrobe-internal-design/,wardrobe,wardrobe internal design,Informational,wardrobe inside design; wardrobe storage layout,indexable at launch,Keep.
+/services/find-designer/amaltas-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/anjali-m/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/aravalli-edge-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/arjun-s/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/backwater-teak-studio/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/banyan-and-brass-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/brickbloom-design-co/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/cedar-steps-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/chinar-and-walnut-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/debjani-s/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/deccan-dovetail-workshop/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/doon-deodar-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/fixline-contractors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/fort-line-builders/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/ganga-ghat-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/godavari-grain-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/granite-and-grain-contractors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/hooghly-hearth-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/jharokha-lane-studio/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/karthik-v/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/kolam-and-cane-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/kunal-p/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/lakeview-jaali-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/lattice-lane-studio/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/mahanadi-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/monsoon-room-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/northlight-living/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/orange-grove-spaces/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/pearl-and-pine-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/phulkari-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/pink-sandstone-studio/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/plumb-line-works/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/rajwada-row-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/ridge-line-civil-works/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/rosewood-and-rattan-workshop/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/rosewood-row-carpentry/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/sahyadri-slate-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/saltwater-and-stone-design/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/sana-f/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/sector-grid-studio/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/sheesham-street-carpentry/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/square-foot-contractors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/teagarden-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/terracotta-tram-studio/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/truecourse-builders/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/vaishali-woodcraft/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/services/find-designer/workbench-office-interiors/,services,—,—,,"noindex (sample listing, phase 2)","Fictional sample profile. Real firms target ""<firm name> interior designer <city>""."
+/trending-designs/art-deco-4-bhk-apartment-sector-8-chandigarh/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/art-deco-kids-room-two-siblings-benz-circle-vijayawada/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/art-deco-living-room-jaali-partition-ratanada-jodhpur/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/art-deco-sliding-wardrobe-mirror-panel-noida-extension-noida/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/art-deco-straight-kitchen-boring-road-patna/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/biophilic-3-bhk-apartment-renovation-chanmari-aizawl/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/biophilic-home-office-acoustic-panels-gachibowli-hyderabad/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/biophilic-kids-room-play-loft-kohima-village-kohima/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/biophilic-l-shaped-kitchen-breakfast-counter-palasia-indore/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/bohemian-2-bhk-apartment-mathigiri-hosur/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/bohemian-walk-wardrobe-an-island-hebbal-bengaluru/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-2-bhk-apartment-leh-town-leh/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-bathroom-freestanding-tub-junglighat-port-blair/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-compact-bathroom-niche-wakad-pune/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-home-office-library-wall-hanamkonda-warangal/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-island-kitchen-sarabha-nagar-ludhiana/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-island-kitchen-vesu-surat/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-layered-gypsum-ceiling-sector-15-faridabad/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-living-room-lime-plaster-accent-wall-kharadi-pune/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-master-bedroom-walk-through-wardrobe-christian-basti-guwahati/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-pooja-room-marble-platform-koramangala-bengaluru/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-pooja-room-marble-platform-nani-daman-daman/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/contemporary-studio-apartment-adyar-chennai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/indo-colonial-3-bhk-duplex-salt-lake-kolkata/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/indo-colonial-4-bhk-apartment-renovation-koramangala-bengaluru/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/indo-colonial-bathroom-fluted-glass-sector-150-noida/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/indo-colonial-living-room-curved-sofa-satellite-ahmedabad/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/indo-colonial-master-bedroom-walk-through-wardrobe-sevoke-road-siliguri/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/industrial-3-bhk-apartment-bandra-west-mumbai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/industrial-boutique-store-dona-paula-panaji/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/industrial-coffee-bar-shopfront-viman-nagar-pune/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/industrial-u-shaped-kitchen-greater-kailash-delhi/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/industrial-walk-wardrobe-an-island-gandhi-nagar-jammu/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/japandi-3-bhk-apartment-hadapsar-pune/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/japandi-3-bhk-apartment-harmu-ranchi/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/japandi-3-bhk-duplex-sanjauli-shimla/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/kerala-4-bhk-row-house-mavoor-road-kozhikode/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/kerala-4-bhk-villa-kakkanad-kochi/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/kerala-parallel-kitchen-edappally-kochi/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/luxury-4-bhk-row-house-renovation-hinjewadi-pune/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/luxury-kids-room-two-siblings-goregaon-east-mumbai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/luxury-master-bedroom-study-corner-andheri-west-mumbai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/luxury-studio-apartment-gachibowli-hyderabad/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mediterranean-5-bhk-duplex-double-height-living-room-hsr-layout-bengaluru/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mediterranean-coffee-bar-shopfront-t-nagar-chennai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mediterranean-l-shaped-kitchen-white-town-puducherry/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mediterranean-living-room-statement-ceiling-light-gokulam-mysuru/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mediterranean-master-bedroom-walk-through-wardrobe-ganga-market-itanagar/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mediterranean-master-bedroom-window-seat-kazhakkoottam-thiruvananthapuram/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mediterranean-office-73-seat-team-borivali-west-mumbai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mediterranean-office-an-88-seat-team-golf-course-road-gurugram/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mediterranean-u-shaped-kitchen-golf-course-road-gurugram/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mid-century-3-bhk-apartment-powai-mumbai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mid-century-bathroom-freestanding-tub-thane-west-thane/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mid-century-living-room-built-display-shelves-patia-bhubaneswar/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/mid-century-u-shaped-kitchen-new-town-kolkata/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/minimalist-4-bhk-independent-house-rajarhat-kolkata/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/minimalist-master-bedroom-walk-through-wardrobe-marathahalli-bengaluru/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/minimalist-master-bedroom-wingback-headboard-kharghar-navi-mumbai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/minimalist-office-48-seat-team-manikonda-hyderabad/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/minimalist-wooden-slat-ceiling-over-dining-table-college-road-nashik/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-2-bhk-apartment-renovation-yelahanka-bengaluru/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-3-bhk-apartment-borivali-west-mumbai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-3-bhk-duplex-gomti-nagar-lucknow/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-3-bhk-duplex-kondapur-hyderabad/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-kids-room-two-siblings-rs-puram-coimbatore/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-living-room-fluted-tv-wall-adyar-chennai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-living-room-jaali-partition-ranjit-avenue-amritsar/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-pooja-corner-living-room-aerocity-mohali/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-u-shaped-kitchen-kadri-mangaluru/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-u-shaped-kitchen-t-nagar-chennai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/modern-wardrobe-glass-shutters-greater-kailash-delhi/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/monochrome-3-bhk-apartment-prahlad-nagar-ahmedabad/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/monochrome-kids-room-two-siblings-manish-nagar-nagpur/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/rajasthani-4-bhk-villa-courtyard-vaishali-nagar-jaipur/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/rajasthani-living-room-statement-ceiling-light-c-scheme-jaipur/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/rajasthani-pooja-unit-backlit-arch-fatehpura-udaipur/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/rajasthani-pooja-unit-brass-bells-t-nagar-chennai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/scandinavian-2-bhk-apartment-telibandha-raipur/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/scandinavian-3-bhk-duplex-whitefield-bengaluru/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/scandinavian-hinged-wardrobe-loft-sector-150-noida/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/scandinavian-l-shaped-kitchen-breakfast-counter-raj-nagar-extension-ghaziabad/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/scandinavian-living-room-fluted-tv-wall-kukatpally-hyderabad/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/scandinavian-master-bedroom-study-corner-mvp-colony-visakhapatnam/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/scandinavian-walk-wardrobe-an-island-singjamei-imphal/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/scandinavian-wooden-slat-ceiling-over-dining-table-tadong-gangtok/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/scandinavian-work-from-home-room-two-srirangam-tiruchirappalli/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/traditional-indian-2-bhk-independent-house-renovation-arera-colony-bhopal/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/traditional-indian-5-bhk-duplex-courtyard-vasant-kunj-delhi/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/traditional-indian-bathroom-floating-vanity-banamalipur-agartala/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/traditional-indian-island-kitchen-whitefield-bengaluru/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/traditional-indian-l-shaped-kitchen-breakfast-counter-rs-puram-coimbatore/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/traditional-indian-master-bedroom-panelled-bed-wall-alkapuri-vadodara/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/traditional-indian-wooden-slat-ceiling-over-dining-table-anna-nagar-madurai/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/transitional-2-bhk-apartment-rajbagh-srinagar/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/transitional-4-bhk-penthouse-wakad-pune/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/transitional-home-office-acoustic-panels-rajpur-road-dehradun/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/transitional-kids-room-study-wall-police-bazar-shillong/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/transitional-living-room-cane-back-sofa-dlf-phase-3-gurugram/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.
+/trending-designs/transitional-walk-wardrobe-an-island-camp-belagavi/,trending-designs,—,—,,noindex (sample listing),Fictional sample design. Gets its own long-tail keyword (style + room + area + city) when a real project replaces it.

@@ -26,7 +26,7 @@ $page = [
   'eyebrow'      => 'Full home cost',
   'lede'         => 'What a 2 BHK costs to furnish in Bangalore, item by item, and which choices move the total the most.',
   'published'    => '2026-09-30',
-  'updated'      => '2026-09-30',
+  'updated'      => '2026-10-14',
   'quick_answer' => 'A full 2 BHK interior in Bangalore (about 950 sq ft carpet area) costs roughly ' . $L($TOTALS[0]) . ' in essential grade, ' . $L($TOTALS[1]) . ' in standard grade and ' . $L($TOTALS[2]) . ' in premium grade, including GST. The kitchen and two wardrobes take about half of that.',
   'faq' => [
     'What is the cost per square foot for 2 BHK interiors in Bangalore?' => 'For a full scope (kitchen, wardrobes, TV unit, false ceiling, painting, lighting and curtains), budget about ₹450–700 per sq ft of carpet area in essential grade, ₹700–1,100 in standard grade and ₹1,100–1,700 in premium grade. Loose furniture, flooring and bathroom work are extra.',
@@ -167,6 +167,30 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><small>Week 8–10</small><strong>Painting, lights and handover</strong>Final paint coat, light fittings, curtains, deep cleaning and a snag walk-through with the designer.</li>
 </ol>
 <p>Kitchen and wardrobes alone usually take 35–50 days. A full scope takes 60–90 days. Be wary of anyone promising a full 2 BHK in under a month; something is being skipped, often curing or drying time.</p>
+
+<h2>Warranties to get in writing</h2>
+<p>A warranty is only as useful as its wording. Before you sign, ask for these four lines in the contract:</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Item</th><th>What firms commonly offer</th><th>What to check</th></tr></thead>
+  <tbody>
+    <tr><td>Carcass and shutters (kitchen, wardrobes)</td><td>5–10 years against manufacturing defects</td><td>Whether swelling from water is covered or excluded</td></tr>
+    <tr><td>Hinges, channels and lift systems</td><td>The hardware maker's own warranty</td><td>The brand and model named in the quote</td></tr>
+    <tr><td>Installation and workmanship</td><td>About 1 year</td><td>Free service visits and how fast they come</td></tr>
+    <tr><td>Countertop, appliances, lights</td><td>The supplier's or maker's warranty</td><td>Who you call: the firm or the maker</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Also note who handles complaints, the response time and what voids the warranty (for example, a plumber's leak inside a cabinet). If a firm will not write it down, treat the warranty as not offered.</p>
+
+<h2>Designer, contractor or platform?</h2>
+<p>The same 2 BHK can be delivered three ways, and the price gap is mostly the cost of design time and project management:</p>
+<ul>
+  <li><strong>Design-and-build firm or platform:</strong> one contract for design, factory-made furniture and installation. Easiest to manage; usually the highest quote.</li>
+  <li><strong>Independent designer plus contractor:</strong> you pay a design fee and hire the execution team. More control, more of your time.</li>
+  <li><strong>Carpenter or contractor only:</strong> lowest cost, works from your drawings. Quality depends on supervision, and warranties are often informal.</li>
+</ul>
+<p>Compare them on the same itemised specification. The <a href="/planning/how-to-choose-interior-designer/">guide to choosing an interior designer</a> explains how.</p>
 
 <h2>Costs that catch people out</h2>
 <ul>

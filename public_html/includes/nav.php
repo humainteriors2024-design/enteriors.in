@@ -56,7 +56,7 @@ $HUBS = [
         lnk('Walk-in Closet', '/wardrobe/walk-in-closet/'),
         lnk('Wardrobe Internal Design', '/wardrobe/wardrobe-internal-design/'),
         lnk('Sliding vs Hinged Wardrobe', '/compare/sliding-vs-hinged-wardrobe/'),
-        lnk('Vanity & Dressing', '/rooms/vanity-dressing/'),
+        lnk('Dressing Table Design', '/furniture/dressing-table-design/'),
       ]],
       ['title' => 'Cost & tools', 'gold' => true, 'links' => [
         lnk('Wardrobe Cost', '/cost/wardrobe-cost/'),
@@ -236,15 +236,15 @@ $HUBS = [
         lnk('Master Bedroom Design', '/rooms/master-bedroom/'),
         lnk('Kids Room Ideas', '/rooms/kids-room/'),
         lnk('Study & Home Office', '/rooms/study-home-office/'),
-        lnk('Vanity & Dressing', '/rooms/vanity-dressing/'),
-        lnk('Bathroom Interior Guide', '/rooms/bathroom/'),
+        lnk('Dressing Table Design', '/furniture/dressing-table-design/'),
+        lnk('Bathroom Interior Design', '/rooms/bathroom/'),
       ]],
       ['title' => 'Speciality spaces', 'links' => [
         lnk('Pooja Room Designs', '/rooms/pooja-room/'),
         lnk('Crockery Unit Designs', '/rooms/crockery-unit/'),
         lnk('Foyer & Entrance', '/rooms/foyer-entrance/'),
-        lnk('Balcony Ideas', '/rooms/balcony/'),
-        lnk('Utility Area Design', '/rooms/utility-area/'),
+        lnk('Balcony Design Ideas', '/rooms/balcony/'),
+        lnk('Utility Area Design', '/rooms/utility-area/'),   // planned: not written yet (shows when the page exists)
         lnk('Home Bar Ideas', '/rooms/home-bar/'),
       ]],
     ],

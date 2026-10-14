@@ -38,6 +38,27 @@ ErrorDocument 404 /404.php
   RewriteRule ^(trending|trending-design|designs|design-ideas)/?$ /trending-designs/ [L,R=301]
   RewriteRule ^(find-designer|find-a-designer|find-interior-designer|find-an-interior-designer)/?$ /services/find-designer/ [L,R=301]
 
+  # 3d. Keyword map (Oct 2026): old posts that repeated a main guide were merged into it (docs/keyword-map.csv)
+  RewriteRule ^blogs?/2\-bhk\-interior\-cost\-breakdown(\.php|/)?$ /cost/2-bhk-interior-cost/ [L,R=301]
+  RewriteRule ^blogs?/3\-bhk\-interior\-budget\-planning(\.php|/)?$ /cost/3-bhk-interior-cost/ [L,R=301]
+  RewriteRule ^blogs?/acrylic\-finish\-benefits\-costs(\.php|/)?$ /materials/acrylic-finish/ [L,R=301]
+  RewriteRule ^blogs?/acrylic\-vs\-laminate\-complete\-comparison(\.php|/)?$ /compare/acrylic-vs-laminate/ [L,R=301]
+  RewriteRule ^blogs?/choosing\-an\-interior\-designer\-checklist(\.php|/)?$ /planning/how-to-choose-interior-designer/ [L,R=301]
+  RewriteRule ^blogs?/contemporary\-living\-india(\.php|/)?$ /styles/contemporary/ [L,R=301]
+  RewriteRule ^blogs?/hdhmr\-board\-carpenter\-guide(\.php|/)?$ /materials/hdhmr-board/ [L,R=301]
+  RewriteRule ^blogs?/interior\-materials\-a\-to\-z(\.php|/)?$ /glossary/ [L,R=301]
+  RewriteRule ^blogs?/japandi\-wabi\-sabi\-meets\-scandinavian(\.php|/)?$ /styles/japandi/ [L,R=301]
+  RewriteRule ^blogs?/kitchen\-storage\-solutions\-guide(\.php|/)?$ /modular-kitchen/storage-solutions/ [L,R=301]
+  RewriteRule ^blogs?/minimalist\-home\-design\-ideas(\.php|/)?$ /styles/minimalist/ [L,R=301]
+  RewriteRule ^blogs?/modular\-kitchen\-colour\-pairings(\.php|/)?$ /blogs/kitchen-colour-combinations/ [L,R=301]
+  RewriteRule ^blogs?/modular\-kitchen\-planning\-guide(\.php|/)?$ /modular-kitchen/ [L,R=301]
+  RewriteRule ^blogs?/modular\-kitchen\-storage\-units\-explained(\.php|/)?$ /modular-kitchen/storage-solutions/ [L,R=301]
+  RewriteRule ^blogs?/two\-colour\-kitchen\-laminates(\.php|/)?$ /blogs/kitchen-colour-combinations/ [L,R=301]
+  RewriteRule ^blogs?/vastu\-for\-home\-interiors\-room\-by\-room(\.php|/)?$ /vastu/ [L,R=301]
+  RewriteRule ^blogs?/veneer\-finish\-luxury\-wood\-guide(\.php|/)?$ /materials/wood-veneer/ [L,R=301]
+  RewriteRule ^rooms/vanity\-dressing/?$ /furniture/dressing-table-design/ [L,R=301]
+  RewriteRule ^rooms/utility\-area/?$ /rooms/balcony/ [L,R=301]   # the page was a balcony guide; a real utility-area page can reuse the URL later (remove this line then)
+
   # 4. Blog posts: the file /blogs/<slug>.php is shown at /blogs/<slug>/
   RewriteCond %{THE_REQUEST} \s/+blogs/([a-z0-9\-]+)\.php[\s?] [NC]
   RewriteRule ^blogs/([a-z0-9\-]+)\.php$ /blogs/$1/ [L,R=301]
@@ -62,7 +83,7 @@ ErrorDocument 404 /404.php
   RewriteRule ^blog/bwp\-plywood\-interiors/?$ /materials/marine-plywood/ [L,R=301]
   RewriteRule ^blog/interior\-material\-brands\-india/?$ /blogs/interior-material-brands-india/ [L,R=301]
   RewriteRule ^blog/modular\-kitchen\-storage\-guide/?$ /modular-kitchen/storage-solutions/ [L,R=301]
-  RewriteRule ^blog/modular\-kitchen\-storage/?$ /blogs/modular-kitchen-storage-units-explained/ [L,R=301]
+  RewriteRule ^blog/modular\-kitchen\-storage/?$ /modular-kitchen/storage-solutions/ [L,R=301]
   RewriteRule ^blog/indo\-colonial\-interior\-design\-guide/?$ /styles/indo-colonial/ [L,R=301]
   RewriteRule ^blog/japandi\-interior\-design\-guide/?$ /styles/japandi/ [L,R=301]
   RewriteRule ^blog/minimalist\-home\-design\-guide/?$ /styles/minimalist/ [L,R=301]

@@ -24,7 +24,6 @@ $page = [
   'sources' => [
     ['CIE (International Commission on Illumination)', 'https://cie.co.at/', 'colour rendering index (CRI) and colour temperature'],
     ['Enteriors: lighting design', '/planning/lighting-design/', 'task lighting and bulb choice'],
-    ['Enteriors: vanity and dressing guide', '/rooms/vanity-dressing/', 'dressing areas in bedrooms'],
   ],
   'faq' => [
     'Is a dressing table still needed if the wardrobe has a mirror?' => 'Not always. A full-length mirror on a wardrobe door covers dressing; a dressing table adds a seated place for make-up, grooming and jewellery with good light and storage. In small rooms, a pull-out mirror and a shallow drawer inside the wardrobe can replace it.',
@@ -90,11 +89,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <tr><td>Dressing niche in the wardrobe</td><td>Within the wardrobe run</td><td>Rooms with one long storage wall</td></tr>
     <tr><td>Pull-out or flip-up mirror in wardrobe</td><td>None extra</td><td>Very tight rooms</td></tr>
     <tr><td>Corner dressing unit</td><td>Uses a dead corner</td><td>Rooms with doors and windows on most walls</td></tr>
-    <tr><td>Free-standing table</td><td>450 mm deep + stool space</td><td>Larger master bedrooms</td></tr>
+    <tr><td>Free-standing table</td><td>450 mm deep + stool space</td><td>Larger master bedrooms, rented homes (it moves with you)</td></tr>
+    <tr><td>Peninsula or island dresser</td><td>Open on two sides, drawers below</td><td>Walk-in dressing rooms shared by two people</td></tr>
   </tbody>
 </table>
 </div>
-<p>Plan it with the wardrobe: see <a href="/wardrobe/wardrobe-internal-design/">wardrobe internal design</a> and the <a href="/rooms/vanity-dressing/">vanity and dressing guide</a>.</p>
+<p>Plan it with the wardrobe: see <a href="/wardrobe/wardrobe-internal-design/">wardrobe internal design</a>. For seated use, pick a backless stool about 450 mm high that tucks fully under the counter, and leave at least 900 mm of clear floor in front of it so the stool can be pulled out.</p>
 <h2>Worked example: a wall-mounted dressing unit</h2>
 <div class="table-wrap">
 <table>

@@ -1,16 +1,16 @@
 <?php
-/* CLUSTER PAGE — /rooms/utility-area/
-   Migrated on 2026-10-04 from "Pages - old/work-balcony-room-guide.html" (3860 words). Edit freely.
-   Images: /assets/pages/rooms/utility-area/   (hero.jpg = main image) */
+/* CLUSTER PAGE — /rooms/balcony/   (moved from /rooms/utility-area/ on 14 Oct 2026: the content is a balcony guide; 301 in .htaccess)
+   Owns: balcony design ideas. Migrated on 2026-10-04 from "Pages - old/work-balcony-room-guide.html". Edit freely.
+   Images: /assets/pages/rooms/balcony/   (hero.jpg = main image) */
 $page = [
   'type'         => 'article',
-  'title'        => 'The Work Balcony Room — India\'s Most Wasted Space, Finally Designed Right',
-  'seo_title'    => 'The Work Balcony Room',
-  'description'  => 'A work balcony room is not a balcony with a chair dragged from the dining table. It is a purpose-designed semi-outdoor workspace that blurs the boundary…',
-  'lede'         => 'A work balcony room is not a balcony with a chair dragged from the dining table. It is a purpose-designed semi-outdoor workspace that blurs the boundary…',
-  'hero_alt'     => 'The Work Balcony Room — India\'s Most Wasted Space, Finally Designed Right',
+  'title'        => 'Balcony Design Ideas: A Balcony You Can Work, Relax and Grow Plants In',
+  'seo_title'    => 'Balcony Design Ideas for Indian Apartments',
+  'description'  => 'Balcony design ideas for Indian flats: layouts by size, flooring, outdoor-grade furniture, lighting, rain and heat proofing, privacy, plants and a work-from-home corner, with costs.',
+  'lede'         => 'Turn a balcony into a room you use every day: flooring, furniture, lighting, weather and privacy, with a desk corner if you work from home.',
+  'hero_alt'     => 'Apartment balcony with wooden deck tiles, a compact desk, a lounge chair and potted plants',
   'published'    => '2026-06-12',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'faq' => [
     'Can I convert my apartment balcony into a fully enclosed room?' => 'In most Indian apartment societies, structural enclosure with permanent glass and aluminium requires NOC from the housing society and sometimes the local municipal body. Purely cosmetic enclosures using mesh, zippered screens, or removable polycarbonate panels typically do not need approval. Always check your sale deed and society bylaws. Unauthorised permanent enclosures can create legal complications during resale and with fire safety compliance.',
     'What is the minimum balcony size needed for a functional workspace?' => 'A functional work-from-home setup needs a minimum of 4×4 ft (16 sq ft) for a wall-mounted folding desk and chair. A comfortable setup — desk, ergonomic chair, storage shelf, and one plant — needs 5×7 ft (35 sq ft). Anything under 4 ft of usable depth makes it feel cramped for extended work sessions. Measure your usable depth (railing to wall/door) not the full balcony width.',

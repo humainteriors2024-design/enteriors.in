@@ -119,7 +119,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>The <a href="/blogs/choosing-an-interior-designer-checklist/">interior designer checklist</a> has the full list of questions, and <a href="/planning/interior-design-mistakes/">common interior design mistakes</a> covers what goes wrong after you sign.</p>
+<p>The guide to <a href="/planning/how-to-choose-interior-designer/">choosing an interior designer</a> has the full list of questions, and <a href="/planning/interior-design-mistakes/">common interior design mistakes</a> covers what goes wrong after you sign.</p>
 
 <h2>Warning signs</h2>
 <ul>

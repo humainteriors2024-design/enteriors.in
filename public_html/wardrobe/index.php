@@ -52,7 +52,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Whichever type you pick, build it from floor to ceiling. The top section is normally a separate <strong>loft</strong> with its own shutters, for suitcases, bedding and out-of-season clothes. Two types have their own pages: <a href="/wardrobe/sliding-wardrobe/">sliding wardrobes</a> and <a href="/wardrobe/walk-in-closet/">walk-in closet design</a>. If the same wall has to hold a mirror and a dresser, see <a href="/rooms/vanity-dressing/">vanity and dressing units</a>.</p>
+<p>Whichever type you pick, build it from floor to ceiling. The top section is normally a separate <strong>loft</strong> with its own shutters, for suitcases, bedding and out-of-season clothes. Two types have their own pages: <a href="/wardrobe/sliding-wardrobe/">sliding wardrobes</a> and <a href="/wardrobe/walk-in-closet/">walk-in closet design</a>. If the same wall has to hold a mirror and a dresser, see <a href="/furniture/dressing-table-design/">dressing table design</a>.</p>
 
 <h2>Hinged or sliding doors</h2>
 <p>This choice is mainly a question of floor space, and then of budget.</p>

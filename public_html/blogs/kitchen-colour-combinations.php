@@ -115,6 +115,9 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 </table>
 </div>
 
+<p>Two rules sit behind the table. <strong>Size:</strong> small kitchens look larger with light, reflective colours on the wall units; save dark shades for the base units or a large kitchen. <strong>Light:</strong> a kitchen with strong daylight can carry olive, charcoal or navy, while a kitchen with one small window needs creamy whites, soft sage or pale beige to avoid a dim, heavy feel.</p>
+<div class="callout"><span class="callout__title">If you follow vastu</span>Vastu tradition links the kitchen with the fire element and favours warm tones such as soft yellow, peach or terracotta accents, and avoids an all-black kitchen. Dark base units with lighter wall units fit both the tradition and the practical advice above. See <a href="/vastu/">home vastu tips</a>.</div>
+
 <h2>Matte, gloss or textured?</h2>
 <p>The same colour in three finishes gives three different kitchens.</p>
 <ul>

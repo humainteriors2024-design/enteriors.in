@@ -94,16 +94,16 @@ $page = [
   'type'        => 'page',
   'css'         => ['finder'],
   'js'          => ['finder', 'enquiry'],
-  'title'       => 'Find an Interior Designer Near You',
-  'seo_title'   => 'Find an Interior Designer or Contractor Near You',
-  'description' => 'Find interior designers, freelancers, contractors and carpenters by area, pincode, apartment and reviews, and filter by budget, warranty and services.',
+  'title'       => 'Interior Designer Directory',
+  'seo_title'   => 'Interior Designer Directory: Search by Area and Pincode',
+  'description' => 'Directory of interior designers, freelancers, contractors and carpenters: search by area, pincode or apartment and filter by budget, style, property type, warranty and services.',
   'crumb'       => 'Find a Designer',
   'updated'     => $D['checked'],
   'schema_type' => 'CollectionPage',
   'noindex'     => finder_noindex('pros') || $filtered,
   'canonical'   => $F['page'] > 1 && !$filtered ? $base . '?page=' . $F['page'] : $base,
   'faq' => [
-    'How do I find an interior designer near me?' => 'Type your area, apartment or 6-digit pincode in the search box, or select "Use my location". Results show who works closest first, with how near they are, the areas they cover, reviews, warranty and what they offer.',
+    'How do I find an interior designer in my area?' => 'Type your area, apartment or 6-digit pincode in the search box, or select "Use my location". Results show who works closest first, with how near they are, the areas they cover, reviews, warranty and what they offer.',
     'Should I hire an interior designer, a freelancer or a contractor?' => 'A design firm designs and builds the whole interior under one contract. A freelance designer designs one-to-one and you hire the carpenter or contractor. A contractor or carpenter builds to drawings you already have. For a full home, a firm or a freelancer with a trusted team is usually easiest.',
     'What do the requirement filters mean?' => '"Designer" means they design, "Carpenter" that they have their own carpentry team, "Own factory" that kitchens and wardrobes are made in their own unit, "End-to-end" that they handle everything from design to handover, and "Civil", "Plumbing" and "Electrical" that they do that work themselves. "Free consultation" means the first meeting is free.',
     'How do I contact a professional?' => 'Select Contact for a call back or Mail to send a message. We email you a 6-digit code and a link to confirm your address, then pass your enquiry to the professional you chose, and no one else.',
@@ -126,7 +126,7 @@ $tabType = count($F['type']) === 1 ? $F['type'][0] : '';
   <div class="container">
     <?= component('breadcrumbs', ['crumbs' => $crumbs]) ?>
     <span class="eyebrow mt-6">Find a designer · <?= count($D['pros']) ?> professionals</span>
-    <h1>Find the right interior designer</h1>
+    <h1>Interior designer directory</h1>
     <p class="subheading">Designers, freelancers, contractors and carpenters near you. Search by area, pincode or apartment, then narrow down by budget, reviews and what you need done.</p>
     <nav class="finder-tabs" aria-label="Type of professional">
 <?php foreach ($tabs as $v => $l) echo '<a href="' . e(finder_url($base, $F, ['type' => $v === '' ? [] : [$v], 'page' => 1, '_pin_min' => null])) . '"' . ($tabType === $v && (count($F['type']) <= 1) ? ' aria-current="page"' : '') . '>' . e($l) . '</a>'; ?>

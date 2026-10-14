@@ -19,7 +19,7 @@ $page = [
   'lede'         => 'Everything to decide before you order a kitchen, in the order you will decide it: layout, boards, finish, countertop, hardware and budget.',
   'hero_alt'     => 'Modular kitchen with wall units, base units and a tall unit',
   'published'    => '2026-10-03',
-  'updated'      => '2026-10-03',
+  'updated'      => '2026-10-14',
   'quick_answer' => 'A modular kitchen is built from factory-made cabinets fixed on site. In Bangalore, a typical L-shape kitchen (about 10 ft of base units and 8 ft of wall units) costs roughly ₹1.3–1.7 lakh in essential grade, ₹1.9–2.6 lakh in standard grade and ₹3–4.5 lakh in premium grade, including GST. Choose the layout first, then the cabinet board, then the shutter finish.',
   'faq' => [
     'Which layout is best for a small Indian kitchen?' => 'A straight or L-shape layout. Both keep the floor clear and need the fewest corner fittings. In a kitchen under 80 sq ft, avoid a U-shape unless the room is at least 8 ft wide, or the two runs will leave too little standing space.',
@@ -27,6 +27,7 @@ $page = [
     'How is modular kitchen cost calculated?' => 'Most firms quote per running foot of base unit, then add wall units, lofts and tall units as a share of that rate. Countertop, backsplash, accessories, appliances and 18% GST are added on top. Ask for each of these as a separate line.',
     'How long does a modular kitchen take?' => 'About four to six weeks from a signed design: two to three weeks in the factory, three to five days to install, plus the countertop and any plumbing or electrical changes.',
     'Is a modular kitchen better than a carpenter-made kitchen?' => 'A factory-made kitchen has machine-cut panels and pressed edge banding, so the finish is more consistent and it can be dismantled. A carpenter-made kitchen fits odd walls more easily and may cost less. The quality of board, hardware and edge sealing matters more than the method.',
+    'What size chimney do I need for an Indian kitchen?' => 'Match the chimney width to the hob (60 cm for a 60 cm hob, 90 cm for a 90 cm hob) and choose a suction of about 1,000–1,400 m³/hour for daily frying. Keep the duct short and straight, with no more than two bends, or much of the suction is lost.',
     'How long does a modular kitchen last?' => 'With a water-resistant carcass, sealed edges and branded hinges and channels, 12 to 15 years of daily cooking is realistic. Hinges and channels can be replaced; swollen boards cannot.',
   ],
   'related' => [   // sibling pillar guides
@@ -134,6 +135,39 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Lift-up or bi-fold shutters</strong> on wall units above eye level, so open doors stay out of the way.</li>
 </ul>
 <p>Brands, load ratings and what to check on delivery are covered in the <a href="/modular-kitchen/hardware-guide/">kitchen hardware guide</a>, and internal organisers in <a href="/modular-kitchen/storage-solutions/">kitchen storage solutions</a>.</p>
+
+<h2>Ventilation, appliances and lighting</h2>
+<p>These three are decided before the cabinets are drawn, because each needs a wall, a duct, a socket or a water point in the right place.</p>
+<h3>Chimney and ventilation</h3>
+<p>Indian cooking produces oil and smoke, so a chimney matters more than in most kitchens abroad.</p>
+<ul>
+  <li><strong>Width:</strong> at least as wide as the hob. A 60 cm hob needs a 60 cm chimney; a 90 cm hob, a 90 cm chimney.</li>
+  <li><strong>Suction:</strong> about 1,000–1,400 m³/hour suits daily frying and tadka in a closed kitchen.</li>
+  <li><strong>Duct:</strong> a 6-inch (150 mm) duct, as short and straight as possible, with no more than two bends. A long, bent duct loses much of the suction.</li>
+  <li><strong>Without a chimney:</strong> fit an exhaust fan high on an outside wall, near the hob.</li>
+</ul>
+<p>Plan the duct route and the chimney socket (about 6.5–7 ft from the floor) at the electrical stage.</p>
+<h3>Plan the appliances before the cabinets</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Appliance</th><th>What to plan</th></tr></thead>
+  <tbody>
+    <tr><td>Refrigerator</td><td>Width plus about 2 inches of air gap on the sides and top; a socket behind it; not right next to the hob</td></tr>
+    <tr><td>Built-in oven or microwave</td><td>A tall unit at chest height, a dedicated socket and ventilation behind</td></tr>
+    <tr><td>Dishwasher</td><td>A 60 cm base module next to the sink, a water inlet, a drain and a BWP plywood surround</td></tr>
+    <tr><td>Water purifier</td><td>Wall space near the sink, a socket and an inlet tap</td></tr>
+    <tr><td>Hob</td><td>Gas pipe or cylinder cabinet with ventilation; for induction, a 16 A socket</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Give each appliance its own socket. Counter sockets usually sit about 10 inches above the counter, away from the sink and the hob. The <a href="/planning/electrical-points/">electrical points guide</a> has a full kitchen point list.</p>
+<h3>Lighting in layers</h3>
+<ul>
+  <li><strong>General light:</strong> a ceiling light or a few downlights for the whole room.</li>
+  <li><strong>Task light:</strong> LED strips under the wall units, in neutral white (about 4,000 K) with a colour rendering index of 90 or more, so food looks true.</li>
+  <li><strong>Accent light:</strong> optional, inside glass shutters or open shelves.</li>
+</ul>
+<p>Task light is the one most kitchens miss, and it costs little if the wiring is planned before the wall units go up. More in <a href="/planning/lighting-design/">home lighting design</a>.</p>
 
 <h2>What a modular kitchen costs</h2>
 <p>Kitchens are priced per running foot of base unit. Wall units usually cost about 65% of the base rate per running foot and lofts about 40%. The table shows indicative Bengaluru rates for October 2026; the typical total is for an L-shape with about 10 ft of base units and 8 ft of wall units, including GST.</p>

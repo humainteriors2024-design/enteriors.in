@@ -16,6 +16,10 @@ $QUICK = [   // room or item => [traditionally preferred direction, practical al
   'Pooja room'     => ['North-east', 'A compact unit on an east or north wall'],
   'Study desk'     => ['Facing east or north', 'Where daylight falls from the side'],
   'Toilets'        => ['Avoided in the north-east', 'Fixed in a flat; keep clean and ventilated'],
+  'Dining table'   => ['West, or close to the kitchen', 'Wherever it is a short walk from the kitchen'],
+  'Balcony'        => ['North or east', 'Keep heavy planters and storage to its south and west ends'],
+  'Mirrors'        => ['North or east walls', 'Anywhere except facing the bed'],
+  'Staircase (villas)' => ['South, west or south-west', 'Not in the north-east or the centre of the house'],
 ];
 $page = [
   'type'         => 'pillar',
@@ -28,7 +32,7 @@ $page = [
   'lede'         => 'The traditional vastu preference for each room, stated plainly, with what a flat owner can realistically apply and what the builder has already fixed.',
   'hero_alt'     => 'Bright apartment living room with a compact wooden pooja unit and a brass lamp in one corner',
   'published'    => '2026-10-03',
-  'updated'      => '2026-10-03',
+  'updated'      => '2026-10-14',
   'quick_answer' => 'Vastu shastra is a traditional Indian system of guidance on how a home is oriented and arranged. The most widely followed preferences are a main door in the north, east or north-east, the kitchen in the south-east, the master bedroom in the south-west and the pooja room in the north-east. These are customs rather than building rules, and most apartments can follow only some of them.',
   'faq' => [
     'What are the most widely followed home vastu tips?' => 'Four placements are repeated most often: the main entrance in the north, east or north-east, the kitchen in the south-east, the master bedroom in the south-west and the pooja room in the north-east. Tradition also keeps the north-east light and uncluttered and puts heavier storage on the south and west walls. Families choose which of these to follow.',
@@ -36,6 +40,8 @@ $page = [
     'What if my kitchen is not in the south-east?' => 'The north-west is the usual traditional alternative. In a flat the kitchen cannot be relocated, so many families simply position the hob so that the cook faces east, where the gas line and chimney duct allow it. There is no need to rebuild a kitchen for this.',
     'Which direction should the head point while sleeping?' => 'Vastu tradition prefers sleeping with the head towards the south or the east, and avoids the head pointing north. This is a custom, not a medical recommendation. If the room allows only one sensible bed position, comfort and clear walking space decide.',
     'Where should the pooja room be in a flat?' => 'The north-east is the traditional place. Where there is no separate room there, a compact pooja unit in the north-east part of the living or dining room is the common answer, with an east or north wall as the second choice. Keep the space light, clean and uncluttered.',
+    'Where should the dining table be as per vastu?' => 'Tradition places the dining area in the west, or close to the kitchen on its east or north side. In practice, keep the table a short, clear walk from the kitchen, avoid putting it directly under a beam and leave about 3 ft of passage around it.',
+    'Can vastu be corrected without demolition?' => 'Families who follow vastu usually adjust what can move: furniture placement, bed direction, the pooja unit, colours, lighting and clutter. Bathrooms, kitchens and doors in a flat are fixed by the building. These adjustments are traditional suggestions, not guaranteed outcomes.',
     'Is vastu compulsory or scientifically proven?' => 'No. Vastu shastra is a traditional body of design guidance that families follow as a matter of custom and belief; it is not part of any building code. This guide does not present it as science or promise any result from following it.',
   ],
   'related' => [   // sibling pillar guides
@@ -119,6 +125,33 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Few apartments have a separate room in that corner. A compact unit in the north-east part of the living or dining room is the common answer, with an east or north wall elsewhere as the second choice. Plan it safely: a stone or tile surface under the lamp, clearance above the flame and no curtains nearby.</p>
 <p>Placement is covered in <a href="/vastu/pooja-room-vastu/">pooja room vastu</a>, and materials, doors and lighting in <a href="/rooms/pooja-room/">pooja room designs</a>.</p>
 
+<h2>Dining, bathrooms, balconies and the rest of the home</h2>
+<p>The rooms above get most of the attention, but families who follow vastu often ask about the smaller spaces too. Here is what tradition usually says about each, and what you can do in a flat.</p>
+<h3>Dining area</h3>
+<p>The dining table is traditionally placed in the west, or close to the kitchen on its east or north side. The more important rule is practical: keep it a short, clear walk from the kitchen.</p>
+<ul>
+  <li>A square or rectangular table is the usual preference over an irregular shape.</li>
+  <li>Avoid placing the table directly under a beam, and keep a clear passage of about 3 ft around it.</li>
+  <li>A crockery unit on the south or west wall of the dining area follows the "heavy storage on south and west" idea. See <a href="/rooms/crockery-unit/">crockery unit design</a>.</li>
+</ul>
+<h3>Bathrooms and toilets</h3>
+<p>Tradition avoids toilets in the north-east and at the centre of the home, and prefers the west or north-west. In an apartment, bathrooms are stacked above the flat below and cannot be moved, so the common advice is about upkeep:</p>
+<ul>
+  <li>Keep the bathroom door closed and the room dry, clean and well ventilated, with a working exhaust fan.</li>
+  <li>Fix leaks quickly; dampness harms walls and furniture whatever the direction.</li>
+  <li>Use light colours on the walls and keep the floor clear.</li>
+</ul>
+<p>Waterproofing, ventilation and fittings are covered in the <a href="/rooms/bathroom/">bathroom interior design guide</a>.</p>
+<h3>Balcony, utility and staircase</h3>
+<p>Balconies are traditionally preferred on the north or east side, the lighter and more open side of the home. Whatever the facing, keep heavy planters, storage cabinets and the washing machine towards the south and west ends of the balcony and leave the rest open. The <a href="/rooms/balcony/">balcony design guide</a> covers flooring, furniture and weatherproofing.</p>
+<p>In villas and duplexes, staircases are traditionally placed in the south, west or south-west, climbing clockwise, and kept out of the north-east and the centre of the house. In an apartment this is decided by the building.</p>
+<h3>Mirrors, plants and heavy furniture</h3>
+<ul>
+  <li><strong>Mirrors:</strong> commonly placed on north or east walls, and not facing the bed. A mirror inside a wardrobe door solves the bed problem in small bedrooms.</li>
+  <li><strong>Plants:</strong> a tulsi plant is traditionally kept in the north, north-east or east. Thorny plants such as cactus are usually kept outdoors rather than inside.</li>
+  <li><strong>Heavy furniture:</strong> tall wardrobes, bookcases and storage go on the south and west walls; the north-east is kept light and open.</li>
+</ul>
+
 <h2>Colours and materials by direction</h2>
 <p>Colour is the least settled part of vastu for home interiors. Charts differ between practitioners, so read the table as commonly repeated suggestions, not rules.</p>
 <div class="table-wrap">
@@ -153,6 +186,15 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p>Do not try to relocate a kitchen or a toilet in a flat. Wet areas are stacked above those of the home below, so moving them risks leaks and needs approval from the society and a structural engineer. For what is fixed, tradition itself suggests simple adjustments: placement, colour, and keeping the area clean and uncluttered.</p>
 <p>If your choices add a pooja unit or extra storage, the <a href="/calculators/home-interior-quote/">interior cost calculator</a> gives an indicative budget, and <a href="/planning/storage-room-by-room/">storage, room by room</a> helps decide which walls to use.</p>
+<h3>Adjustments that need no building work</h3>
+<p>For anything that is fixed, families who follow vastu usually make small changes rather than rebuild. None of these needs a contractor:</p>
+<ul>
+  <li><strong>Placement:</strong> move the bed, desk, pooja unit or heavy storage to the preferred wall.</li>
+  <li><strong>Light and colour:</strong> brighten a dark north-east corner with light paint and good lighting.</li>
+  <li><strong>Clutter:</strong> keep the north-east and the centre of the home open and tidy.</li>
+  <li><strong>Upkeep:</strong> fix leaks, keep bathrooms dry and closed, and keep the entrance clean and well lit.</li>
+</ul>
+<p>These are traditional suggestions, not guarantees. If a consultant recommends demolition or expensive "corrections", get a second opinion and check what your society and a structural engineer allow first.</p>
 <h3>When vastu and practicality conflict</h3>
 <ol class="steps">
   <li><strong>Safety first</strong>Gas, electrical and fire safety, structure and escape routes are never traded for a direction.</li>

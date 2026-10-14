@@ -4,13 +4,13 @@
    Images: /assets/pages/rooms/kids-room/   (hero.jpg = main image) */
 $page = [
   'type'         => 'article',
-  'title'        => 'Complete Study Room Guide for Kids: Interior Design Ideas That Support Focus, Comfort…',
-  'seo_title'    => 'Complete Study Room Guide for Kids',
-  'description'  => 'A detailed study room guide for kids from an interiors perspective. Learn layout, furniture, lighting, colors, storage, safety, ergonomics, and design ideas…',
-  'lede'         => 'A detailed study room guide for kids from an interiors perspective. Learn layout, furniture, lighting, colors, storage, safety, ergonomics, and design ideas…',
-  'hero_alt'     => 'Complete Study Room Guide for Kids: Interior Design Ideas That Support Focus, Comfort…',
+  'title'        => 'Kids Room Design: Study Areas, Storage and Safety',
+  'seo_title'    => 'Kids Room Design: Study, Storage and Safety Ideas',
+  'description'  => 'Kids room design for Indian homes: where the study desk goes, desk and chair sizes by age, lighting, colours, storage, beds, safety and a room that grows with the child.',
+  'lede'         => 'How to plan a child\'s room around homework, sleep and play: layout, desk sizes by age, light, storage, safety and furniture that adapts as they grow.',
+  'hero_alt'     => 'Kids room with a study desk by the window, open shelves and a single bed',
   'published'    => '2026-06-12',
-  'updated'      => '2026-10-04',
+  'updated'      => '2026-10-14',
   'faq' => [
     'What is the best direction for a kids study table?' => 'From a practical interiors perspective, the best direction is the one with good light, low noise, and fewer distractions. Avoid direct glare on books or screens. If possible, place the table where the child feels comfortable and focused.',
     'Which color is best for a kids study room?' => 'Soft green, light blue, warm white, and gentle neutral shades work well. These colors create a calm base. Brighter colors like yellow or orange can be used in small accents.',
@@ -166,6 +166,32 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Use lighter wall colors to make the room feel open.</li>
 </ul>
 <p>In compact homes, the study table can be integrated with the wardrobe, bed unit, or window seating. The key is to ensure proper lighting, leg space, and storage access.</p>
+<h2>Beds and the sleep zone</h2>
+<p>The bed takes the most floor in a child's room, so choose its type before planning the desk and storage.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Bed type</th><th>Typical size</th><th>Good for</th><th>Watch out for</th></tr></thead>
+  <tbody>
+    <tr><td>Single bed</td><td>3 × 6 ft (or 3 × 6.5 ft for teenagers)</td><td>One child, most rooms</td><td>Leave 2 ft of clear floor along the open side</td></tr>
+    <tr><td>Bed with storage drawers</td><td>Same as above</td><td>Small rooms that need extra storage</td><td>Drawers need about 2 ft clear in front to open</td></tr>
+    <tr><td>Bunk bed</td><td>3 × 6 ft, about 5–5.5 ft tall</td><td>Two children sharing a room</td><td>Guard rails on the top bunk; keep at least 3 ft from the top mattress to the ceiling or fan</td></tr>
+    <tr><td>Trundle bed</td><td>A second mattress slides out below</td><td>Occasional sleepovers</td><td>Needs a full bed length of clear floor when open</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Keep the bed away from the study window so the desk gets the daylight, and away from the AC's direct airflow. A bunk bed's top level is generally advised only for children over about six.</p>
+
+<h2>Safety in a child's room</h2>
+<ul>
+  <li><strong>Anchor tall furniture:</strong> fix wardrobes and bookshelves to the wall so they cannot tip when climbed.</li>
+  <li><strong>Rounded corners:</strong> ask for radius edges on desk tops, shelves and bed frames at a child's head height.</li>
+  <li><strong>Sockets and wires:</strong> use shuttered sockets and route desk wiring through a grommet and cable tray, not across the floor.</li>
+  <li><strong>Windows:</strong> keep grilles or window locks, and do not place the bed or a climbable unit under an openable window.</li>
+  <li><strong>Blinds:</strong> choose cordless blinds or keep cords tied out of reach.</li>
+  <li><strong>Materials:</strong> low-VOC paint and boards with low formaldehyde emission (E1 or better), and no glass shutters at low level.</li>
+</ul>
+<p>Plan the room to grow: a desk with an adjustable top or a chair with adjustable height, wardrobe rails that can be raised, and loose furniture rather than themed built-ins that a child will outgrow. Desk sizes are in the <a href="/furniture/study-table-design/">study table design guide</a>, and bed options in <a href="/furniture/bed-design/">bed design with storage</a>.</p>
+
 <h2>Common Study Room Design Mistakes to Avoid</h2>
 <ul>
   <li><strong>Ignoring ergonomics:</strong> Poor posture can make studying uncomfortable and tiring.</li>
@@ -176,7 +202,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>No future planning:</strong> Kids grow quickly, so furniture and storage should be adaptable.</li>
   <li><strong>Mixing sleep and study badly:</strong> If the study area is in the bedroom, clear zoning is important.</li>
 </ul>
-<h2>Final Study Room Design Checklist</h2>
+<h2>Kids room design checklist</h2>
 <p><strong>Location</strong> Quiet, bright, and away from major distractions.</p>
 <p><strong>Furniture</strong> Correct table and chair height for the child.</p>
 <p><strong>Lighting</strong> Natural light, ambient light, and task light planned together.</p>
