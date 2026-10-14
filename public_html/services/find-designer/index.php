@@ -26,7 +26,7 @@ $filtered = finder_has_filters($F);
 $widened  = !empty($F['_pin_min']);
 $blank    = array_map(fn($v) => is_array($v) ? [] : '', $F);
 unset($blank['_pin_min']);
-$segs = company_segments();
+$segs = pro_segments();
 
 /* active filters as removable chips */
 $chips = [];

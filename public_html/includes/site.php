@@ -16,7 +16,6 @@
      designers.php   interior designer listings (data: includes/data/designers.php)
      mailer.php      sending email safely (OTP codes, enquiries)
      finder.php      trending designs + designer directory (data: includes/data/trends.php, pros.php, places.php)
-     company.php     company accounts: email + one-time code sign-in, profile editor, approvals (/company/)
    ===================================================================== */
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/functions.php';
@@ -29,4 +28,3 @@ require_once __DIR__ . '/schema.php';
 require_once __DIR__ . '/designers.php';
 require_once __DIR__ . '/mailer.php';
 require_once __DIR__ . '/finder.php';
-require_once __DIR__ . '/company.php';

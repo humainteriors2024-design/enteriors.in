@@ -265,8 +265,7 @@ const ENQUIRY = [
 
 /* ---------- 13. LAUNCH PHASES ----------
    Phase 2 features stay hidden until PHASE2 is true: no menu, footer, home-page or in-text links point to them,
-   they are left out of the sitemap and llms.txt, and the pages themselves are noindex. The pages and the company
-   login (/company/) keep working, so firms can fill in their profiles before launch.
+   they are left out of the sitemap and llms.txt, and the pages themselves are noindex.
    Launch day: set PHASE2 to true. */
 const PHASE2 = false;
 const PHASE2_PATHS = [
@@ -276,22 +275,7 @@ const PHASE2_PATHS = [
   '/services/get-3-quotes/',
 ];
 
-/* ---------- 14. COMPANY LOGIN (/company/) — firms sign in with a one-time code sent to their email ----------
-   Profiles are saved in the private folder one level above public_html (leads/companies/).
-   A firm whose email is already in includes/data/pros.php ('email' + 'verified' => true) can sign in and edit at once.
-   Any other email can register or claim a listing; you approve it once at /admin/companies.php. */
-const COMPANY = [
-  'url'            => '/company/',
-  'otp_minutes'    => 10,
-  'otp_attempts'   => 5,
-  'resend_seconds' => 45,
-  'per_email_hour' => 4,
-  'per_ip_hour'    => 10,
-  'session_days'   => 14,      // stay signed in for this long on the same browser
-  'notify_admin'   => true,    // email LEADS['notify_email'] when a firm registers, claims a listing or saves changes
-];
-
-/* ---------- 15. PARTNER STUDIO — Huma Interiors (links: includes/data/partners.php, printed by components/partner.php) ---------- */
+/* ---------- 14. PARTNER STUDIO — Huma Interiors (links: includes/data/partners.php, printed by components/partner.php) ---------- */
 const PARTNER = [
   'name'  => 'Huma Interiors',
   'url'   => 'https://humainteriors.com/',

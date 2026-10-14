@@ -17,7 +17,7 @@
 function places_db() { static $d; return $d ??= require __DIR__ . '/data/places.php'; }
 function trends_db() { static $d; return $d ??= require __DIR__ . '/data/trends.php'; }
 function pros_db_raw() { static $d; return $d ??= require __DIR__ . '/data/pros.php'; }   // the file only
-function pros_db()   { static $d; return $d ??= (function_exists('company_merge') ? company_merge(pros_db_raw()) : pros_db_raw()); }   // + approved company profiles (includes/company.php)
+function pros_db()   { static $d; return $d ??= pros_db_raw(); }
 function design($key) { return trends_db()['designs'][$key] ?? null; }
 function pro($key)    { return pros_db()['pros'][$key] ?? null; }
 function city_name($k)  { return places_db()['cities'][$k]['name'] ?? ''; }
@@ -74,7 +74,9 @@ function design_home($d) {   // "3 BHK apartment", "Studio apartment", "Office s
 function design_place($d, $state = true) {
   return $d['area'] . ', ' . city_name($d['city']) . ($state ? ', ' . state_name(city_state($d['city'])) : '');
 }
-function segment_label($k) { return (function_exists('company_segments') ? company_segments() : ['budget' => 'Basic', 'mid' => 'Mid-range', 'premium' => 'Premium', 'luxury' => 'Luxury'])[$k] ?? ''; }
+// Budget segments a professional works in (directory filter and profile label)
+function pro_segments() { return ['budget' => 'Basic', 'mid' => 'Mid-range', 'premium' => 'Premium', 'luxury' => 'Luxury', 'traditional' => 'Traditional', 'other' => 'Others']; }
+function segment_label($k) { return pro_segments()[$k] ?? ''; }
 
 /* ---------- pictures: real photos in /assets/trending/<key>/ win; otherwise the sample illustrations ---------- */
 function design_images($key, $d) {
@@ -286,7 +288,7 @@ function pros_query() {
     'apt'     => finder_text($_GET['apt'] ?? ''),
     'rating'  => finder_one('rating', ['4.5', '4', '3.5']),
     'reviews' => finder_one('reviews', ['10', '50', '100']),
-    'seg'     => finder_list('seg', array_keys(company_segments())),
+    'seg'     => finder_list('seg', array_keys(pro_segments())),
     'req'     => finder_list('req', array_keys($D['reqs'])),
     'does'    => finder_one('does', array_keys($T['types'])),
     'sort'    => finder_one('sort', ['best', 'rating', 'reviews', 'experience', 'az']) ?: 'best',

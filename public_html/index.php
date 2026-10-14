@@ -156,7 +156,7 @@ $designTypes = ['modular-kitchen', 'full-home', 'living-room', 'master-bedroom',
       </div>
       <div class="field"><label>Your requirements <small>(optional)</small></label>
         <div class="home-finder__chips">
-<?php foreach (company_segments() as $k => $l) echo '<label><input type="checkbox" name="seg[]" value="' . $k . '"><span>' . e($l) . '</span></label>';
+<?php foreach (pro_segments() as $k => $l) echo '<label><input type="checkbox" name="seg[]" value="' . $k . '"><span>' . e($l) . '</span></label>';
       foreach (pros_db()['reqs'] as $k => $l) if ($k !== '3d-design') echo '<label><input type="checkbox" name="req[]" value="' . e($k) . '"><span>' . e($l) . '</span></label>'; ?>
         </div>
       </div>

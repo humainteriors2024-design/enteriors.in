@@ -542,7 +542,6 @@ $LEGAL_LINKS = [
   ['label' => 'Contact', 'href' => '/contact/'],
   ['label' => 'Blog',    'href' => '/blogs/'],
   ['label' => 'Privacy', 'href' => '/privacy/'],
-  ['label' => 'Company login', 'href' => '/company/'],   // interior firms sign in to update their profile (includes/company.php)
   ['label' => 'Terms',   'href' => '/terms/'],
 ];
 
