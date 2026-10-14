@@ -12,7 +12,7 @@ $menu[] = hub('blog');
 $hubsLive = [];
 foreach ($menu as $hub0) {
   $groups = [];
-  foreach ($hub0['groups'] as $g) { $l = live_links($g['links']); if ($l) $groups[] = $g + ['live' => $l]; }
+  foreach ($hub0['menu_groups'] ?? $hub0['groups'] as $g) { $l = live_links($g['links']); if ($l) $groups[] = $g + ['live' => $l]; }   // 'menu_groups' = a shorter list for the menu
   $pillarLive = $hub0['href'] !== '' && is_live($hub0['href']);
   if ($pillarLive || $groups) $hubsLive[] = $hub0 + ['live_groups' => $groups, 'pillar_live' => $pillarLive];
 }
@@ -24,13 +24,13 @@ $here = current_path();
 
     <nav class="nav" aria-label="Main">
 <?php foreach ($hubsLive as $h): ?>
-      <div class="nav__item" data-nav-item>
+      <div class="nav__item nav__item--<?= e($h['key']) ?>" data-nav-item>
         <a class="nav__link"<?= $h['pillar_live'] ? ' href="' . e($h['href']) . '"' : ' tabindex="0"' ?><?= $h['href'] !== '' && str_starts_with($here, $h['href']) ? ' aria-current="page"' : '' ?>><?= e($h['label']) ?></a>
 <?php if ($h['live_groups']): ?>
         <button class="nav__toggle" aria-expanded="false" aria-label="Show <?= e($h['label']) ?> menu" data-nav-toggle><svg viewBox="0 0 24 24"><polyline points="6,9 12,15 18,9"/></svg></button>
         <div class="mega">
           <div class="container mega__grid">
-<?php foreach ($h['live_groups'] as $g) echo link_list($g['live'], $g['title'], !empty($g['gold'])); ?>
+<?php foreach ($h['live_groups'] as $g) echo link_list($g['live'], $g['title'], !empty($g['gold']), $g['all'][0] ?? '', $g['all'][1] ?? 'View all', $g['cols'] ?? 1); ?>
 <?php if (!empty($h['feature']) && is_live($h['feature']['href'])) {
         $f = $h['feature'];
         echo card($f['href'], $f['title'], $f['text'], $f['label'], '', 'dark', $f['cta'] . ' →');
@@ -62,6 +62,10 @@ $here = current_path();
         foreach ($h['live_groups'] as $g) $links = array_merge($links, $g['live']);
         if (count($links) === 1): ?>
     <a class="mobile-nav__link" href="<?= e($links[0]['href']) ?>"><?= e($h['label']) ?></a>
+<?php   elseif (!empty($h['menu_groups'])): /* grouped, with two-column city lists and "View all" */ ?>
+    <details><summary><?= e($h['label']) ?></summary><?php
+          if ($h['pillar_live']) echo link_list([['label' => $h['label'] . ' — full guide', 'href' => $h['href']]]);
+          foreach ($h['live_groups'] as $g) if ($g['mobile'] ?? true) echo link_list($g['live'], $g['title'], !empty($g['gold']), $g['all'][0] ?? '', $g['all'][1] ?? 'View all', $g['cols'] ?? 1); ?></details>
 <?php   else: ?>
     <details><summary><?= e($h['label']) ?></summary><?= link_list($links) ?></details>
 <?php   endif; endforeach; ?>

@@ -106,9 +106,9 @@ function section_head($title, $accent = '', $eyebrow = '', $href = '', $linkText
   return $h . '</div>';
 }
 
-// Titled list of links (menus and footer)
-function link_list($links, $title = '', $gold = false, $allHref = '', $allLabel = 'View all') {
-  $h = '<div class="link-list">';
+// Titled list of links (menus and footer). $cols = 2 prints the list in two columns.
+function link_list($links, $title = '', $gold = false, $allHref = '', $allLabel = 'View all', $cols = 1) {
+  $h = '<div class="link-list' . ($cols > 1 ? ' link-list--cols' : '') . '">';
   if ($title) $h .= '<p class="link-list__title' . ($gold ? ' link-list__title--gold' : '') . '">' . e($title) . '</p>';
   $h .= '<ul>';
   foreach ($links as $l) $h .= '<li><a href="' . e($l['href']) . '">' . e($l['label']) . (!empty($l['badge']) ? ' <span class="badge">' . e($l['badge']) . '</span>' : '') . '</a></li>';

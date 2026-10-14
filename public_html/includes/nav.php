@@ -390,7 +390,7 @@ $HUBS = [
   /* ---------------- FIND A DESIGNER — the "interior designers near me" pillar and its city pages ----------------
      Firms, cities and price bands for these pages: includes/data/designers.php */
   [
-    'key' => 'interior-designers', 'label' => 'Interior Designers', 'href' => '/interior-designer-near-me/', 'icon' => '📍', 'tier' => 1,
+    'key' => 'interior-designers', 'label' => 'Interior Designers', 'href' => '/interior-designer-near-me/', 'icon' => '📍', 'tier' => 1, 'menu' => true,
     'keyword' => 'interior designers near me',
     'blurb' => 'Interior designers by city and locality, with addresses, the work they take on and how to compare them.',
     'groups' => [
@@ -449,6 +449,41 @@ $HUBS = [
         lnk('Famous Interior Designers of India', '/interior-designers/famous-interior-designers-india/'),
         lnk('How to Choose a Designer', '/planning/how-to-choose-interior-designer/'),
         lnk('Find a Designer Near You', '/services/find-designer/'),   // phase 2: hidden while config.php → PHASE2 is false
+      ]],
+    ],
+    /* The header menu shows a short version (the full list above stays on the pillar page, footer and breadcrumbs):
+       main cities in two columns, a few areas and specialities, and "View all cities" for the rest.
+       'cols' => 2 prints a group in two columns; 'all' adds a last link to the full list; 'mobile' => false = not in the phone menu. */
+    'menu_groups' => [
+      ['title' => 'Main cities', 'cols' => 2, 'links' => [
+        lnk('Bangalore', '/interior-designers/bangalore/'), lnk('Mumbai', '/interior-designers/mumbai/'),
+        lnk('Hyderabad', '/interior-designers/hyderabad/'), lnk('Chennai', '/interior-designers/chennai/'),
+        lnk('Pune', '/interior-designers/pune/'), lnk('Delhi', '/interior-designers/delhi/'),
+        lnk('Gurgaon', '/interior-designers/gurgaon/'), lnk('Kolkata', '/interior-designers/kolkata/'),
+        lnk('Coimbatore', '/interior-designers/coimbatore/'), lnk('Mysore', '/interior-designers/mysore/'),
+      ], 'all' => ['/interior-designer-near-me/#find-interior-designers-in-your-city', 'View all cities']],
+      ['title' => 'Popular areas', 'mobile' => false, 'links' => [
+        lnk('Indiranagar, Bangalore', '/interior-designers/bangalore/indiranagar/'),
+        lnk('Electronic City, Bangalore', '/interior-designers/bangalore/electronic-city/'),
+        lnk('Chandapura, Bangalore', '/interior-designers/bangalore/chandapura/'),
+        lnk('Andheri, Mumbai', '/interior-designers/mumbai/andheri/'),
+        lnk('Bandra, Mumbai', '/interior-designers/mumbai/bandra/'),
+        lnk('Kukatpally, Hyderabad', '/interior-designers/hyderabad/kukatpally/'),
+      ]],
+      ['title' => 'By budget and work', 'mobile' => false, 'links' => [
+        lnk('Luxury designers, Bangalore', '/interior-designers/bangalore/luxury/'),
+        lnk('Budget designers, Bangalore', '/interior-designers/bangalore/budget/'),
+        lnk('Kitchen designers, Bangalore', '/interior-designers/bangalore/kitchen/'),
+        lnk('Luxury designers, Mumbai', '/interior-designers/mumbai/luxury/'),
+        lnk('Low-budget designers, Chennai', '/interior-designers/chennai/low-budget/'),
+        lnk('Office designers, Gurgaon', '/interior-designers/gurgaon/office/'),
+      ]],
+      ['title' => 'Guides', 'gold' => true, 'links' => [
+        lnk('Interior Designers Near Me', '/interior-designer-near-me/'),
+        lnk('Best Interior Designers in India', '/interior-designers/india/'),
+        lnk('Famous Interior Designers of India', '/interior-designers/famous-interior-designers-india/'),
+        lnk('How to Choose a Designer', '/planning/how-to-choose-interior-designer/'),
+        lnk('Find a Designer Near You', '/services/find-designer/'),
       ]],
     ],
   ],
@@ -532,7 +567,7 @@ $GUIDES_MENU = [
       lnk('Home Planning', '/planning/'), lnk('Vastu', '/vastu/'), lnk('Trends 2026', '/trends/'), lnk('How to Choose a Designer', '/planning/how-to-choose-interior-designer/'),
     ]],
     ['title' => 'Reference & tools', 'gold' => true, 'links' => [
-      lnk('Interior Cost Calculator', '/calculators/home-interior-quote/'), lnk('Calculators', '/calculators/'), lnk('Comparisons', '/compare/'), lnk('Materials Glossary A–Z', '/glossary/'), lnk('Find Interior Designers', '/interior-designer-near-me/'),
+      lnk('Interior Cost Calculator', '/calculators/home-interior-quote/'), lnk('Calculators', '/calculators/'), lnk('Comparisons', '/compare/'), lnk('Materials Glossary A–Z', '/glossary/'), lnk('Blog', '/blogs/'),
     ]],
   ],
 ];
