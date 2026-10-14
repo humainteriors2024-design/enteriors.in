@@ -27,16 +27,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>At its core, traditional Indian design is characterised by a richness of material, a reverence for handcraft, a deep attentiveness to proportion and light, and an integration of spiritual practice into the built environment. It is maximalist in spirit but disciplined in execution — every ornament earns its place through cultural significance, not mere decoration.</p>
 <p>"In traditional Indian thought, the home is a microcosm of the universe — every threshold, every hearth, every courtyard a negotiation between the human and the divine."</p>
 <h3>Key Defining Characteristics</h3>
-<p>🪵</p>
 <h4>Natural Materials</h4>
 <p>Teak, rosewood, marble, terracotta, brass, cane — materials that carry history and improve with age.</p>
-<p>🕌</p>
 <h4>Architectural Grammar</h4>
 <p>Jharokhas, courtyard logic, carved lattice, arched doorways — spatial elements drawn from palace and temple architecture.</p>
-<p>✦</p>
 <h4>Handcraft at Centre</h4>
 <p>Block-printed textiles, dhurrie weaves, inlay work, meenakari, and hand-carved furniture — the human hand is always visible.</p>
-<p>🌿</p>
 <h4>Vastu Integration</h4>
 <p>Spatial arrangement guided by Vastu Shastra — the ancient science of directional harmony and elemental balance.</p>
 <h2>Regional Styles: India's Design Dialects</h2>
@@ -95,16 +91,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>Materials &amp; Textures: The Soul of Indian Spaces</h2>
 <p>If traditional Indian design has a single guiding principle, it is this: <strong>materials must have memory</strong>. Every surface should carry evidence of the hand that shaped it and the years that aged it. This is fundamentally different from contemporary minimalism, where surfaces aspire to be flawless and anonymous.</p>
 <h3>Flooring</h3>
-<p>🔷</p>
 <h4>Kotah Stone</h4>
 <p>Blue-grey Rajasthani limestone. Develops a beautiful patina over decades. The classic premium choice for verandahs and living areas.</p>
-<p>🟫</p>
 <h4>Athangudi Tiles</h4>
 <p>Hand-pressed cement tiles from Tamil Nadu with geometric patterns. Each tile unique — the craft-positive alternative to machine-made tiles.</p>
-<p>⬜</p>
 <h4>Makrana Marble</h4>
 <p>The same white marble used in the Taj Mahal. Pure luxury — cold underfoot in summer, works brilliantly with underfloor heating in hill homes.</p>
-<p>🟤</p>
 <h4>Terracotta</h4>
 <p>The most democratically traditional material. From Gwalior to Puducherry, terracotta tiles ground a space in elemental, earthy warmth.</p>
 <h3>Walls &amp; Ceilings</h3>
@@ -128,16 +120,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 <p>"The finest traditional Indian furniture pieces are not bought — they are commissioned from master craftsmen in Saharanpur, Jodhpur, or Tiruchirappalli who have inherited generations of pattern knowledge."</p>
 <h3>Premium Wood Guide</h3>
-<p>🪵</p>
 <h4>Indian Teak (Sagwan)</h4>
 <p>The gold standard. Dense, termite-resistant, and ages beautifully to a silvery grey if left untreated or rich amber with oil.</p>
-<p>🌑</p>
 <h4>Indian Rosewood (Sheesham)</h4>
 <p>Dark purple-brown grain with extraordinary carving properties. The preferred wood for fine bedroom furniture and carved screens.</p>
-<p>🟤</p>
 <h4>Mango Wood (Aam)</h4>
 <p>A sustainable, rapidly renewable alternative with warm tonal variation. Excellent for painted or lacquered pieces.</p>
-<p>🌿</p>
 <h4>Bamboo &amp; Cane</h4>
 <p>Especially dominant in eastern and north-eastern Indian traditions. Premium cane furniture from Assam is world-class.</p>
 <h2>Textiles &amp; Soft Furnishings</h2>
@@ -160,13 +148,10 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Layer 2 — Statement:</strong> A handcrafted chandelier — Jodhpur-style perforated brass, a cluster of blown-glass bells, or a Rajasthani meenakari pendant. This is the room's lighting centrepiece and should be visible in all directions.</li>
   <li><strong>Layer 3 — Intimate:</strong> Brass nilavilakku oil lamps (Kerala tradition), clay diyas on a ledge, and table lamps with traditional shade forms. These activate the room's warmth at the human scale.</li>
 </ul>
-<p>🕯️</p>
 <h4>Brass Oil Lamps</h4>
 <p>Nilavilakku from Kerala are both decorative and functionally ceremonial. Place near the entrance or pooja room threshold.</p>
-<p>🏮</p>
 <h4>Jali Lanterns</h4>
 <p>Pierced brass or copper lanterns cast extraordinary shadow patterns — most dramatic hung at different heights in clusters.</p>
-<p>💡</p>
 <h4>Colour Temperature</h4>
 <p>Never above 3000K in a traditional space. 2700K warm white mimics the golden quality of candlelight.</p>
 <h2>Vastu Shastra: The Spatial Science Behind Traditional Design</h2>
@@ -203,16 +188,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>Budgeting &amp; Sourcing Guide for Premium Homes</h2>
 <p>A genuinely premium traditional interior is an investment measured in years, not a single purchase event. The most successful projects we've observed treat the home as an ongoing curatorial project — acquiring pieces over time, replacing placeholders as the right original is found.</p>
 <h3>Recommended Budget Allocation</h3>
-<p>🏗️</p>
 <h4>Architecture &amp; Finishes (45%)</h4>
 <p>Flooring, wall treatments, plasterwork, woodwork, and structural elements. This is where premium traditional design earns its character — do not compromise here.</p>
-<p>🛋️</p>
 <h4>Key Furniture (30%)</h4>
 <p>Invest in 3–5 hero furniture pieces — diwan, dining table, bed — and fill around them with more affordable supporting pieces.</p>
-<p>🏺</p>
 <h4>Textiles &amp; Art (15%)</h4>
 <p>This is where the room gains soul. A hand-knotted carpet or original Pichwai painting is often the single most impactful investment per square metre.</p>
-<p>💡</p>
 <h4>Lighting &amp; Accessories (10%)</h4>
 <p>Do not treat lighting as a commodity. A single artisan-made brass chandelier can cost as much as the entire accessory budget — and it is worth it.</p>
 <h3>Where to Source Premium Traditional Pieces</h3>

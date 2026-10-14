@@ -24,7 +24,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Why It Matters</p>
 <h2>Why Glass Has Become Essential in Modern Home Interiors</h2>
 <p>Glass has moved from being a functional necessity to an active design material in Indian homes. A decade ago, glass in interiors largely meant a bathroom mirror, a dining table top, or a basic frosted shower partition. Today, glass is a defining feature of premium kitchens, luxury wardrobes, architectural partitions, walk-in closets, balcony railings and feature walls.</p>
 <p>The reason is straightforward: glass is the only interior material that simultaneously does all of the following — <strong>reflects light, creates depth, communicates luxury, demarcates space without blocking it, and remains fundamentally timeless.</strong> No laminate, paint, veneer, or wallpaper achieves this combination.</p>
@@ -46,12 +45,10 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>The Foundation</p>
 <h2>Understanding Glass — How It's Made, What It Contains, and Why Thickness Matters</h2>
 <p>All interior glass originates as float glass — molten glass poured onto a bed of liquid tin, creating a perfectly flat, uniform sheet. From this base product, all other types of glass are manufactured through secondary processes: tempering, laminating, acid etching, sand blasting, printing, or coating.</p>
 <p>Glass is primarily silicon dioxide (silica, from sand), combined with sodium oxide, calcium oxide and small quantities of other oxides. The greenish tint visible on the edge of standard float glass is caused by iron oxide content — a detail that becomes significant when you compare standard glass to ultra-clear (low-iron) glass.</p>
 <p>Understanding glass thickness is essential for both safety and application. Indian interior projects commonly use 4mm through 19mm thickness, each with specific applications, load capacities and safety requirements.</p>
-<p>Glass Types · Complete Guide</p>
 <h2>All Types of Glass Used in Home Interiors — Explained</h2>
 <p>Toughened (Tempered) Glass Safety Standard</p>
 <p>Toughened glass is produced by heating float glass to approximately 620°C and then rapidly cooling it — a process called quenching. This creates compressive stress on the surface and tensile stress in the core, making the glass 4–5× stronger than ordinary annealed glass of the same thickness. Crucially, when toughened glass breaks, it shatters into small, blunt, pebble-like fragments rather than large, sharp shards — dramatically reducing injury risk.</p>
@@ -103,29 +100,17 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Glass Finishes · Complete Visual Guide</p>
 <h2>All Glass Finishes for Interiors — What They Look Like, Where They Belong</h2>
 <p>The finish determines the visual character, privacy level, light behaviour, and maintenance requirements of a glass surface. Here is every major finish used in Indian home interiors, with a visual swatch reference:</p>
-<p>🔍</p>
 <p>Clear Glass</p>
-<p>❄️</p>
 <p>Frosted Glass</p>
-<p>▐▌▐▌</p>
 <p>Fluted Glass</p>
-<p>≡≡≡≡</p>
 <p>Reeded / Ribbed</p>
-<p>🌿</p>
 <p>Acid Etched</p>
-<p>🌫️</p>
 <p>Grey Tinted</p>
-<p>🥉</p>
 <p>Bronze Tinted</p>
-<p>🎨</p>
 <p>Back Painted</p>
-<p>🪞</p>
 <p>Clear Mirror</p>
-<p>✨</p>
 <p>Antique Mirror</p>
-<p>⚡</p>
 <p>Smart Glass</p>
-<p>🖨️</p>
 <p>Digital Printed</p>
 <h3>Fluted Glass — The Defining Interior Finish of 2026</h3>
 <p>Fluted glass features a series of parallel vertical channels (the "flutes") pressed or rolled into the glass surface during manufacture. These channels catch and refract light, creating a visual play of shadow and brightness that shifts as the viewer moves. The pattern provides partial privacy — interior objects are visible as blurred forms, not sharp outlines.</p>
@@ -165,7 +150,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Standard clear mirrors are produced by depositing a silver coating on the back of float glass, then protecting it with copper and paint layers. The quality of a mirror is determined by the flatness of the glass, the uniformity of the silver coating, and the edge treatment. For interior mirrors, always specify float glass mirrors rather than low-cost pressed glass — the distortion-free reflection is immediately noticeable.</p>
 <p><strong>Antique mirror</strong> — currently one of the most sought-after decorative glass finishes in Indian premium interiors — features intentional oxidation patterns, veining, and silvering variations that create an aged, characterful appearance. Used as wardrobe back panels, feature wall cladding, bar back-panels, and cabinet door inserts. No two antique mirror panels are identical, making them intrinsically unique.</p>
 <p><strong>Tinted glass</strong> (grey, bronze, blue, green) incorporates metal oxides during the float process to produce a permanently coloured glass. Bronze tinted glass is the stand-out trend in 2025–26 Indian interiors — its warm, golden-brown tone adds richness to wardrobe shutters and partition screens without the coldness of grey or blue tints.</p>
-<p>Specification Guide</p>
 <h2>Glass Thickness Guide — Which Thickness for Every Interior Application</h2>
 <div class="table-wrap">
 <table>
@@ -184,33 +168,25 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Application Guide</p>
 <h2>Which Glass to Use Where — Room-by-Room Guide</h2>
-<p>🛋️</p>
 <p>Living Room</p>
 <p>Clear, Fluted &amp; Mirror</p>
 <p>Clear toughened for TV unit display sections. Fluted glass for decorative cabinet inserts. Antique mirror panels for feature walls and TV back panels. Bronze tinted glass for partition screens.</p>
-<p>🍳</p>
 <p>Modular Kitchen</p>
 <p>Back Painted &amp; Frosted</p>
 <p>Back painted glass (toughened 5mm) for shutters — best waterproof, heat-resistant finish. Frosted (acid-etched) for crockery unit doors. Clear toughened for backsplash. Aluminium-framed fluted glass for pantry units.</p>
-<p>🛏️</p>
 <p>Bedroom</p>
 <p>Fluted, Frosted &amp; Mirror</p>
 <p>Fluted glass wardrobe shutters — the top trend 2025–26. Full-length clear mirrors for dressing. Frosted glass for wardrobe sections requiring privacy. Antique mirror for walk-in wardrobe back wall.</p>
-<p>🚿</p>
 <p>Bathroom</p>
 <p>Toughened + Frosted</p>
 <p>10mm toughened clear or frosted for shower enclosures. Ultra-clear for vanity mirrors. Smart glass for bedroom-bathroom dividing wall. Acid-etched frosted for window panels.</p>
-<p>💼</p>
 <p>Home Office</p>
 <p>Laminated + Smart</p>
 <p>Laminated glass for acoustic partitions. Smart glass for situational privacy. Frosted or tinted glass for cabin partitions. Clear toughened for desk glass tops.</p>
-<p>🌿</p>
 <p>Balcony</p>
 <p>Toughened Structural Glass</p>
 <p>12mm toughened clear for frameless railings. Laminated toughened for overhead balcony panels. Solar control tinted glass for wind protection panels that reduce heat gain.</p>
-<p>Wardrobe Glass · Deep Dive</p>
 <h2>Complete Guide to Glass for Wardrobes — Every Option, Every Consideration</h2>
 <p>The wardrobe is the most glass-visible piece of furniture in the bedroom, and glass shutter selection has more impact on the bedroom's overall aesthetic than almost any other single decision. Here is a complete comparison of every glass option for wardrobe shutters:</p>
 <div class="table-wrap">
@@ -230,7 +206,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Note</span><strong>Designer's most recommended wardrobe glass in 2026: Fluted glass in a brass or matte black aluminium frame.</strong> It provides partial privacy, catches light beautifully, works in every design style from minimal to maximalist, and photographs better than any other finish. The number one wardrobe upgrade in premium Indian interiors today.</div>
-<p>Kitchen Glass · Deep Dive</p>
 <h2>Glass for Modular Kitchens — What Works, What Doesn't, What's Best</h2>
 <p>The kitchen is the most demanding environment for glass in any home — heat, moisture, cooking fumes, daily cleaning and mechanical impact all place glass under stress that other interior areas don't. Choosing the wrong glass in a kitchen is not just an aesthetic mistake — it is a durability failure waiting to happen.</p>
 <h4>Kitchen Glass Rules — Non-Negotiables</h4>
@@ -256,7 +231,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Top Brands · India</p>
 <h2>Best Glass Brands in India — Honest Comparison</h2>
 <p>SG</p>
 <p>Saint-Gobain</p>
@@ -288,7 +262,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>India · Value</p>
 <p>★★★☆☆</p>
 <div class="callout"><span class="callout__title">Note</span>Cost-competitive Indian manufacturer. Suitable for non-critical interior applications where safety glass is not required. Good for standard mirrors, cabinet glass, and basic interior applications on tighter budgets.</div>
-<p>Cost Reference · 2026</p>
 <h2>Glass Cost in India — 2026 Price Guide</h2>
 <p>All prices below are indicative retail/trade rates for supply only, excluding installation, hardware, and framing. Prices vary by city, supplier, glass size, and order quantity. Premium brands (Saint-Gobain, AIS) command 15–30% premium over generic equivalents.</p>
 <p>Clear Float Glass</p>
@@ -319,7 +292,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>₹800–₹1,800/sq.ft</p>
 <p>Supply + installation + electrical connection. Significant cost but declining year-on-year as adoption grows in India.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Installation cost guide:</strong> Add ₹50–₹120/sq.ft for standard installation. Frameless glass doors and structural glass (railings, floors) require specialist installation at ₹150–₹350/sq.ft. Always include hardware cost (clamps, hinges, channels) separately — these can add ₹200–₹800 per panel depending on the system.</div>
-<p>Safety Guide</p>
 <h2>Glass Safety for Homeowners — What Every Family Must Know</h2>
 <h3>When Toughened Glass Is Non-Negotiable</h3>
 <ul>
@@ -333,7 +305,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 <h3>Child Safety</h3>
 <p>In homes with children under 12, specify laminated glass rather than toughened alone for any glass within arm's reach below 1.5m height. Laminated glass holds together even when broken — eliminating the risk of children encountering glass fragments at floor level. The cost premium is modest; the safety benefit is absolute.</p>
-<p>What's Hot · 2026</p>
 <h2>Latest Glass Trends in Indian Interiors — 2026</h2>
 <p>Trending Glass in Indian Interiors · 2025–2026</p>
 <p>🔥 Top Trend</p>
@@ -355,7 +326,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Textured Glass Partitions</p>
 <p>Custom-patterned glass screens as room dividers — fluted, geometric, and custom CNC-etched patterns replacing plain frosted partitions.</p>
 <p>Frequently Asked Questions</p>
-<p>Expert Picks</p>
 <h2>Expert Glass Recommendations — By Home Type &amp; Budget</h2>
 <div class="table-wrap">
 <table>

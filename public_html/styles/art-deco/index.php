@@ -41,7 +41,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The style went underground twice — first when post-war minimalism took over the 1950s, then again in the beige 2000s. Each time it returned it came louder. The current revival, well into its second decade globally, was pushed forward by hospitality design (the Beekman in New York, Claridge's suites in London, the entire aesthetic of <em>The Great Gatsby</em> 2013 film), and it landed on residential floors around 2019.</p>
 <p>In Indian metros the 2026 revival has a specific character. It is quieter than the 1930s original, more restrained than the Hollywood Regency variant, and adapted for humid climates and open-plan apartments. Homeowners want the drama without the museum-quality upkeep — which is exactly what this guide is going to help you get right.</p>
 <div class="callout"><span class="callout__title">In one sentence</span>Art Deco Revival is the disciplined application of 1920s–30s geometry, luxury materials, and confident colour to modern floor plans — done with restraint, not costume.</div>
-<p>02 · Core Design Philosophy</p>
 <h2>Five principles that separate authentic Deco from theatrical pastiche</h2>
 <p>Every legitimate design movement rests on a small number of principles. Get these right and even a modest budget looks intentional. Miss them and even a ₹40 lakh interior will read as a themed restaurant.</p>
 <h4>1. Geometry is the grammar</h4>
@@ -77,7 +76,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Curves matter as much as lines</h3>
 <p>New homeowners often think Deco means straight edges and hard geometry. The truth is that authentic Deco is half curves — rounded sofas, arched doorways, half-moon consoles, curved bar counters, kidney-shaped ottomans. The interplay of the sharp geometric motif against the soft curved silhouette is where the magic lives. A room of only straight lines reads as brutalist. A room of only curves reads as bohemian. Deco needs both.</p>
 <div class="callout callout--tip"><span class="callout__title">Rule of three</span>Pick three motifs for the whole apartment. Repeat them everywhere. If you fluted the kitchen island, flute the bedroom headboard. If you used the sunburst on the entrance mirror, echo it in the dining pendant. Continuity across rooms is what turns individual purchases into a coherent home.</div>
-<p>04 · The Colour Palette</p>
 <h2>Jewel tones, honest neutrals, and one metallic per room</h2>
 <p>The 2026 Deco palette differs from the original in one important way — it's lower in saturation, higher in warmth. The 1930s used clean saturated jewel tones because they had to compete with the era's warm tungsten lighting.</p>
 <p>Contemporary LED lighting is cooler and cleaner, which means the jewel tones need to shift about 10–15% warmer to read the same way to the eye. This is a technical adjustment most homeowners never learn about, and it's the difference between a Deco room that feels sophisticated and one that feels like a themed bar.</p>
@@ -107,7 +105,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Onyx + Ivory + Brass</strong> — the most restrained option; perfect for compact 2BHKs where a jewel tone would overwhelm.</li>
 </ul>
 <div class="callout callout--warn"><span class="callout__title">Avoid at all costs</span>Bright kelly green, primary blue, pillar box red, and pure white. These will make the room read as either theatrical or hospital. Every Deco colour must have depth and warmth — think of them as jewels lit by candlelight, not by fluorescent tubes.</div>
-<p>05 · Materials &amp; Finishes</p>
 <h2>The material palette that carries the style</h2>
 <p>Deco is a material-driven style more than any other. The right materials, honestly used, will do 70% of the aesthetic work. Skip them or substitute cheap versions, and no amount of colour or motif will save the room. Here is the practical hierarchy for Indian homes in 2026.</p>
 <h3>Wood — walnut, macassar ebony, burl veneer</h3>
@@ -126,7 +123,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Mother-of-pearl, bone inlay, cane</h3>
 <p>Detail materials for accent pieces — mother-of-pearl inlay on side tables and jewellery boxes, bone inlay on chest of drawers, cane webbing on cabinet fronts and chair backs. Each should be used once or twice per home, not everywhere.</p>
 <div class="callout callout--tip"><span class="callout__title">Insider tip</span>The single biggest visible upgrade you can make to a mid-budget Deco Revival home is swapping standard laminate profiles for real veneer with a hand-finished PU lacquer. The additional cost of about ₹180–₹250 per square foot on cabinetry moves the entire home up one visual tier.</div>
-<p>06 · Furniture Style</p>
 <h2>Silhouettes, proportions and the pieces every Deco home needs</h2>
 <p>Deco furniture is defined by proportion. Low seat heights, generous seat depths, curved arms, tapered or plinth bases, and a preference for statement pieces over quantity. A Deco living room needs fewer pieces than a modern living room — the pieces are heavier, more sculptural, and demand negative space around them to breathe.</p>
 <h3>Living room essentials</h3>
@@ -153,7 +149,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>The furniture rules that separate good from great</h3>
 <p>Buy fewer pieces, larger scale. A Deco living room with three well-scaled statement pieces outperforms one with eight generic pieces every time. Match pieces in pairs where possible — matching sconces, matching chairs, matching nightstands. Leave negative space between pieces so each silhouette can be read. And commission at least one signature custom piece per home — a bar cabinet, a bed, a bathroom vanity — that carries the design language.</p>
 <div class="callout"><span class="callout__title">A note on scale</span>Deco furniture is heavier and more visually dense than contemporary furniture. If your ceiling is under 9 feet or your living room is under 200 square feet, downscale the sofa to a 2.5-seater and skip the bar cabinet — a floor-to-ceiling built-in bar niche is a better answer. The style still works at compact scale, but it requires editing.</div>
-<p>07 · Kitchen Design</p>
 <h2>How to translate Deco into a modular kitchen without losing the plot</h2>
 <p>Modular kitchens present the hardest translation problem for Deco Revival. The original 1930s kitchens were servant-driven back rooms — there is no historical template. The revival version is a modern invention. Done well, it is one of the most photographed rooms in a Deco home. Done badly, it becomes a gaudy bar area with a fridge.</p>
 <h3>The winning formula</h3>
@@ -184,7 +179,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">Practical Bangalore note</span>Bangalore's humidity means you cannot use solid brass hardware without protective PVD coating — bare brass will oxidise within 8 months. Ask for PVD-coated brass (usually specified as "aged brass PVD" or "antique brass PVD"). Slightly higher cost, decade-long finish.</div>
-<p>08 · Bedroom Design</p>
 <h2>The Deco bedroom is a private theatre — treat it like one</h2>
 <p>Bedrooms are where Deco Revival delivers its most cinematic results. Homeowners are more willing to commit to bold colour behind a headboard than in a living room. Sleep is private, so the bedroom can be more emotional and less negotiated than public spaces. The design principles are:</p>
 <h3>The hero move — a floor-to-ceiling upholstered headboard</h3>
@@ -202,7 +196,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Reading corner</strong> — single tub chair in blush velvet with brass arc floor lamp overhead, small marble side table.</li>
 </ul>
 <div class="callout"><span class="callout__title">Colour advice for bedrooms</span>Emerald in living rooms feels sophisticated. Emerald in bedrooms feels claustrophobic. Reserve the deep saturated hero for one accent wall (usually the headboard wall) and keep the remaining three walls in warm ivory or blush. Ceilings always in warm off-white — never coloured.</div>
-<p>09 · Living Room Design</p>
 <h2>Where entertaining lives — and where Deco earns its cost</h2>
 <p>The Deco Revival living room is a public room designed for company. If your household does not entertain, does not have guests over for evening drinks or dinner, or would rather spend evenings alone with the television — Deco is the wrong style. The layout, materials, and money assume the room will be used.</p>
 <h3>The anchor arrangement</h3>
@@ -225,7 +218,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Lighting layers in the living room</h3>
 <p>Five distinct lighting sources minimum: central statement chandelier or tiered pendant, floor lamp beside a reading chair, table lamps on side tables, wall sconces flanking the feature wall, and peripheral cove or picture lights. Every source dimmable, every temperature warm (2700K).</p>
 <div class="callout"><span class="callout__title">The living room test</span>If you can imagine hosting six friends for cocktails in the room, the design is working. If the room is oriented purely toward a large-screen TV with all seating facing one direction, the design has failed the style. Deco living rooms accommodate TVs but never worship them.</div>
-<p>10 · Dining Room Design</p>
 <h2>Where Deco is most itself</h2>
 <p>If forced to pick one room where Deco Revival delivers the highest return per rupee, it would be the dining room. Diners are seated for extended periods with nowhere to look but at the room itself. Every detail matters more here than anywhere else.</p>
 <h3>The table</h3>
@@ -244,7 +236,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>The sideboard</h3>
 <p>Every Deco dining room needs a sideboard or credenza. 180 cm minimum length, 45 cm depth, waist-height. Walnut or macassar veneer with brass long-pulls, or lacquered with fluted detail. Function is real — serves as buffet during dinners, holds tableware, and displays sculpture or a table lamp.</p>
 <div class="callout"><span class="callout__title">The dining-room test</span>If the room feels equally good with candles lit and the pendant dimmed as it does with full lighting, the palette and materials are right. If it needs full lighting to look complete, the underlying design is missing something.</div>
-<p>11 · Bathroom Design</p>
 <h2>The one room where restraint is punished</h2>
 <p>Bathrooms in Deco Revival homes are permitted — even encouraged — to be more dramatic than any other room. This is the room where marble slab installations, tiered brass chandeliers, and octagonal floor patterns actually make sense. The 1930s Deco masters treated bathrooms as private spas, and the revival honours that.</p>
 <h3>The vanity</h3>
@@ -264,7 +255,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>The bathtub question</h3>
 <p>Freestanding tubs — clawfoot or pedestal — are Deco Revival's ideal. Practical in villas with generous master bathrooms, difficult in Bangalore apartments where bathroom floor plates are under 60 sq ft. If space permits, a freestanding tub becomes the room's hero. If not, skip it entirely rather than compromising with a built-in tub.</p>
 <div class="callout callout--tip"><span class="callout__title">Compact bathroom Deco tip</span>In a 40–50 sq ft compact bathroom, Deco Revival still works. The formula: black octagonal floor tile with white insets, single slab of Statuario marble on the wet wall, walnut veneer vanity with brass hardware, single arched brass mirror, one brass wall sconce. Total additional cost over a standard bathroom: ₹85,000–₹1,20,000.</div>
-<p>12 · Lighting Blueprint</p>
 <h2>Get the light wrong and nothing else matters</h2>
 <p>Deco Revival is more sensitive to lighting than any other contemporary style. The materials — brass, marble, velvet, lacquer — all react to light temperature and beam angle. A perfect Deco room lit with cool 4000K downlights looks like a hotel lobby at 2 am. The same room at 2700K with layered warm sources looks like a film set.</p>
 <h3>The five-layer rule</h3>
@@ -329,7 +319,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Non-negotiable requirements</span>Minimum 9-foot ceilings, minimum 200 sq ft living room, ability to install layered lighting (which means false ceiling or cove-friendly ceiling), and windows that admit natural light. If your home fails any of these tests, consider Modern Classic or Warm Contemporary as more forgiving alternatives.</div>
-<p>15 · Ideal Room Sizes</p>
 <h2>What each room needs to breathe</h2>
 <p>Deco furniture is heavier than modern furniture. Deco lighting hangs lower and takes visual space. Feature walls need width to read. These are the minimum room sizes for the style to work well:</p>
 <div class="table-wrap">
@@ -365,7 +354,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Homeowners with tight compact floor plans and standard 9-foot ceilings who want the full style throughout the home.</li>
   <li>Those who dislike upkeep — Deco materials reward maintenance and punish neglect.</li>
 </ul>
-<p>17 · Advantages</p>
 <h2>Why homeowners pick this style over safer alternatives</h2>
 <h3>1. It ages well because it's already old</h3>
 <p>Every style that is not currently trendy will one day become the current trend or the current out-of-fashion. Deco has been through both cycles multiple times. Nothing in a well-executed Deco Revival home will look dated in 2036, because it already looked "dated" in 2016 and 1996 and 1976. Timelessness by rejection of trend.</p>
@@ -379,7 +367,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Homeowners increasingly want homes that photograph well for personal social media and eventual sale listings. Deco's geometric symmetry, contrast, and considered material palette photographs better than any contemporary style.</p>
 <h3>6. Delivers hospitality quality at home</h3>
 <p>Guests notice the difference immediately. The overwhelming feedback we receive from Deco Revival homeowners is that guests behave differently in the space — dressed more thoughtfully, stayed longer, spoke slower.</p>
-<p>18 · Disadvantages</p>
 <h2>Honest downsides most designers gloss over</h2>
 <h3>1. Higher cost floor</h3>
 <p>The materials are more expensive. Real veneer over laminate. Real marble over laminated stone. Real brass over painted hardware. Real velvet over polyester blend. There is no ₹1,200 per sq ft version of this style — the minimum floor is around ₹1,800 per sq ft, and premium execution starts at ₹2,800.</p>
@@ -394,7 +381,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>6. Photographs harder than it lives</h3>
 <p>The counter-point to advantage #5 — some Deco Revival homes photograph brilliantly but feel less inviting at ground level than the images suggest. Good designers correct for this by softening with textiles, plants, and casual layering. Bad designers deliver a home that only works for its own listing photos.</p>
 <div class="callout"><span class="callout__title">Balanced view</span>Every advantage of Deco Revival comes with a corresponding cost — in money, in maintenance, in behaviour, or in floor plan requirements. Homeowners who understand these upfront are consistently thrilled with the outcome. Homeowners who see only the aesthetic and skip the trade-offs are consistently disappointed within 18 months.</div>
-<p>19 · Maintenance Reality</p>
 <h2>What actually needs upkeep, and how often</h2>
 <div class="table-wrap">
 <table>
@@ -474,7 +460,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>These figures include modular kitchen, wardrobes, TV units, furniture, false ceiling, lighting, painting, and soft furnishings. They exclude civil work, electrical rewiring, appliances, and art.</p>
-<p>21 · Timeline &amp; Sequencing</p>
 <h2>From first meeting to move-in — the honest schedule</h2>
 <p>Deco Revival takes longer than generic contemporary because there are more moving parts — real materials, custom cabinetry, imported fittings, hand-finished surfaces. The workable timeline for a full 3BHK is 12–14 weeks. Rushing this compresses quality.</p>
 <div class="table-wrap">
@@ -495,7 +480,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--warn"><span class="callout__title">Common timeline mistake</span>Homeowners often try to move in before the finishing phase completes. Deco Revival lives or dies at the finishing stage — the art, mirrors, cushions, drapery, and lighting are what transform completed rooms into a designed home. Moving in early with 60% of the finishing incomplete usually means it never gets finished properly.</div>
-<p>22 · Budget Allocation</p>
 <h2>Where the money actually goes in a Deco Revival home</h2>
 <p>The percentages below are for a mid-tier ₹22 lakh 3BHK Deco Revival project. Adjust proportionally for your budget.</p>
 <div class="table-wrap">
@@ -566,7 +550,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>24 · Common Execution Mistakes</p>
 <h2>The traps we see repeatedly in Bangalore homes</h2>
 <h3>Mistake 1 — Bright polished chrome/gold hardware</h3>
 <p>Homeowners buy the cheapest hardware from the local supplier assuming metal is metal. Bright polished chrome-plated brass looks plastic under LEDs and destroys the aesthetic instantly. Always specify brushed brass or antique brass with PVD coating.</p>
@@ -588,7 +571,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Mirror is powerful in Deco but self-cancelling if overused. Two mirrored feature walls, mirrored cabinets, mirrored splashbacks, and mirrored consoles — all in the same visual field — creates a funhouse. Rule: one dominant mirror moment per room.</p>
 <h3>Mistake 10 — Buying "Deco" from generic retailers</h3>
 <p>Mass-market retailers sell "Art Deco style" furniture that is generic Chinese contemporary with a token gold accent. Almost none of it works. Legitimate Deco Revival furniture requires custom fabrication or purchases from specialists — either factory-direct workshops or curated design retailers.</p>
-<p>25 · Designer Field Tips</p>
 <h2>Twenty things we've learnt from installing Deco Revival homes</h2>
 <ol>
   <li><strong>Commission one hero piece.</strong> A custom bar cabinet, an oversized headboard, a monumental console. One piece the home is designed around.</li>
@@ -612,7 +594,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>The bathroom deserves the chandelier.</strong> A small brass chandelier over a master bathroom vanity turns utility into ritual. Under ₹18,000 in most cases.</li>
   <li><strong>Live in the home before adding the last 20% of decor.</strong> After 6 weeks, gaps and needs become obvious. The decor bought at that point is always better than the decor bought at handover.</li>
 </ol>
-<p>26 · Best Brand References</p>
 <h2>Where designers and homeowners actually source</h2>
 <p>These are references we use ourselves and recommend to clients. Not sponsored; not exhaustive.</p>
 <h3>Furniture — international reference</h3>
@@ -656,7 +637,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Ozone</strong> — mid-tier brass hardware</li>
   <li><strong>Kohler</strong> and <strong>Jaquar Artize</strong> — brushed brass tapware</li>
 </ul>
-<p>27 · Sustainability &amp; Longevity</p>
 <h2>Why Deco Revival is more sustainable than it looks</h2>
 <p>The instinctive assumption is that a luxury material style like Deco Revival has a higher environmental footprint than simple minimalism. The truth is more interesting — and mostly the reverse — because the metric that matters is not what materials the home was built with but how long they last.</p>
 <h3>The longevity argument</h3>
@@ -695,16 +675,13 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Emerald kitchens, sapphire wardrobes, oxblood bar cabinets — saturated colour on cabinetry is returning after two decades of dominance by neutral finishes. This is Deco's core language returning to modular furniture.</p>
 <h3>7. Anti-minimalist backlash</h3>
 <p>The broader cultural rejection of grey-and-beige minimalism is real and accelerating. Deco Revival is one of several styles benefiting from this — expect market share to grow through 2028.</p>
-<p>29 · FAQs</p>
 <h2>Twenty-five questions Bangalore homeowners actually ask us</h2>
-<p>30 · Closing Thoughts</p>
 <h2>Why we recommend this style — and to whom</h2>
 <p>Art Deco Revival is one of a small number of interior design styles that respects both the eye and the hand. It rewards good sourcing, punishes shortcuts, and returns the investment across decades rather than years. In a decorating culture that increasingly optimises for photographable moments over lived experience, Deco is one of the styles that photographs beautifully <em>because</em> it lives beautifully.</p>
 <p>We recommend it to households that entertain, appreciate materials, and are prepared to invest in a home meant to last twenty years rather than five. We recommend against it for casual family homes with toddlers, homes under 900 sq ft carpet area, and homeowners whose primary interest is optimising cost per square foot.</p>
 <p>The Bangalore market for this style has matured meaningfully in the last three years. Skilled workshops, quality material suppliers, and experienced designers are all more accessible now than they were even in 2022. Costs have stabilised. Sourcing is faster. Execution risk is lower.</p>
 <p>The right time to build an Art Deco Revival home is when you own the property, plan to stay in it for a decade or more, and want the daily experience of living somewhere considered. This guide has attempted to give you the language, the numbers, and the trade-offs to make that decision honestly.</p>
 <p>If you'd like to talk through your specific home, floor plan, or budget with one of our designers — no obligation, no design fee at the discussion stage — we'd be glad to.</p>
-<p>Appendix A · EEAT</p>
 <h2>Expert notes, checklists, and the truth about hidden costs</h2>
 <p>Written by senior designers with 8+ years each in residential Indian interiors. These notes cover the questions clients most often ask us privately, after the main proposal has been signed.</p>
 <h3>Interior designer notes</h3>

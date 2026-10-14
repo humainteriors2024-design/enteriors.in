@@ -15,7 +15,6 @@ $page = [
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 <p>Getting interiors right is less about aesthetics and more about decisions — hundreds of them. This guide converts that chaos into a structured framework you can follow from the day you get possession to the moment you hand over to your family.</p>
-<p>01 / 20</p>
 <h2>Define Your Family Requirements</h2>
 <p>Before any designer draws a single line, you need a clear picture of who lives in this home and how they live.</p>
 <h4>Family Profile</h4>
@@ -36,7 +35,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Reading and study habits</li>
   <li>Hobbies requiring dedicated space</li>
 </ul>
-<p>02 / 20</p>
 <h2>Budget Planning Checklist</h2>
 <p>Interior budgets almost always run over when not broken down at the start. Allocate by category before work begins.</p>
 <h4>Overall Interior Budget — Allocate Across</h4>
@@ -53,7 +51,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Décor accessories</li>
 </ul>
 <div class="callout"><span class="callout__title">Note</span><strong>Emergency Reserve:</strong> Keep 10–15% of your total budget aside for material price fluctuations, design changes during execution, and unexpected site conditions. This is non-negotiable.</div>
-<p>03 / 20</p>
 <h2>Home Measurement Checklist</h2>
 <p>Never assume builder dimensions are accurate. Physically verify every measurement before designs are finalised.</p>
 <h4>Verify Builder Dimensions</h4>
@@ -73,7 +70,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Internet points</li>
   <li>Drainage locations</li>
 </ul>
-<p>04 / 20</p>
 <h2>Space Planning Checklist</h2>
 <p>Each room has specific functional requirements. Map these out before the designer creates layouts.</p>
 <h4>Living Room</h4>
@@ -105,7 +101,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Appliance requirements</li>
   <li>Utility area planning</li>
 </ul>
-<p>05 / 20</p>
 <h2>Storage Planning Checklist</h2>
 <div class="callout"><span class="callout__title">Note</span><strong>The #1 mistake homeowners make</strong> is underestimating storage. Do a full inventory of what you own before finalising any storage design.</div>
 <h4>Inventory Assessment</h4>
@@ -127,7 +122,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Utility cabinets</li>
   <li>Corner storage units</li>
 </ul>
-<p>06 / 20</p>
 <h2>Material Selection Checklist</h2>
 <p>The longevity of your interiors depends almost entirely on the materials used beneath the finishes. Don't compromise here.</p>
 <h4>Plywood Selection</h4>
@@ -151,7 +145,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Budget</li>
   <li>Warranty</li>
 </ul>
-<p>07 / 20</p>
 <h2>Finish Selection Checklist</h2>
 <h4>Laminates — Consider</h4>
 <ul>
@@ -171,7 +164,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Natural veneers</li>
   <li>Engineered veneers</li>
 </ul>
-<p>08 / 20</p>
 <h2>Kitchen Planning Checklist</h2>
 <p>The kitchen is the most-used space in any home. Poor planning here causes daily frustration for years.</p>
 <h4>Layout Selection</h4>
@@ -198,7 +190,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Counter height (standard 850mm, adjust for height)</li>
   <li>Storage accessibility at different heights</li>
 </ul>
-<p>09 / 20</p>
 <h2>Wardrobe Planning Checklist</h2>
 <h4>Internal Layout</h4>
 <ul>
@@ -214,7 +205,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Sliding — space-saving in small rooms</li>
   <li>Walk-in — luxury, requires dedicated space</li>
 </ul>
-<p>10 / 20</p>
 <h2>Electrical Planning Checklist</h2>
 <p>Once your walls are done, adding electrical points becomes expensive. Plan in advance.</p>
 <h4>Power Points — Location for Each</h4>
@@ -236,7 +226,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>UPS points</li>
   <li>Wi-Fi router location (centralise for coverage)</li>
 </ul>
-<p>11 / 20</p>
 <h2>Lighting Planning Checklist</h2>
 <h4>Ambient Lighting</h4>
 <ul>
@@ -255,7 +244,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Artwork</li>
   <li>Decorative elements</li>
 </ul>
-<p>12 / 20</p>
 <h2>False Ceiling Checklist</h2>
 <h4>Need Assessment</h4>
 <ul>
@@ -269,7 +257,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Maintenance access panel placement</li>
   <li>Cost implications vs open ceiling</li>
 </ul>
-<p>13 / 20</p>
 <h2>Flooring Evaluation Checklist</h2>
 <h4>Existing Flooring Assessment</h4>
 <ul>
@@ -284,7 +271,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Maintenance ease</li>
   <li>Visual continuity across rooms</li>
 </ul>
-<p>14 / 20</p>
 <h2>Colour Planning Checklist</h2>
 <p>Always start with your fixed elements. Choosing wall colours before flooring is done causes mismatched spaces.</p>
 <h4>Step 1 — Lock Fixed Elements First</h4>
@@ -301,7 +287,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Accent colours</li>
 </ul>
 <div class="callout"><span class="callout__title">Note</span><strong>The 60-30-10 Colour Rule:</strong> 60% primary colour (walls, large surfaces), 30% secondary (furniture, upholstery), 10% accent (cushions, artwork, accessories). This ratio consistently creates balanced spaces.</div>
-<p>15 / 20</p>
 <h2>Ventilation &amp; Natural Light Checklist</h2>
 <h4>Evaluate</h4>
 <ul>
@@ -315,7 +300,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Blind selection</li>
   <li>Artificial lighting to compensate for dark zones</li>
 </ul>
-<p>16 / 20</p>
 <h2>Hardware Planning Checklist</h2>
 <p>Hardware is used hundreds of times every day. It directly affects how satisfying your furniture feels to use. Never cut costs here.</p>
 <h4>Specify Brands and Specifications For</h4>
@@ -331,7 +315,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Load capacity</li>
   <li>Replacement part availability in your city</li>
 </ul>
-<p>17 / 20</p>
 <h2>Smart Home Planning Checklist</h2>
 <p>Retrofitting smart home systems after interiors are done is expensive. Plan the conduit and wiring in advance, even if you activate features later.</p>
 <h4>Consider Future Automation For</h4>
@@ -342,7 +325,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Video door phone</li>
   <li>Security cameras</li>
 </ul>
-<p>18 / 20</p>
 <h2>Design Style Selection Checklist</h2>
 <p>Without a defined style, your home ends up as a random collection of decisions. Choose a direction early and commit to it.</p>
 <h4>Popular Interior Styles</h4>
@@ -363,7 +345,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Define recurring materials (wood, metal, stone, fabric)</li>
   <li>Define furniture silhouettes (clean lines, ornate, minimal)</li>
 </ul>
-<p>19 / 20</p>
 <h2>Vendor Evaluation Checklist</h2>
 <p>Every interior company will give you a price. These questions help you understand what you're actually getting.</p>
 <h4>Ask Every Interior Company These Questions</h4>
@@ -376,7 +357,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>What is the project timeline and how are milestones defined?</li>
   <li>How are delays handled — is there a penalty clause?</li>
 </ul>
-<p>20 / 20</p>
 <h2>Execution &amp; Handover Checklist</h2>
 <h4>Before Work Starts</h4>
 <ul>
@@ -398,7 +378,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Finish quality inspection (scratches, gaps, alignment)</li>
   <li>Warranty documents collected</li>
 </ul>
-<p>Bonus</p>
 <h2>25 Most Common Interior Planning Mistakes</h2>
 <p>These are the mistakes that cause homeowners to regret their interiors — most are avoidable with this checklist.</p>
 <ol>

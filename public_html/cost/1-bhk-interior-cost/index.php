@@ -26,7 +26,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>18 min read</p>
 <p>Updated: June 2025</p>
 <p>By Interior Design Experts</p>
-<p>Section 01 · Context</p>
 <h2>What Makes 1BHK Interior Design Different?</h2>
 <p>A 1BHK apartment in India typically covers <strong>350–600 sq ft of carpet area</strong>, making it the most compact full-home format you'll design. Unlike 2BHK or 3BHK interiors where you have the luxury of spreading out, <strong>every square foot in a 1BHK has to earn its keep.</strong></p>
 <p>The design challenge is unique: you're working with a single bedroom, one living-dining combined space, a compact kitchen, and often a single bathroom. Smart space planning, multifunctional furniture, and restrained material selection matter far more here than in larger apartments.</p>
@@ -39,7 +38,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Bathroom (1 or 2) — 40–60 sq ft each</li>
   <li>Balcony — 30–50 sq ft (optional)</li>
 </ul>
-<p>Section 02 · Budget Overview</p>
 <h2>Total 1BHK Interior Design Cost Summary</h2>
 <h3>All-In Cost Range for a 1BHK (2026)</h3>
 <p>Budget ₹2.5L–4L Basic finishes, flat-pack furniture</p>
@@ -66,7 +64,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">💡 Pro Tip</span>For a 1BHK, <strong>the kitchen and bathroom together form 35–45% of your total budget</strong>. These are the areas with the highest per-square-foot cost and the biggest quality impact. Allocate your best budget here before everything else.</div>
-<p>Section 03 · Room Breakdown</p>
 <h2>Living Room + Dining Area Cost</h2>
 <p>In a 1BHK, the living room and dining area typically share a single open space of <strong>150–200 sq ft</strong>. Unlike a 2BHK where these can be separate, here smart zoning through furniture placement, rugs, and ceiling treatments defines the two zones without walls.</p>
 <p>🛋️ Living Room — Detailed Cost Breakdown ₹35,000 – ₹2,50,000+</p>
@@ -92,7 +89,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 04 · Kitchen</p>
 <h2>Modular Kitchen Cost for 1BHK</h2>
 <p>The kitchen in a 1BHK is typically a <strong>straight, L-shaped, or parallel layout</strong> spanning 60–90 sq ft with 8–14 feet of cabinet run. This is where the biggest per-sq-ft spend happens — and unlike a 3BHK where kitchen size can justify high costs naturally, in a 1BHK you must be laser-precise about your selections.</p>
 <div class="callout"><span class="callout__title">📐 1BHK Kitchen Layout Options</span><strong>Straight Kitchen (most common):</strong> One wall, 8–10 ft run. Works for compact 1BHKs. <strong>L-Shaped:</strong> Two walls, efficient flow, best use of corner space. <strong>Parallel:</strong> Two opposite walls — works only if the kitchen width is ≥6.5 ft.</div>
@@ -126,7 +122,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">💡 Kitchen Saving Tip</span>In a 1BHK, <strong>skip the loft units and invest that money in pull-out drawer systems</strong>. Pull-outs give 3× more usable storage than fixed shelves, and in a compact kitchen, accessibility matters more than raw cabinet count.</div>
-<p>Section 05 · Bedroom</p>
 <h2>Bedroom Interior Design Cost — 1BHK</h2>
 <p>A 1BHK has just one bedroom, typically <strong>120–160 sq ft</strong>. Unlike a 2BHK master bedroom that might have a dedicated walk-in or a 3BHK with multiple bedroom types, here your single bedroom must serve as master suite, workspace, and relaxation room — all in one.</p>
 <p>🛏️ Bedroom — Detailed Cost Breakdown ₹40,000 – ₹3,50,000+</p>
@@ -151,7 +146,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 06 · Bathroom</p>
 <h2>Bathroom Renovation Cost — 1BHK</h2>
 <p>1BHKs typically have <strong>1 or 2 bathrooms</strong> of 40–60 sq ft each. While bathroom counts are lower than 2BHK or 3BHK configurations, renovation costs per bathroom remain largely fixed — tiles, sanitary ware, plumbing, and waterproofing have minimum thresholds regardless of the room's context.</p>
 <div class="table-wrap">
@@ -172,7 +166,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">💡 Bathroom Tip for 1BHK</span>In a single-bathroom 1BHK, <strong>invest in waterproofing fully</strong> — never cut corners here. A leak discovered 2 years later can cost ₹50,000–₹1,50,000 to repair. Spend ₹8,000–₹15,000 on quality waterproofing; it's the best insurance you'll buy.</div>
-<p>Section 07 · Flooring</p>
 <h2>Flooring Cost for 1BHK</h2>
 <p>For a 450 sq ft 1BHK, the total flooring area (excluding bathroom) is roughly <strong>350–380 sq ft</strong>. Flooring is one area where visual continuity significantly impacts how spacious the apartment feels — using one flooring type throughout (or at most two) makes the space look larger.</p>
 <div class="table-wrap">
@@ -193,7 +186,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <h3>1BHK Flooring Trick: Larger Tiles = Bigger Feel</h3>
 <p>Use <strong>800×800mm or 600×1200mm large-format tiles</strong> across the living-bedroom run. Fewer grout lines visually expand the floor plane. A 450 sq ft 1BHK laid with 800mm tiles can look 30% larger than the same space tiled in 300mm units.</p>
-<p>Section 08 · Walls</p>
 <h2>Painting &amp; Wall Finish Cost for 1BHK</h2>
 <p>For a 1BHK with roughly <strong>700–900 sq ft of wall surface</strong>, painting is a relatively low-cost, high-impact upgrade. The choice between plain paint, texture, wallpaper, or wall panels creates dramatically different visual outcomes at varying price points.</p>
 <div class="table-wrap">
@@ -262,7 +254,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 11 · Location Pricing</p>
 <h2>City-Wise 1BHK Interior Design Costs</h2>
 <p>Labour costs, material transportation, and market competition cause significant variation across cities. A mid-range 1BHK interior that costs ₹7 lakh in Lucknow may cost ₹9–10 lakh in Mumbai for the same quality level.</p>
 <div class="table-wrap">
@@ -284,7 +275,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 12 · Comparison</p>
 <h2>1BHK vs 2BHK vs 3BHK Interior Costs Compared</h2>
 <p>Understanding how 1BHK costs compare against larger formats helps set realistic expectations. A 1BHK is <strong>not simply a proportional reduction</strong> — fixed costs in kitchens, bathrooms, and electrical work mean the savings are less than linear.</p>
 <div class="table-wrap">
@@ -307,7 +297,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">📊 Key Insight</span>Moving from 1BHK to 2BHK adds roughly <strong>1.7–2× the cost</strong>, not double — because kitchen and bathroom costs are shared, and common areas like living rooms are similar in size. Moving from 2BHK to 3BHK adds <strong>another 1.5–1.8×</strong>. The biggest jumps are in bedroom count and premium material choices, not floor area alone.</div>
-<p>Section 13 · Smart Budgeting</p>
 <h2>1BHK Interior Design: 10 Budget-Saving Tips</h2>
 <p>A 1BHK is the most budget-conscious format. These proven strategies help you get mid-range quality at budget pricing:</p>
 <ul>

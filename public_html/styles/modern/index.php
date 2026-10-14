@@ -24,7 +24,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Section 01</p>
 <h2>What Exactly Is Modern Interior Design?</h2>
 <p>Modern interior design is a specific, well-defined visual language that emerged from the early-to-mid 20th century Modernist movement — think Bauhaus principles, Scandinavian functionalism and mid-century rationalism. It is <strong>not a catch-all term for anything that looks new or current</strong>. It has a clear philosophy: form follows function, ornamentation is eliminated, and every design decision is intentional and purposeful.</p>
 <p>In the Indian context, modern design has been powerfully adapted to local living patterns — joint families, prayer spaces, intense natural light, cross-ventilation needs, and the Indian love for hosting. It is not about importing a Western aesthetic wholesale; it is about bringing clarity, calm and sophistication to Indian spatial challenges.</p>
@@ -35,25 +34,18 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>30–40% increase in perceived space through modern spatial planning</p>
 <p>6–12 weeks average execution timeline for a 3BHK</p>
 <h3>Core Principles of Modern Design</h3>
-<p>⬜</p>
 <h4>Clean Geometry</h4>
 <p>Straight lines, flat surfaces, rectangular profiles. No carved wood, no fussy detailing. Geometry itself becomes the decoration.</p>
-<p>🎨</p>
 <h4>Restrained Palette</h4>
 <p>Whites, warm greys, off-whites, beige, taupe and one or two deliberate accents. Never more than 3–4 colours in a space.</p>
-<p>💡</p>
 <h4>Deliberate Light</h4>
 <p>Natural light is maximized. Artificial lighting is layered — ambient, task and accent — never a single overhead fixture.</p>
-<p>📦</p>
 <h4>Hidden Storage</h4>
 <p>Clutter is designed away, not just tidied away. Every surface has a place, every object has a home behind a flat-panel door.</p>
-<p>🪵</p>
 <h4>Material Honesty</h4>
 <p>Wood looks like wood (veneer, not print), stone looks like stone, glass is used structurally. No faux finishes trying to imitate other materials.</p>
-<p>🔇</p>
 <h4>Visual Silence</h4>
 <p>Negative space is valued. Not every wall needs art, not every surface needs an object. Breathing room is part of the design.</p>
-<p>Section 02</p>
 <h2>Why Modern Design Works Especially Well in Indian Homes</h2>
 <p>Indian urban apartments have specific challenges that modern design addresses better than almost any other style. High-rise apartments in cities like Mumbai, Bengaluru, Chennai, Delhi NCR, Hyderabad and Pune are typically compact, have limited cross-ventilation and suffer from visual clutter due to multi-generational living patterns.</p>
 <h4>Indian Housing Challenges</h4>
@@ -77,7 +69,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>White and off-white walls deflect heat and brighten rooms</li>
 </ul>
 <div class="callout"><span class="callout__title">Note</span><strong>Consultant's Note</strong><p>Modern interiors also age particularly well in the Indian climate. Unlike maximalist decor that accumulates dust and requires high maintenance, clean surfaces and minimal accessories are significantly easier to keep clean — a practical advantage that homeowners often only realise after living with the design for six months.</p></div>
-<p>Section 03</p>
 <h2>Modern Design By Home Type</h2>
 <p>Modern interior design manifests differently depending on the type of home. An apartment demands different priorities than a villa or a builder floor. Here's how to think about each.</p>
 <h3>Apartments (1BHK, 2BHK, 3BHK, 4BHK)</h3>
@@ -114,7 +105,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Timeline</p>
 <p>10–18 weeks</p>
 <p>The challenge with independent houses is often older construction with lower ceiling heights and smaller window openings. Modern design compensates with vertical storage, reflective surfaces and strategic lighting. The terrace, when it exists, becomes an extension of the living space with outdoor furniture, planters and pergola structures in aluminium or steel.</p>
-<p>Section 04</p>
 <h2>Who Should Choose Modern Interior Design?</h2>
 <p>Not every design style suits every homeowner. Before you commit to a modern aesthetic, be honest about how you actually live. Modern design rewards certain lifestyles and can feel like a constant battle against reality if your habits and preferences don't align with its demands.</p>
 <h4>Modern Design Is Right For You If…</h4>
@@ -137,7 +127,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>You have pets that shed heavily on light upholstery</li>
 </ul>
 <div class="callout"><span class="callout__title">Note</span><strong>Designer Tip</strong><p>Families with young children can still do modern interiors. The key is material selection — textured laminates instead of high-gloss, dark grey upholstery instead of cream, closed storage for toys, and durable quartz surfaces. The style adapts; the principles don't change.</p></div>
-<p>Section 05</p>
 <h2>Customer Demographics: Who Actually Chooses Modern Design in India?</h2>
 <p>Understanding your peer group — and how your specific demographic's needs should shape your design decisions — is one of the most valuable things a designer or homeowner can do before starting a project. Here are the primary buyer archetypes that gravitate toward modern interiors in India.</p>
 <h4>The Urban Professional Couple</h4>
@@ -201,7 +190,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Values a calm, sophisticated aesthetic that is easy on the eyes</li>
 </ul>
 <p>Understanding which profile most closely matches you helps your designer make better decisions about material grades, furniture scale, storage requirements and the overall direction of the project. Many homeowners are hybrids — share all relevant aspects of your lifestyle in the initial consultation.</p>
-<p>Section 06</p>
 <h2>Room-by-Room Guide to Modern Interiors</h2>
 <h3>The Living Room — Your Home's First Impression</h3>
 <p>The living room in a modern Indian home has evolved significantly. It is no longer just a space for a sofa and a TV unit. It is the social anchor of the home, the space that establishes the visual identity of your entire interior, and increasingly, a space that must flex between formal entertaining and everyday family use.</p>
@@ -247,7 +235,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Bathrooms — The Most Underestimated Space</h3>
 <p>Indian homeowners consistently underinvest in bathrooms relative to what they get in return. A well-designed modern bathroom is the single space in the home that makes a daily, personal impression on you — and it significantly impacts the resale value of the property.</p>
 <p>Modern bathrooms in India are defined by large-format wall tiles (600x1200 or larger) in neutral stones or concrete finishes, a wall-mounted WC, a floating vanity in lacquer or veneer, and frameless shower glass. Recessed niches in the shower replace soap dishes and shampoo shelves. Warm lighting around the mirror replaces the cold overhead light that makes everyone look unwell.</p>
-<p>Section 07</p>
 <h2>Materials &amp; Finishes: Choosing the Right Combination</h2>
 <p>The material palette is where a modern interior is won or lost. In a style that relies on restraint rather than ornamentation, the quality, texture and combination of materials carry all the visual interest. Here is a framework for thinking through your material choices.</p>
 <div class="table-wrap">
@@ -268,17 +255,13 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p>"A common mistake is mixing too many textures. The rule of three works well in modern interiors — pick a primary material, a secondary texture, and one accent. Three materials, executed with precision, always beat seven materials applied without restraint."</p>
 <p>— Material &amp; Specification Consultant</p>
-<p>Section 08</p>
 <h2>Lighting Strategy: The Most Underutilized Design Tool</h2>
 <p>Lighting is the element that separates a photographed-well interior from one that actually feels good to live in. Most Indian interiors are over-lit with cold white light from a single overhead fixture per room — a configuration that is simultaneously harsh, flat and unglamorous.</p>
 <p>A modern lighting plan operates on three distinct layers, each serving a different purpose:</p>
-<p>🔆</p>
 <h4>Ambient (Base) Lighting</h4>
 <p>The general light level of a room. Provided by cove lighting, recessed downlights or indirect LED strips. Should be warm (2700K–3000K) and dimmable.</p>
-<p>📖</p>
 <h4>Task Lighting</h4>
 <p>Focused light for specific activities. Under-cabinet lights in the kitchen, reading lights at the bedside, vanity lights at the mirror. Neutral white (3500K) for accuracy.</p>
-<p>✨</p>
 <h4>Accent Lighting</h4>
 <p>Spotlights on art, shelf lighting for books or decorative objects, staircase step lights, landscape lights for outdoor areas. Creates depth and drama at night.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>The Rule That Changes Everything</strong><p>Install dimmer switches in every room from day one. The ability to control light intensity transforms the same space from a functional daytime room to a warm evening atmosphere without changing a single piece of furniture. This costs approximately ₹300–₹600 per room in additional electrical cost — and returns that value many times over in daily quality of life.</p></div>
@@ -291,7 +274,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Best for: Kitchens, vanity mirrors, study desks. Accurate colour rendering without the harshness of cool light.</p>
 <h4>4000K+ — Cool White / Daylight</h4>
 <p>Best for: Utility areas, storerooms, garages. Avoid in living spaces — it creates a clinical, uncomfortable atmosphere.</p>
-<p>Section 09</p>
 <h2>Smart Storage: Designing Clutter Out of Existence</h2>
 <p>Indian households accumulate. Large families, festive seasons, kitchen provisions for a month, extensive wardrobes, children's toys, school materials, tools, appliances — the storage requirements of an Indian home are genuinely demanding. Modern design does not require that you own less; it requires that everything has a precise, invisible home.</p>
 <p>📦 Room-by-Room Storage Checklist</p>
@@ -306,7 +288,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>✓ <strong>Balcony:</strong> Sealed base storage unit for tools, garden supplies and outdoor cushions.</li>
 </ul>
 <p>The principle to follow: if you cannot design away a category of objects with a dedicated storage solution, it will live on a surface. And surfaces covered with objects are the enemy of modern design. Plan storage first, aesthetics second.</p>
-<p>Section 10</p>
 <h2>The 8 Most Common Mistakes in Modern Indian Interiors</h2>
 <h4>Choosing Colour Before Fixing the Lighting Plan</h4>
 <p>A warm off-white wall looks entirely different under 4000K cool light versus 2700K warm light. Always finalise your lighting specifications and colour temperature before committing to wall colour and material finishes. This is the single most common and most expensive mistake to fix after the fact.</p>
@@ -324,7 +305,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The most budget overruns happen because homeowners start a project without clearly defining what is included and what it costs. Get a room-by-room itemised quote before approving any work. Lock in material specifications in writing — 'laminate wardrobe' means very different things to different contractors.</p>
 <h4>Copying a Reference Image Exactly</h4>
 <p>That Instagram living room exists in a specific geography, with specific natural light, a specific room size, and was photographed with specific camera settings. Ask your designer to extract the principles from an image you love — the proportions, the palette, the material approach — and apply them to your actual space. Never try to copy a reference image literally.</p>
-<p>Section 11</p>
 <h2>Interior Design Costs in India: An Honest Breakdown</h2>
 <p>Cost transparency is rare in the Indian interior design industry. Below are realistic estimates based on market data from Tier-1 Indian cities (Bengaluru, Mumbai, Delhi NCR, Hyderabad, Pune, Chennai) as of mid-2024. Costs in Tier-2 cities are typically 15–25% lower.</p>
 <p>Project Type Cost Range Tier</p>
@@ -356,7 +336,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Smart home automation (useful but not essential in Phase 1)</li>
   <li>Stone cladding on all walls (one feature wall is enough)</li>
 </ul>
-<p>Section 12</p>
 <h2>How to Choose the Right Interior Designer in India</h2>
 <p>The market is noisy. There are boutique design studios, large turnkey firms, freelance interior decorators, modular furniture brands offering "free design services" and online platforms aggregating local contractors. Here is how to navigate the landscape.</p>
 <h4>Define Your Requirement Type</h4>

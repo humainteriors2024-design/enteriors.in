@@ -8,7 +8,6 @@ $post = [
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 ?>
 <p><strong>Why this guide exists:</strong> When you commission home interiors, the quality of your finished space is determined 80% by materials — not design. The same wardrobe can last 3 years or 25 years depending on which plywood, hardware, and finish is used. This directory covers every material category with the brands that interior designers across India specify, what makes each one worth knowing, and how to choose.</p>
-<p>🪵</p>
 <p>Plywood &amp; Board Materials</p>
 <p>The structural backbone of all modular furniture</p>
 <p>Primary Material</p>
@@ -54,7 +53,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   </tbody>
 </table>
 </div>
-<p>🎨</p>
 <p>Laminates</p>
 <p>Surface finish for all furniture — the most visible material choice</p>
 <p>Surface Finish</p>
@@ -84,7 +82,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Sunmica (AGL)</p>
 <p>🇮🇳 India</p>
 <div class="callout"><span class="callout__title">Note</span>India's oldest laminate brand — Sunmica is often used as a generic term for laminates, such is the brand's legacy. Reliable mid-range product.</div>
-<p>✨</p>
 <p>Acrylic &amp; PU Finish</p>
 <p>High-gloss premium surface materials</p>
 <p>Surface Finish</p>
@@ -109,7 +106,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Sayerlack</p>
 <p>🇮🇹 Italy</p>
 <div class="callout"><span class="callout__title">Note</span>Italian brand, part of Sherwin-Williams. The choice of high-end Italian-inspired kitchen manufacturers. Premium cost, unmatched finish quality.</div>
-<p>⚙️</p>
 <p>Cabinet Hardware — Hinges &amp; Fittings</p>
 <p>Lift-up systems, hinges, and functional cabinet fittings</p>
 <p>Functional Hardware</p>
@@ -136,7 +132,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>🇩🇪 Germany</p>
 <div class="callout"><span class="callout__title">Note</span>German hardware giant, lesser known in residential but widely used by premium joinery contractors. Excellent screws, anchors, and speciality fasteners.</div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Kitchen Lift-up Systems:</strong> For wall units above 600mm height, always specify Hettich Aventos or Blum Aventos lift-up systems. Standard hinges on tall wall cabinets create awkward opening angles and wear out quickly.</div>
-<p>📦</p>
 <p>Channels &amp; Drawer Runners</p>
 <p>Drawer slides, soft-close systems, and wardrobe channels</p>
 <p>Functional Hardware</p>
@@ -159,7 +154,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>GTV (Giusti)</p>
 <p>🇮🇹 Italy</p>
 <div class="callout"><span class="callout__title">Note</span>Italian hardware brand with a strong drawer and wardrobe system portfolio. Premium quality imported product available through specialty hardware dealers.</div>
-<p>🔩</p>
 <p>Handles &amp; Knobs</p>
 <p>Architectural hardware — the jewellery of interiors</p>
 <p>Decorative Hardware</p>
@@ -185,7 +179,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Allegra (Hettich)</p>
 <p>🇩🇪 Germany</p>
 <div class="callout"><span class="callout__title">Note</span>Hettich's handle and architectural hardware line. Integrates with their overall hardware ecosystem. Matt black and gunmetal options very popular in 2024–25.</div>
-<p>🧱</p>
 <p>Wall Panelling</p>
 <p>WPC, PVC, fluted panels, veneer walls, and 3D panels</p>
 <p>Wall Finishes</p>
@@ -211,7 +204,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Tectona (Archidply)</p>
 <p>🇮🇳 India</p>
 <div class="callout"><span class="callout__title">Note</span>Archidply's decorative panel brand. Pre-laminated wall panels in woodgrain patterns that mimic expensive veneers. Strong value proposition.</div>
-<p>🪟</p>
 <p>Glass &amp; Mirrors</p>
 <p>Toughened glass, lacquered glass, and decorative mirrors</p>
 <p>Glazing &amp; Reflectives</p>
@@ -231,7 +223,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Gayatri Mirror Works</p>
 <p>🇮🇳 India</p>
 <div class="callout"><span class="callout__title">Note</span>Specialised mirror manufacturer for wardrobe and bathroom mirrors. Custom sizes available. Anti-fog and anti-silver-edge options for wet areas.</div>
-<p>🏠</p>
 <p>Flooring</p>
 <p>Vitrified tiles, wooden flooring, vinyl, and carpets</p>
 <p>Floor Finishes</p>
@@ -259,7 +250,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Armstrong Vinyl</p>
 <p>🇺🇸 USA</p>
 <div class="callout"><span class="callout__title">Note</span>LVT (Luxury Vinyl Tile) flooring — completely waterproof and ideal for pet owners and families with children. Armstrong is the most trusted LVT brand in India.</div>
-<p>💡</p>
 <p>Lighting</p>
 <p>LED strips, spotlights, pendant lights, and smart lighting</p>
 <p>Electrical Finish</p>
@@ -282,7 +272,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Flos</p>
 <p>🇮🇹 Italy</p>
 <div class="callout"><span class="callout__title">Note</span>Italian design lighting brand for luxury villas and penthouses. Designer pendant lights and architectural fixtures. Available through specialty importers in Mumbai and Delhi.</div>
-<p>🧴</p>
 <p>Adhesives &amp; Sealants</p>
 <p>Wood adhesives, silicon sealants, and construction chemicals</p>
 <p>Construction Chemistry</p>
@@ -302,7 +291,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>3M Adhesives</p>
 <p>🇺🇸 USA</p>
 <div class="callout"><span class="callout__title">Note</span>Industrial-grade double-sided tapes and structural adhesives. 3M VHB tape is specified for mirror and glass bonding without visible fixings in premium projects.</div>
-<p>🖌️</p>
 <p>Paints &amp; Texture Finishes</p>
 <p>Interior wall paints, textured finishes, and specialty coatings</p>
 <p>Wall Finishes</p>

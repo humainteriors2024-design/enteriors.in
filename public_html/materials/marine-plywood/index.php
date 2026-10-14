@@ -28,7 +28,7 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<div class="callout"><span class="callout__title">Note</span><div class="callout"><span class="callout__title">Note</span>90-Second Verdict</p>
+<div class="callout-grid"><div class="callout"><span class="callout__title">90-Second Verdict</span>
 <h3>Should you use BWP plywood in your home interiors?</h3>
 <p>Yes — but only where water actually touches wood. BWP (Boiling Water Proof) plywood, certified under IS 710, uses phenol formaldehyde resin that genuinely survives prolonged water immersion. It is the correct choice for <strong>modular kitchens, bathroom vanities, balcony storage</strong> and any unit near a water source.<br><br>But here's what most sales pitches skip: for bedroom wardrobes, TV units, crockery units and study tables in dry indoor spaces, BWP is an avoidable premium. BWR (IS 303) plywood handles normal Indian humidity perfectly well in these areas — at 25–40% lower cost.<br><br>The smart move is a <strong>hybrid approach</strong>: BWP where water is a real risk, BWR everywhere else. An average 2BHK in Bangalore saves ₹18,000–₹30,000 this way without compromising a single year of lifespan.</p></div></div>
 <h2>What Exactly Is BWP Plywood?</h2>
@@ -135,43 +135,33 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <h2>Where BWP Plywood Is Worth Every Rupee — Room by Room</h2>
 <p>The decision isn't "BWP or not" — it's "BWP <em>where</em>." Here's our room-by-room recommendation matrix based on actual moisture exposure in Bangalore-climate interiors.</p>
-<p>🍳</p>
 <p>Modular Kitchen</p>
 <p>Use BWP</p>
 <div class="callout"><span class="callout__title">Note</span>Daily water splashes, steam, under-sink leaks. BWP is non-negotiable here — the one place where the premium pays for itself in year 1.</div>
-<p>🪞</p>
 <p>Bathroom Vanity</p>
 <p>Use BWP</p>
 <div class="callout"><span class="callout__title">Note</span>Constant water contact. MR or BWR vanities fail within 3–5 years in Indian bathrooms. BWP or marine-grade alternatives only.</div>
-<p>🌿</p>
 <p>Balcony Storage</p>
 <p>Use BWP</p>
 <div class="callout"><span class="callout__title">Note</span>Rain splashes, direct moisture. If the unit is in an open or semi-open balcony, BWP is the minimum. Consider exterior-grade for fully open balconies.</div>
-<p>🧺</p>
 <p>Utility / Laundry</p>
 <p>Use BWP</p>
 <div class="callout"><span class="callout__title">Note</span>Washing machine area, wet-mop storage, water heater proximity. High moisture zone — BWP justified.</div>
-<p>🛏</p>
 <p>Master Wardrobe</p>
 <p>BWR is Enough</p>
 <div class="callout"><span class="callout__title">Note</span>No water source. BWR (IS 303 Type 2) handles normal Indian humidity. BWP adds cost without functional benefit in this room.</div>
-<p>📺</p>
 <p>TV Unit / Living</p>
 <p>BWR is Enough</p>
 <div class="callout"><span class="callout__title">Note</span>Dry environment. Unless the unit is directly below a window that leaks during monsoons, BWR is the rational choice.</div>
-<p>🍽</p>
 <p>Crockery Unit</p>
 <p>BWR is Enough</p>
 <div class="callout"><span class="callout__title">Note</span>Dry-stored dishes and glassware. No direct water exposure. BWR is sufficient and saves ₹3,000–₹5,000 per unit.</div>
-<p>🪔</p>
 <p>Pooja Unit</p>
 <p>MR / BWR Fine</p>
 <div class="callout"><span class="callout__title">Note</span>Bone-dry, typically wall-mounted. Even MR plywood lasts 15+ years in this application. BWP here is money with zero ROI.</div>
-<p>👟</p>
 <p>Shoe Rack</p>
 <p>BWR Preferred</p>
 <div class="callout"><span class="callout__title">Note</span>Wet shoes during monsoon = occasional moisture. BWR handles this comfortably. BWP only if it's in an open foyer.</div>
-<p>💡</p>
 <p>False Ceiling</p>
 <p>Not Plywood</p>
 <div class="callout"><span class="callout__title">Note</span>Use gypsum board, not plywood. Plywood ceilings are heavier, harder to finish and offer no advantage.</div>
@@ -242,26 +232,19 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <div class="callout"><span class="callout__title">Note</span><strong>Always verify the ISI licence number.</strong><p>Visit <strong>bis.gov.in</strong> → "Licensee Search" → enter the licence number printed on the board. If it doesn't appear, or the licence is expired/cancelled, the board is not genuine IS 710 BWP — regardless of what's printed on it.</p></div>
 <h2>How to Spot Fake BWP Plywood — 7-Point Detection Guide</h2>
 <p>"BWP" is the most counterfeited plywood label in India because the premium is high and visual detection is difficult. Here's how to verify before you buy — and a field test you can run with a kitchen stove.</p>
-<p>1</p>
-<h4>Check the ISI Stamp</h4>
+<h4>1. Check the ISI Stamp</h4>
 <p>Genuine IS 710 boards carry a red/brown ISI diamond stamp with the licence number, species, grade and thickness. If it says "IS 303" anywhere, it's BWR, not BWP — regardless of the "BWP" branding on the face.</p>
-<p>2</p>
-<h4>Verify the Licence Number Online</h4>
+<h4>2. Verify the Licence Number Online</h4>
 <p>Go to bis.gov.in → Licensee Search. Enter the licence number. It should show IS 710 as the standard. If it shows IS 303, the board is BWR. If the number doesn't exist, it's counterfeit.</p>
-<p>3</p>
-<h4>Inspect the Glue Line Colour</h4>
+<h4>3. Inspect the Glue Line Colour</h4>
 <p>Cut a cross-section and look at the glue lines between veneers. Genuine PF resin glue lines are <strong>dark reddish-brown to almost black</strong>. If the glue lines are pale yellow, white or colourless, the board uses UF or MF resin — it's MR or BWR, not BWP.</p>
-<p>4</p>
-<h4>The Boiling Water Field Test</h4>
+<h4>4. The Boiling Water Field Test</h4>
 <p>Cut a 6"×6" sample. Boil it in water for 4–6 hours. Genuine BWP will show no delamination — the veneers stay bonded. BWR will start to lift at the edges by 2–3 hours. MR will delaminate within 30 minutes. This is the definitive field test.</p>
-<p>5</p>
-<h4>Check the Core Species</h4>
+<h4>5. Check the Core Species</h4>
 <p>IS 710 requires hardwood cores with natural durability class I–III. If the core veneers are very light, soft and fibrous (typical of Poplar or Pine), the board doesn't meet IS 710 species requirements — even if the glue bond is strong.</p>
-<p>6</p>
-<h4>Weight Check</h4>
+<h4>6. Weight Check</h4>
 <p>A genuine 19mm Gurjan-core BWP 8×4 sheet weighs 38–48 kg. If a supposed 19mm BWP sheet feels lighter than 35 kg, the core is likely Poplar or low-density mixed species — it won't meet IS 710 structural requirements.</p>
-<p>7</p>
-<h4>Ask for the Test Certificate</h4>
+<h4>7. Ask for the Test Certificate</h4>
 <p>Any IS 710–certified manufacturer can provide a BIS test certificate showing the specific batch's glue shear strength, boiling test results and species declaration. If they can't or won't provide it, walk away.</p>
 <h3>🧪 5-Question Decision Quiz: Which Plywood Grade Do You Actually Need?</h3>
 <p>Answer honestly — the quiz recommends BWP, BWR, or a hybrid approach based on your actual conditions, not upselling.</p>
@@ -287,9 +270,14 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Moderate — willing to pay for quality</p>
 <p>Not a concern — I want the best</p>
 <h2>5 Myths About BWP Plywood — Busted</h2>
-<div class="callout callout--warn"><span class="callout__title">Myth</span><div class="callout callout--warn"><span class="callout__title">Fact</span><strong>"BWP plywood is waterproof — it can't be damaged by water."</strong> <br>  BWP means the <em>glue bond</em> is waterproof. The wood veneers themselves still absorb water through un-sealed edges and surfaces. An un-edgebanded BWP board will swell at the edges — the veneers just won't separate. Proper edge-banding and surface finishing are essential even with BWP.</div></div>
-<div class="callout callout--warn"><span class="callout__title">Myth</span><div class="callout callout--warn"><span class="callout__title">Fact</span><strong>"BWP and BWR are the same thing with different names."</strong> <br>  They are governed by different IS standards (710 vs 303), use different resin formulations (PF vs MUF), and have fundamentally different boiling-water test requirements (72h vs 8h). The price difference exists because the material difference is real.</div></div>
-<div class="callout callout--warn"><span class="callout__title">Myth</span><div class="callout callout--warn"><span class="callout__title">Fact</span><strong>"If the label says BWP, it is BWP."</strong> <br>  "BWP" is widely counterfeited. Only boards with a valid IS 710 ISI stamp and verifiable licence number are genuinely BWP. Many dealers sell BWR boards with "BWP" printed on them. Always verify the licence number on bis.gov.in.</div></div>
-<div class="callout callout--warn"><span class="callout__title">Myth</span><div class="callout callout--warn"><span class="callout__title">Fact</span><strong>"BWP plywood should be used for the entire house."</strong> <br>  BWP is justified only in wet zones (kitchen, bathroom, balcony). Using BWP for bone-dry bedroom wardrobes, study tables and pooja units wastes ₹20,000–₹50,000 per 2BHK with zero functional benefit. A hybrid approach is smarter.</div></div>
-<div class="callout callout--warn"><span class="callout__title">Myth</span><div class="callout callout--warn"><span class="callout__title">Fact</span><strong>"HDHMR/MDF is a better alternative to BWP plywood."</strong> <br>  HDHMR (IS 14587) and MDF (IS 12406) are engineered boards, not plywood. They have excellent surface consistency for shutters but lack plywood's cross-laminated structural strength. HDHMR works well for shutter panels but should never replace BWP plywood for structural carcass in wet areas — its screw-holding degrades significantly after moisture absorption.</div></div>
+<div class="myth-pair"><div class="callout callout--warn"><span class="callout__title">Myth</span><strong>"BWP plywood is waterproof — it can't be damaged by water."</strong></div>
+<div class="callout callout--tip"><span class="callout__title">Fact</span><p>BWP means the <em>glue bond</em> is waterproof. The wood veneers themselves still absorb water through un-sealed edges and surfaces. An un-edgebanded BWP board will swell at the edges — the veneers just won't separate. Proper edge-banding and surface finishing are essential even with BWP.</p></div></div>
+<div class="myth-pair"><div class="callout callout--warn"><span class="callout__title">Myth</span><strong>"BWP and BWR are the same thing with different names."</strong></div>
+<div class="callout callout--tip"><span class="callout__title">Fact</span><p>They are governed by different IS standards (710 vs 303), use different resin formulations (PF vs MUF), and have fundamentally different boiling-water test requirements (72h vs 8h). The price difference exists because the material difference is real.</p></div></div>
+<div class="myth-pair"><div class="callout callout--warn"><span class="callout__title">Myth</span><strong>"If the label says BWP, it is BWP."</strong></div>
+<div class="callout callout--tip"><span class="callout__title">Fact</span><p>"BWP" is widely counterfeited. Only boards with a valid IS 710 ISI stamp and verifiable licence number are genuinely BWP. Many dealers sell BWR boards with "BWP" printed on them. Always verify the licence number on bis.gov.in.</p></div></div>
+<div class="myth-pair"><div class="callout callout--warn"><span class="callout__title">Myth</span><strong>"BWP plywood should be used for the entire house."</strong></div>
+<div class="callout callout--tip"><span class="callout__title">Fact</span><p>BWP is justified only in wet zones (kitchen, bathroom, balcony). Using BWP for bone-dry bedroom wardrobes, study tables and pooja units wastes ₹20,000–₹50,000 per 2BHK with zero functional benefit. A hybrid approach is smarter.</p></div></div>
+<div class="myth-pair"><div class="callout callout--warn"><span class="callout__title">Myth</span><strong>"HDHMR/MDF is a better alternative to BWP plywood."</strong></div>
+<div class="callout callout--tip"><span class="callout__title">Fact</span><p>HDHMR (IS 14587) and MDF (IS 12406) are engineered boards, not plywood. They have excellent surface consistency for shutters but lack plywood's cross-laminated structural strength. HDHMR works well for shutter panels but should never replace BWP plywood for structural carcass in wet areas — its screw-holding degrades significantly after moisture absorption.</p></div></div>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

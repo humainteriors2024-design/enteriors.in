@@ -26,7 +26,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 <p>Choosing between quartz and granite is one of the most consequential decisions in any kitchen or bathroom renovation — and one of the most misunderstood. Both are premium materials. Both look stunning. But they perform very differently in day-to-day life, carry different maintenance burdens, hit different price points, and suit different lifestyles.</p>
 <p>This guide covers every factor that matters — from Mohs hardness and porosity to ROI, indoor air quality, and the best choice for outdoor kitchens.</p>
-<p>Section 01 — Definitions</p>
 <h2>What Are Quartz and Granite Countertops?</h2>
 <p>Engineered Stone</p>
 <p>Quartz</p>
@@ -38,7 +37,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The "natural vs engineered" distinction has real-world implications far beyond origin. Natural granite carries the unique aesthetic of geological time — no two slabs are ever identical. Engineered quartz offers reproducibility: you can order matching slabs years apart and they'll look the same.</p>
 <p>From a performance standpoint, the engineering process that makes quartz eliminates porosity — granite's primary vulnerability. However, the same resins that seal quartz also limit its heat tolerance, a trade-off that has concrete consequences in busy kitchens.</p>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>💡<p><strong>Quick Takeaway</strong> Think of granite as a work of natural art that requires a little care, and quartz as a high-performance engineered product engineered for consistency and low maintenance.</p></div>
-<p>Section 02 — Material Science</p>
 <h2>Composition &amp; Material Structure</h2>
 <h3>Quartz: What's Inside the Slab</h3>
 <p>A typical quartz slab is composed of <strong>90–95% crushed quartz</strong> (one of nature's hardest minerals at Mohs 7), combined with polymer resins (polyester or acrylic) that act as a binder and provide color, along with pigments and sometimes glass, mirror, or metalite fragments for visual effect. The slabs are pressed under 100+ tonnes of pressure via a Bretonstone vacuum-vibro compaction process, creating a homogeneous, virtually non-porous surface.</p>
@@ -46,7 +44,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Granite: What Millions of Years Create</h3>
 <p>Granite is primarily composed of <strong>quartz (20–60%), feldspar (10–65%), and mica</strong>, with smaller quantities of amphiboles, pyroxenes, and trace minerals. The exact mineral ratio determines the stone's color palette: high feldspar content yields pinks and reds; iron and magnesium-rich minerals produce black and grey tones; and exotic stones can include garnets, azurite, or serpentine veins.</p>
 <p>The interlocking crystal structure gives granite exceptional hardness and load-bearing strength, but also creates micro-pores at crystal boundaries — the reason granite requires periodic sealing.</p>
-<p>Section 03 — Aesthetics</p>
 <h2>Appearance, Color Variety &amp; Pattern Consistency</h2>
 <div class="table-wrap">
 <table>
@@ -68,7 +65,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>The Uniqueness Paradox</h3>
 <p>Granite's visual uniqueness is both its greatest strength and its most practical challenge. When you're renovating a large kitchen with multiple slabs, a kitchen island, and a separate bar top, matching granite pieces across cuts requires careful book-matching at the yard — and replacing a single damaged section years later can be nearly impossible with an exact match.</p>
 <p>Quartz's engineered consistency solves this problem entirely. You can add a laundry room countertop three years after your original kitchen install and match the color and pattern precisely — an enormous practical advantage in phased renovations.</p>
-<p>Section 04 — Durability</p>
 <h2>Durability: Scratch, Chip, Crack &amp; Impact Resistance</h2>
 <p>Both materials are exceptionally durable compared to laminate, tile, or solid surface alternatives. But they have meaningfully different failure modes and strengths.</p>
 <p>Scratch Resistance</p>
@@ -135,7 +131,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Chemical Resistance</p>
 <p>8.2/10</p>
 <p>7.5/10</p>
-<p>Section 07 — Day-to-Day Care</p>
 <h2>Daily Cleaning &amp; Long-Term Maintenance</h2>
 <h3>Quartz: Wipe-and-Done Simplicity</h3>
 <p>Quartz's non-porous surface is about as low-maintenance as a countertop gets. Daily cleaning requires nothing more than a soft cloth, warm water, and a few drops of mild dish soap. For stubborn dried food, a plastic scraper and a warm damp cloth handle the job. There are <strong>no special products required</strong> and no risk of damaging the surface with normal kitchen activity.</p>
@@ -166,7 +161,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Granite: Safe When Sealed, Compromised When Not</h3>
 <p>Sealed granite is perfectly safe for food preparation. The risk arises with aging, cracked, or absent sealant — in these conditions, micro-pores can trap bacteria, food particles, and moisture, creating environments for microbial growth. The key is <strong>maintaining seal integrity</strong>. A simple water-bead test (if water beads on the surface, the seal is intact; if it absorbs, it's time to re-seal) should be performed every 6–12 months.</p>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>🦠<p><strong>Bacteria Test</strong> Any countertop material — including quartz and sealed granite — should be cleaned with a food-safe disinfectant after handling raw meat, poultry, or seafood. No countertop material is self-sanitizing, despite marketing claims.</p></div>
-<p>Section 09 — Installation</p>
 <h2>Installation Complexity, Weight &amp; Seam Visibility</h2>
 <div class="table-wrap">
 <table>
@@ -185,13 +179,11 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>Both materials require professional installation — this is not a DIY project. The weight (20+ lbs per square foot), precise templating, seam placement, and sink cutout work require specialized diamond-blade fabrication equipment and experience. Attempting DIY installation is one of the most common causes of expensive slab damage.</p>
-<p>Section 10 — Design Details</p>
 <h2>Edge Profile Options &amp; Sink Integration</h2>
 <h3>Edge Profiles</h3>
 <p>Both quartz and granite can be fabricated with virtually any edge profile — eased, beveled, bullnose, ogee, waterfall, mitered, and laminated edges are all available in both materials. The <strong>waterfall edge</strong>, where the countertop material drops vertically to the floor on a kitchen island, is currently one of the most sought-after design features and is achievable with both materials (easier with quartz for color consistency).</p>
 <h3>Sink Integration</h3>
 <p>Both materials support undermount, drop-in, and farmhouse/apron-front sinks. <strong>Integrated sinks</strong> — where the sink is made from the same quartz material as the countertop, creating a seamless surface — are an exclusive advantage of quartz and are increasingly popular in contemporary kitchens for their hygienic and aesthetic benefits.</p>
-<p>Section 11 — Budget</p>
 <h2>Cost Breakdown: Material, Installation &amp; Lifetime Ownership (2026)</h2>
 <p>Material Cost</p>
 <p>$50–$150</p>
@@ -220,7 +212,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Understanding the Price Range</h3>
 <p>Granite pricing varies significantly depending on rarity and origin. Entry-level granites (Colonial White, Uba Tuba, Santa Cecilia) can be very competitive at <strong>$40–$70/sq ft installed</strong>. Exotic or rare granites — Blue Bahia from Brazil, Marinace, Labradorite — can approach or exceed $300/sq ft. Premium quartz brands (Cambria, Caesarstone's upper lines) sit solidly in the $150–$250/sq ft installed range.</p>
 <p>The apparent price similarity masks granite's ongoing sealing costs. Over a 15-year ownership period, these can add up to $1,500–$4,500 for a typical kitchen — a meaningful number that shifts the lifetime cost comparison in quartz's favor for equivalent material grades.</p>
-<p>Section 12 — Investment</p>
 <h2>Return on Investment &amp; Home Resale Value</h2>
 <p>Both quartz and granite are recognized as premium countertop upgrades that add measurable value to residential properties. Remodeling Magazine's 2025 Cost vs. Value Report consistently shows kitchen renovations featuring natural or engineered stone countertops recovering <strong>60–80%</strong> of their cost in home value.</p>
 <p><strong>Granite</strong> carries slightly stronger resale value in traditional and high-end markets where buyers specifically seek natural materials and are familiar with the prestige of stone. <strong>Quartz</strong> increasingly dominates in contemporary new-construction markets and among buyers who prioritize low maintenance. In many urban and suburban markets as of 2026, quartz is now the standard expected in premium homes — making it increasingly table-stakes rather than a differentiator.</p>
@@ -245,7 +236,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 14 — Sustainability</p>
 <h2>Environmental Impact, Carbon Footprint &amp; Sustainability</h2>
 <h4>🪨 Granite: Quarrying Impact</h4>
 <p>Granite quarrying involves significant land disturbance, rock blasting, heavy machinery operation, and long-distance shipping (most granite comes from Brazil, India, or Europe). However, granite requires no chemical manufacturing, produces no synthetic materials, and has an indefinite lifespan — reducing overall lifecycle impact.</p>
@@ -259,45 +249,35 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Quartz resins can off-gas low-level VOCs. GREENGUARD Gold certified products emit well below California Section 01350 limits. Granite has essentially zero VOC emissions — it is purely mineral. Radon concerns sometimes arise with granite, but well-ventilated kitchens at normal granite areas pose negligible risk per EPA guidelines.</p>
 <h4>⏳ Lifespan &amp; Longevity</h4>
 <p>Both materials, properly maintained, last the lifetime of the home. Granite, being solid mineral, theoretically outlasts quartz in extreme scenarios because its resins eventually degrade — though the practical lifespan difference over 25–50 year ownership is negligible.</p>
-<p>Section 15 — Real-World Fit</p>
 <h2>Lifestyle &amp; Design Suitability</h2>
 <p>👨‍👩‍👧‍👦</p>
 <p>Busy Families</p>
 <p>Quartz Wins</p>
 <p>Non-porous, stain-resistant, no sealing schedule. Handles grape juice, marker incidents, and everyday chaos with minimal upkeep.</p>
-<p>👨‍🍳</p>
 <p>Serious Home Chefs</p>
 <p>Granite Wins</p>
 <p>Heat tolerance for hot cast iron and dutch ovens, plus natural surface texture beloved by bakers for working pastry dough.</p>
-<p>✨</p>
 <p>Luxury Kitchens</p>
 <p>Both Excel</p>
 <p>Premium quartz mimics Calacatta marble. Exotic granite commands genuine prestige. Budget and aesthetic vision determine the winner.</p>
-<p>🎨</p>
 <p>Modern/Minimalist Design</p>
 <p>Quartz Wins</p>
 <p>Consistent color fields, crisp edges, and architectural concrete or pure white looks suit minimalist aesthetics better.</p>
-<p>🏡</p>
 <p>Traditional Kitchens</p>
 <p>Granite Wins</p>
 <p>Natural stone's organic movement, warmth, and uniqueness resonate with traditional, farmhouse, and Craftsman design languages.</p>
-<p>🌿</p>
 <p>Outdoor Kitchens</p>
 <p>Granite Only</p>
 <p>UV stability, heat tolerance, and no resin to degrade make granite the only viable choice. Quartz warranties are voided outdoors.</p>
-<p>🏗️</p>
 <p>High-Traffic Commercial</p>
 <p>Quartz Wins</p>
 <p>Hygienic certification, consistent appearance across large installations, and zero maintenance schedule favor quartz in commercial settings.</p>
-<p>🏠</p>
 <p>Rental Properties</p>
 <p>Quartz Wins</p>
 <p>No sealing required, tenant-proof stain resistance, and easier damage visibility make quartz the preferred landlord choice.</p>
-<p>🛁</p>
 <p>Bathrooms</p>
 <p>Quartz Wins</p>
 <p>Moisture resistance, beauty product resistance, and low maintenance suit bathrooms better than granite's sealing requirement.</p>
-<p>Section 16 — Technical Reference</p>
 <h2>Side-by-Side Technical Specifications</h2>
 <div class="table-wrap">
 <table>
@@ -324,7 +304,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 17 — Summary</p>
 <h2>Pros and Cons: The Honest Assessment</h2>
 <h3>Quartz Countertops</h3>
 <p>Pros of Quartz</p>
@@ -375,7 +354,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Rare slabs can exceed quartz prices significantly</li>
   <li>Consistent color impossible across different slabs</li>
 </ul>
-<p>Section 18 — Decision Guide</p>
 <h2>Choose Quartz If... Choose Granite If...</h2>
 <p>Choose Quartz If You...</p>
 <ul>

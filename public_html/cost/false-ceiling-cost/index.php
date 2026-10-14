@@ -14,8 +14,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>01</p>
-<p>Introduction</p>
 <h2>What is a false ceiling?</h2>
 <p>A false ceiling (also called a drop ceiling or suspended ceiling) is a secondary ceiling installed below the main structural ceiling, creating a gap between the two. This gap is used to conceal electrical wiring, plumbing pipes, AC ducts, and structural beams — while transforming the aesthetics of any room.</p>
 <ul>
@@ -32,8 +30,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Mid-range (Gypsum)</p>
 <p>₹120–220/sqft</p>
 <p>Premium (MDF / Metal)</p>
-<p>02</p>
-<p>Interactive Tool</p>
 <h2>False ceiling cost calculator</h2>
 <p>Enter your room dimensions and preferences below to get an instant estimate. Adjust the sliders to fine-tune lighting and design complexity.</p>
 <p>Cost Estimator — All figures include material + labour</p>
@@ -47,8 +43,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Total estimated cost</p>
 <p>₹0</p>
 <p>* Estimates include material + labour. Lighting cost and design premium are added on top of base rate. Actual costs may vary ±15–20% depending on contractor, design complexity, and local market.</p>
-<p>03</p>
-<p>Reference Rates</p>
 <h2>Cost per sq ft by ceiling type</h2>
 <div class="table-wrap">
 <table>
@@ -68,8 +62,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>04</p>
-<p>Head to Head</p>
 <h2>Gypsum vs POP ceiling cost</h2>
 <p>The two most popular choices in Indian homes. Here's a detailed comparison to help you decide.</p>
 <p>Gypsum board</p>
@@ -94,8 +86,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>₹45–90 per sq ft</p>
 <p>Installation: 4–7 days for 200 sqft</p>
 <div class="callout"><span class="callout__title">Note</span>Verdict: For most modern homes, gypsum is recommended for its durability, speed, and consistent finish. Choose POP only if you need highly customised curves or ornate patterns.</div>
-<p>05</p>
-<p>Border Design</p>
 <h2>Peripheral ceiling cost</h2>
 <p>A peripheral (cove / border) ceiling runs only along the room perimeter, leaving the centre open. It's cost-effective — saves 40–60% vs full coverage — and delivers a modern, minimal aesthetic. LED strips hidden inside the cove create ambient lighting that transforms the room's mood.</p>
 <div class="table-wrap">
@@ -113,8 +103,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>LED cove lighting inside the peripheral frame costs ₹80–150 per running foot including wiring and strip. Warm white (3000K) is most popular for living rooms and bedrooms.</p>
-<p>06</p>
-<p>Most Common Type</p>
 <h2>Single layer ceiling cost</h2>
 <p>A single flat layer installed below the structural ceiling. This is the most common false ceiling type — suitable for all rooms, easy to maintain, and offers the best cost-to-value ratio for most homeowners.</p>
 <div class="table-wrap">
@@ -132,8 +120,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>All above costs include material, GI framework, jointing, putty, primer and two coats of paint. Lighting and electrical work billed separately.</p>
-<p>07</p>
-<p>Multi-Level Design</p>
 <h2>Double layer ceiling cost</h2>
 <p>A double (or multi-level / stepped) ceiling creates visual depth with two planes at different heights. It's the signature element in premium living rooms and master bedrooms — allowing for cove lighting between levels and a dramatic layered effect. Adds 35–60% to single layer cost.</p>
 <div class="table-wrap">
@@ -149,8 +135,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>08</p>
-<p>Room-Wise Costing</p>
 <h2>Living room ceiling cost</h2>
 <p>180–300</p>
 <p>Typical area (sqft)</p>
@@ -171,8 +155,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>09</p>
-<p>Room-Wise Costing</p>
 <h2>Bedroom ceiling cost</h2>
 <div class="table-wrap">
 <table>
@@ -188,8 +170,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>Add ₹3,000–8,000 for integrated AC duct covers and ₹2,000–5,000 for smoke detector and exhaust cutout integration per unit.</p>
-<p>10</p>
-<p>Room-Wise Costing</p>
 <h2>Kitchen ceiling cost</h2>
 <p>Kitchens demand moisture and grease-resistant materials. PVC is the go-to choice; moisture-resistant gypsum boards are also suitable for open kitchens.</p>
 <div class="table-wrap">
@@ -205,8 +185,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>11</p>
-<p>Detailed Breakdown</p>
 <h2>Material cost breakdown</h2>
 <p>For a gypsum board false ceiling in a 200 sqft room. Source materials directly from dealers to save 20–35% on contractor markup.</p>
 <div class="table-wrap">
@@ -229,8 +207,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>12</p>
-<p>Detailed Breakdown</p>
 <h2>Labour cost breakdown</h2>
 <div class="table-wrap">
 <table>
@@ -249,8 +225,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>13</p>
-<p>Lighting &amp; Electrical</p>
 <h2>Electrical &amp; lighting cost</h2>
 <div class="table-wrap">
 <table>
@@ -269,8 +243,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Note</span>A typical 200 sqft living room with 6 recessed lights + 4m LED cove + 1 dimmer switch costs ₹8,000–18,000 all-inclusive for lighting and wiring.</div>
-<p>14</p>
-<p>City-Wise Data</p>
 <h2>City wise cost comparison</h2>
 <p>Gypsum designer ceiling, 200 sqft fully installed with 6 lights. Labour rates vary significantly — metro cities carry a 20–25% premium.</p>
 <div class="table-wrap">
@@ -292,9 +264,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>15</p>
-<p>Save Money</p>
 <h2>Cost saving tips</h2>
-<p>16</p>
 <p>Common Questions</p>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

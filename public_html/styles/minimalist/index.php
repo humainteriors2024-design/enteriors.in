@@ -32,7 +32,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Section 01</p>
 <h2>What Minimalist Home Design Is — and What It Isn't</h2>
 <p>Minimalism is the practice of designing a home around <strong>what you keep, not what you add</strong>. Every surface is flush, every object visible has earned its place, storage is architectural rather than furniture-shaped, and the eye travels across a room without snagging on anything. It is not an empty home; it is a home where emptiness is <em>organised</em>.</p>
 <h3>Where it came from</h3>
@@ -44,10 +43,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>How the style has evolved</h3>
 <p>Pure gallery minimalism — all white, near-empty, faintly cold — has largely given way to <strong>warm minimalism</strong>: the same discipline in flush surfaces and reduction, but with wood mid-tones, textured fabrics and warmer whites that survive real family life.</p>
 <p>A luxury branch, sometimes called <em>minimaluxe</em>, keeps the restraint and upgrades every touchpoint: stone, veneer, brass, invisible technology. Most Indian projects we build today are warm-minimalist; pure minimalism survives mainly in studios and second homes.</p>
-<p>📷</p>
 <p><strong>Hero image — replace before launch (AI prompt #1 in the kit at file end).</strong> <br> File: <code>minimalist-home-design-living-room-india.webp</code> · 1200×675 <br> Alt: <code>Minimalist home design living room with flush storage wall and warm neutral palette in India</code></p>
 <p>Warm minimalism: the discipline of flush surfaces, softened by wood tones and texture — the version that survives Indian family life.</p>
-<p>Section 02</p>
 <h2>The Design Philosophy: Why Subtraction Feels Like Luxury</h2>
 <p>Every style has a worldview. Minimalism's is that <strong>attention is the scarcest resource in a home</strong>. A patterned wall, a crowded shelf, a handle on every shutter — each is a small tax on your eyes. Individually trivial; across a whole home, they add up to the low hum of visual noise most people never name but instantly notice when it's gone.</p>
 <p>The psychology is well observed in practice: rooms with fewer visible objects and lower pattern density are consistently described by our clients as "bigger," "quieter" and "easier to relax in" — even when the actual square footage is identical to their previous home. The style converts square feet into perceived calm, which is why it outperforms in compact apartments where every other style fights the walls.</p>
@@ -59,7 +56,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 <p>The living experience this produces is specific: mornings with nothing to step over, a 10-minute pre-guest reset instead of a 40-minute scramble, and — the part clients mention most — the feeling of the home being "finished," permanently, rather than perpetually one shopping trip away from complete.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Designer's verdict</strong> Minimalism is the only style where the client's habits matter more than their budget. We can build the calm; only the household can keep it. That's why our first minimalism meeting is about how you live, not what you like.</div>
-<p>Section 03</p>
 <h2>Visual Characteristics: What the Eye Actually Reads</h2>
 <p>Stand in the doorway of a properly built minimalist room and your eye does something unusual — it sweeps instead of scanning. Here's the anatomy of that effect:</p>
 <p><strong>Lines and shapes.</strong> Straight lines dominate, roughly 80:20 over curves. The permitted curves are large and singular — one arched niche, one round dining table, one curved sofa back — never repeated small curves like turned legs or scalloped edges. Corners are eased, not rounded; edges meet at crisp 90 degrees or disappear into shadow gaps.</p>
@@ -68,7 +64,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Contrast is a decision, not an accident.</strong> Two valid modes exist: the <em>tonal</em> room (everything within two shades of the base, serene and soft) and the <em>graphic</em> room (pale field with deliberate black elements — window frames, one console, lighting stems). Mixing modes in one room is where amateur minimalism usually dies.</p>
 <p><strong>Layering is subtracted, not added.</strong> Where other styles layer objects, minimalism layers <em>finishes</em>: matte wall, matte-plus wood, one honed stone, one textile. And <strong>open space is treated as the most expensive material in the room</strong> — a bare 10-foot wall in a Bangalore apartment costs real money in resisted temptation, and the style spends it proudly.</p>
 <p><strong>Light is a building material.</strong> Windows go undressed or wear single-track sheers; artificial light hides in coves and recesses so you see illumination, not fixtures. More in the lighting section.</p>
-<p>Section 04</p>
 <h2>The Minimalist Color Palette, Surface by Surface</h2>
 <p>The palette runs on a strict <strong>60-30-10 structure</strong>: 60% base white, 30% one secondary, 10% one accent. The skill is in choosing temperatures, because "white" is where most Indian minimalist homes go wrong on day one.</p>
 <div class="table-wrap">
@@ -89,7 +84,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p><strong>Lighting temperature</strong> locks the palette in place: 2700–3000K in living and bedrooms, up to 4000K only over kitchen task zones.</p>
 <p>Combinations that work reliably: warm white + oak + black; warm white + greige + clay; ivory + smoked oak + off-black. <strong>Mistakes to avoid:</strong> brilliant white + 6500K tubes (the "hospital" result), more than one accent color, the accent-wall habit (a single loud painted wall breaks the field the whole style depends on), and matching greys with cool undertones to warm woods — the undertone clash is subtle on a swatch and glaring on a wall.</p>
-<p>Section 05</p>
 <h2>The Materials Matrix: Every Surface, Budget to Premium</h2>
 <p>This is the specification table we quote from. Lifespans assume Bangalore conditions and normal family use.</p>
 <div class="table-wrap">
@@ -113,7 +107,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p><strong>Natural vs artificial:</strong> the style is agnostic, but honest. A laminate should look like a good laminate, not imitate marble; a quartz should be plain or subtly veined, not a printed drama slab.</p>
 <p>The one upgrade we push at every budget: <strong>anti-fingerprint super-matte on any surface hands touch daily</strong> — it's the difference between a kitchen that looks new at year five and one that looks tired at year one. The ply-grade logic underneath it all is covered in our <a href="/compare/calibrated-vs-normal-plywood/">plywood guide</a>.</p>
-<p>Section 06</p>
 <h2>Furniture Style: Low, Flush, and Mostly Built-In</h2>
 <p>Minimalist furniture follows four rules: <strong>low profiles, straight or barely-eased silhouettes, visual lightness, and built-in beats loose</strong>.</p>
 <ul>
@@ -126,7 +119,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Floating everything possible:</strong> vanities, consoles, bedside ledges — every floated unit returns floor to the eye and makes robot-vacuum cleaning genuinely one-pass.</li>
   <li><strong>Modular logic:</strong> standard module widths (450/600/900mm) keep costs sane and repairs replaceable; custom widths are reserved for the one wall that must be perfect.</li>
 </ul>
-<p>Section 07</p>
 <h2>Minimalism Room by Room: Build Specs</h2>
 <h3>Kitchen</h3>
 <p>Slab shutters, handle-less — either Gola/J-profile channels or push-to-open on uppers. One finish for all base and wall units; the tall-unit bank may go one shade deeper.</p>
@@ -142,10 +134,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>One pendant line over the table centred and dimmable; a flush crockery wall rather than a standalone hutch. If the dining wall carries anything, it's one large artwork — the style's entire décor allowance for the zone.</p>
 <h3>Bathroom</h3>
 <p>Large-format tiles floor and wall (fewer grout lines, faster cleaning), wall-hung vanity in BWP ply with a matte front, mirror cabinet instead of mirror-plus-shelf, concealed cistern, and fittings in one metal finish. Accessories mount inside the shower niche, not on the walls. This is also where minimalism is most practical: fewer edges is fewer places for Bangalore's hard water to leave its mark.</p>
-<p>📷</p>
 <p>Minimalist handle-less kitchen, quartz-up-the-wall backsplash (AI prompt #4 in kit). <br> File: <code>minimalist-kitchen-design-handleless-india.webp</code> · 1200×800 <br> Alt: <code>Minimalist kitchen design with handle-less shutters and full-height quartz backsplash</code></p>
 <p>The backsplash decides the kitchen: quartz run up the wall keeps the plane unbroken.</p>
-<p>Section 08</p>
 <h2>Lighting Design: See the Light, Not the Fixture</h2>
 <p><strong>Natural light is the first fixture.</strong> Minimalism maximises it: sheer single-track curtains, no valances or pelmets, and furniture kept below sill lines so windows read full-size. In Bangalore's strong sun, add a lined second track in bedrooms for sleep — the double-track detail disappears into the ceiling drop.</p>
 <p>Artificial light works in four layers, mostly hidden:</p>
@@ -156,7 +146,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Decorative:</strong> one statement pendant per home zone maximum, chosen as sculpture: dining pendant, or a living floor lamp — not both fighting.</li>
 </ul>
 <p><strong>Kelvin discipline:</strong> 2700–3000K everywhere people rest, 4000K over work zones, and nothing above. Put living, dining and master-bedroom circuits on dimmers — in a style with no visual noise, light level is your only mood control, and it's the cheapest luxury in the whole BOQ at roughly ₹1,500–3,000 per dimmer point.</p>
-<p>Section 09</p>
 <h2>Decorative Elements: The Short, Strict List</h2>
 <p>Minimalist décor follows one law: <strong>fewer, larger, intentional.</strong></p>
 <ul>
@@ -170,7 +159,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Mirrors:</strong> the style's favourite trick — one large frameless or slim-framed mirror opposite or beside a window doubles perceived light and depth for a few thousand rupees.</li>
   <li><strong>Texture:</strong> where color is restricted, texture does the emotional work — boucle, linen weave, fluted wood, honed stone. A room can be one color and still be rich if it's four textures.</li>
 </ul>
-<p>Section 10</p>
 <h2>Where Minimalism Works — Home Types, Sizes and Buyers</h2>
 <div class="table-wrap">
 <table>
@@ -191,8 +179,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Room sizes:</strong> small homes gain the most (the style manufactures perceived space); medium homes get balance; large homes and open floor plans need one caution — vast minimalist rooms can drift toward showroom emptiness, so we zone them with rugs, ceiling drops and texture changes rather than partitions.</p>
 <h3>The buyer profile, honestly drawn</h3>
 <p>Across our order book the style clusters at ages 27–45, mid-to-high income, working professionals and DINK couples, plus a steady stream of NRIs furnishing Bangalore homes they visit twice a year (minimalism's low upkeep suits the empty months).</p>
-<p>Retired couples increasingly choose it for the same reason hotels do: nothing to trip on, everything reachable, cleaning trivial. <strong>Families with kids under eight</strong> should choose warm minimalism with tougher finishes and oversized toy storage — or a more forgiving style; we say this in the first meeting, not after handover. <strong>Pet owners:</strong> mid-tone floors (fur shows on both extremes), performance fabrics, and no floating shelves at tail height. <strong>Maximalist personalities</strong> — collectors, display-lovers, festival-decorators — will fight this home daily and should not buy it, however good the photos look.</p>
-<p>Section 11</p>
+<p>Retired couples increasingly choose it for the same reason hotels do: nothing to trip on, everything reachable, cleaning trivial.</p>
+<ul>
+  <li><strong>Families with kids under eight</strong> should choose warm minimalism with tougher finishes and oversized toy storage — or a more forgiving style; we say this in the first meeting, not after handover.</li>
+  <li><strong>Pet owners:</strong> mid-tone floors (fur shows on both extremes), performance fabrics, and no floating shelves at tail height.</li>
+  <li><strong>Maximalist personalities</strong> — collectors, display-lovers, festival-decorators — will fight this home daily and should not buy it, however good the photos look.</li>
+</ul>
 <h2>Advantages and Disadvantages, Without the Sales Pitch</h2>
 <div class="table-wrap">
 <table>
@@ -209,13 +201,15 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 12</p>
 <h2>Maintenance Level: Low-to-Medium, With Conditions</h2>
 <p>Upkeep rating:  2 / 5 — low physical effort, real behavioural discipline</p>
 <p><strong>Why 2/5 and not 1/5:</strong> the physical cleaning is genuinely light — flat fronts wipe in one pass, floated furniture lets a robot vacuum finish the floor unsupervised, and there are simply fewer objects to dust. What keeps it off the lowest rating is visibility: pale plain surfaces show dust films, hand marks and hard-water spots sooner than busy surfaces hide them.</p>
-<p><strong>Daily (10 minutes):</strong> the surface reset — counters cleared into their designated storage, cushions squared. <strong>Weekly:</strong> microfibre pass on shutters and floated units, floor mop, fixture wipe-down (dry cloth on matte black taps — wet wiping is what leaves the mineral spots). <strong>Yearly:</strong> paint touch-up kit on scuff points, hinge and channel adjustment (handle-less systems drift a millimetre or two with seasonal ply movement — a 30-minute tune restores the flush line), silicone inspection in wet areas, and a veneer polish where used.</p>
+<ul>
+  <li><strong>Daily (10 minutes):</strong> the surface reset — counters cleared into their designated storage, cushions squared.</li>
+  <li><strong>Weekly:</strong> microfibre pass on shutters and floated units, floor mop, fixture wipe-down (dry cloth on matte black taps — wet wiping is what leaves the mineral spots).</li>
+  <li><strong>Yearly:</strong> paint touch-up kit on scuff points, hinge and channel adjustment (handle-less systems drift a millimetre or two with seasonal ply movement — a 30-minute tune restores the flush line), silicone inspection in wet areas, and a veneer polish where used.</li>
+</ul>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>The spare-laminate rule</strong> At handover we give clients offcuts and one spare sheet code of every laminate used. Three years later, when a shutter needs replacing, the identical batch is long discontinued — the spare sheet is the difference between an invisible repair and a mismatched patch on your calmest wall. Ask any vendor for the same.</div>
-<p>Section 13</p>
 <h2>Approximate Costs and the Full Budget Breakdown (2026)</h2>
 <p>Working bands from delivered Enteriors projects, Bangalore &amp; Hosur. Per-sqft figures are on carpet area for full-home interiors:</p>
 <div class="table-wrap">
@@ -254,7 +248,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Material upgrades worth taking, in order:</strong> anti-fingerprint super-matte on kitchen and wardrobe fronts → dimmers on main circuits → quartz backsplash → veneer on the one wall you see from the sofa. <strong>Hidden costs to budget:</strong> precision-installation labour on handle-less systems (₹15–40k across a home), LED drivers and profiles for concealed lighting (₹20–60k), dimmer modules, and the spare-laminate sheets mentioned above.</p>
 <p>Factory-direct procurement removes the 20–30% showroom margin on exactly the finishes this style spends on — the honest math is the same as in our <a href="/cost/essential-vs-luxury-budget/">essential vs luxury guide</a>.</p>
 <p><strong>How we priced this guide</strong> <br> Bands compiled from Enteriors delivered minimalist and warm-minimalist projects (2025–mid 2026) across Bangalore and Hosur, cross-checked against current factory input costs for IS 303/IS 710 ply, super-matte laminates, quartz and branded hardware as of July 2026. Excludes GST (18%), civil, electrical rework and appliances. Final pricing follows measured site dimensions and signed material selections.</p>
-<p>Section 14</p>
 <h2>Project Timeline: Design to Handover</h2>
 <div class="table-wrap">
 <table>
@@ -272,7 +265,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>Stage-by-stage detail for any project type lives in our <a href="/planning/interior-timeline/">interior design timeline guide</a>; larger-format budgets in the <a href="/cost/4-bhk-villa-cost/">4BHK, villa &amp; duplex cost guide</a>.</p>
-<p>Section 15</p>
 <h2>Minimalist vs the Styles It's Confused With</h2>
 <div class="table-wrap">
 <table>
@@ -293,7 +285,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p><strong>The one-line separations we use with clients:</strong> Scandinavian is minimalism with a sweater on — same reduction, more warmth and forgiveness. Japandi is minimalism with roots — the same restraint grounded in dark wood and a touch of imperfection (full treatment in our <a href="/styles/japandi/">Japandi guide</a>).</p>
 <p>Contemporary is minimalism's social cousin — it borrows the calm but keeps shopping. And Modern, strictly, is a fixed mid-20th-century vocabulary, while minimalism is a discipline you can apply to almost any vocabulary.</p>
-<p>📷</p>
 <p>Split comparison: minimalist flush living room vs Scandinavian layered living room (AI prompt #25 in kit). <br> File: <code>minimalist-vs-scandinavian-interior-comparison.webp</code> · 1200×800 <br> Alt: <code>Minimalist vs Scandinavian interior design comparison in an Indian living room</code></p>
 <p>Same reduction, different warmth: minimalism strips the layering that Scandinavian celebrates.</p>
 <h4>The 3-question self-test</h4>
@@ -302,34 +293,24 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Do empty surfaces relax you or feel unfinished to you?</strong> Relaxing → minimalist. Unfinished → Scandinavian or contemporary.</li>
   <li><strong>Would you rather own one ₹80,000 sofa or a ₹80,000 room of furniture and décor?</strong> The first instinct is minimalist; the second isn't wrong — it's just a different home.</li>
 </ol>
-<p>Section 16</p>
 <h2>Common Mistakes (and What They Cost)</h2>
-<p>01</p>
-<h4>Cold white + cool light</h4>
+<h4>1. Cold white + cool light</h4>
 <p>Brilliant white walls under 6500K tubes produce the clinic effect. <strong>Fix:</strong> warm whites, 2700–3000K, dimmers. The cheapest correction on this list and the most transformative.</p>
-<p>02</p>
-<h4>Under-designed storage</h4>
+<h4>2. Under-designed storage</h4>
 <p>Declaring minimalism without a storage inventory guarantees relapse in 90 days. <strong>Fix:</strong> count what you own by category before a single unit is drawn.</p>
-<p>03</p>
-<h4>Gloss overload</h4>
+<h4>3. Gloss overload</h4>
 <p>High-gloss acrylic everywhere turns calm into showroom glare and shows every fingerprint. <strong>Fix:</strong> matte-dominant, gloss (if at all) on one high surface out of hand's reach.</p>
-<p>04</p>
-<h4>Zero texture</h4>
+<h4>4. Zero texture</h4>
 <p>Flat color + flat surfaces + flat fabric = sterile. <strong>Fix:</strong> hold color constant and vary texture — weave, grain, honed stone. Calm needs one thing to touch.</p>
-<p>05</p>
-<h4>The accent-wall reflex</h4>
+<h4>5. The accent-wall reflex</h4>
 <p>One loud painted wall breaks the continuous field the entire style depends on. <strong>Fix:</strong> if a wall must speak, let it speak in texture (fluted, limewash), not color.</p>
-<p>06</p>
-<h4>Cheap flush hardware</h4>
+<h4>6. Cheap flush hardware</h4>
 <p>Handle-less looks identical on day one at every price; at month eighteen, budget channels sag and push-latches fail — and on flush fronts every failure is visible. <strong>Fix:</strong> branded hardware on daily-use units, no exceptions.</p>
-<p>07</p>
-<h4>Wrong flooring scale</h4>
+<h4>7. Wrong flooring scale</h4>
 <p>Small tiles mean a grid of grout lines under your calm room. <strong>Fix:</strong> large-format (800×1600+), matching grout, matte finish.</p>
-<p>08</p>
-<h4>Over-decluttering into sterility</h4>
+<h4>8. Over-decluttering into sterility</h4>
 <p>Removing personality along with clutter produces a home nobody feels owns. <strong>Fix:</strong> the five-object rule still allows five objects — make them yours: one heirloom, one artwork you chose slowly.</p>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>Climate note for Bangalore &amp; Hosur</strong> Dust films show fastest on plain dark horizontals — keep true-dark finishes vertical. Monsoon humidity moves ply; specify IS 710 near water and leave engineered flooring its expansion gap. And our daylight is strong: warm whites and sheer-plus-lined double tracks stop the noon glare that flattens pale rooms.</div>
-<p>Section 17</p>
 <h2>20 Designer Tips From the Factory Floor</h2>
 <ol>
   <li>Do the storage inventory before the mood board — count clothes, vessels, files, toys. The count sizes the wardrobes; the mood board doesn't.</li>
@@ -353,7 +334,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Photograph each room after handover styling — the photo is your reset reference forever.</li>
   <li>Leave one wall empty on purpose and defend it. That wall is the style.</li>
 </ol>
-<p>Section 18</p>
 <h2>Best Brands for a Minimalist Build (India)</h2>
 <div class="table-wrap">
 <table>
@@ -373,16 +353,18 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>Brand availability and ranges change; we re-verify at BOQ stage. Factory-direct means these are invoiced to you transparently at procurement cost plus stated margin.</p>
-<p>Section 19</p>
 <h2>Sustainability: The Accidentally Green Style</h2>
 <p>Minimalism is sustainable by arithmetic before ideology: fewer units, fewer materials, fewer replacements.</p>
 <p>To make it deliberate — <strong>low-VOC paints</strong> (Asian Paints Royale Atmos, Nippon's breathe-easy ranges) matter more here because large uninterrupted painted areas dominate the home; <strong>E0/E1 low-emission boards and FSC-certified ply</strong> are worth the small premium in bedrooms; <strong>LED-everything with dimmers</strong> cuts lighting load 20–30% versus fixed-bright schemes; and the style's daylight-first window treatment reduces daytime lighting to near zero.</p>
 <p>The deepest green lever, though, is longevity: a home with nothing trendy in it doesn't get gutted in seven years — the most sustainable interior is the one you never redo.</p>
-<p>Section 20</p>
 <h2>Where Minimalism Is Heading</h2>
-<p><strong>Warm minimalism is now the default</strong> — the cold-white era is over in briefs we receive. <strong>Minimaluxe</strong> grows at the top end: stone slabs, grain-matched veneer, brass details, all inside strict restraint. <strong>Invisible technology</strong> is the style's natural partner — flush wall panels for switches, magnetic track lighting replacing downlight grids, sensors and voice control removing the last visible controls; smart-home hardware finally looks like minimalism always wanted it to. <strong>Micro-cement and limewash surfaces</strong> are moving from cafés to homes as the texture answer to flat paint.</p>
+<ul>
+  <li><strong>Warm minimalism is now the default</strong> — the cold-white era is over in briefs we receive.</li>
+  <li><strong>Minimaluxe</strong> grows at the top end: stone slabs, grain-matched veneer, brass details, all inside strict restraint.</li>
+  <li><strong>Invisible technology</strong> is the style's natural partner — flush wall panels for switches, magnetic track lighting replacing downlight grids, sensors and voice control removing the last visible controls; smart-home hardware finally looks like minimalism always wanted it to.</li>
+  <li><strong>Micro-cement and limewash surfaces</strong> are moving from cafés to homes as the texture answer to flat paint.</li>
+</ul>
 <p>And AI-driven lighting scenes — circadian warmth shifting through the day — suit a style whose only mood dial is light. What won't change is the core trade: discipline in, calm out.</p>
-<p>Section 21</p>
 <h2>Planning Checklists: Print These</h2>
 <h3>Buying &amp; budget checklist</h3>
 <ul>
@@ -409,9 +391,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Handover photos taken per room as the permanent styling reference</li>
 </ul>
 <div class="callout"><span class="callout__title">Note</span><strong>Things customers usually forget</strong> A broom-and-bucket cupboard (utility storage is storage too), the device-charging drawer, a landing-zone cabinet at the entrance, festival-decoration storage — the garland-and-diya box needs a home eleven months a year — and one drawer officially designated as the junk drawer. Even minimalism needs one; the discipline is that it's <em>one</em>.</div>
-<p>Section 22</p>
 <h2>25 Questions Buyers Actually Ask</h2>
-<p>Section 23</p>
 <h2>The Final Verdict</h2>
 <p><strong>Choose minimalism if:</strong> you live in a compact-to-mid-size home, you find empty surfaces restful, your household can practise one-in-one-out, and you'd rather own fewer better things than more average ones. It will repay you daily in cleaning time, mental quiet and a home that never dates.</p>
 <p><strong>Avoid it if:</strong> you collect, you display, you decorate for every festival with no appetite for packing away, or you have toddlers and no patience for the warm-minimalist compromises. There is no shame in that — a home should fit its people, not a Pinterest board.</p>

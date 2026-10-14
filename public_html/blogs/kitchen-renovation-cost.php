@@ -25,8 +25,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Premium Tier</p>
 <p>₹7L – ₹15L+</p>
 <p>European shutters, marble/solid surface tops, built-in appliances, structural changes, designer lighting.</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>💡</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Rule of Thumb</strong><p>Budget ₹2,500–₹5,000 per sq ft for a mid-range complete renovation. A 100 sq ft kitchen thus costs ₹2.5L–₹5L before appliances. Appliances add ₹80,000–₹3L depending on brand tier.</p></div></div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Rule of Thumb</strong><p>Budget ₹2,500–₹5,000 per sq ft for a mid-range complete renovation. A 100 sq ft kitchen thus costs ₹2.5L–₹5L before appliances. Appliances add ₹80,000–₹3L depending on brand tier.</p></div>
 <h2>Full Cost Breakdown</h2>
 <p>Let's go component by component. The table below uses a <strong>100 sq ft kitchen in a Tier 1 Indian city (Bangalore, Mumbai, Delhi, Hyderabad)</strong> as the reference. Costs in Tier 2 cities run 15–25% lower.</p>
 <div class="table-wrap">
@@ -60,8 +59,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   <li><strong>Boiling Waterproof (BWP) Ply:</strong> ₹1,000–₹1,500 per sq ft. Premium substrate, mostly for platforms and base cabinets near sink.</li>
   <li><strong>MDF (Medium-Density Fibreboard):</strong> ₹500–₹750 per sq ft. Budget-friendly but NOT suitable near moisture without edgebanding.</li>
 </ul>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span>⚠️</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Don't Skimp Here</strong><p>Saving ₹20,000 on cheap MDF boards near the sink can cost ₹80,000 in replacement within 3–5 years. Invest in BWP ply or HDHMR for base units and moisture-exposed areas.</p></div></div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Don't Skimp Here</strong><p>Saving ₹20,000 on cheap MDF boards near the sink can cost ₹80,000 in replacement within 3–5 years. Invest in BWP ply or HDHMR for base units and moisture-exposed areas.</p></div>
 <p><strong>Shutter finishes</strong> add another layer of cost: PVC membrane (₹150–₹250/sq ft), acrylic gloss (₹250–₹450/sq ft), lacquered glass (₹450–₹700/sq ft), or handleless profile shutters (₹600–₹1,200/sq ft) for a luxury European look.</p>
 <h3>2. Countertops</h3>
 <p>The countertop is the visual centrepiece and daily workhorse. Material choice dramatically shifts both cost and maintenance commitment:</p>
@@ -117,8 +115,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   <li>Full pipe replacement (galvanized → CPVC): ₹8,000–₹20,000 for kitchen area</li>
   <li>Waterproofing sink zone: ₹4,000–₹12,000</li>
 </ul>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>ℹ️</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Pro Tip: Electrical Load Planning</strong><p>Modern kitchens need at least 6–8 dedicated electrical points. Chimney, hob ignition, refrigerator, microwave, dishwasher, water purifier, and mixer-grinder each need their own socket. Plan this before tiles go in — retrofitting is 3× costlier.</p></div></div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Pro Tip: Electrical Load Planning</strong><p>Modern kitchens need at least 6–8 dedicated electrical points. Chimney, hob ignition, refrigerator, microwave, dishwasher, water purifier, and mixer-grinder each need their own socket. Plan this before tiles go in — retrofitting is 3× costlier.</p></div>
 <h2>Labour Costs Explained</h2>
 <p>Labour is quoted either as a <strong>percentage of material cost (15–25%)</strong> or as a <strong>per-sq-ft rate</strong>. Here's a realistic breakdown:</p>
 <div class="table-wrap">
@@ -159,8 +156,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   </tbody>
 </table>
 </div>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>🏆</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Our Verdict</strong><p>For apartments under 80 sq ft, modular wins on consistency and warranty. For kitchens with L, U, or island configurations in villas, carpenter-made with modular hardware (Hettich/Hafele fittings) offers the best of both worlds.</p></div></div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Our Verdict</strong><p>For apartments under 80 sq ft, modular wins on consistency and warranty. For kitchens with L, U, or island configurations in villas, carpenter-made with modular hardware (Hettich/Hafele fittings) offers the best of both worlds.</p></div>
 <h2>Popular Kitchen Design Styles &amp; Their Cost Impact</h2>
 <p>The design aesthetic you choose directly impacts material and labour costs. Here are the most popular styles in Indian urban homes right now:</p>
 <p>Kitchen Style Visual Reference Replace with actual kitchen photo</p>
@@ -187,8 +183,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   <li><strong>Week 9:</strong> Lighting, electrical finishing, painting, final touches</li>
   <li><strong>Week 10:</strong> Snag list resolution, deep cleaning, handover</li>
 </ul>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span>⚠️</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Common Delay Triggers</strong><p>Material delivery delays (especially imported tiles and modular units from brands with long lead times), changes to the approved layout mid-construction, and delayed payment to contractors are the top three reasons projects overrun by 2–4 weeks.</p></div></div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Common Delay Triggers</strong><p>Material delivery delays (especially imported tiles and modular units from brands with long lead times), changes to the approved layout mid-construction, and delayed payment to contractors are the top three reasons projects overrun by 2–4 weeks.</p></div>
 <p>Cost Control Tips</p>
 <h2>Costly Mistakes to Avoid</h2>
 <h3>Mistake 1: Changing the Layout After Civil Work</h3>

@@ -22,7 +22,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>01Foundations</p>
 <h2>What Is an Open Kitchen — and Why Do Indian Homes Love Them?</h2>
 <p>An <strong>open kitchen</strong> is a kitchen that connects directly to one or more adjacent living spaces — typically the dining area, living room, or a combined great room — without a full separating wall. The result is a flowing, multi-functional space where cooking, dining, and socialising coexist without division.</p>
 <p>In the Indian context, the open kitchen has rapidly evolved from a "Western import" to a mainstream design aspiration. The reason is cultural and spatial: <strong>Indian families spend significant time together at home</strong>, and the kitchen has always been a social space.</p>
@@ -36,7 +35,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>more social interaction reported in open-plan vs closed kitchen homes</p>
 <p>The kitchen stopped being a utility room the moment it opened to the living space. Now it has to earn its place as a design statement — every surface, every material, every handle is visible.</p>
 <p>— Priya Raghunathan, Senior Interior Designer</p>
-<p>02Trends Report</p>
 <h2>Why 2026 Changes the Open Kitchen Game</h2>
 <p>Every few years, a convergence of technology, material innovation, and cultural shift resets the design conversation. 2026 is one of those moments. Four forces are reshaping what the open kitchen looks like and what it is expected to do:</p>
 <p><strong>1. The post-pandemic home is permanent.</strong> Working from home is now a baseline expectation, not an exception. Open kitchens are being designed to accommodate a work-from-home corner, visible from the kitchen but separated by smart zoning of materials and lighting — not walls.</p>
@@ -56,22 +54,19 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h4>Warm Material Palettes</h4>
 <p>Sage green, deep olive, warm walnut, and terracotta accents replacing the cool grey and white that dominated 2018–2023.</p>
 <div class="callout callout--tip"><span class="callout__title">2026 Design Forecast</span>The single biggest shift in 2026 open kitchen design is the move from <strong>performative to genuine</strong>. Homeowners have lived with their Instagram-inspired kitchens long enough to know what does not work. The new priority: surfaces and systems that look extraordinary and survive daily Indian cooking — simultaneously. This is exactly the lens through which we evaluate every idea in this guide.</div>
-<p>03Layout Types</p>
 <h2>Open Kitchen Layouts: The Four Archetypes</h2>
 <p>Layout is the most consequential decision in any open kitchen project. It determines workflow, defines zones, controls sightlines, and sets the structural cost. Here are the four primary open kitchen configurations and what each delivers.</p>
 <h3>Island Open Kitchen</h3>
 <p>The island kitchen is the most aspirational — and most misapplied — open kitchen layout in India. An island is a freestanding counter unit positioned in the centre of the kitchen, separate from the perimeter cabinetry. It functions simultaneously as a <strong>prep surface, casual dining counter, storage unit, and social hub</strong>.</p>
 <p>For an island to work structurally, you need a minimum kitchen footprint of approximately 14 ft × 14 ft (196 sq ft), with at least 900mm of clearance on all sides of the island. In practice, this means island kitchens are most viable in villas, larger apartments (2,000 sq ft+), or when a non-structural wall has been removed to combine kitchen and dining.</p>
-<p>01</p>
-<h4>Classic Perimeter + Centre Island</h4>
+<h4>1. Classic Perimeter + Centre Island</h4>
 <p>Full cabinetry on three walls; island adds prep space and seating for 3–4. The most social and functional island layout.</p>
 <ul>
   <li>Best for spaces 14×14 ft and above</li>
   <li>Install island extractor for open-plan viability</li>
   <li>Waterfall edge on island is the 2026 signature detail</li>
 </ul>
-<p>02</p>
-<h4>Hob-On-Island (Cooking Island)</h4>
+<h4>2. Hob-On-Island (Cooking Island)</h4>
 <p>Hob placed on the island facing the living room. Allows the cook to face guests while cooking — the "chef's theatre" configuration.</p>
 <ul>
   <li>Requires high-performance ceiling-mount extractor</li>
@@ -87,7 +82,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>L-Shaped Open Kitchen</h3>
 <p>The most common open kitchen layout in Indian apartments. Two adjacent walls of cabinetry meeting at a corner, with the open end flowing into the dining or living zone. The L-shape is efficient, scalable from 90 sq ft to 200+ sq ft, and integrates naturally with dining table placement across the open end.</p>
 <p>In 2026, L-shaped open kitchens are being elevated with a key move: <strong>extending the countertop past the cabinetry end to create a breakfast bar</strong> — effectively a mini-peninsula at zero structural cost. A 600mm overhang on the open end accommodates three bar stools and adds a casual dining node that feels like a considered design choice rather than an afterthought.</p>
-<p>042026 Ideas</p>
 <h2>Top Open Kitchen Design Ideas for 2026</h2>
 <p>Beyond layout, the 2026 open kitchen is defined by a cluster of specific design moves. Here are the ideas generating the most interest — and the most successful transformations — in projects we are working on right now.</p>
 <p>A</p>
@@ -135,7 +129,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Requires a cavity of approx 1.2m × 2.1m minimum</li>
 </ul>
 <div class="callout callout--tip"><span class="callout__title">The 2026 Open Kitchen Commandment</span>Because the open kitchen is permanently on display from the living space, <strong>every element that is visible must be designed</strong> — not just functional. In 2026, this extends to the extractor hood (a design object, not just an appliance), the tap (sculptural and tactile), the sink configuration (undermount or zero-radius for clean lines), and even the rubbish bin (concealed, always). The era of the "functional kitchen that happens to be open" is over.</div>
-<p>05Your Needs</p>
 <h2>Choosing Your Open Kitchen Based on How You Live</h2>
 <p>No two households have identical requirements. The right open kitchen layout, finish, and material configuration is determined by your cooking style, family size, budget, and lifestyle priorities. Use this matrix to identify the configuration that fits your actual life — not the kitchen from a magazine.</p>
 <div class="table-wrap">
@@ -155,7 +148,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">The Ventilation Rule for Indian Open Kitchens</span>The single non-negotiable for any open kitchen in India: <strong>the extractor system must be sized for your cooking intensity, not your kitchen size.</strong> A household that cooks dal tadka and stir-fries daily needs a minimum 1,200 m³/hr extraction capacity with a recirculation filter or external duct. Under-spec your extractor and you will close the kitchen within six months — regardless of how beautiful it looks. Budget ₹25,000–₹80,000 for a quality extractor. Do not compromise here.</div>
-<p>06The Material Debate</p>
 <h2>Marble vs Tile in the Open Kitchen: The Complete 2026 Guide</h2>
 <p>The open kitchen raises the material stakes considerably. Because surfaces are permanently visible from the living space, the decision between marble and tile is not just practical — it is aesthetic and contextual. Every countertop, backsplash, and floor surface becomes part of the home's overall design language.</p>
 <p>In 2026, this debate has become more nuanced than ever. The gap between genuine natural marble and the best marble-look porcelain slabs has narrowed dramatically in visual terms — while the performance gap has widened in tile's favour. Here is the most thorough comparison we can give you.</p>
@@ -223,7 +215,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul></div>
 <p>In 2026, the smartest open kitchen uses genuine marble where it is seen and admired — the island — and sintered stone or large-format porcelain everywhere it is used and abused. This is not compromise. It is intelligence.</p>
 <p>— Priya Raghunathan, Enteriors</p>
-<p>07Decision Tool</p>
 <h2>Quick-Decision Guide: Find Your Kitchen in 60 Seconds</h2>
 <p>Too much information, not enough time? Find your situation in the table below. Every row gives you a clear recommendation you can act on today.</p>
 <p>Your Situation → Your Open Kitchen Answer</p>
@@ -243,26 +234,19 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Material If you cook daily: sintered stone or quartz. If the island is primarily a social/bar surface with minimal food prep: honed marble is feasible with proper sealing</p>
 <p>2026 trend without full renovation</p>
 <p>Refresh Swap cabinet shutter fronts to fluted MDF panels; replace handles with push-to-open; add a pendant trio above dining table; re-grout with dark epoxy grout for a modern edge</p>
-<p>08Expert Advice</p>
 <h2>What Interior Designers Actually Do Differently in 2026</h2>
 <p>After hundreds of open kitchen projects, certain principles recur in every successful outcome. These are not trend-driven — they are structural rules that will remain true in 2030 as much as in 2026.</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><div class="callout callout--tip"><span class="callout__title">Tip</span>🔲</p>
-<h4>Zone with Materials, Not Walls</h4>
+<div class="callout-grid"><div class="callout callout--tip"><span class="callout__title">Zone with Materials, Not Walls</span>
 <p>Define the kitchen zone from the living zone using a consistent material shift — same tile running through both spaces creates unity; a contrasting floor tile in the kitchen creates separation without a wall.</p></div>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>💡</p>
-<h4>Three-Layer Lighting Is Non-Negotiable</h4>
+<div class="callout callout--tip"><span class="callout__title">Three-Layer Lighting Is Non-Negotiable</span>
 <p>In an open kitchen, lighting must work for cooking mode AND living room mode. Dimmable circuits on separate switches let you transition from task-bright cooking to ambient-warm entertaining instantly.</p></div>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>🌬️</p>
-<h4>Extractor Before Everything</h4>
+<div class="callout callout--tip"><span class="callout__title">Extractor Before Everything</span>
 <p>The sequence is: ventilation budget first, cabinet budget second. An under-spec'd extractor ruins an open kitchen faster than any wrong material choice. It is the first line item — not the last.</p></div>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>📐</p>
-<h4>Island Clearance Is Sacred</h4>
+<div class="callout callout--tip"><span class="callout__title">Island Clearance Is Sacred</span>
 <p>900mm minimum on all sides of an island. 1,050mm if two people work in the kitchen simultaneously. Never compromise this for a bigger island — a tight island corridor destroys the whole open-plan feel.</p></div>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>🪵</p>
-<h4>One Warm Material Element</h4>
+<div class="callout callout--tip"><span class="callout__title">One Warm Material Element</span>
 <p>Stone, tile, and lacquer are cool. Every kitchen needs one warm element — timber, cane, brass, or leather-effect laminate — to prevent the space from feeling clinical rather than liveable.</p></div>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>🚿</p>
-<h4>Sink Position Dictates Sightlines</h4>
+<div class="callout callout--tip"><span class="callout__title">Sink Position Dictates Sightlines</span>
 <p>In an open kitchen, position the sink so the person washing up faces the living room, not the wall. This single ergonomic decision transforms the social experience of the kitchen every single day.</p></div></div>
 <div class="callout callout--tip"><span class="callout__title">The One Mistake That Kills Open Kitchens</span>Over 70% of unsatisfactory open kitchen outcomes we have audited share the same root cause: <strong>the design was planned for how the kitchen looks, not how it is used.</strong> A kitchen that photographs beautifully but accumulates cooking odours, has inadequate storage visible from the living room, or has surfaces that cannot survive daily cooking will be regretted within twelve months. Design for the life you actually live — then make it beautiful. Not the other way around.</div>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

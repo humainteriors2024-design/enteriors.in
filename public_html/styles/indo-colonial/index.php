@@ -32,7 +32,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Section 01</p>
 <h2>What Indo-Colonial Really Is — and What It Isn't</h2>
 <p>Indo-Colonial is not "British furniture in an Indian house." It's the opposite: <strong>European forms rebuilt by Indian hands, in Indian timber, for Indian weather</strong> — and improved in the process. The four-poster grew a mosquito-net frame and lost its heavy canopy.</p>
 <p>The stuffed armchair became the cane-woven planter's chair because upholstery is misery at 34°C. The wardrobe became the tall teak almirah because trunks moulded in monsoon.</p>
@@ -45,12 +44,16 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Today's version runs lighter than the original: fewer, better dark pieces floating in more white space; cane promoted from seat-bottoms to headboards, wardrobe inserts and pendant shades; brass in durable PVD finishes; and the ceiling fan reborn as a designer object with silent DC motors. Call it <strong>modern colonial</strong> — the estate's ease at apartment scale.</p>
 <h3>Who should choose it</h3>
 <p>Owners who love permanence: this is furniture you will re-polish, not replace. Readers, collectors, families with heirloom pieces looking for a home that welcomes them, and anyone whose idea of luxury is a fan turning slowly over a cane chair at 4pm. If your taste runs to seamless surfaces and hidden everything, the <a href="/styles/minimalist/">minimalist guide</a> is your read; this style shows its joinery proudly.</p>
-<p>📷</p>
 <p><strong>Hero image — replace before launch (AI prompt #1 in kit).</strong> <br> File: <code>indo-colonial-interior-design-living-room-india.webp</code> · 1200×675 <br> Alt: <code>Indo-Colonial interior design living room with teak furniture, cane chairs and white walls</code></p>
 <p>The formula at a glance: dark teak floating in a white field, cane that breathes, brass that warms, and a fan doing quiet architectural work.</p>
-<p>Section 02</p>
 <h2>The Design Philosophy: Climate First, Ceremony Second</h2>
-<p>Every element in this style answers a weather question first and a beauty question second — which is why it still works. <strong>Why white walls?</strong> Lime wash reflected heat and light in rooms lit by high windows. <strong>Why cane?</strong> Air moves through a woven seat; it doesn't through foam. <strong>Why dark wood?</strong> Teak and rosewood were what survived termites and monsoon, and their darkness against white walls became the signature by necessity before it was one by taste. <strong>Why tall furniture and ceiling fans?</strong> Hot air rises; the whole room is a ventilation diagram.</p>
+<p>Every element in this style answers a weather question first and a beauty question second — which is why it still works.</p>
+<ul>
+  <li><strong>Why white walls?</strong> Lime wash reflected heat and light in rooms lit by high windows.</li>
+  <li><strong>Why cane?</strong> Air moves through a woven seat; it doesn't through foam.</li>
+  <li><strong>Why dark wood?</strong> Teak and rosewood were what survived termites and monsoon, and their darkness against white walls became the signature by necessity before it was one by taste.</li>
+  <li><strong>Why tall furniture and ceiling fans?</strong> Hot air rises; the whole room is a ventilation diagram.</li>
+</ul>
 <p>Understanding this logic is what separates a designed Indo-Colonial home from a themed one — you're not decorating with props, you're re-running proven engineering.</p>
 <p>The second layer is <strong>gracious formality</strong>. The style believes rooms have manners: seating faces conversation, symmetry frames doorways, the dining table is an event, and objects — books, maps, ceramics — are displayed because a home is allowed to show its mind. Clients consistently describe the finished feeling as "settled": the opposite of showroom-new, a home that reads as if it has always been there and always will be.</p>
 <p>Three principles govern our Indo-Colonial drawings:</p>
@@ -60,14 +63,16 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Air is a material.</strong> Furniture stands on legs you can see under; cane is transparent; layouts leave the breeze a path. A stuffed, blocked Indo-Colonial room contradicts its own DNA.</li>
 </ul>
 <div class="callout"><span class="callout__title">Note</span><strong>Designer's verdict</strong> This is the style where buying slower beats buying more. One honest teak four-poster outlives — and out-charms — a whole room of "colonial-look" flat-pack. Build the shell fast with us; collect the heroes at your own pace.</div>
-<p>Section 03</p>
 <h2>Visual Characteristics: How the Room Reads</h2>
 <p><strong>Overall mood:</strong> bright, tall and unhurried — a pale luminous shell holding dark, precisely made objects. The contrast is high but warm: cream against brown, never white against black.</p>
 <p><strong>Lines and shapes:</strong> the silhouette vocabulary is unmistakable — turned and tapered legs, gentle arches over doorways and mirror frames, louver lines on shutters, X-frame folding pieces (campaign heritage), and the long low recline of the planter's chair. Straight rails and frames carry the furniture; the turning provides the music.</p>
 <p><strong>Textures:</strong> a fixed quartet does the work — polished wood grain, woven cane's honeyed texture, matte lime-washed wall, and natural-fibre softness (cotton, linen, jute). Brass adds the fifth note as glint, not glare.</p>
 <p><strong>Visual weight, balance, symmetry:</strong> dark pieces are heavy, so the style floats them — legs visible, walls pale, pieces spaced. Symmetry is the default grammar: paired chairs flanking a table, matched lamps, centred beds; one deliberate asymmetry (the planter's chair angled to the window) keeps formality from stiffness.</p>
-<p><strong>Layering and contrast:</strong> layering happens on surfaces — a jute rug under a wood table, cotton throws on cane, books and ceramics on open shelves — while the base contrast (dark on pale) stays constant. <strong>Lighting</strong> is warm and pooled: the style predates the downlight grid and looks best without one — lamps, wall brackets and the fan-cooled shadow between them. <strong>Open space</strong> reads as verandah memory: circulation is generous, sight-lines to windows kept clear, and at least one chair in every scheme exists purely to sit near the light with a book.</p>
-<p>Section 04</p>
+<ul>
+  <li><strong>Layering and contrast:</strong> layering happens on surfaces — a jute rug under a wood table, cotton throws on cane, books and ceramics on open shelves — while the base contrast (dark on pale) stays constant.</li>
+  <li><strong>Lighting</strong> is warm and pooled: the style predates the downlight grid and looks best without one — lamps, wall brackets and the fan-cooled shadow between them.</li>
+  <li><strong>Open space</strong> reads as verandah memory: circulation is generous, sight-lines to windows kept clear, and at least one chair in every scheme exists purely to sit near the light with a book.</li>
+</ul>
 <h2>The Color Palette, Surface by Surface</h2>
 <p>The working structure: <strong>60% pale field, 30% wood darkness, 10% botanical accent.</strong></p>
 <div class="table-wrap">
@@ -87,8 +92,11 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p><strong>Lighting temperature:</strong> 2700K — warmer than any other style in this series — with 3000K as the ceiling and task light confined to kitchen and study. <strong>Combinations that reliably work:</strong> cream walls + teak + botanical green + brass; white + rosewood + indigo + jute; pale sage study + dark shelving + burgundy leather chair. <strong>Mistakes to avoid:</strong> dark walls behind dark furniture, cool greys anywhere near warm teak, mixed wood undertones, and the full heritage-hotel paint palette applied to a 1,100 sqft flat — at home scale, the walls stay quiet and the objects speak.</p>
-<p>Section 05</p>
+<ul>
+  <li><strong>Lighting temperature:</strong> 2700K — warmer than any other style in this series — with 3000K as the ceiling and task light confined to kitchen and study.</li>
+  <li><strong>Combinations that reliably work:</strong> cream walls + teak + botanical green + brass; white + rosewood + indigo + jute; pale sage study + dark shelving + burgundy leather chair.</li>
+  <li><strong>Mistakes to avoid:</strong> dark walls behind dark furniture, cool greys anywhere near warm teak, mixed wood undertones, and the full heritage-hotel paint palette applied to a 1,100 sqft flat — at home scale, the walls stay quiet and the objects speak.</li>
+</ul>
 <h2>The Materials Matrix: Every Surface, Budget to Premium</h2>
 <div class="table-wrap">
 <table>
@@ -113,7 +121,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>The substitution economics matter here more than in any style we build.</strong> Solid teak runs several times the cost of stained hardwood alternatives, and on painted or upholstered elements the species is invisible anyway.</p>
 <p>Our standing rule: <strong>solid teak where hands and eyes meet daily</strong> — dining top, bed, the planter's chair — <strong>stained solids for legs and frames, veneer and quality woodgrain laminate for fitted wardrobes and panelling.</strong> Done with matched undertones, the mix is indistinguishable at arm's length and cuts the material bill by 40–60%.</p>
 <p>Ply grades under the veneer follow the usual law (IS 303 dry, IS 710 wet) — details in our <a href="/compare/calibrated-vs-normal-plywood/">plywood guide</a>.</p>
-<p>Section 06</p>
 <h2>Furniture Style: The Pieces That Define the Look</h2>
 <ul>
   <li><strong>Sofa:</strong> wood-frame with show-wood arms and cane or upholstered panels — the frame must be visible; a fully upholstered modern L hides everything this style is about. Cotton or linen covers in cream, stripe or botanical.</li>
@@ -126,7 +133,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Storage &amp; display:</strong> the glass-front bookcase is the style's storage hero; a bar cabinet or trolley its social one.</li>
   <li><strong>Heights and shapes:</strong> furniture sits higher than contemporary norms (seat ~450mm, tables to match), legs turned or tapered and always visible; floating and built-in minimal — this style's furniture proudly stands on the floor.</li>
 </ul>
-<p>Section 07</p>
 <h2>Indo-Colonial Room by Room: Build Specs</h2>
 <h3>Kitchen</h3>
 <p>The period had no fitted kitchens, so we translate rather than copy: <strong>framed shaker-profile shutters with a beading detail</strong> in cream, sage or both (pale uppers, deeper bases), brass cup pulls and knobs, and a <strong>honed black granite counter</strong> — historically right and one of the best-value stones in the market.</p>
@@ -144,10 +150,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The long table under a brass pendant or small chandelier (dimmable), cane-back chairs, and the <strong>crockery almirah</strong> — a glass-front (fluted at premium) display case that turns inherited china into the room's décor. A jute or dhurrie rug sized to hold chairs even when pulled back. One large framed piece or a wall clock completes the zone.</p>
 <h3>Bathroom</h3>
 <p>Chequerboard or plain warm-stone floor tile, white wainscot-profile wall tile to 1200mm with paint above, a wood-look or painted vanity on legs (BWP core, always), arch or oval mirror, and <strong>PVD antique-brass fittings</strong> — the finish that gives brass's warmth without its tarnish schedule. Lighting: a brass wall bracket either side of the mirror at 3000K beats a downlight overhead in both function and mood.</p>
-<p>📷</p>
 <p>Indo-Colonial bedroom: four-poster with sheer canopy, almirah-front wardrobe wall (AI prompt #3 in kit). <br> File: <code>indo-colonial-bedroom-four-poster-bed-india.webp</code> · 1200×800 <br> Alt: <code>Indo-Colonial bedroom with teak four-poster bed and almirah style wardrobe in India</code></p>
 <p>The bedroom's monument: a four-poster needs 10ft of ceiling — below that, the tall cane headboard carries the same presence.</p>
-<p>Section 08</p>
 <h2>Lighting Design: Lamplight, Not Grid Light</h2>
 <p>This style predates the recessed downlight, and it shows you why that's a compliment: <strong>pooled warm light from visible fixtures</strong> is half its atmosphere.</p>
 <ul>
@@ -158,7 +162,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Decorative:</strong> where this style spends — brass pendants, a modest chandelier over dining, standing lamps with pleated shades. Fixtures are furniture here; buy them like it.</li>
   <li><strong>Kelvin rule:</strong> 2700K standard, 3000K ceiling, dimmers on living and dining. The candle-adjacent warmth is what turns teak from brown to glowing.</li>
 </ul>
-<p>Section 09</p>
 <h2>Decorative Elements: A Home That Shows Its Mind</h2>
 <ul>
   <li><strong>Plants:</strong> the areca palm is practically a structural element; add a fern on a plant stand and a money plant trailing a bookshelf. Terracotta and brass planters only.</li>
@@ -171,7 +174,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Metal accents:</strong> brass throughout — and here's the one liberty the palette allows: brass IS the accent metal, glinting from hardware, lamp stems, planters and frames.</li>
   <li><strong>Textures:</strong> the quartet again — polished grain, cane weave, lime-soft wall, natural fibre — plus leather's patina on one good chair.</li>
 </ul>
-<p>Section 10</p>
 <h2>Where Indo-Colonial Works — Home Types, Sizes and Buyers</h2>
 <div class="table-wrap">
 <table>
@@ -192,8 +194,13 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Room sizes:</strong> the honest variable is <strong>height more than area</strong>. At 10ft-plus, everything works. At the standard 9–9.5ft apartment slab, drop the four-poster and heavy pelmets, keep the ceiling plain, and the style adapts gracefully. Open floor plans zone naturally by furniture groups — the seating circle, the dining event, the reading window — without a single partition.</p>
 <h3>The buyer profile, honestly drawn</h3>
 <p>This style skews 35–60 in our order book — established professionals, doctors and academics, armed-forces and planter-family backgrounds, serious readers, and NRIs building the India of their memory.</p>
-<p>Income mid-to-high, but with a distinctive pattern: <strong>collectors on instalment</strong> — clients who build the shell with us and add one fine piece a year. <strong>Retired couples</strong> are its happiest owners; the furniture heights are kind and the mood is theirs. <strong>Families with kids:</strong> genuinely good — solid wood survives childhood better than laminate flat-pack, cotton washes, and the home teaches its objects' stories; keep glass-front cases toughened or high. <strong>Pet owners:</strong> the one real conflict is cats versus cane — choose solid-seat pieces or accept the webbing as a scratching casualty. <strong>Who should skip it:</strong> lovers of seamless handle-less surfaces, dark-and-moody palette seekers (this style's darkness lives in furniture, never walls), and anyone unwilling to dust objects — this is a home with things in it, proudly.</p>
-<p>Section 11</p>
+<p>Income mid-to-high, but with a distinctive pattern: <strong>collectors on instalment</strong> — clients who build the shell with us and add one fine piece a year.</p>
+<ul>
+  <li><strong>Retired couples</strong> are its happiest owners; the furniture heights are kind and the mood is theirs.</li>
+  <li><strong>Families with kids:</strong> genuinely good — solid wood survives childhood better than laminate flat-pack, cotton washes, and the home teaches its objects' stories; keep glass-front cases toughened or high.</li>
+  <li><strong>Pet owners:</strong> the one real conflict is cats versus cane — choose solid-seat pieces or accept the webbing as a scratching casualty.</li>
+  <li><strong>Who should skip it:</strong> lovers of seamless handle-less surfaces, dark-and-moody palette seekers (this style's darkness lives in furniture, never walls), and anyone unwilling to dust objects — this is a home with things in it, proudly.</li>
+</ul>
 <h2>Advantages and Disadvantages, Without the Sales Pitch</h2>
 <div class="table-wrap">
 <table>
@@ -210,13 +217,17 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 12</p>
 <h2>Maintenance Level: Medium — a Home You Tend, Not Just Clean</h2>
 <p>Upkeep rating:  3 / 5 — more rituals than chores</p>
 <p><strong>Why 3/5:</strong> nothing here is fragile — quite the opposite — but the style carries more surfaces, more objects and more natural materials than flush-front styles, and natural materials have seasons. Owners who enjoy tending a home rate this maintenance a pleasure; owners who want zero-thought upkeep should read the rating as a warning.</p>
-<p><strong>Daily:</strong> nothing beyond normal tidying — solid wood shrugs off daily life. <strong>Weekly:</strong> the dusting round — horizontal wood surfaces show Bangalore's dust in about 48 hours; a soft brush over cane weave; dry-wipe brass you want bright. <strong>Monthly:</strong> barely-damp wipe of cane; leather check; plant grooming. <strong>Yearly:</strong> the rituals that pay compound interest — wax or polish coat on hero wood pieces (₹2–5k per piece professionally, or a satisfying DIY), leather conditioning, re-oiling any butcher-block, and a joinery check after the monsoon: solid wood moves with humidity, and a slightly stiff drawer in August that eases by December is normal physics, not a defect. <strong>Every 5–8 years:</strong> re-tension or re-weave working cane seats; re-polish high-wear tabletops.</p>
+<ul>
+  <li><strong>Daily:</strong> nothing beyond normal tidying — solid wood shrugs off daily life.</li>
+  <li><strong>Weekly:</strong> the dusting round — horizontal wood surfaces show Bangalore's dust in about 48 hours; a soft brush over cane weave; dry-wipe brass you want bright.</li>
+  <li><strong>Monthly:</strong> barely-damp wipe of cane; leather check; plant grooming.</li>
+  <li><strong>Yearly:</strong> the rituals that pay compound interest — wax or polish coat on hero wood pieces (₹2–5k per piece professionally, or a satisfying DIY), leather conditioning, re-oiling any butcher-block, and a joinery check after the monsoon: solid wood moves with humidity, and a slightly stiff drawer in August that eases by December is normal physics, not a defect.</li>
+  <li><strong>Every 5–8 years:</strong> re-tension or re-weave working cane seats; re-polish high-wear tabletops.</li>
+</ul>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>The sun rule</strong> One placement decision prevents most cane and fabric aging in this style: nothing woven and nothing printed sits in direct afternoon sun. Bangalore's west light is the specific culprit — it embrittles cane and fades botanicals within two to three years. Sheers, khus blinds, or simply the other wall.</div>
-<p>Section 13</p>
 <h2>Approximate Costs and the Full Budget Breakdown (2026)</h2>
 <p>Working bands from delivered Enteriors projects, Bangalore &amp; Hosur. Note the structural difference from modular styles: <strong>loose furniture takes a bigger share, fitted woodwork a smaller one.</strong></p>
 <div class="table-wrap">
@@ -255,7 +266,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Upgrades worth taking, in order:</strong> solid wood on the dining top and bed → hand-woven cane on the two most-used seats → PVD brass taps → the silent DC designer fan → lime-effect paint in the living room. <strong>Hidden costs to budget:</strong> polishing labour (multi-coat hand finishes on heroes, ₹3–8k per piece), re-caning fund (deferred but real), antique restoration if you buy old (often 30–50% of purchase price again), and monsoon-season joinery adjustment visits in year one — we build one into handover; ask any vendor to.</p>
 <p>Factory-direct matters differently here: on fitted work it removes the usual 20–30% margin, and on hero furniture our workshop builds to drawing at maker's cost rather than boutique retail — the arithmetic is in our <a href="/cost/essential-vs-luxury-budget/">essential vs luxury guide</a>.</p>
 <p><strong>How we priced this guide</strong> <br> Bands compiled from delivered Enteriors colonial-leaning and heritage projects (2025–mid 2026) across Bangalore and Hosur, cross-checked against current input costs for teak and hardwood, cane sheet and hand-weaving labour, IS 303/IS 710 ply, brass and PVD hardware as of July 2026. Excludes GST (18%), civil work and antique purchases. Final pricing follows measured dimensions and signed selections.</p>
-<p>Section 14</p>
 <h2>Project Timeline: Craft Sets the Pace</h2>
 <div class="table-wrap">
 <table>
@@ -273,7 +283,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>The critical path is always the hand-finished heroes — which is why we release them to the workshop the day the design signs off, ahead of everything else. Stage-by-stage sequencing for any project lives in our <a href="/planning/interior-timeline/">timeline guide</a>; large-home budget scaling in the <a href="/cost/4-bhk-villa-cost/">4BHK, villa &amp; duplex cost guide</a>.</p>
-<p>Section 15</p>
 <h2>Indo-Colonial vs the Styles It's Confused With</h2>
 <div class="table-wrap">
 <table>
@@ -301,37 +310,26 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Would you rather spend ₹80,000 on one table that outlives you or on a room of pieces you'll replace in eight years?</strong> The first instinct is Indo-Colonial's whole economics.</li>
   <li><strong>Is dusting a bookshelf a chore or a visit?</strong> Be honest — the answer predicts your year-three satisfaction better than any mood board.</li>
 </ol>
-<p>📷</p>
 <p>Split comparison: Indo-Colonial living room vs Traditional Indian living room (AI prompt #25 in kit). <br> File: <code>indo-colonial-vs-traditional-indian-interior.webp</code> · 1200×800 <br> Alt: <code>Indo-Colonial vs Traditional Indian interior design comparison of living rooms</code></p>
 <p>Same craftsmen, different briefs: Traditional celebrates ornament; Indo-Colonial edits it against a white field.</p>
-<p>Section 16</p>
 <h2>Common Mistakes (and What They Cost)</h2>
-<p>01</p>
-<h4>The theme-park slide</h4>
+<h4>1. The theme-park slide</h4>
 <p>Pith helmets, fake gramophones, "Raj" signage — one prop too many turns gracious into costume. <strong>Fix:</strong> only objects with genuine use or genuine history; if it exists solely to signal the theme, it's the theme's enemy.</p>
-<p>02</p>
-<h4>Dark walls behind dark wood</h4>
+<h4>2. Dark walls behind dark wood</h4>
 <p>The style's contrast engine dies and the room turns cave. <strong>Fix:</strong> the white field is non-negotiable — darkness lives in furniture, never walls.</p>
-<p>03</p>
-<h4>Four-poster under a 9ft slab</h4>
+<h4>3. Four-poster under a 9ft slab</h4>
 <p>Posts to the ceiling read oppressive, not grand — the piece needs air above it. <strong>Fix:</strong> below 9.5–10ft, the tall cane headboard delivers the presence without the posts.</p>
-<p>04</p>
-<h4>High-gloss PU over teak tones</h4>
+<h4>4. High-gloss PU over teak tones</h4>
 <p>Mirror-gloss over warm wood reads like plastic and shows every scratch. <strong>Fix:</strong> matte or satin melamine/PU, or the hand-rubbed finish — the glow, not the glare.</p>
-<p>05</p>
-<h4>Mixed wood undertones</h4>
+<h4>5. Mixed wood undertones</h4>
 <p>A red-brown rosewood chair beside a yellow-brown "teak" laminate wardrobe reads second-hand-shop. <strong>Fix:</strong> pick one undertone family, carry stain and laminate samples to every purchase.</p>
-<p>06</p>
-<h4>Chrome anywhere</h4>
+<h4>6. Chrome anywhere</h4>
 <p>One chrome tap or handle punches a hole in the brass-and-wood warmth. <strong>Fix:</strong> brass or antique-brass PVD home-wide, written into the BOQ so no trade improvises.</p>
-<p>07</p>
-<h4>Cane in the west window</h4>
+<h4>7. Cane in the west window</h4>
 <p>Two summers of direct afternoon sun and the weave yellows and cracks. <strong>Fix:</strong> placement first, khus/sheer layer second — the sun rule from the maintenance section.</p>
-<p>08</p>
-<h4>Heavy false ceilings</h4>
+<h4>8. Heavy false ceilings</h4>
 <p>Multi-level gypsum drama steals the height this style breathes on and demotes the fan. <strong>Fix:</strong> plain ceiling, service border only if forced, fan on its stage.</p>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>Climate adaptation for Bangalore &amp; Hosur</strong> Good news first: this climate is the style's home ground — moderate humidity keeps cane supple where Delhi dryness cracks it. Three local edits: expect and allow seasonal solid-wood movement (a monsoon-stiff drawer is physics, not defect — good joinery leaves it room); dust discipline on dark polished horizontals, which show a film in about 48 hours here; and the west-sun rule for cane, prints and fabrics — sheers or khus blinds on those exposures.</div>
-<p>Section 17</p>
 <h2>20 Designer Tips From the Factory Floor</h2>
 <ol>
   <li>List your hero pieces before anything else — the bed, dining set and one great chair set the budget's spine and the workshop's critical path.</li>
@@ -355,7 +353,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Book the monsoon-adjustment visit into your contract — drawer and door tuning after the first humid season should be included, not billed.</li>
   <li>Collect slowly. This style rewards a decade of patience more than a week of shopping — and looks better every year you do.</li>
 </ol>
-<p>Section 18</p>
 <h2>Best Brands and Sources for an Indo-Colonial Build (India)</h2>
 <div class="table-wrap">
 <table>
@@ -376,18 +373,19 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>Ranges change; we re-verify at BOQ stage. Factory-direct means materials invoiced transparently at procurement cost plus stated margin — including the workshop-built hero furniture.</p>
-<p>Section 19</p>
 <h2>Sustainability: The Original Circular Style</h2>
 <p>Indo-Colonial is sustainable the way it's beautiful — by construction. <strong>Restored antiques are the deepest recycling in interiors</strong>: a re-caned, re-polished 80-year-old chair embodies zero new timber and displaces a factory piece entirely.</p>
 <p>For new wood, <strong>FSC-certified or plantation teak</strong> answers the ethics question the species raises; stained hardwood substitutes lighten the footprint further. <strong>Lime wash breathes</strong> — it regulates wall moisture naturally and carries minimal VOCs; pair it with low-VOC emulsions (Royale Atmos-class) elsewhere.</p>
 <p>The style's <strong>passive-cooling DNA</strong> is its biggest ongoing saving: fans over compressors, cane over foam, pale walls over heat-absorbing drama — households consistently run less AC in these homes, by design.</p>
 <p>Cane and jute are fast-renewable crops supporting living craft economies; and the repair culture — re-caning, re-polishing, re-covering — means this home's furniture graph points at your grandchildren, not at a landfill.</p>
-<p>Section 20</p>
 <h2>Where Indo-Colonial Is Heading</h2>
-<p><strong>The boutique-hotel effect keeps compounding</strong> — a decade of heritage properties rebuilding Indian hospitality's identity on this vocabulary has made it aspirational to a generation that never saw a bungalow. <strong>Modern colonial</strong> is the growth edit: paler woods, more white space, cane promoted to headboards and wardrobe panels, the formality relaxed. <strong>Cane went mainstream</strong> — its appearance across mass furniture is this style's language spreading, which makes the authentic full version read even richer by contrast.</p>
+<ul>
+  <li><strong>The boutique-hotel effect keeps compounding</strong> — a decade of heritage properties rebuilding Indian hospitality's identity on this vocabulary has made it aspirational to a generation that never saw a bungalow.</li>
+  <li><strong>Modern colonial</strong> is the growth edit: paler woods, more white space, cane promoted to headboards and wardrobe panels, the formality relaxed.</li>
+  <li><strong>Cane went mainstream</strong> — its appearance across mass furniture is this style's language spreading, which makes the authentic full version read even richer by contrast.</li>
+</ul>
 <p>On the technology side the style adapts gracefully: <strong>silent DC fans with app scheduling</strong> modernise its signature appliance, warm-dim smart lighting recreates lamplight programmatically, and PVD finishes solved brass's maintenance objection. At the luxury end, <strong>restored-antique sourcing and Athangudi commissions</strong> are becoming the differentiator — provenance is the new premium.</p>
 <p>The trajectory is simple: the style isn't trending because it never left; India is just remembering it built something perfect for itself.</p>
-<p>Section 21</p>
 <h2>Planning Checklists: Print These</h2>
 <h3>Buying &amp; budget checklist</h3>
 <ul>
@@ -414,9 +412,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Handover photos per room as the styling reference</li>
 </ul>
 <div class="callout"><span class="callout__title">Note</span><strong>Things customers usually forget</strong> Fan-point positions (centred on the seating group, not the room's geometric centre), a dedicated lamp circuit so the evening mood is one switch, the botanical-gallery framing budget, mosquito-net provision on the four-poster (the frame's original job), and storage for the style's off-season textiles — block-print layers rotate, and they need a shelf eleven months a year too.</div>
-<p>Section 22</p>
 <h2>25 Questions Buyers Actually Ask</h2>
-<p>Section 23</p>
 <h2>The Final Verdict</h2>
 <p><strong>Choose Indo-Colonial if:</strong> you love permanence, your comfort ideal involves a fan, a chair and a book, you own or want heirloom furniture, and your home has decent light and — ideally — height. It will repay you in climate-native comfort, generational durability and a home that gains character every year instead of dating.</p>
 <p><strong>Avoid it if:</strong> you want seamless hidden-everything surfaces, dark moody walls, zero dusting, or a look you can install in a fortnight. This style is tended, collected and lived into — that's its price and its point.</p>

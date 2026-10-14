@@ -19,8 +19,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <h2>Why Interior Projects Often Exceed the Original Budget</h2>
 <p>A home interior budget overrun is one of the most stressful experiences a homeowner can face. You started with a clear number in mind — say ₹8 lakhs for a 2BHK — you got a quotation that matched it, and yet, three months later, you find yourself having spent ₹11 or 12 lakhs. This is not unusual. <strong>Studies of residential interior projects in India show that 60–70% of homeowners spend more than their initial quotation.</strong></p>
 <p>The reasons fall into two buckets: <strong>things the interior company did not tell you</strong>, and <strong>things you did not ask about</strong>. This guide covers both in full detail so you can walk into your next quotation meeting fully informed.</p>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span>⚠️</p>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>The Lowest Quotation Trap:</strong> The most dangerous moment in any interior project is when you choose the company with the lowest quotation. Low quotes are almost always low because they exclude items you will eventually need — and charge for them later, once you are mid-project and have no easy exit.</div></div>
+<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>The Lowest Quotation Trap:</strong> The most dangerous moment in any interior project is when you choose the company with the lowest quotation. Low quotes are almost always low because they exclude items you will eventually need — and charge for them later, once you are mid-project and have no easy exit.</div>
 <h3>The Difference Between Estimated Cost and Final Cost</h3>
 <p>An estimate is a projection based on assumptions. A final cost is based on reality. The gap between the two is almost always caused by one or more of the following: material grade upgrades chosen by the homeowner, additional scope added during execution, site conditions that required extra civil or correction work, and logistics and taxes that were not prominently disclosed in the original quote.</p>
 <h3>The Psychology of Low Initial Quotations</h3>
@@ -37,40 +36,28 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 </ul>
 <h2>The Biggest Hidden Cost Categories</h2>
 <p>Here is a structured overview of every major category where additional costs appear in home interior projects. We have ranked them by the likelihood and magnitude of impact on a typical 2–3BHK project.</p>
-<p>🪵</p>
 <h4>Material Upgrades</h4>
 <p>₹50K – ₹2L+ Plywood, laminate, acrylic, PU, veneer</p>
-<p>⚙️</p>
 <h4>Hardware Upgrades</h4>
 <p>₹30K – ₹1.5L Soft close, tandem drawers, imported fittings</p>
-<p>🍳</p>
 <h4>Kitchen Add-ons</h4>
 <p>₹25K – ₹1L Pull-outs, corner units, countertop upgrades</p>
-<p>🚪</p>
 <h4>Wardrobe Extras</h4>
 <p>₹15K – ₹80K Drawers, organizers, lighting, loft</p>
-<p>💡</p>
 <h4>Electrical &amp; Lighting</h4>
 <p>₹20K – ₹1.5L Points, cove lighting, smart switches, automation</p>
-<p>🏗️</p>
 <h4>False Ceiling</h4>
 <p>₹15K – ₹60K Additional levels, profiles, lighting integration</p>
-<p>🔧</p>
 <h4>Site Execution</h4>
 <p>₹10K – ₹80K Wall corrections, flooring, waterproofing issues</p>
-<p>🪑</p>
 <h4>Furniture &amp; Décor</h4>
 <p>₹1L – ₹5L+ Sofa, dining, curtains, rugs, artwork</p>
-<p>🏠</p>
 <h4>Appliances</h4>
 <p>₹1L – ₹4L+ Kitchen appliances, AC, refrigerator</p>
-<p>🔄</p>
 <h4>Design Changes</h4>
 <p>₹10K – ₹1L Mid-project revisions, material reorders</p>
-<p>🚛</p>
 <h4>Logistics &amp; Taxes</h4>
 <p>₹15K – ₹60K Transportation, shifting, GST, cleaning</p>
-<p>🏢</p>
 <h4>Builder Issues</h4>
 <p>₹5K – ₹50K Correction of builder defects before installation</p>
 <h2>Hidden Costs in Material Selection</h2>
@@ -209,8 +196,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 </ul>
 <h2>Hidden Costs Related to Builder Handover Issues</h2>
 <p>For new apartment buyers, builder handover quality directly impacts interior costs. Defects in the builder's work that are discovered during the interior project often need to be corrected before installation can proceed — and this correction work is rarely included in any interior quotation.</p>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span>🏢</p>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>Always do a builder defect inspection before signing your interior contract.</strong> Identify missing electrical points, incomplete plumbing, waterproofing issues, and flooring defects. Get these rectified by the builder before interior work begins — do not let your interior company fix builder defects at your cost.</div></div>
+<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>Always do a builder defect inspection before signing your interior contract.</strong> Identify missing electrical points, incomplete plumbing, waterproofing issues, and flooring defects. Get these rectified by the builder before interior work begins — do not let your interior company fix builder defects at your cost.</div>
 <h2>Hidden Costs Caused by Design Changes</h2>
 <p>Mid-project design changes are expensive — far more expensive than people realise. Once manufacturing has begun, any change to a design requires: stopping production of the affected unit, potentially scrapping already-cut panels, reordering new materials, restarting production, and adjusting the installation schedule. <strong>A single "small" change mid-project can add ₹15,000–₹80,000 to the bill.</strong></p>
 <p><strong>Rule of Thumb:</strong> A change made before design sign-off costs zero. A change made after design sign-off but before manufacturing costs a design revision fee. A change made after manufacturing has started costs material waste + rework + delay. A change made after installation costs everything — removal, rework, reinstallation, and finishing.</p>
@@ -271,8 +257,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
   </tbody>
 </table>
 </div>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span>🧾</p>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>GST Note:</strong> GST at 18% applies to most interior work services. If a quotation of ₹8 lakhs does not include GST, the actual tax-inclusive cost is ₹9,44,000 — a difference of ₹1,44,000 that many homeowners discover only at billing stage.</div></div>
+<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>GST Note:</strong> GST at 18% applies to most interior work services. If a quotation of ₹8 lakhs does not include GST, the actual tax-inclusive cost is ₹9,44,000 — a difference of ₹1,44,000 that many homeowners discover only at billing stage.</div>
 <h2>Understanding Interior Design Quotation Exclusions</h2>
 <p>Learning to read an interior quotation correctly is the single most powerful skill a homeowner can develop. A quotation is a legal document — what it includes and what it excludes defines exactly what you are entitled to receive for the stated price.</p>
 <h3>What Is Usually Included in a Quotation</h3>
@@ -340,26 +325,19 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p>Renovation projects with unknowns behind existing walls</p>
 <h2>How to Prevent Interior Cost Overruns</h2>
 <p>The best protection against budget overruns is information and process. Here is a step-by-step approach that experienced homeowners use to keep their interior projects on budget.</p>
-<p>1</p>
-<h4>Finalise Designs Before Production Starts</h4>
+<h4>1. Finalise Designs Before Production Starts</h4>
 <p>Every element — materials, hardware brand, internal configuration, colour — must be locked before manufacturing begins. Do not allow production to start on "we'll decide the details later."</p>
-<p>2</p>
-<h4>Demand a Line-Item Quotation with Brand Names</h4>
+<h4>2. Demand a Line-Item Quotation with Brand Names</h4>
 <p>Ask for the plywood brand and grade, the laminate catalogue name, the hardware brand (Hettich/Hafele/Blum), and the finish specification — not generic descriptions like "premium quality" or "best material."</p>
-<p>3</p>
-<h4>Ask for an Explicit Exclusions List</h4>
+<h4>3. Ask for an Explicit Exclusions List</h4>
 <p>Every quotation should have a clear "Scope Exclusions" section. If the company you are evaluating cannot tell you clearly what is not included, that is a red flag.</p>
-<p>4</p>
-<h4>Confirm GST Status of the Quote</h4>
+<h4>4. Confirm GST Status of the Quote</h4>
 <p>Ask directly: "Is this quote inclusive or exclusive of GST?" If exclusive, add 18% to arrive at your real budget commitment.</p>
-<p>5</p>
-<h4>Lock Materials in One Session</h4>
+<h4>5. Lock Materials in One Session</h4>
 <p>Visit the showroom once, choose all laminates, hardware, and finishes, and sign off. Every additional visit is an opportunity to upgrade — and upgrades cost money.</p>
-<p>6</p>
-<h4>Maintain a Contingency Fund (Separate)</h4>
+<h4>6. Maintain a Contingency Fund (Separate)</h4>
 <p>Keep 15–20% of your quoted amount in a separate account, untouched. This is your insurance against the genuine unknowns of site execution.</p>
-<p>7</p>
-<h4>Avoid Mid-Project Changes</h4>
+<h4>7. Avoid Mid-Project Changes</h4>
 <p>Once you have signed off and manufacturing has started, discipline yourself not to change the design. Trust the process, trust the 3D visualization, and let the work proceed.</p>
 <h2>Homeowner's Hidden Cost Checklist Before Signing a Contract</h2>
 <p>Print this checklist and use it in your contract review meeting. Every unchecked item is a potential hidden cost waiting to appear on your final invoice.</p>

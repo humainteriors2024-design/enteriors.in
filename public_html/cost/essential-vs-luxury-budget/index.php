@@ -27,7 +27,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Before You Start</p>
 <h2>Why Every Homeowner Must Understand Interior Categories Before Getting a Single Quote</h2>
 <p>Every year, thousands of homeowners in India sign interior contracts without truly understanding what they are paying for. They compare quotes based on the final number alone — not the materials, not the plywood grade, not the hardware brand, not the warranty terms. The result? Either overpaying for something they didn't need, or underpaying and regretting it within two monsoon seasons.</p>
 <p>Interior companies don't always make it easy. A quote might say "18mm commercial ply with laminate finish" and another might say "18mm BWP ply with imported laminate" — and to a homeowner, both sound the same. They are not. One might cost twice as much and last three times as long.</p>
@@ -39,19 +38,14 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Why Quotes Vary From ₹3 Lakhs to ₹30 Lakhs for the Same Home</h3>
 <p>The answer lies in a stack of decisions: What grade of plywood is being used as the base? Is the shutter MDF or HDHMR? Are the hinges and channels Indian-manufactured economy grade or Hettich/Blum from Germany? Is the laminate a ₹400/sheet domestic brand or a ₹1,200/sheet imported surface? Is there a designer involved, or is it a standard modular catalogue? Does the warranty cover 2 years or 10 years?</p>
 <p>Each of these decisions compounds. When you add them all up across a full 3BHK, the difference between a basic interior and a premium interior can easily be ₹12–15 lakhs — not because one company is cheating you, but because they are genuinely building different things.</p>
-<p>The Big Picture</p>
 <h2>Understanding the 4 Major Interior Categories at a Glance</h2>
 <p>Before diving deep, here is a quick orientation. Indian home interiors can be broadly grouped into four categories based on materials, design intent, and investment level:</p>
-<p>01</p>
 <p>Basic</p>
 <p>₹800–₹1,200/sq.ft</p>
-<p>02</p>
 <p>Mid-Range</p>
 <p>₹1,200–₹1,800/sq.ft</p>
-<p>03</p>
 <p>Premium</p>
 <p>₹1,800–₹3,000/sq.ft</p>
-<p>04</p>
 <p>Designer</p>
 <p>₹3,000+ /sq.ft</p>
 <h4>Basic Interiors</h4>
@@ -62,7 +56,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Imported finishes, high-quality hardware systems, custom layouts, profile lighting. Chosen by homeowners who want a refined, long-lasting home without a full designer budget.</p>
 <h4>Designer Interiors</h4>
 <p>Concept-driven, completely bespoke. A lead designer shapes every room as a narrative. Natural materials, custom furniture, architectural interventions. No off-the-shelf elements.</p>
-<p>Category 01</p>
 <h2>Basic Interiors — Fully Explained</h2>
 <p>Basic interiors are exactly what the name implies: functional, clean, and no-frills. They cover the essential furniture needs of a home without decorative extras, premium materials, or custom design work. This is the entry point into the interior world and serves a very specific audience well.</p>
 <h3>Basic Interiors — At a Glance</h3>
@@ -102,7 +95,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Properties that are not permanent residences (holiday homes, in-laws' quarters)</li>
 </ul>
 <div class="callout"><span class="callout__title">Note</span><strong>Reality check:</strong> Basic interiors are not "bad" — they are appropriate for the right use case. The mistake is choosing basic interiors for a home you plan to live in for 15+ years, because the lower-grade materials and hardware will begin showing wear and failure much sooner than the home itself.</div>
-<p>Category 02</p>
 <h2>Mid-Range Interiors — Fully Explained</h2>
 <p>Mid-range interiors represent the sweet spot of the Indian interior market — and for good reason. They offer meaningfully better materials and hardware than basic interiors, allow for real customisation, and stay within a budget range that most urban homeowners can comfortably justify.</p>
 <p>This is the category most recommended for permanent family residences in metro and tier-2 cities.</p>
@@ -141,7 +133,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Design Possibilities in Mid-Range</h3>
 <p>This is where real customisation begins. Kitchen layouts adapt to actual room measurements with some creative input. Wardrobes can be fully customised — loft heights, drawer placement, shoe rack depth, and internal organiser configurations can all be specified. TV units can include open shelves, closed cabinets, and integrated back panels in different finishes.</p>
 <p>However, the design is still largely furniture-led. There is no room concept, no lighting story, no architectural intervention — just well-made, well-fitted furniture designed to function comfortably for 7–12 years.</p>
-<p>Category 03</p>
 <h2>Premium Interiors — Fully Explained</h2>
 <p>Premium interiors cross the threshold from "well-made furniture" into "designed home". At this level, the materials become noticeably different to the eye and touch, the hardware systems work with a quietness and precision that feels qualitatively different, and the design starts to reflect a homeowner's personality rather than a catalogue.</p>
 <h3>Premium Interiors — At a Glance</h3>
@@ -187,7 +178,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Premium interiors almost always include a designed false ceiling — not just a plain gypsum box, but a layered concept that incorporates coves, recesses, different ceiling heights, and integrated lighting. The false ceiling ties the room together and frames the furniture below it architecturally.</p>
 <h4>Profile Lighting and Fluted Panels</h4>
 <p>Integrated LED strip lighting behind or below profiles, inside wardrobes, under kitchen wall cabinets, and within TV units transforms a room from furniture-in-a-box to a curated environment. Fluted wood or MDF panels on feature walls, behind beds, or as wardrobe shutter fronts have become the defining visual language of premium Indian interiors in 2024–26.</p>
-<p>Category 04</p>
 <h2>Designer Interiors — Fully Explained</h2>
 <p>Designer interiors are a fundamentally different product from the other three categories. They are not just more expensive premium interiors — they represent a shift in approach from furniture-making to space design. A designer interior begins not with a catalogue or a module, but with a concept: who lives here, how do they live, what should this space feel like, what story should it tell?</p>
 <h3>Designer Interiors — At a Glance</h3>
@@ -227,25 +217,16 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Brass, bronze or blackened steel inlays within furniture joinery, leather-wrapped panel surfaces, hand-applied plaster finishes, and hand-beaten metal cabinet pulls are design elements that exist only in the bespoke space. They create a tactile richness that photographs beautifully and ages graciously.</p>
 <h3>Advanced Design Deliverables</h3>
 <p>A designer project includes a full documentation package before a single piece of wood is cut: mood boards establishing the visual language, material boards showing actual samples of every specified surface, detailed 3D renders of each room from multiple angles, and in many cases a full video walkthrough of the home before execution begins. This investment in pre-visualisation prevents costly changes mid-execution.</p>
-<p>Material Deep Dive</p>
 <h2>Plywood Across Interior Categories — The Complete Comparison</h2>
 <p>Plywood is the structural backbone of all furniture — it forms the boxes (carcasses) that everything else is built upon. Choosing the wrong grade of plywood is the single most impactful material mistake a homeowner can make, because by the time the damage is visible, the furniture has to be replaced entirely.</p>
-<p>🪵</p>
 <p>Commercial Ply</p>
 <p>Interior Grade · MR Basic</p>
-<p>★☆☆☆</p>
-<p>🪵</p>
 <p>MR Ply</p>
 <p>Moisture Resistant</p>
-<p>★★☆☆</p>
-<p>🪵</p>
 <p>BWR Ply</p>
 <p>Boiling Water Resistant</p>
-<p>★★★☆</p>
-<p>🪵</p>
 <p>BWP 710 Ply</p>
 <p>Boiling Waterproof</p>
-<p>★★★★</p>
 <div class="table-wrap">
 <table>
   <thead>
@@ -263,7 +244,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Note</span><strong>What to demand in your contract:</strong> Ask your interior company to specify the exact plywood grade in writing — not just "ply" or "marine ply". "Marine ply" is an informal term. The contract should say <strong>IS:710 BWP Grade</strong> or <strong>BWR Grade with IS:303 compliance</strong>. If they refuse to specify, that tells you something important.</div>
-<p>Finishes Guide</p>
 <h2>Shutter Finishes Across Interior Categories — What They Look, Feel and Last Like</h2>
 <p>The finish is what you see, touch and live with every day. It is also one of the most misunderstood variables in interior quotes. Here is a complete breakdown of every major finish type:</p>
 <div class="table-wrap">
@@ -282,7 +262,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Hardware Guide</p>
 <h2>Hardware Comparison — Budget vs Premium Systems</h2>
 <p>Hardware is the part of your interior that you physically interact with every single day — every time you open a drawer, close a cabinet door, or pull out a shelf. It is also the part that is most commonly downgraded silently in lower-budget quotes, because the homeowner can't see a hinge brand from across the room.</p>
 <p>Here is what the hardware landscape looks like across categories:</p>
@@ -303,7 +282,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Note</span><strong>Homeowner tip:</strong> Always ask for the hardware brand to be named in the contract. "Soft-close hardware" without a brand name means nothing — a ₹30 Chinese soft-close hinge and a ₹180 Hettich hinge are both technically "soft-close". The difference in feel, sound and lifespan is enormous.</div>
-<p>Room-by-Room Comparison</p>
 <h2>How Design Changes Across All 4 Categories — Room by Room</h2>
 <h3>Kitchen Design Comparison</h3>
 <div class="table-wrap">
@@ -351,7 +329,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Lighting</p>
 <h2>Lighting Across Interior Categories</h2>
 <p>Lighting is the single most impactful element that separates a basic interior from a beautiful one — and it is also the most underinvested area in budget projects. Here is what lighting looks like at each tier:</p>
 <h4>Overhead Only</h4>
@@ -362,7 +339,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Ambient (cove), task (under-cabinet, desk), accent (shelf LEDs, fluted panel backlight). Warm vs cool tones differentiated by zone. Dimmer-compatible circuits.</p>
 <h4>Curated Lighting Plan</h4>
 <p>Full lux-level calculations per zone. Statement fixtures specified. Colour temperature planned room by room. Smart dimming integration. Lighting is as important as furniture.</p>
-<p>Budget Planning</p>
 <h2>Interior Budget Breakdown for a 2BHK and 3BHK Home</h2>
 <p>These are indicative ranges based on a standard 2BHK (850–1000 sq.ft carpet area) and 3BHK (1200–1400 sq.ft carpet area) in metro India (Bengaluru, Hyderabad, Chennai, Mumbai, Pune). Costs vary by city, site conditions, and specific design choices.</p>
 <h3>2BHK Interior Budget Estimates</h3>
@@ -422,7 +398,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Decision Guide</p>
 <h2>How to Choose the Right Interior Category for Your Home</h2>
 <h3>Based on Your Budget</h3>
 <p>Be realistic. Interior work done right the first time saves you from redoing it in 5 years. If your total available budget is ₹6–8 lakhs for a 2BHK, mid-range is your target — don't stretch to premium and compromise on finishing or execution to fit the budget. A well-executed mid-range interior will outlast and outperform a poorly-executed premium one every time.</p>
@@ -441,7 +416,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The scale and permanence of a villa justifies premium or designer category investment. Floor-to-ceiling heights, larger rooms, and architectural openings create a canvas that mid-range interiors often under-utilise.</p>
 <h4>Rental Properties</h4>
 <p>Basic interiors with one upgrade: always use BWR ply for carcasses even in rental properties. It's a small cost difference that prevents the ply from swelling during the tenancy and the cabinets from needing replacement at turnover.</p>
-<p>Avoid These</p>
 <h2>Common Mistakes Homeowners Make When Comparing Interior Quotes</h2>
 <ul>
   <li><strong>Comparing only the final number.</strong> A ₹7 lakh quote with BWR ply and Hettich hardware is worth more than a ₹8.5 lakh quote with commercial ply and economy hardware. The number means nothing without knowing what's behind it.</li>
@@ -452,7 +426,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Not budgeting for site preparation.</strong> Flooring, electrical points for appliances, plumbing for the kitchen, wall preparation for panelling — these are often excluded from interior quotes but are real costs. Always ask for the exclusions list.</li>
 </ul>
 <p>Checklist</p>
-<p>Final Verdict</p>
 <h2>Which Interior Category Is Right for You?</h2>
 <h4>Basic Interiors</h4>
 <p>If this is a rental property, an investment flat, or a home you plan to upgrade in under 7 years — basic with one upgrade (BWR ply) is your answer. Don't overspend.</p>

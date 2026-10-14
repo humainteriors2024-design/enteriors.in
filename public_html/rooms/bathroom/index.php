@@ -23,14 +23,12 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>The Concept</p>
 <h2>What Exactly Is a Vanity Room?</h2>
 <p>In contemporary Indian interior design, "vanity room" refers to a dedicated grooming and personal care space — a bathroom elevated beyond pure utility into a room with considered design, adequate storage, intentional lighting, and a vanity unit worthy of the time spent there. It sits on a spectrum between a basic toilet-bathroom combination (the Indian standard) and a full Western-style master bath with separate bath, shower, and dressing area.</p>
 <p>The distinction matters because it reframes the design conversation. A bathroom is designed around a toilet, a shower, and a basin — the minimum. A vanity room is designed around a <em>person</em> — their morning and evening routine, their products, their mirror time, their need for warm light, clear countertop space, and a towel that is actually within reach when they step out of the shower.</p>
-<div class="callout"><span class="callout__title">Note</span>Design Principle</p>
-The best bathroom designs are choreographed, not just equipped. The sequence of use — enter, undress, shower, dry, groom, dress — should flow without doubling back or reaching across wet surfaces. Plot this sequence on paper before specifying a single tile.</div>
+<div class="callout"><span class="callout__title">Design Principle</span>
+<p>The best bathroom designs are choreographed, not just equipped. The sequence of use — enter, undress, shower, dry, groom, dress — should flow without doubling back or reaching across wet surfaces. Plot this sequence on paper before specifying a single tile.</p></div>
 <p>In this guide we cover both the dedicated vanity/dressing room (attached to a master bedroom) and the combined bathroom-vanity that forms the master bathroom in most Indian apartments, villas, and individual homes.</p>
-<p>The Problem</p>
 <h2>Why Indian Bathrooms Are Chronically Underdesigned</h2>
 <p>The typical Indian bathroom renovation follows a pattern: replace old tiles with new tiles, swap the old commode for a new one, change the geyser, add a single overhead light, and call it done. The entire exercise costs ₹60,000–1,20,000 and produces a space that looks cleaner but still does not work as a room.</p>
 <p>Five structural reasons drive this pattern:</p>
@@ -41,9 +39,8 @@ The best bathroom designs are choreographed, not just equipped. The sequence of 
   <li><strong>Ventilation is ignored until it fails:</strong> Most bathrooms get a small exhaust fan installed as an afterthought. Inadequate ventilation creates persistent mould, paint peeling, mirror fogging, and that chronic damp smell within 2–3 monsoon cycles.</li>
   <li><strong>The budget conversation never happens honestly:</strong> A contractor will quote ₹80,000 for a bathroom renovation because that is what the client expects to hear. The honest cost of doing it right for a 50 sq ft bathroom in an apartment is ₹1.8–3.5 lakhs. The gap creates compromised work on both sides.</li>
 </ul>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span>Critical Reality</p>
-Bathroom renovations have the highest risk of hidden cost escalation of any interior work. Tile removal reveals broken waterproofing. Plumbing relocation uncovers corroded pipes. Always budget a 25% contingency over your quoted cost — not 10%, which is industry-standard advice but consistently insufficient in Indian bathrooms over 8 years old.</div>
-<p>Property Guide</p>
+<div class="callout callout--warn"><span class="callout__title">Critical Reality</span>
+<p>Bathroom renovations have the highest risk of hidden cost escalation of any interior work. Tile removal reveals broken waterproofing. Plumbing relocation uncovers corroded pipes. Always budget a 25% contingency over your quoted cost — not 10%, which is industry-standard advice but consistently insufficient in Indian bathrooms over 8 years old.</p></div>
 <h2>Designing by Property Type</h2>
 <p>Space dimensions, plumbing access, structural permissions, and budget expectations differ dramatically across apartments, villas, and individual homes. The strategy changes with each.</p>
 <p>Apartment</p>
@@ -113,7 +110,6 @@ Bathroom renovations have the highest risk of hidden cost escalation of any inte
   <li>Window into the bathroom for natural light — even a frosted or reeded glass panel between bathroom and an outdoor wall transforms the quality of the space</li>
   <li>A separate water closet compartment (toilet with its own door, 3×5 ft) — the single most quality-of-life improvement for any shared bathroom in a household</li>
 </ul>
-<p>Layout Strategy</p>
 <h2>Bathroom Typologies: Six Configurations</h2>
 <p>Before choosing a single tile, the layout must be decided. The configuration determines how your plumbing costs, how your space is perceived, and how your daily routine flows. These are the six primary configurations used in Indian residential design.</p>
 <p>Single Line</p>
@@ -170,7 +166,6 @@ Bathroom renovations have the highest risk of hidden cost escalation of any inte
   <li>Privacy compromised</li>
   <li>Needs careful door planning</li>
 </ul>
-<p>Materials</p>
 <h2>Tiles &amp; Wall Surfaces: The Full Spectrum</h2>
 <p>Tiles are the single largest cost and the single largest visual statement in a bathroom renovation. The right choice must balance aesthetics, slip resistance (wet floor requires minimum R11 anti-slip rating), maintenance, durability, and budget. Here is every significant option with honest trade-offs.</p>
 <div class="table-wrap">
@@ -190,41 +185,33 @@ Bathroom renovations have the highest risk of hidden cost escalation of any inte
   </tbody>
 </table>
 </div>
-<div class="callout"><span class="callout__title">Note</span><div class="callout"><span class="callout__title">Note</span>Grout Matters More Than You Think</div>
-The grout colour and type directly affects how the bathroom reads — and how much you will clean it. Epoxy grout (₹180–280/kg vs ₹40–80 for cement grout) does not stain, does not crack, and resists mould growth in wet areas. For any tile joint in a shower or wet floor, only epoxy grout should be specified. The extra cost of ₹3,000–8,000 for a whole bathroom eliminates 80% of the long-term maintenance headache.</div>
-<p>Sanitaryware &amp; Fittings</p>
+<div class="callout"><span class="callout__title">Grout Matters More Than You Think</span>
+<p>The grout colour and type directly affects how the bathroom reads — and how much you will clean it. Epoxy grout (₹180–280/kg vs ₹40–80 for cement grout) does not stain, does not crack, and resists mould growth in wet areas. For any tile joint in a shower or wet floor, only epoxy grout should be specified. The extra cost of ₹3,000–8,000 for a whole bathroom eliminates 80% of the long-term maintenance headache.</p></div>
 <h2>Fixtures: Where Quality Pays Back Daily</h2>
 <p>Fixtures are the items you touch every single time you use the bathroom. They are also the items most homeowners compromise on — choosing the cheapest commode, the ₹400 tap, the basic showerhead — and then living with that decision for a decade. Here is what each fixture choice actually means.</p>
-<p>🚽</p>
 <p>Water Closet (WC)</p>
 <p>Wall-hung ₹12,000–55,000 · Floor-mount ₹6,000–28,000</p>
 <p>The single most impactful fixture upgrade. A wall-hung WC with a concealed cistern frees 15–20 cm of visual floor space, makes cleaning the floor completely effortless (no base to mop around), and looks unmistakably premium. Brands: Kohler, TOTO, Roca (premium); Hindware, Parryware, Cera (mid-range, reliable quality). Always specify a dual-flush system (3L/6L) — mandatory for RERA compliance in new buildings and sensible for water conservation everywhere.</p>
-<p>🚿</p>
 <p>Shower System</p>
 <p>Basic: ₹2,500–6,000 · Overhead rain: ₹8,000–35,000 · Thermostatic: ₹25,000–80,000</p>
 <p>A thermostatic shower valve — which holds water temperature constant regardless of pressure fluctuations — is the single most underspecified upgrade in Indian bathrooms. India's variable water pressure makes manual mixer showers alternate between scalding and cold mid-shower. A thermostatic valve eliminates this entirely. Also specify a handheld combo alongside any overhead rain head — the combination covers all use cases (washing hair, rinsing a child, cleaning the enclosure).</p>
-<p>🪣</p>
 <p>Basin &amp; Tap</p>
 <p>Under-counter basin: ₹4,000–18,000 · Vessel/above-counter: ₹6,000–30,000</p>
 <p>Under-counter basins (set into the vanity top) are the most practical for daily use — no pooling at the base of a vessel basin, wipe-clean counter around it, visually clean line. Above-counter vessel basins are stunning but collect water at the junction between vessel and counter.</p>
 <p>Tap quality matters most for longevity: ceramic disc cartridges (specified in quality taps) last 20+ years without dripping. Brass body taps with PVD finish (Physical Vapour Deposition) resist tarnishing 4–5 times better than standard chrome in Indian hard-water conditions.</p>
-<p>🛁</p>
 <p>Bathtub</p>
 <p>Acrylic: ₹18,000–45,000 · Cast iron: ₹55,000–1.8L · Stone resin: ₹80,000–3L</p>
 <p>Acrylic freestanding tubs have improved dramatically in quality — 5–6mm thick acrylic with fibreglass reinforcement is warm to the touch, light enough for most floor slabs, and available in a wide range of forms.</p>
 <p>Cast iron enamelled tubs are the benchmark for heat retention (keeps water warm 30+ minutes) and durability, but weigh 130–180 kg — always verify your slab's load capacity before specifying. Stone resin (composite stone + resin) is the premium modern standard: heavier than acrylic, lighter than cast iron, beautiful matte surface, 30–40 year lifespan.</p>
-<p>🪞</p>
 <p>Vanity Mirror</p>
 <p>Standard mirror: ₹1,200–4,500 · Backlit smart mirror: ₹8,000–35,000</p>
 <p>The mirror is the most-used surface in a vanity room — it deserves serious specification. A backlit mirror (LED behind frosted panel at perimeter) provides the ideal grooming light: even, shadow-free, and flattering.</p>
 <p>A smart mirror with integrated demister pad (heated element on the back) eliminates post-shower fogging in under 60 seconds — the ₹3,000–5,000 add-on that gets used every single day. Size: at minimum, the mirror should equal the vanity width. Floor-to-ceiling mirrors on the entire vanity wall double the perceived size of the room.</p>
-<p>🔥</p>
 <p>Geyser / Water Heater</p>
 <p>Storage 15L: ₹6,000–18,000 · Instant: ₹3,500–12,000 · Heat pump: ₹35,000–75,000</p>
 <p>Instant geysers (tankless) save 30–40% energy vs storage for single-point use. For simultaneous use (shower + basin), a storage geyser is more practical. Specify a 5-star BEE-rated unit regardless of type.</p>
 <p>Heat pump water heaters consume 65–75% less electricity than resistance geysers — the payback period is 3–5 years in Indian electricity tariff conditions, after which you save ₹4,000–8,000 per year in electricity costs.</p>
 <p>Locate the geyser as close to the point of use as possible — every additional metre of pipe adds water wastage waiting for hot water to arrive.</p>
-<p>The Centrepiece</p>
 <h2>Designing the Vanity Unit</h2>
 <p>The vanity unit — the cabinet beneath and around the basin, the mirror zone, the counter surface — is the room's functional and aesthetic anchor. It is what you look at, touch, and use the most. Yet it receives less design attention than any other element in the room. Here is how to design it correctly.</p>
 <h3>Counter Surface Materials</h3>
@@ -249,9 +236,8 @@ The grout colour and type directly affects how the bathroom reads — and how mu
   <li><strong>Ready-made PVC vanity units:</strong> The market (KOHLER, GROHE, Indian brands like Jaquar) offers factory-finished PVC vanity units in standard sizes (60, 90, 120cm widths) that are fully waterproof. More expensive than custom, but zero moisture risk and faster installation.</li>
   <li><strong>Stainless steel vanity cabinets:</strong> The most hygienic and moisture-proof option, increasingly available in matt black or brushed steel finishes. Traditionally associated with hospital aesthetics but now available in residential designs. Lifetime material with zero moisture concern.</li>
 </ul>
-<div class="callout"><span class="callout__title">Note</span>Hardware Matters</p>
-Soft-close hinges and drawer runners in a bathroom will outlast standard hinges by 8–10 years. Bathroom humidity combined with frequent use destroys cheap hardware within 2–3 years. Specify Hettich, Hafele, or Blum hardware for any bathroom cabinet — the ₹800–2,500 premium over local hardware pays back in avoided replacement costs within 5 years.</div>
-<p>Illumination</p>
+<div class="callout"><span class="callout__title">Hardware Matters</span>
+<p>Soft-close hinges and drawer runners in a bathroom will outlast standard hinges by 8–10 years. Bathroom humidity combined with frequent use destroys cheap hardware within 2–3 years. Specify Hettich, Hafele, or Blum hardware for any bathroom cabinet — the ₹800–2,500 premium over local hardware pays back in avoided replacement costs within 5 years.</p></div>
 <h2>Lighting: The Most Functional Room in the House Gets the Worst Light</h2>
 <p>The typical Indian bathroom has a single ceiling-mounted light positioned above and slightly behind where the user stands at the mirror. The result: a shadow on your face precisely where you need to see most clearly. Bathroom lighting is a zone-by-zone design problem, not a single-fixture decision.</p>
 <p>Zone 1 · Mirror</p>
@@ -270,36 +256,28 @@ Soft-close hinges and drawer runners in a bathroom will outlast standard hinges 
 <p>An optional but transformative layer. LED strip lighting under a floating vanity unit creates a warm glow at floor level that makes the space feel grounded.</p>
 <p>A cove light above the shower niche (recessed shelf in the shower wall, a 30×20 cm cut-out in the tile) illuminates toiletries from below and creates a dramatic focal point.</p>
 <p>Niches are the most underused design element in Indian shower design — they are tiled into the wall during construction, cost ₹1,500–3,000 each, and eliminate shower caddy clutter permanently.</p>
-<div class="callout"><span class="callout__title">Note</span>The IP Rating Rule</p>
-All bathrooms are divided into zones by Indian and international electrical standards. Zone 0 (inside the bath/shower) requires IP67. Zone 1 (above the bath/shower to 2.25m height) requires IP45. Zone 2 (60cm from bath/shower edge) requires IP44. Outside these zones, standard IP20 fittings are acceptable. Never install a non-rated light fixture in zones 0 or 1 — it is a safety violation and insurance risk. Every Indian bathroom renovation should include this zone check with the electrician.</div>
-<p>Organisation</p>
+<div class="callout"><span class="callout__title">The IP Rating Rule</span>
+<p>All bathrooms are divided into zones by Indian and international electrical standards. Zone 0 (inside the bath/shower) requires IP67. Zone 1 (above the bath/shower to 2.25m height) requires IP45. Zone 2 (60cm from bath/shower edge) requires IP44. Outside these zones, standard IP20 fittings are acceptable. Never install a non-rated light fixture in zones 0 or 1 — it is a safety violation and insurance risk. Every Indian bathroom renovation should include this zone check with the electrician.</p></div>
 <h2>Storage: Designing for the Real Quantity of Products</h2>
 <p>The average Indian household bathroom contains 35–60 individual products between all users. Most bathrooms are designed to store about 12. The result: counter clutter, products lined up on the shower floor, the back of the toilet being used as a shelf. Storage is not an accessory decision — it is a spatial planning decision that must happen at the design stage.</p>
-<p>🗄️</p>
 <p>Recessed Wall Niche</p>
 <p>30×60 cm per niche · In-wall</p>
 <p>Built into the wall during construction. Takes no floor or countertop space. The best storage addition for any shower. Costs ₹1,500–3,500 each. Plan 2–3 niches: one in the shower at elbow height, one above the basin for frequently used items, one near the toilet for wet wipes and spare rolls.</p>
-<p>🪞</p>
 <p>Mirror Cabinet</p>
 <p>60–120 cm wide · 12–15 cm deep</p>
 <p>A mirror with a cabinet behind it stores 20–30 items without consuming any additional wall space. The mirror itself is preserved; the storage is invisible when closed. Specify one that is recessed into the wall (not surface-mounted) for the cleanest visual result.</p>
-<p>🗃️</p>
 <p>Under-Vanity Cabinet</p>
 <p>Full vanity width · 45–50 cm tall</p>
 <p>The primary storage zone — closed doors, no dust accumulation, can house large items (hair dryer, cleaning products, spare rolls, backup toiletries). Specify 2 drawers for the top section (daily items) and hinged doors below for larger items. A pull-out bin integrated into the vanity cabinet eliminates the floor-standing waste bin.</p>
-<p>📎</p>
 <p>Tall Storage Unit</p>
 <p>40×30×180 cm · Beside vanity</p>
 <p>A floor-to-ceiling tall unit next to the vanity provides towel storage, linen storage, and product backup stock in a 0.12 sqm floor footprint. More efficient per square foot than any other bathroom storage format. Specify adjustable shelves — towel stack heights and product sizes change over time.</p>
-<p>🔑</p>
 <p>Shower Niche + Ledge</p>
 <p>Niche 30×20 cm per slot</p>
 <p>Never use a shower caddy (the hanging wire rack over the showerhead) — they rust, fall, and look perpetually messy. Instead: 2–3 tiled niches built into the shower wall, and a 10 cm deep tiled ledge at waist height along one shower wall for larger items. Plan this before tiling begins — impossible to add after.</p>
-<p>🧴</p>
 <p>Towel Storage</p>
 <p>Heated rail or open shelf</p>
 <p>Indian bathrooms have a chronic towel problem — towels don't dry fully, smell within 24 hours, and migrate to floor racks and door hooks. A heated towel rail (electric, 75–150W, ₹4,500–12,000 installed) dries towels completely within 20 minutes of use. Non-negotiable for monsoon regions. A second option: an open ventilated shelf above the door frame, where warm air naturally accumulates.</p>
-<p>Infrastructure</p>
 <h2>Waterproofing &amp; Drainage: The Work That Never Shows</h2>
 <p>Waterproofing is the most important single element of any bathroom renovation. It is also the one most frequently compromised — by untrained contractors, by budget pressure, and by homeowners who do not know enough to ask the right questions.</p>
 <p>A failed waterproof membrane causes water to seep through the slab, damaging the ceiling of the floor below, corroding structural reinforcement, and creating mould within the wall assembly. Repairs cost 3–5 times the cost of doing it right the first time.</p>
@@ -317,7 +295,6 @@ All bathrooms are divided into zones by Indian and international electrical stan
 <p>Central Point Drain</p>
 <p>₹400–1,500 installed</p>
 <p>The traditional floor drain in the centre of the bathroom. Requires the floor to slope in four directions toward the drain — if any tiler sets tiles flat (the lazy default), water ponds at the grout joints. Most Indian contractor-installed floors use this and get the slope wrong. Requires supervision during tile installation to verify adequate fall.</p>
-<p>Air Quality</p>
 <h2>Ventilation: The Invisible Problem That Ruins Bathrooms</h2>
 <p>Poor ventilation is the root cause of most recurring Indian bathroom problems: peeling paint, mould behind tiles, cracked grout, persistent smell, rusting fixtures, and humidity damage to the vanity cabinet. A bathroom produces approximately 1–2 litres of water vapour per shower. This moisture must be extracted within 15–20 minutes of use, or it condenses on every cold surface in the room.</p>
 <p>Inline Duct Fan (Continuous Extraction)</p>
@@ -332,7 +309,6 @@ All bathrooms are divided into zones by Indian and international electrical stan
 <p>Humidity Sensor Switch</p>
 <p>₹1,200–3,500</p>
 <p>A humidity-triggered switch that runs the exhaust fan automatically when relative humidity exceeds 70% (typically during and after a shower) and turns it off automatically when humidity returns to ambient levels. Eliminates the most common ventilation failure mode — people forgetting to switch the fan on or off. A ₹2,000 upgrade that should be specified in every bathroom renovation.</p>
-<p>Aesthetic Direction</p>
 <h2>Styles &amp; Moods: Six Visual Languages</h2>
 <p>Style selection is the most personal and most permanent decision in a bathroom renovation. Unlike furniture, tiles and fixtures cannot be changed on a whim — you live with this choice for 10–15 years minimum. Choose based on what you return to consistently in references, not what is trending in 2025.</p>
 <p>Warm Travertine</p>
@@ -353,7 +329,6 @@ All bathrooms are divided into zones by Indian and international electrical stan
 <p>Minimalist White</p>
 <p>All-white tile (slight variation in finish — matte floor, gloss wall), chrome fixtures, no colour. Only works if the rest of the home supports the palette. The most demanding to keep clean but the most forgiving in small bathrooms — makes any size feel larger.</p>
 <p>White porcelain · Chrome fixture · Matte finish</p>
-<p>Traditional Guidance</p>
 <h2>Vastu Shastra for Bathrooms</h2>
 <p>Vastu principles for bathrooms have a practical basis in directional sun, wind, and earth energy — which translates to environmental comfort, natural ventilation, and drying. Here is each direction with the Vastu reasoning and the practical environmental interpretation.</p>
 <p>Northwest</p>
@@ -374,9 +349,8 @@ All bathrooms are divided into zones by Indian and international electrical stan
 <p>Door should open inward</p>
 <p>Universal Rule</p>
 <p>Vastu and practical consensus agree: bathroom doors that open outward (into the bedroom or corridor) risk being opened onto a wet bather. Inward-opening doors maintain privacy, avoid accidents, and are the universal Indian standard. Always specify hinged inward or a sliding door (which eliminates the question entirely).</p>
-<div class="callout"><span class="callout__title">Note</span>On Mirror Placement</p>
-Vastu traditionally recommends that bathroom mirrors should not face the WC. Practically, this means positioning the mirror on the wall above the vanity basin — the correct functional position — rather than on the wall facing the toilet. Since the vanity and toilet are almost never on the same wall in a well-planned bathroom, this Vastu guidance and ergonomic best practice naturally align.</div>
-<p>Investment Guide</p>
+<div class="callout"><span class="callout__title">On Mirror Placement</span>
+<p>Vastu traditionally recommends that bathroom mirrors should not face the WC. Practically, this means positioning the mirror on the wall above the vanity basin — the correct functional position — rather than on the wall facing the toilet. Since the vanity and toilet are almost never on the same wall in a well-planned bathroom, this Vastu guidance and ergonomic best practice naturally align.</p></div>
 <h2>Budget Breakdown: Three Tiers of Truth</h2>
 <p>These costs assume a 50 sq ft apartment bathroom and include demolition, waterproofing, plumbing, tiling (floor + walls), fixtures, vanity unit, mirror, lighting, and accessories. Scale proportionally for larger spaces.</p>
 <p>Essential</p>
@@ -420,9 +394,8 @@ Vastu traditionally recommends that bathroom mirrors should not face the WC. Pra
   <li>Inline duct ventilation system</li>
   <li>Steam generator (if space permits)</li>
 </ul>
-<div class="callout"><span class="callout__title">Note</span><div class="callout"><span class="callout__title">Note</span>Budget Allocation Principle</div>
-Spend your bathroom budget in this sequence: 30% on waterproofing and plumbing, 25% on tiles and surfaces, 25% on fixtures (WC, shower, basin, taps), 15% on vanity unit and mirror, 5% on lighting and accessories. Most homeowners invert the visible categories — spending heavily on tiles and fixtures — and underspend on waterproofing and lighting. The result looks good for 2 years and fails for the next 8.</div>
-<p>What to Avoid</p>
+<div class="callout"><span class="callout__title">Budget Allocation Principle</span>
+<p>Spend your bathroom budget in this sequence: 30% on waterproofing and plumbing, 25% on tiles and surfaces, 25% on fixtures (WC, shower, basin, taps), 15% on vanity unit and mirror, 5% on lighting and accessories. Most homeowners invert the visible categories — spending heavily on tiles and fixtures — and underspend on waterproofing and lighting. The result looks good for 2 years and fails for the next 8.</p></div>
 <h2>10 Mistakes That Define a Bad Bathroom</h2>
 <ul>
   <li>1  Applying waterproof coating over old tiles The fix The tile grout joints break down, the adhesive bond fails, and water migrates through the old bed regardless of what is painted on top. Always chip to bare concrete. The ₹8,000–12,000 extra demolition cost prevents ₹60,000–1,50,000 in water damage repairs within 5 years.</li>
@@ -436,11 +409,10 @@ Spend your bathroom budget in this sequence: 30% on waterproofing and plumbing, 
   <li>9  Matching every finish to a single metal tone The fix Mixing metal finishes is not a mistake — it is sophisticated. Brass taps, chrome showerhead, and matte black towel rings coexist beautifully in the same bathroom. Rigidly matching everything to one finish makes the room feel like a showroom. The rule: mix freely within 2–3 metals, but do not use the same metal in two different finishes (e.g., polished brass and brushed brass together reads as inconsistency, not contrast).</li>
   <li>10  Not doing a final punch-list walkthrough with the contractor The fix Indian bathroom renovations routinely end without a formal snagging inspection. Run water in every fixture simultaneously for 5 minutes — listen for hammer (water hammer in pipes, fixable for ₹500). Check every grout line for missing grout (common at edges and corners). Turn on all lights and confirm zones work. Open and close every door and drawer 10 times. Push on every tile — a hollow sound indicates a tile that was not bedded correctly and will fall within 2 years. These checks take 45 minutes and prevent 90% of post-renovation complaints.</li>
 </ul>
-<p>In Summary</p>
 <h2>A Bathroom Built for How You Actually Live</h2>
 <p>The bathroom is the first room you enter every morning and the last you use every evening. It sets the tone of the day more reliably than any other space in the home — yet it absorbs the least design attention and the smallest share of renovation budgets.</p>
 <p>The gap between a bathroom that works and one that merely functions comes down to five decisions: correct waterproofing before any tile goes down, fixtures specified for daily use rather than display, lighting designed zone by zone rather than socket by socket, storage planned around the actual product count rather than an aspirational minimum, and ventilation treated as infrastructure rather than an afterthought.</p>
 <p>Get those five right and the tile pattern, the tap finish, the freestanding bath versus the shower — those become aesthetic choices made from a position of confidence, not compromises made to stay within a budget that was already spent on the wrong things.</p>
-<div class="callout"><span class="callout__title">Note</span><div class="callout"><span class="callout__title">Note</span>Estimate Your Bathroom</div>
-Use the <strong>Enteriors Cost Calculator</strong> to get an accurate, itemised estimate for your bathroom renovation — tiles, fixtures, plumbing, waterproofing, vanity unit, and lighting — before your first contractor call. Know your numbers before the conversation begins.</div>
+<div class="callout"><span class="callout__title">Estimate Your Bathroom</span>
+<p>Use the <strong>Enteriors Cost Calculator</strong> to get an accurate, itemised estimate for your bathroom renovation — tiles, fixtures, plumbing, waterproofing, vanity unit, and lighting — before your first contractor call. Know your numbers before the conversation begins.</p></div>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

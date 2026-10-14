@@ -34,88 +34,63 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>What Is a Modular Kitchen?</h2>
 <p>A modular kitchen is a kitchen system built from pre-engineered, factory-manufactured cabinet units — called modules — that are produced under controlled conditions, assembled on site, and configured to fit the specific dimensions of your kitchen space.</p>
 <p>Each module (base cabinet, wall cabinet, tall unit, corner unit) is fabricated with consistent material specifications, machine-cut boards, factory-applied finishes, and pre-fitted hardware. They arrive on site ready for installation rather than being built from scratch in your home.</p>
-<p>🏭</p>
 <p>Factory Manufacturing</p>
 <p>Boards are cut on CNC machines to ±0.5mm tolerance. Edge banding is applied under heat and pressure. Holes are drilled by multi-spindle boring machines at exact positions. No site variation.</p>
-<p>📐</p>
 <p>Custom-Sized to Your Kitchen</p>
 <p>Your kitchen is measured precisely. Modules are then factory-cut to fit your specific wall lengths, heights, and obstructions. Filler panels bridge any remaining gaps between modules and walls.</p>
-<p>⚙️</p>
 <p>Specified Hardware</p>
 <p>Hinges, drawer runners, and lift systems are specified by brand (Hettich, Hafele, Blum) and load rating. The hardware is fitted under factory conditions, not improvised on site.</p>
-<p>🔄</p>
 <p>Replaceable &amp; Upgradeable</p>
 <p>Individual modules, doors, and countertops can be replaced without rebuilding the entire kitchen. Hardware can be upgraded. Door shutters can be changed to refresh the aesthetic.</p>
-<p>📋</p>
 <p>Documented Specifications</p>
 <p>Every module comes with documented material grade, board thickness, edge banding type, and hardware specification. You know exactly what you are getting before installation begins.</p>
-<p>🛡️</p>
 <p>Warranty Coverage</p>
 <p>Most modular kitchen manufacturers offer 1–5 year warranties covering structural defects, finish delamination, and hardware failure. Carpenter kitchens carry no formal warranty.</p>
 <div class="callout callout--tip"><span class="callout__title">Enteriors Insight</span>The word "modular" does not mean a standard product pulled from a catalogue. At Enteriors, every modular kitchen is engineered to the exact dimensions, layout, and requirements of the specific home — the factory manufacturing is what ensures the result matches the design drawings, not what limits it.</div>
 <h2>What Is a Carpenter-Made Kitchen?</h2>
 <p>A carpenter-made kitchen is built entirely on site, inside your home, by a carpenter or joinery contractor. Boards are cut to size at the site or in a local workshop, assembled using hand tools and power tools, and finished either on site or by a painter called in afterward.</p>
 <p>This approach has served Indian homes for decades and can produce functional kitchens. Understanding where it succeeds — and where its limitations are structural rather than skill-based — is the key to making an informed decision.</p>
-<p>🪚</p>
 <p>Site-Built Construction</p>
 <p>Everything is cut, assembled, and finished inside your home. This exposes the work to dust, humidity, and site conditions that affect finish quality — particularly for painted surfaces and edge treatment.</p>
-<p>📏</p>
 <p>Manual Tolerances</p>
 <p>Hand and circular saw cuts produce tolerances of ±3–5mm. This is visible in door gap inconsistencies, uneven countertop joints, and drawers that require adjustment after installation.</p>
-<p>🔧</p>
 <p>Variable Hardware</p>
 <p>Hardware selection is typically left to the carpenter's discretion or the client's market visit. Quality varies significantly — from good-quality German brands to cheap imitation hinges that fail within 1–2 years.</p>
-<p>🎨</p>
 <p>On-Site Finishing</p>
 <p>Paint, laminate, and PU finishes applied on site cannot match factory-applied finishes in consistency, adhesion, or durability. Dust contamination in paint is common in active construction environments.</p>
-<p>👤</p>
 <p>Skill-Dependent Output</p>
 <p>The final quality is entirely dependent on the individual carpenter's skill, attention, and work ethic. There is no quality control system beyond the homeowner's own inspection at each stage.</p>
-<p>❓</p>
 <p>No Formal Warranty</p>
 <p>Carpenter kitchens carry no written warranty. Any defect, failure, or finish issue after the carpenter leaves is the homeowner's problem to manage and fund independently.</p>
 <h2>How Each Kitchen Is Actually Made</h2>
 <p>Understanding the manufacturing process explains most of the quality differences between the two approaches. The gap is not about intent — it is about what tools, conditions, and systems are capable of producing.</p>
 <h3>Modular Kitchen: The Process</h3>
-<p>1</p>
-<p><strong>Site Measurement &amp; 3D Design</strong></p>
+<p><strong>1. Site Measurement &amp; 3D Design</strong></p>
 <p>Precise measurements taken with laser distance tools. A 3D rendered layout is produced and approved before any manufacturing begins.</p>
-<p>2</p>
-<p><strong>CNC Board Cutting</strong></p>
+<p><strong>2. CNC Board Cutting</strong></p>
 <p>Boards are cut on a CNC panel saw to ±0.5mm accuracy. Every board in every module is cut to exact specification from a factory-controlled environment.</p>
-<p>3</p>
-<p><strong>Edge Banding</strong></p>
+<p><strong>3. Edge Banding</strong></p>
 <p>All exposed board edges are sealed with ABS edge banding applied under heat and pressure. This prevents moisture ingress — the primary cause of board swelling in kitchens.</p>
-<p>4</p>
-<p><strong>Dowel Boring &amp; Fitting</strong></p>
+<p><strong>4. Dowel Boring &amp; Fitting</strong></p>
 <p>Dowel holes, hinge cups, and drawer runner mounting holes are drilled by CNC boring machines at exact positions. Every hole is the same — every time.</p>
-<p>5</p>
-<p><strong>Door &amp; Shutter Finishing</strong></p>
+<p><strong>5. Door &amp; Shutter Finishing</strong></p>
 <p>Door shutters are finished in the factory — laminate, lacquer, PU, or acrylic applied under controlled temperature and humidity. Dust contamination is eliminated.</p>
-<p>6</p>
-<p><strong>Assembly &amp; Quality Check</strong></p>
+<p><strong>6. Assembly &amp; Quality Check</strong></p>
 <p>Each module is dry-assembled and checked against the 3D design before packaging. Hardware is pre-fitted and adjusted. Modules are then disassembled, packed, and delivered.</p>
-<p>7</p>
-<p><strong>Site Installation</strong></p>
+<p><strong>7. Site Installation</strong></p>
 <p>Modules are installed by trained technicians in 2–4 days. Levelling, alignment, and hardware adjustment are completed before countertop installation.</p>
 <h3>Carpenter Kitchen: The Process</h3>
-<p>1</p>
-<p><strong>Informal Measurement &amp; Quote</strong></p>
+<p><strong>1. Informal Measurement &amp; Quote</strong></p>
 <p>Measurements are typically done with a tape measure. Design is communicated verbally or via a simple sketch. No 3D render; what you approve is an approximation.</p>
-<p>2</p>
-<p><strong>Board Purchase &amp; Manual Cutting</strong></p>
+<p><strong>2. Board Purchase &amp; Manual Cutting</strong></p>
 <p>Plywood or MDF is purchased from a local supplier and cut with a circular saw or table saw. Tolerance is ±3–5mm. Knots, edge voids, and thickness variations in the board affect accuracy.</p>
-<p>3</p>
-<p><strong>Site Assembly</strong></p>
+<p><strong>3. Site Assembly</strong></p>
 <p>Carcasses are assembled inside the kitchen using screws, nails, and wood adhesive. Sawdust, noise, and disruption to the home continue for 2–4 weeks.</p>
-<p>4</p>
-<p><strong>Edge Treatment</strong></p>
+<p><strong>4. Edge Treatment</strong></p>
 <p>Exposed plywood edges are typically covered with iron-on laminate tape applied by hand. Adhesion is inconsistent; corners are a weak point where peeling begins within 1–3 years.</p>
-<p>5</p>
-<p><strong>On-Site Finishing</strong></p>
+<p><strong>5. On-Site Finishing</strong></p>
 <p>Laminate is applied on site with contact adhesive, or a painter is called for PU/duco finish. Dust present in an active construction environment contaminates painted surfaces.</p>
-<p>6</p>
-<p><strong>Hardware Fitting</strong></p>
+<p><strong>6. Hardware Fitting</strong></p>
 <p>Hinges and drawer runners are fitted by hand, with positions marked by the carpenter. Alignment depends on the individual's skill and patience. No quality-check system exists.</p>
 <div class="callout callout--tip"><span class="callout__title">Enteriors Insight</span>The single greatest quality difference is edge banding. A factory-applied ABS edge seal on an 18mm board keeps moisture out for 10+ years. Iron-on laminate tape applied on site begins to lift at corners and near the sink within 1–2 years — allowing moisture into the board core, which causes swelling that cannot be reversed.</div>
 <h2>Cost Comparison — The Real Numbers</h2>
@@ -179,16 +154,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <div class="callout callout--warn"><span class="callout__title">⚠ The Hidden Material Downgrade</span>A significant number of carpenter kitchen complaints arise from a simple problem: the carpenter quoted BWP (Boiling Waterproof) plywood but purchased cheaper MR (Moisture Resistant) board on site. The homeowner has no way to verify this after the boards are inside the cabinets. This material substitution is not always deliberate — it sometimes happens because the carpenter sources from wherever is cheapest on the day of purchase. Requesting material invoices before payment is essential.</div>
 <h2>Finish &amp; Fit Quality</h2>
 <p>Finish quality is where the difference between modular and carpenter kitchens is most immediately visible — and where the gap is widest. It is not a matter of how skilled the carpenter or painter is. It is a matter of what conditions are physically possible on a construction site versus in a factory.</p>
-<p>🎨</p>
 <p>Paint &amp; Lacquer Finish</p>
 <p>Factory-sprayed PU or acrylic lacquer is applied in a dust-free spray booth at controlled temperature and humidity. The result is a glass-smooth, uniform surface. On-site painting in a dusty construction environment produces visible texture, brush marks, and dust nibs in the dried film.</p>
-<p>📐</p>
 <p>Door Gap Consistency</p>
 <p>Modular doors are cut to ±0.5mm and installed with adjustable concealed hinges that allow precise 3-way adjustment. A consistent 3–4mm gap all around every door is achievable and maintained. Carpenter doors cut manually will show variable gaps of 3–8mm that are difficult to correct after fitting.</p>
-<p>🔲</p>
 <p>Laminate Application</p>
 <p>Factory-applied laminate is pressed under heat and pressure in a controlled environment, producing a flat, bubble-free surface that bonds permanently to the board. Site-applied laminate with contact adhesive is vulnerable to bubbling, edge lift, and inconsistent adhesion in the first 6–12 months.</p>
-<p>➕</p>
 <p>Corner &amp; Edge Treatment</p>
 <p>Modular kitchens use purpose-made aluminium or ABS edge profiles at internal and external corners. These are clean, moisture-resistant, and permanent. Carpenter kitchens typically use timber lipping or PVC strip — both of which lift or stain over time in a kitchen environment.</p>
 <div class="callout callout--tip"><span class="callout__title">Enteriors Insight</span>The finish quality of a carpenter kitchen at day one — particularly if a skilled painter is involved — can look comparable to modular. The difference becomes stark at the 18-month mark, when site-applied finishes begin to show their limitations: micro-cracks at panel joints, edge tape lifting near the sink, and paint discolouration near the hob.</div>

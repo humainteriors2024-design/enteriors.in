@@ -23,12 +23,10 @@ $page = [
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 <p>Laminates are one of the most versatile, cost-effective, and design-rich surface materials available today. Yet most buyers walk into a store overwhelmed — not knowing the difference between a high-pressure laminate and a low-pressure one, what thickness to choose, or which finish actually hides fingerprints. This guide changes that. No brand names. Just pure, decision-making knowledge.</p>
-<p>Section 01</p>
 <h2>What Exactly Is a Laminate?</h2>
 <p>A laminate is a composite surface material made by bonding multiple layers together under heat and pressure. It consists of three fundamental layers: a <strong>core layer</strong> (kraft paper or particleboard), a <strong>décor layer</strong> (printed paper that gives the visual design), and a <strong>protective overlay</strong> (melamine resin that provides durability and finish).</p>
 <p>Despite being a manufactured product, modern laminates accurately replicate the visual depth of natural wood, stone, fabric, concrete, and abstract patterns — often at a fraction of the cost and with superior practical performance.</p>
 <div class="callout callout--tip"><span class="callout__title">💡 Key Insight</span>Laminate is not "fake wood." It's a precision-engineered surface with specific structural, thermal, and aesthetic properties designed for particular use cases. Choosing it over solid materials is often the smarter, not the cheaper, decision.</div>
-<p>Section 02</p>
 <h2>Types of Laminates: The Complete Breakdown</h2>
 <p>Understanding laminate types is the foundation of every smart purchase. Each type is engineered for a different set of demands.</p>
 <h4>High Pressure Laminate (HPL)</h4>
@@ -95,7 +93,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Used in luxury kitchens and wardrobe interiors</li>
   <li>Distinguishes high-end joinery</li>
 </ul>
-<p>Section 03</p>
 <h2>Finishes &amp; Textures: More Than Looks</h2>
 <p>The surface finish of a laminate affects not just how it looks, but how it performs — how it shows scratches, how easy it is to clean, and how it feels to touch. This is a decision many buyers overlook.</p>
 <p>High Gloss</p>
@@ -126,7 +123,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">💡 Designer Tip</span>For kitchens used daily by families, always choose matte or soft-touch finishes on shutters. High-gloss looks stunning in a showroom but requires constant polishing in real-life use. Reserve gloss for upper cabinets or display niches where hands rarely touch the surface.</div>
-<p>Section 04</p>
 <h2>Thickness Guide: Choosing by Application</h2>
 <p>Laminate thickness is a functional specification — not just a quality indicator. Using the wrong thickness in an application leads to delamination, structural failure, or inadequate protection. Here's exactly what each thickness is designed for:</p>
 <p>0.6 mm</p>
@@ -142,34 +138,26 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>8–15 mm</p>
 <p>Laminate flooring — AC-rated wear layers</p>
 <div class="callout callout--warn"><span class="callout__title">⚠️ Common Mistake</span>Using a 0.6mm HPL sheet on a kitchen countertop top surface is a frequently made error in budget renovations. The material will develop delamination and micro-cracks at cut edges within 12–18 months. Always use minimum 1.0mm on horizontal kitchen surfaces.</div>
-<p>Section 05</p>
 <h2>Room-by-Room Application Guide</h2>
 <p>The "right" laminate varies by room because the performance demands are radically different. A laminate that's perfect for a bedroom wardrobe may fail in a kitchen or bathroom within a year.</p>
-<p>🍳</p>
 <h4>Kitchen</h4>
 <p>Highest demands: heat, moisture, cutting abrasion, food acids, grease.</p>
 <p>Use: HPL 1.0mm+, matte/soft-touch finish, anti-fingerprint</p>
-<p>🛁</p>
 <h4>Bathroom</h4>
 <p>High humidity cycling, splash zones, steam exposure.</p>
 <p>Use: Compact laminate, moisture-resistant HPL, avoid particleboard substrate</p>
-<p>🛏</p>
 <h4>Bedroom</h4>
 <p>Low wear, primarily aesthetic. Wardrobe shutters and panels.</p>
 <p>Use: LPL or 0.8mm HPL, any finish including gloss</p>
-<p>🛋</p>
 <h4>Living Room</h4>
 <p>TV units, wall panelling, accent walls, display furniture.</p>
 <p>Use: STP texture laminates, wall-grade HPL, matte/woodgrain</p>
-<p>💼</p>
 <h4>Home Office</h4>
 <p>Desk surface wear, cable heat, writing friction.</p>
 <p>Use: HPL 1.0mm matte, anti-scratch finish</p>
-<p>🚪</p>
 <h4>Doors &amp; Walls</h4>
 <p>Impact resistance, large flat format, seamless appearance.</p>
 <p>Use: Wall-grade HPL 0.6–0.8mm with appropriate adhesive</p>
-<p>Section 06</p>
 <h2>Understanding Ratings &amp; Standards</h2>
 <p>Laminates carry technical ratings that objectively measure performance. Understanding them saves you from trusting only a salesperson's word.</p>
 <div class="table-wrap">
@@ -187,28 +175,20 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">🔍 Ask Your Supplier</span>Always ask for the EN 438 or equivalent test report before purchasing HPL for countertops. A legitimate product will have this documentation. If the supplier cannot provide it, that is a red flag.</div>
-<p>Section 07</p>
 <h2>How to Choose the Right Laminate: A Decision Framework</h2>
 <h3>Your 6-Step Selection Process</h3>
-<p>1</p>
-<h4>Identify the Surface Type</h4>
+<h4>1. Identify the Surface Type</h4>
 <p>Is it horizontal (countertop, floor) or vertical (shutter, wall)? Horizontal surfaces need higher thickness and harder wear layers. Vertical surfaces can use thinner, lighter grades.</p>
-<p>2</p>
-<h4>Assess the Environment</h4>
+<h4>2. Assess the Environment</h4>
 <p>Is there moisture, heat, heavy traffic, or chemical exposure? Wet zones and kitchens need moisture-resistant or compact grades. Dry, low-traffic areas can use standard grades.</p>
-<p>3</p>
-<h4>Choose the Right Thickness</h4>
+<h4>3. Choose the Right Thickness</h4>
 <p>Match thickness to use: 0.6mm vertical, 1.0mm+ horizontal, 6mm+ for self-supporting compact, 8–15mm for flooring. Never compromise on this step.</p>
-<p>4</p>
-<h4>Select the Finish Based on Maintenance Reality</h4>
+<h4>4. Select the Finish Based on Maintenance Reality</h4>
 <p>Not based on the look in the showroom. Consider who uses the space, how often, and what cleaning routines are realistic. Families with children → matte always.</p>
-<p>5</p>
-<h4>Verify the Substrate Compatibility</h4>
+<h4>5. Verify the Substrate Compatibility</h4>
 <p>Laminate only performs as well as the substrate it's bonded to. Use moisture-resistant MDF in humid zones, HDF for flooring, solid substrates for countertops.</p>
-<p>6</p>
-<h4>Check Ratings &amp; Request Samples</h4>
+<h4>6. Check Ratings &amp; Request Samples</h4>
 <p>Verify EN 438 certification for HPL, AC rating for flooring, and E1 emission rating. Order physical samples and live with them under your specific lighting for 48 hours before finalizing.</p>
-<p>Section 08</p>
 <h2>Maintenance &amp; Care: Making Laminates Last</h2>
 <p>One of the greatest advantages of laminates is their easy maintenance — but only when you follow the correct care approach. The most common cause of premature laminate deterioration is improper cleaning.</p>
 <h3>Daily Care</h3>
@@ -227,7 +207,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Re-apply microfibre polishing cloth on soft-touch surfaces to restore the velvet feel</li>
 </ul>
 <div class="callout callout--warn"><span class="callout__title">⚠️ Never Do This</span>Never use steel wool, scouring pads, or solvent-based cleaners like acetone or turpentine on laminate surfaces. These permanently damage the overlay. For stubborn marks on matte laminates, a diluted isopropyl alcohol solution on a soft cloth is the safest option.</div>
-<p>Section 09</p>
 <h2>Cost vs. Value: Making an Informed Budget Decision</h2>
 <p>Laminate pricing spans a remarkably wide range — from very economical board-based products to premium compact and synchronised texture sheets. Understanding what drives the price helps you allocate your budget intelligently.</p>
 <div class="table-wrap">

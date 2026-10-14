@@ -303,20 +303,13 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Uneven gloss:</strong> happens when the final buff was rushed. Visible as patches of different sheen on the same panel.</li>
 </ul>
 <h3>Quality checklist before you accept delivery</h3>
-<p>01</p>
-<p><strong>Uniform colour across all units.</strong> View the units side by side under the same light. Different batches should be indistinguishable.</p>
-<p>02</p>
-<p><strong>Smooth, dead-flat surface.</strong> Run your palm across the panel. You should feel no texture, no nibs, no orange peel.</p>
-<p>03</p>
-<p><strong>Crisp, fully wrapped edges.</strong> The edge should be the same colour and finish as the face, with no visible substrate or paint break.</p>
-<p>04</p>
-<p><strong>Reflection test.</strong> For gloss and satin finishes, look at a window's reflection in the shutter. The reflection should be sharp and undistorted.</p>
-<p>05</p>
-<p><strong>Touch test for hardness.</strong> Press a fingernail into a hidden area. A properly cured PU finish will not dent or mark.</p>
-<p>06</p>
-<p><strong>No visible joints inside the unit.</strong> Open the shutter and check the inside edges — joinery should be clean, with no PU drips into the interior.</p>
-<p>07</p>
-<p><strong>Door alignment.</strong> All shutters should align flush with each other when closed. Misalignment is a carpentry issue, but it shows up worse on PU than on laminate.</p>
+<p><strong>1. Uniform colour across all units.</strong> View the units side by side under the same light. Different batches should be indistinguishable.</p>
+<p><strong>2. Smooth, dead-flat surface.</strong> Run your palm across the panel. You should feel no texture, no nibs, no orange peel.</p>
+<p><strong>3. Crisp, fully wrapped edges.</strong> The edge should be the same colour and finish as the face, with no visible substrate or paint break.</p>
+<p><strong>4. Reflection test.</strong> For gloss and satin finishes, look at a window's reflection in the shutter. The reflection should be sharp and undistorted.</p>
+<p><strong>5. Touch test for hardness.</strong> Press a fingernail into a hidden area. A properly cured PU finish will not dent or mark.</p>
+<p><strong>6. No visible joints inside the unit.</strong> Open the shutter and check the inside edges — joinery should be clean, with no PU drips into the interior.</p>
+<p><strong>7. Door alignment.</strong> All shutters should align flush with each other when closed. Misalignment is a carpentry issue, but it shows up worse on PU than on laminate.</p>
 <h2>Mistakes homeowners make with PU finish</h2>
 <ol>
   <li><strong>Picking PU because it sounds premium.</strong> Without understanding 1K vs 2K, factory vs site, or which brand, you are buying a category, not a finish. Read the quote, ask the questions.</li>

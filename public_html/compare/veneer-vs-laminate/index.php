@@ -211,20 +211,13 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ol>
 <h2>The quality detection checklist</h2>
 <p>Whether you've gone laminate, veneer or both, run through this checklist before signing off. These are the seven checks our quality team does on every unit before it leaves the factory.</p>
-<p>01</p>
-<p><strong>Brand and code stamped on the back.</strong> Genuine HPL laminate from Merino, Greenlam, Sundek, Royale Touche etc. carries a printed code on the reverse side. No code = no traceability = likely counterfeit.</p>
-<p>02</p>
-<p><strong>Thickness check.</strong> A 1mm HPL feels noticeably heavier and stiffer than a 0.8mm budget sheet. Carry a digital caliper if you're paranoid — most premium showrooms have one on hand.</p>
-<p>03</p>
-<p><strong>Veneer thickness and grain variation.</strong> A natural veneer sheet of 0.5mm shows real grain depth when viewed at an angle. A 0.3mm budget veneer looks flat and almost printed.</p>
-<p>04</p>
-<p><strong>Edge banding alignment.</strong> Run a fingernail along the edges of laminate shutters. A clean factory finish has no perceptible step where the edge band meets the face.</p>
-<p>05</p>
-<p><strong>Veneer top coat depth.</strong> A properly PU-finished veneer shutter shows a noticeable depth of clear coat over the wood — the grain looks like it's "under" the surface. Cheap top coats sit flat.</p>
-<p>06</p>
-<p><strong>Grain matching on adjacent panels.</strong> On veneer, adjacent shutters should have grain that flows naturally or is deliberately book-matched. Random grain on a multi-shutter wardrobe is sloppy.</p>
-<p>07</p>
-<p><strong>Substrate quality.</strong> Open any shutter and check the core board. Boilo-MDF or BWP plywood = good. Standard MDF on a kitchen = trouble in 3 years. Particle board on a wardrobe = even sooner.</p>
+<p><strong>1. Brand and code stamped on the back.</strong> Genuine HPL laminate from Merino, Greenlam, Sundek, Royale Touche etc. carries a printed code on the reverse side. No code = no traceability = likely counterfeit.</p>
+<p><strong>2. Thickness check.</strong> A 1mm HPL feels noticeably heavier and stiffer than a 0.8mm budget sheet. Carry a digital caliper if you're paranoid — most premium showrooms have one on hand.</p>
+<p><strong>3. Veneer thickness and grain variation.</strong> A natural veneer sheet of 0.5mm shows real grain depth when viewed at an angle. A 0.3mm budget veneer looks flat and almost printed.</p>
+<p><strong>4. Edge banding alignment.</strong> Run a fingernail along the edges of laminate shutters. A clean factory finish has no perceptible step where the edge band meets the face.</p>
+<p><strong>5. Veneer top coat depth.</strong> A properly PU-finished veneer shutter shows a noticeable depth of clear coat over the wood — the grain looks like it's "under" the surface. Cheap top coats sit flat.</p>
+<p><strong>6. Grain matching on adjacent panels.</strong> On veneer, adjacent shutters should have grain that flows naturally or is deliberately book-matched. Random grain on a multi-shutter wardrobe is sloppy.</p>
+<p><strong>7. Substrate quality.</strong> Open any shutter and check the core board. Boilo-MDF or BWP plywood = good. Standard MDF on a kitchen = trouble in 3 years. Particle board on a wardrobe = even sooner.</p>
 <?= img('modular-wardrobe-with-mix-of-laminate-and-veneer-shutters') ?>
 <p>Wardrobe interiors in laminate, shutters in veneer — the hybrid principle in one cabinet.</p>
 <h2>10 — 10-year viewWhat maintenance actually looks like</h2>

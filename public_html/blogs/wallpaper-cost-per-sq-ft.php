@@ -228,7 +228,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 <p><strong>Bangalore, Pune, Delhi (winters), Hyderabad, Ahmedabad:</strong> Moderate humidity and temperatures make these India's best cities for wallpaper longevity. Standard PVC and vinyl wallpapers perform excellently. Non-woven performs for 12–15 years in Bangalore's climate.</p>
 <h3>High-Humidity Cities (Needs Preparation)</h3>
 <p><strong>Mumbai, Chennai, Kolkata, Kochi, Goa, all coastal Tamil Nadu:</strong> Humidity regularly exceeds 70–85% for extended periods. Without proper wall treatment, even vinyl wallpaper can develop mould behind the surface within 2–3 years. Mandatory steps: apply alkali-resistant primer, use waterproof wall putty, and select moisture-resistant adhesive (specifically formulated for high-humidity applications).</p>
-<p>🌊</p>
 <p><strong>Coastal &amp; High-Humidity Protocol</strong></p>
 <p>Step 1 — Identify and seal any seepage points before wallpaper work begins. Step 2 — Apply anti-mold wall primer (brands: Berger DampProof, Asian Paints SmartCare). Step 3 — Use only 100% waterproof vinyl or non-woven wallpaper. Step 4 — Use moisture-resistant wallpaper adhesive (Pidilite Fevicryl WP or equivalent). Step 5 — Ensure AC use in the room for humidity control during and after installation.</p>
 <h3>Common Indian Climate Problems &amp; Solutions</h3>
@@ -279,35 +278,25 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/post-start.php';
 </ul>
 <h2>Wallpaper Installation Process</h2>
 <p>Professional installation is the difference between a 2-year wallpaper and a 12-year wallpaper — even with identical materials. Here is the correct process:</p>
-<p>1</p>
-<p><strong>Site Measurement &amp; Planning</strong></p>
+<p><strong>1. Site Measurement &amp; Planning</strong></p>
 <p>Measure wall height and width precisely. Add 5cm on each side for trimming. Calculate total sq ft and add 10–15% for pattern matching waste.</p>
-<p>2</p>
-<p><strong>Surface Inspection</strong></p>
+<p><strong>2. Surface Inspection</strong></p>
 <p>Check for cracks, loose plaster, seepage, mould, or efflorescence. All issues must be resolved before any further steps — wallpaper does not hide structural problems.</p>
-<p>3</p>
-<p><strong>Putty &amp; Sanding</strong></p>
+<p><strong>3. Putty &amp; Sanding</strong></p>
 <p>Apply white cement putty (2 coats) to fill all imperfections. Sand smooth to a flat, even surface. Allow 24 hours drying per coat. This is the step most budget contractors skip — and it's the most important.</p>
-<p>4</p>
-<p><strong>Primer Application</strong></p>
+<p><strong>4. Primer Application</strong></p>
 <p>Apply a PVA-based or acrylic wall primer. For high-humidity walls, use anti-mould primer. Primer seals the surface, reduces absorption, and improves adhesive bond. Allow 4–6 hours to dry.</p>
-<p>5</p>
-<p><strong>Adhesive Preparation</strong></p>
+<p><strong>5. Adhesive Preparation</strong></p>
 <p>Mix adhesive per manufacturer instructions — either powder-to-water ratio for starch adhesives or ready-mix vinyl adhesive straight from container. Do not use Fevicol or white glue — they create bubble hotspots.</p>
-<p>6</p>
-<p><strong>Wallpaper Cutting &amp; Pattern Matching</strong></p>
+<p><strong>6. Wallpaper Cutting &amp; Pattern Matching</strong></p>
 <p>Cut panels 5–10cm longer than wall height. For patterned wallpaper, lay out all panels before pasting to confirm pattern repeat matching across seams.</p>
-<p>7</p>
-<p><strong>Pasting &amp; Hanging</strong></p>
+<p><strong>7. Pasting &amp; Hanging</strong></p>
 <p>For paste-the-wall method: apply adhesive to wall, hang panel, smooth from centre outward. For paste-the-paper: apply adhesive to panel back, allow to soak 3–5 minutes, then hang. Use a plumb line for the first panel — every subsequent panel follows from it.</p>
-<p>8</p>
-<p><strong>Bubble Removal &amp; Seam Pressing</strong></p>
+<p><strong>8. Bubble Removal &amp; Seam Pressing</strong></p>
 <p>Use a smoothing brush or plastic squeegee to work out air bubbles from centre to edges. Press seams firmly with a seam roller. Do not leave bubbles to "dry out" — they don't.</p>
-<p>9</p>
-<p><strong>Edge Trimming &amp; Finishing</strong></p>
+<p><strong>9. Edge Trimming &amp; Finishing</strong></p>
 <p>Use a straight-edge metal ruler and sharp craft knife to trim along skirting boards, ceiling, and door/window frames. A blunt blade tears; replace blade every 3–4 cuts.</p>
-<p>10</p>
-<p><strong>Final Inspection &amp; Drying</strong></p>
+<p><strong>10. Final Inspection &amp; Drying</strong></p>
 <p>Inspect every seam, edge, and bubble under raking light (torch held sideways). Allow 24–48 hours to dry with room well-ventilated before pushing furniture back against the wall.</p>
 <h2>Wallpaper Adhesives &amp; Pasting Methods</h2>
 <div class="table-wrap">

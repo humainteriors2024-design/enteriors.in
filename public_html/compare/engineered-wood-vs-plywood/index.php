@@ -34,22 +34,16 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Cross-laminated wood veneers bonded with adhesive. The alternating grain direction gives plywood superior tensile strength, flexibility, and screw-holding across all axes — properties engineered boards still struggle to match.</p>
 <h2>The Engineered Wood Family — Know What You're Buying</h2>
 <p>The biggest source of confusion in the market is that "engineered wood" gets used as a catch-all term. Here's a quick map of the main types you'll encounter in Indian furniture and interior projects:</p>
-<p>🧱</p>
 <h4>MDF (Medium Density Fibreboard)</h4>
 <p>Wood fibres + urea-formaldehyde resin. Smooth surface, zero grain. Budget-friendly. Swells badly near moisture.</p>
-<p>💎</p>
 <h4>HDF (High Density Fibreboard)</h4>
 <p>Denser than MDF. Used for laminate flooring bases and thin interior panels. Better hardness, still moisture-sensitive.</p>
-<p>🛡️</p>
 <h4>HDHMR</h4>
 <p>High Density High Moisture Resistant board. MDF evolved — treated throughout with MR resin. The modern go-to for kitchen shutters.</p>
-<p>🪨</p>
 <h4>Particle Board</h4>
 <p>Wood chips and shavings bonded with resin. Cheapest engineered panel. Heavy, low screw-holding, moisture-prone. Best used as a budget substrate.</p>
-<p>🪵</p>
 <h4>Blockboard</h4>
 <p>Solid wood strips sandwiched between veneers. Great for long-span shelves and doors. Combines natural wood's strength with uniform panel format.</p>
-<p>🌾</p>
 <h4>OSB (Oriented Strand Board)</h4>
 <p>Large wood strands arranged in layers. Common in western construction for wall sheathing and subfloors. Rarely used in Indian interior furniture.</p>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>⚠️ Market alert</strong><p>Low-quality particle board is often sold by unscrupulous dealers as "MDF" or even "imported engineered wood." Always ask to see the brand name, thickness spec, and density rating (MDF should be 650–800 kg/m³; particle board is typically 550–650 kg/m³). The weight difference is noticeable by hand.</p></div>
@@ -135,41 +129,29 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>HDHMR strongly preferred</p>
 <h2>Room-by-Room Recommendation</h2>
 <h3>✅ Where Engineered Wood excels</h3>
-<p>🍳</p>
 <h4>Kitchen Shutters</h4>
 <p>HDHMR's flat surface takes membrane, acrylic, and PU finishes perfectly. No grain bleeding through laminates.</p>
-<p>🎨</p>
 <h4>Painted Furniture</h4>
 <p>MDF and HDHMR give a furniture-grade smooth finish without the grain-filling and sanding plywood needs.</p>
-<p>📐</p>
 <h4>CNC-Routed Profiles</h4>
 <p>Shutter designs, grooves, and decorative profiles come out crisp without tear-out. Ideal for modular furniture factories.</p>
-<p>🚪</p>
 <h4>Flush Doors (MDF core)</h4>
 <p>MDF-core doors are heavier but dimensionally stable — no seasonal swelling that causes doors to jam.</p>
-<p>🧴</p>
 <h4>Bathroom Vanities</h4>
 <p>HDHMR holds up under daily humidity where standard MDF would warp within months.</p>
-<p>📺</p>
 <h4>TV Feature Walls</h4>
 <p>Large flat panels and groove-detail wall cladding are far easier to achieve with MDF than with plywood.</p>
 <h3>✅ Where Plywood still wins</h3>
-<p>📦</p>
 <h4>Cabinet Carcasses</h4>
 <p>The structural shell of any kitchen or wardrobe cabinet. Plywood's screw-holding keeps hinges and rails secure for decades.</p>
-<p>📚</p>
 <h4>Long-span Shelves</h4>
 <p>Any shelf over 60cm carrying books or heavy items. MDF will sag; plywood holds the span.</p>
-<p>🛏️</p>
 <h4>Bed Frames &amp; Cots</h4>
 <p>Structural furniture that takes dynamic loads. Plywood's flex without breaking is crucial here.</p>
-<p>🪜</p>
 <h4>Staircase Treads</h4>
 <p>Foot traffic, point loads, and edge impact — plywood handles all three far better than any MDF variant.</p>
-<p>🔩</p>
 <h4>Heavy Hardware Mounting</h4>
 <p>Drawer slides, heavy-duty hinges, and handles with frequent use need plywood's superior fastener grip.</p>
-<p>🏗️</p>
 <h4>False Ceiling Frames</h4>
 <p>Structural backing and blocking inside false ceilings where weight-bearing integrity matters.</p>
 <h2>Real Cost Breakdown</h2>

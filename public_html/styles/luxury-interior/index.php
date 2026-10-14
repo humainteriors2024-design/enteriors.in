@@ -34,8 +34,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Spatial Generosity —</strong> luxury is room to breathe. A 1,500 sq ft apartment designed at luxury tier never feels smaller than a cheaper 2,000 sq ft one because no space is wasted, no furniture oversized, no corner unfunctional.</li>
   <li><strong>Lighting Intelligence —</strong> at least three layers of lighting in every room, with dimmer controls. Lighting at the luxury level costs ₹800–₹1,500 per sq ft in fixtures alone. It's the single element that transforms a good-looking room into a great-feeling one.</li>
 </ul>
-<div class="callout"><span class="callout__title">Designer Insight</span>💡</p>
-<div class="callout"><span class="callout__title">Note</span>"The fastest way to identify whether an interior is genuinely luxury or aspirationally luxury: look at the handles. Luxury interiors use integrated push-to-open mechanisms or machined metal pulls. Aspirational interiors use standard chrome handles with visible screws. That one detail reveals the budget philosophy of the entire project." — Lead Designer, Bengaluru-based studio</div></div>
+<div class="callout"><span class="callout__title">Designer Insight</span>"The fastest way to identify whether an interior is genuinely luxury or aspirationally luxury: look at the handles. Luxury interiors use integrated push-to-open mechanisms or machined metal pulls. Aspirational interiors use standard chrome handles with visible screws. That one detail reveals the budget philosophy of the entire project." — Lead Designer, Bengaluru-based studio</div>
 <h3>Modern luxury vs. contemporary design — the practical difference</h3>
 <p>Contemporary design and modern luxury are not the same thing, though they're frequently conflated. Contemporary design describes a clean, current aesthetic that can be executed at any budget. Modern luxury describes a level of execution, not just a style. You can have a contemporary-looking space that cost ₹1,200/sq ft and a contemporary-looking space that cost ₹5,000/sq ft — the difference lies entirely in material quality, lighting depth, and joinery precision.</p>
 <h2>2026 Luxury Interior Design Trends in India</h2>
@@ -43,8 +42,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>1. Quiet Luxury — The Anti-Show-Off Aesthetic</h3>
 <p>Quiet luxury as a design movement borrows directly from the fashion world's "old money" aesthetic. The defining characteristics: a tightly disciplined neutral palette (warm creams, greige, charcoal, deep forest green), zero decorative excess, materials chosen for quality rather than statement, and negative space treated as a design element rather than unused area.</p>
 <p>In Indian homes, quiet luxury manifests as: full-height flat-panel wardrobes with no visible handles, kitchen cabinets in a single warm neutral with stone countertops, wooden floor-to-ceiling shelving with integrated library ladders, and lighting recessed so completely that you cannot see a single fixture — only its effect. The rooms look like the interior of a very well-edited European boutique hotel.</p>
-<div class="callout"><span class="callout__title">Indian Market Note</span>📌</p>
-<div class="callout"><span class="callout__title">Note</span>Quiet luxury is gaining the fastest traction in Bangalore and Mumbai's tech-affluent segments — founders, senior product leaders, and senior consultants aged 30-45 who've lived internationally. They want Indian homes that feel globally edited. This is the fastest-growing brief type in metro premium interior studios in 2026.</div></div>
+<div class="callout"><span class="callout__title">Indian Market Note</span>Quiet luxury is gaining the fastest traction in Bangalore and Mumbai's tech-affluent segments — founders, senior product leaders, and senior consultants aged 30-45 who've lived internationally. They want Indian homes that feel globally edited. This is the fastest-growing brief type in metro premium interior studios in 2026.</div>
 <h3>2. Biophilic Luxury — Nature as the Premium Material</h3>
 <p>Biophilic design — incorporating natural elements, textures, and systems into built spaces — has moved from wellness trend to mainstream luxury practice. In 2026's Indian luxury interiors, biophilic elements appear as: living green walls in foyer and dining spaces, extensive natural stone (travertine, slate, limestone) as flooring and feature walls, real wood elements (teak, walnut, ash) used structurally rather than decoratively, and large-format openings that dissolve the boundary between indoor and outdoor space.</p>
 <p>The science supports the premium: research consistently shows that spaces with strong biophilic elements rate higher for perceived wellbeing, cognitive restoration, and subjective luxury. Clients genuinely feel better in biophilic spaces — and they notice when it's absent.</p>
@@ -53,27 +51,21 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Japandi-luxury in Indian execution typically features: low-profile platform beds in teak or ash, tatami-inspired textured wall panels, cane and rattan accent furniture, shoji-influenced sliding partitions for flexible room division, and a palette drawn from natural materials — bamboo, clay, sand, stone — rather than paint.</p>
 <h2>Luxury Interior Materials — A Complete Guide for India</h2>
 <p>Materials are where luxury is made or broken. Every premium material category in the Indian interior market has a quality spectrum — and the decision of where to sit on that spectrum defines the final outcome more than any aesthetic choice. Here are the six material categories that matter most in modern luxury interiors:</p>
-<p>🪨</p>
 <p>Natural &amp; Engineered Stone</p>
 <p>Italian Calacatta marble, Statuario, Indian Makrana, engineered quartz (Caesarstone, Kalinga Stone). The ultimate luxury countertop and feature wall material. Requires professional sealing and maintenance.</p>
 <p>₹450–₹1,200/sq ft</p>
-<p>🌲</p>
 <p>Real Wood &amp; Veneer</p>
 <p>Teak, walnut, ash, oak veneers on BWP plywood substrate. Real wood floors (engineered hardwood planks). The warmth of wood is irreplaceable — and unforgiving of cheap substitutes.</p>
 <p>₹180–₹650/sq ft</p>
-<p>✨</p>
 <p>Acrylic &amp; High-Gloss Finishes</p>
 <p>Premium acrylic shutters in ultra-high gloss — contemporary kitchen kitchens' most aspirational finish. Best in white, black, and champagne. Scratch-sensitive; requires careful daily care.</p>
 <p>₹850–₹1,400/sq ft</p>
-<p>🔲</p>
 <p>Large-Format Porcelain Tiles</p>
 <p>Rectified 800×1600mm or 1200×2400mm slabs (Somany, Asian Granito, Grespania imports). The seamless floor that makes luxury spaces feel larger than they are. Grout lines are the enemy of luxury.</p>
 <p>₹120–₹480/sq ft</p>
-<p>🪟</p>
 <p>Glass — Lacquered &amp; Back-Painted</p>
 <p>Back-painted glass as kitchen backsplashes and bedroom wall panels. Lacquered glass in feature wall applications. Creates depth and light reflection that no other material replicates.</p>
 <p>₹220–₹550/sq ft</p>
-<p>🏗️</p>
 <p>Textured Wall Finishes</p>
 <p>Venetian plaster, microcement, fluted MDF/wood panels, 3D wall tiles. The texture layer adds tactile depth that flat paint never achieves. Trending: limewash in warm greige and deep terracotta.</p>
 <p>₹160–₹800/sq ft</p>
@@ -92,13 +84,10 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>Lighting — The Invisible Luxury That Defines Everything</h2>
 <p>Lighting is the most under-budgeted element in Indian interior projects and the one that most reliably separates a good interior from a luxury one. The difference between a room with a single overhead fixture and one with layered, tunable lighting is not subtle — it is the difference between a room that looks finished and a room that feels designed.</p>
 <p>The three-layer lighting framework every luxury interior must implement:</p>
-<p>01</p>
 <p>Ambient Lighting — The Base Layer</p>
 <p>Recessed downlights or cove lighting that provides general illumination. In luxury execution, this is always on a dimmer. CCT (Colour Correlated Temperature): 2700K–3000K warm white for living spaces, 3500K for kitchens and bathrooms. Budget: ₹120–₹300 per sq ft of ceiling area in fixtures alone.</p>
-<p>02</p>
 <p>Task Lighting — Functionality with Form</p>
 <p>Under-cabinet LED strips in the kitchen, reading lights in the bedroom, vanity lighting in bathrooms. Task lighting should be bright (4000K), directional, and on a separate circuit from ambient. In luxury kitchens, under-cabinet strips are recessed, not surface-mounted — the difference is immediately visible.</p>
-<p>03</p>
 <p>Accent Lighting — The Drama Maker</p>
 <p>Picture lights, display niche lighting, cove washes on feature walls, and floor washers on architectural details. Accent lighting adds depth and makes material textures (stone, wood, textured plaster) come alive. Budget: ₹200–₹500/sq ft of accent area for premium LED strips and driver units.</p>
 <blockquote>
@@ -135,23 +124,17 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<div class="callout"><span class="callout__title">Hidden Costs Most Clients Miss</span>⚠️</p>
-<div class="callout"><span class="callout__title">Note</span>In any luxury interior project, budget an additional 12–18% above the quoted cost for: electrical point additions (standard handover has far fewer points than a luxury design requires), civil works (levelling, waterproofing upgrades), professional design fee (4–8% of project cost at premium studios), GST on labour, transportation and installation, and a 5–8% contingency for material upgrades discovered mid-project.</div></div>
+<div class="callout"><span class="callout__title">Hidden Costs Most Clients Miss</span>In any luxury interior project, budget an additional 12–18% above the quoted cost for: electrical point additions (standard handover has far fewer points than a luxury design requires), civil works (levelling, waterproofing upgrades), professional design fee (4–8% of project cost at premium studios), GST on labour, transportation and installation, and a 5–8% contingency for material upgrades discovered mid-project.</div>
 <h2>How to Plan Your Modern Luxury Interior Project</h2>
 <p>Planning a luxury interior project in India is a 4-6 month process from first briefing to final handover. Most projects that disappoint do so because the planning phase was compressed. Here's the correct sequence:</p>
-<p>1</p>
 <p>Define your brief before your first designer meeting</p>
 <p>Collect 20–30 reference images from Instagram, Houzz, or Architectural Digest India. Identify what specifically attracts you in each — is it the palette? The material? The spatial feel? Bring this to the designer meeting. A well-defined visual brief reduces design iteration by 40% and protects you from a design that looks good in renders but doesn't match your lifestyle.</p>
-<p>2</p>
 <p>Get minimum three detailed quotes — not estimates</p>
 <p>A quote specifies board grade (BWP/MR/HDHMR), hardware brand (Hettich/Hafele/Ebco and specific series), stone type and source, finish brand, and the scope of civil work included. An estimate says "modular kitchen ₹4–6 lakh". Never accept estimates. Luxury procurement decisions require specification-level quotes.</p>
-<p>3</p>
 <p>Visit a completed project, not a showroom</p>
 <p>Any premium interior firm should be willing to arrange a site visit to a recently completed project (with client permission). Showrooms are always finished to an impossible standard. A real occupied home 12 months after handover reveals: how the material held up, how the joints have aged, whether the hardware still works smoothly. This visit is worth three hours of your time.</p>
-<p>4</p>
 <p>Lock the specification in writing before execution begins</p>
 <p>Scope creep is the primary cause of budget overruns in luxury interior projects. Before a single cut is made, have a signed specification document listing every material, every finish, every hardware item, and every scope boundary. Any addition post-sign-off should carry a formal change order with cost and timeline impact. This discipline protects both client and contractor.</p>
-<p>5</p>
 <p>Plan your site supervision strategy</p>
 <p>In any project above ₹25 lakh, appoint either the interior firm's dedicated project manager (ask specifically who will be your single point of contact and how often they'll be on site) or an independent project management consultant. The factory-to-site-to-installed chain has dozens of quality checkpoints that only active supervision catches — corner bead alignment, reveal consistency, grout width, lighting placement vs. draw. Without supervision, luxury materials are installed to average standards.</p>
 <h2>7 Common Mistakes in Modern Luxury Interior Design</h2>

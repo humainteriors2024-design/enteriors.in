@@ -85,41 +85,29 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>HDHMR's moisture resistance comes from its core — the resin binder is mixed uniformly throughout the board, not just applied as a surface coating. When an HDHMR panel is cut, the new exposed edge is just as moisture-resistant as the face. Plywood, even BWP grade, requires edge treatment because cut edges expose the veneer layers to direct moisture ingress.</p>
 <h2>Where to Use Each Material</h2>
 <h3>✅ Best applications for HDHMR</h3>
-<p>🍳</p>
 <h4>Modular Kitchens</h4>
 <p>Shutters, cabinet doors, and drawer fronts. The smooth surface is perfect for membrane or acrylic finishes.</p>
-<p>🚿</p>
 <h4>Bathroom Vanities</h4>
 <p>Under-sink cabinets and toilet units where moisture exposure is constant.</p>
-<p>🎨</p>
 <h4>Painted Finishes</h4>
 <p>PU paint, duco, and lacquer finishes come out flawless on HDHMR's grain-free surface.</p>
-<p>🚪</p>
 <h4>Shutter Profiles</h4>
 <p>Router-carved shutter profiles and grooves machine cleanly without tear-out.</p>
-<p>🛋️</p>
 <h4>TV Units &amp; Panels</h4>
 <p>Feature walls and TV unit carcasses that need a pristine finish without filling.</p>
-<p>🧴</p>
 <h4>Laundry Areas</h4>
 <p>Storage near washing machines where occasional splash is expected.</p>
 <h3>✅ Best applications for Plywood</h3>
-<p>📦</p>
 <h4>Cabinet Carcasses</h4>
 <p>The structural box of wardrobes and kitchen cabinets — needs strength more than surface finish.</p>
-<p>📚</p>
 <h4>Heavy-Duty Shelves</h4>
 <p>Book storage, TV unit shelves, and any span carrying significant load.</p>
-<p>🛏️</p>
 <h4>Bed Boxes &amp; Cots</h4>
 <p>Structural bed frames that need to hold the weight of mattress and occupants.</p>
-<p>🪑</p>
 <h4>Wooden Flooring Base</h4>
 <p>Subfloor panels and raised flooring platforms where structural strength matters.</p>
-<p>🔧</p>
 <h4>Drawer Bottoms &amp; Backs</h4>
 <p>Thinner 6mm–8mm plywood works well for drawer bottoms and cabinet backs.</p>
-<p>🏗️</p>
 <h4>False Ceiling Frames</h4>
 <p>Blocking and framing behind false ceilings where structural support is needed.</p>
 <h2>Cost Comparison — What You Actually Pay</h2>

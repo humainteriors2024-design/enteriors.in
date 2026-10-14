@@ -31,7 +31,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>01 · Introduction</p>
 <h2>What Mid-Century Modern really is (and why Bangalore keeps asking for it)</h2>
 <p>If a design style could survive seventy years, three continents, and the entire Instagram era without losing its personality, it earned the right to be called a classic. Mid-Century Modern is that style.</p>
 <p>Walk into an apartment in Bangalore that's done well in Mid-Century Modern and you'll notice something before you notice anything specific — the room breathes. Furniture sits a little lower than you expect. Wood is honest, not glossy. Legs are tapered and slim, so the eye travels under the sofa instead of stopping at it. Nothing shouts. Everything is in conversation.</p>
@@ -49,7 +48,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Who should choose it</h3>
 <p>Choose Mid-Century Modern if you like your homes to feel warm rather than cold, if you don't want a design that dates in five years, if you own the space (or plan to be in a rental for at least five years), and if you appreciate craftsmanship enough to spend a slightly higher share of your budget on furniture and a slightly lower share on decor.</p>
 <p>Skip it if you love ornate carving, gilded finishes, tall backrests, dark maximalist rooms, or you have a joint family where every generation needs seating for eight and floor cushions for four more. There are better styles for you and we'll point to them in Section 23.</p>
-<p>02 · Design Philosophy</p>
 <h2>The five ideas that hold Mid-Century Modern together</h2>
 <p>Every style has an underlying belief system. If you get the philosophy right, the material and colour decisions fall into place almost automatically. Get the philosophy wrong and the room ends up looking like a furniture showroom rather than a home.</p>
 <h3>1. Form follows function — but form is allowed to be beautiful</h3>
@@ -64,10 +62,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The negative space between objects is part of the composition. This is why cluttering a Mid-Century room with decor is the fastest way to kill it — the empty wall, the bare shelf, the visible floor are doing work.</p>
 <h3>Psychology and living experience</h3>
 <p>Spaces designed in this style feel calm without feeling austere. Colour psychologists point to the warm wood tones and mustard/rust accents as producing a sense of grounded optimism — a rare combination in interior design. Behavioural research also shows that low-slung furniture and open sight-lines reduce the perception of clutter, which lowers ambient stress in the room. This is one reason Mid-Century Modern is quietly preferred by people who work from home.</p>
-<div class="callout"><span class="callout__title">Note</span>"</p>
-<h4>Designer's take</h4>
+<div class="callout"><span class="callout__title">Designer's take</span>
 <p><strong>If a Mid-Century Modern room doesn't make you feel like sitting down within the first ten seconds of walking in, the designer got the philosophy wrong.</strong> Beauty is measured in comfort, not in how it photographs.</p></div>
-<p>03 · Visual Characteristics</p>
 <h2>What Mid-Century Modern looks like — the room, decoded</h2>
 <p>Ask ten people to describe a Mid-Century room and you'll get ten answers that agree on mood but disagree on specifics. Here is the decoded version — every visual lever the style pulls.</p>
 <h3>Room appearance and overall mood</h3>
@@ -83,7 +79,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Open space</h3>
 <p>Even in tight apartments, 30–35% of the floor plan stays furniture-free. This "walking room" is what gives the style its calm.</p>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Bangalore reality check:</strong> Compact apartments (900–1200 sqft) can absolutely pull off Mid-Century Modern, but only if you're willing to skip one piece of furniture you would otherwise buy. Usually it's the coffee table (replaced with a small side table) or the bench at the foot of the bed. Trust the negative space.</div>
-<p>04 · Color Palette</p>
 <h2>The Mid-Century Modern colour system, without guesswork</h2>
 <p>MCM colours are the most misunderstood part of the style. People either play it too safe (all beige, no character) or too enthusiastic (mustard walls, avocado sofa, teal cabinets — a 1970s catalogue). The system below is what actually works for Indian light.</p>
 <p>Warm Cream#F4EFE7</p>
@@ -130,7 +125,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Ignoring the ceiling — a bright white ceiling above a warm room feels disconnected</li>
 </ul>
 <div class="callout"><span class="callout__title">Rule of thumb</span>60 warm neutral / 30 wood / 10 accent. If your accent starts creeping past 15% of the visible room, pull it back — you're heading into 1970s territory, not MCM.</div>
-<p>05 · Materials Used</p>
 <h2>Every material that belongs in a Mid-Century Modern home</h2>
 <p>Material honesty is the soul of this style, so material selection is where budgets are won and lost. Here is the working list we hand our own project managers.</p>
 <h3>Walls</h3>
@@ -185,7 +179,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Maintenance and lifespan</h3>
 <p>Walnut veneer with PU finish: 12–15 years before it needs any attention. Engineered wood floor: 15–20 years with one refinish. Quartz countertop: 20+ years, effectively lifetime. Bouclé upholstery: 6–8 years before it starts pilling in high-use zones. Cane webbing: 8–10 years, easily replaceable panel-by-panel. Brass fittings develop a patina — that's a feature, not a defect.</p>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Factory-direct advantage:</strong> When we build furniture in-house, veneer thickness is 0.7mm instead of the 0.5mm you'll see in retail. Doesn't sound like much — until you refinish the piece ten years later and there's still material left to sand.</div>
-<p>06 · Furniture Style</p>
 <h2>The furniture vocabulary — every piece, sized for Indian apartments</h2>
 <p>Furniture is where Mid-Century Modern lives or dies. Everything else you can adjust; if the furniture is wrong, no amount of paint fixes it. Below is the vocabulary — and the exact dimensions our workshops build to.</p>
 <h3>Furniture shapes and heights</h3>
@@ -220,7 +213,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>07 · Kitchen Design</p>
 <h2>A Mid-Century Modern kitchen that works in Indian cooking conditions</h2>
 <p>The original 1960s American MCM kitchen was designed for baking, salad-making and one-pot dinners — not for daily <em>tadka</em>. What we build for Bangalore homes keeps the MCM vocabulary but respects Indian cooking realities: chimney, cross-ventilation, hidden dry storage, and materials that survive turmeric.</p>
 <h3>Cabinets</h3>
@@ -243,10 +235,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Islands only work in kitchens over 140 sqft with a minimum 1050mm clearance on all sides. In most Bangalore apartments, a breakfast counter (extending from the platform, 600mm deep × 900mm high) is the smarter choice — it delivers 80% of the MCM aesthetic without eating up walking room. Pair with two stools in cane or moulded plywood.</p>
 <h3>Appliances</h3>
 <p>Chimney: 90cm, auto-clean, 1150m³/hr suction minimum for Indian cooking. Hob: 4-burner glass or matte black. Built-in oven and microwave in the tall unit column at eye-height. Refrigerator: side-by-side or French door in stainless steel matte finish — the retro fridge look is charming but service network in India is thin, so we don't recommend it unless you're a true enthusiast.</p>
-<div class="callout"><span class="callout__title">Note</span>"</p>
-<h4>Designer's take</h4>
+<div class="callout"><span class="callout__title">Designer's take</span>
 <p><strong>The most successful MCM kitchens we've built keep the visible palette to three materials only:</strong> one wood, one solid colour, one stone. Everything else — appliances, hardware, backsplash — supports these three. This restraint is the entire look.</p></div>
-<p>08 · Bedroom Design</p>
 <h2>Bedrooms that whisper — MCM as a sleep environment</h2>
 <p>The bedroom is where Mid-Century Modern is at its calmest. Everything works together to reduce visual noise: low bed, warm wood, dim lighting, minimal decor, no busy patterns. The goal is a room that helps you fall asleep in eight minutes instead of forty.</p>
 <h3>Beds</h3>
@@ -265,7 +255,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Loft above the wardrobe with separate shutters (for luggage, seasonal quilts). Under-bed hydraulic storage. One credenza or low chest of drawers along an empty wall — this is where MCM's furniture-as-storage philosophy shines. Total storage in a 10x12 MCM bedroom should be around 90–110 cubic feet, all discreetly integrated.</p>
 <h3>Soft furnishings</h3>
 <p>Bedding in warm neutrals (oat, cream, camel, sage). Layered — a lightweight duvet plus one throw at the foot. Cushions: 2 large square + 2 medium rectangle + 1 lumbar. Rug: wool or wool-cotton blend, warm tones, sized so at least 600mm extends beyond the bed on three sides. Curtains: floor-to-ceiling, warm linen or linen-blend, off-white with matching blackout lining behind.</p>
-<p>09 · Living Room Design</p>
 <h2>The MCM living room — where the style earns its reputation</h2>
 <p>The living room is where every principle of Mid-Century Modern is on display — low furniture, warm materials, layered lighting, sculptural accents. Get this room right and the rest of the home follows.</p>
 <h3>TV unit</h3>
@@ -285,7 +274,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Decor</h3>
 <p>Three rules: sculptural (not decorative), few (not many), tactile (not shiny). One large abstract art piece, one sculptural ceramic vessel, one indoor plant with an architectural leaf (fiddle leaf fig, rubber plant, monstera), and one coffee-table book stack. Stop. Don't add. If you need to fill space, you have the wrong furniture layout.</p>
 <div class="callout"><span class="callout__title">Common trap</span>Clients often ask us to add "one more thing" — a console, a bench, an extra chair. The MCM living room is complete when there's still 30% empty floor. If you have to walk carefully around your furniture, you have too much.</div>
-<p>10 · Dining Area</p>
 <h2>The dining area — MCM's most social room</h2>
 <p>The dining room in Mid-Century Modern is famously convivial. A round or oval table centres the group, tapered chair legs let light travel through, and a single statement pendant hangs like a punctuation mark above.</p>
 <h3>Furniture</h3>
@@ -298,7 +286,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Integrated inside the credenza with soft-close drawers and vertical dividers for plates. A separate glass-door crockery cabinet is fine if the room is large enough, styled as a mid-century vitrine on tapered legs with clear or lightly smoked glass.</p>
 <h3>Decor</h3>
 <p>A centrepiece — a low ceramic bowl of fresh fruit or a small sculptural vase with one dried branch — is enough. Add a linen table runner in a solid warm tone for dinners. That's the entire visual grammar. Anything more starts to look staged.</p>
-<p>11 · Bathroom Style</p>
 <h2>MCM bathrooms — retro references, modern plumbing</h2>
 <p>Bathrooms are where designers get lazy with Mid-Century — either they ignore the style entirely (bathroom looks contemporary while rest of the home is MCM) or they overdo it (mint tiles, gold everything, the room feels like a themed set). The middle path is understated retro.</p>
 <h3>Tiles</h3>
@@ -313,7 +300,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Warm LED strip along the top of the mirror, warm 2700K ceiling light, and a small wall sconce beside the mirror for softer face lighting. Dimmer switch if your electrician can wire one — makes 6am bathroom visits kinder.</p>
 <h3>Accessories</h3>
 <p>Brass or matte black tapware, a matching towel rail, a small ribbed glass jar for toothbrushes, and a solid wood bath tray if you have a tub. That's the MCM bathroom's entire prop list.</p>
-<p>12 · Lighting Design</p>
 <h2>Lighting is where MCM homes actually happen</h2>
 <p>Nothing kills a Mid-Century Modern home faster than bad lighting. Nothing elevates it faster than great lighting. Here is the exact system we specify.</p>
 <h3>Natural light</h3>
@@ -342,7 +328,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Utility / balcony:</strong> 3500K–4000K acceptable</li>
 </ul>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Ninety-second test:</strong> Turn off all lights except the ambient layer. Can you still read a book comfortably? If yes, you have too much ambient. If no, your task and accent layers are doing the work — as they should.</div>
-<p>13 · Decorative Elements</p>
 <h2>Decor — a strict, curated list</h2>
 <p>MCM decor is a discipline in restraint. Every piece is chosen, not accumulated. Here's what belongs.</p>
 <h3>Plants</h3>
@@ -357,7 +342,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Brushed brass and matte black are the MCM metals. Chrome and rose gold are not. Keep metal accents consistent throughout the home — pick one primary (usually brass) and one secondary (matte black), and stay with them.</p>
 <h3>Books, mirrors, textures</h3>
 <p>Coffee-table books stacked flat or standing on the credenza — always with content that matches the room's mood (design, travel, architecture). Mirrors in round or arch shapes, brass or walnut framed. Textures: rely on the natural texture of materials — the grain of wood, the weave of bouclé, the ridge of cane — rather than added surface treatments.</p>
-<p>14 · Suitable Home Types</p>
 <h2>Which homes take Mid-Century Modern best?</h2>
 <div class="table-wrap">
 <table>
@@ -377,7 +361,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>15 · Best Room Sizes</p>
 <h2>How MCM performs at every room size</h2>
 <h3>Small homes (under 900 sqft)</h3>
 <p>Absolutely doable. Focus: a two-and-half seater sofa (not three), one accent chair, a round pedestal dining table for 4, floating wall-mounted furniture wherever possible. Skip the coffee table — replace with a pair of small side tables. Limit accent colours to one per room.</p>
@@ -389,7 +372,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>MCM was designed for open plans. Living-dining-kitchen combos work brilliantly because the horizontal furniture flow reinforces the openness. Use consistent flooring throughout, and let one accent wall define zones without physical partition.</p>
 <h3>Compact apartments</h3>
 <p>The bulk of our Bangalore 2BHK Mid-Century Modern projects fall in the 950–1250 sqft range. Everything above applies. Add: floor-to-ceiling wardrobes for storage density, hydraulic beds, no bench at the foot of the bed, and one credenza that doubles as a bar/media/display piece.</p>
-<p>16 · Ideal Customer</p>
 <h2>Who Mid-Century Modern is genuinely for</h2>
 <h4>The Design-Aware Professional</h4>
 <p>28–40, DINK or young family, senior IC or manager at a product company, understands why craftsmanship matters, ₹8–14 lakh interior budget for a 3BHK.</p>
@@ -418,7 +400,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>17 · Advantages</p>
 <h2>Why owners consistently love this style</h2>
 <h3>Functional benefits</h3>
 <p>Low, tapered furniture is easier to move for cleaning. Storage is integrated architecturally, which reduces clutter. Open sight-lines improve daily wayfinding. Warm lighting reduces eye strain during long WFH days.</p>
@@ -430,7 +411,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Mid-Century Modern is one of the two or three styles that consistently improves resale value in Bangalore's premium apartment market (contemporary/luxury being the other). Recognisable, aspirational, and non-controversial — the trifecta that buyers respond to.</p>
 <h3>Maintenance benefits</h3>
 <p>Fewer decor pieces means less dusting. Solid wood and quartz surfaces require less upkeep than glossy laminates or textured stone. Neutral palettes hide minor wear better than saturated colours.</p>
-<p>18 · Disadvantages</p>
 <h2>Be honest — what the style gets wrong for some homes</h2>
 <p>No style is universally right. Here are the practical downsides we tell clients upfront.</p>
 <h3>Maintenance and cleaning</h3>
@@ -450,7 +430,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Solid wood needs climate consideration — humidity swings crack unseasoned timber</li>
 </ul>
 <div class="callout"><span class="callout__title">Honest disclosure</span>If you have three or more elderly family members living with you, we usually recommend a Mid-Century adjacent style — transitional with taller furniture — over pure MCM. The low profile is beautiful, but daily comfort matters more than aesthetics.</div>
-<p>19 · Maintenance Level</p>
 <h2>What upkeep actually looks like — day, week, year</h2>
 <p>Overall maintenance rating: <strong>Low-Medium</strong>. Lower than luxury/glam styles, slightly higher than pure minimalism, roughly on par with contemporary.</p>
 <h3>Daily (5–10 minutes)</h3>
@@ -500,7 +479,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>20 · Approximate Cost</p>
 <h2>What Mid-Century Modern actually costs in Bangalore (2026 rates)</h2>
 <p>Costs below are transparent, factory-direct, all-inclusive of materials, manufacturing, transportation, installation and taxes. Site-specific issues (civil work, electrical rewiring, wet-area repairs) are extra.</p>
 <h3>Per square foot benchmarks</h3>
@@ -550,7 +528,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Statement lighting</strong> — pendants, floor lamps: ₹40,000–1.5 L across the home</li>
   <li><strong>Painting</strong> — usually not included in interior scope: ₹60,000–1.2 L for a 2BHK premium finish</li>
 </ul>
-<p>21 · Project Timeline</p>
 <h2>How long a Mid-Century Modern interior actually takes</h2>
 <div class="table-wrap">
 <table>
@@ -572,7 +549,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Timing advice:</strong> If you're planning to move in on a specific date, start the design conversation 12 weeks before that date for a 2BHK, 14 weeks for a 3BHK. Never squeeze the design phase — most cost overruns start with rushed sign-offs.</div>
-<p>22 · Budget Breakdown</p>
 <h2>Where your rupees actually go — line by line</h2>
 <p>Below is a typical premium-tier Mid-Century Modern breakdown for a 3BHK apartment (~1500 sqft), all-in ~₹18 lakh.</p>
 <div class="table-wrap">
@@ -659,10 +635,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<div class="callout"><span class="callout__title">Note</span>"</p>
-<h4>Designer's verdict</h4>
+<div class="callout"><span class="callout__title">Designer's verdict</span>
 <p>If you're between MCM and Scandinavian, ask whether you gravitate toward walnut or oak — walnut answers Mid-Century, oak answers Scandinavian. If you're between MCM and Japandi, ask whether you want the room to feel <strong>curated</strong> (MCM) or <strong>meditative</strong> (Japandi). Simple lens, correct choice every time.</p></div>
-<p>24 · Common Mistakes</p>
 <h2>Everything we've seen go wrong (and how to avoid it)</h2>
 <h3>Wrong materials</h3>
 <p>Mixing high-gloss laminate with matte walnut. Choosing yellow-tinted teak veneer that looks orange under warm lighting. Using PVC edge banding that reveals the substrate at the seam within a year. Selecting MDF wardrobes in Bangalore's humidity (they will fail).</p>
@@ -680,7 +654,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The classic client instinct: "Let's add one more thing." One more art print. One more cushion. One more plant. MCM is a subtractive style — every addition after the intended composition dilutes it. Restrain yourself for six months post-move-in before deciding what to add.</p>
 <h3>Poor space planning</h3>
 <p>Placing furniture along walls (this is a rental-apartment reflex, not a design decision). Blocking natural light paths with tall pieces. Not accounting for door swing arcs. Making the walkway between sofa and coffee table less than 450mm — traps everyone.</p>
-<p>25 · Designer Tips</p>
 <h2>Twenty tips from twenty years of Mid-Century Modern projects</h2>
 <ol>
   <li><strong>Buy the sofa before you paint.</strong> Match wall colours to the upholstery you actually chose, not to swatches you imagined.</li>
@@ -705,7 +678,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Live in the room before you finish it.</strong> After the modular is done, give yourself 4–6 weeks before choosing decor. You'll know what's missing.</li>
 </ol>
 <div class="callout"><span class="callout__title">Cost-saving ideas</span>Spend on: sofa, dining table, one statement chair, kitchen hardware, lighting. <br> Save on: coffee table, TV unit, side tables, decor. Factory-direct workshops (like ours) can build the "save" pieces to look identical to premium retail at 40–50% of the cost.</div>
-<p>26 · Best Brands</p>
 <h2>Brands we specify by category (India, 2026)</h2>
 <div class="table-wrap">
 <table>
@@ -726,7 +698,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Factory-direct alternative:</strong> Enteriors builds furniture in-house using Century BWR plywood, Hettich hardware, natural walnut veneer, and PU finishing — a mid-tier material stack delivered at prices below most brand-tier retail alternatives, with full customization on size and finish.</div>
-<p>27 · Sustainability</p>
 <h2>Making Mid-Century Modern genuinely sustainable</h2>
 <p>MCM has a strong sustainability advantage: it prizes long-lasting, well-crafted furniture over trend-driven pieces. But there's more you can do.</p>
 <h3>Eco-friendly materials</h3>
@@ -744,7 +715,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>LED lighting throughout (already standard). Smart dimmers reduce consumption 20–30% in living areas. Star-rated appliances in the kitchen. Solar-friendly window treatments — thin curtains in the daytime + operable shading — reduce cooling loads.</p>
 <h3>Natural lighting</h3>
 <p>MCM's window-first philosophy naturally reduces daytime electricity use. Choose mirror placement to bounce daylight deeper into the room. Reflective, warm-toned ceilings help distribute natural light without changing its character.</p>
-<p>28 · Future Trends</p>
 <h2>How Mid-Century Modern is evolving into 2027 and beyond</h2>
 <h3>Smart home integration</h3>
 <p>Voice-controlled lighting and climate is now standard even in mid-tier projects. Smart switches with warm-white dimmable output (not glaring blue LEDs on the switch face) are becoming the default. Discreet integration matters — MCM will not tolerate visible tech.</p>
@@ -756,9 +726,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Bio-composite veneers made from agricultural waste, engineered quartz with lower carbon footprint, recycled cane products, and hemp-based textiles are entering premium projects. The MCM look survives; the environmental cost drops.</p>
 <h3>Luxury MCM trends</h3>
 <p>Solid rosewood (where legally sourced) is making a limited return in ultra-luxury projects. Book-matched marble on floating credenzas. Custom Bauhaus-inspired chess sets and objets d'art. The style is becoming more collector-oriented at the top end while simplifying at the value end — a healthy split.</p>
-<p>29 · FAQ</p>
 <h2>Questions we actually get asked</h2>
-<p>30 · Conclusion</p>
 <h2>Final buying advice — the shortest version</h2>
 <p>Mid-Century Modern is not a look you buy. It's a discipline you commit to.</p>
 <p>Everything in this guide comes down to five decisions:</p>
@@ -777,10 +745,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>For a genuine Mid-Century Modern outcome, budget at least ₹1,600/sqft — below that, material compromises will show. Sweet spot: ₹2,000–₹2,500/sqft for a 2BHK or 3BHK. Above ₹3,000/sqft you're buying editorial-grade finish and iconic originals.</p>
 <h3>Long-term value</h3>
 <p>Mid-Century Modern is one of only two or three styles that don't visibly date. A well-executed MCM home from 2016 still reads current in 2026. Resale response is strong. Emotional response — the daily experience of living in the space — is what clients most consistently praise years after handover.</p>
-<div class="callout"><span class="callout__title">Note</span>"</p>
-<h4>Enteriors' final recommendation</h4>
+<div class="callout"><span class="callout__title">Enteriors' final recommendation</span>
 <p><strong>Start with the modular (kitchen + wardrobes + TV unit) done right the first time. Layer in furniture over 3–6 months. Buy one hero piece — an original or well-made replica. Live in it for 6 weeks before completing the decor.</strong> A Mid-Century Modern home built this way will look better in year 10 than in year 1. Very few styles can say the same.</p></div>
-<p>Appendix A · EEAT Enhancement</p>
 <h2>Professional insights, checklists and expert notes</h2>
 <h3>Interior Designer notes</h3>
 <p>After 20 years of Mid-Century Modern projects across Bangalore, the pattern is consistent: clients who trusted restraint were happy at year 3, year 5, and year 10. Clients who kept "adding one more thing" were redoing rooms by year 4. The style rewards discipline more than any other we execute. If you cannot commit to leaving 30% floor space empty, this isn't your style.</p>

@@ -14,24 +14,18 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>01</p>
 <h2>What Makes a Master Bedroom Different?</h2>
 <p>You spend nearly <strong>one-third of your life</strong> in your bedroom. No other room in your home carries that kind of weight. A master bedroom is not simply the largest bedroom — it is your personal retreat, your sanctuary from the demands of the outside world, and the place where the quality of your rest directly affects the quality of your life.</p>
 <p>Unlike a living room or kitchen, the master bedroom serves you in your most private, most vulnerable hours. It must work on every level: it needs to be visually calming, functionally efficient, acoustically quiet, thermally comfortable, and deeply personal to whoever calls it their own.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Why this guide matters:</strong> Most homeowners make their biggest bedroom mistakes before a single nail is hammered — during planning. This guide walks you through every decision layer, in sequence, so you can make informed choices that you'll be happy with for the next 20 years.</div>
-<p>🛏</p>
 <p>Rest &amp; Recovery</p>
 <p>Sleep quality is directly influenced by lighting, acoustics, temperature, and mattress choice.</p>
-<p>🔒</p>
 <p>Privacy &amp; Security</p>
 <p>The master bedroom is the one space in the home where you need complete control over who enters and when.</p>
-<p>🗄️</p>
 <p>Storage &amp; Organisation</p>
 <p>Wardrobes, dressing units, under-bed drawers — good storage is invisible until you don't have it.</p>
-<p>✨</p>
 <p>Personal Expression</p>
 <p>This is the one room in your home where your personal taste should lead every single decision.</p>
-<p>02</p>
 <h2>Planning Fundamentals</h2>
 <p>Before sketching a layout or choosing a colour palette, start with a brutally honest assessment of how you actually use your bedroom. Designers call this a <em>requirements brief</em> — and it forms the foundation of every decision that follows.</p>
 <h3>Who Uses This Room?</h3>
@@ -50,7 +44,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Dressing &amp; grooming — dedicated dressing table with good mirror lighting</li>
 </ul>
 <div class="callout"><span class="callout__title">Note</span>Write a single sentence describing your ideal morning in this room. That sentence will guide nearly every design decision you make. If your answer is "I want to wake up, brew coffee at the bedside, read for 30 minutes, then dress without waking my partner" — your room's layout, lighting, and furniture list practically writes itself.</div>
-<p>03</p>
 <h2>Master Bedroom Size Planning</h2>
 <p>Room dimensions define what is physically possible. Understanding the standard size categories helps you calibrate your expectations before committing to a furniture layout or wardrobe configuration.</p>
 <div class="table-wrap">
@@ -68,7 +61,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Note</span><strong>Pro tip:</strong> Always measure your actual room dimensions yourself — builder specifications often differ from what's delivered. Measure at skirting level, and note the location of every door, window, and AC provision before you begin planning.</div>
-<p>04</p>
 <h2>Space Planning &amp; Layout Design</h2>
 <p>A bedroom layout is not about fitting the most furniture — it's about creating effortless flow. The way you move through the room every single morning should feel natural, never obstructed.</p>
 <h3>The Circulation Rules</h3>
@@ -82,7 +74,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Bed Placement Rules</h3>
 <p>The bed is the gravitational centre of the room. Everything else aligns to it. The most universally effective position is against the wall that faces the main door — this gives you a clear sightline from the bed to the entry point, which is psychologically calming and aligns with both ergonomic and Vastu logic.</p>
 <p>Avoid placing the bed directly under a beam, with the headboard on a window wall (losing night privacy), or with the foot pointing directly at the door (cramped and visually unsettling).</p>
-<p>05</p>
 <h2>Master Bedroom Design Styles</h2>
 <p>Before selecting materials or furniture, identify your design language. Each style has a specific vocabulary of materials, proportions, and textures — mixing styles without intention is the most common reason bedrooms feel "off".</p>
 <h4>Modern</h4>
@@ -97,7 +88,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Bridges classic and modern. Most versatile style — traditional proportions with contemporary finishes.</p>
 <h4>Minimalist</h4>
 <p>Extreme restraint. Monochrome, hidden storage, recessed lighting, absolutely no clutter.</p>
-<p>06</p>
 <h2>Bedroom Colour Selection Guide</h2>
 <p>Bedroom colour psychology is real and measurable. Your paint choice affects your ability to fall asleep, your mood on waking, and how large or intimate the room feels. The master bedroom is not the place for bold feature experiments — unless you know exactly what you're doing.</p>
 <p>Warm Whites &amp; Cream</p>
@@ -123,7 +113,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Sage green + off-white + brass — biophilic and contemporary</li>
   <li>Charcoal wall + white cove ceiling + light rug — dramatic and restful</li>
 </ul>
-<p>07</p>
 <h2>Bedroom Flooring Guide</h2>
 <p>Flooring affects every sensory experience of the bedroom — the warmth underfoot at 6am, the sound of footsteps, the visual texture that sets the room's tone. It also accounts for a significant portion of your material budget.</p>
 <div class="table-wrap">
@@ -141,7 +130,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Note</span><strong>Enteriors recommends:</strong> For most Indian master bedrooms, SPC (Stone Plastic Composite) flooring offers the best balance of warmth, moisture resistance, durability, and cost. Engineered wood is the premium choice for truly tactile luxury underfoot.</div>
-<p>08</p>
 <h2>False Ceiling Design Guide</h2>
 <p>A bedroom ceiling is more than decoration — it frames the room, allows for layered lighting design, conceals wiring, and significantly elevates the perceived finish quality. At the same time, over-designed ceilings can make a room feel heavy. The best bedroom ceilings are intentional, not elaborate.</p>
 <p>Cove Ceiling</p>
@@ -153,24 +141,19 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Wooden Ceiling</p>
 <p>Warm-toned wooden panels for a resort or cabin aesthetic. Best as an accent above the bed rather than the full room. ₹150–300/sq ft.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Height matters:</strong> Never install a false ceiling in a room with under 9 feet of height. At 9–10 feet, keep the ceiling drop to a maximum of 12 inches. At 10 feet and above, you have full design freedom.</div>
-<p>09</p>
 <h2>Bedroom Lighting Design</h2>
 <p>Lighting is the single most transformative element in a bedroom — and the one most homeowners get wrong. A room lit by a single central light fixture feels flat, cold, and institutional regardless of how beautiful the furniture is. The goal is layered lighting: multiple sources at different heights and intensities, each controllable independently.</p>
 <h3>The Three Layers</h3>
-<p>🌕</p>
 <p>Ambient Lighting</p>
 <p>The base layer. Usually cove lighting or recessed spotlights on a dimmer. Should be warm white (2700–3000K) and never harsh or direct.</p>
-<p>📖</p>
 <p>Task Lighting</p>
 <p>Reading lamps, bedside sconces, or pendant lights. Directional, controllable from bed, and adjustable. Essential for reading without disturbing a partner.</p>
-<p>✨</p>
 <p>Accent Lighting</p>
 <p>Highlights artwork, headboard design, or architectural features. Creates depth and visual interest. LED strips inside wardrobe plinths are a popular accent choice.</p>
 <h3>Ideal Colour Temperatures</h3>
 <div class="callout"><span class="callout__title">Note</span><strong>Warm White (2700K–3000K)</strong> — Use for cove lighting, bedside lamps, and general bedroom ambience. Promotes melatonin production and aids sleep. This should be your dominant bedroom light source.</div>
 <div class="callout"><span class="callout__title">Note</span><strong>Neutral White (3500K–4000K)</strong> — Use only at the dressing table mirror where colour-accurate grooming light is needed. Avoid throughout the rest of the bedroom.</div>
 <div class="callout"><span class="callout__title">Note</span><strong>Non-negotiable:</strong> Every bedroom light should be on a dimmer switch. The ability to drop your bedroom to 10% brightness is one of the most impactful quality-of-life investments in your entire home.</div>
-<p>10</p>
 <h2>Bed Selection Guide</h2>
 <p>The bed is the largest furniture piece in the room and the most used. Get this right and everything else follows. Indian bedrooms typically require either a Queen (60×78 inches) or King (72×78 inches) bed — but the final choice depends on your room dimensions, your sleeping habits, and your partner's preferences.</p>
 <div class="table-wrap">
@@ -186,7 +169,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>11</p>
 <h2>Mattress Selection Guide</h2>
 <p>The mattress is arguably the single most important purchase in your home. You spend 7–9 hours on it every night. Yet most homeowners allocate a tiny fraction of their bedroom budget to it — and then spend years with poor sleep without connecting the cause.</p>
 <p>Memory Foam</p>
@@ -200,7 +182,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Hybrid</p>
 <p>Combines pocket springs with foam or latex layers. Best of both worlds — bounce with pressure relief. Typically the best overall performer for most sleepers.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Mattress budget rule:</strong> Spend at minimum 10–15% of your total bedroom budget on the mattress. If your bedroom budget is ₹5 lakhs, your mattress deserves ₹50,000–75,000. Skimping here undermines everything else.</div>
-<p>12</p>
 <h2>Headboard Design Guide</h2>
 <p>The headboard is the visual anchor of the bedroom — the first thing your eye travels to when you enter the room. It sets the room's design register more than any other single element, and it serves a practical function as a backrest for reading and sitting up in bed.</p>
 <h4>Popular Headboard Types</h4>
@@ -217,7 +198,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Integrate bedside lighting into the headboard unit for a seamless look</li>
   <li>Colour: either match the room's accent tone or go neutral — avoid mid-tones</li>
 </ul>
-<p>13</p>
 <h2>Wardrobe Planning Guide</h2>
 <p>Poor wardrobe planning is the single most common reason master bedrooms fail their owners long-term. A wardrobe that runs out of space within two years — or one where clothes are perpetually piled on the chair because the internal layout doesn't match actual needs — is a design failure.</p>
 <h3>Wardrobe Types</h3>
@@ -239,7 +219,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Accessories tray:</strong> A shallow pull-out drawer for sunglasses, watches, belts, and jewellery.</li>
   <li><strong>Safe locker:</strong> A hidden lockable cabinet for valuables. Plan this during carpentry stage — retrofitting is difficult.</li>
 </ul>
-<p>14</p>
 <h2>Wardrobe Material Guide</h2>
 <div class="table-wrap">
 <table>
@@ -263,7 +242,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Real wood grain. The most natural and luxurious finish. Requires maintenance. ₹250–500/sq ft.</p>
 <p>PU Paint</p>
 <p>Smooth, seamless, premium matte or gloss. Applied like automotive paint. Highest end — ₹400–700/sq ft.</p>
-<p>15</p>
 <h2>Dressing Unit &amp; TV Unit Planning</h2>
 <h3>Dressing Unit</h3>
 <p>The dressing table is one of the most underplanned elements in Indian bedrooms — often treated as an afterthought. A well-designed dressing unit with proper lighting transforms your morning routine.</p>
@@ -277,22 +255,16 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Sleep researchers generally advise against TVs in the bedroom — blue light from screens suppresses melatonin, and the habit of watching TV before sleep measurably reduces sleep quality. That said, this is a deeply personal choice, and for many Indian households the bedroom TV is a non-negotiable.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>If you want a TV:</strong> Opt for a floating wall-panel unit that frames the TV neatly. Keep it on the wall facing the foot of the bed. Use an OLED screen (lower blue light) and always set it to night/warm mode after 9pm.</div>
 <div class="callout"><span class="callout__title">Note</span><strong>If you're undecided:</strong> Plan the electrical point and wall provision for a TV but skip the furniture unit. You can always add it later — you can't easily remove the wiring once walls are plastered.</div>
-<p>16</p>
 <h2>Storage Solutions</h2>
 <p>Storage in the master bedroom exists on a simple principle: if everything has a place, the room stays ordered. The goal is to make organisation effortless rather than disciplined.</p>
-<p>🛏</p>
 <p>Under-Bed Storage</p>
 <p>Hydraulic beds offer the most accessible storage in the room. Use for out-of-season clothing, bedding, or luggage.</p>
-<p>🏔</p>
 <p>Loft Storage</p>
 <p>The zone above wardrobes is often wasted. Built-in loft units here work for items used less than monthly.</p>
-<p>🪑</p>
 <p>Storage Ottoman</p>
 <p>A bedfoot bench that opens for storage. Doubles as seating and a surface to lay out tomorrow's outfit.</p>
-<p>🔲</p>
 <p>Hidden Furniture</p>
 <p>Bedside tables with deep drawers, floating shelves with concealed cabinets. Storage that doesn't look like storage.</p>
-<p>17</p>
 <h2>Bedroom Wall Design Guide</h2>
 <p>The accent wall behind the bed is the most powerful design element in the bedroom. It creates depth, frames the bed, and sets the entire room's character. Done well, it's the detail that guests remember.</p>
 <p>Fluted Panels</p>
@@ -307,7 +279,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Natural or manufactured stone cladding. High drama, heavy visual weight — use sparingly, ideally on one wall only. ₹400–1500/sq ft.</p>
 <p>Paint + Moulding</p>
 <p>The most budget-friendly option. Simple wall mouldings or panel frames painted in the same colour create a premium effect at low cost. ₹80–200/sq ft.</p>
-<p>18</p>
 <h2>Windows &amp; Curtain Planning</h2>
 <p>Bedroom window treatment has two jobs that are often in conflict: letting light in when you want it, and blocking it completely when you want to sleep. Plan for both from the start — retrofitting blackout solutions onto an existing window treatment is costly and rarely elegant.</p>
 <h4>Layer Approach (Best Practice)</h4>
@@ -324,7 +295,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Cotton blend — practical, widely available, easy care. Best for everyday use.</li>
   <li>Polyester blackout — maximum light block at minimum cost. Use as a liner.</li>
 </ul>
-<p>19</p>
 <h2>Electrical Planning for the Master Bedroom</h2>
 <p>Electrical planning must happen before any carpentry or plastering begins. Once walls are closed, adding or moving points becomes a major intervention. This is the one area of bedroom planning where you should always over-plan rather than under-plan.</p>
 <h3>Essential Points Checklist</h3>
@@ -340,7 +310,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Dressing table light point (if separate from wardrobe)</li>
   <li>Smart panel / automation provision if future upgrades planned</li>
 </ul>
-<p>20</p>
 <h2>AC, Ventilation &amp; Comfort</h2>
 <p>Sleep researchers have consistently found that the ideal bedroom temperature for deep sleep is between 18°C and 21°C. Your AC placement, capacity, and ventilation plan directly determines whether you can achieve and maintain this.</p>
 <p>Split AC</p>
@@ -351,22 +320,16 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Never skip the ceiling fan provision — it is used year-round for airflow even when AC is running, and during the transitional months when AC isn't needed. Select a BLDC fan for energy efficiency.</p>
 <p>Air Purifier</p>
 <p>Increasingly important in Indian urban bedrooms given AQI levels. A HEPA filter air purifier in the bedroom significantly improves respiratory quality during sleep. Budget: ₹8,000–25,000.</p>
-<p>21</p>
 <h2>Smart Bedroom Features</h2>
 <p>Home automation in the bedroom is no longer a luxury — it's a genuine quality-of-life upgrade that pays dividends every single day. The key is to plan for it during construction rather than attempting to retrofit later.</p>
-<p>💡</p>
 <p>Smart Lighting</p>
 <p>Dimmer-controlled, scene-based lighting. "Sleep" scene dims to 10% warm, "wake" scene gradually brightens over 30 minutes. Transformative for sleep quality.</p>
-<p>🌅</p>
 <p>Motorised Curtains</p>
 <p>Automated on a schedule or voice command. Open gradually at wake time. Closes at sunset. One of the most-loved automation features by every homeowner who has it.</p>
-<p>🌡</p>
 <p>Smart Climate</p>
 <p>AC that starts cooling 30 minutes before bedtime and adjusts based on room temperature sensors. Saves energy and ensures you fall asleep in a perfectly conditioned room.</p>
-<p>🔐</p>
 <p>Smart Lock</p>
 <p>PIN or biometric bedroom door lock. Particularly valuable for families with children, or where privacy is important. Works independently from the main home system.</p>
-<p>22</p>
 <h2>Vastu for the Master Bedroom</h2>
 <p>Whether or not you follow Vastu as a practice, many of its recommendations for the master bedroom align closely with what ergonomics and sleep science also advise — particularly around bed orientation, room position, and mirror placement. Here are the core principles most widely followed in Indian homes.</p>
 <h4>Room Location</h4>
@@ -381,7 +344,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Warm pastels, cream, light blue, and soft green tones are considered Vastu-compliant for bedrooms. Avoid bright red or heavy black as primary colours.</p>
 <h4>Electronics</h4>
 <p>Minimise electronics in the bedroom per Vastu — particularly avoid keeping the television or mobile charger directly beside the bed's headboard.</p>
-<p>23</p>
 <h2>Master Bedroom Budget Planning</h2>
 <p>Understanding where money goes — and where it doesn't need to — is what separates a well-planned bedroom from one that either overspends on the wrong things or skimps on what matters most.</p>
 <h4>Basic / Essential Bedroom</h4>
@@ -415,7 +377,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>24</p>
 <h2>Bedroom Execution Process</h2>
 <p>Knowing the right sequence of work is crucial. Doing steps out of order is one of the most common reasons bedroom projects overrun their budget and timeline.</p>
 <h4>Step 1 — Requirement Gathering</h4>
@@ -440,7 +401,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Switches, plates, light fixtures, and fan installed. AC unit positioned and commissioned.</p>
 <h4>Step 11 — Soft Furnishings &amp; Styling</h4>
 <p>Curtains hung, mattress placed, bedding dressed, art hung, accessories placed. Final cleaning and snag review.</p>
-<p>25</p>
 <h2>Common Master Bedroom Mistakes to Avoid</h2>
 <p>These are the recurring errors that Enteriors designers encounter in nearly every project — and that could have been avoided with a little more planning upfront.</p>
 <ul>
@@ -454,7 +414,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>✕<strong>No blackout provision for windows.</strong> Indian cities have significant light pollution at night. Without blackout curtains, early morning light disrupts sleep regardless of other design choices.</li>
   <li>✕<strong>Choosing aesthetics over material quality.</strong> The most beautiful-looking bedroom made from substandard plywood and cheap laminates will degrade visibly within 3–5 years.</li>
 </ul>
-<p>26</p>
 <h2>The Complete Master Bedroom Planning Checklist</h2>
 <p>Use this as your master sign-off document. Nothing should go to carpentry or vendor order until every item on this list has been confirmed.</p>
 <h4>Space &amp; Layout</h4>

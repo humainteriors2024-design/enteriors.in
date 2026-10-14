@@ -23,12 +23,10 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>The Basics</p>
 <h2>What Exactly Is MDF — and Why Does It Dominate Modern Interiors?</h2>
 <p>Medium Density Fibreboard (MDF) is an engineered wood product made by breaking down hardwood or softwood residuals into wood fibres, combining them with wax and a resin binder, and forming panels under high temperature and pressure. The result is a dense, flat, smooth, and uniform material that has become one of the most widely used substrates in interior design and furniture manufacturing worldwide.</p>
 <p>Unlike solid wood, MDF has no grain direction, which means it resists warping and cracking under normal conditions. Unlike plywood, its surface is perfectly smooth — ideal for paint, veneer, laminate, or foil finishes. This combination of workability, consistency, and cost-effectiveness is why MDF is the board of choice for cabinets, wardrobe shutters, wall panelling, false ceilings, shelving, skirting boards, and door profiles.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Key insight for buyers:</strong> Not all MDF is the same. Choosing the wrong type for the wrong application — particularly in wet areas — is one of the most common and costly mistakes homeowners and contractors make. This guide tells you exactly what to pick and why.</div>
-<p>Types &amp; Varieties</p>
 <h2>The 7 Main Types of MDF — and What Each One Is For</h2>
 <p>The MDF market has evolved significantly. Today there are purpose-engineered variants for almost every interior application. Here is a complete breakdown:</p>
 <h3>1. Standard MDF (Plain / Interior Grade)</h3>
@@ -80,7 +78,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Laminate types: matte, gloss, texture, woodgrain, solid colours</li>
   <li>Factory laminates are generally more consistent and durable than site-applied laminates</li>
 </ul>
-<p>Quick Reference</p>
 <h2>MDF Types at a Glance — Comparison Table</h2>
 <p>Use this table to quickly match your application to the right MDF type:</p>
 <div class="table-wrap">
@@ -100,7 +97,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Key Comparison</p>
 <h2>MDF vs Plywood — Which Should You Choose?</h2>
 <p>This is the most frequently asked question in interior projects. The answer depends entirely on the application. Here is an honest, application-based breakdown:</p>
 <div class="table-wrap">
@@ -139,7 +135,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Outdoor furniture framing</li>
 </ul>
 <div class="callout"><span class="callout__title">Note</span><strong>Industry best practice:</strong> Use <strong>plywood for carcasses (frames/boxes)</strong> and <strong>MDF for shutters, faces, and panelling</strong>. This hybrid approach delivers the structural strength of plywood with the finish quality of MDF — and is used by most professional interior designers in India.</div>
-<p>Specification Guide</p>
 <h2>MDF Thickness Guide — Which Thickness for Which Application?</h2>
 <p>One of the most underappreciated decisions in any interior project is selecting the right thickness. Using a board that's too thin causes flexing and noise; too thick adds unnecessary weight and cost.</p>
 <div class="table-wrap">
@@ -158,7 +153,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Application Guide</p>
 <h2>Room-by-Room MDF Selection Guide</h2>
 <p>Here is the most practical section of this guide — a room-by-room breakdown of exactly which MDF to specify:</p>
 <h4>Living Room</h4>
@@ -177,7 +171,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Exterior-grade MDF for covered outdoor applications. Fully prime and paint all surfaces before installation. Not for exposed rain contact.</p>
 <h4>Commercial Spaces</h4>
 <p>FR MDF or combined MR + FR MDF for all commercial projects. Essential for RERA/fire compliance in offices, shops and hospitality.</p>
-<p>Buyer's Checklist</p>
 <h2>What to Check Before You Buy MDF — 8 Non-Negotiables</h2>
 <p>Walking into a hardware store or ordering from a dealer without this checklist is how homeowners end up with warped cabinets two monsoons in. Go prepared:</p>
 <ul>
@@ -191,7 +184,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Ask for the test certificate.</strong> Reputable manufacturers provide IS:12406 (Indian Standard) compliance certificates or equivalent for moisture resistance and mechanical strength.</li>
 </ul>
 <p>"The single most common mistake in Indian interiors is using standard MDF in kitchens to save cost — and paying 3× more two years later to redo swollen, delaminated shutters."</p>
-<p>Finishing Tips</p>
 <h2>How to Finish MDF — Paint, Veneer, Laminate &amp; More</h2>
 <p>MDF is only as good as its finish. The board itself is just the substrate — how you prepare and finish it determines longevity, aesthetics, and performance.</p>
 <h3>Painting MDF</h3>
@@ -218,7 +210,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Cross-band veneer MDF is available and recommended for large veneered panels</li>
   <li>Seal veneered MDF with lacquer or oil immediately after veneering to prevent moisture ingress</li>
 </ul>
-<p>Sustainability &amp; Health</p>
 <h2>Is MDF Safe and Sustainable? What Every Homeowner Should Know</h2>
 <h3>Formaldehyde Emissions</h3>
 <p>Traditional MDF used urea-formaldehyde resins that off-gassed formaldehyde — a volatile organic compound (VOC) linked to respiratory irritation. Modern MDF production has improved significantly. Look for:</p>
@@ -235,7 +226,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Low-emission adhesive systems (MDI resin is better than UF resin for environmental performance)</li>
 </ul>
 <p>FAQ</p>
-<p>Final Word</p>
 <h2>Making the Right MDF Decision — A Summary</h2>
 <p>MDF is not one product — it is a family of engineered boards, each designed with a specific set of applications and environments in mind. The difference between a beautiful interior that lasts 15 years and one that fails in two often comes down to this single decision made at the specification stage.</p>
 <p>Here is the simplest decision framework:</p>

@@ -18,7 +18,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>25 min read</p>
 <p>Updated June 2025</p>
 <p>Zero Rework Guide</p>
-<p>Section 01 · Foundation</p>
 <h2>Why Electrical Planning Matters in Interior Design</h2>
 <p>Imagine this: your modular kitchen is fully installed — beautiful shutters, granite tops, perfectly aligned tiles. Then your electrician points out there's no power point for the chimney, no dedicated line for the dishwasher, and the hob's ignition wire runs right behind the fitted cabinet. To fix it, <strong>you tear apart a wall, remove two base cabinets, re-tile the backsplash, repaint, and reinstall</strong>. The rework costs more than the original electrical work would have.</p>
 <p>This is not a hypothetical. It happens in thousands of Indian homes every year — and it is entirely preventable. <strong>Electrical planning done before interior work begins is the single highest-leverage decision you will make in your renovation.</strong></p>
@@ -38,7 +37,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p>🔴 The Rule of 10x</p>
 <p>Every electrical point that is missed during rough-in phase costs <strong>10 to 50 times more</strong> to add after interior work is complete. The conduit itself costs ₹150–300. The rework to access it after tiling, plastering, painting, and furniture installation costs ₹5,000–₹25,000. Plan once. Execute once.</p>
-<p>Section 02 · Timing</p>
 <h2>When Should Electrical Planning Be Done?</h2>
 <p>Electrical planning has three distinct phases in an interior project — and the sequence is non-negotiable. Miss a phase and you compromise the entire project's quality and cost-efficiency.</p>
 <p>Phase 1 · Before Civil Work</p>
@@ -54,36 +52,25 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Final Connections &amp; Testing</p>
 <p>After furniture, tiles, false ceiling, and painting are complete — final connections are made, modular switches fitted, lights installed, and the full system tested before handover.</p>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span>⚠️ Critical Sequencing Rule<br><br>Your <strong>interior design layout must be finalised BEFORE the electrician begins</strong>. Never start electrical rough-in with a rough sketch or a verbal plan. Insist on a dimensioned electrical drawing approved by both the interior designer and the homeowner before a single wall is chased.</div>
-<p>Section 03 · Process</p>
 <h2>Electrical Planning Process Step-by-Step</h2>
-<p>1</p>
-<h4>Finalise Interior Layout &amp; Furniture Plan</h4>
+<h4>1. Finalise Interior Layout &amp; Furniture Plan</h4>
 <p>Confirm sofa position, TV unit location, bed orientation, wardrobe placement, kitchen layout, and all appliance positions. Every furniture piece dictates an electrical point.</p>
-<p>2</p>
-<h4>Create Appliance Inventory by Room</h4>
+<h4>2. Create Appliance Inventory by Room</h4>
 <p>List every appliance, gadget, and light source per room — from the chimney and dishwasher to the phone charger and wardrobe sensor light. Include future-planning items (EV charger, smart home, automation).</p>
-<p>3</p>
-<h4>Define Point Locations with Heights</h4>
+<h4>3. Define Point Locations with Heights</h4>
 <p>For each point, define: which wall, horizontal distance from corner, and height from floor level. Standard heights matter — plugs at 300mm, switchboards at 1,200mm, AC at 2,100mm, geyser at 1,800mm.</p>
-<p>4</p>
-<h4>Load Calculation &amp; Circuit Planning</h4>
+<h4>4. Load Calculation &amp; Circuit Planning</h4>
 <p>Electrician calculates total load per room. Heavy appliances (AC, geyser, oven, dishwasher) each get a dedicated circuit with independent MCB. Light circuits and power circuits are always separated.</p>
-<p>5</p>
-<h4>Main Distribution Board (MDB) Design</h4>
+<h4>5. Main Distribution Board (MDB) Design</h4>
 <p>Size the main DB: number of ways, MCB ratings, RCCB protection, separate circuits for inverter and non-inverter loads, surge protection. The DB is the heart of your home's electrical system.</p>
-<p>6</p>
-<h4>Electrical Drawing Preparation</h4>
+<h4>6. Electrical Drawing Preparation</h4>
 <p>Licensed electrician or electrical consultant prepares a dimensioned single-line diagram and room-wise point layout. Get this drawing approved and signed before rough-in begins.</p>
-<p>7</p>
-<h4>Rough-In Execution</h4>
+<h4>7. Rough-In Execution</h4>
 <p>Wall chasing, conduit laying, box fixing — done before plastering. This phase must be supervised. Verify each point against the drawing before walls are closed.</p>
-<p>8</p>
-<h4>Wire Pulling &amp; Testing</h4>
+<h4>8. Wire Pulling &amp; Testing</h4>
 <p>After plaster cures, pull wires through conduits. Test continuity of every circuit before the false ceiling and tiles go in.</p>
-<p>9</p>
-<h4>Final Fit-Off &amp; Commissioning</h4>
+<h4>9. Final Fit-Off &amp; Commissioning</h4>
 <p>Fit modular switch plates, connect appliances, install lights, test all circuits under load. Commission inverter, automation, and security systems last.</p>
-<p>Section 04 · Drawings</p>
 <h2>Understanding Electrical Drawings</h2>
 <p>An electrical drawing (also called an electrical layout plan) is a floor-plan scale drawing showing exact locations of every switch, socket, light, fan, appliance point, conduit run, and DB position in your home. It is the blueprint your electrician works from.</p>
 <div class="table-wrap">
@@ -106,12 +93,10 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p>📐 Standard Electrical Heights (India)</p>
 <p>Switchboard: <strong>1,200–1,350mm</strong> from FFL · Socket (power): <strong>300mm</strong> from FFL · Bedside socket: <strong>650–750mm</strong> · TV area socket: <strong>300–400mm</strong> · AC point: <strong>2,000–2,100mm</strong> · Geyser: <strong>1,800mm</strong> · Exhaust fan: <strong>2,100mm</strong> · Kitchen counter socket: <strong>900–1,100mm</strong> (above counter level)</p>
-<p>Section 05 · Overview</p>
 <h2>Room-Wise Electrical Point Planning</h2>
 <p>The following sections cover every room in a typical Indian home — with specific point requirements, recommended quantities, heights, special provisions, and common mistakes. This is the core of the guide. Use it as your site reference during planning and execution.</p>
 <p>✅ How to Use These Sections</p>
 <p>For each room, cross-reference the point list against your interior layout drawing. Mark each point as <strong>Confirmed ✓</strong> or <strong>To Review ?</strong> before signing off on the electrical drawing. Don't let your electrician start rough-in without this review being complete.</p>
-<p>Section 06 · Room</p>
 <h2>Living Room Electrical Planning</h2>
 <p>The living room is the most electrically complex room after the kitchen. It accommodates entertainment, lighting, air conditioning, ambient atmosphere, and increasingly, home automation. Plan generously — under-provisioning here shows every day.</p>
 <p>Living Room</p>
@@ -130,7 +115,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Switchboard (Main)Near entry, 1,200mm — Fan, Light, AC master switches</p>
 <p>🔴 Living Room Planning Tip</p>
 <p>Always plan <strong>2 separate circuits for the living room</strong> — one for lights/fan and one for all power sockets. This way, if a socket trips an MCB, your lights stay on. Cove/profile lighting must have its own switch (or dimmer) to enable mood lighting independent of main lights.</p>
-<p>Section 07 · Entertainment</p>
 <h2>TV Unit Electrical Planning</h2>
 <p>The TV wall is the most socket-intensive single spot in a home. Poor planning here means a tangle of extension cords behind the unit — a fire hazard and an eyesore. Plan for at least 6–8 sockets in this zone.</p>
 <div class="table-wrap">
@@ -153,7 +137,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p>📺 TV Wall Hidden Wire Tip</p>
 <p>Route a <strong>75mm diameter blank conduit sleeve from behind the TV mount down to the TV unit cabinet</strong>. This lets you run HDMI cables, power cords, and AV wires invisibly from the wall-mounted TV down to the unit — creating a completely wire-free appearance on the feature wall.</p>
-<p>Section 08 · Ambience</p>
 <h2>False Ceiling Lighting Planning</h2>
 <p>False ceiling lighting is the single most impactful visual element in an interior — and the most under-planned. Every light type needs its own electrical provision, at the right location, before the gypsum board goes up. There is zero margin for error here.</p>
 <div class="table-wrap">
@@ -183,7 +166,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Allow minimum 4-inch (100mm) depth for recessed downlights from bottom of slab</li>
   <li>Cove LED strips need continuous conduit run — plan the strip length before ordering</li>
 </ul>
-<p>Section 09 · Kitchen</p>
 <h2>Modular Kitchen Electrical Planning</h2>
 <p>The kitchen is electrically the most demanding room in any home. It has the highest concentration of high-wattage appliances, the most dedicated circuits, and the most specific height requirements. Every kitchen appliance needs its own provision — no sharing, no extensions.</p>
 <p>Modular Kitchen</p>
@@ -201,7 +183,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Exhaust FanOn outer wall at 2,100mm, separate switch</p>
 <p>Washing Machine (if in kitchen)16A dedicated, with water inlet/outlet provisions</p>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span>⚠️ Kitchen Wiring Rule<br><br>In the modular kitchen, <strong>every appliance above 1000W must have its own dedicated 16A circuit with individual MCB in the DB</strong>. Chimney, microwave, oven, dishwasher, refrigerator, and any electric hob/cooktop must NEVER share a circuit. Sharing causes nuisance trips and fire risk. All kitchen counter sockets must be <strong>above counter level</strong> (min 1,050mm), never below where water can reach.</div>
-<p>Section 10 · Bedroom</p>
 <h2>Bedroom Electrical Planning</h2>
 <p>Bedroom</p>
 <p>12–18 Points</p>
@@ -217,7 +198,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>TV Point (if bedroom TV)Sockets + HDMI conduit sleeve behind mount</p>
 <p>🔴 Master Bedroom Special</p>
 <p>In the master bedroom, always plan a <strong>2-way switching for the main light</strong> — one switch near the door and one on the bedside switchboard. You should never have to get out of bed to turn off the room light. Similarly, plan a <strong>master cut-off switch</strong> near the bed to switch off all lights/fans with one button.</p>
-<p>Section 11 · Storage</p>
 <h2>Wardrobe Electrical Planning</h2>
 <p>Wardrobes are increasingly fitted with internal lighting, charging drawers, and even small vanity mirror lights. These provisions must be made before the wardrobe is installed — wiring behind an installed wardrobe is nearly impossible.</p>
 <div class="table-wrap">
@@ -234,7 +214,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 12 · Workspace</p>
 <h2>Study Room / Home Office Electrical Planning</h2>
 <p>Study / Home Office</p>
 <p>10–16 Points</p>
@@ -246,7 +225,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Task Lighting (Under Shelf)LED strip below bookshelf illuminating desk surface</p>
 <p>AC Point16A dedicated if dedicated study room</p>
 <p>Video Call Backdrop LightSoft light behind monitor for video conferencing</p>
-<p>Section 13 · Kids</p>
 <h2>Children's Room Electrical Planning</h2>
 <p>Children's room electrical planning demands extra safety provisions beyond standard. All sockets must have <strong>child safety shutters</strong>, socket heights should be higher than standard (at adult switchboard height), and nightlight provisions are essential.</p>
 <div class="table-wrap">
@@ -266,7 +244,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 14 · Dining</p>
 <h2>Dining Area Electrical Planning</h2>
 <div class="table-wrap">
 <table>
@@ -283,7 +260,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 15 · Spiritual</p>
 <h2>Pooja Room Electrical Planning</h2>
 <p>The pooja room, despite being compact, needs thoughtful electrical planning. Devotional LED strips, lamp sockets, bell mechanisms, and even speaker provisions for chants are increasingly part of contemporary pooja room design.</p>
 <p>Pooja Room</p>
@@ -296,7 +272,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Agarbatti / Incense FanSmall exhaust fan provision at top of pooja room</p>
 <p>Profile Lighting (Frame)LED strips around the pooja unit frame/arch</p>
 <p>Timer SwitchAuto on/off for electric lamps at puja time</p>
-<p>Section 16 · Outdoor</p>
 <h2>Balcony Electrical Planning</h2>
 <div class="table-wrap">
 <table>
@@ -313,7 +288,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 17 · Utility</p>
 <h2>Utility Area Electrical Planning</h2>
 <div class="table-wrap">
 <table>
@@ -330,7 +304,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 18 · Bathroom</p>
 <h2>Bathroom Electrical Planning</h2>
 <p>Bathroom electrical is governed by strict safety zones (IP ratings, zone classifications). Every bathroom point must follow IS 3646 / IEC 60364-7-701. No compromises on safety here.</p>
 <div class="table-wrap">
@@ -350,7 +323,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span>⚠️ Bathroom Safety Absolutes<br><br>1. <strong>Geyser switch must be OUTSIDE the bathroom</strong> — never inside. 2. All bathroom circuits must be on <strong>30mA RCCB protection</strong>. 3. No standard sockets inside bathrooms except SELV shaver sockets. 4. Metal conduits and exposed conductive parts must be bonded to earth. 5. <strong>NEVER use extension cords in bathrooms.</strong></div>
-<p>Section 19 · Cooling</p>
 <h2>AC Electrical Planning</h2>
 <div class="table-wrap">
 <table>
@@ -374,7 +346,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>AC circuits should not be on the inverter circuit (AC draws too much for inverter backup)</li>
   <li>If installing multiple ACs, plan sub-DB near AC cluster to reduce long cable runs</li>
 </ul>
-<p>Section 20 · Hot Water</p>
 <h2>Geyser Electrical Planning</h2>
 <div class="table-wrap">
 <table>
@@ -390,7 +361,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 21 · Smart Living</p>
 <h2>Smart Home Electrical Planning</h2>
 <p>Smart home technology requires infrastructure that looks invisible but runs throughout your home. The time to plan smart home wiring is during rough-in — retrofitting smart home infrastructure in a completed interior is expensive and disruptive.</p>
 <div class="table-wrap">
@@ -411,7 +381,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p>🔴 The Neutral Wire Issue</p>
 <p>Most Indian homes use <strong>2-wire switching (Line + Load only)</strong>. Smart switches from brands like Legrand, Schneider, Wipro Smart, and Anchor Panasonic require a <strong>3-wire system (Line + Neutral + Load)</strong>. If you ever plan to upgrade to smart switches, instruct your electrician to <strong>pull neutral wire to every switchboard</strong> during rough-in — at zero additional cost. Not doing this means rework of ₹800–3,000 per switch point later.</p>
-<p>Section 22 · Automation</p>
 <h2>Home Automation Wiring Requirements</h2>
 <p>Automation Infrastructure Cables</p>
 <ul>
@@ -432,7 +401,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Automation controller (Crestron, C-Bus, Hager, etc.) housing</li>
   <li>All racks need cooling — plan for ventilation or small fan</li>
 </ul>
-<p>Section 23 · Power Backup</p>
 <h2>Inverter &amp; UPS Planning</h2>
 <div class="table-wrap">
 <table>
@@ -456,11 +424,9 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Plan for future solar integration — lay conduit for solar panel cables on terrace to DB at rough-in</li>
   <li>Never put AC compressors or geysers on inverter circuit — they'll drain the battery in minutes</li>
 </ul>
-<p>Section 24 · Generator</p>
 <h2>Generator Backup Planning</h2>
 <p>📌 Generator Wiring Requirements</p>
 <p>If you plan a DG set (diesel generator) or petrol generator for full-home backup, your electrical plan must include: <strong>Automatic Transfer Switch (ATS)</strong> to switch between EB and DG without manual intervention · Dedicated <strong>heavy-duty outdoor socket</strong> for portable generator connection · <strong>Interlock mechanism</strong> that prevents simultaneous connection of EB and DG (mandatory safety) · Sufficient <strong>cable sizing</strong> from generator to DB based on generator kVA rating.</p>
-<p>Section 25 · Connectivity</p>
 <h2>Internet &amp; Networking Points</h2>
 <div class="table-wrap">
 <table>
@@ -479,7 +445,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p>📡 Future-Proofing Tip</p>
 <p>Run <strong>CAT6 or CAT6A cable</strong> (not CAT5e) — it supports 10Gbps and is future-ready. Always use <strong>star topology</strong> (every point home-runs to a central patch panel) rather than daisy-chaining. This costs minimally more in cable but gives you complete flexibility to reconfigure the network at any time without re-wiring.</p>
-<p>Section 26 · Surveillance</p>
 <h2>CCTV Planning</h2>
 <div class="table-wrap">
 <table>
@@ -498,7 +463,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p>🎥 CCTV Planning Rule</p>
 <p>All CCTV cables must be <strong>laid in conduits before false ceiling and wall plaster</strong>. IP-based CCTV (using POE switches) is strongly recommended over analog coaxial — single CAT6 cable carries both video and power, simplifying installation dramatically. Plan for <strong>NVR storage on UPS</strong> so footage continues during power cuts — the most critical period for security.</p>
-<p>Section 27 · Security</p>
 <h2>Security Systems Planning</h2>
 <div class="table-wrap">
 <table>
@@ -516,7 +480,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 28 · Entry</p>
 <h2>Door Bell &amp; Video Door Phone Planning</h2>
 <div class="table-wrap">
 <table>
@@ -532,7 +495,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 29 · Safety</p>
 <h2>Electrical Safety Guidelines</h2>
 <p>Safety is not optional in residential electrical work. Every safety device listed below is mandatory, not advisory.</p>
 <div class="table-wrap">
@@ -553,7 +515,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span>⚠️ Earthing — The Most Neglected Safety Element<br><br>Earthing failures cause the majority of electrical fatalities in Indian homes. Insist on a <strong>proper earthing electrode</strong> — not just a green wire that goes nowhere. Test earthing resistance: it must be <strong>below 5 ohms</strong> (ideally below 1 ohm). All metallic enclosures, water pipes, and equipment frames must be bonded to earth. Test annually.</div>
-<p>Section 30 · Mistakes</p>
 <h2>Common Electrical Mistakes in Home Interiors</h2>
 <p>Planning Mistakes</p>
 <ul>
@@ -576,7 +537,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Using aluminum wiring for internal circuits</li>
   <li>No earthing testing before occupation</li>
 </ul>
-<p>Section 31 · Budget</p>
 <h2>Electrical Cost Estimation</h2>
 <p>Electrical work in Indian homes is typically quoted either per-point or as a lump-sum. Here are 2025 benchmark rates for reference across apartment types.</p>
 <div class="table-wrap">
@@ -599,7 +559,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <p>💰 Never Cut Budget on Electrical</p>
 <p>Electrical is the one category in a home interior where <strong>saving money creates permanent risk</strong>. A ₹20,000 saving on wire quality or fewer MCBs can result in a ₹5-lakh fire loss or worse. Use <strong>ISI-marked FR (fire-retardant) copper wire</strong> throughout, name-brand MCBs (Schneider, Legrand, Havells, ABB), and <strong>never compromise on earthing and RCCB</strong>.</p>
-<p>Section 32 · Final Checklist</p>
 <h2>Final Electrical Checklist Before Interior Work</h2>
 <p>Use this interactive checklist during your electrical planning review. Click each item to mark it complete. Print or screenshot before sharing with your electrician.</p>
 <p>📐 Planning &amp; Drawing ▲</p>

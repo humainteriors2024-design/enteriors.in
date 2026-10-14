@@ -47,7 +47,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The successful hybrid takes the <em>lightness and airiness</em> of Coastal (whitewash walls, linen upholstery, natural fibres, a hint of blue) and combines it with the <em>architectural depth and warmth</em> of Mediterranean (arched openings, terracotta accents, unlacquered wood, natural stone, matte black wrought iron detail).</p>
 <p>The result is a light, warm, and materially honest home that suits Indian climate, Indian family patterns, and Indian construction realities better than either pure style.</p>
 <div class="callout"><span class="callout__title">In one sentence</span>Mediterranean-Coastal Revival is the disciplined blend of Southern European material honesty with American beach-house lightness — done for Indian climate, Indian ceilings, and Indian daily life.</div>
-<p>02 · Design Philosophy</p>
 <h2>Five principles a design manager will not compromise on</h2>
 <p>Here is the discipline that separates a successful Mediterranean-Coastal home from one that just looks "beige with a plant." These are not decoration rules — they are structural priorities. If a budget forces cuts, cut ornament first. Never cut these.</p>
 <p>Priority 01 · Light comes first</p>
@@ -67,7 +66,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Priority 05 · Craft over ornament</p>
 <h4>Handmade shows; machine-perfect kills the style</h4>
 <p>Zellige tile with slight surface variation. Hand-thrown ceramic vessels. Slightly-uneven lime plaster. Live-edge wood shelving. Rattan with visible weave. Every material in this style benefits from evidence of the human hand. Machine-perfect finishes — flat gyp-board walls, mass-produced ceramic tiles, factory-perfect polished veneer — read as generic contemporary, not as Mediterranean-Coastal. When you specify materials, ask specifically: does this show its making?</p>
-<p>03 · Visual Signatures</p>
 <h2>The vocabulary of shapes and details</h2>
 <p>Mediterranean-Coastal has a distinct visual vocabulary. Once you can name these elements, you can specify them, budget for them, and reject impostors.</p>
 <h4>Arch</h4>
@@ -89,7 +87,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Softness and irregularity are the point</h3>
 <p>The overriding visual quality this style shares is <em>softness</em>. Rounded edges instead of sharp corners. Uneven plaster instead of perfectly smooth walls. Hand-thrown pots instead of machine-made ceramics. Weathered wood instead of high-gloss veneer. Homes that keep hard geometry, perfect finishes, and machine precision at every touchpoint will not carry Mediterranean-Coastal — they'll read as generic contemporary. The style requires the designer and the contractor to embrace controlled imperfection.</p>
 <div class="callout callout--tip"><span class="callout__title">Design manager's rule</span>Pick three signatures for the whole home and repeat them everywhere. If you arched the foyer opening, arch the master bedroom niche. If you exposed wood beams in the living room, use them again in the dining or bedroom. If you used Zellige in the kitchen, echo it in the powder room. Continuity across rooms — not variety — is what transforms individual purchases into a coherent home.</div>
-<p>04 · Colour Palette</p>
 <h2>Whites that are not white, and the accents that earn their place</h2>
 <p>The single most misunderstood aspect of Mediterranean-Coastal palette is the base white. It is <strong>never pure white</strong>. Pure white walls under Bangalore's warm LED lighting will read blue and hospital-like. The base white in this style is a warm off-white with slight yellow or grey undertone — closer to old paper than to fresh snow. This one specification is worth 30% of the aesthetic.</p>
 <p>Whitewash</p>
@@ -118,7 +115,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Whitewash + Warm Sand + Terracotta + Wrought Black</strong> — the warmest version. Best for homes with cooler natural exposures.</li>
 </ul>
 <div class="callout callout--warn"><span class="callout__title">Avoid at all costs</span>Pure white walls (cold under LED), bright royal blue (turns nautical-costume), lime green (turns tropical), grey-based whites (drains warmth), and any polished gold or bright brass accent (immediately shifts the style toward Deco or Modern Classic). One polished gold tap can kill the whole room.</div>
-<p>05 · Materials &amp; Finishes</p>
 <h2>The material shortlist and what to spend on each</h2>
 <p>Mediterranean-Coastal is a material-honest style. Materials do more of the aesthetic work here than in almost any other style, which means material selection is where a design manager spends most of their attention. Here is the priority hierarchy for Bangalore homes in 2026.</p>
 <h3>Lime plaster or textured paint on walls</h3>
@@ -137,7 +133,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Matte black wrought iron</h3>
 <p>Every metal in the home in matte black. Hardware, tapware, curtain rods, light fixtures, mirror frames, chandelier arms, staircase railings, garden furniture. Powder-coated iron from Ozone, Hafele's matte black range, or custom-fabricated at any Bangalore metal workshop. This one material choice defines the style's authenticity. There is <strong>no room for brass, gold, or bright chrome</strong> in Mediterranean-Coastal.</p>
 <div class="callout callout--tip"><span class="callout__title">Design manager's material tip</span>If your budget allows only three material upgrades over generic contemporary, spend them here: (1) textured or lime plaster on walls instead of flat paint, (2) matte black hardware throughout instead of chrome or brushed steel, (3) one handmade tile feature wall in the kitchen or powder room. These three interventions cost approximately ₹1.4–₹2.1 lakh combined on a 3BHK and move the entire home from "contemporary" to "Mediterranean-Coastal."</div>
-<p>06 · Furniture Style</p>
 <h2>Silhouettes that relax the room, not perform it</h2>
 <p>Mediterranean-Coastal furniture is defined by <em>relaxed proportions</em>. Deep seating, generous cushioning, low profiles, chunky wood, and honest joinery. There is no place in this style for tight tailoring, sharp geometric edges, or high-gloss finishes. The furniture should invite bare feet and long afternoons.</p>
 <h3>Living room essentials</h3>
@@ -163,7 +158,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Rattan pendant lights</strong> or matte black wrought iron sconces beside the bed.</li>
 </ul>
 <div class="callout"><span class="callout__title">A note on proportion</span>Mediterranean-Coastal furniture is <em>heavier and more grounded</em> than contemporary furniture but not as ornamental as traditional. Silhouettes lean casual — think weekend house, not urban formal. If a piece looks like it belongs in a boardroom or a five-star hotel lobby, it does not belong in this style.</div>
-<p>07 · Kitchen Design</p>
 <h2>Where the style delivers its highest visible return</h2>
 <p>Kitchens are the room where Mediterranean-Coastal offers the best value ratio of any premium interior style. A modular kitchen executed in this style at ₹3,200 per running foot looks more expensive and more distinctive than a generic contemporary kitchen at ₹4,500 per running foot. The materials are cheaper. The visual return is higher. This asymmetry is the reason we recommend the style disproportionately for kitchen-heavy homes.</p>
 <h3>The formula that works</h3>
@@ -195,7 +189,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">Bangalore-specific note</span>Handmade Zellige tile is highly water-absorbent and needs sealing before grouting. Insist on the tile supplier providing the specific sealer with the delivery, and on the installer applying it before the tiles go up. This one 4-hour step prevents the Zellige from developing water stains within 6 months — a common failure we see when clients source tiles from generalist suppliers.</div>
-<p>08 · Bedroom Design</p>
 <h2>Restful, breezy, and lower-cost than most premium bedroom styles</h2>
 <p>Mediterranean-Coastal bedrooms are among the most restful of any interior style. They also cost meaningfully less to execute than Modern Classic or Art Deco Revival bedrooms because the material palette is inherently cheaper — linen instead of velvet, natural wood instead of veneer over solid wood, textured paint instead of feature panelling. This is a bedroom style that scales well from ₹1.2 lakh (entry) to ₹4 lakh (premium) for a full master bedroom.</p>
 <h3>The formula</h3>
@@ -211,7 +204,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Ceiling fan with wood-finish blades</strong> or matte-black frame — this is India; the ceiling fan is the aesthetic elephant in every bedroom and must match the style.</li>
 </ul>
 <div class="callout"><span class="callout__title">The ceiling fan problem, solved</span>Every Mediterranean-Coastal bedroom in Bangalore needs a ceiling fan. Standard white or chrome ceiling fans kill the aesthetic. Options that actually work: (1) Havells Stealth Wooden or Atomberg Renesa wooden-blade — ₹6,000–₹9,000; (2) matte black frame fans from Fanzart or Casablanca India — ₹12,000–₹22,000; (3) rattan-blade fans from specialist suppliers — ₹15,000–₹35,000. Spend on this. It's the single most visible element in a bedroom for 12 hours a day.</div>
-<p>09 · Living Room Design</p>
 <h2>Casual comfort, natural materials, and an emphasis on breathability</h2>
 <p>Mediterranean-Coastal living rooms are among the most family-friendly of any premium style. They accommodate real daily use — kids on the sofa, dogs on the rug, feet on the coffee table — because the materials are honest and forgiving. Linen slipcovers wash. Solid wood scratches and gains character. Jute rugs absorb spills. This is a living room style designed for lived-in use, not just for guests.</p>
 <h3>The anchor arrangement</h3>
@@ -229,7 +221,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Design manager's decision</p>
 <h4>The single highest-return intervention</h4>
 <p>If the client can afford only one dramatic change in the living room, we pick the textured lime plaster feature wall in a warm sand tone. It costs ₹35,000–₹65,000 for a standard 12x9 foot wall, transforms the entire room's mood, and works in every budget tier. Everything else — the sofa, the rug, the plants — can be scaled up over time. But the wall sets the aesthetic anchor from day one.</p>
-<p>10 · Dining Room Design</p>
 <h2>Long lunches, honest wood, and one big pendant</h2>
 <p>The dining room in Mediterranean-Coastal is designed for the way Southern European households eat — long, unhurried, generational. The furniture supports this. Solid wood tables that can seat six but stretch to eight. Chairs that stay comfortable for two hours. Lighting warm enough to encourage lingering. Nothing about a Mediterranean dining room hurries the meal.</p>
 <h3>The table</h3>
@@ -252,7 +243,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Hang 75–85 cm above the table surface. Warm 2700K bulbs, dimmable, never LED cool-white.</p>
 <h3>The sideboard</h3>
 <p>Every Mediterranean-Coastal dining room needs a solid wood sideboard. 180 cm long, waist-height, matte teak or mango finish, matte black hardware. Function is real — serves as buffet, holds tableware, displays ceramic vessels.</p>
-<p>11 · Bathroom Design</p>
 <h2>Handmade tile, honest stone, and matte black fittings</h2>
 <p>Bathrooms in Mediterranean-Coastal homes are unusually good-looking for their cost. The materials — Zellige tile, honed limestone or travertine, matte black tapware, unlacquered wood vanity — are individually accessible, but combined they read as high-end hospitality bathroom. A well-executed Mediterranean-Coastal master bathroom in a Bangalore apartment costs 30–40% less than the equivalent Modern Classic or Deco Revival bathroom.</p>
 <h3>The vanity</h3>
@@ -266,7 +256,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>The bathtub question</h3>
 <p>Freestanding tubs — clawfoot in matte black or slipper-shape in white — are the Mediterranean-Coastal ideal. Practical in villas with generous master bathrooms. Difficult in standard Bangalore 60-sqft apartment bathrooms. If space permits (100+ sqft), a freestanding tub is the room's hero. If not, skip it — a well-designed walk-in shower with Zellige is a better answer than compromising with a built-in tub.</p>
 <div class="callout callout--tip"><span class="callout__title">Compact bathroom tip</span>In a 40–50 sqft compact bathroom, Mediterranean-Coastal still works beautifully. The formula: terracotta tile floor, Zellige wet wall in whitewash or sage green, wall-mounted wood vanity with matte black hardware, arched matte black mirror, matte black wall sconce. Total additional cost over a standard bathroom: ₹55,000–₹95,000.</div>
-<p>12 · Lighting Blueprint</p>
 <h2>Warm, layered, and never brass</h2>
 <p>Lighting in this style follows the same principles as in other premium styles — layered, warm-temperature, dimmable — but with one critical fixture material change. Every decorative fixture must be <strong>rattan, wood, seagrass, matte black wrought iron, or ceramic</strong>. No brass, no gold, no polished chrome. This one material discipline maintains style purity.</p>
 <h3>The five-layer rule</h3>
@@ -340,7 +329,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Non-negotiable requirement</span>Natural light. If your primary living space does not get 4+ hours of direct or indirect natural light per day, Mediterranean-Coastal will not work here — the palette relies on real light to bring the warm whites and natural materials alive. In that case, consider Warm Contemporary or Modern Classic instead.</div>
-<p>15 · Ideal Room Sizes</p>
 <h2>What each room needs to work</h2>
 <p>Mediterranean-Coastal is more forgiving of small rooms than most premium styles — the light palette and airy furnishings actually help compact spaces feel larger. These are the minimums:</p>
 <div class="table-wrap">
@@ -376,7 +364,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Homeowners who cannot accept visible imperfection — hand-thrown ceramics have irregularities, real linen wrinkles, terracotta stains.</li>
   <li>Those who dislike plants — the style genuinely needs greenery to complete.</li>
 </ul>
-<p>17 · Advantages</p>
 <h2>Why homeowners choose this style</h2>
 <h3>1. Genuinely family-friendly</h3>
 <p>Linen slipcovers wash. Solid wood ages beautifully with scratches. Terracotta hides stains. Jute rugs handle spills. This is the most forgiving of all premium interior styles for households with kids, pets, and daily use.</p>
@@ -390,7 +377,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Mediterranean vernacular is centuries old. Coastal is a hundred years old. Neither is a trend — both are documented enduring styles with continuous demand. This style will not date.</p>
 <h3>6. Photographs consistently well</h3>
 <p>Warm natural light, textured surfaces, real plants — this style photographs excellently in both natural and warm artificial light. Real-estate listings for Mediterranean-Coastal homes receive higher click-through than any other premium style on Bangalore property platforms.</p>
-<p>18 · Disadvantages</p>
 <h2>Honest downsides most designers gloss over</h2>
 <h3>1. Requires natural light</h3>
 <p>The single biggest requirement. Homes with poor exposure, narrow windows, or heavy sun-blocking neighbours will struggle with this style. The whitewash palette needs light to breathe.</p>
@@ -407,7 +393,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Balanced view</p>
 <h4>The trade-off summary</h4>
 <p>Every advantage of this style requires a corresponding discipline. Family-friendliness requires accepting scratches and creases. Better cost-to-impact requires real material sourcing. Timelessness requires resisting trendier accents. Homeowners who understand these upfront are consistently thrilled. Those who see the aesthetic and skip the trade-offs are consistently disappointed.</p>
-<p>19 · Maintenance Reality</p>
 <h2>What actually needs upkeep, and how often</h2>
 <div class="table-wrap">
 <table>
@@ -489,7 +474,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Design manager's cost observation</p>
 <h4>Why this style beats premium alternatives on cost</h4>
 <p>Mediterranean-Coastal delivers premium visual outcomes at 65–75% of the cost of Modern Classic or Art Deco Revival. The reason is structural — the materials that define this style (linen, mango wood, Indian Zellige, textured paint, matte black iron) are cheaper per unit than the materials that define its competitors (velvet, walnut veneer, Statuario marble, brass, lacquer). If cost efficiency is a priority alongside aesthetics, this style is the objectively rational choice.</p>
-<p>21 · Timeline &amp; Sequencing</p>
 <h2>From first meeting to move-in — the honest schedule</h2>
 <p>Mediterranean-Coastal is faster to execute than most premium styles because fewer bespoke elements are involved. A full 3BHK runs 10–12 weeks door-to-door in the mid-tier, versus 12–14 weeks for Deco Revival or Modern Classic.</p>
 <div class="table-wrap">
@@ -511,7 +495,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--warn"><span class="callout__title">Timeline mistake we see repeatedly</span>Homeowners try to source plants after moving in, thinking they'll do it "in a week or two." Three months later, the home still has empty terracotta pots and looks unfinished. Include plant sourcing in the finishing phase timeline — the designer or an outsourced botanical stylist should deliver 4–6 mature plants on the same day as the final walk-through.</div>
-<p>22 · Budget Allocation</p>
 <h2>Where the money actually goes in a Med-Coastal home</h2>
 <p>Percentages for a mid-tier ₹16 lakh 3BHK Mediterranean-Coastal project. Adjust proportionally for your budget.</p>
 <div class="table-wrap">
@@ -573,7 +556,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>24 · Common Mistakes</p>
 <h2>The traps we see repeatedly in Bangalore projects</h2>
 <h3>Mistake 1 — Pure white walls</h3>
 <p>Homeowners specify "white walls" and get pure white paint. Under warm LED lighting, this reads cold and hospital-like. The correct specification is a warm off-white with a yellow undertone — Asian Paints "Warm Ivory" or "Cream Cake" range, or specific undertone lime plaster.</p>
@@ -595,7 +577,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Standard-issue white or chrome ceiling fans destroy every bedroom in this style. Wooden-blade or matte-black fans are mandatory. Budget for this upfront; do not treat it as an afterthought.</p>
 <h3>Mistake 10 — Buying "Mediterranean" from generic retailers</h3>
 <p>Mass-market retailers sell "Mediterranean-style" furniture that is generic beige contemporary with a token wood accent. Almost none of it works. Legitimate Mediterranean-Coastal furniture requires custom fabrication or purchases from specialists — either factory-direct workshops or curated design retailers.</p>
-<p>25 · Design Manager Tips</p>
 <h2>Twenty things we've learnt from installing this style</h2>
 <ol>
   <li><strong>Buy the plants first.</strong> Source large-format plants early — they'll acclimatise to the space during the finishing phase. Empty terracotta pots on delivery day looks unfinished.</li>
@@ -619,7 +600,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Fresh flowers or dried grasses on the dining sideboard.</strong> Even a single stem in a tall glass vase makes the room look styled.</li>
   <li><strong>Live in the home for 6 weeks before adding the final 20% of decor.</strong> Real needs become obvious. The pieces bought at that point are always better than those bought at handover.</li>
 </ol>
-<p>26 · Best Brand References</p>
 <h2>Where designers and homeowners actually source</h2>
 <p>These are references we use ourselves and recommend to clients. Not sponsored; not exhaustive.</p>
 <h3>Furniture — international reference</h3>
@@ -668,7 +648,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Jaquar Artize matte black</strong> — tapware</li>
   <li><strong>Kohler Composed Black</strong> — for luxury tier tapware</li>
 </ul>
-<p>27 · Sustainability</p>
 <h2>Among the most naturally sustainable premium styles available</h2>
 <p>Mediterranean-Coastal is among the most inherently sustainable premium interior styles — not because it markets itself that way, but because the materials it uses are structurally lower-impact than the alternatives.</p>
 <h3>Where the style is genuinely sustainable</h3>
@@ -690,7 +669,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 <h3>The workable sustainable approach</h3>
 <p>Source solid wood from FSC-certified Indian mills. Use Indian handmade tile (Bharat Floorings) instead of imported Zellige for 70% of applications. Use domestic natural stone (Rajasthan limestone, Kota sandstone) for 80% of stone work. Source rattan and cane from Fabindia or specialist suppliers with sustainability documentation. Reserve imported materials for one or two hero elements only. This approach captures 90% of the aesthetic at 40% of the embedded environmental cost.</p>
-<p>28 · Where It's Heading</p>
 <h2>What Mediterranean-Coastal looks like in 2028 and beyond</h2>
 <p>Based on hospitality projects currently in construction, editorial coverage, and the direction curated design retailers are moving, here is where the style is drifting.</p>
 <h3>1. Warmer, richer palettes</h3>
@@ -707,9 +685,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The broader cultural pushback against grey-and-white minimalism is benefiting warm styles disproportionately. Mediterranean-Coastal is one of the primary beneficiaries — expect market share to grow through 2028.</p>
 <h3>7. Ceiling detail increasing</h3>
 <p>Wooden beam ceilings, wood-slat ceilings, and textured plaster ceilings are increasing. The ceiling has been the neglected fifth surface of the room; homeowners are starting to treat it as a design opportunity rather than a leftover.</p>
-<p>29 · FAQs</p>
 <h2>Twenty-five questions Bangalore homeowners actually ask us</h2>
-<p>30 · Closing Thoughts</p>
 <h2>Why we recommend this style — and to whom</h2>
 <p>Mediterranean-Coastal is the premium interior style we recommend most often to Bangalore families in 2026. Not because it is the most photogenic. Not because it commands the highest budgets. But because it delivers the best combination of aesthetic quality, daily livability, cost efficiency, and material sustainability of any premium style currently available.</p>
 <p>It suits families with kids and pets — the materials are forgiving. It suits couples who value calm over drama — the palette is restful. It suits homeowners on tighter budgets — the material floor is lower. It suits people who spend real time in their home — the aesthetic rewards observation rather than performing at a glance.</p>
@@ -717,7 +693,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The Bangalore market for Mediterranean-Coastal has matured well. Skilled artisans, quality material suppliers, and experienced designers are all more accessible now than three years ago. Textured plaster application, Zellige installation, matte black hardware sourcing — the execution capability is here. Costs are stable, timelines are predictable, and the finished projects consistently perform.</p>
 <p>The right time to build a Mediterranean-Coastal home is when you own the property, plan to stay for a decade or more, want the daily experience of living somewhere warm and honest, and are ready to embrace the discipline the style requires. This guide has attempted to give you the language, the numbers, and the decisions to move forward confidently.</p>
 <p>If you'd like to discuss your specific home, floor plan, or budget with one of our designers — no obligation, no design fee at the discussion stage — we'd be glad to.</p>
-<p>Appendix A · EEAT</p>
 <h2>Expert notes and hidden-cost realities</h2>
 <p>Written by senior designers with 8+ years each in residential Indian interiors. These notes cover the questions clients ask us privately, after the main proposal is signed.</p>
 <h3>Interior designer notes</h3>

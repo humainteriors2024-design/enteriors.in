@@ -22,14 +22,12 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Why Hardware Matters</p>
 <h2>Hardware Is the Invisible Backbone of Every Interior — And the Most Compromised</h2>
 <p>Ask a homeowner what they noticed first in their new kitchen and they will say the countertop colour or the shutter finish.</p>
 <p>Ask them what annoyed them most after two years, and they will almost always describe a drawer that doesn't close properly, a hinge that squeaks, a shelf channel that keeps slipping, or a cabinet door that sags.</p>
 <p>That is hardware failure — and it is the most common, most avoidable, and most silently substituted element in Indian interiors.</p>
 <p>Hardware is the skeleton that determines how a kitchen or wardrobe feels to use every single day. The most beautiful kitchen with poor hardware is a frustrating kitchen. A simple, clean kitchen with excellent hardware is a joy. The difference in cost between economy hardware and world-class hardware across an entire 2BHK is typically ₹30,000–₹80,000 — less than 10% of the total interior budget. Yet it accounts for more than 60% of the day-to-day experience.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>The hardware rule every homeowner should know:</strong> Furniture ages visually. Hardware ages functionally. You will repaint a shutter, re-laminate a surface, or swap a handle for aesthetics. But if the hinge mechanism fails, the drawer side cracks, or the lift-up pneumatic loses pressure — the entire unit needs rework. <strong>Hardware is not where you save cost. It is where you protect your investment.</strong></div>
-<p>Trending Now · 2025–26</p>
 <h2>The Latest Hardware Innovations Every Homeowner Should Know About</h2>
 <p>The hardware industry has evolved dramatically. Beyond soft-close — which is now table stakes — the frontier of interior hardware in 2025–26 is about intelligence, invisibility, and integration. Here is what's new and worth specifying:</p>
 <p>New &amp; Trending Hardware — 2025–26</p>
@@ -51,7 +49,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>New</p>
 <p>Climate-Controlled Storage Units</p>
 <p>Integrated drawer and cabinet inserts with temperature and humidity sensors — designed for wine, cigars, or medication storage. Niche but growing in premium residential projects.</p>
-<p>Hardware 01</p>
 <h2>Hinges — The Most Used and Most Overlooked Hardware in Any Interior</h2>
 <p>Every cabinet door in your home relies on a hinge. A standard 2BHK kitchen and wardrobe may have 80–150 hinges in active use. They open and close thousands of times a year. Yet they are among the most commonly downgraded items in budget interiors — and the source of the most common complaints.</p>
 <h3>Types of Hinges — Explained for Homeowners</h3>
@@ -108,7 +105,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Hardware 02</p>
 <h2>Drawer Channels — From Basic Ball-Bearing to Silent Full-Extension Systems</h2>
 <p>Drawer channels (also called drawer slides or runners) control how a drawer opens, how far it extends, how much weight it carries, and how silently it operates. A drawer opened and closed 5–10 times daily for 15 years goes through over 50,000 cycles. The channel must handle this with no degradation in smoothness or alignment.</p>
 <p>Basic Roller Channel (Economy) Budget</p>
@@ -152,7 +148,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Requires thinner drawer bottom (not suitable for very thin drawers)</li>
   <li>Best brands: Blum, Hettich</li>
 </ul>
-<p>Hardware 03</p>
 <h2>Slide Channels — Wardrobe, Loft &amp; Pocket Door Systems</h2>
 <p>Slide channels are used for sliding doors in wardrobes, pocket doors in modular kitchens, loft shutter mechanisms, and sliding panels in room dividers. This is a category where the quality difference between budget and premium is immediately felt — a poor sliding system becomes noisy, jumpy, and eventually derails.</p>
 <p>Wardrobe Sliding Door System (Top-Hung) Most Common</p>
@@ -178,7 +173,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 <p>Loft Shutter Channels Storage</p>
 <p>Horizontal aluminium or steel channels for loft shutter doors (the sliding shutters above kitchen wall cabinets or bedroom wardrobe loft sections). These are lighter-duty than wardrobe systems — loft shutters are thinner (typically 9mm–12mm) and lighter. Economy channels work adequately here, but always specify ones with a proper anti-rattle bottom guide.</p>
-<p>Hardware 04</p>
 <h2>Handles &amp; Knobs — The Hardware You Touch Every Single Day</h2>
 <p>Handles are the most visible hardware element in any interior. They define the visual tone of a kitchen or wardrobe, communicate the design language, and are touched by every person who uses the space dozens of times daily. Handle selection is both a functional and aesthetic decision.</p>
 <p>Bar Handle (G-Bar / D-Bar) Most Popular</p>
@@ -217,7 +211,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Pairs best with integrated profiled handles or full handleless design</li>
 </ul>
 <p>"The handle is the jewellery of your kitchen. Everything else is the dress. Get the material right first — then let the handle tell the story."</p>
-<p>Hardware 05</p>
 <h2>Lift-Up Mechanisms — Wall Cabinet Systems That Open Upward, Not Outward</h2>
 <p>Conventional hinged wall cabinet doors swing outward — and bang into you while you're cooking. Lift-up mechanisms replace this with doors that open upward, lifting overhead, completely clearing the work zone. They transform how a kitchen wall cabinet feels to use and are among the most impactful hardware upgrades available.</p>
 <p>Aventos HK-S (Folding Flap — Short Door) Small Cabinets</p>
@@ -246,7 +239,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Best suited for tall, heavy doors where manual opening becomes fatiguing</li>
   <li>Cost premium: approximately 3–4× the manual Aventos HL</li>
 </ul>
-<p>Hardware 06</p>
 <h2>Tandem Box Drawers — The Upgrade That Transforms Every Kitchen Base Cabinet</h2>
 <p>If there is one hardware upgrade that creates the biggest visible and tactile difference in a kitchen — it is the switch from flat-base drawers to tandem box drawer systems. Tandem drawers replace the simple flat wooden drawer base and side-mounted channel with a complete steel drawer box system where the sides are structural steel extrusions.</p>
 <p>Tandem Box Drawer System (Steel Side Wall) Premium Kitchen Standard</p>
@@ -274,7 +266,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Closing SystemIntegrated soft-close (Silent System)</p>
 <p>Best BrandsHettich InnoTech, Blum Tandembox, Hafele Matrix</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Important distinction:</strong> Any salesperson or contractor may call any drawer "tandem" loosely. A true tandem system has <strong>steel structural side walls</strong> — not just a steel channel on the side of a wooden drawer box. If the side of the drawer is wood or MDF, it is a conventional drawer with a side-mount channel — not a tandem. Ask to see the system demonstrated open.</div>
-<p>Hardware 07</p>
 <h2>Bottle Pull-Outs — The Most Space-Efficient Kitchen Storage Solution</h2>
 <p>A bottle pull-out (also called a tall pull-out or larder unit) is a narrow, full-height pull-out unit that slides out of a base or tall cabinet to reveal multiple shelves — typically designed to hold bottles, oils, condiments, spices, and dry goods. They are among the highest-value storage accessories in a modern kitchen because they convert otherwise difficult narrow spaces into highly organised, fully accessible storage.</p>
 <p>Narrow Bottle Pull-Out (150mm–300mm Wide) Space Maximiser</p>
@@ -302,7 +293,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Soft-close is mandatory — a fully loaded pantry pull-out closing without damping is a serious impact event</li>
   <li>Best brands: Hettich Pull-Out Frame, Hafele Kessebohmer</li>
 </ul>
-<p>Hardware 08</p>
 <h2>Corner Solutions — Turning the Kitchen's Biggest Waste Zone Into Prime Storage</h2>
 <p>The corner cabinet is the most wasted space in any kitchen. A standard L-shaped kitchen has two corners — each containing 600mm × 600mm of dead space that is unreachable without corner hardware. The difference between a kitchen with proper corner solutions and one without can be 30–40 litres of effective storage — the equivalent of an entire wardrobe shelf.</p>
 <p>Classic</p>
@@ -317,7 +307,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Modern</p>
 <p>Full-Depth Corner Drawer</p>
 <p>New generation corner cabinets are designed as large drawers that open on a diagonal, fully accessing the deep corner space. Higher manufacturing complexity but zero wasted space. Increasingly specified in premium and designer kitchens as a cleaner alternative to swing-out mechanisms.</p>
-<p>Hardware 09</p>
 <h2>Kitchen Pull-Out Systems — Every Type, Every Use Case</h2>
 <p>Modern kitchen hardware has a pull-out solution for almost every cabinet type. Here is a complete reference:</p>
 <div class="table-wrap">
@@ -340,7 +329,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Hardware 10</p>
 <h2>Integrated Waste &amp; Recycling Bin Systems</h2>
 <p>The waste bin is the most used kitchen accessory — and one of the most frequently left to afterthought. An integrated pull-out waste bin system keeps the kitchen visually clean, prevents odours from an open bin, and enables single-motion dual-sort recycling.</p>
 <p>Door-Mounted Bin Pull-Out Most Popular</p>
@@ -353,7 +341,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 <p>Sensor-Lid Countertop Bin Smart Freestanding / Premium</p>
 <p>A countertop or floor-standing bin with motion/proximity sensor that opens the lid automatically when a hand is waved above it. Hygienic — no contact required. Used in premium kitchens and open-plan cooking areas where the bin remains visible. Available with deodorising carbon filters.</p>
-<p>Who Makes the Best Hardware</p>
 <h2>Hardware Brand Comparison — The 6 Names Every Homeowner Should Know</h2>
 <p>The hardware market in India is served by a combination of European precision brands and good-quality domestic manufacturers. Here is an honest comparison to guide your specification:</p>
 <p>B</p>
@@ -386,7 +373,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Germany · Premium</p>
 <p>★★★★☆</p>
 <div class="callout"><span class="callout__title">Note</span>Specialises in door hardware, door closers, sliding systems and access solutions. The reference brand for sliding door hardware and pocket door systems. Less relevant for kitchen drawers but unmatched for sliding wardrobe and door systems.</div>
-<p>The Real Difference</p>
 <h2>Budget Hardware vs Premium Hardware — What Actually Changes</h2>
 <div class="table-wrap">
 <table>
@@ -407,7 +393,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout"><span class="callout__title">Note</span><strong>The lifetime cost argument:</strong> Economy hardware for a 2BHK costs ₹20,000 upfront but will likely need replacement or repair at years 4 and 8 — total real cost ₹50,000–₹70,000 plus disruption. Premium hardware costs ₹90,000–₹1.2 lakh upfront, lasts 15–20 years, and requires zero intervention. <strong>Premium hardware is not the expensive choice. It is the economical choice over a home's lifetime.</strong></div>
-<p>Decision Guide</p>
 <h2>The Homeowner's Hardware Buying Guide — What to Ask, What to Check</h2>
 <h3>Before Signing Your Interior Contract</h3>
 <ul>

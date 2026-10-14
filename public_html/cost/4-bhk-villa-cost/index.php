@@ -29,7 +29,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Section 01</p>
 <h2>Quick Cost Summary: 4BHK vs Duplex vs Villa</h2>
 <p>Before we go line by line, here's the bird's-eye view. These ranges reflect full-home interiors — modular kitchen, wardrobes, TV and crockery units, false ceiling, and finishing — at Bangalore 2026 rates, inclusive of standard installation but exclusive of GST (18%) and civil work.</p>
 <div class="table-wrap">
@@ -45,10 +44,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>Ranges based on Enteriors factory-direct project data, Jan 2025–Jun 2026, Bangalore &amp; Hosur deliveries. Retail studio quotes for identical specifications typically run 20–30% higher.</p>
-<p>📷</p>
 <p><strong>Hero image — replace before launch.</strong> <br> Completed Enteriors 4BHK living room or double-height villa living area, wide angle. <br> File: <code>4bhk-villa-duplex-interior-cost-bangalore-hero.webp</code> · 1200×675 (16:9) <br> Alt: <code>Completed 4BHK luxury interior design project in Bangalore by Enteriors</code></p>
 <p>A completed Enteriors 4BHK project in Bangalore — premium package with acrylic-finish kitchen and veneer wall panelling.</p>
-<p>Section 02</p>
 <h2>Why Large Homes Don't Price Like Small Homes Scaled Up</h2>
 <p>A common mistake we see: buyers take a 2BHK quote of ₹9 lakh and assume a 4BHK will be "roughly double." It never works that way, in either direction. Three forces pull the number around:</p>
 <h3>1. Per-sqft rates fall, but scope explodes</h3>
@@ -58,7 +55,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>3. Villas carry the outdoors</h3>
 <p>Villa budgets absorb terraces, decks, gardens, gazebos and facade lighting — line items with weatherproof material requirements (WPC, HDPE, outdoor-grade laminates) that cost 30–60% more than their indoor equivalents.</p>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Factory-direct advantage at scale</strong> The bigger the home, the bigger the factory-direct saving in absolute rupees. On a ₹40 lakh premium 4BHK, removing the 20–30% retail/dealer margin means ₹8–12 lakh stays in your pocket — often enough to fund the entire kitchen upgrade from laminate to acrylic.</div>
-<p>Section 03</p>
 <h2>4BHK Apartment: Room-by-Room Cost Breakdown</h2>
 <p>Here's how a typical <strong>2,200 sqft 4BHK premium package (₹32–38 lakh band)</strong> distributes across rooms. Use this to sanity-check any quote you receive — if one line looks abnormally cheap, the money has usually been hidden somewhere else.</p>
 <div class="table-wrap">
@@ -79,11 +75,9 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>📷</p>
 <p>Enteriors modular kitchen from a 4BHK project — island or L-shape, premium finish. <br> File: <code>4bhk-modular-kitchen-cost-bangalore.webp</code> · 1200×800 <br> Alt: <code>Premium modular kitchen with acrylic finish in a 4BHK Bangalore home</code></p>
 <p>The kitchen is the single largest line item in most 4BHK budgets — typically 18–24% of the total.</p>
 <p>Planning the kitchen first is smart budgeting — our guides on <a href="/modular-kitchen/storage-solutions/">modular kitchen storage</a> and <a href="/modular-kitchen/">choosing the right kitchen layout</a> break down where each rupee goes inside that ₹6–9 lakh band.</p>
-<p>Section 04</p>
 <h2>Duplex-Specific Costs: Where the Extra 12–20% Goes</h2>
 <p>A duplex is the same rooms plus <strong>four line items apartments never see</strong>. These are the numbers most online cost guides skip entirely — and where under-informed buyers get surprised at the second site visit.</p>
 <div class="table-wrap">
@@ -100,10 +94,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>The scaffolding surcharge nobody quotes upfront</strong> Any work above 12 ft — painting the void wall, fixing the chandelier, installing high panelling — requires scaffolding or MEWP access and specialised labour. On a duplex this adds ₹40,000–₹1.2 lakh. Ask explicitly whether at-height access charges are inside the quote; "painting included" often means only up to standard ceiling height.</div>
-<p>📷</p>
 <p>Duplex staircase with cladding + double-height living from an Enteriors project. <br> File: <code>duplex-staircase-double-height-interior-cost.webp</code> · 1200×800 <br> Alt: <code>Duplex staircase railing and double-height living room interior in Bangalore</code></p>
 <p>Staircase and void-wall treatments are the signature — and the budget centre — of duplex interiors.</p>
-<p>Section 05</p>
 <h2>Villa-Specific Costs: The Line Items Apartments Don't Have</h2>
 <p>Villas inherit everything above, then add rooms with no apartment equivalent. This is where budgets quietly grow from ₹50 lakh to ₹90 lakh without anyone changing a material grade:</p>
 <div class="table-wrap">
@@ -123,10 +115,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Villa material rule of thumb</strong> Anything touching weather — decks, terrace units, outdoor counters, gate-facing panels — must be BWP-710 grade ply, WPC or HDPE. Using interior-grade MR ply outdoors is the single most common villa defect we're called in to redo. Our <a href="/materials/plywood-guide/">plywood grade guide</a> explains the IS 303 vs IS 710 difference in plain language.</div>
-<p>📷</p>
 <p>Villa exterior/terrace deck or home theatre from an Enteriors project. <br> File: <code>villa-interior-cost-home-theatre-terrace.webp</code> · 1200×800 <br> Alt: <code>Villa home theatre room and terrace deck interior work in Bangalore</code></p>
 <p>Home theatres and outdoor decks are the two fastest-growing villa requests in our 2025–26 order book.</p>
-<p>Section 06</p>
 <h2>How Material Grade Moves the Total</h2>
 <p>On a large home, the material grade decision is worth <strong>lakhs, not thousands</strong>. The same 4BHK scope priced at three grades:</p>
 <div class="table-wrap">
@@ -143,35 +133,25 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>The smart move on large homes is <strong>mixed-grade specification</strong>: premium/luxury where hands and eyes go daily (kitchen shutters, master wardrobe, living TV wall), standard grade inside carcasses, lofts and guest rooms. Done right, this delivers a luxury-feel home at a premium-band price. For the deeper comparison, see our guide on <a href="/cost/essential-vs-luxury-budget/">essential vs luxury interiors</a> and <a href="/compare/calibrated-vs-normal-plywood/">calibrated vs normal plywood</a>.</p>
-<p>Section 07</p>
 <h2>Hidden Costs &amp; Precautions: Read This Before You Sign</h2>
 <p>Large-home quotes fail buyers in predictable ways. After auditing hundreds of competitor BOQs that clients bring to us for second opinions, these are the eight precautions that protect a ₹30–80 lakh project:</p>
-<p>01</p>
-<h4>Demand a line-item BOQ, not a lump sum</h4>
+<h4>1. Demand a line-item BOQ, not a lump sum</h4>
 <p>"Full home @ ₹2,100/sqft" hides everything. Insist on unit-wise dimensions, ply grade, brand of laminate/hardware, and rate per item. If a vendor resists itemising, that's your answer.</p>
-<p>02</p>
-<h4>Confirm what "included" excludes</h4>
+<h4>2. Confirm what "included" excludes</h4>
 <p>Civil work, electrical rewiring, plumbing changes, painting above 12 ft, deep cleaning, debris removal and lift charges are the classic exclusions. Get the exclusion list <em>in writing</em> before comparing quotes.</p>
-<p>03</p>
-<h4>Verify plywood on delivery, not on paper</h4>
+<h4>3. Verify plywood on delivery, not on paper</h4>
 <p>Check ISI stamps: IS 303 (MR) for dry areas, IS 710 (BWP) for kitchens, vanities and outdoor units. Ask for the brand invoice. A drop of water on a fresh cut swelling within minutes means the grade isn't what you paid for.</p>
-<p>04</p>
-<h4>Cap advance payments at milestones</h4>
+<h4>4. Cap advance payments at milestones</h4>
 <p>Healthy structure: ~10% booking, ~40% at material/production start, ~40% at delivery-to-site, ~10% after snag-list closure. Any vendor asking 70–80% before material reaches site is transferring their risk to you.</p>
-<p>05</p>
-<h4>Get warranty terms item-wise</h4>
+<h4>5. Get warranty terms item-wise</h4>
 <p>"5-year warranty" should specify what's covered — carcass delamination, hardware failure, finish peeling — and who services it. Branded hardware (Hettich, Hafele, Blum) and branded laminates carry manufacturer warranties independent of your contractor. Collect those certificates.</p>
-<p>06</p>
-<h4>Beware the lowest quote by 25%+</h4>
+<h4>6. Beware the lowest quote by 25%+</h4>
 <p>At identical specifications, materials cost roughly the same for everyone. A dramatically lower quote means a grade swap you won't see (carcass ply, back panels, edge banding) or a change-order strategy that recovers the difference mid-project.</p>
-<p>07</p>
-<h4>Fix the design before production starts</h4>
+<h4>7. Fix the design before production starts</h4>
 <p>Mid-production changes on large homes cascade — one wardrobe redesign can stall three dependent units. Sign off 3D renders and the BOQ together, and treat that as the change-control baseline.</p>
-<p>08</p>
-<h4>Put GST and timeline penalties in the contract</h4>
+<h4>8. Put GST and timeline penalties in the contract</h4>
 <p>Confirm whether quotes are inclusive or exclusive of 18% GST — on ₹40 lakh that's a ₹7.2 lakh surprise. Add a delivery timeline with a grace period and a modest per-week delay clause; serious manufacturers accept it.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Red flag phrases in quotes</strong> "Standard branded ply" (which brand?), "imported hardware" (import ≠ quality — insist on the brand name), "as per site conditions" against a fixed line item (an open-ended escalation clause), and "premium finish" without a laminate/acrylic catalogue code. Every vague phrase is a future dispute.</div>
-<p>Section 08</p>
 <h2>Inputs to Prepare Before Requesting a Quote</h2>
 <p>The accuracy of your quote is only as good as the inputs you give. Walk in with these ready and you'll get a comparable, honest number in the first meeting instead of the third:</p>
 <ul>
@@ -186,7 +166,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Existing furniture to retain</strong> — a retained dining set or bed changes both design and budget.</li>
 </ul>
 <p><strong>How we priced this guide</strong> <br> Ranges are drawn from Enteriors' delivered project data (January 2025–June 2026) across Bangalore and Hosur, cross-checked against current factory input costs for IS 303/IS 710 plywood, branded laminates and Hettich/Hafele/Blum hardware as of July 2026. Prices exclude GST (18%) and civil/structural work unless stated. Your final cost depends on measured site dimensions and signed material selections.</p>
-<p>Section 09</p>
 <h2>Where to Save — and Where You Absolutely Shouldn't</h2>
 <h3>Smart savings (no visible compromise)</h3>
 <ul>
@@ -204,7 +183,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Waterproof grades outdoors</strong> — terrace and deck materials must be rated for weather, full stop.</li>
   <li><strong>Electrical load planning</strong> — a villa with theatre, island hob and outdoor lighting needs circuit planning before false ceilings close.</li>
 </ul>
-<p>Section 10</p>
 <h2>How Long Does It Take?</h2>
 <div class="table-wrap">
 <table>
@@ -221,7 +199,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>Factory-direct manufacturing is what keeps these timelines honest: modules are machined and finished in controlled conditions while your site is being prepared, then installed in a short, clean window. For a stage-by-stage walkthrough, read our <a href="/planning/interior-timeline/">interior design timeline guide</a>.</p>
-<p>Section 11</p>
 <p>E</p>
 <h4>Enteriors Design Team</h4>
 <p>Factory-Direct Interior Manufacturers · Bangalore &amp; Hosur</p>

@@ -29,7 +29,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Section 01</p>
 <h2>What Monochrome Interior Design Really Means</h2>
 <p>Start with the correction that changes everything: <strong>mono-chrome means one color, not no color.</strong> An all-grey living room is monochrome. An all-beige bedroom running from ivory to taupe is monochrome. An all-blue study is monochrome.</p>
 <p>The black-white-grey scheme most people picture when they hear the word is technically <em>achromatic</em> — the zero-color sub-mode — and it happens to be the most demanding version of the style, because with hue removed entirely, texture, sheen and light must carry every ounce of the room's emotion.</p>
@@ -44,10 +43,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>How it has evolved</h3>
 <p>Cool grey monochrome — the "fifty shades of showflat" era — has receded. Today's briefs run warm: <strong>greige tonal schemes</strong>, black used as punctuation rather than field, and one metal (usually brass or gunmetal) allowed in as the scheme's only "color."</p>
 <p>At the luxury end, book-matched veined stone walls and monochrome-with-brass is currently the most requested living room look we build. <strong>Choose monochrome if</strong> you want maximum design impact per decision, you trust texture more than color, and you'd rather own a coherent home than a colorful one.</p>
-<p>📷</p>
 <p><strong>Hero image — replace before launch (AI prompt #1 in kit).</strong> <br> File: <code>monochrome-interior-design-living-room-india.webp</code> · 1200×675 <br> Alt: <code>Monochrome interior design living room with veined stone wall and black accents in India</code></p>
 <p>The graphic mode done right: a light-dominant field, black as punctuation, and veined stone carrying the drama.</p>
-<p>Section 02</p>
 <h2>The Design Philosophy: Constraint as a Creative Engine</h2>
 <p>Every strong style trades freedom for power. Monochrome's trade is explicit: <strong>surrender color choice, gain compositional control.</strong> When every element shares one palette, the eye stops sorting colors and starts reading form, proportion, texture and light — the things designers actually control. It's the interiors equivalent of black-and-white photography: remove color and suddenly you see the picture.</p>
 <p>The psychology plays out in two directions, matching the two modes. Tonal rooms lower stimulation — clients describe greige tone-on-tone bedrooms as "hotel calm," and the effect is real: one hue means no color transitions for the eye to process.</p>
@@ -61,7 +58,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 <p>The living experience is coherence: nothing you buy in-palette can clash, redecorating means swapping textures rather than repainting, and the home reads as one deliberate thought from the front door to the last bathroom.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Designer's verdict</strong> Monochrome is the highest-leverage style per decision. One good palette call at the start protects every purchase for the next decade — and one wrong ratio (the 50/50 trap) undermines all of them. Get the dominance right and the home designs itself.</div>
-<p>Section 03</p>
 <h2>Visual Characteristics: How a One-Color Room Reads</h2>
 <p><strong>Overall mood:</strong> tonal rooms read serene and enveloping — walls, curtains and large furniture dissolve into one field, so the room feels bigger and softer than its dimensions. Graphic rooms read sharp and editorial — every edge is drawn, every silhouette cut out against its background.</p>
 <p><strong>Lines and shapes:</strong> monochrome tolerates more formal variety than minimalism because palette, not quantity, is doing the disciplining. Curves thrive here — a curved boucle sofa or arched niche reads sculptural when it's tone-on-tone. In graphic mode, geometry sharpens: black window frames, grid-patterned shelving, striped or chequered floors in measured doses.</p>
@@ -69,7 +65,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Visual weight and balance:</strong> dark tones are heavy — a black wardrobe wall "weighs" twice its white twin. We balance by keeping dark masses low (black lower units, pale uppers) or anchoring one dark vertical against a large pale field. Symmetry suits the graphic mode's formality; tonal rooms can drift relaxed and asymmetric.</p>
 <p><strong>Contrast is the master dial.</strong> Tonal mode runs low contrast (two to three steps of one hue); graphic mode runs high. The classic failure is mixing dials in one room — a soft greige scheme with one jet-black gloss unit dropped in reads like a typo. Pick the dial per room, hold it.</p>
 <p><strong>Light and open space:</strong> pale monochrome amplifies light and space like nothing else; dark monochrome absorbs both, which is a feature in a media room and a bug in a small north-facing bedroom. Open space matters less than in minimalism — monochrome can be full — but breathing room around the hero surface (the stone wall, the black kitchen) is what lets it perform.</p>
-<p>Section 04</p>
 <h2>The Tonal Palette System, Surface by Surface</h2>
 <p>Monochrome replaces the usual 60-30-10 color rule with a <strong>tone rule: 60–70% dominant tone, 20–30% supporting tone, 10% punctuation.</strong> Applied to the two modes:</p>
 <div class="table-wrap">
@@ -89,8 +84,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p><strong>Warm vs cool is the decision under the decision.</strong> Every "grey" leans — blue-cool or beige-warm — and mixing leans is the subtlest way monochrome fails: a cool grey sofa on a warm greige floor looks dirty rather than deliberate.</p>
-<p>Pick the temperature once (for Bangalore light, warm wins almost every time), and check every sample against the two largest surfaces already fixed. <strong>Lighting temperature:</strong> 2700–3000K non-negotiable in living zones — cool light on an achromatic palette is the fastest route to the morgue-chic look — with 4000K confined to task strips. <strong>Combinations that reliably work:</strong> warm white + dove grey + matte black; greige ladder + brass punctuation; charcoal field + pale oak floor + white linen (the "inverted" scheme for light-rich rooms). <strong>Mistakes:</strong> the 50/50 split, blue-white paint, skipping the grey bridge entirely, and letting one accessory introduce a stray color that instantly breaks the spell — in monochrome, a single red cushion isn't an accent, it's a leak.</p>
-<p>Section 05</p>
+<p>Pick the temperature once (for Bangalore light, warm wins almost every time), and check every sample against the two largest surfaces already fixed.</p>
+<ul>
+  <li><strong>Lighting temperature:</strong> 2700–3000K non-negotiable in living zones — cool light on an achromatic palette is the fastest route to the morgue-chic look — with 4000K confined to task strips.</li>
+  <li><strong>Combinations that reliably work:</strong> warm white + dove grey + matte black; greige ladder + brass punctuation; charcoal field + pale oak floor + white linen (the "inverted" scheme for light-rich rooms).</li>
+  <li><strong>Mistakes:</strong> the 50/50 split, blue-white paint, skipping the grey bridge entirely, and letting one accessory introduce a stray color that instantly breaks the spell — in monochrome, a single red cushion isn't an accent, it's a leak.</li>
+</ul>
 <h2>The Materials Matrix: Every Surface, Budget to Premium</h2>
 <div class="table-wrap">
 <table>
@@ -116,7 +115,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Natural vs artificial:</strong> the veined slab question decides most monochrome budgets. Natural marble is beautiful and porous; quartz and sintered slabs give 90% of the drama with none of the staining anxiety, and in kitchens we specify them almost without exception.</p>
 <p>The one splurge that repays itself: <strong>book-matching</strong> — two slabs cut mirror-image so the veining forms a butterfly — on the single wall the sofa faces. It's the monochrome equivalent of a masterpiece painting, priced per square foot.</p>
 <p>Ply grades underneath follow the usual law — IS 303 dry, IS 710 wet — detailed in our <a href="/compare/calibrated-vs-normal-plywood/">plywood guide</a>.</p>
-<p>Section 06</p>
 <h2>Furniture Style: Silhouettes That Read in One Color</h2>
 <p>With color gone, <strong>furniture is judged entirely on silhouette and texture</strong> — which changes what to buy:</p>
 <ul>
@@ -129,7 +127,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Heights and weight:</strong> keep true-black pieces low and pale tones high; a black loft line above eye level presses the ceiling down.</li>
   <li><strong>Floating, built-in, modular:</strong> all three serve; floating matters most under dark pieces (light passing beneath halves their visual weight), and modular standard widths keep in-tone replacements matchable years later.</li>
 </ul>
-<p>Section 07</p>
 <h2>Monochrome Room by Room: Build Specs</h2>
 <h3>Kitchen</h3>
 <p>The two-tone formula rules: <strong>dark base units, pale wall units</strong> — grounded below, light above — in super-matte finishes. Handles go handle-less (black Gola profile doubles as a graphic line across the kitchen) or slim black bar pulls in one length everywhere.</p>
@@ -146,10 +143,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The graphic mode's natural stage: black table, sculptural pendant, pale field. The crockery unit goes flush and tone-matched with one glass-fronted black-framed section — fluted glass if the crockery is mixed, clear if it's disciplined. One large monochrome artwork completes the zone's entire décor allowance.</p>
 <h3>Bathroom</h3>
 <p>Monochrome's home turf — bathrooms have been black-and-white for a century because it works: veined or plain large-format tile floor-to-ceiling, black-framed shower partition (the single highest-impact rupee in the room), wall-hung vanity in the scheme's dark tone with a veined top, black fittings wiped dry against hard water, backlit mirror at 3000K. Patterned monochrome cement tile, if you love it, lives on the floor only.</p>
-<p>📷</p>
 <p>Two-tone monochrome kitchen: dark base / pale uppers, veined quartz backsplash (AI prompt #4 in kit). <br> File: <code>monochrome-kitchen-design-two-tone-india.webp</code> · 1200×800 <br> Alt: <code>Monochrome kitchen design with dark base units, white wall units and veined quartz backsplash</code></p>
 <p>The two-tone formula: weight below, light above, and the veining doing what color used to do.</p>
-<p>Section 08</p>
 <h2>Lighting Design: The Only Warmth an Achromatic Room Has</h2>
 <p>In a colorless palette, <strong>light temperature is the room's entire warmth budget.</strong> Get it wrong and no material choice can save the scheme.</p>
 <ul>
@@ -160,7 +155,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Decorative:</strong> black-stem fixtures are in-palette sculpture; one statement per zone. Globe and paper diffusers add the softness the palette lacks.</li>
   <li><strong>Dimmers everywhere that matters:</strong> a monochrome room at 100% and at 25% are two different rooms — that range is the style's mood system, at ₹1.5–3k per point.</li>
 </ul>
-<p>Section 09</p>
 <h2>Decorative Elements: Pattern Welcome, Color Forbidden</h2>
 <p>Unlike minimalism, monochrome lets you decorate generously — the discipline is tonal, not quantitative:</p>
 <ul>
@@ -173,7 +167,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Mirrors:</strong> black-framed round or arch mirrors double as graphic shapes and light amplifiers — especially valuable in dark-toned rooms.</li>
   <li><strong>Textures:</strong> the real décor budget — throws, cushions and runners exist to add weave variety, not color. Five textures per seating zone is the working target.</li>
 </ul>
-<p>Section 10</p>
 <h2>Where Monochrome Works — Home Types, Sizes and Buyers</h2>
 <div class="table-wrap">
 <table>
@@ -195,5 +188,11 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Room sizes:</strong> small rooms take the pale tonal treatment and gain size; large rooms and open plans can afford dark drama and use tone shifts (pale living flowing into a charcoal media nook) to zone without walls — a trick monochrome does better than any partition.</p>
 <h3>The buyer profile, honestly drawn</h3>
 <p>The style clusters at 25–45: design-aware professionals, creatives and photographers (who literally see in this palette), bachelors and DINK couples wanting maximum look per rupee, and luxury buyers at the book-matched end.</p>
-<p>NRIs like its resale safety. <strong>Retired couples</strong> suit the warm tonal mode; the graphic mode's contrast can feel harsh for all-day living. <strong>Families with kids:</strong> tonal greige with performance fabrics works well; white sofas and gloss black in a toddler home is a cleaning subscription — we say so upfront. <strong>Pet owners:</strong> mid-grey everything; fur vanishes on the bridge tones and glows on both extremes. <strong>Who should skip it:</strong> lovers of warm traditional color, festival-decorators whose marigold and rangoli seasons deserve a palette that welcomes them, and anyone who felt a small loss reading "a red cushion is a leak."</p>
+<p>NRIs like its resale safety.</p>
+<ul>
+  <li><strong>Retired couples</strong> suit the warm tonal mode; the graphic mode's contrast can feel harsh for all-day living.</li>
+  <li><strong>Families with kids:</strong> tonal greige with performance fabrics works well; white sofas and gloss black in a toddler home is a cleaning subscription — we say so upfront.</li>
+  <li><strong>Pet owners:</strong> mid-grey everything; fur vanishes on the bridge tones and glows on both extremes.</li>
+  <li><strong>Who should skip it:</strong> lovers of warm traditional color, festival-decorators whose marigold and rangoli seasons deserve a palette that welcomes them, and anyone who felt a small loss reading "a red cushion is a leak."</li>
+</ul>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

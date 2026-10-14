@@ -23,32 +23,24 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>01</p>
 <h2>The 3 Layers of Lighting — Why One Light Is Never Enough</h2>
 <p>The single biggest lighting mistake in Indian homes is relying on one central ceiling light for an entire room. This creates harsh shadows, flat interiors, and a clinical feel regardless of how expensive the fixture is. Every well-designed room needs three distinct layers working together.</p>
-<p>🌕</p>
 <p>Ambient</p>
 <p>The base layer — general illumination that fills the entire room. Recessed downlights, cove lighting, and ceiling panels. This is the layer most Indian homes get right and stop there.</p>
-<p>🔦</p>
 <p>Task</p>
 <p>Focused light for specific activities — reading, cooking, studying, grooming. Under-cabinet kitchen strips, desk lamps, vanity mirror lights. Without this layer, rooms feel unusable at night.</p>
-<p>✨</p>
 <p>Accent</p>
 <p>The layer that makes luxury homes look luxury. Spotlights on artwork, wall washers on feature walls, profile lights on joinery. This layer adds depth and completely changes the perceived quality of your interiors.</p>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Designer's Rule</strong><p>A room with only ambient lighting looks like an office. Add task lighting and it becomes functional. Add accent lighting and it becomes a home. All three together, on separate dimmable circuits, give you complete control over the mood of every space at every hour.</p></div>
-<p>🏠</p>
 <p>Problem: Flat, shadowless rooms</p>
 <h4>One Central Ceiling Light</h4>
 <p>Placing a single large fitting in the center floods the room evenly, eliminating the depth that makes spaces feel interesting and luxurious.</p>
-<p>🎭</p>
 <p>Problem: No atmosphere control</p>
 <h4>No Dimmer Switches</h4>
 <p>Fixed brightness means a room set for task lighting during the day is far too bright for evening relaxation. Dimmers let a single layer serve multiple moods.</p>
-<p>🌑</p>
 <p>Problem: Dark corners despite bright rooms</p>
 <h4>Ignoring the Perimeter</h4>
 <p>Centre-mounted lights leave corners dark. Cove lighting, floor lamps, or wall lights along the perimeter eliminate shadows and make the room feel larger.</p>
-<p>02</p>
 <h2>Kelvin Colour Temperature — The Most Misunderstood Lighting Decision</h2>
 <p>Kelvin (K) is the most important number in residential lighting and the one most homeowners learn only after they've made an expensive mistake. It controls whether your home feels like a five-star hotel or a government office — and it cannot be fixed by changing the fixture, only the bulb or the entire fitting.</p>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>⚠ Critical Warning Before You Buy</strong> Never mix significantly different Kelvin values in connected open-plan spaces. Mixing 3000K in the living room with 6500K in the kitchen creates a jarring visual transition that no amount of design can fix. Choose one temperature for all visible-from-each-other spaces.</div>
@@ -71,7 +63,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Why Premium Designers Avoid 6500K in Homes</h3>
 <p>Cool white 6500K light mimics overcast daylight — it is energizing in workplaces but creates a clinical, institutional feel in residential spaces. It also makes skin tones appear washed out and flattens the warmth of wood, stone, and textile finishes. If your current home uses 6500K tube lights or panels, switching to 3000K is the single most impactful lighting upgrade available for under ₹5,000.</p>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Quick Upgrade Path</strong><p>Already installed the wrong Kelvin? In standard base fittings, simply replacing the bulb is enough. For integrated LED panels and downlights, you'll need to replace the fitting. The cost difference between a 3000K and 6500K fitting is negligible — choose correctly the first time.</p></div>
-<p>03</p>
 <h2>Living Room Lighting — India's Most Over-Lit Space</h2>
 <p>The living room is the most visited, most photographed, and most socially significant room in any Indian home — yet it's consistently the most poorly lit. Most living rooms in India suffer from uniform brightness with no drama, no depth, and no warmth.</p>
 <p>🛋️ Living Room — Complete Lighting Solution 3000K Recommended</p>
@@ -95,7 +86,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>TV Wall Accent Lighting</h3>
 <p>The TV wall is the focal point of the living room and deserves specific lighting treatment. Backlit LED profiles behind the TV panel reduce eye strain significantly when watching in dim conditions — a benefit supported by optometry research. Use 3000K warm profiles, not the default blue-tinted strips sold in hardware stores.</p>
 <p>If you have a feature wall with stone cladding, brick, or textured wallpaper, a narrow beam spotlight (15° to 24° beam angle) grazing across the surface reveals the texture dramatically and creates the depth that separates luxury interiors from ordinary ones.</p>
-<p>04</p>
 <h2>Master Bedroom Lighting — Designing for Rest &amp; Romance</h2>
 <p>The bedroom has one primary job: facilitating deep, restorative sleep. Everything about its lighting must serve that goal — which means avoiding the bright, cool overhead light most Indian bedrooms still use.</p>
 <p>🛏️ Master Bedroom — Complete Lighting Solution 2700K–3000K</p>
@@ -119,7 +109,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Sleep Science Insight</strong><p>Cool white light (4000K+) suppresses melatonin production, the hormone that signals your body to sleep. Switching to 2700K lighting in the bedroom one hour before sleep has the same effect as reducing screen time — and requires zero habit change. It is the most impactful bedroom upgrade available.</p></div>
 <h3>Headboard Panel Lighting</h3>
 <p>One of the defining features of a luxury bedroom is a backlit headboard — a shallow profile light embedded into the headboard panel casting a warm upward glow. It creates the visual "hotel room" effect that homeowners often describe wanting without being able to name exactly what they're missing. Use 2700K warm white LED strips in an aluminium channel for this.</p>
-<p>05</p>
 <h2>Kitchen Lighting — Where Function Must Not Compromise Safety</h2>
 <p>Kitchen lighting is a safety issue before it is a design issue. Poor lighting in the kitchen causes cooking errors, cutting accidents, and food hygiene failures. Yet this is the room where most Indian homeowners under-invest in lighting.</p>
 <p>🍳 Kitchen — Complete Lighting Solution 4000K Recommended</p>
@@ -158,7 +147,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Avoid decorative pendants as primary kitchen light</li>
   <li>Don't skip dimming on island pendants if you have them</li>
 </ul>
-<p>06</p>
 <h2>Dining Room Lighting — The Art of Making Food Look Irresistible</h2>
 <p>Restaurant designers know a secret that most homeowners don't: the right light over a dining table makes food look dramatically more appealing, makes faces look more flattering, and makes conversations feel more intimate. The dining room has the highest return-on-investment for a single statement fixture.</p>
 <p>🍽️ Dining Room — Complete Lighting Solution 2700K–3000K</p>
@@ -180,7 +168,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>CRI 90+ for accurate food colour rendering</li>
 </ul>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>The Pendant Height Rule</strong><p>A dining pendant hung too high becomes a ceiling fixture, not a dining fixture. The bottom of the shade should hang 70 to 80 centimetres above the tabletop — close enough to create an intimate pool of light on the table surface, far enough that seated diners don't look directly into the bulb. This single measurement transforms dining room lighting from generic to designed.</p></div>
-<p>07</p>
 <h2>Bathroom Lighting — Solving the Mirror Shadow Problem</h2>
 <p>The most universally terrible bathroom lighting situation: a single downlight directly above the mirror that illuminates the top of your head perfectly while casting deep shadows under your eyes, nose, and jaw. Every premium bathroom needs to solve this problem specifically.</p>
 <p>🚿 Bathroom — Complete Lighting Solution 4000K Recommended</p>
@@ -201,7 +188,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Shower zone requires IP65 minimum</li>
   <li>No pendant lights inside shower or bath zones</li>
 </ul>
-<p>08</p>
 <h2>Home Office Lighting — Eliminate Eye Strain, Increase Productivity</h2>
 <p>Since 2020, the home office has become a permanent fixture in Indian premium homes. Poor lighting here has measurable consequences: eye strain, headaches, reduced focus, and poor video call appearance. This is one room where getting Kelvin wrong has daily professional consequences.</p>
 <p>💼 Home Office — Complete Lighting Solution 4000K Primary</p>
@@ -223,7 +209,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Desk lamp brightness: independently controlled</li>
 </ul>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Video Call Lighting Fix</strong><p>Your video call light source must be in front of your face, not behind you or above you. A simple LED panel or ring light positioned at eye level, slightly to the left, at 3000–4000K creates the professional appearance associated with broadcast and studio settings. It costs under ₹2,000 and immediately changes how you appear in every professional call.</p></div>
-<p>09</p>
 <h2>Walk-in Wardrobe Lighting — See Your Clothes as They Actually Are</h2>
 <p>A walk-in wardrobe lit with warm 2700K lighting is a beautiful space — but you'll consistently misjudge colours, choosing navy for black or grey for beige. Wardrobe lighting requires a precise Kelvin balance between function and luxury feel.</p>
 <p>👗 Walk-in Wardrobe — Complete Lighting Solution 3000–4000K</p>
@@ -244,7 +229,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Motion-sensor activation for interior shelf lights</li>
   <li>Dimmable ambient for overall mood control</li>
 </ul>
-<p>10</p>
 <h2>Staircase &amp; Corridor Lighting — Safety First, Drama Second</h2>
 <p>Staircase lighting failures are a direct safety risk. They're also one of the most visually dramatic opportunities in a premium independent house or villa — a well-lit staircase becomes an architectural feature.</p>
 <ul>
@@ -255,149 +239,113 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>✓All staircase lighting on motion sensors — never wake to a dark staircase at night</li>
   <li>✓Kelvin: 2700–3000K for luxury feel, never above 4000K on a staircase</li>
 </ul>
-<p>11</p>
 <h2>Outdoor &amp; Landscape Lighting — Kerb Appeal After Dark</h2>
 <p>Outdoor lighting is the least prioritised category in Indian residential lighting — and the most immediately noticed by visitors. A home with thoughtful exterior lighting looks premium around the clock.</p>
-<p>🌿</p>
 <p>Solution: Landscape Drama</p>
 <h4>Garden Spike Uplights</h4>
 <p>Placed at the base of feature trees and large plants, uplights turn garden planting into dramatic nighttime sculptures. Use 2700K for the warmest, most natural garden feel.</p>
 <p>IMPACT</p>
-<p>🏠</p>
 <p>Solution: Facade Presence</p>
 <h4>Facade Wall Washers</h4>
 <p>Linear wall washers or adjustable spotlights pointed at the exterior facade give the building architectural presence after dark — a technique used in luxury hotel exteriors.</p>
-<p>🚶</p>
 <p>Solution: Safe Pathways</p>
 <h4>Bollard &amp; Path Lights</h4>
 <p>Low-level bollard lights along driveways and garden paths are both safety features and design elements. Stainless steel bollards at 3000K are the premium choice.</p>
-<p>🏊</p>
 <p>Solution: Pool Drama</p>
 <h4>Underwater &amp; Pool Deck</h4>
 <p>For villas with pools, colour-changing underwater LEDs and warm deck lighting create the resort experience. IP68-rated underwater fittings are non-negotiable here.</p>
-<p>12</p>
 <h2>Lighting for Apartments &amp; Flats — Working Within Constraints</h2>
 <p>Apartments present unique lighting challenges: lower ceiling heights (typically 9 to 10 feet), no control over structural elements, restrictions on drilling in some buildings, and shared walls that limit recessed work. Here's how premium apartment owners maximise their lighting within these constraints.</p>
-<p>📏</p>
 <p>Challenge: Low Ceilings</p>
 <h4>Avoid Surface-Mounted Boxes</h4>
 <p>Large surface-mounted fittings on low ceilings make rooms feel compressed. Use shallow recessed downlights (as low as 45mm depth) or magnetic track for a clean, spacious ceiling plane.</p>
 <p>COMMON</p>
-<p>🪄</p>
 <p>Challenge: No Structural Changes</p>
 <h4>Track &amp; Surface Solutions</h4>
 <p>Magnetic track systems mount onto the existing ceiling surface and provide the flexibility of recessed downlights without any ceiling penetration — ideal for rented apartments.</p>
-<p>🔌</p>
 <p>Challenge: Fixed Wiring Points</p>
 <h4>Use Existing Points Strategically</h4>
 <p>If adding new wiring is not possible, replace existing fittings with track adapters that allow multiple directional heads from a single electrical point — multiplying your lighting positions for zero additional wiring cost.</p>
-<p>🌟</p>
 <p>Solution: Maximum Impact</p>
 <h4>Prioritise Cove &amp; Indirect</h4>
 <p>A false ceiling with cove lighting adds only 6–8 inches of height loss but transforms the entire quality of ambient light. In apartments, this is consistently the highest-impact single lighting investment.</p>
-<p>13</p>
 <h2>Lighting for Independent Houses — Designing the Full Experience</h2>
 <p>Independent houses offer complete design freedom — double-height spaces, outdoor areas, staircases, and multi-zone layouts that allow for a truly comprehensive lighting design. This is where the gap between "installed lights" and "designed lighting" is most visible.</p>
-<p>🏗️</p>
 <p>Opportunity: Double-Height</p>
 <h4>Double-Height Statement</h4>
 <p>A chandelier or pendant cluster in the double-height living area or foyer is the single most impactful architectural lighting element in an independent house. Size it boldly — the scale must match the void.</p>
 <p>SIGNATURE</p>
-<p>🌅</p>
 <p>Opportunity: Full Outdoor Control</p>
 <h4>Integrated Landscape Lighting</h4>
 <p>With full ownership of the exterior, independent house owners can install in-ground uplights, facade washers, garden path lighting, and boundary wall lighting all on a unified smart control system.</p>
-<p>🎛️</p>
 <p>Opportunity: Full Zoning</p>
 <h4>Multi-Zone Smart Control</h4>
 <p>Commission a proper lighting control system with zone-by-zone dimming, scene presets, and scheduling. In independent houses, this is an investment that pays back in daily lifestyle quality for the life of the building.</p>
-<p>14</p>
 <h2>Lighting for Luxury Villas — Every Surface Deserves Attention</h2>
 <p>In a luxury villa, the lighting design brief is not "provide illumination" — it is "reveal the architecture." Every material, every texture, every finish has been selected at significant cost. The lighting's job is to make those choices visible and beautiful at every hour of the day and night.</p>
-<p>🗿</p>
 <p>Material: Stone &amp; Marble</p>
 <h4>Texture Grazing</h4>
 <p>Position narrow-beam (10–15°) wall washers at 150–200mm from the stone surface. The light grazes across, revealing every vein and textural detail that flat lighting would completely erase.</p>
 <p>LUXURY</p>
-<p>🪵</p>
 <p>Material: Wood Panelling</p>
 <h4>Warm Wash at 2700K</h4>
 <p>Wood panelling glows at 2700K warm white — the warmth in the light frequency resonates with the warmth of the timber grain. Cool light on wood makes it look flat and lifeless.</p>
-<p>🎬</p>
 <p>Space: Home Theatre</p>
 <h4>Bias &amp; Step Lighting</h4>
 <p>Full dimmable cove lighting at 2700K, step lights at seat level, and bias lighting behind the screen. No overhead light in the viewing direction. All on a single "Cinema" scene button.</p>
-<p>🍸</p>
 <p>Space: Bar &amp; Entertainment</p>
 <h4>Back-Lit Display &amp; Pendant</h4>
 <p>A backlit spirits display shelf (RGB or warm white), pendant light above the bar counter at 2700K, and recessed downlights at the perimeter. The bar zone should feel distinctly different from adjacent spaces.</p>
-<p>15</p>
 <h2>Top Lighting Trends for Premium Indian Homes in 2026</h2>
 <p>These are not passing fads — they are the directions that premium Indian homeowners and their designers are consistently choosing in 2026 projects, based on performance, aesthetics, and the evolution of the Indian luxury home market.</p>
-<p>🧲</p>
 <p>FASTEST GROWING</p>
 <h4>Magnetic Track Lighting</h4>
 <p>A 48V low-voltage recessed track system into which spotlights, pendants, and linear modules clip magnetically. Infinitely reconfigurable, architecturally invisible, and future-proof. Now the system of choice for villas and premium apartments in Hyderabad and Bengaluru.</p>
-<p>📐</p>
 <p>DESIGN STAPLE</p>
 <h4>Aluminium LED Profiles</h4>
 <p>Recessed aluminium channels with diffuser covers create seamless lines of light that appear to be glowing architecture rather than a lighting fixture. Used in ceilings, walls, furniture, staircases, and joinery detail throughout luxury homes.</p>
-<p>📱</p>
 <p>LIFESTYLE UPGRADE</p>
 <h4>Smart Lighting &amp; Scenes</h4>
 <p>Full smart control via app, voice, and scheduled automation. The value is not the technology — it is the ability to set "Good Morning," "Work From Home," "Dinner Party," and "Movie Night" scenes that adjust every light in the home simultaneously.</p>
-<p>🎨</p>
 <p>EMERGING</p>
 <h4>Human-Centric Lighting</h4>
 <p>Systems that automatically shift from 4000K energising light in the morning to 2700K relaxing warmth in the evening, mirroring natural daylight cycles. Biologically validated to improve energy levels during the day and sleep quality at night.</p>
-<p>⬛</p>
 <p>AESTHETIC SHIFT</p>
 <h4>Matte Black Fixtures</h4>
 <p>The shift away from polished chrome and brushed nickel toward matte black downlight bezels, track heads, and pendant frames. Matte black recedes into the ceiling and reads as "designed absence" rather than a visible hardware element.</p>
-<p>🌿</p>
 <p>SUSTAINABILITY</p>
 <h4>Tunable White LED</h4>
 <p>A single fitting with electronically tunable Kelvin (2700K to 6500K) eliminates the need to choose a fixed temperature at installation. Control Kelvin via app to suit the activity. Increasingly affordable in the 2026 market.</p>
-<p>16</p>
 <h2>7 Costly Lighting Mistakes — And Exactly How to Fix Them</h2>
 <p>Most lighting mistakes are made during construction when it costs nothing to correct them — and discovered after handover when it costs everything. These are the seven most expensive and most common errors in Indian premium residential lighting.</p>
-<p>1</p>
-<p><strong>The Mistake</strong></p>
+<p><strong>1. The Mistake</strong></p>
 <p>Installing 6500K cool daylight LEDs throughout the entire home because they appear "bright and clean" in the showroom under natural light conditions.</p>
 <p><strong>The Fix</strong></p>
 <p>Use 3000K for all living spaces, 4000K for kitchens and bathrooms only. Always evaluate lighting samples in artificial light, not showroom daylight.</p>
-<p>2</p>
-<p><strong>The Mistake</strong></p>
+<p><strong>2. The Mistake</strong></p>
 <p>Placing the only ceiling light in the centre of the room, creating a bright centre and dark corners with deep facial shadows on every person in the room.</p>
 <p><strong>The Fix</strong></p>
 <p>Design multiple light sources across the ceiling plane. Distribute recessed downlights evenly across the room, not just at the centre point.</p>
-<p>3</p>
-<p><strong>The Mistake</strong></p>
+<p><strong>3. The Mistake</strong></p>
 <p>Skipping dimmer switches entirely because they add cost — then finding the home feels like a hospital ward in the evening when the family wants to relax.</p>
 <p><strong>The Fix</strong></p>
 <p>Budget for dimmers from the start. Dimming is not a luxury — it is the feature that makes a home feel like a home in the evening rather than an office.</p>
-<p>4</p>
-<p><strong>The Mistake</strong></p>
+<p><strong>4. The Mistake</strong></p>
 <p>Placing a bathroom downlight directly above the mirror — the most common error in India — which illuminates the top of the head and leaves the face in shadow.</p>
 <p><strong>The Fix</strong></p>
 <p>Use a backlit LED mirror or position vanity lights on both sides of the mirror at face height. The downlight above the mirror can remain as general ambient — it just must not be the only light.</p>
-<p>5</p>
-<p><strong>The Mistake</strong></p>
+<p><strong>5. The Mistake</strong></p>
 <p>Skipping under-cabinet kitchen lighting to reduce costs, then finding the kitchen work surface is in permanent shadow from the upper cabinets.</p>
 <p><strong>The Fix</strong></p>
 <p>Under-cabinet LED strips are a non-negotiable element of any modular kitchen. Budget them as standard, not optional. Cost: ₹2,000–5,000 for a typical kitchen. Impact: transformative.</p>
-<p>6</p>
-<p><strong>The Mistake</strong></p>
+<p><strong>6. The Mistake</strong></p>
 <p>Mixing different Kelvin temperatures in open-plan kitchen-dining-living spaces — for example, 6500K in the kitchen, 3000K in the dining, and 4000K in the living area.</p>
 <p><strong>The Fix</strong></p>
 <p>Treat all spaces visible from each other as a single zone. Choose one Kelvin temperature — typically 3000K — and maintain it across the entire open plan. The kitchen task zone can use 4000K under-cabinet lights without it being visually disruptive.</p>
-<p>7</p>
-<p>7</p>
-<p><strong>The Mistake</strong></p>
+<p><strong>7. The Mistake</strong></p>
 <p>Choosing all lighting fixtures based on how they look in a showroom rather than how they perform in a room — buying beautiful pendants that produce terrible light.</p>
 <p><strong>The Fix</strong></p>
 <p>Evaluate any fixture by its lumen output, beam angle, CRI rating, and Kelvin temperature — not just its visual appearance. A beautiful fixture that lights poorly is a display object, not a lighting solution.</p>
-<p>17</p>
 <h2>Best Lighting Brands for Premium Indian Homes</h2>
 <p>Brand selection should follow the tier of your project — using luxury European brands throughout a standard apartment is unnecessary, while using budget brands in a villa compromises the entire design investment. Here is a tiered guide.</p>
 <div class="table-wrap">

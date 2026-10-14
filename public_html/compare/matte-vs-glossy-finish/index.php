@@ -14,7 +14,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>The basics</p>
 <h2>What actually makes a finish matte or glossy?</h2>
 <p>Every paint or surface finish contains microscopic particles that determine how much light they scatter. Matte finishes have irregular, flat particles — they scatter light in all directions, eliminating visible reflection. Glossy finishes use fine, uniform particles that allow the surface to act like a partial mirror, bouncing light at predictable angles.</p>
 <p>Between pure matte and high gloss sit the mid-range finishes — eggshell (2–10% sheen), satin (25–35%), and semi-gloss (35–70%). In Indian interiors, satin is the most-used finish for walls and semi-gloss for woodwork.</p>
@@ -24,7 +23,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Bright. Crisp. Reflective.</p>
 <p>Amplifies and bounces light, making spaces feel significantly larger. Easy to wipe clean. Modern and sharp. Seals the surface against moisture and stains.</p>
 <p>High sheen Wipe-clean Light boost Moisture-safe</p>
-<p>Property comparison</p>
 <h2>Head-to-head across every key property</h2>
 <p>These charts and the table below are how designers actually evaluate finishes — not just aesthetics, but practical performance across your home's real conditions.</p>
 <p>Matte</p>
@@ -54,34 +52,24 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Room-by-room guide</p>
 <h2>The right finish for every room in your home</h2>
 <p>The correct finish depends on a room's function — the humidity it sees, the traffic it takes, the lighting it has, and who uses it every day. Here's the straightforward answer for each space.</p>
-<p>🛏</p>
 <p>Master bedroom</p>
 <p>Low traffic, low humidity, intimacy matters most. Matte creates warmth and deep colour. Use satin only on woodwork and door frames for contrast.</p>
-<p>🍳</p>
 <p>Kitchen</p>
 <p>Oil, steam, and daily splatter demand a wipeable surface. Matte laminate on cabinets looks stunning but stains within weeks of Indian cooking.</p>
-<p>🚿</p>
 <p>Bathrooms</p>
 <p>Constant humidity makes matte paint peel in under a year. Glossy tiles resist mould and wipe clean. Seal matte tiles or commit to monthly deep scrubbing.</p>
-<p>🛋</p>
 <p>Living room</p>
 <p>Matte on main walls gives a gallery feel. Use gloss or satin on the TV feature wall, trims, and door frames to create visual depth and hierarchy.</p>
-<p>👶</p>
 <p>Kids' room</p>
 <p>Crayon on matte means repainting. Crayon on satin means a damp cloth. Scrubbability wins here — pick mid-sheen satin so it doesn't feel clinical.</p>
-<p>🪔</p>
 <p>Pooja room</p>
 <p>Soft, reverent, even light suits sacred spaces. Matte or eggshell on walls with a subtle marble or stone texture creates the right atmosphere of calm.</p>
-<p>🚪</p>
 <p>Doors &amp; trims</p>
 <p>High-touch surfaces that take daily contact. Semi-gloss holds up beautifully and gives a classic, crisp look. Matte trims scuff and go grey within months.</p>
-<p>🚶</p>
 <p>Corridors &amp; foyer</p>
 <p>High traffic, visible to every guest. Satin offers enough sheen to wipe scuffs while still hiding wall imperfections in narrow passages.</p>
-<p>Climate &amp; durability</p>
 <h2>Durability in Indian conditions — the real story</h2>
 <p>India's climate is a finish's toughest test. Coastal cities battle salt air and 80%+ humidity. North India swings from 45°C summers to near-freezing winters. The Deccan plateau throws dry heat. No single finish wins everywhere.</p>
 <div class="callout callout--warn"><span class="callout__title">⚠ Coastal city warning</span><strong>Mumbai, Chennai, Kochi, Vizag:</strong> Matte finishes on bathroom walls and any exterior-facing surface will peel within 18 months. In these cities, always use moisture-resistant semi-gloss or gloss for wet areas and at minimum a scrubbable satin on all interior walls.</div>
@@ -102,7 +90,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">💡 Designer tip</span>In cities like Bangalore and Pune with moderate climates, you can go fully matte on interior walls without much risk. In Mumbai or Chennai, look for <strong>washable matte</strong> formulations — Asian Paints Royale Matt and Berger Silk Breathe Easy both offer scrubbable matte that bridges the gap beautifully.</div>
-<p>Cost &amp; maintenance</p>
 <h2>Cost &amp; maintenance — the honest numbers</h2>
 <p>The price gap between matte and gloss is often under ₹100–150 per litre for the same brand tier. But long-term maintenance cost is where the real difference shows up — and it depends entirely on where you use them.</p>
 <div class="table-wrap">
@@ -120,7 +107,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">Pro tip — modular kitchens</span>💡<br><br>Matte laminate kitchens look stunning in showrooms — but in a working Indian kitchen with turmeric, oil splatter, and daily use, they stain within weeks. If you love the matte look, choose a <strong>PU-coated matte laminate or matte-finish acrylic</strong> — they give the aesthetic with a sealed, wipeable surface underneath. Brands like Greenlam and Century offer this.</div>
-<p>Designer technique</p>
 <h2>Mixing finishes like an interior designer</h2>
 <p>Professional designers rarely use just one finish in a space. The interplay between matte and gloss is what gives a room visual sophistication — not picking one winner over the other.</p>
 <h3>The 70-20-10 finish rule</h3>
@@ -144,10 +130,10 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Large matte floor tiles + gloss wall tiles + semi-gloss ceiling paint</p>
 <p>Classic Indian home</p>
 <p>Satin walls everywhere + semi-gloss all doors + matte ceilings throughout</p>
-<p>Final verdict</p>
 <h2>The verdict — when to choose each finish</h2>
 <p>There is no absolute winner. The right finish depends on where you're applying it, who lives in your home, and your city's climate. Here's the clearest possible guide.</p>
-<div class="callout"><span class="callout__title">Warmth &amp; character matter most</span>Choose matte when</p>
+<div class="pros-cons">
+  <div><span class="pros-cons__title">Choose matte when warmth and character matter most</span>
 <ul>
   <li>Bedrooms, living rooms, pooja rooms</li>
   <li>Walls with imperfections or texture</li>
@@ -155,8 +141,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>You want deep, rich colour payoff</li>
   <li>Adults-only, low-traffic spaces</li>
   <li>Ceilings — always matte, every room</li>
-</ul>
-<p>Choose glossy when<br><br>Practicality &amp; light matter most</p>
+</ul></div>
+  <div><span class="pros-cons__title">Choose glossy when practicality and light matter most</span>
 <ul>
   <li>Kitchens, bathrooms, utility spaces</li>
   <li>Homes with young children</li>
@@ -165,5 +151,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Trims, doors, and all woodwork</li>
   <li>Feature walls and focal points</li>
 </ul></div>
+</div>
 <div class="callout"><span class="callout__title">📌 Our recommendation for most Indian homes</span><strong>Satin or eggshell on living and bedroom walls</strong> — the intelligent middle ground. Easy to clean, hides wall imperfections reasonably well, and holds colour beautifully. Reserve true matte for feature walls and all ceilings. Use semi-gloss on every kitchen, bathroom, and piece of woodwork in the house.</div>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

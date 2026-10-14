@@ -28,7 +28,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>12 min read</p>
 <p>Last Updated: June 2025</p>
 <p>14 Factors Compared</p>
-<p>Section 01 · The Basics</p>
 <h2>What Are Plywood and MDF?</h2>
 <p>Before comparing, it's essential to understand how each material is made — because how they're manufactured directly dictates what they're good and bad at.</p>
 <div class="callout"><span class="callout__title">Plywood</span><ul>
@@ -50,7 +49,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul></div>
 <p>📌 Key Mental Model</p>
 <p>Think of plywood as a <strong>structural workhorse</strong> — strong, resilient, screw-holding. Think of MDF as a <strong>finishing artisan's canvas</strong> — perfectly smooth, cuts cleanly, paints flawlessly. Neither is universally better; they're optimised for different outcomes.</p>
-<p>Section 02 · At-a-Glance</p>
 <h2>Quick Head-to-Head Comparison</h2>
 <div class="table-wrap">
 <table>
@@ -73,7 +71,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<p>Section 03 · Structural Performance</p>
 <h2>Strength &amp; Durability</h2>
 <p>This is where plywood has an inherent, structural advantage — and it comes down to physics, not brand preference.</p>
 <h3>Why Plywood Is Structurally Superior</h3>
@@ -95,7 +92,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">🔴 Critical Insight</span><strong>Edge screw strength is where MDF fails most dramatically.</strong> MDF edge screws have 40–55% less holding power than plywood. In furniture with hinges, drawer runners, or structural connections at edges, this matters enormously. If you use MDF for cabinet carcasses, always use dowels, dominoes, or connector bolts — never rely on edge screws alone.</div>
-<p>Section 04 · Water Performance</p>
 <h2>Moisture Resistance — The Critical Factor</h2>
 <p>In Indian conditions — monsoons, humid coastal cities, steam from kitchens, water spray in bathrooms — moisture resistance is arguably the most important factor when choosing between these two materials.</p>
 <p>Plywood — Moisture Grades</p>
@@ -198,7 +194,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">🔴 Pro Tip — The Hybrid Strategy</span>Leading interior designers and modular kitchen makers use a <strong>hybrid approach: plywood for carcasses (structure), MDF for door shutters (finish)</strong>. You get structural integrity from plywood where it matters and the perfect painted surface from MDF where it shows. This is the gold standard in premium kitchen manufacturing worldwide.</div>
-<p>Section 08 · Pricing</p>
 <h2>Cost Comparison — India 2026</h2>
 <p>Pricing varies by brand, grade, thickness, and region — but these are reliable 2025 market benchmarks for the Indian market. All prices are per 8×4 ft (244×122 cm) sheet at a dealer or hardware store.</p>
 <div class="table-wrap">
@@ -236,7 +231,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 <p>💰 Total Cost Reality Check</p>
 <p>MDF's lower sheet price is misleading for complete projects. Because MDF requires edge-banding on all exposed edges, extra primer coats, thicker material for equivalent strength, and cannot be used in wet areas, <strong>the total installed cost of an MDF project often ends up within 10–20% of plywood</strong> — not the 30–40% the sheet price suggests.</p>
-<p>Section 09 · Material Grades</p>
 <h2>Grades &amp; Types — Know What You're Buying</h2>
 <p>Most buyers make the mistake of simply asking for "plywood" or "MDF" at a hardware store. The grade you specify determines performance more than the brand name. Here's what actually matters.</p>
 <h3>Plywood Grades — IS 303 / IS 710 (India)</h3>
@@ -290,7 +284,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <div class="callout callout--tip"><span class="callout__title">🌿 For Children's Rooms</span>For children's bedrooms and study areas, prioritise <strong>E0 or E1 certified plywood</strong> and, if using MDF, insist on <strong>CARB Phase 2 compliant or E0 MDF</strong> with all edges and surfaces fully painted or sealed to minimise formaldehyde release into the room air. Ventilate new furniture rooms for 7–14 days before regular occupancy.</div>
-<p>Section 11 · Application Guide</p>
 <h2>Room-by-Room Use Cases</h2>
 <p>Theory is useful; practical guidance is better. Here's where each material shines, room by room, application by application.</p>
 <h3>Kitchen</h3>
@@ -305,7 +298,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Both materials work well in dry study rooms. MDF is preferred for desktops with paint or laminate finish (better flat surface). Plywood is better for drawer units and filing pedestals that take weight and opening/closing stress. For floating desks mounted to walls, use plywood for the mounting structure.</p>
 <h3>Kids' Room</h3>
 <p>Impact resistance and safety matter in children's rooms. Plywood is preferred for structural elements — it doesn't chip or crack with bumps the way MDF edges do. For décor elements (name boards, cloud shelves, painted shapes), MDF cuts and paints beautifully. Use E0/E1 grade wherever possible.</p>
-<p>Section 12 · Master Score</p>
 <h2>Full Scorecard — Factor by Factor</h2>
 <p>Each factor scored out of 10. Read left bar as Plywood score (dark), right bar as MDF score (red).</p>
 <p>Plywood MDF</p>

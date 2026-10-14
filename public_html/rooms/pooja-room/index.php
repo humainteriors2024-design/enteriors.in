@@ -21,22 +21,17 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <div class="callout callout--tip"><span class="callout__title">Enteriors Insight</span>The most successful Pooja rooms balance three things equally: spiritual intention, functional usability, and practical maintenance. Planning for all three from the outset avoids the most common regrets after installation.</div>
 <h2>Understanding Your Family's Requirements</h2>
 <p>Every family worships differently. Before any design decision is made, map out exactly how your household will use the space. The answers to these questions determine the size, layout, storage, and seating requirements more reliably than any design trend.</p>
-<p>🙏</p>
 <p>Frequency of Use</p>
 <p>Is this space used for brief daily prayers, extended morning rituals, or occasional festival worship? Daily use demands better lighting, accessible storage, and seating comfort.</p>
 <p>👨‍👩‍👧‍👦</p>
 <p>Number of Worshippers</p>
 <p>A single-person daily prayer routine has very different space requirements from a household where multiple family members worship simultaneously or during festivals.</p>
-<p>🪔</p>
 <p>Ritual Requirements</p>
 <p>Do rituals involve open flames, oil lamps, large quantities of incense, flower offerings, or prasad preparation? Each activity has implications for ventilation, surface material, and storage.</p>
-<p>🗿</p>
 <p>Number of Deities</p>
 <p>A single deity requires a very different footprint than a family with multiple idols, framed photographs, and heirloom pieces. Idol count directly determines the minimum shelf width and depth required.</p>
-<p>📦</p>
 <p>Storage Needs</p>
 <p>Consider whether festival accessories, seasonal items, pooja books, and daily consumables (agarbatti, camphor, oils, matchboxes) will be stored within the unit or separately.</p>
-<p>🧓</p>
 <p>Accessibility Needs</p>
 <p>If elderly family members will use the space regularly, floor-level access, seating options, and idol placement height become functional requirements rather than preferences.</p>
 <h2>Types of Pooja Spaces</h2>
@@ -78,9 +73,9 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <tr><th>Space Type</th><th>Recommended Size</th><th>Best For</th><th>Key Consideration</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>Compact Wall Unit</strong></td><td>600–900mm wide × 300mm deep</td><td>Studio and 1BHK apartments</td><td>No seating; idol clearance min. 150mm</td></tr>
-    <tr><td><strong>Pooja Corner Unit</strong></td><td>2 × 2 ft floor area</td><td>Small apartments</td><td>Corner placement; 45° return panels</td></tr>
-    <tr><td><strong>Small Pooja Area</strong></td><td>3 × 4 ft</td><td>2–3BHK apartments</td><td>Standing worship; no seating</td></tr>
+    <tr><td><strong>Compact Wall Unit</strong></td><td>600–900mm wide × 300mm deep</td><td>Studio and 1BHK apartments</td><td>No seating, idol clearance min. 150mm</td></tr>
+    <tr><td><strong>Pooja Corner Unit</strong></td><td>2 × 2 ft floor area</td><td>Small apartments</td><td>Corner placement, 45° return panels</td></tr>
+    <tr><td><strong>Small Pooja Area</strong></td><td>3 × 4 ft</td><td>2–3BHK apartments</td><td>Standing worship, no seating</td></tr>
     <tr><td><strong>Standard Pooja Room</strong></td><td>4 × 6 ft</td><td>Large apartments and villas</td><td>Floor seating for 2–3 persons</td></tr>
     <tr><td><strong>Premium Pooja Room</strong></td><td>6 × 8 ft</td><td>Villas</td><td>Full temple-style mandir with seating</td></tr>
     <tr><td><strong>Luxury Pooja Room</strong></td><td>8 × 10 ft+</td><td>Large villas</td><td>Festival gatherings, full stone/marble</td></tr>
@@ -114,7 +109,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <tbody>
     <tr><td><strong>Preferred Room Direction</strong></td><td>Northeast, East, or North</td><td>Morning light from the East creates a naturally lit, uplifting worship environment</td></tr>
     <tr><td><strong>Idol Facing</strong></td><td>Idols should face West or South</td><td>Worshipper then faces East or North — most auspicious worship direction</td></tr>
-    <tr><td><strong>Worship Direction</strong></td><td>Worshipper faces East or North</td><td>East-facing aligns with sunrise; North with magnetic north</td></tr>
+    <tr><td><strong>Worship Direction</strong></td><td>Worshipper faces East or North</td><td>East-facing aligns with sunrise, north with magnetic north</td></tr>
     <tr><td><strong>Lamp Placement</strong></td><td>Southeast corner of the space</td><td>Aligns fire element (Agni) with its Vastu direction</td></tr>
     <tr><td><strong>Preferred Colours</strong></td><td>White, cream, light yellow, pale gold</td><td>Reflects light, creates calm, appropriate for daily worship</td></tr>
     <tr><td><strong>Colours to Avoid</strong></td><td>Black, dark grey, deep red</td><td>Heavy tones reduce the sense of lightness and openness</td></tr>
@@ -181,10 +176,10 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <tr><th>Finish</th><th>Durability</th><th>Maintenance</th><th>Cost</th><th>Best For</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>Natural Wood / Hardwax Oil</strong></td><td>High</td><td>Annual re-oiling</td><td>₹₹₹</td><td>Solid wood mandirs; traditional aesthetic</td></tr>
+    <tr><td><strong>Natural Wood / Hardwax Oil</strong></td><td>High</td><td>Annual re-oiling</td><td>₹₹₹</td><td>Solid wood mandirs, traditional aesthetic</td></tr>
     <tr><td><strong>Veneer + PU Lacquer</strong></td><td>High</td><td>Low; wipe clean</td><td>₹₹₹</td><td>Premium contemporary units</td></tr>
-    <tr><td><strong>Duco Paint Finish</strong></td><td>Medium-High</td><td>Low; touchable</td><td>₹₹</td><td>Smooth painted units; all colour options</td></tr>
-    <tr><td><strong>Laminate</strong></td><td>Medium</td><td>Very low; scratch-resistant</td><td>₹</td><td>Budget units; high-traffic areas</td></tr>
+    <tr><td><strong>Duco Paint Finish</strong></td><td>Medium-High</td><td>Low; touchable</td><td>₹₹</td><td>Smooth painted units, all colour options</td></tr>
+    <tr><td><strong>Laminate</strong></td><td>Medium</td><td>Very low; scratch-resistant</td><td>₹</td><td>Budget units, high-traffic areas</td></tr>
     <tr><td><strong>Acrylic High-Gloss</strong></td><td>Medium</td><td>Shows fingerprints; avoid near flames</td><td>₹₹</td><td>Modern minimalist units only</td></tr>
     <tr><td><strong>PU Finish (Gloss)</strong></td><td>High</td><td>Low; highly durable film</td><td>₹₹₹</td><td>High-use units needing deep protection</td></tr>
   </tbody>
@@ -246,13 +241,13 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <tr><th>Backdrop Material</th><th>Aesthetic</th><th>Heat Tolerance</th><th>Maintenance</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>White/Light Marble</strong></td><td>Premium, sacred</td><td>Excellent</td><td>Seal annually; haldi stains if unsealed</td></tr>
-    <tr><td><strong>Granite Slab</strong></td><td>Rich, formal</td><td>Excellent</td><td>Low; non-porous; easy wipe-down</td></tr>
-    <tr><td><strong>CNC-Cut Wood Panels</strong></td><td>Traditional, ornate</td><td>Medium — keep 300mm from flame</td><td>Dust accumulates in cut details; monthly clean</td></tr>
-    <tr><td><strong>Corian / Sintered Stone</strong></td><td>Contemporary</td><td>Good</td><td>Very low; seamless, non-porous</td></tr>
-    <tr><td><strong>Backlit Glass Panel</strong></td><td>Modern, luminous</td><td>Good</td><td>Low; wipe clean; check LED annually</td></tr>
-    <tr><td><strong>Stone Cladding</strong></td><td>Earthy, textured</td><td>Good</td><td>Medium; grout lines require attention</td></tr>
-    <tr><td><strong>Wallpaper</strong></td><td>Variable</td><td>Poor — avoid near open flames entirely</td><td>Difficult to clean; not recommended for active worship zones</td></tr>
+    <tr><td><strong>White/Light Marble</strong></td><td>Premium, sacred</td><td>Excellent</td><td>Seal annually, haldi stains if unsealed</td></tr>
+    <tr><td><strong>Granite Slab</strong></td><td>Rich, formal</td><td>Excellent</td><td>Low, non-porous, easy wipe-down</td></tr>
+    <tr><td><strong>CNC-Cut Wood Panels</strong></td><td>Traditional, ornate</td><td>Medium — keep 300mm from flame</td><td>Dust accumulates in cut details, monthly clean</td></tr>
+    <tr><td><strong>Corian / Sintered Stone</strong></td><td>Contemporary</td><td>Good</td><td>Very low, seamless, non-porous</td></tr>
+    <tr><td><strong>Backlit Glass Panel</strong></td><td>Modern, luminous</td><td>Good</td><td>Low, wipe clean, check LED annually</td></tr>
+    <tr><td><strong>Stone Cladding</strong></td><td>Earthy, textured</td><td>Good</td><td>Medium, grout lines require attention</td></tr>
+    <tr><td><strong>Wallpaper</strong></td><td>Variable</td><td>Poor — avoid near open flames entirely</td><td>Difficult to clean, not recommended for active worship zones</td></tr>
   </tbody>
 </table>
 </div>
@@ -268,7 +263,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <tr><td>Wall unit / compact</td><td>100–200mm (4–8 inches)</td><td>250–300mm</td></tr>
     <tr><td>Standard Pooja unit</td><td>200–350mm (8–14 inches)</td><td>300–400mm</td></tr>
     <tr><td>Dedicated Pooja room</td><td>300–500mm (12–20 inches)</td><td>400–600mm</td></tr>
-    <tr><td>Temple-style room</td><td>400–900mm (16–36 inches)</td><td>600mm+; verify structural load</td></tr>
+    <tr><td>Temple-style room</td><td>400–900mm (16–36 inches)</td><td>600mm+, verify structural load</td></tr>
   </tbody>
 </table>
 </div>
@@ -377,77 +372,39 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul></div>
 <h2>Budget Planning Guide</h2>
 <p>Pooja room budgets vary enormously based on size, materials, finish quality, and the degree of craftsmanship involved. The following brackets represent realistic all-in costs including materials, carpentry, lighting, and electrical work. Marble, stone, and carved work are the primary cost drivers.</p>
-<p>Basic</p>
-<p>₹20,000–₹60,000</p>
-<ul>
-  <li>BWP plywood carcass</li>
-  <li>Laminate finish</li>
-  <li>Basic idol shelf</li>
-  <li>CNC-cut MDF doors</li>
-  <li>Standard LED lighting</li>
-  <li>No stone surfaces</li>
-</ul>
-<p>Mid-Range</p>
-<p>₹60,000–₹2 Lakhs</p>
-<ul>
-  <li>BWP plywood + veneer</li>
-  <li>Granite or marble shelf</li>
-  <li>Jaali or glass doors</li>
-  <li>Dimmable LED system</li>
-  <li>Concealed storage</li>
-  <li>Hidden electrical point</li>
-</ul>
-<div class="callout"><span class="callout__title">Note</span>Premium<br><br>₹2–₹5 Lakhs</p>
-<ul>
-  <li>Solid wood or teak veneer</li>
-  <li>Marble or stone backdrop</li>
-  <li>CNC carved panels</li>
-  <li>Full backlit panel</li>
-  <li>Stepped false ceiling</li>
-  <li>Speaker + dimmer system</li>
-</ul></div>
-<p>Luxury</p>
-<p>₹5 Lakhs+</p>
-<ul>
-  <li>Dedicated room</li>
-  <li>Italian marble or granite</li>
-  <li>Temple-style shikhara</li>
-  <li>Full carved mandir</li>
-  <li>Automated lighting</li>
-  <li>Premium audio system</li>
-</ul>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Budget</th><th class="num">Range</th><th>What it usually includes</th></tr></thead>
+  <tbody>
+    <tr><td>Basic</td><td class="num">₹20,000–₹60,000</td><td>BWP plywood carcass, laminate finish, basic idol shelf, CNC-cut MDF doors, standard LED lighting, no stone surfaces</td></tr>
+    <tr><td>Mid-range</td><td class="num">₹60,000–₹2 lakh</td><td>BWP plywood + veneer, granite or marble shelf, jaali or glass doors, dimmable LED system, concealed storage, hidden electrical point</td></tr>
+    <tr><td>Premium</td><td class="num">₹2–5 lakh</td><td>Solid wood or teak veneer, marble or stone backdrop, CNC carved panels, full backlit panel, stepped false ceiling, speaker + dimmer system</td></tr>
+    <tr><td>Luxury</td><td class="num">₹5 lakh and above</td><td>Dedicated room, italian marble or granite, temple-style shikhara, full carved mandir, automated lighting, premium audio system</td></tr>
+  </tbody>
+</table>
+</div>
 <div class="callout callout--tip"><span class="callout__title">Enteriors Insight</span>The highest-value upgrade in any budget bracket is specifying stone for the idol shelf and lamp platform. This single change improves fire safety, simplifies maintenance, and elevates the overall quality of the unit more than any decorative finish upgrade.</div>
 <h2>Execution Process</h2>
 <p>A Pooja room or unit involves joinery, stone work, electrical installation, and lighting — often by multiple contractors. The following sequence ensures each stage is planned and executed in the right order, preventing costly rework.</p>
-<p>1</p>
-<p><strong>Requirement Mapping</strong></p>
+<p><strong>1. Requirement Mapping</strong></p>
 <p>Confirm number of idols, storage needs, worship style, seating requirements, and budget before any design work begins.</p>
-<p>2</p>
-<p><strong>Location &amp; Orientation Confirmation</strong></p>
+<p><strong>2. Location &amp; Orientation Confirmation</strong></p>
 <p>Finalise room location, worshipper facing direction, and door opening direction. Confirm Vastu alignment.</p>
-<p>3</p>
-<p><strong>Dimension &amp; Clearance Planning</strong></p>
+<p><strong>3. Dimension &amp; Clearance Planning</strong></p>
 <p>Confirm idol dimensions, shelf heights, lamp clearances, seating requirements, and circulation space. Draw to scale.</p>
-<p>4</p>
-<p><strong>Electrical &amp; Ventilation Rough-In</strong></p>
+<p><strong>4. Electrical &amp; Ventilation Rough-In</strong></p>
 <p>Complete all conduit runs, switch box positions, exhaust fan provision, and any structural ventilation openings before walls are plastered or units are installed.</p>
-<p>5</p>
-<p><strong>Material &amp; Finish Selection</strong></p>
+<p><strong>5. Material &amp; Finish Selection</strong></p>
 <p>Confirm all materials — carcass, shelf stone, door type, backdrop, ceiling treatment, and hardware — with samples before carpentry begins.</p>
-<p>6</p>
-<p><strong>Stone Work</strong></p>
+<p><strong>6. Stone Work</strong></p>
 <p>Stone shelves, backdrop panels, and lamp platforms should be installed before the joinery unit — they require separate fixing and levelling that the cabinetry is then built around.</p>
-<p>7</p>
-<p><strong>Carpentry &amp; Joinery Installation</strong></p>
+<p><strong>7. Carpentry &amp; Joinery Installation</strong></p>
 <p>Carcass, shelves, doors, and hardware installed. Verify all clearances — lamp zone, idol height, seating — before sign-off.</p>
-<p>8</p>
-<p><strong>Lighting Installation</strong></p>
+<p><strong>8. Lighting Installation</strong></p>
 <p>LED strips, accent spots, dimmers, and LED drivers installed and tested. Verify colour temperature consistency across all fittings.</p>
-<p>9</p>
-<p><strong>Ceiling &amp; Backdrop Completion</strong></p>
+<p><strong>9. Ceiling &amp; Backdrop Completion</strong></p>
 <p>False ceiling panels, cove lighting, and backdrop panels completed and finished after the joinery unit is in place.</p>
-<p>10</p>
-<p><strong>Idol Placement &amp; Final Styling</strong></p>
+<p><strong>10. Idol Placement &amp; Final Styling</strong></p>
 <p>Idol placement, lamp positioning, and accessory arrangement. Final lighting adjustment for balance between electrical lighting and deepam flame.</p>
 <h2>Common Pooja Room Mistakes</h2>
 <p>These are the errors most consistently identified after installation — all avoidable with proper planning at the design stage.</p>

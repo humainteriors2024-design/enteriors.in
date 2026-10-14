@@ -94,7 +94,15 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Why Premium Interior Companies Prefer BWP Plywood</h3>
 <p>Premium interior firms often standardize on BWP across wet and semi-wet zones to minimize callback and warranty claims over the long term.</p>
 <h2>BWP vs BWR vs MR Plywood: Detailed Comparison</h2>
-<p><strong>Water Resistance:</strong> BWP &gt; BWR &gt; MR. <strong>Strength:</strong> BWP offers the highest load-bearing capacity, followed by BWR, then MR. <strong>Durability:</strong> BWP plywood typically outlasts BWR and MR by 10+ years in wet conditions. <strong>Lifespan:</strong> MR (5–10 years), BWR (10–15 years), BWP (15–25 years) in their intended use cases. <strong>Cost:</strong> MR is the most economical, BWP the most expensive. <strong>Applications:</strong> MR suits dry furniture, BWR suits semi-wet cabinetry, BWP suits fully wet zones. <strong>Warranty:</strong> BWP plywood generally carries the strongest manufacturer warranties due to its proven water resistance.</p>
+<ul>
+  <li><strong>Water Resistance:</strong> BWP &gt; BWR &gt; MR.</li>
+  <li><strong>Strength:</strong> BWP offers the highest load-bearing capacity, followed by BWR, then MR.</li>
+  <li><strong>Durability:</strong> BWP plywood typically outlasts BWR and MR by 10+ years in wet conditions.</li>
+  <li><strong>Lifespan:</strong> MR (5–10 years), BWR (10–15 years), BWP (15–25 years) in their intended use cases.</li>
+  <li><strong>Cost:</strong> MR is the most economical, BWP the most expensive.</li>
+  <li><strong>Applications:</strong> MR suits dry furniture, BWR suits semi-wet cabinetry, BWP suits fully wet zones.</li>
+  <li><strong>Warranty:</strong> BWP plywood generally carries the strongest manufacturer warranties due to its proven water resistance.</li>
+</ul>
 <h2>BWP vs BWR vs MR Plywood Comparison Table</h2>
 <div class="table-wrap">
 <table>

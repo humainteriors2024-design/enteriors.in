@@ -47,23 +47,17 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Indian cooking makes demands European catalogues don't anticipate: bulk grain and flour storage (10–25kg bags), a large spice inventory in daily reach, heavy kadhais and pressure cookers, high steam and oil vapour, wet washing zones, and often two people cooking at once. Every recommendation in this guide is filtered through these realities — it's why we'll keep insisting on moisture-grade materials and high load-rated channels.</p>
 <h2>The Work Triangle &amp; the 6 Storage Zones</h2>
 <p>The <strong>kitchen work triangle</strong> connects your three anchors — hob, sink, and refrigerator. Keep each leg between 1.2m and 2.7m and the total under 8m, and cooking stays efficient. Storage planning is simply this: <em>store every item inside the zone where it's first used.</em></p>
-<p>1</p>
-<h4>Cooking Zone</h4>
+<h4>1. Cooking Zone</h4>
 <p>Around the hob: spice pull-out, oil bottle pull-out, ladles, tawas and daily pans in a deep drawer directly below the flame.</p>
-<p>2</p>
-<h4>Preparation Zone</h4>
+<h4>2. Preparation Zone</h4>
 <p>The main counter run: knives, boards, mixing bowls, and the cutlery organizer in the top drawer of this stretch.</p>
-<p>3</p>
-<h4>Washing Zone</h4>
+<h4>3. Washing Zone</h4>
 <p>At the sink: under-sink pull-outs for bins and cleaning supplies, plus the dish rack in the wall unit above for drip-drying.</p>
-<p>4</p>
-<h4>Pantry Zone</h4>
+<h4>4. Pantry Zone</h4>
 <p>Tall unit or dedicated cabinets for dry provisions — grains, pulses, oils, packets — ideally near the fridge, away from the hob's heat.</p>
-<p>5</p>
-<h4>Serving Zone</h4>
+<h4>5. Serving Zone</h4>
 <p>Crockery, glasses, and serveware nearest the dining side — plate organizers here save the daily dining-table shuttle.</p>
-<p>6</p>
-<h4>Cleaning Zone</h4>
+<h4>6. Cleaning Zone</h4>
 <p>Brooms, mops, buckets, and backup supplies in a utility tall cabinet — separated from food storage, always.</p>
 <p>Image: Annotated modular kitchen photo/diagram showing the 6 storage zones colour-coded around the work triangle <br>(replace: kitchen-storage-zones-work-triangle.jpg)</p>
 <p>Zone-first planning: every item stored where it's first used. This single principle removes most daily kitchen friction.</p>

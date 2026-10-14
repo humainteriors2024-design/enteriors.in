@@ -24,7 +24,6 @@ $page = [
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
-<p>Pillar 01</p>
 <h2>What Japandi Actually Looks Like, Room by Room</h2>
 <p>Japandi was never invented in a studio. It grew out of a 150-year design conversation between Denmark and Japan — two cultures that independently decided a home should hold fewer, better objects and let them age in view. The worldview in one line: <strong>own less, choose slower, and let the material do the talking.</strong> Walk through one of our finished Japandi projects and here is what your eye registers.</p>
 <h3>The living room</h3>
@@ -32,7 +31,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The sofa sits low, maybe 400mm seat height, in oatmeal linen, and the coffee table is lower still — a slab of dark stained ash with a visible grain and slightly eased edges, no sharp arris, no rounded bullnose.</p>
 <p>The 60-30-10 ratio is strict: roughly 60% warm off-white surfaces, 30% mid-to-dark wood, 10% split between charcoal black and one earthy accent — clay, moss, or ochre. Never blue-grey, never chrome, never a bright pop cushion. Those are the colors Japandi refuses.</p>
 <p>Contrast is the style's engine. Where a Scandinavian room keeps everything light and even, Japandi drops dark anchors into a pale field — a black-stained TV ledge floating on a linen-white wall, a charcoal cane-insert cabinet against pale flooring. The eye rests because it has somewhere dark to land.</p>
-<p>📷</p>
 <p><strong>Hero image — replace before launch.</strong> <br> Enteriors Japandi living room: bare feature wall, low linen sofa, dark ash coffee table, single paper pendant. <br> File: <code>japandi-interior-design-living-room-india.webp</code> · 1200×675 <br> Alt: <code>Japandi interior design living room with dark wood and linen sofa in an Indian home</code></p>
 <p>The Japandi living room: one bare wall, low furniture, and dark wood anchors in a warm off-white field.</p>
 <h3>The kitchen</h3>
@@ -43,7 +41,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The bed is the tell: a low platform, often 250–300mm off the floor, with the mattress sitting inside a dark wood frame rather than on top of a bulky hydraulic box. Behind it, either a full-height slatted wood panel or nothing at all.</p>
 <p>Lighting is 2700–3000K everywhere — warm, dim-capable, layered as a soft ambient wash, a focused bedside task light, and one accent inside the wardrobe or over a single artwork. The signature fixture of the style is the paper or fabric diffused pendant — the Noguchi lineage — glowing rather than shining. Cool white 6500K tubes end the style on the spot.</p>
 <p>Texture follows a discipline we drill into every Japandi drawing: <strong>roughly 90% matte to 10% sheen per room, and no more than four textures in view at once</strong> — say linen, wood grain, cane, and one stone or ceramic surface. Add a fifth and the calm starts to leak out.</p>
-<p>Pillar 02</p>
 <h2>Who Japandi Is For — and Who Should Avoid It</h2>
 <p>Across the Japandi projects we delivered last year, a clear customer pattern emerged. The style suits:</p>
 <ul>
@@ -55,10 +52,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Who should think twice</h3>
 <p>We steer some clients away from Japandi, and we tell them why. <strong>Families with children under eight</strong> fight the style daily: toys colonise empty surfaces, and the calm that justifies the budget disappears by breakfast — a warm modern style with more closed storage serves them better. <strong>Frequent entertainers who love a full, layered, maximal table</strong> will find Japandi's restraint reads as bare to their guests.</p>
 <p>And <strong>collectors</strong> — of art, brass, travel objects — should look at eclectic or modern Indian styles instead, because Japandi treats every displayed object as a decision, and a collection is fifty decisions the style can't absorb.</p>
-<p>📷</p>
 <p>Japandi bedroom: low platform bed, slatted wood headboard panel, warm 2700K lighting. <br> File: <code>japandi-bedroom-ideas-low-platform-bed.webp</code> · 1200×800 <br> Alt: <code>Japandi bedroom ideas with low platform bed and slatted wood panel in India</code></p>
 <p>The low platform bed is Japandi's single strongest signature — and the first thing imitations skip.</p>
-<p>Pillar 03</p>
 <h2>Maintenance Reality: What Japandi Demands of You</h2>
 <p>Upkeep rating:  3 / 5 — moderate, with two specific chores</p>
 <p>Japandi is kinder than its serene photos suggest — but not effortless. Here is the honest ledger from homes we service.</p>
@@ -67,7 +62,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>The aging story:</strong> at year one a well-built Japandi home looks unchanged. By year five, PU-sealed veneer has deepened slightly in tone — a patina the style was designed to celebrate — while linen softens and cane mellows to honey.</p>
 <p>What fails instead is the cheap imitation: foil-finish "wood look" membranes yellow at the edges by year three, and low-grade fabric pendants brittle under Bangalore's UV.</p>
 <p>Hard water is the quiet enemy in kitchens and vanities — matte black taps show mineral spotting fast, so we fit aerators and tell clients to wipe fixtures dry, not wet.</p>
-<p>Pillar 04</p>
 <h2>Japandi Interior Costs in India (Bangalore &amp; Hosur, 2026)</h2>
 <p>Japandi typically prices <strong>10–15% above a standard modern interior</strong> of the same scope. Here are the working bands from our delivered projects:</p>
 <div class="table-wrap">
@@ -89,7 +83,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>A Japandi 3BHK often carries less woodwork square footage than a conventional one — the premium is per square foot, not in quantity. Going factory-direct removes the 20–30% showroom margin on precisely the veneers and hardware where this style spends, which is the single biggest lever on the final number.</p>
 <p><strong>How we priced this guide</strong> <br> Bands are drawn from Enteriors' delivered Japandi and Japandi-leaning projects (2025–mid 2026) across Bangalore and Hosur, checked against current factory input costs for IS 303/IS 710 plywood, natural veneers, super-matte laminates and branded handle-less hardware as of July 2026. Excludes GST (18%), civil, electrical rework and loose décor. Final cost depends on measured site dimensions and signed material selections.</p>
 <p>If you're weighing how far up the finish ladder to climb, our breakdown of <a href="/cost/essential-vs-luxury-budget/">essential vs luxury interiors</a> maps where each extra lakh becomes visible.</p>
-<p>Pillar 05</p>
 <h2>Materials &amp; Execution Spec: The Japandi Build Sheet</h2>
 <p>This is the specification we hand our factory for a Japandi order — the version clients rarely see on Pinterest.</p>
 <div class="table-wrap">
@@ -111,32 +104,24 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>Grain direction is a drawing decision, not a carpenter's choice.</strong> On a Japandi wardrobe wall, every shutter's veneer grain must run the same way — we mark grain arrows on the cutting list, because one rotated panel is visible from across the room. <strong>Edge-band color is matched to the veneer's darkest tone, not its average</strong> — matched to the average, the edge reads as a pale outline around every shutter.</p>
 <p>And <strong>shadow gaps hold a 3mm tolerance</strong>: wider gaps collect dust visibly; tighter ones bind in monsoon humidity when ply moves. That humidity is also why we insist on the correct ply grade per zone — the difference is explained in our <a href="/compare/calibrated-vs-normal-plywood/">calibrated vs normal plywood guide</a>.</p>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><strong>The Indian substitution that saves lakhs</strong> Imported white/smoked oak veneer is the "authentic" Japandi surface — and the least necessary expense. Indian ash or hollock stained to a smoked-oak tone under matte PU is visually indistinguishable at two feet and saves 30–40% on veneer cost. Likewise, a super-matte laminate kitchen delivers 90% of the veneer look at less than half the price. We show clients both boards side by side and let their hands decide.</div>
-<p>📷</p>
 <p>Japandi kitchen: handle-less smoked-oak shutters, leathered stone counter, single open shelf. <br> File: <code>japandi-kitchen-ideas-handleless-matte.webp</code> · 1200×800 <br> Alt: <code>Japandi kitchen ideas with handle-less matte wood shutters and leathered stone counter</code></p>
 <p>Japandi kitchens hide their hardware and their gloss — the finish absorbs light instead of reflecting it.</p>
 <p>Storage planning carries this style more than any other — the calm only survives if everything has a door to disappear behind. Our <a href="/modular-kitchen/storage-solutions/">modular kitchen storage guide</a> covers the internal fittings that keep Japandi counters actually empty.</p>
-<p>Field Notes</p>
 <h2>Mistakes Indians Make with Japandi — and the Fixes</h2>
 <p>These four patterns account for most of the "why doesn't my home look like the render" conversations we have:</p>
-<p>01</p>
-<h4>Shopping the look instead of designing the storage</h4>
+<h4>1. Shopping the look instead of designing the storage</h4>
 <p>Buying a rattan pendant, a Buddha and a bonsai does not make a Japandi home — it makes a themed corner. Indian households typically carry two to three times the belongings of the Nordic homes this style photographs in. <strong>Fix:</strong> design concealed storage first — full-height wardrobes, lofts, push-to-open units — then let the style emerge from what's left visible.</p>
-<p>02</p>
-<h4>Going pale-oak everywhere</h4>
+<h4>2. Going pale-oak everywhere</h4>
 <p>All-light wood with white walls is Scandinavian, not Japandi — the single most common mislabel we see in briefs. <strong>Fix:</strong> commit to the dark anchors. At least a third of the visible wood should sit in the walnut-to-black range, or the room loses the grounded quality that defines the style.</p>
-<p>03</p>
-<h4>Equating gloss with premium</h4>
+<h4>3. Equating gloss with premium</h4>
 <p>Clients often upgrade to high-gloss acrylic because it's the "premium" finish they know — and it demolishes the style in one decision. <strong>Fix:</strong> in Japandi, matte <em>is</em> the premium. Spend the upgrade money on super-matte anti-fingerprint laminate or veneer, and on better hardware you'll feel every day.</p>
-<p>04</p>
-<h4>Letting the pooja unit fight the palette</h4>
+<h4>4. Letting the pooja unit fight the palette</h4>
 <p>A bright, ornate, back-lit pooja unit dropped into a Japandi living room splits the home into two styles. <strong>Fix:</strong> build the mandir into the language — matte wood box, slatted or jaali shutter, warm 2700K accent light, brass kept to the deities and bell. It reads more serene, not less sacred; several clients have told us it became their favourite unit in the house.</p>
 <div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>Climate adaptation for Bangalore &amp; Hosur</strong> Three local edits keep Japandi honest here. <strong>Dust:</strong> keep true-black finishes on vertical surfaces only; horizontal dark surfaces need twice-weekly wiping in our dust load. <strong>Monsoon humidity:</strong> BWP-710 ply near any water source, PU-sealed veneer edges, and 3mm shadow-gap tolerances so panels can move without binding. <strong>Sun:</strong> Bangalore's light is far stronger than the Nordic light this style was calibrated for — double-layer window treatment (sheer + lined linen) protects fabrics from UV fading and softens the glare that flattens a matte palette by noon.</div>
-<p>Pillar 06</p>
 <h2>How Long a Japandi Project Takes</h2>
 <p>Budget <strong>7–10 weeks for a 2BHK and 9–12 weeks for a 3BHK</strong>, design sign-off to handover — about one to two weeks longer than an equivalent standard modern interior.</p>
 <p>The difference has three specific causes: veneer procurement and PU finishing add cure cycles a laminate job skips (each PU coat needs its drying window, and Japandi surfaces get two to three coats); handle-less systems demand slower, jig-aligned installation because every gap is on display; and low-height custom furniture — the platform bed, the low console — is fabricated to drawing rather than pulled from standard module libraries.</p>
 <p>The factory-direct sequence keeps this from stretching: veneering and finishing happen in controlled factory conditions while your site gets its electrical and painting done in parallel, then installation lands in one clean window. For the stage-by-stage sequence of any project, see our <a href="/planning/interior-timeline/">interior design timeline guide</a>.</p>
-<p>Pillar 07</p>
 <h2>Japandi vs Scandinavian (and Where Wabi-Sabi Fits)</h2>
 <p>These two styles are confused more than any other pair we quote — understandably, since Japandi carries Scandinavian DNA. The separation comes down to contrast, wood tone and strictness:</p>
 <div class="table-wrap">
@@ -167,7 +152,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Picture your dream evening at home.</strong> Quiet, dim, two objects on the table → Japandi. Warm, layered, friends over, candles everywhere → Scandinavian.</li>
   <li><strong>Which upgrade excites you more:</strong> a perfect matte walnut wardrobe face, or a wall of open shelves styled with your things? The first is Japandi; the second isn't.</li>
 </ol>
-<p>📷</p>
 <p>Side-by-side or split image: Japandi room (dark anchors) vs Scandinavian room (pale, layered). <br> File: <code>japandi-vs-scandinavian-comparison.webp</code> · 1200×800 <br> Alt: <code>Japandi vs Scandinavian interior comparison showing contrast and wood tone difference</code></p>
 <p>Same bones, different souls: Japandi grounds the room with dark wood; Scandinavian keeps everything light.</p>
 <p>Planning a larger home in this style? Our <a href="/cost/4-bhk-villa-cost/">4BHK, villa &amp; duplex cost guide</a> covers how budgets scale, and the <a href="/modular-kitchen/">kitchen layouts guide</a> helps you pick the plan your Japandi kitchen will live in.</p>
