@@ -24,5 +24,5 @@ if (!(($_SERVER['PHP_AUTH_USER'] ?? '') === ADMIN['user'] && password_verify($_S
 }
 
 // One-time token for forms on admin pages (stops other sites posting to them)
-function admin_token() { return hash_hmac('sha256', 'admin|' . date('Y-m-d') . '|' . ($_SERVER['PHP_AUTH_USER'] ?? ''), LEADS['secret']); }
+function admin_token() { return hash_hmac('sha256', 'admin|' . date('Y-m-d') . '|' . ($_SERVER['PHP_AUTH_USER'] ?? ''), lead_secret()); }
 function admin_token_ok($t) { return is_string($t) && hash_equals(admin_token(), $t); }

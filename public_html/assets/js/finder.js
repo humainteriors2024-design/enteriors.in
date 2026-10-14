@@ -63,7 +63,8 @@
   var aside = form.querySelector('.finder-filters');
   var stateSel = form.querySelector('[data-state-select]'), citySel = form.querySelector('[data-city-select]'), areaSel = form.querySelector('[data-area-select]');
   var track = function (n, d) { if (window.entTrack) window.entTrack(n, d || {}); };
-  var busy = null;
+  var busy = null, changedFilter = null;   // the filter the visitor just changed (for filter_use)
+  var listing = /find-designer/.test(form.getAttribute('action') || '') ? 'designer_directory' : 'trending_designs';
 
   // keep option labels without their counts, so counts can be rewritten
   form.querySelectorAll('select option').forEach(function (o) { o.setAttribute('data-label', o.textContent.replace(/\s\(\d+\)$/, '')); });
@@ -139,7 +140,7 @@
         if (push) history.pushState({ finder: 1 }, '', url);
         var top = results.getBoundingClientRect().top;
         if (top < 0 || top > window.innerHeight * 0.8) results.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        track('filter_results', { results: res.total, query: url.split('?')[1] || '' });
+        if (changedFilter) { track('filter_use', { filter_name: changedFilter.name, filter_value: changedFilter.value, results_count: res.total, listing: listing }); changedFilter = null; }
       })
       .catch(function (err) { if (err.name !== 'AbortError') location.href = url; });
   };
@@ -147,6 +148,7 @@
 
   form.addEventListener('change', function (e) {
     var el = e.target;
+    if (el.name) changedFilter = { name: el.name.replace(/\[\]$/, ''), value: el.type === 'checkbox' ? (el.checked ? el.value : 'off') : String(el.value || 'all').slice(0, 60) };
     if (el === stateSel) { narrowCities(); if (citySel && citySel.value && citySel.options[citySel.selectedIndex].hidden) citySel.value = ''; if (areaSel) areaSel.value = ''; }
     if (el === citySel) {
       if (areaSel) areaSel.value = '';
@@ -216,7 +218,7 @@
         if (areaSel) areaSel.value = '';
         var nearBox = form.querySelector('[name="near"]'); if (nearBox) nearBox.value = '';
         if (hint) hint.textContent = 'Nearest city with listings: ' + cities[best][2] + (bestD > 60 ? ' (about ' + Math.round(bestD) + ' km away)' : '') + '.';
-        track('near_me', { city: best, km: Math.round(bestD) });
+        track('filter_use', { filter_name: 'near_me', filter_value: best, listing: listing });
         apply();
       }, function () {
         near.disabled = false; near.textContent = label;

@@ -8,7 +8,6 @@
   if (!dlg || !dlg.showModal || !window.fetch || !window.FormData) return;
   var box = dlg.querySelector('[data-vform]'), f1 = box.querySelector('[data-step="details"]');
   var opener = null;
-  var track = function (n, d) { if (window.entTrack) window.entTrack(n, d || {}); };
   var setMode = function (mode) {
     var mail = mode === 'mail';
     f1.querySelectorAll('input[name="mode"]').forEach(function (r) { r.checked = r.value === mode; });
@@ -29,7 +28,6 @@
     var ab = dlg.querySelector('[data-enq-about]'); ab.textContent = about ? 'About: ' + about : ''; ab.hidden = !about;
     setMode(a.getAttribute('data-mode') === 'mail' ? 'mail' : 'contact');
     dlg.showModal();
-    track('enquiry_open', { kind: kind, mode: a.getAttribute('data-mode') });
   });
   f1.addEventListener('change', function (e) { if (e.target.name === 'mode') setMode(e.target.value); });
   var close = function () { dlg.close(); if (opener) opener.focus(); };

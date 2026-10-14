@@ -13,7 +13,7 @@
      label    short name (menus)          keyword  main search phrase the pillar targets
      href     pillar URL                  menu   true = own entry in the header (max 5 + "Guides")
      groups   titled lists of cluster pages  [label, url]
-     tracking (optional) IDs for every page in this pillar, e.g. 'tracking' => ['meta_pixel' => '123…'] (see includes/tracking.php)
+     (tracking: one site-wide setup in config.php → TRACKING; there are no per-pillar tracking IDs)
    ===================================================================== */
 function lnk($label, $href) { return ['label' => $label, 'href' => $href]; }   // one menu link
 

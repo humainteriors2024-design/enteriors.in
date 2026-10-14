@@ -6,7 +6,7 @@
 $page = ['type' => 'page', 'title' => 'Privacy Policy', 'crumb' => 'Privacy', 'updated' => '2026-10-14',
   'description' => 'How Enteriors collects, uses, shares and deletes the personal details you submit through our enquiry forms and calculators, and how to contact us about them.'];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
-$tools = array_filter(['Google Analytics' => TRACKING['ga4'] || TRACKING['gtm'], 'Google Ads' => TRACKING['google_ads'], 'Meta Pixel' => TRACKING['meta_pixel'], 'Microsoft Clarity' => TRACKING['clarity']]);
+$tools = TRACKING_ON ? array_filter(['Google Analytics 4' => TRACKING['ga4'], 'Google Ads' => TRACKING['google_ads'], 'the Meta (Facebook) Pixel' => TRACKING['meta_pixel']]) : [];
 ?>
 <header class="page-header">
   <div class="container">
@@ -23,7 +23,7 @@ $tools = array_filter(['Google Analytics' => TRACKING['ga4'] || TRACKING['gtm'],
     <ul>
       <li><strong>Details you type into a form:</strong> your name, mobile number, email address and city or area (every form asks for these four), and, where the form asks, your home type, the work you are planning, budget, preferred time for a call and any message.</li>
       <li><strong>Email verification:</strong> before a form is sent we email you a one-time code and a link to confirm the address is yours. We keep a record that it was verified, not the code.</li>
-      <li><strong>Details sent with the form automatically:</strong> the page you sent it from, the advertisement or campaign link you arrived through (if any), your IP address, and the date and time.</li>
+      <li><strong>Details sent with the form automatically:</strong> the page you sent it from, how you first found this website (the campaign link, advertisement or website you arrived from, and the first page you saw), your IP address, and the date and time.</li>
       <li><strong>Calculator estimates:</strong> the calculators run in your browser. An estimate reaches us only if you send an enquiry from that page, in which case a one-line summary is attached to it.</li>
     </ul>
     <h2>Why we collect it</h2>
@@ -34,8 +34,9 @@ $tools = array_filter(['Google Analytics' => TRACKING['ga4'] || TRACKING['gtm'],
     <h2>Who sees it</h2>
     <p>Our own team. If you contact a designer or firm listed on this site, we pass your enquiry to that firm. If you ask us to arrange quotations, we share your enquiry with up to three interior designers, and only for that purpose. We do not sell personal details.</p>
     <h2>Cookies and measurement</h2>
+    <p>On your first visit this website keeps a small cookie of its own (<code>ent_src</code>, for 90 days) that remembers how you arrived: the campaign link or website you came from and the first page you saw. It is read only by our server, and only when you send an enquiry, so we know which of our pages and campaigns help people.</p>
 <?php if ($tools): ?>
-    <p>We use <?= e(implode(', ', array_keys($tools))) ?> to understand which pages are useful and whether our advertising works. These tools set cookies or similar identifiers in your browser. You can block them in your browser settings without losing access to any page.</p>
+    <p>We also use <?= e(implode(' and ', array_keys($tools))) ?> to see which pages are useful and whether our advertising works. They count page views, clicks, scrolling and the steps of our forms, and set cookies or similar identifiers in your browser. <strong>We never send them your name, mobile number, email address or anything you type into a form.</strong> You can block these tools in your browser settings without losing access to any page.</p>
 <?php else: ?>
     <p>This website does not currently use analytics or advertising cookies. If that changes, this page will be updated first.</p>
 <?php endif; ?>

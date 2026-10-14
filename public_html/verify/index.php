@@ -4,7 +4,7 @@
      /verify/?t=<request>&k=<link key>   the one-click link from the verification email:
                                          confirms the request at once (a button without JavaScript)
      /verify/?t=<request>                no JavaScript on the form: type the 6-digit code here
-   Both post to api/lead.php, which sends the submission to LEADS['notify_email'].
+   Both post to api/lead.php, which sends the submission to LEADS['notify_emails'].
    ===================================================================== */
 $t = preg_match('/^[a-f0-9]{32}$/', (string) ($_GET['t'] ?? '')) ? $_GET['t'] : '';
 $k = preg_match('/^[a-f0-9]{32}$/', (string) ($_GET['k'] ?? '')) ? $_GET['k'] : '';
@@ -38,7 +38,17 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       .then(function (res) {
         box.querySelector('[data-verify-title]').textContent = res.ok ? '✓ Email verified — request sent' : 'We could not confirm this link';
         box.querySelector('[data-verify-text]').textContent = res.message || '';
-        if (res.ok && window.entTrack && res.state === 'done') window.entTrack('lead', { form: res.form || 'verify-link', lead_id: res.ref });
+        // analytics: counted once (res.track) and generate_lead only when the server sent it (res.sent); nothing personal is sent
+        var T = window.entTrack; if (!T) return;
+        var names = (window.ENT_TRACK && window.ENT_TRACK.forms) || {};
+        var p = { form_name: names[res.form] || res.form || 'form', form_location: res.form_location || 'email_link', verify_method: 'link' };
+        if (res.ok && res.state === 'done' && res.track) {
+          T('otp_verified', p);
+          if (res.sent) T('generate_lead', Object.assign({ lead_type: res.form === 'enquiry' ? 'listing_enquiry' : 'consultation', lead_ref: res.ref }, p));
+          else T('form_error', Object.assign({ reason: 'server', error_detail: 'mail_failed', form_step: 'link', error_source: 'server' }, p));
+        } else if (!res.ok) {
+          T('form_error', Object.assign({ reason: res.code === 'limit' ? 'daily_limit' : (res.code === 'link' || res.code === 'gone' || !res.code) ? 'validation' : 'server', error_detail: res.code || 'link', form_step: 'link', error_source: 'server' }, p));
+        }
       })
       .catch(function () { fb.hidden = false; box.querySelector('[data-verify-title]').textContent = 'Confirm your email'; box.querySelector('[data-verify-text]').textContent = 'Tap the button to send your request.'; });
   })();

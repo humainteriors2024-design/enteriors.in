@@ -14,6 +14,8 @@
 
   document.querySelectorAll('[data-calc]').forEach(function (box) {
     var type = box.getAttribute('data-calc'), form = box.querySelector('form');
+    var calcName = { home: 'interior_cost', kitchen: 'modular_kitchen', wardrobe: 'wardrobe_cost', quote: 'room_by_room_quote' }[type] || type;
+    var use = function (action) { track('calculator_use', { calculator_name: calcName, calc_action: action }); };
     if (!form) return;
     var seq = 0, timer = null, idle = null, started = false, logged = false, last = null;
 
@@ -49,11 +51,11 @@
     }
     function changed(e) {
       if (e && e.target) fill(e.target);
-      if (!started) { started = true; track('calc_start', { calc: type }); }
+      if (!started) { started = true; use('start'); }
       clearTimeout(timer); timer = setTimeout(function () { send(false); }, 160);
       clearTimeout(idle);                              // once the visitor pauses, log the result (once per page view)
       idle = setTimeout(function () {
-        send(!logged).then(function () { if (last && !logged) { logged = true; track('calc_result', { calc: type, value: last.total, currency: 'INR' }); } });
+        send(!logged).then(function () { if (last && !logged) { logged = true; use('result'); } });
       }, 4000);
     }
     // Interior quote: a home type ticks the usual modules in its rooms and clears the others
@@ -78,16 +80,13 @@
     form.addEventListener('change', changed);
     form.addEventListener('submit', function (e) { e.preventDefault(); changed(); });
 
-    // Buttons that lead to a quote form: count the click as intent
-    box.querySelectorAll('[data-quote], [data-open-lead]').forEach(function (a) {
-      a.addEventListener('click', function () { track('calc_quote_click', { calc: type, value: last ? last.total : null }); });
-    });
+    // Buttons that lead to a quote form are counted as cta_click by track.js (cta_location = calculator)
     // Room-by-room quote: collapse / expand all, print
     box.querySelectorAll('[data-expand]').forEach(function (b) {
       b.addEventListener('click', function () { var open = b.getAttribute('data-expand') === 'open'; box.querySelectorAll('details.q-area').forEach(function (d) { d.open = open; }); });
     });
     box.querySelectorAll('[data-print]').forEach(function (b) {
-      b.addEventListener('click', function () { box.querySelectorAll('details.q-area').forEach(function (d) { d.open = true; }); track('calc_print', { calc: type }); window.print(); });
+      b.addEventListener('click', function () { box.querySelectorAll('details.q-area').forEach(function (d) { d.open = true; }); use('print_pdf'); window.print(); });
     });
   });
 })();

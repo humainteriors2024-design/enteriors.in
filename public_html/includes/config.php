@@ -12,7 +12,8 @@
      1  Website name and URL         7  Services, areas served, cost links
      2  Contact details (NAP)        8  Authors, reviews, home stats
      3  Social links                 9  Image folders and formats
-     4  Tracking IDs                10  CSS files and feature switches
+     4  Analytics: TRACKING_ON,     10  CSS files and feature switches
+        GA4, Meta Pixel, Search Console
      5  Lead forms (the one inbox)  11  Private reports (/admin/)
      5b Captcha: TURNSTILE KEYS     12  Trending designs, designer directory
      5c Email verification and      13  Launch phases
@@ -23,12 +24,12 @@
 /* ---------- 0. LAUNCH SWITCH — the ONE line to change on launch day ----------
    false = PRE-LAUNCH LOCK (now): on every address, including enteriors.in —
              • every page says noindex, nofollow (meta robots AND the X-Robots-Tag header)
-             • no tracking tags (GA4, GTM, Ads, Meta Pixel, Clarity) and no server-side lead events
              • /sitemap.xml and /llms.txt answer "not found"; robots.txt lists no sitemap and keeps
                Google Images out (pages stay crawlable so search engines can SEE the noindex)
              • the footer has no Sitemap link
            Forms keep working normally and leads are real (not marked TEST).
-   true  = LAUNCHED: the site can be indexed, tracking runs (when IDs are set), sitemap and llms.txt are on.
+   true  = LAUNCHED: the site can be indexed, sitemap and llms.txt are on.
+   Analytics (GA4, Meta Pixel) has its OWN switch, TRACKING_ON in section 4, so it can run before launch.
    Check after flipping: open /robots.txt, /sitemap.xml and view the source of any page (meta name="robots"). */
 const LAUNCHED = false;
 
@@ -61,7 +62,7 @@ const NAP = [
   'phone'       => '',                   // TODO: '+91 98xxxxxxxx' — shows Call buttons when set
   'whatsapp'    => '',                   // TODO: digits only with country code, e.g. '9198xxxxxxxx'
   'whatsapp_text' => 'Hi Enteriors, I would like help with my home interiors.',   // pre-filled WhatsApp message
-  'email'       => 'hello@enteriors.in',
+  'email'       => 'contact@enteriors.in',   // the ONE public address: footer, contact page, schema, social icons, visitor emails
   'street'      => '',                   // TODO: e.g. '12, 3rd Cross, HSR Layout Sector 2'
   'locality'    => 'Bengaluru',
   'region'      => 'Karnataka',
@@ -79,33 +80,32 @@ const NAP = [
   'schema_type' => 'auto',
 ];
 
-/* ---------- 3. SOCIAL LINKS (footer icons + sameAs in schema) — '' hides one ---------- */
+/* ---------- 3. SOCIAL LINKS (footer icons + sameAs in schema) — '' hides one ----------
+   Only these two networks are shown. The footer adds a third icon, Email (mailto: NAP['email'] above);
+   email is not a profile, so it is not listed in schema sameAs. */
 const SOCIAL = [
   'instagram' => 'https://www.instagram.com/enteriors.in',
   'facebook'  => 'https://www.facebook.com/enteriors.in',
-  'youtube'   => 'https://www.youtube.com/@enteriors',
-  'linkedin'  => 'https://www.linkedin.com/company/enteriors',
-  'pinterest' => '',
 ];
 
-/* ---------- 4. TRACKING IDs — only loaded on the LIVE site.
-   Override for one PILLAR (all its pages and posts): includes/nav.php → that pillar's 'tracking'.
-   Override for one PAGE: 'tracking' => ['meta_pixel' => 'OTHER-ID'] in its $page block; false = off.
-   Every page reports its pillar, page type and content group with each event (see includes/tracking.php). ---------- */
+/* ---------- 4. ANALYTICS AND SEARCH CONSOLE — one include: includes/tracking.php ----------
+   TRACKING_ON is separate from LAUNCHED (section 0), so analytics can be tested on the live site
+   while Google indexing stays off.
+     true  = GA4 and the Meta Pixel load on every page of the live site (enteriors.in), including the
+             404, thank-you and verify pages. /admin/ is never tracked.
+     false = no tags anywhere. The first-visit source cookie still works, so lead emails keep their source.
+   Staging addresses never load the tags unless 'on_staging' below is true.
+   Test with ?debug_mode=1 on any page (GA4 → Admin → DebugView). docs/ga4-setup.md has every event. */
+const TRACKING_ON = true;
 const TRACKING = [
-  'gsc_verification'  => '',   // Google Search Console: the content="…" value of the HTML tag
-  'bing_verification' => '',   // Bing Webmaster Tools: the content="…" value
-  'ga4'               => '',   // Google Analytics 4: 'G-XXXXXXXXXX'
-  'ga4_api_secret'    => '',   // GA4 → Admin → Data streams → Measurement Protocol API secrets: also sends each lead from the server
-  'gtm'               => '',   // Google Tag Manager: 'GTM-XXXXXXX' (if you manage GA4 inside GTM, leave ga4 blank)
-  'google_ads'        => '',   // Google Ads: 'AW-XXXXXXXXXX'
-  'google_ads_lead'   => '',   // Ads conversion label fired when a lead is sent: 'AbCdEfGhIjK'
-  'meta_pixel'        => '',   // Meta (Facebook) Pixel ID: digits only
-  'meta_capi_token'   => '',   // Meta Events Manager → Settings → Conversions API → access token: also sends each lead from the server
-  'meta_test_code'    => '',   // Meta "Test events" code while you check the Conversions API; clear it afterwards
-  'meta_api_version'  => 'v24.0',   // Graph API version for the Conversions API (use a current one from developers.facebook.com/docs/graph-api/changelog)
-  'meta_domain_verification' => '',   // Meta Business → Brand safety → Domains: the content="…" value
-  'clarity'           => '',   // Microsoft Clarity project ID (optional heatmaps and recordings)
+  'ga4'               => '',                   // >>> PASTE your GA4 Measurement ID here, e.g. 'G-AB12CD34EF' (GA4 → Admin → Data streams → Web). Blank = GA4 off
+  'meta_pixel'        => '2229913661272596',   // Meta (Facebook) Pixel ID: PageView on every page, Lead on a verified enquiry, Contact on call / WhatsApp taps
+  'gsc_verification'  => '',                   // >>> Google Search Console: paste ONLY the content="…" value of the google-site-verification HTML tag
+  'bing_verification' => '',                   // Bing Webmaster Tools: the content="…" value (optional)
+  'meta_domain_verification' => '',            // Meta Business → Brand safety → Domains: the content="…" value (optional)
+  'google_ads'        => '',                   // optional, later: Google Ads 'AW-XXXXXXXXXX' (loads through the same Google tag, no second tag)
+  'google_ads_lead'   => '',                   // optional, later: the Ads conversion label sent with each generate_lead
+  'on_staging'        => false,                // true = also load the tags on a staging address (for testing only)
 ];
 
 /* ---------- 5. LEAD FORMS ----------
@@ -114,14 +114,16 @@ const TRACKING = [
    inbox below, only after the visitor has verified their email address (section 5c). */
 const LEADS = [
   'endpoint'      => '/api/lead.php',                 // where every form posts
-  'notify_email'  => 'humainteriors2024@gmail.com',   // THE inbox: every verified form submission is emailed here
-  'notify_cc'     => '',                              // optional second address
+  // THE inboxes: every verified form submission is emailed to each address here (one email each).
+  // SERVER-SIDE ONLY: these are used to send mail and are never printed in a page, script, form field or API reply.
+  'notify_emails' => ['Enteriors.com@gmail.com', 'contact@enteriors.in'],
   'webhook'       => '',                              // optional: URL that also receives each lead as JSON (CRM, Google Sheet script)
   'promise'       => 'We respond within 2 business hours.',
   'thank_you'     => '/thank-you/',
 
   // Spam protection (see includes/leads.php)
-  'secret'          => 'jtSFvB168a1J4SkiDiZqXetpkwqFhqcz-QTyJJaWB7kSaLfi',  // signs form keys, codes, captchas and links. Rotated 14 Oct 2026 (the old one was in a public GitHub repo). Keep this file out of public repos.
+  'secret'          => '',   // signs form keys, codes, captchas and links. Leave '' : the server makes its own random secret
+                               // the first time it is needed and keeps it in leads/secret.key (outside public_html, never in git).
   'min_seconds'     => 3,        // a form sent faster than this after loading is a bot
   'max_key_age'     => 21600,    // form key valid for 6 hours (it refreshes itself when the visitor starts typing)
   'max_links'       => 0,        // links allowed in a message (0 = any link is treated as spam)
@@ -152,7 +154,7 @@ const TURNSTILE = [
 ];
 
 /* ---------- 5c. EMAIL VERIFICATION AND DAILY LIMITS — every form ----------
-   Nothing reaches LEADS['notify_email'] until the visitor proves the email address is theirs: we email
+   Nothing reaches LEADS['notify_emails'] until the visitor proves the email address is theirs: we email
    them a 6-digit code AND a one-click link (either works). Limits are counted on the server against the
    visitor's IP address, verified email and mobile number, so a new browser or incognito does not reset them.
    A "day" is the calendar day in India (midnight to midnight IST). */
@@ -290,7 +292,7 @@ const LEAD_DIALOG    = true;    // "Free consultation" buttons open a pop-up for
    Pages: /trending-designs/ and /services/find-designer/ (engine: includes/finder.php).
    Data:  includes/data/trends.php · includes/data/pros.php · includes/data/places.php
    "Contact" and "Mail" buttons open a form; like every form on the site it is sent to
-   LEADS['notify_email'] (with the firm's name) once the visitor's email is verified. */
+   LEADS['notify_emails'] (with the firm's name) once the visitor's email is verified. */
 const FINDER = [
   'designs_url'   => '/trending-designs/',
   'pros_url'      => '/services/find-designer/',

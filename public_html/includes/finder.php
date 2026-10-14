@@ -597,7 +597,7 @@ function enquiry_dialog() {
 <dialog class="lead-dialog enq" id="enquiry-dialog" aria-labelledby="enq-title">
   <button class="lead-dialog__close" type="button" aria-label="Close" data-enq-close>×</button>
   <div class="lead-card">
-    <div class="vform" data-vform>
+    <div class="vform" data-vform<?= track_form_attrs('enquiry', 'enquiry') ?>>
     <form class="form" data-step="details" method="post" action="<?= e(ENQUIRY['endpoint']) ?>">
       <p class="form__title" id="enq-title"><span data-enq-verb>Contact</span> <span data-enq-name>the designer</span></p>
       <p class="form__text" data-enq-about hidden></p>

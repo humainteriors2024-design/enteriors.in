@@ -7,16 +7,16 @@
 
    Every form carries these hidden fields:
      form     which form, e.g. "compact" (it also picks the daily limit: config.php → FORM_GROUPS)
-     fk       the form key: "<time>.<signature>" signed with LEADS['secret']
+     fk       the form key: "<time>.<signature>" signed with lead_secret()
      website  an empty "honeypot" field that only bots fill in
    Once the visitor's email is verified, lead_deliver() / enquiry_deliver() email the submission to
-   LEADS['notify_email'] (the one inbox for every form) and save it to leads/leads.csv.
+   LEADS['notify_emails'] (the team inboxes, server-side only) and save it to leads/leads.csv.
    ===================================================================== */
 
 // Form key for a form name: "<unix time>.<signature>"
 function lead_key($form, $ts = null) {
   $ts = $ts ?? time();
-  return $ts . '.' . substr(hash_hmac('sha256', $ts . '|' . $form, LEADS['secret']), 0, 32);
+  return $ts . '.' . substr(hash_hmac('sha256', $ts . '|' . $form, lead_secret()), 0, 32);
 }
 
 // Check a form key. Returns '' when fine, otherwise the reason: bad | fast | expired
@@ -105,6 +105,86 @@ function leads_dir() {
   return $dir;
 }
 
+/* The secret that signs form keys, codes, captchas, calculator results and links.
+   config.php → LEADS['secret'] if you set one; otherwise (the default) a random secret the server makes
+   the first time it is needed and keeps in leads/secret.key — outside public_html and never in git. */
+function lead_secret() {
+  static $v = null;
+  if ($v !== null) return $v;
+  if (LEADS['secret'] !== '') return $v = LEADS['secret'];
+  $file = leads_dir() . '/secret.key';
+  $v = is_file($file) ? trim((string) @file_get_contents($file)) : '';
+  if (strlen($v) >= 32) return $v;
+  if ($fh = @fopen($file, 'c+')) {               // first use: create it once, even if two requests arrive together
+    flock($fh, LOCK_EX);
+    $v = trim((string) stream_get_contents($fh));
+    if (strlen($v) < 32) { $v = bin2hex(random_bytes(32)); ftruncate($fh, 0); rewind($fh); fwrite($fh, $v); fflush($fh); }
+    flock($fh, LOCK_UN); fclose($fh); @chmod($file, 0600);
+  }
+  if (strlen($v) < 32) $v = hash('sha256', 'enteriors|' . __DIR__ . '|' . php_uname('n'));   // leads/ not writable: stable fallback
+  return $v;
+}
+
+/* Email the team: one copy to each inbox in config.php → LEADS['notify_emails'].
+   Server-side only — the addresses are never printed in a page, a script or an API reply. */
+function notify_team($subject, $body, $replyTo = '') {
+  $sent = false;
+  foreach ((array) LEADS['notify_emails'] as $to) $sent = site_mail($to, $subject, $body, ['reply_to' => $replyTo]) || $sent;
+  return $sent;
+}
+
+/* =====================================================================
+   FIRST VISIT (source of every enquiry) — read from the first-party cookie "ent_src" that the tracking
+   include sets on a visitor's first page view: utm_*, gclid, fbclid, referrer, landing page, time.
+   It is read on the server when a form is started, kept with the request and printed in the lead email.
+   ===================================================================== */
+const SOURCE_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'gbraid', 'wbraid', 'fbclid'];
+function first_touch() {
+  $raw = (string) ($_COOKIE['ent_src'] ?? '');
+  if ($raw === '' || strlen($raw) > 3000) return null;
+  parse_str($raw, $c);
+  $clean = fn($v, $max) => is_string($v) ? mb_substr(trim(preg_replace('/[\x00-\x1F\x7F<>"]+/u', ' ', $v)), 0, $max) : '';
+  $utm = [];
+  foreach (SOURCE_KEYS as $k) if (($v = $clean($c[$k] ?? '', $k === 'gclid' || $k === 'fbclid' ? 200 : 100)) !== '') $utm[$k] = $v;
+  $lp  = $clean($c['lp'] ?? '', 200);
+  $ref = $clean($c['ref'] ?? '', 200);
+  $ts  = ctype_digit((string) ($c['ts'] ?? '')) ? (int) $c['ts'] : 0;
+  if (!$utm && $lp === '' && $ref === '') return null;
+  return ['landing' => str_starts_with($lp, '/') ? $lp : '', 'referrer' => preg_match('#^https?://#i', $ref) ? $ref : '',
+          'utm' => http_build_query($utm), 'first_visit' => $ts > 1.5e9 && $ts <= time() + 60 ? date('Y-m-d H:i', $ts) : ''];
+}
+// Where an enquiry came from, in plain words
+function lead_channel($utmQuery, $referrer) {
+  parse_str((string) $utmQuery, $u);
+  $src = strtolower($u['utm_source'] ?? ''); $med = strtolower($u['utm_medium'] ?? '');
+  $paid = preg_match('/^(cpc|ppc|paid|paidsocial|paid_social|ads?|display|cpm)$/', $med);
+  if (!empty($u['gclid']) || !empty($u['gbraid']) || !empty($u['wbraid']) || ($src === 'google' && $paid)) return 'Google Ads';
+  if ($paid && preg_match('/facebook|instagram|meta|fb|ig/', $src)) return 'Meta ads (' . ($src ?: 'facebook') . ')';
+  if ($src !== '') return ucfirst($src) . ($med !== '' ? ' (' . $med . ')' : '') . ' — tagged link';
+  if (!empty($u['fbclid'])) return 'Facebook or Instagram (link click)';
+  $host = strtolower((string) parse_url((string) $referrer, PHP_URL_HOST));
+  if ($host === '') return 'Direct (typed, bookmark or app — no referrer)';
+  if (preg_match('/(^|\.)google\./', $host)) return 'Google search (organic)';
+  if (preg_match('/(^|\.)(bing\.com|duckduckgo\.com|search\.yahoo\.com)$/', $host)) return 'Other search engine (' . $host . ')';
+  if (preg_match('/instagram\.com$/', $host)) return 'Instagram';
+  if (preg_match('/facebook\.com$|fb\.me$/', $host)) return 'Facebook';
+  if (preg_match('/whatsapp\.com$|wa\.me$/', $host)) return 'WhatsApp';
+  if (preg_match('/(chatgpt\.com|openai\.com|perplexity\.ai|gemini\.google|copilot\.microsoft\.com|claude\.ai)$/', $host)) return 'AI assistant (' . $host . ')';
+  return 'Other website: ' . $host;
+}
+// The block printed in every lead email
+function lead_source_block($s) {
+  parse_str((string) ($s['utm'] ?? ''), $u);
+  $line = fn($k, $v) => $v !== '' ? str_pad($k . ':', 16) . $v . "\n" : '';
+  return "WHERE THIS ENQUIRY CAME FROM\n"
+       . $line('Channel', lead_channel($s['utm'] ?? '', $s['referrer'] ?? ''))
+       . $line('First visit', (string) ($s['first_visit'] ?? ''))
+       . $line('Landing page', ($s['landing'] ?? '') !== '' ? SITE['url'] . $s['landing'] : '')
+       . $line('Referrer', (string) ($s['referrer'] ?? ''))
+       . implode('', array_map(fn($k) => $line($k, (string) ($u[$k] ?? '')), SOURCE_KEYS))
+       . $line('Form sent from', ($s['source'] ?? '') !== '' ? SITE['url'] . $s['source'] : '');
+}
+
 /* =====================================================================
    DELIVERY — called once the visitor has verified their email (includes/verify.php → pending_finish)
    ===================================================================== */
@@ -115,7 +195,6 @@ function lead_row($r) {
   return array_combine($cols, array_map(fn($c) => (string) ($r[$c] ?? ''), $cols));
 }
 function lead_ref($prefix) { return $prefix . '-' . date('ymd') . '-' . strtoupper(substr(bin2hex(random_bytes(3)), 0, 5)); }
-function mail_headers_from_visitor($email) { return ['reply_to' => $email, 'cc' => LEADS['notify_cc']]; }
 
 // A consultation, call-back or quote form
 function lead_deliver($s) {
@@ -136,9 +215,10 @@ function lead_deliver($s) {
   $subject = ($staging ? '[TEST] ' : '') . ($repeat ? '[Repeat] ' : '') . 'New ' . SITE['name'] . ' lead: ' . mail_line($s['name'], 40)
            . ' (' . mail_line(trim(($f['home'] ?? '') . ', ' . $s['city'], ', '), 60) . ')';
   $body = "New request from the " . lead_form_label($s['form']) . " form. The email address is verified.\n\n";
-  foreach ($lead as $k => $v) if ($v !== '' && !in_array($k, ['status'], true)) $body .= str_pad(ucfirst(str_replace('_', ' ', $k)) . ':', 16) . $v . "\n";
+  foreach ($lead as $k => $v) if ($v !== '' && !in_array($k, ['status', 'landing', 'referrer', 'utm', 'ip', 'source'], true)) $body .= str_pad(ucfirst(str_replace('_', ' ', $k)) . ':', 16) . $v . "\n";
+  $body .= "\n" . lead_source_block($s);
   $body .= "\nCall: tel:+91{$s['phone']}\nWhatsApp: https://wa.me/91{$s['phone']}\nReply to this email to answer the visitor directly.\n";
-  $sent = site_mail(LEADS['notify_email'], $subject, $body, mail_headers_from_visitor($s['email']));
+  $sent = notify_team($subject, $body, $s['email']);
   if (!$sent && !$staging) @file_put_contents(leads_dir() . '/rejected.log', date('c') . "\t{$s['ip']}\tmail-fail\t$ref\n", FILE_APPEND | LOCK_EX);   // still saved in leads.csv
 
   if (LEADS['webhook'] && !$staging) {
@@ -146,7 +226,6 @@ function lead_deliver($s) {
       'method' => 'POST', 'header' => "Content-Type: application/json\r\n", 'content' => json_encode($lead), 'timeout' => 4, 'ignore_errors' => true,
     ]]));
   }
-  track_server_lead($lead, $ref);   // GA4 Measurement Protocol + Meta Conversions API (when configured)
   if (VERIFY['confirm_user']) {
     site_mail($s['email'], ($staging ? '[TEST] ' : '') . 'We have your request (' . $ref . ')',
       "Hello {$s['name']},\n\nThank you. Your request has reached the " . SITE['name'] . " team. " . LEADS['promise'] . "\n\n"
@@ -154,7 +233,8 @@ function lead_deliver($s) {
       . "Reference: $ref\n\nDid not send this? Reply to this email and we will delete your details.\n\n— " . SITE['name'] . ', ' . SITE['url'] . "\n",
       ['reply_to' => NAP['email']]);
   }
-  return ['ok' => true, 'ref' => $ref, 'message' => 'Thank you — your email is verified and your request is sent (reference ' . $ref . '). ' . LEADS['promise']];
+  // 'sent' = the team inboxes accepted it (on staging: saved to the test file). The browser counts a lead only when true.
+  return ['ok' => true, 'ref' => $ref, 'sent' => $sent || $staging, 'message' => 'Thank you — your email is verified and your request is sent (reference ' . $ref . '). ' . LEADS['promise']];
 }
 function lead_form_label($form) {
   return ['full' => 'free consultation', 'compact' => 'call-back', 'inline' => 'call-back strip', 'callback' => 'call-back', 'quote' => 'get 3 quotes', 'enquiry' => 'Contact / Mail'][$form] ?? $form;
@@ -184,10 +264,11 @@ function enquiry_deliver($s) {
         . "About:     {$t['about']}\nLink:      {$t['url']}\nWants:     $wants\n\n"
         . "Name:      {$s['name']}\nMobile:    +91 {$s['phone']}\nEmail:     {$s['email']} (verified)\nLocation:  {$s['city']}\n"
         . ($s['message'] !== '' ? "\nMessage:\n{$s['message']}\n" : '')
-        . "\nReference: $ref\nSent:      " . date('j M Y, g:i a') . "\n\nCall: tel:+91{$s['phone']}  WhatsApp: https://wa.me/91{$s['phone']}\n";
+        . "\nReference: $ref\nSent:      " . date('j M Y, g:i a') . "\n\n" . lead_source_block($s)
+        . "\nCall: tel:+91{$s['phone']}  WhatsApp: https://wa.me/91{$s['phone']}\n";
   $subject = ($staging ? '[TEST] ' : '') . '[For: ' . mail_line($t['name'], 60) . '] Enquiry from ' . mail_line($s['name'], 40) . ', ' . mail_line($s['city'], 40) . " ($ref)";
-  $sent = site_mail(LEADS['notify_email'], $subject, $body, mail_headers_from_visitor($s['email']));
-  if (!$sent && !$staging) return ['ok' => false, 'message' => 'Your email is verified, but the message could not be sent just now. Please try again in a minute or email ' . NAP['email'] . " (reference $ref).", 'code' => 'mail'];
+  $sent = notify_team($subject, $body, $s['email']);
+  if (!$sent && !$staging) return ['ok' => false, 'message' => "Your email is verified, but the message could not be sent just now. Please try again in a minute, or use the contact page (reference $ref).", 'code' => 'mail'];
 
   if (VERIFY['confirm_user']) {
     site_mail($s['email'], ($staging ? '[TEST] ' : '') . 'Your enquiry to ' . mail_line($t['name'], 60) . " ($ref)",
@@ -208,6 +289,5 @@ function enquiry_deliver($s) {
     'pillar' => lead_pillar($s['pillar'], $s['source']), 'landing' => $s['landing'], 'referrer' => $s['referrer'], 'utm' => $s['utm'], 'ip' => $s['ip'], 'status' => $staging ? 'test' : 'new',
   ]);
   csv_append(leads_dir() . ($staging ? '/leads-test.csv' : '/leads.csv'), $lead);
-  track_server_lead($lead, $ref);
-  return ['ok' => true, 'ref' => $ref, 'message' => 'Your email is verified and your enquiry about ' . $t['name'] . ' is sent (reference ' . $ref . '). A copy is in your inbox.'];
+  return ['ok' => true, 'ref' => $ref, 'sent' => true, 'message' => 'Your email is verified and your enquiry about ' . $t['name'] . ' is sent (reference ' . $ref . '). A copy is in your inbox.'];
 }

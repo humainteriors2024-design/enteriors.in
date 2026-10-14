@@ -20,7 +20,7 @@
                        the property types and styles of their own trending designs are added automatically
      apartments        projects / societies they have worked in (used by "find by apartment")
      email             PRIVATE: kept for your records, never shown on the site. Every enquiry goes to
-                       LEADS['notify_email'] (config.php) with the firm's name, for you to pass on.
+                       LEADS['notify_emails'] (config.php) with the firm's name, for you to pass on.
      verified          true only after you have checked the firm and its email address.
    ===================================================================== */
 return [

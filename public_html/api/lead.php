@@ -7,7 +7,7 @@
 
      action=start     the details → checks → one email to the visitor with a 6-digit code and a one-click link
      action=verify    the code typed in the form          ┐ either one sends the submission to
-     action=confirm   the link from the email (verify/)   ┘ LEADS['notify_email'] and saves it
+     action=confirm   the link from the email (verify/)   ┘ LEADS['notify_emails'] and saves it
      action=resend    a new code for the same request (limited, with a wait between codes)
      action=status    has this request been verified yet? (the form asks every few seconds, so a link
                       clicked on the phone also completes the form left open on the computer)
@@ -63,7 +63,7 @@ if ($action === 'start') {
     case 'expired': reply(false, 'This form was open for a long time. Please send it again.', 400, ['code' => 'key']);
     case 'fast':    $log('key-fast'); $fake();   // sent faster than a person can type
   }
-  if (lim_count('start_ip', $ip, 3600) >= VERIFY['per_ip_hour']) { $log('rate-ip'); reply(false, 'Too many requests from this connection. Please try again in an hour' . (NAP['email'] ? ', or email ' . NAP['email'] : '') . '.', 429, ['code' => 'rate']); }
+  if (lim_count('start_ip', $ip, 3600) >= VERIFY['per_ip_hour']) { $log('rate-ip'); reply(false, 'Too many requests from this connection. Please try again in an hour, or use the contact page.', 429, ['code' => 'rate']); }
 
   // the four details every form asks for
   $name  = $line('name', 60);
@@ -101,9 +101,11 @@ if ($action === 'start') {
   if ($isEnq && !($t = enquiry_target($kind, $target))) { $log('target'); reply(false, 'This listing is no longer available. Please reload the page.', 404); }
   if ($hit = daily_limit_hit($form, $ip, $email, $phone)) { $log("limit-$hit"); reply(false, daily_limit_message($form), 429, ['code' => 'limit']); }
   if ($why = captcha_check($_POST, false)) { $log('captcha'); reply(false, $why, 400, ['code' => 'captcha', 'fields' => ['captcha' => $why]]); }
-  if (!email_limits_ok($email)) { $log('rate-email'); reply(false, 'Too many codes have been sent to this email address. Please try again later' . (NAP['email'] ? ' or email ' . NAP['email'] : '') . '.', 429, ['code' => 'rate']); }
+  if (!email_limits_ok($email)) { $log('rate-email'); reply(false, 'Too many codes have been sent to this email address. Please try again later, or use the contact page.', 429, ['code' => 'rate']); }
 
   $source = $line('source', 200);
+  // where the visitor first came from (first-party cookie, see first_touch()); this visit's values are the fallback
+  $ft = first_touch() ?? ['landing' => $ft['landing'], 'referrer' => $ft['referrer'], 'utm' => $ft['utm'], 'first_visit' => $ft['first_visit'], 'first_visit' => ''];
   $est = $isEnq ? null : calc_token_read($in('calc_token'));   // calculator estimate: only the server-signed one is trusted
   $token = bin2hex(random_bytes(16)); $code = new_code(); $key = bin2hex(random_bytes(16));
   $s = [
@@ -112,10 +114,11 @@ if ($action === 'start') {
     'ip' => $ip, 'name' => $name, 'phone' => $phone, 'email' => $email, 'city' => $city, 'fields' => $fields,
     'mode' => $mode, 'message' => $message, 'kind' => $kind, 'target' => $target,
     'estimate' => $est ? $est['s'] : '', 'estimate_total' => $est ? (string) (int) $est['v'] : '',
-    'source' => $source, 'pillar' => lead_pillar($in('pillar'), $source), 'landing' => $line('landing', 200), 'referrer' => $line('referrer', 200), 'utm' => $line('utm', 300),
+    'source' => $source, 'pillar' => lead_pillar($in('pillar'), $source), 'landing' => $ft['landing'], 'referrer' => $ft['referrer'], 'utm' => $ft['utm'], 'first_visit' => $ft['first_visit'],
     'what' => $isEnq ? 'your enquiry about ' . $t['name'] : 'your request to ' . SITE['name'],
+    'loc' => preg_match('/^[a-z0-9_]{1,40}$/', $in('form_location')) ? $in('form_location') : '',   // where the form sat (analytics only)
   ];
-  if (!send_verification($s, $token, $code, $key)) reply(false, 'We could not send the code just now. Please try again in a minute' . (NAP['email'] ? ', or email ' . NAP['email'] : '') . '.', 503);
+  if (!send_verification($s, $token, $code, $key)) reply(false, 'We could not send the code just now. Please try again in a minute, or use the contact page.', 503, ['code' => 'mail']);
   pending_write($token, $s);
   captcha_consume($_POST);
   email_limits_add($email);
@@ -135,7 +138,7 @@ if ($action === 'verify' || $action === 'confirm') {
   lim_add('verify_ip', $ip, 3600);
   [$fh, $s] = pending_open($token);
   if (!$s) { if ($fh) pending_close($fh); reply(false, 'This request has expired or was already used. Please fill in the form again.', 410, ['code' => 'gone']); }
-  if (!empty($s['done'])) { $r = pending_finish($fh, $s); reply(true, $r['message'], 200, ['state' => 'done', 'ref' => $r['ref'], 'form' => $r['form']]); }
+  if (!empty($s['done'])) { $r = pending_finish($fh, $s); reply(true, $r['message'], 200, ['state' => 'done', 'ref' => $r['ref'], 'form' => $r['form'], 'form_location' => $s['loc'] ?? '', 'track' => 0]); }
   if ($s['tries'] >= VERIFY['code_attempts']) { pending_close($fh); @unlink(pending_path($token)); reply(false, 'Too many wrong codes. Please fill in the form again.', 429, ['code' => 'gone']); }
   if ($s['exp'] < time()) { pending_close($fh); reply(false, $action === 'confirm' ? 'This link has expired. Please fill in the form again.' : 'This code has expired. Ask for a new one below.', 400, ['code' => $action === 'confirm' ? 'gone' : 'expired']); }
   $secret = $action === 'confirm' ? strtolower($in('key')) : preg_replace('/\D/', '', $in('code'));
@@ -152,7 +155,9 @@ if ($action === 'verify' || $action === 'confirm') {
   }
   $r = pending_finish($fh, $s);
   if (!$r['ok']) reply(false, $r['message'], ($r['code'] ?? '') === 'limit' ? 429 : 503, ['code' => $r['code'] ?? 'error']);
-  reply(true, $r['message'], 200, ['state' => 'done', 'ref' => $r['ref'], 'form' => $r['form']]);
+  // track = 1 only for the request that delivered the lead, so analytics count each lead once (other tabs/devices get 0);
+  // sent = the team inboxes accepted it. The browser fires generate_lead only when both are true.
+  reply(true, $r['message'], 200, ['state' => 'done', 'ref' => $r['ref'], 'form' => $r['form'], 'form_location' => $s['loc'] ?? '', 'track' => 1, 'sent' => !empty($r['sent'])]);
 }
 
 /* =====================================================================
@@ -180,7 +185,7 @@ if ($action === 'status') {
   $p = pending_path($token);
   $s = $p && is_file($p) ? json_decode((string) @file_get_contents($p), true) : null;
   if (!$s) reply(false, 'This request has expired. Please fill in the form again.', 200, ['state' => 'gone']);
-  if (!empty($s['done'])) reply(true, $s['done_msg'], 200, ['state' => 'done', 'ref' => $s['done'], 'form' => $s['form']]);
+  if (!empty($s['done'])) reply(true, $s['done_msg'], 200, ['state' => 'done', 'ref' => $s['done'], 'form' => $s['form'], 'track' => 0]);
   reply(true, 'Waiting for the code or the link.', 200, ['state' => 'pending']);
 }
 

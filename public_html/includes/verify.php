@@ -9,7 +9,7 @@
      1 details   name, mobile, email, city (+ the form's own fields) and a captcha
                  → checks → one email to the visitor with a 6-digit code AND a one-click link
      2 verify    the code typed into the form, or the link clicked in the email (either works)
-                 → the submission is emailed to LEADS['notify_email'] and saved
+                 → the submission is emailed to LEADS['notify_emails'] and saved
    Pending requests live in the private leads folder one level above public_html (leads/otp/);
    the code and the link key are never stored, only keyed hashes of them.
    ===================================================================== */
@@ -19,7 +19,7 @@ function client_ip() { return (string) ($_SERVER['REMOTE_ADDR'] ?? ''); }
 
 /* ---------- counters: one small file per key in leads/limits/, holding the times of recent hits ---------- */
 function lim_dir() { $d = leads_dir() . '/limits'; if (!is_dir($d)) @mkdir($d, 0700, true); return $d; }
-function lim_file($bucket, $key) { return lim_dir() . '/' . $bucket . '_' . substr(hash_hmac('sha256', strtolower((string) $key), LEADS['secret']), 0, 32) . '.txt'; }
+function lim_file($bucket, $key) { return lim_dir() . '/' . $bucket . '_' . substr(hash_hmac('sha256', strtolower((string) $key), lead_secret()), 0, 32) . '.txt'; }
 function lim_times($bucket, $key) { return array_values(array_filter(array_map('intval', explode("\n", (string) @file_get_contents(lim_file($bucket, $key)))))); }
 function lim_count($bucket, $key, $window) { return count(array_filter(lim_times($bucket, $key), fn($t) => $t > time() - $window)); }
 function lim_add($bucket, $key, $keep = 2 * 86400) {
@@ -56,7 +56,7 @@ function daily_limit_add($form, $ip, $email, $phone) {
 function daily_limit_message($form) {
   $n = form_daily_cap($form);
   return "You have reached today's limit of $n " . ($n === 1 ? 'request' : 'requests') . ' for this form. We already have your details and will be in touch soon. '
-       . 'You can send a new request tomorrow' . (NAP['email'] ? ', or email us at ' . NAP['email'] : '') . '.';
+       . 'You can send a new request tomorrow, or reach us through the contact page.';
 }
 
 /* ---------- email address checks ---------- */
@@ -110,7 +110,7 @@ function captcha_field($id) {
 function captcha_new() {
   $a = random_int(2, 9); $b = random_int(1, 9);
   $ts = time(); $nonce = bin2hex(random_bytes(6));
-  $sig = substr(hash_hmac('sha256', "$ts|$nonce|" . ($a + $b), LEADS['secret'] . '|captcha'), 0, 24);
+  $sig = substr(hash_hmac('sha256', "$ts|$nonce|" . ($a + $b), lead_secret() . '|captcha'), 0, 24);
   return ["$ts.$nonce.$sig", captcha_svg("$a+$b=")];
 }
 function captcha_svg($text) {
@@ -157,7 +157,7 @@ function captcha_check($post, $consume = true) {
   $ans   = preg_replace('/\D/', '', is_scalar($post['captcha_answer'] ?? null) ? (string) $post['captcha_answer'] : '');
   [$ts, $nonce, $sig] = array_pad(explode('.', $token, 3), 3, '');
   if (!ctype_digit($ts) || !preg_match('/^[a-f0-9]{12}$/', $nonce) || time() - (int) $ts > 3 * 3600) return 'The captcha has expired. Please answer the new one.';
-  if ($ans === '' || !hash_equals(substr(hash_hmac('sha256', "$ts|$nonce|$ans", LEADS['secret'] . '|captcha'), 0, 24), $sig)) return 'The captcha answer is not right. Please add the two numbers again.';
+  if ($ans === '' || !hash_equals(substr(hash_hmac('sha256', "$ts|$nonce|$ans", lead_secret() . '|captcha'), 0, 24), $sig)) return 'The captcha answer is not right. Please add the two numbers again.';
   if (lim_count('cap', $nonce, 4 * 3600)) return 'This captcha was already used. Please answer the new one.';
   if ($consume) lim_add('cap', $nonce, 4 * 3600);
   return '';
@@ -173,7 +173,7 @@ function captcha_consume($post) {
    ===================================================================== */
 function pending_dir() { $d = leads_dir() . '/otp'; if (!is_dir($d)) @mkdir($d, 0700, true); return $d; }
 function pending_path($token) { return preg_match('/^[a-f0-9]{32}$/', (string) $token) ? pending_dir() . "/$token.json" : ''; }
-function pending_hash($token, $what, $secret) { return hash_hmac('sha256', "$token|$what|$secret", LEADS['secret'] . '|verify'); }
+function pending_hash($token, $what, $secret) { return hash_hmac('sha256', "$token|$what|$secret", lead_secret() . '|verify'); }
 function new_code() { return str_pad((string) random_int(0, 999999), 6, '0', STR_PAD_LEFT); }
 function pending_write($token, $s) { $p = pending_path($token); @file_put_contents($p, json_encode($s, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES), LOCK_EX); @chmod($p, 0600); }
 // open with an exclusive lock (two tries at once cannot both pass): [handle, state] or [null, null]

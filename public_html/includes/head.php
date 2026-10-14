@@ -34,7 +34,6 @@ $crumbs    = crumbs($page);
 $author    = AUTHORS[$page['author']] ?? null;
 $reading   = in_array($page['type'], ['pillar', 'article', 'compare', 'post']);          // long-form layouts
 $hub       = $page['pillar'] ? hub($page['pillar']) : ($reading ? hub_for($path) : null);  // the pillar this page belongs to
-$page['hub_tracking'] = $hub['tracking'] ?? [];                                           // pillar-level tracking IDs (nav.php)
 media_folder_ready(media_dir($page), $page);                                              // every page gets its image folder automatically
 $heroImg   = media_find(MEDIA['hero_name'], media_dir($page));
 $page['image'] = $page['image'] ?? ($heroImg['url'] ?? SITE['image']);                    // share image: the page's hero, else the site default

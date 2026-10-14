@@ -88,6 +88,7 @@ if ($t === 'tool') echo component('lead-form', ['variant' => 'full', 'id' => 'ge
 <?php include __DIR__ . ($page['footer'] === 'minimal' ? '/footer-minimal.php' : '/footer.php'); ?>
 <?= component('sticky-cta') ?>
 <?= component('lead-dialog') ?>
+<script src="/assets/js/track.js?v=<?= $ver('/assets/js/track.js') ?>" defer></script>
 <script src="/assets/js/site.js?v=<?= $ver('/assets/js/site.js') ?>" defer></script>
 <?php foreach (array_unique($page['js']) as $js): $file = "/assets/js/$js.js"; ?>
 <script src="<?= $file ?>?v=<?= $ver($file) ?>" defer></script>

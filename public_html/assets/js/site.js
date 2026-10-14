@@ -90,6 +90,15 @@
     if (!f1 || !f2 || !done || !window.fetch || !window.FormData) return;
     f1.noValidate = true;                     // we show our own messages next to each field
     var formName = f1.elements.form.value, loaded = performance.now(), keyAt = Date.now(), begun = false;
+    // analytics: form_name / form_location come from the box (lead-form.php); nothing typed is ever sent
+    var info = { form_name: box.getAttribute('data-form-name') || formName, form_location: box.getAttribute('data-form-location') || 'in_page' };
+    var ev = function (name, extra) { var p = {}, k; for (k in info) p[k] = info[k]; for (k in (extra || {})) p[k] = extra[k]; track(name, p); };
+    // form_error reason: validation | captcha | daily_limit | server (error_detail says which check)
+    var failed = function (res, step) {
+      var c = res.code || '', reason = c === 'captcha' ? 'captcha' : (c === 'limit' || c === 'rate') ? 'daily_limit'
+        : (c === 'otp' || c === 'expired' || c === 'link' || c === 'gone' || (res.fields && !c)) ? 'validation' : 'server';
+      ev('form_error', { reason: reason, error_detail: c || (res.fields ? Object.keys(res.fields)[0] : 'http'), form_step: step, error_source: 'server' });
+    };
     var token = '', timer = null, poller = null, finished = false;
     var resendBtn = f2.querySelector('[data-v-resend]');
 
@@ -128,7 +137,7 @@
         });
     };
     f1.addEventListener('focusin', function () {
-      if (!begun) { begun = true; track('form_start', { form: formName }); }
+      if (!begun) { begun = true; ev('form_start'); }
       if (Date.now() - keyAt > 30 * 60 * 1000) refresh(true);   // open for 30+ minutes: fresh key and captcha
     });
     var newCap = f1.querySelector('[data-captcha-new]');
@@ -144,12 +153,18 @@
       };
       tick(); timer = setInterval(tick, 1000);
     };
-    var finish = function (res) {
+    var finish = function (res, how) {
       if (finished) return;
       finished = true; token = ''; clearInterval(timer);
       done.querySelector('[data-v-done]').textContent = res.message;
       show(done);
-      track('lead', { form: res.form || formName, value: (window.ENT && ENT.calc) ? ENT.calc.total : undefined, currency: 'INR', calc: (window.ENT && ENT.calc) ? ENT.calc.type : undefined, lead_id: res.ref });
+      // res.track = 1 only for the request that delivered the lead (another tab or the email link gets 0),
+      // so otp_verified and generate_lead are counted exactly once; generate_lead only if the server sent it
+      if (res.track) {
+        ev('otp_verified', { verify_method: how || 'code' });
+        if (res.sent) ev('generate_lead', { lead_type: formName === 'enquiry' ? 'listing_enquiry' : 'consultation', lead_ref: res.ref });
+        else ev('form_error', { reason: 'server', error_detail: 'mail_failed', form_step: 'send', error_source: 'server' });
+      }
       box.dispatchEvent(new CustomEvent('vform:done', { bubbles: true }));
     };
     var startPolling = function () {
@@ -160,7 +175,7 @@
         if (Date.now() - started > 40 * 60 * 1000) { clearInterval(poller); return; }
         var d = new FormData(); d.append('action', 'status'); d.append('token', token);
         post(f1.getAttribute('action'), d).then(function (res) {
-          if (res.state === 'done') finish(res);
+          if (res.state === 'done') finish(res, 'link');
           else if (res.state === 'gone') { token = ''; show(f1); note(f1, res.message); }
         }).catch(function () {});
       }, 4000);
@@ -171,6 +186,7 @@
       var data = new FormData(f1);
       if (utm) data.append('utm', utm);
       data.append('landing', landing); data.append('referrer', document.referrer.slice(0, 200));
+      data.append('form_location', info.form_location);
       // calculator estimate, if the visitor used one on this page: the signed token lets the server
       // attach the estimate it worked out itself (the browser cannot change the figure)
       if (window.ENT && ENT.calc && formName !== 'enquiry') data.append('calc_token', ENT.calc.token);
@@ -182,15 +198,16 @@
             box.querySelector('[data-v-email]').textContent = res.email || f1.elements.email.value;
             f2.elements.code.value = ''; clearErrors(f2);
             show(f2); countdown(res.resend_in || 45); startPolling();
-            track('otp_sent', { form: formName });
+            ev('otp_sent');
             return;
           }
           if (res.code === 'key' && !retried) { btn.disabled = true; return refresh(false).then(function () { sendDetails(btn, label, true); }); }
+          failed(res, 'details');
           Object.keys(res.fields || {}).forEach(function (k) { fieldError(f1, k, res.fields[k]); });
           if (res.code === 'captcha' || res.code === 'limit' || res.code === 'rate' || !res.fields) refresh(true);
           if (!res.fields || !Object.keys(res.fields).every(function (k) { return f1.querySelector('[data-err="' + k + '"]'); })) note(f1, res.message);
           var first = f1.querySelector('.has-error .input'); if (first) first.focus();
-        }).catch(function () { btn.disabled = false; btn.textContent = label; note(f1); });
+        }).catch(function () { btn.disabled = false; btn.textContent = label; note(f1); failed({ code: 'network' }, 'details'); });
       }, Math.max(0, MIN_WAIT - (performance.now() - loaded)));
     };
     f1.addEventListener('submit', function (e) {
@@ -207,7 +224,12 @@
       if (el.message && el.message.required && el.message.value.trim().length < 10) { fieldError(f1, 'message', 'Please write a short message (at least 10 characters).'); bad = true; }
       if (el.consent && !el.consent.checked) { fieldError(f1, 'consent', 'Please tick the box to share your details with this firm.'); bad = true; }
       if (el.captcha_answer && !/^\d{1,2}$/.test(el.captcha_answer.value.trim())) { if (!fieldError(f1, 'captcha', 'Please add the two numbers.')) note(f1, 'Please add the two numbers in the picture.'); el.captcha_answer.closest('.captcha').classList.add('has-error'); bad = true; }
-      if (bad) { var first = f1.querySelector('.has-error .input'); if (first) first.focus(); return; }
+      if (bad) {
+        var badField = f1.querySelector('.has-error'), bf = badField && badField.querySelector('[name]');
+        ev('form_error', { reason: (bf && bf.name === 'captcha_answer') ? 'captcha' : 'validation', error_detail: bf ? bf.name : 'field', form_step: 'details', error_source: 'browser' });
+        var first = f1.querySelector('.has-error .input'); if (first) first.focus(); return;
+      }
+      ev('form_submit');
       var btn = f1.querySelector('[type="submit"]'), label = btn.textContent;
       btn.disabled = true; btn.textContent = 'Sending…';
       sendDetails(btn, label, false);
@@ -229,12 +251,13 @@
       var data = new FormData(); data.append('action', 'verify'); data.append('token', token); data.append('code', code);
       post(f2.getAttribute('action'), data).then(function (res) {
         btn.disabled = false; btn.textContent = label; delete f2.dataset.busy;
-        if (res.ok) return finish(res);
+        if (res.ok) return finish(res, 'code');
+        failed(res, 'code');
         if (res.code === 'gone' || res.code === 'limit') { token = ''; show(f1); refresh(true); note(f1, res.message); return; }
         if (res.code === 'expired') { resendBtn.disabled = false; resendBtn.textContent = 'Resend code'; clearInterval(timer); }
         fieldError(f2, 'code', res.message || 'That code did not work.');
         f2.elements.code.select();
-      }).catch(function () { btn.disabled = false; btn.textContent = label; delete f2.dataset.busy; note(f2); });
+      }).catch(function () { btn.disabled = false; btn.textContent = label; delete f2.dataset.busy; note(f2); failed({ code: 'network' }, 'code'); });
     });
     resendBtn.addEventListener('click', function () {
       if (!token) return;
@@ -268,39 +291,7 @@
     });
   }
 
-  /* ---------- Click tracking ----------
-     call / whatsapp (data-track), every button-style call to action (cta_click, with where it sits),
-     contents-list jumps (toc_click), links to other websites (outbound_click).
-     Every event also carries the page type and pillar (added in entTrack, see tracking.php). */
-  document.addEventListener('click', function (e) {
-    var t = e.target.closest('[data-track]');
-    if (t) { track(t.getAttribute('data-track')); return; }
-    var a = e.target.closest('a, button');
-    if (!a) return;
-    if (a.closest('.toc')) { track('toc_click', { section: (a.getAttribute('href') || '').slice(1) }); return; }
-    if (a.matches('.btn, [data-open-lead], [data-quote]')) {
-      var zone = a.closest('[data-cta-zone], .site-header, .sticky-cta, .cta-strip, .cta-band, .summary, .hero, .page-header, .site-footer, section, aside');
-      track('cta_click', { cta_text: (a.textContent || '').trim().slice(0, 60), cta_zone: zone ? (zone.getAttribute('data-cta-zone') || zone.className.split(' ')[0] || zone.tagName.toLowerCase()) : 'page', link_url: a.getAttribute('href') || '' });
-      return;
-    }
-    if (a.hostname && a.hostname !== location.hostname) track('outbound_click', { link_url: a.href.slice(0, 200) });
-  });
-
-  /* ---------- Reading depth on guides and posts: 25 / 50 / 75 / 100% of the article ---------- */
-  var article = document.querySelector('.prose');
-  if (article && document.body.matches('.page-pillar, .page-article, .page-compare, .page-post')) {
-    var marks = [25, 50, 75, 100], sent = {}, t0 = Date.now();
-    var onScroll = function () {
-      var r = article.getBoundingClientRect(), seen = Math.min(1, Math.max(0, (window.innerHeight - r.top) / r.height));
-      marks.forEach(function (m) {
-        if (!sent[m] && seen * 100 >= m) { sent[m] = 1; track('scroll_depth', { percent_scrolled: m, seconds: Math.round((Date.now() - t0) / 1000) }); }
-      });
-      if (sent[100]) window.removeEventListener('scroll', onScroll);
-    };
-    window.addEventListener('scroll', onScroll, { passive: true });
-    // an engaged read: 75% of the article and at least 60 seconds on the page
-    var engaged = setInterval(function () { if (sent[75] && Date.now() - t0 > 60000) { track('article_read'); clearInterval(engaged); } }, 5000);
-  }
+  /* Click, scroll and form-view tracking: assets/js/track.js (one place for every analytics listener). */
 
   // Sticky Call / Consultation buttons after 500px of scrolling
   var sticky = document.querySelector('[data-sticky-cta]');

@@ -3,7 +3,7 @@
    LEAD FORMS — five forms, one file. Options and wording: config.php → LEADS.
    Every form asks for the same four details (name, mobile, email, city / area), has a captcha and
    verifies the visitor's email (a 6-digit code or a one-click link) before anything is sent to
-   LEADS['notify_email']. Engine: includes/verify.php · handler: api/lead.php · script: site.js.
+   LEADS['notify_emails']. Engine: includes/verify.php · handler: api/lead.php · script: site.js.
    Built to fit one phone screen: short labels, two columns, no long text boxes.
 
      component('lead-form', ['variant' => 'full'])      1. dark section: pitch + ticks + form   (home, contact, pillars, tools)
@@ -38,7 +38,7 @@ $defaults = [   // variant => [title, button]
 $title = $p['title'] ?? $defTitle;
 $note  = '<p class="form__note">We email you a code to confirm it is you. By sending, you agree we may contact you about this request' . ($variant === 'quote' ? ' and share it with up to 3 designers' : '') . '. <a href="/privacy/">Privacy</a></p>';
 
-$form = '<div class="vform vform--' . e($variant) . '" data-vform>'
+$form = '<div class="vform vform--' . e($variant) . '" data-vform' . track_form_attrs($id, $variant) . '>'
       . '<form class="form lead-form lead-form--' . e($variant) . '" id="' . e($id) . '-form" data-step="details" method="post" action="' . e(LEADS['endpoint']) . '" data-lead-form>'
       . ($variant === 'inline' ? '' : '<p class="form__title">' . e($title) . '</p>')
       . (!empty($p['text']) && !in_array($variant, ['full', 'inline']) ? '<p class="form__text">' . e($p['text']) . '</p>' : '')

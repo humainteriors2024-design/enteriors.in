@@ -1,132 +1,158 @@
 <?php
 /* =====================================================================
-   ENTERIORS — TRACKING (GA4, Google Tag Manager, Google Ads, Meta Pixel, Microsoft Clarity)
-   IDs come from config.php → TRACKING. Nothing loads on staging or while config.php → LAUNCHED is false.
+   ENTERIORS — TRACKING: the ONE include for analytics (GA4 + Meta Pixel) and site verification.
+   head.php prints tracking_head() in <head> and tracking_body() right after <body> on EVERY page
+   (404, thank-you and verify included). /admin/ has its own pages and is never tracked.
+   Settings: config.php → TRACKING_ON (the switch) and TRACKING (IDs). Full list of events and the
+   GA4 settings to change: docs/ga4-setup.md.
 
-   WHICH ID A PAGE USES — most specific wins:
-     1. config.php → TRACKING                          the whole site
-     2. includes/nav.php → a pillar's 'tracking'        every page in that pillar (pillar page,
-                                                        its cluster pages and its blog posts)
-     3. the page's own $page['tracking']                one page
-   e.g. 'tracking' => ['meta_pixel' => '1234567890', 'ga4' => false]   (false = off for this page)
+   WHAT RUNS WHERE
+     Always (even with tracking off):
+       • site-verification meta tags (Search Console, Bing, Meta domain)
+       • the first-visit cookie "ent_src" (utm_*, gclid, fbclid, referrer, landing page) that the server
+         reads into every lead email — see first_touch() in leads.php
+       • private values (?t= ?k= on the verify page, ?ref= on thank-you) are removed from the address
+         bar before any tag can read them
+       • window.entTrack(name, params): every event goes through it; it drops anything that looks like
+         a name, email or phone number, and keeps a copy in window.entEvents (for testing in the console)
+     Only when tracking_tags_on() (TRACKING_ON, live address or 'on_staging', not /admin/):
+       • GA4 (gtag.js): ONE config call = ONE page_view, with page_type, content_group and site_section
+       • Meta Pixel: PageView; Lead on a verified enquiry; Contact on call / WhatsApp taps
+     /assets/js/track.js (every page): clicks, scroll depth and form views. site.js: the form funnel.
+     calc.js / finder.js: calculator_use and filter_use.
 
-   WHAT EVERY PAGE SENDS (so reports can be cut by pillar):
-     page_type      home | pillar | article | compare | post | tool | page
-     pillar         pillar key, e.g. "modular-kitchen" (or "none")
-     content_group  pillar name, e.g. "Modular Kitchen" — GA4's built-in Content group report
-     page_role      pillar-page | cluster-page | blog-post | calculator | other
-     author, published
-   GA4: sent with the page view (content_group is automatic; register page_type, pillar and
-        page_role as custom dimensions in GA4 → Admin → Custom definitions to see them).
-   GTM: pushed to the dataLayer as event "page_meta" before GTM loads.
-   Meta: PageView, plus ViewContent with content_category = pillar on guides, posts and calculators.
-
-   EVENTS (site.js and calc.js call entTrack(name, data); pillar and page_type are added to all):
-     generate_lead (+ Ads conversion, Meta Lead)   form_start        cta_click      toc_click
-     scroll_depth (25/50/75/100)   article_read    calc_start        calc_result    calc_quote_click
-     calc_print    click_call      click_whatsapp  outbound_click
-   Leads are ALSO sent from the server (track_server_lead) when the API secret / token is set,
-   so conversions are not lost to ad-blockers. Browser and server events share one event id,
-   so Google and Meta count each lead once.
+   NEVER SENT to GA4 or Meta: name, email, phone, message, city typed in a form, or any value
+   containing "@" or a phone-like number (entTrack filters them out as a safety net).
    ===================================================================== */
 
-// IDs in force for this page (site → pillar → page)
-function tracking_ids($page = []) {
-  $ids = array_merge(TRACKING, $page['hub_tracking'] ?? [], $page['tracking'] ?? []);
-  return array_map(fn($v) => $v === false ? '' : trim((string) $v), $ids);
+// Tags load only on the live site with TRACKING_ON (or on staging when TRACKING['on_staging']), never in /admin/
+function tracking_tags_on() {
+  if (!TRACKING_ON) return false;
+  if (str_starts_with(current_path(), '/admin/')) return false;
+  return !is_staging() || !empty(TRACKING['on_staging']);
 }
 
-// What we know about the page, in the shape every analytics tool receives
+/* The page_type sent with every page view and event (also used as GA4's built-in content_group):
+   home | pillar | cluster | city | blog | tool | design | directory | form | other | not_found */
+function tracking_page_type($page, $hub = null) {
+  $path = current_path();
+  $type = $page['type'] ?? 'page';
+  if (http_response_code() === 404) return 'not_found';
+  if ($path === '/') return 'home';
+  if (in_array($path, ['/contact/', '/verify/', '/thank-you/'], true)) return 'form';
+  if (str_starts_with($path, '/trending-designs/')) return 'design';
+  if (str_starts_with($path, '/services/find-designer/')) return 'directory';
+  if ($type === 'pillar') return 'pillar';
+  if (str_starts_with($path, '/interior-designers/')) return 'city';
+  if ($type === 'post' || str_starts_with($path, '/blogs/')) return 'blog';
+  if ($type === 'tool' || str_starts_with($path, '/calculators/')) return 'tool';
+  if (in_array($type, ['article', 'compare'], true)) return 'cluster';
+  return 'other';
+}
+
+/* form_name and form_location for the form funnel. One map, used by the form markup (lead-form.php,
+   finder.php) and by the verify page, so a lead confirmed from the email link carries the same names. */
+const TRACK_FORM_NAMES = ['full' => 'free_consultation', 'compact' => 'call_back', 'inline' => 'call_back_strip',
+                          'callback' => 'call_back_time_slot', 'quote' => 'get_3_quotes', 'enquiry' => 'listing_enquiry'];
+function track_form_name($form) { return TRACK_FORM_NAMES[$form] ?? (preg_replace('/[^a-z0-9_]+/', '_', strtolower((string) $form)) ?: 'form'); }
+function track_form_location($id, $variant) {
+  $byId = ['popup' => 'popup', 'post-lead' => 'blog_post_end', 'get-quote' => 'page_bottom', 'home-callback' => 'home_strip', 'enquiry' => 'listing_popup'];
+  if (isset($byId[$id])) return $byId[$id];
+  if (str_starts_with((string) $id, 'sg-')) return 'style_guide';
+  if (current_path() === '/contact/') return 'contact_page';
+  return $variant === 'full' ? 'page_bottom' : 'in_page';
+}
+// data attributes printed on every form box: data-form-name, data-form-location (no personal data)
+function track_form_attrs($id, $variant) {
+  return ' data-form-name="' . e(track_form_name($variant)) . '" data-form-location="' . e(track_form_location($id, $variant)) . '"';
+}
+
+// Websites whose links count as partner_click (config.php → PARTNER and includes/data/partners.php)
+function tracking_partner_hosts() {
+  $urls = defined('PARTNER') && !empty(PARTNER['on']) ? [PARTNER['url']] : [];
+  foreach (partner_links() as $list) if (is_array($list)) foreach ($list as $row) if (is_array($row) && isset($row[2])) $urls[] = $row[2];
+  $hosts = array_map(fn($u) => preg_replace('/^www\./', '', strtolower((string) parse_url($u, PHP_URL_HOST))), $urls);
+  return array_values(array_unique(array_filter($hosts)));
+}
+
+// What every page view and event carries
 function tracking_meta($page, $hub = null) {
-  $t = $page['type'] ?? 'page';
-  $role = ['pillar' => 'pillar-page', 'article' => 'cluster-page', 'compare' => 'cluster-page', 'post' => 'blog-post', 'tool' => 'calculator', 'home' => 'home'][$t] ?? 'other';
-  $a = AUTHORS[$page['author'] ?? ''] ?? null;
-  return array_filter([
-    'page_type' => $t, 'page_role' => $role,
-    'pillar' => $hub['key'] ?? 'none', 'content_group' => $hub['label'] ?? ucfirst($role === 'other' ? 'Company' : $role),
-    'post_category' => $page['category'] ?? null, 'author' => $a['name'] ?? null, 'published' => $page['published'] ?? null,
-  ], fn($v) => $v !== null && $v !== '');
+  $pt = tracking_page_type($page, $hub);
+  return ['page_type' => $pt, 'content_group' => $pt, 'site_section' => $hub['key'] ?? 'none'];
 }
 
 function tracking_head($page = [], $hub = null) {
-  $t = tracking_ids($page);
-  $meta = tracking_meta($page, $hub);
+  $t = TRACKING;
+  $j = fn($v) => json_encode($v, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP);
   $h = '';
-  // Site verification tags are harmless on staging too
-  if ($t['gsc_verification'])  $h .= '  <meta name="google-site-verification" content="' . e($t['gsc_verification']) . "\">\n";
-  if ($t['bing_verification']) $h .= '  <meta name="msvalidate.01" content="' . e($t['bing_verification']) . "\">\n";
-  if ($t['meta_domain_verification'] ?? '') $h .= '  <meta name="facebook-domain-verification" content="' . e($t['meta_domain_verification']) . "\">\n";
-  $j = fn($v) => json_encode($v, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+  if ($t['gsc_verification'])         $h .= '  <meta name="google-site-verification" content="' . e($t['gsc_verification']) . "\">\n";
+  if ($t['bing_verification'])        $h .= '  <meta name="msvalidate.01" content="' . e($t['bing_verification']) . "\">\n";
+  if ($t['meta_domain_verification']) $h .= '  <meta name="facebook-domain-verification" content="' . e($t['meta_domain_verification']) . "\">\n";
 
-  // The page facts and the event helper exist on staging too (so they can be tested); the tags do not
-  $ads = ($t['google_ads'] && $t['google_ads_lead']) ? $j($t['google_ads'] . '/' . $t['google_ads_lead']) : 'null';
-  $h .= '  <script>window.dataLayer=window.dataLayer||[];window.ENT_PAGE=' . $j($meta) . ';dataLayer.push(Object.assign({event:"page_meta"},ENT_PAGE));'
-      . 'window.entTrack=function(n,d){d=Object.assign({},ENT_PAGE,d||{});var g={lead:"generate_lead",call:"click_call",whatsapp:"click_whatsapp"}[n]||n;'
-      . 'dataLayer.push(Object.assign({event:g},d));'
-      . 'if(window.gtag)gtag("event",g,d);'
-      . 'if(!window.fbq)return;var o={eventID:d.lead_id||undefined};'
-      . 'if(n==="lead"){var a=' . $ads . ';if(a&&window.gtag)gtag("event","conversion",{send_to:a,value:d.value,currency:"INR",transaction_id:d.lead_id});fbq("track","Lead",{content_category:d.pillar,content_name:d.form,value:d.value,currency:"INR"},o);}'
-      . 'else if(n==="calc_result")fbq("trackCustom","CalculatorResult",{content_category:d.pillar,calc:d.calc,value:d.value,currency:"INR"});'
-      . 'else if(/^(click_call|click_whatsapp)$/.test(g))fbq("track","Contact",{content_category:d.pillar,method:g});'
-      . 'else if(g==="article_read")fbq("trackCustom","ArticleRead",{content_category:d.pillar});};'
-      . "</script>\n";
-  if (site_locked()) return $h . "  <!-- " . (is_staging() ? 'staging' : 'pre-launch lock') . ": tracking tags are off (dataLayer and entTrack still run, so events can be checked in the browser console) -->\n";
+  $on  = tracking_tags_on();
+  $ga4 = $on && preg_match('/^G-[A-Z0-9]{4,20}$/', $t['ga4']) ? $t['ga4'] : '';
+  $px  = $on && preg_match('/^\d{6,20}$/', $t['meta_pixel']) ? $t['meta_pixel'] : '';
+  $ads = $on && preg_match('/^AW-\d+$/', $t['google_ads']) ? $t['google_ads'] : '';
+  $cfg = [
+    'ga4' => $ga4, 'pixel' => $px, 'ads' => $ads && $t['google_ads_lead'] ? $ads . '/' . $t['google_ads_lead'] : '',
+    'host' => preg_replace('/^www\./', '', (string) parse_url(SITE['url'], PHP_URL_HOST)),
+    'partners' => tracking_partner_hosts(),
+    'forms' => TRACK_FORM_NAMES,
+  ];
 
-  if ($t['gtm']) $h .= "  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer'," . $j($t['gtm']) . ");</script>\n";
+  // 1. bootstrap: first-visit cookie, clean address, debug / internal flags, the event helper (always)
+  $h .= '  <script>' . "\n" . '(function(w,d){' . "\n"
+    . 'var P=w.ENT_PAGE=' . $j(tracking_meta($page, $hub)) . ',C=w.ENT_TRACK=' . $j($cfg) . ',L=location,ss=w.sessionStorage,ls=w.localStorage;' . "\n"
+    . 'w.entEvents=w.entEvents||[];' . "\n"
+    . 'var get=function(s,k){try{return s.getItem(k)}catch(e){return null}},put=function(s,k,v){try{v===null?s.removeItem(k):s.setItem(k,v)}catch(e){}};' . "\n"
+    . 'var q;try{q=new URLSearchParams(L.search)}catch(e){q={get:function(){return null},has:function(){return false}}}' . "\n"
+    // first visit: kept 90 days in a first-party cookie, never overwritten (first touch)
+    . 'try{if(!/(?:^|; )ent_src=/.test(d.cookie)){var o=new URLSearchParams(),r=d.referrer||"";'
+    . '["utm_source","utm_medium","utm_campaign","utm_term","utm_content","gclid","gbraid","wbraid","fbclid"].forEach(function(k){var v=q.get(k);if(v)o.set(k,v.slice(0,200))});'
+    . 'try{if(r&&new URL(r).hostname.replace(/^www\./,"")===L.hostname.replace(/^www\./,""))r=""}catch(e){r=""}'
+    . 'if(r)o.set("ref",r.split("?")[0].slice(0,200));o.set("lp",L.pathname.slice(0,200));o.set("ts",Math.floor(Date.now()/1e3));'
+    . 'd.cookie="ent_src="+encodeURIComponent(o.toString())+"; Max-Age=7776000; Path=/; SameSite=Lax"+(L.protocol==="https:"?"; Secure":"")}}catch(e){}' . "\n"
+    // ?debug_mode=1 → GA4 DebugView for this browser tab session; ?internal=1 → this browser is marked internal (1 year)
+    . 'if(q.has("debug_mode"))put(ss,"ent_debug",q.get("debug_mode")==="1"?"1":null);' . "\n"
+    . 'if(q.has("internal"))d.cookie="ent_internal="+(q.get("internal")==="1"?"1; Max-Age=31536000":"; Max-Age=0")+"; Path=/; SameSite=Lax";' . "\n"
+    . 'P.debug=get(ss,"ent_debug")==="1";P.internal=/(?:^|; )ent_internal=1/.test(d.cookie);P.lead=get(ls,"ent_lead")==="1";' . "\n"
+    // private values out of the address bar before any tag reads the URL (verify link key, thank-you ref) + our own switches
+    . 'try{var u=new URL(L.href),x=0;["t","k","token","key","code","ref","email","phone","name","debug_mode","internal"].forEach(function(p){if(u.searchParams.has(p)){u.searchParams.delete(p);x=1}});'
+    . 'if(x)history.replaceState(history.state,"",u.pathname+u.search+u.hash)}catch(e){}' . "\n"
+    // the event helper: everything goes through here, nothing personal gets out
+    . 'var BAD=/^(name|first_name|last_name|full_name|email|e_?mail|phone|mobile|tel|telephone|whatsapp_number|address|city_typed|message|notes|code|token|key|otp)$/i;' . "\n"
+    . 'w.entTrack=function(n,p){p=p||{};var e={},k,v;for(k in p){if(!Object.prototype.hasOwnProperty.call(p,k)||BAD.test(k))continue;v=p[k];if(v===null||v===undefined||v==="")continue;'
+    . 'if(typeof v==="string"){if(/@|\d[\d\s().-]{8,}\d/.test(v))continue;v=v.slice(0,100)}e[k]=v}'
+    . 'if(!e.page_type)e.page_type=P.page_type;var ref=e.lead_ref;delete e.lead_ref;'
+    . 'w.entEvents.push({event:n,params:e});' . "\n"
+    . 'if(w.gtag&&C.ga4){if(e.beacon_callback){var cb=e.beacon_callback;delete e.beacon_callback;e.event_callback=cb;e.event_timeout=600}gtag("event",n,e)}else if(e.beacon_callback){e.beacon_callback()}' . "\n"
+    . 'if(n==="generate_lead"){put(ls,"ent_lead","1");if(w.gtag&&C.ga4)gtag("set","user_properties",{lead_status:"lead"});if(w.gtag&&C.ads)gtag("event","conversion",{send_to:C.ads,transaction_id:ref})}' . "\n"
+    . 'if(w.fbq&&C.pixel){if(n==="generate_lead")fbq("track","Lead",{content_name:e.form_name,content_category:e.page_type},ref?{eventID:ref}:undefined);'
+    . 'else if(n==="click_call"||n==="click_whatsapp")fbq("track","Contact",{content_category:e.page_type,contact_method:n==="click_call"?"call":"whatsapp"})}};' . "\n"
+    . '})(window,document);' . "\n" . "  </script>\n";
 
-  $gtag = array_values(array_filter([$t['ga4'], $t['google_ads']]));
-  if ($gtag) {
-    $cfg = $meta; unset($cfg['published']);
-    $h .= '  <script async src="https://www.googletagmanager.com/gtag/js?id=' . e($gtag[0]) . "\"></script>\n";
-    $h .= '  <script>function gtag(){dataLayer.push(arguments);}gtag("js",new Date());'
-        . ($t['ga4'] ? 'gtag("config",' . $j($t['ga4']) . ',' . $j($cfg) . ');' : '')
-        . ($t['google_ads'] ? 'gtag("config",' . $j($t['google_ads']) . ');' : '') . "</script>\n";
+  if (!$on) return $h . '  <!-- tracking tags off (' . (TRACKING_ON ? (is_staging() ? 'staging address' : 'admin') : 'config.php → TRACKING_ON is false') . "); entTrack still logs events to window.entEvents -->\n";
+
+  // 2. GA4 (+ optional Google Ads through the same tag): one config call = one page_view
+  if ($ga4 || $ads) {
+    $h .= '  <script async src="https://www.googletagmanager.com/gtag/js?id=' . e($ga4 ?: $ads) . "\"></script>\n"
+        . '  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());' . "\n"
+        . '  (function(P){var c={page_type:P.page_type,content_group:P.content_group,site_section:P.site_section};'
+        . 'if(P.debug)c.debug_mode=true;if(P.internal)c.traffic_type="internal";if(P.lead)gtag("set","user_properties",{lead_status:"lead"});'
+        . ($ga4 ? 'gtag("config",' . $j($ga4) . ',c);' : '') . ($ads ? 'gtag("config",' . $j($ads) . ');' : '') . '})(window.ENT_PAGE);</script>' . "\n";
   }
-  if ($t['meta_pixel']) {
-    $vc = in_array($meta['page_role'], ['pillar-page', 'cluster-page', 'blog-post', 'calculator'])
-        ? "fbq('track','ViewContent'," . $j(['content_category' => $meta['pillar'], 'content_name' => $page['title'] ?? '', 'content_type' => $meta['page_role']]) . ");" : '';
-    $h .= "  <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init'," . $j($t['meta_pixel']) . ");fbq('track','PageView');$vc</script>\n";
+  // 3. Meta Pixel: the standard base code. autoConfig off = no automatic button-click / page-metadata events.
+  if ($px) {
+    $h .= "  <script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n"
+        . "  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n"
+        . "  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n"
+        . "  fbq('set', 'autoConfig', false, '$px');\n  fbq('init', '$px');\n  fbq('track', 'PageView');\n  </script>\n";   // $px is digits only (checked above)
   }
-  if ($t['clarity']) $h .= '  <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script",' . $j($t['clarity']) . ');clarity("set","pillar",' . $j($meta['pillar']) . ');clarity("set","page_type",' . $j($meta['page_type']) . ");</script>\n";
   return $h;
 }
 
+// Right after <body>: the Meta Pixel noscript image (only when the pixel is on)
 function tracking_body($page = []) {
-  $t = tracking_ids($page);
-  if (site_locked() || !$t['gtm']) return '';
-  return '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=' . e($t['gtm']) . '" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>' . "\n";
-}
-
-/* Server-side lead event — GA4 Measurement Protocol and Meta Conversions API.
-   Runs only on the live site, only when the secret/token is set, never slows the visitor (2 s timeout). */
-function track_server_lead($lead, $eventId) {
-  if (site_locked()) return;
-  $hub = ($lead['pillar'] ?? '') ? hub($lead['pillar']) : hub_for(rtrim($lead['source'] ?: '/', '/') . '/');
-  $t = tracking_ids(['hub_tracking' => $hub['tracking'] ?? []]);
-  $post = function ($url, $body) {
-    @file_get_contents($url, false, stream_context_create(['http' => ['method' => 'POST', 'header' => "Content-Type: application/json\r\n", 'content' => json_encode($body), 'timeout' => 2, 'ignore_errors' => true]]));
-  };
-  $value = (int) ($lead['estimate_total'] ?? 0);
-  if ($t['ga4'] && ($t['ga4_api_secret'] ?? '')) {
-    $cid = preg_match('/^GA\d\.\d\.(\d+\.\d+)$/', $_COOKIE['_ga'] ?? '', $m) ? $m[1] : (random_int(1e9, 9e9) . '.' . time());
-    $post('https://www.google-analytics.com/mp/collect?measurement_id=' . rawurlencode($t['ga4']) . '&api_secret=' . rawurlencode($t['ga4_api_secret']), [
-      'client_id' => $cid, 'events' => [['name' => 'generate_lead_server', 'params' => array_filter([
-        'form' => $lead['form'], 'pillar' => $hub['key'] ?? 'none', 'page_location' => SITE['url'] . $lead['source'], 'lead_id' => $eventId,
-        'value' => $value ?: null, 'currency' => $value ? 'INR' : null, 'city' => $lead['city'],
-      ])]],
-    ]);
-  }
-  if ($t['meta_pixel'] && ($t['meta_capi_token'] ?? '')) {
-    $user = array_filter([
-      'ph' => [hash('sha256', '91' . $lead['phone'])], 'em' => $lead['email'] ? [hash('sha256', strtolower(trim($lead['email'])))] : null,
-      'ct' => $lead['city'] ? [hash('sha256', strtolower(preg_replace('/[^a-z]/i', '', $lead['city'])))] : null, 'country' => [hash('sha256', 'in')],
-      'client_ip_address' => $_SERVER['REMOTE_ADDR'] ?? null, 'client_user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
-      'fbp' => $_COOKIE['_fbp'] ?? null, 'fbc' => $_COOKIE['_fbc'] ?? null,
-    ]);
-    $body = ['data' => [['event_name' => 'Lead', 'event_time' => time(), 'event_id' => $eventId, 'action_source' => 'website',
-      'event_source_url' => SITE['url'] . $lead['source'], 'user_data' => $user,
-      'custom_data' => array_filter(['content_category' => $hub['key'] ?? 'none', 'content_name' => $lead['form'], 'value' => $value ?: null, 'currency' => $value ? 'INR' : null])]]];
-    if ($t['meta_test_code'] ?? '') $body['test_event_code'] = $t['meta_test_code'];
-    $post('https://graph.facebook.com/' . rawurlencode($t['meta_api_version'] ?: 'v24.0') . '/' . rawurlencode($t['meta_pixel']) . '/events?access_token=' . rawurlencode($t['meta_capi_token']), $body);
-  }
+  if (!tracking_tags_on() || !preg_match('/^\d{6,20}$/', TRACKING['meta_pixel'])) return '';
+  return '<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=' . e(TRACKING['meta_pixel']) . '&amp;ev=PageView&amp;noscript=1"></noscript>' . "\n";
 }

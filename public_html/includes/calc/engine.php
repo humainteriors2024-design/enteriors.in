@@ -269,11 +269,11 @@ function calc_run($type, $in = []) { return isset(CALCS[$type]) ? (CALCS[$type])
 /* ---------- signed estimate token: lets api/lead.php trust the estimate sent with a lead ---------- */
 function calc_token($type, $res) {
   $p = rtrim(strtr(base64_encode(json_encode(['t' => $type, 'v' => $res['total'], 's' => mb_substr($res['summary'], 0, 600), 'ts' => time()], JSON_UNESCAPED_UNICODE)), '+/', '-_'), '=');
-  return $p . '.' . substr(hash_hmac('sha256', $p, LEADS['secret'] . '|calc'), 0, 24);
+  return $p . '.' . substr(hash_hmac('sha256', $p, lead_secret() . '|calc'), 0, 24);
 }
 function calc_token_read($tok) {   // ['t' => type, 'v' => total, 's' => summary] or null
   [$p, $sig] = array_pad(explode('.', (string) $tok, 2), 2, '');
-  if ($p === '' || !hash_equals(substr(hash_hmac('sha256', $p, LEADS['secret'] . '|calc'), 0, 24), $sig)) return null;
+  if ($p === '' || !hash_equals(substr(hash_hmac('sha256', $p, lead_secret() . '|calc'), 0, 24), $sig)) return null;
   $d = json_decode(base64_decode(strtr($p, '-_', '+/')), true);
   return ($d && time() - ($d['ts'] ?? 0) < 7 * 86400) ? $d : null;
 }
