@@ -111,7 +111,7 @@ $fact = fn($label, $value) => $value === '' ? '' : '<div><dt>' . e($label) . '</
         <?= $fact('Office', e($p['area'] . ', ' . $c['name'] . ' ' . $p['pincode'])) ?>
       </dl>
       <div class="design__cta"><?= enquiry_buttons('pro', $key, $p['name']) ?></div>
-      <p class="form__note">We verify your email with a one-time code, then send your details to <?= e($p['name']) ?> only. Their own email address is never shown or shared.</p>
+      <p class="form__note">We verify your email (a code or a link), then pass your details to <?= e($p['name']) ?> through the Enteriors team. Their own email address is never shown or shared.</p>
 <?php if ($c['guide'] && is_live($c['guide'])): ?>
       <p class="mt-4"><a class="link-arrow" href="<?= e($c['guide']) ?>">Established interior firms in <?= e($c['name']) ?></a></p>
 <?php endif; ?>

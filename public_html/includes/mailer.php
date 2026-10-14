@@ -1,7 +1,7 @@
 <?php
 /* =====================================================================
    ENTERIORS — SENDING EMAIL
-   One function for every email the site sends (OTP codes, enquiries, copies).
+   One function for every email the site sends (verification codes, leads, enquiries, copies).
    Uses PHP mail() like the lead form. Every header value is stripped of line
    breaks and every address is validated, so form input can never add headers
    or recipients. To send through SMTP later, change only site_mail().
@@ -34,6 +34,6 @@ function site_mail($to, $subject, $body, $opt = []) {
   foreach (['reply_to' => 'Reply-To', 'cc' => 'Cc', 'bcc' => 'Bcc'] as $k => $name)
     if (!empty($opt[$k]) && ($a = mail_address($opt[$k])) && $a !== $to) $h[] = "$name: $a";
   $body = str_replace(["\r\n", "\r"], "\n", (string) $body);
-  $from = defined('ENQUIRY') && ENQUIRY['envelope_from'] ? mail_address(ENQUIRY['envelope_from']) : '';
+  $from = defined('VERIFY') && VERIFY['envelope_from'] ? mail_address(VERIFY['envelope_from']) : '';
   return $from ? @mail($to, $subject, $body, implode("\r\n", $h), '-f' . $from) : @mail($to, $subject, $body, implode("\r\n", $h));
 }

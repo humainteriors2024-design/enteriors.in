@@ -13,7 +13,10 @@
      2  Contact details (NAP)        8  Authors, reviews, home stats
      3  Social links                 9  Image folders and formats
      4  Tracking IDs                10  CSS files and feature switches
-     5  Lead forms                  11  Private reports (/admin/)
+     5  Lead forms (the one inbox)  11  Private reports (/admin/)
+     5b Captcha: TURNSTILE KEYS     12  Trending designs, designer directory
+     5c Email verification and      13  Launch phases
+        daily limits                14  Partner studio
    Calculator prices are NOT here: includes/calc/rates.php
    ===================================================================== */
 
@@ -91,25 +94,26 @@ const TRACKING = [
   'clarity'           => '',   // Microsoft Clarity project ID (optional heatmaps and recordings)
 ];
 
-/* ---------- 5. LEAD FORMS ---------- */
+/* ---------- 5. LEAD FORMS ----------
+   EVERY form on the site (free consultation, call back, get 3 quotes, the pop-up, and Contact / Mail
+   on trending designs and designer profiles) posts to the same handler and is emailed to the ONE
+   inbox below, only after the visitor has verified their email address (section 5c). */
 const LEADS = [
   'endpoint'      => '/api/lead.php',                 // where every form posts
-  'notify_email'  => 'humainteriors2024@gmail.com',   // new leads are emailed here
+  'notify_email'  => 'humainteriors2024@gmail.com',   // THE inbox: every verified form submission is emailed here
   'notify_cc'     => '',                              // optional second address
   'webhook'       => '',                              // optional: URL that also receives each lead as JSON (CRM, Google Sheet script)
   'promise'       => 'We respond within 2 business hours.',
   'thank_you'     => '/thank-you/',
 
   // Spam protection (see includes/leads.php)
-  'secret'          => 'jtSFvB168a1J4SkiDiZqXetpkwqFhqcz-QTyJJaWB7kSaLfi',  // signs form keys, codes and approval links. Rotated 14 Oct 2026 (the old one was in a public GitHub repo). Keep this file out of public repos.
+  'secret'          => 'jtSFvB168a1J4SkiDiZqXetpkwqFhqcz-QTyJJaWB7kSaLfi',  // signs form keys, codes, captchas and links. Rotated 14 Oct 2026 (the old one was in a public GitHub repo). Keep this file out of public repos.
   'min_seconds'     => 3,        // a form sent faster than this after loading is a bot
   'max_key_age'     => 21600,    // form key valid for 6 hours (it refreshes itself when the visitor starts typing)
-  'rate_limit'      => 5,        // submissions allowed per IP address per hour
-  'duplicate_hours' => 24,       // same mobile number again within this time is not emailed twice
   'max_links'       => 0,        // links allowed in a message (0 = any link is treated as spam)
 
   // Options shown in the forms
-  'cities'     => ['Bengaluru', 'Hosur', 'Mumbai', 'Delhi NCR', 'Hyderabad', 'Chennai', 'Pune', 'Other'],
+  'cities'     => ['Bengaluru', 'Hosur', 'Mumbai', 'Delhi NCR', 'Hyderabad', 'Chennai', 'Pune', 'Kolkata', 'Coimbatore', 'Mysuru'],   // suggestions in the City box (visitors can type any city or area)
   'home_types' => ['1 BHK', '2 BHK', '3 BHK', '4 BHK+', 'Villa / Duplex'],
   'services'   => ['Full Home Interiors', 'Modular Kitchen', 'Wardrobes', 'Renovation', 'Not sure — need guidance'],
   'budgets'    => ['Under ₹5 lakh', '₹5–10 lakh', '₹10–20 lakh', '₹20 lakh+', 'Not decided'],
@@ -121,6 +125,45 @@ const LEADS = [
     'Get 3 competitive quotes from verified professionals',
     'Your details are shared only with the designers you agree to',
   ],
+];
+
+/* ---------- 5b. CAPTCHA ON EVERY FORM — Cloudflare Turnstile ----------
+   >>> PASTE YOUR TWO TURNSTILE KEYS HERE <<<
+   Get them free: dash.cloudflare.com → Turnstile → Add widget → name "Enteriors", hostnames enteriors.in
+   (and your staging address), widget mode "Managed" → copy the Site Key and the Secret Key.
+   While either key is blank, every form shows a small built-in picture captcha instead, so forms keep working. */
+const TURNSTILE = [
+  'site_key'   => '',   // public key, e.g. '0x4AAAAAAA…' (printed in the page)
+  'secret_key' => '',   // private key, e.g. '0x4AAAAAAA…' (only used on the server)
+];
+
+/* ---------- 5c. EMAIL VERIFICATION AND DAILY LIMITS — every form ----------
+   Nothing reaches LEADS['notify_email'] until the visitor proves the email address is theirs: we email
+   them a 6-digit code AND a one-click link (either works). Limits are counted on the server against the
+   visitor's IP address, verified email and mobile number, so a new browser or incognito does not reset them.
+   A "day" is the calendar day in India (midnight to midnight IST). */
+const FORM_LIMITS = [
+  'consultation' => 5,   // free consultation, call back and the contact page form: per person per day
+  'other'        => 3,   // every other form (get 3 quotes, Contact / Mail a designer or design): each, per person per day
+];
+const FORM_GROUPS = [    // form name => limit group ('consultation' or 'other')
+  'full' => 'consultation', 'compact' => 'consultation', 'inline' => 'consultation', 'callback' => 'consultation',
+  'quote' => 'other', 'enquiry' => 'other',
+];
+const VERIFY = [
+  'code_minutes'   => 30,     // the code and the link work for this long
+  'code_attempts'  => 5,      // wrong codes allowed before the request is cancelled
+  'resends'        => 2,      // extra codes the visitor can ask for
+  'resend_seconds' => 45,     // wait before another code can be sent
+  'per_ip_hour'    => 10,     // verification emails started from one connection per hour
+  'per_email_hour' => 4,      // verification emails to one address per hour …
+  'per_email_day'  => 8,      // … and per day (stops anyone flooding someone else's inbox)
+  'site_daily_cap' => 400,    // verification emails sent by the whole site per day
+  'confirm_user'   => true,   // email the visitor a copy of what was sent
+  'envelope_from'  => '',     // optional: 'no-reply@enteriors.in' if your host needs a fixed sender for mail() to deliver
+  'sms_webhook'    => '',     // optional: URL that also sends the code by SMS (receives JSON: phone, code, minutes)
+  'block_domains'  => ['mailinator.com', 'guerrillamail.com', 'sharklasers.com', '10minutemail.com', 'tempmail.com', 'temp-mail.org',
+                       'yopmail.com', 'trashmail.com', 'getnada.com', 'dispostable.com', 'maildrop.cc', 'throwawaymail.com', 'fakeinbox.com'],
 ];
 
 /* ---------- 6. SITE FACTS — ONLY numbers that are true today and that you can prove.
@@ -229,12 +272,11 @@ const ADMIN = [
 const STICKY_CTA     = true;    // floating Call / Consultation buttons after scrolling
 const LEAD_DIALOG    = true;    // "Free consultation" buttons open a pop-up form instead of leaving the page
 
-/* ---------- 12. TRENDING DESIGNS, DESIGNER DIRECTORY AND OTP ENQUIRIES ----------
+/* ---------- 12. TRENDING DESIGNS AND DESIGNER DIRECTORY ----------
    Pages: /trending-designs/ and /services/find-designer/ (engine: includes/finder.php).
    Data:  includes/data/trends.php · includes/data/pros.php · includes/data/places.php
-   "Contact" and "Mail" buttons open a form; the visitor's email is verified with a one-time
-   code before api/enquiry.php sends the enquiry to the firm (or to LEADS['notify_email']
-   while the firm has no verified email in pros.php). */
+   "Contact" and "Mail" buttons open a form; like every form on the site it is sent to
+   LEADS['notify_email'] (with the firm's name) once the visitor's email is verified. */
 const FINDER = [
   'designs_url'   => '/trending-designs/',
   'pros_url'      => '/services/find-designer/',
@@ -244,23 +286,8 @@ const FINDER = [
   'index_samples' => false,   // false = while sample listings are shown, these pages are noindex and stay out of the sitemap
 ];
 const ENQUIRY = [
-  'endpoint'       => '/api/enquiry.php',
-  'otp_minutes'    => 10,     // a code works for this long
-  'otp_attempts'   => 5,      // wrong codes allowed before the code is cancelled
-  'otp_resends'    => 2,      // extra codes the visitor can ask for
-  'resend_seconds' => 45,     // wait before another code can be sent
-  'per_ip_hour'    => 8,      // enquiries started from one connection per hour
-  'per_email_hour' => 3,      // codes sent to one email address per hour …
-  'per_email_day'  => 6,      // … and per day (stops anyone flooding someone else's inbox)
-  'per_phone_day'  => 6,      // enquiries per mobile number per day
-  'daily_cap'      => 300,    // codes sent by the whole site per day
-  'repeat_hours'   => 24,     // the same person contacting the same firm again within this time is not sent twice
-  'copy_admin'     => true,   // also send a copy of every enquiry to LEADS['notify_email']
-  'confirm_user'   => true,   // email the visitor a copy of what was sent
-  'envelope_from'  => '',     // optional: 'no-reply@enteriors.in' if your host needs a fixed sender for mail() to deliver
-  'sms_webhook'    => '',     // optional: URL that also sends the code by SMS (receives JSON: phone, code, minutes)
-  'block_domains'  => ['mailinator.com', 'guerrillamail.com', 'sharklasers.com', '10minutemail.com', 'tempmail.com', 'temp-mail.org',
-                       'yopmail.com', 'trashmail.com', 'getnada.com', 'dispostable.com', 'maildrop.cc', 'throwawaymail.com', 'fakeinbox.com'],
+  'endpoint'     => '/api/lead.php',   // same handler as every other form
+  'repeat_hours' => 24,                // the same person contacting the same firm again within this time is not sent twice
 ];
 
 /* ---------- 13. LAUNCH PHASES ----------

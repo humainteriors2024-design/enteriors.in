@@ -103,7 +103,7 @@ $guide = fn($href, $text) => $href && is_live($href) ? '<a href="' . e($href) . 
         <?= $fact('Time on site', 'About ' . (int) $d['weeks'] . ' weeks') ?>
       </dl>
       <div class="design__cta"><?= enquiry_buttons('design', $key, $pro['name'] ?? 'the designer', $d['title']) ?></div>
-      <p class="form__note">Contact asks for a call back; Mail sends your message. We verify your email with a one-time code, then send your details to <?= e($pro['name'] ?? 'the firm') ?> only.</p>
+      <p class="form__note">Contact asks for a call back; Mail sends your message. We verify your email (a code or a link), then pass your details to <?= e($pro['name'] ?? 'the firm') ?> through the Enteriors team.</p>
 <?php if ($pro && !phase2_hidden(FINDER['pros_url'])): ?>
       <p class="mt-4"><a class="link-arrow" href="<?= e(pro_url($d['company'])) ?>">Profile: <?= e($pro['name']) ?></a></p>
 <?php endif; ?>

@@ -188,20 +188,15 @@
   .finder-steps { counter-reset: s; }
 
   /* ---------- enquiry pop-up ---------- */
-  .enq { width: min(94vw, 540px); }
+  .enq { width: min(94vw, 500px); }
   .enq__modes { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-2); }
-  .enq__modes label { display: flex; gap: var(--sp-2); align-items: center; justify-content: center; padding: .6rem; border: 1px solid var(--line); border-radius: var(--radius); font-size: var(--fs-sm); font-weight: 600; cursor: pointer; background: var(--white); }
+  .enq__modes label { display: flex; gap: var(--sp-2); align-items: center; justify-content: center; padding: .4rem; border: 1px solid var(--line); border-radius: var(--radius); font-size: var(--fs-sm); line-height: 1.2; font-weight: 600; cursor: pointer; background: var(--white); }
   .enq__modes label:has(input:checked) { border-color: var(--red); background: var(--red-tint); color: var(--red); }
   .enq__modes input { accent-color: var(--red); }
-  .enq__consent { display: flex; gap: var(--sp-2); align-items: flex-start; font-size: var(--fs-sm); color: var(--muted); }
+  .enq__consent { display: flex; gap: var(--sp-2); align-items: flex-start; font-size: var(--fs-xs); line-height: 1.4; color: var(--muted); }
   .enq__consent input { margin-top: .25rem; accent-color: var(--red); flex-shrink: 0; }
-  .enq__code { font-size: 1.6rem; letter-spacing: .5em; text-align: center; font-variant-numeric: tabular-nums; }
-  .enq__links { font-size: var(--fs-sm); text-align: center; color: var(--muted); }
   .link-btn { color: var(--red); text-decoration: underline; font-size: inherit; padding: 0; }
   .link-btn:disabled { color: var(--muted); text-decoration: none; cursor: default; }
-  .enq__done { display: grid; gap: var(--sp-4); }
-  .enq .field.has-error .input { border-color: var(--red); }
-  .enq .field__error { color: var(--red); }
 
   /* ---------- home page strips ---------- */
   .home-finder { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: var(--sp-7); align-items: center; }

@@ -1,4 +1,4 @@
-/* ENTERIORS — site-wide JavaScript: menus, contents highlight, tabs, lead forms, sticky CTA.
+/* ENTERIORS — site-wide JavaScript: menus, contents highlight, tabs, every form (with email verification), sticky CTA.
    Page-only scripts live in their own files (e.g. home.js) and are listed in $page['js']. */
 (function () {
   // Mega menus: open on click (desktop hover is handled in CSS)
@@ -57,9 +57,12 @@
     });
   });
 
-  /* ---------- Lead forms (all five variants + the pop-up) ----------
-     Sends without leaving the page, shows field errors, keeps the hidden form key fresh,
-     records the campaign (utm) the visitor came from and reports the lead to tracking. */
+  /* ---------- Every form: details → email verification (code or link) → sent ----------
+     One handler for the five lead forms, the pop-up and Contact / Mail on listings ([data-vform]).
+     Checks the fields here first (the server checks again), keeps the hidden form key and the captcha
+     fresh, records the campaign (utm) the visitor came from, then shows the code box. While the code
+     box is open it asks the server every few seconds whether the link in the email was clicked, so a
+     link opened on the phone also completes the form left open here. */
   var MIN_WAIT = 3500;                       // matches LEADS['min_seconds'] in config.php (+ a margin)
   var utm = (function () {
     var q = location.search.replace(/^\?/, '').split('&').filter(function (kv) { return /^(utm_|gclid|fbclid)/.test(kv); }).join('&');
@@ -69,55 +72,184 @@
   var landing = (function () {   // first page of the visit, sent with a lead
     try { var l = sessionStorage.getItem('ent_landing'); if (!l) { l = location.pathname; sessionStorage.setItem('ent_landing', l); } return l; } catch (e) { return location.pathname; }
   })();
+  var RULES = {
+    name: [/^[^\d<>{}@#$%^*_=+~`|\\]{2,60}$/, 'Please enter your name.'],
+    phone: [{ test: function (v) { return /^(91|0)?[6-9]\d{9}$/.test(v.replace(/\D/g, '')); } }, 'Please enter a 10-digit Indian mobile number.'],
+    email: [/^[^\s@,;<>"]+@[^\s@,;<>"]+\.[a-z]{2,}$/i, 'Please enter a valid email address.'],
+    city: [/^.{2,60}$/, 'Please enter your city or area.'],
+    location: [/^.{2,60}$/, 'Please enter your city or area.']
+  };
+  var TYPO = { 'gmial.com': 'gmail.com', 'gmai.com': 'gmail.com', 'gamil.com': 'gmail.com', 'gmail.co': 'gmail.com', 'gmail.con': 'gmail.com', 'gnail.com': 'gmail.com', 'gmail.in': 'gmail.com', 'yaho.com': 'yahoo.com', 'hotmial.com': 'hotmail.com', 'outlok.com': 'outlook.com', 'redifmail.com': 'rediffmail.com' };
+  var post = function (url, data) {
+    return fetch(url, { method: 'POST', body: data, headers: { 'Accept': 'application/json' }, credentials: 'same-origin' })
+      .then(function (r) { return r.json().catch(function () { return { ok: false }; }); });
+  };
 
-  document.querySelectorAll('[data-lead-form]').forEach(function (form) {
-    var loaded = performance.now(), keyAt = Date.now(), retried = false, begun = false;
-    form.addEventListener('focusin', function () { if (!begun) { begun = true; track('form_start', { form: form.elements.form.value }); } });
-    var refreshKey = function () {
-      return fetch('/api/form-key.php?form=' + encodeURIComponent(form.elements.form.value), { headers: { 'Accept': 'application/json' } })
-        .then(function (r) { return r.json(); })
-        .then(function (res) { if (res.ok) { form.elements.fk.value = res.fk; loaded = performance.now(); keyAt = Date.now(); } });
+  document.querySelectorAll('[data-vform]').forEach(function (box) {
+    var f1 = box.querySelector('[data-step="details"]'), f2 = box.querySelector('[data-step="verify"]'), done = box.querySelector('[data-step="done"]');
+    if (!f1 || !f2 || !done || !window.fetch || !window.FormData) return;
+    f1.noValidate = true;                     // we show our own messages next to each field
+    var formName = f1.elements.form.value, loaded = performance.now(), keyAt = Date.now(), begun = false;
+    var token = '', timer = null, poller = null, finished = false;
+    var resendBtn = f2.querySelector('[data-v-resend]');
+
+    var show = function (step) {
+      [f1, f2, done].forEach(function (el) { el.hidden = el !== step; });
+      if (step === f2) setTimeout(function () { f2.elements.code.focus(); }, 30);
+      if (step === done) done.focus();
+      if (step !== f2) { clearInterval(poller); poller = null; }
     };
-    // a form left open for 30+ minutes gets a new key when the visitor starts typing
-    form.addEventListener('focusin', function () { if (Date.now() - keyAt > 30 * 60 * 1000) refreshKey(); });
-
-    var note = function (msg) {
+    var clearErrors = function (form) {
+      form.querySelectorAll('.has-error').forEach(function (f) { f.classList.remove('has-error'); });
+      form.querySelectorAll('[data-err]').forEach(function (p) { p.hidden = true; p.textContent = ''; p.classList.remove('is-ok'); });
+      var n = form.querySelector('.form__error'); if (n) n.remove();
+    };
+    var fieldError = function (form, name, msg, ok) {
+      var p = form.querySelector('[data-err="' + name + '"]');
+      if (p) { p.textContent = msg; p.hidden = false; p.classList.toggle('is-ok', !!ok); }
+      var el = form.elements[name];
+      if (!ok && el && el.closest && el.closest('.field')) el.closest('.field').classList.add('has-error');
+      return !!p;
+    };
+    var note = function (form, msg) {
       var n = form.querySelector('.form__error') || form.appendChild(document.createElement('p'));
-      n.className = 'form__error form__note'; n.setAttribute('role', 'alert'); n.textContent = msg || 'Something went wrong. Please call or email us.';
+      n.className = 'form__error form__note'; n.setAttribute('role', 'alert');
+      n.textContent = msg || 'Something went wrong. Please try again, or email us.';
     };
-    var send = function (btn, label) {
-      var data = new FormData(form);
+    var refresh = function (withCaptcha) {   // a new form key (and built-in captcha); Turnstile resets itself
+      if (window.turnstile) { var w = f1.querySelector('.cf-turnstile'); if (w) try { window.turnstile.reset(w); } catch (e) {} }
+      var cap = withCaptcha && f1.querySelector('[data-captcha]');
+      return fetch('/api/form-key.php?form=' + encodeURIComponent(formName) + (cap ? '&captcha=1' : ''), { headers: { 'Accept': 'application/json' } })
+        .then(function (r) { return r.json(); })
+        .then(function (res) {
+          if (!res.ok) return;
+          f1.elements.fk.value = res.fk; loaded = performance.now(); keyAt = Date.now();
+          if (cap && res.captcha) { cap.querySelector('[data-captcha-img]').innerHTML = res.captcha.svg; f1.elements.captcha_token.value = res.captcha.token; f1.elements.captcha_answer.value = ''; }
+        });
+    };
+    f1.addEventListener('focusin', function () {
+      if (!begun) { begun = true; track('form_start', { form: formName }); }
+      if (Date.now() - keyAt > 30 * 60 * 1000) refresh(true);   // open for 30+ minutes: fresh key and captcha
+    });
+    var newCap = f1.querySelector('[data-captcha-new]');
+    if (newCap) newCap.addEventListener('click', function () { refresh(true); });
+
+    var countdown = function (secs) {
+      clearInterval(timer);
+      var left = secs;
+      resendBtn.disabled = true;
+      var tick = function () {
+        if (left <= 0) { clearInterval(timer); resendBtn.disabled = false; resendBtn.textContent = 'Resend code'; return; }
+        resendBtn.textContent = 'Resend code in ' + left + 's'; left--;
+      };
+      tick(); timer = setInterval(tick, 1000);
+    };
+    var finish = function (res) {
+      if (finished) return;
+      finished = true; token = ''; clearInterval(timer);
+      done.querySelector('[data-v-done]').textContent = res.message;
+      show(done);
+      track('lead', { form: res.form || formName, value: (window.ENT && ENT.calc) ? ENT.calc.total : undefined, currency: 'INR', calc: (window.ENT && ENT.calc) ? ENT.calc.type : undefined, lead_id: res.ref });
+      box.dispatchEvent(new CustomEvent('vform:done', { bubbles: true }));
+    };
+    var startPolling = function () {
+      clearInterval(poller);
+      var started = Date.now();
+      poller = setInterval(function () {
+        if (!token || document.hidden) return;
+        if (Date.now() - started > 40 * 60 * 1000) { clearInterval(poller); return; }
+        var d = new FormData(); d.append('action', 'status'); d.append('token', token);
+        post(f1.getAttribute('action'), d).then(function (res) {
+          if (res.state === 'done') finish(res);
+          else if (res.state === 'gone') { token = ''; show(f1); note(f1, res.message); }
+        }).catch(function () {});
+      }, 4000);
+    };
+
+    /* 1. details → email the code and the link */
+    var sendDetails = function (btn, label, retried) {
+      var data = new FormData(f1);
       if (utm) data.append('utm', utm);
       data.append('landing', landing); data.append('referrer', document.referrer.slice(0, 200));
       // calculator estimate, if the visitor used one on this page: the signed token lets the server
       // attach the estimate it worked out itself (the browser cannot change the figure)
-      if (window.ENT && ENT.calc) data.append('calc_token', ENT.calc.token);
-      var wait = Math.max(0, MIN_WAIT - (performance.now() - loaded));
+      if (window.ENT && ENT.calc && formName !== 'enquiry') data.append('calc_token', ENT.calc.token);
       setTimeout(function () {
-        fetch(form.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } })
-          .then(function (r) { return r.json(); })
-          .then(function (res) {
-            if (res.ok) {
-              track('lead', { form: res.form || form.elements.form.value, value: (window.ENT && ENT.calc) ? ENT.calc.total : undefined, currency: 'INR', calc: (window.ENT && ENT.calc) ? ENT.calc.type : undefined, lead_id: res.lead_id });
-              form.innerHTML = '<p class="form__ok" role="status">✓ ' + res.message + '</p>';
-              return;
-            }
-            if (res.code === 'key' && !retried) { retried = true; return refreshKey().then(function () { send(btn, label); }); }
-            form.querySelectorAll('.field.has-error').forEach(function (f) { f.classList.remove('has-error'); });
-            Object.keys(res.fields || {}).forEach(function (k) { var el = form.elements[k]; if (el && el.closest) el.closest('.field').classList.add('has-error'); });
-            throw new Error(res.message);
-          })
-          .catch(function (err) { btn.disabled = false; btn.textContent = label; note(err.message); });
-      }, wait);
+        post(f1.getAttribute('action'), data).then(function (res) {
+          btn.disabled = false; btn.textContent = label;
+          if (res.ok) {
+            token = res.token || ''; finished = false;
+            box.querySelector('[data-v-email]').textContent = res.email || f1.elements.email.value;
+            f2.elements.code.value = ''; clearErrors(f2);
+            show(f2); countdown(res.resend_in || 45); startPolling();
+            track('otp_sent', { form: formName });
+            return;
+          }
+          if (res.code === 'key' && !retried) { btn.disabled = true; return refresh(false).then(function () { sendDetails(btn, label, true); }); }
+          Object.keys(res.fields || {}).forEach(function (k) { fieldError(f1, k, res.fields[k]); });
+          if (res.code === 'captcha' || res.code === 'limit' || res.code === 'rate' || !res.fields) refresh(true);
+          if (!res.fields || !Object.keys(res.fields).every(function (k) { return f1.querySelector('[data-err="' + k + '"]'); })) note(f1, res.message);
+          var first = f1.querySelector('.has-error .input'); if (first) first.focus();
+        }).catch(function () { btn.disabled = false; btn.textContent = label; note(f1); });
+      }, Math.max(0, MIN_WAIT - (performance.now() - loaded)));
     };
-    form.addEventListener('submit', function (e) {
-      if (!window.fetch) return;                    // very old browsers: normal form post
+    f1.addEventListener('submit', function (e) {
       e.preventDefault();
-      if (!form.reportValidity()) return;
-      var btn = form.querySelector('[type="submit"]'), label = btn.textContent;
+      clearErrors(f1);
+      var el = f1.elements, bad = false;
+      Object.keys(RULES).forEach(function (k) {
+        if (el[k] && !RULES[k][0].test(el[k].value.trim())) { fieldError(f1, k, RULES[k][1]); bad = true; }
+      });
+      if (el.email && !bad) {
+        var dom = el.email.value.trim().toLowerCase().split('@')[1];
+        if (TYPO[dom]) { fieldError(f1, 'email', 'Did you mean …@' + TYPO[dom] + '?'); bad = true; }
+      }
+      if (el.message && el.message.required && el.message.value.trim().length < 10) { fieldError(f1, 'message', 'Please write a short message (at least 10 characters).'); bad = true; }
+      if (el.consent && !el.consent.checked) { fieldError(f1, 'consent', 'Please tick the box to share your details with this firm.'); bad = true; }
+      if (el.captcha_answer && !/^\d{1,2}$/.test(el.captcha_answer.value.trim())) { if (!fieldError(f1, 'captcha', 'Please add the two numbers.')) note(f1, 'Please add the two numbers in the picture.'); el.captcha_answer.closest('.captcha').classList.add('has-error'); bad = true; }
+      if (bad) { var first = f1.querySelector('.has-error .input'); if (first) first.focus(); return; }
+      var btn = f1.querySelector('[type="submit"]'), label = btn.textContent;
       btn.disabled = true; btn.textContent = 'Sending…';
-      send(btn, label);
+      sendDetails(btn, label, false);
     });
+
+    /* 2. code → send */
+    f2.elements.code.addEventListener('input', function () {
+      var v = this.value.replace(/\D/g, '').slice(0, 6);
+      if (v !== this.value) this.value = v;
+      if (v.length === 6 && !f2.dataset.busy) f2.requestSubmit ? f2.requestSubmit() : f2.dispatchEvent(new Event('submit', { cancelable: true }));
+    });
+    f2.addEventListener('submit', function (e) {
+      e.preventDefault();
+      clearErrors(f2);
+      var code = f2.elements.code.value;
+      if (!/^\d{6}$/.test(code)) { fieldError(f2, 'code', 'Enter the 6 digits from the email.'); return; }
+      var btn = f2.querySelector('[type="submit"]'), label = btn.textContent;
+      btn.disabled = true; btn.textContent = 'Checking…'; f2.dataset.busy = '1';
+      var data = new FormData(); data.append('action', 'verify'); data.append('token', token); data.append('code', code);
+      post(f2.getAttribute('action'), data).then(function (res) {
+        btn.disabled = false; btn.textContent = label; delete f2.dataset.busy;
+        if (res.ok) return finish(res);
+        if (res.code === 'gone' || res.code === 'limit') { token = ''; show(f1); refresh(true); note(f1, res.message); return; }
+        if (res.code === 'expired') { resendBtn.disabled = false; resendBtn.textContent = 'Resend code'; clearInterval(timer); }
+        fieldError(f2, 'code', res.message || 'That code did not work.');
+        f2.elements.code.select();
+      }).catch(function () { btn.disabled = false; btn.textContent = label; delete f2.dataset.busy; note(f2); });
+    });
+    resendBtn.addEventListener('click', function () {
+      if (!token) return;
+      resendBtn.disabled = true;
+      var data = new FormData(); data.append('action', 'resend'); data.append('token', token);
+      post(f2.getAttribute('action'), data).then(function (res) {
+        clearErrors(f2);
+        if (res.ok) { countdown(res.resend_in || 45); fieldError(f2, 'code', res.message, true); f2.elements.code.value = ''; f2.elements.code.focus(); return; }
+        if (res.code === 'gone') { token = ''; show(f1); note(f1, res.message); return; }
+        if (res.resend_in) countdown(res.resend_in); else resendBtn.disabled = res.code === 'max';
+        note(f2, res.message);
+      }).catch(function () { resendBtn.disabled = false; note(f2); });
+    });
+    f2.querySelector('[data-v-back]').addEventListener('click', function () { token = ''; clearInterval(timer); refresh(true); show(f1); });
+    box.vformReset = function () { if (!finished && token) return show(f2); token = ''; finished = false; clearErrors(f1); clearErrors(f2); show(f1); };
   });
 
   /* ---------- Pop-up form: any [data-open-lead] opens it; without it the link works normally ---------- */
@@ -129,6 +261,7 @@
         var onPage = document.querySelector('main [data-lead-form]');   // a form already on this page? scroll to it instead
         e.preventDefault();
         if (onPage && !dialog.contains(onPage) && opener.closest('.sticky-cta, .site-header, .mobile-nav') && onPage.offsetParent) { onPage.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
+        var vf = dialog.querySelector('[data-vform]'); if (vf && vf.vformReset) vf.vformReset();
         dialog.showModal();
       }
       if (e.target.closest('[data-close-lead]') || e.target === dialog) dialog.close();

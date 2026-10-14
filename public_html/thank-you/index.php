@@ -7,7 +7,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <section class="section container container--text text-center">
   <span class="eyebrow">Request received</span>
   <h1 class="mt-4">Thank you — your request is with us</h1>
-  <p class="lede mt-4 mb-6"><?= e(LEADS['promise']) ?> Meanwhile, get a rough budget with the calculator.</p>
+  <p class="lede mt-4 mb-6">Your email is verified and your request is sent<?= preg_match('/^(ENT|ENQ)-\d{6}-[A-F0-9]{5}$/', (string) ($_GET['ref'] ?? '')) ? ' (reference ' . e($_GET['ref']) . ')' : '' ?>. <?= e(LEADS['promise']) ?> Meanwhile, get a rough budget with the calculator.</p>
   <?php if (is_live(SITE['cta']['href'])): ?><a class="btn btn--primary" href="<?= e(SITE['cta']['href']) ?>"><?= e(SITE['cta']['label']) ?></a><?php endif; ?>
 </section>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

@@ -6,5 +6,5 @@ if (!LEAD_DIALOG || ($page['header'] ?? '') === 'none') return;
 ?>
 <dialog class="lead-dialog" id="lead-dialog" aria-label="Request a free consultation">
   <button class="lead-dialog__close" type="button" aria-label="Close" data-close-lead>×</button>
-  <?= component('lead-form', ['variant' => 'compact', 'id' => 'popup', 'title' => 'Book a free consultation', 'text' => 'Tell us where to reach you and a designer will call to understand your home.']) ?>
+  <?= component('lead-form', ['variant' => 'compact', 'id' => 'popup', 'title' => 'Book a free consultation', 'text' => 'A designer will call to understand your home.', 'flush' => true]) ?>
 </dialog>

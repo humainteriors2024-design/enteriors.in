@@ -8,7 +8,8 @@
      config.php      site facts: name, URL, contact, social, tracking IDs, forms, switches
      functions.php   small HTML helpers (cards, links, breadcrumbs, facts)
      images.php      per-page media folders; alt text from the file name
-     leads.php       form security key + validation shared by forms and api/lead.php
+     leads.php       form security key, validation and delivery of every form (api/lead.php)
+     verify.php      email verification (code or link), captcha and daily limits for every form
      tracking.php    GA4, GTM, Google Ads, Meta Pixel, Search Console tags
      nav.php         pillars and their cluster pages (menus, footer, pillar cards)
      posts-data.php  the blog post list
@@ -21,6 +22,7 @@ require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/functions.php';
 require_once __DIR__ . '/images.php';
 require_once __DIR__ . '/leads.php';
+require_once __DIR__ . '/verify.php';
 require_once __DIR__ . '/tracking.php';
 require_once __DIR__ . '/nav.php';
 require_once __DIR__ . '/posts-data.php';

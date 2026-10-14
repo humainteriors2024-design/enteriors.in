@@ -234,8 +234,7 @@
   .review__who small { display: block; color: var(--muted); font-size: var(--fs-xs); }
 
   /* LEAD SECTION: pitch + form, used on home, contact and calculators -- */
-  .lead { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-8); align-items: start; }
-  .lead__form { background: var(--ink-2); border: 1px solid var(--ink-3); border-radius: var(--radius); padding: var(--sp-6); }
+  .lead__form { background: var(--ink-2); border: 1px solid var(--ink-3); border-radius: var(--radius); padding: var(--sp-6); }   /* layout: forms.css */
   .lead__form .form__title { color: var(--white); }
   .form__row { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-3); }
   textarea.input { min-height: 96px; resize: vertical; }
@@ -243,9 +242,7 @@
   .lead__form .input { background-color: var(--ink-4); border-color: var(--ink-3); color: var(--white); }
   .lead__form .field label, .lead__form .form__note { color: var(--muted-dark); }
   .lead__form .form__note a { color: var(--white); }
-  .form__error { color: #FF8A8A; }
   .form__ok { padding: var(--sp-4); border-radius: var(--radius); background: var(--green-tint); color: var(--green); font-weight: 600; }
-  @media (max-width: 900px) { .lead { grid-template-columns: 1fr; gap: var(--sp-6); } }
   @media (max-width: 520px) { .form__row { grid-template-columns: 1fr; } }
 
   /* NAP block (Name, Address, Phone) — one source: config.php ---------- */

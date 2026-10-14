@@ -484,46 +484,30 @@ function enquiry_dialog() {
   static $done = false;
   if ($done) return '';
   $done = true;
-  $cities = array_map(fn($c) => $c['name'], places_db()['cities']);
-  sort($cities);
-  $f = fn($n, $label, $input) => '<div class="field"><label for="enq-' . $n . '">' . $label . '</label>' . $input . '<p class="field__error" data-err="' . $n . '" hidden></p></div>';
   ob_start(); ?>
 <dialog class="lead-dialog enq" id="enquiry-dialog" aria-labelledby="enq-title">
   <button class="lead-dialog__close" type="button" aria-label="Close" data-enq-close>×</button>
   <div class="lead-card">
-    <form class="form enq__step" data-enq-step="details" method="post" action="<?= e(ENQUIRY['endpoint']) ?>" novalidate>
+    <div class="vform" data-vform>
+    <form class="form" data-step="details" method="post" action="<?= e(ENQUIRY['endpoint']) ?>">
       <p class="form__title" id="enq-title"><span data-enq-verb>Contact</span> <span data-enq-name>the designer</span></p>
       <p class="form__text" data-enq-about hidden></p>
       <div class="enq__modes" role="radiogroup" aria-label="How should they reach you?">
         <label><input type="radio" name="mode" value="contact" checked> Call me back</label>
-        <label><input type="radio" name="mode" value="mail"> Send a message</label>
+        <label><input type="radio" name="mode" value="mail"> Message</label>
       </div>
-      <div class="form__row">
-        <?= $f('name', 'Your name', '<input class="input" id="enq-name" name="name" required minlength="2" maxlength="60" autocomplete="name">') ?>
-        <?= $f('phone', 'Mobile number', '<input class="input" id="enq-phone" name="phone" type="tel" inputmode="tel" required maxlength="16" placeholder="98765 43210" autocomplete="tel">') ?>
+      <div class="form__grid">
+        <?= vfields_core('enq', 'location') ?>
+        <?= vfield('enq', 'message', 'Message <small data-enq-msg-hint>(optional)</small>', '<textarea class="input" id="enq-message" name="message" maxlength="1000" rows="2" placeholder="Rooms, budget, when you want to start"></textarea>') ?>
       </div>
-      <?= $f('email', 'Email <small>(we send a code to verify it)</small>', '<input class="input" id="enq-email" name="email" type="email" required maxlength="120" autocomplete="email" spellcheck="false">') ?>
-      <?= $f('location', 'Your location <small>(city and area)</small>', '<input class="input" id="enq-location" name="location" required minlength="2" maxlength="60" list="enq-cities" autocomplete="address-level2" placeholder="e.g. HSR Layout, Bengaluru">') ?>
-      <datalist id="enq-cities"><?php foreach ($cities as $c) echo '<option value="' . e($c) . '">'; ?></datalist>
-      <?= $f('message', 'Message <small data-enq-msg-hint>(optional)</small>', '<textarea class="input" id="enq-message" name="message" maxlength="1000" rows="3" placeholder="Your home, rooms, budget and when you want to start"></textarea>') ?>
-      <label class="enq__consent"><input type="checkbox" name="consent" value="1" required> <span>Share my details with <span data-enq-name>this firm</span> for this enquiry only. <a href="/privacy/" target="_blank">Privacy</a></span></label>
+      <label class="enq__consent"><input type="checkbox" name="consent" value="1" required> <span>Share my details with this firm for this enquiry. <a href="/privacy/" target="_blank">Privacy</a></span></label>
       <p class="field__error" data-err="consent" hidden></p>
+      <div class="form__send"><?= captcha_field('enq') ?><button class="btn btn--primary btn--block" type="submit">Send →</button></div>
       <input type="hidden" name="action" value="start"><input type="hidden" name="kind" value=""><input type="hidden" name="target" value="">
       <?= lead_hidden_fields('enquiry') ?>
-      <button class="btn btn--primary btn--block" type="submit">Send verification code →</button>
-      <p class="form__note">We email you a 6-digit code to confirm the address is yours. Nothing is sent to the firm until you enter it.</p>
+      <p class="form__note">We email you a code to confirm it is you. Nothing is sent before that.</p>
     </form>
-    <form class="form enq__step" data-enq-step="verify" method="post" action="<?= e(ENQUIRY['endpoint']) ?>" hidden novalidate>
-      <p class="form__title">Check your email</p>
-      <p class="form__text">Enter the 6-digit code we sent to <strong data-enq-email></strong>. It works for <?= (int) ENQUIRY['otp_minutes'] ?> minutes. Check your spam folder if it has not arrived.</p>
-      <div class="field"><label for="enq-code">Verification code</label><input class="input enq__code" id="enq-code" name="code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required><p class="field__error" data-err="code" hidden></p></div>
-      <button class="btn btn--primary btn--block" type="submit">Verify and send →</button>
-      <p class="enq__links"><button type="button" class="link-btn" data-enq-resend disabled>Resend code</button> · <button type="button" class="link-btn" data-enq-back>Change details</button></p>
-    </form>
-    <div class="enq__step enq__done" data-enq-step="done" hidden role="status" tabindex="-1">
-      <p class="form__title">✓ Sent</p>
-      <p data-enq-done-text></p>
-      <button class="btn btn--outline btn--block" type="button" data-enq-close>Close</button>
+    <?= verify_steps('enq', true) ?>
     </div>
   </div>
 </dialog>
