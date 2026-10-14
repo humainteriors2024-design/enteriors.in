@@ -1,0 +1,12 @@
+Images for Bedroom Colour Combinations: 8 Two-Colour Pairs That Work
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Bedroom with a sage green bed-back wall and warm greige side walls
+  sage-green-bed-back-wall-greige-walls.jpg     Sage green bed back wall greige walls
+  kids-bedroom-soft-white-and-dusty-blue.jpg    A kids' room in soft white and dusty blue, with colour coming from bedding, art and a rug
+  painted-arch-behind-bed-terracotta.jpg        A painted terracotta arch framing the bed: the effect of an accent wall with a fraction of the paint
+  sage-bedroom-with-oak-and-linen.jpg           Sage walls with light oak, cane and oatmeal linen: a calm, natural bedroom palette
+  bedroom-paint-samples-viewed-at-night.jpg     Two paint samples on a bedroom wall viewed at night under a warm bedside lamp
+  two-tone-half-height-bedroom-wall.jpg         A two-tone wall with deep olive below headboard height and warm white above

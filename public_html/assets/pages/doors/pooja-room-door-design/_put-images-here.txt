@@ -1,0 +1,11 @@
+Images for Pooja Room Door Design: Jaali, Glass, Bells and Materials
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Double pooja room doors with CNC jaali panels, brass bells and a warm interior light
+  cnc-jaali-pooja-door-with-bells.jpg           CNC jaali pooja door with bells
+  lotus-cnc-jaali-pooja-door-detail.jpg         A lotus-pattern CNC jaali in HDHMR with a warm PU finish, lit from behind
+  compact-pooja-wall-unit-fluted-glass-doors.jpgA compact pooja wall unit with fluted-glass doors and a warm-lit marble shelf, for a small apartment
+  brass-bells-on-pooja-door.jpg                 Solid brass bells hung on a pooja door, fixed so they do not strike the glass or frame
+  south-indian-teak-pooja-door-with-brass-frame.jpgA South Indian style teak pooja door with carved panels and a brass-clad frame

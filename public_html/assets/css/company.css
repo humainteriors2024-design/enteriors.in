@@ -1,0 +1,48 @@
+/* ENTERIORS — company login and profile editor (/company/) and company profile extras (/services/find-designer/<key>/) */
+@layer page {
+  .co__wrap { max-width: 980px; }
+  .co__head { margin: var(--sp-5) 0 var(--sp-6); }
+  .co__head h1 { margin-top: var(--sp-3); }
+  .co-card { border: 1px solid var(--line); border-radius: var(--radius-lg); padding: var(--sp-5); background: var(--white); display: grid; gap: var(--sp-4); align-content: start; }
+  .co-split { display: grid; gap: var(--sp-5); grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: start; }
+  .co-why h2 { font-size: 1.3rem; margin-bottom: var(--sp-3); }
+  .co-code { font-size: 1.6rem; letter-spacing: .4em; text-align: center; font-variant-numeric: tabular-nums; }
+  .co-links { margin-top: var(--sp-4); font-size: var(--fs-sm); color: var(--muted); }
+  .co-flash { padding: var(--sp-3) var(--sp-4); border-radius: var(--radius); margin-bottom: var(--sp-5); font-size: var(--fs-sm); background: #EEF7EF; border: 1px solid #B7DDBB; }
+  .co-flash--err { background: #FDEDEE; border-color: #F2B8BD; }
+  .co-status-bar { display: flex; flex-wrap: wrap; gap: var(--sp-3); align-items: center; margin-bottom: var(--sp-5); font-size: var(--fs-sm); }
+  .co-status { display: inline-block; padding: 2px 10px; border-radius: var(--radius-pill); font-size: var(--fs-xs); font-weight: 700; letter-spacing: .04em; background: var(--surface); }
+  .co-status--approved { background: #E5F4E7; color: #1E6B2A; }
+  .co-status--pending { background: #FFF4D6; color: #7A5600; }
+  .co-status--rejected { background: #FDEDEE; color: #9B1C25; }
+  .co-list { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--sp-2); }
+  .co-form { display: grid; gap: var(--sp-5); }
+  .co-group { border: 1px solid var(--line); border-radius: var(--radius-lg); padding: var(--sp-5); margin: 0; min-width: 0; }
+  .co-group > legend { display: flex; gap: var(--sp-3); align-items: center; font-weight: 600; font-size: 1.05rem; padding: 0 var(--sp-2); }
+  .co-group > legend span { width: 1.8rem; height: 1.8rem; border-radius: 50%; background: var(--red); color: var(--white); display: grid; place-items: center; font-size: .95rem; }
+  .co-grid { display: grid; gap: var(--sp-4) var(--sp-5); grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); margin-top: var(--sp-3); }
+  .co-field--textarea, .co-field--multi, .co-field--radio { grid-column: 1 / -1; }
+  .co-req { color: var(--red); }
+  .co-help { font-size: var(--fs-xs); color: var(--muted); margin: 4px 0 0; }
+  .co-opts { border: 0; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: var(--sp-2); }
+  .co-opts legend { width: 100%; font-size: var(--fs-xs); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: var(--sp-2); padding: 0; }
+  .co-opt { position: relative; }
+  .co-opt input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
+  .co-opt span { display: block; padding: .45rem .85rem; border: 1.5px solid var(--line); border-radius: var(--radius-pill); font-size: var(--fs-sm); background: var(--white); cursor: pointer; }
+  .co-opt input:checked + span { border-color: var(--red); background: var(--surface); box-shadow: inset 0 0 0 1px var(--red); }
+  .co-opt input:focus-visible + span { outline: 2px solid var(--red); outline-offset: 2px; }
+  .co-save { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-4); position: sticky; bottom: 0; background: var(--white); padding: var(--sp-3) 0; border-top: 1px solid var(--line); }
+  .co-save .form__note { margin: 0; flex: 1 1 280px; }
+
+  /* company page extras */
+  .prof-usps { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--sp-3); grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .prof-usps li { margin: 0; padding: var(--sp-4); border: 1px solid var(--line); border-radius: var(--radius); font-weight: 600; }
+  .prof-usps li::before { content: '✓'; color: var(--red); margin-right: var(--sp-2); }
+  .prof-offer { padding: var(--sp-4) var(--sp-5); border-radius: var(--radius-lg); background: #FFF4D6; border: 1px solid #F0D58A; margin: var(--sp-5) 0; }
+  .prof-offer strong { display: block; font-size: 1.05rem; }
+  .prof-social { display: flex; flex-wrap: wrap; gap: var(--sp-2); }
+  .prof-mats { display: grid; gap: var(--sp-2); margin: 0; }
+  .prof-mats div { display: grid; grid-template-columns: 10rem 1fr; gap: var(--sp-3); }
+  .prof-mats dt { color: var(--muted); font-size: var(--fs-sm); }
+  .prof-mats dd { margin: 0; }
+}

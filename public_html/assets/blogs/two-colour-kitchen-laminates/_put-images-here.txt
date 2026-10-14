@@ -1,0 +1,6 @@
+Images for Two color combinations for kitchen laminates that actually work in Indian homes.
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Two color combinations for kitchen laminates that actually work in Indian homes.

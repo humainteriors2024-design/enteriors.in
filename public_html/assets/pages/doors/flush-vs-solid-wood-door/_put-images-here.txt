@@ -1,0 +1,11 @@
+Images for Flush Door vs Solid Wood Door: Construction, Strength and Cost
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Cut sections showing a solid-core flush door and a solid teak door edge
+  flush-door-core-cross-section.jpg             Flush door core cross section
+  flush-door-cores-solid-particle-honeycomb.jpg Three flush door cores side by side: solid timber block, particle board and paper honeycomb
+  solid-teak-frame-and-panel-door-joinery.jpg   Mortise-and-tenon joinery at the corner of a solid teak frame-and-panel door
+  door-edge-lipping-close-up.jpg                Hardwood lipping on a flush door edge, sealed to keep moisture out of the core
+  apartment-door-schedule-main-bedroom-bathroom.jpgA door schedule for a 3 BHK: engineered teak main door, laminated flush bedrooms, WPC bathrooms

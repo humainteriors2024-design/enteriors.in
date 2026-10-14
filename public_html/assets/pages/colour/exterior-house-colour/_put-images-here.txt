@@ -1,0 +1,11 @@
+Images for Exterior House Colour Combinations: Heat, Dust, Monsoon and Fading
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Independent house painted warm white with teak brown window frames
+  warm-white-house-teak-brown-trims.jpg         Warm white house teak brown trims
+  coastal-house-off-white-and-slate-blue.jpg    A coastal home in off-white with slate blue shutters: light body colour, fade-resistant accent
+  facade-colour-placement-body-band-trim-plinth.jpgA façade with a light body, mid-tone bands, deep trims and a darker plinth that hides rain splash
+  white-cool-roof-coating-terrace.jpg           A white heat-reflective coating on a terrace slab, reducing heat passing into the room below
+  exterior-colour-samples-on-sunny-and-shaded-walls.jpgExterior colour samples painted on a sunny wall and a shaded wall, compared through the day

@@ -1,0 +1,11 @@
+Images for PVC vs WPC Wall Panels: Material, Strength, Heat and Cost
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Samples of PVC marble sheet and WPC fluted panels side by side
+  pvc-marble-sheet-and-wpc-fluted-panel.jpg     PVC marble sheet and WPC fluted panel
+  wpc-panel-cross-section-dense-core.jpg        Cut ends compared: a dense WPC profile (left) and a hollow PVC strip (right)
+  wpc-panel-expansion-gap-with-end-trim.jpg     A 4 mm expansion gap at the panel end, hidden by a matching end trim
+  pvc-panels-in-utility-area.jpg                Hollow PVC strips in a utility area: cheap, waterproof and easy to wipe, where looks matter less
+  wpc-fluted-panel-samples-in-three-woodgrains.jpgWPC fluted panel samples in three woodgrains held against the wall before ordering

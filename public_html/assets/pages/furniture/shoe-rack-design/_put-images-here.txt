@@ -1,0 +1,11 @@
+Images for Shoe Rack Design: Capacity, Depth, Ventilation and Foyer Fit
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Foyer shoe cabinet with tilt-out shutters, a cushioned bench and a mirror above
+  foyer-tilt-out-shoe-cabinet-with-bench.jpg    Foyer tilt out shoe cabinet with bench
+  foyer-unit-with-bench-tall-closet-and-mirror.jpgA complete foyer: tilt-out shoe cabinet, cushioned bench, tall closet for bags and a mirror
+  ventilated-louvred-shoe-cabinet-doors.jpg     Louvred shoe cabinet doors that let air move and stop odours building up
+  shallow-tilt-out-shoe-cabinet-behind-door.jpg A 200 mm deep tilt-out shoe cabinet fitted behind a main door in a compact flat
+  shoe-cabinet-slotted-shelves-and-back-gap.jpg Slotted shelves and a ventilation gap at the back of a shoe cabinet to keep air moving

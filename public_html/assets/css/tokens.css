@@ -1,0 +1,73 @@
+/* =====================================================================
+   ENTERIORS — 1. TOKENS: brand colours, fonts, type scale, spacing
+   Change the look of the WHOLE site here. Every other file uses these
+   names, e.g. var(--red), var(--font-serif), var(--sp-4).
+
+   Load order (set in includes/config.php → CSS_FILES):
+   tokens → fonts → base → layout → components → header → footer
+   → page file (article.css / home.css) → utilities
+   ===================================================================== */
+@layer tokens, base, layout, components, header, footer, page, utilities;
+
+@layer tokens {
+  :root {
+    /* Brand colours */
+    --red: #C8102E;            /* primary accent: links, buttons, highlights */
+    --red-dark: #8B0000;       /* hover state for red */
+    --red-tint: #FDF0F2;       /* light red backgrounds */
+    --gold: #C9A84C;           /* ONLY on dark backgrounds (fails contrast on white) */
+
+    /* Neutrals */
+    --ink: #080808;            /* dark sections, header, footer */
+    --ink-2: #1A1A1A;          /* raised panels on dark */
+    --ink-3: #2E2E2E;          /* borders on dark */
+    --ink-4: #242424;          /* inputs on dark */
+    --red-soft: rgba(200,16,46,.12);  /* red glow/fill on dark */
+    --text: #232323;           /* body text on light (soft black) */
+    --muted: #5E5E5E;          /* secondary text on light (AA contrast) */
+    --muted-dark: #A3A3A3;     /* secondary text on dark */
+    --line: #E6E6E6;           /* borders on light */
+    --surface: #F6F5F3;        /* grey sections, table stripes */
+    --white: #FFFFFF;
+
+    /* Status (callouts, verdicts) */
+    --green: #1E7B4F;  --green-tint: #EDF7F1;
+    --amber: #9A6300;  --amber-tint: #FFF6E5;
+
+    /* Fonts: body = everything you read · serif = headings · display = logo, buttons, big numbers */
+    --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --font-display: 'Bebas Neue', 'Inter', Impact, sans-serif;
+    --weight-body: 400;        /* reading text */
+    --weight-heading: 400;     /* h1, h2 — light and open */
+    --weight-subheading: 500;  /* h3, h4, card titles */
+    --leading-body: 1.75;      /* line height of article text */
+
+    /* Type scale */
+    --fs-xs: 0.75rem;     /* 12px  labels, meta          */
+    --fs-sm: 0.875rem;    /* 14px  captions, tables      */
+    --fs-md: 1rem;        /* 16px  UI text               */
+    --fs-body: clamp(1.0625rem, 0.95rem + 0.4vw, 1.125rem); /* 17–18px article paragraphs */
+    --fs-lg: 1.25rem;     /* 20px  lede, h4              */
+    --fs-xl: 1.5rem;      /* 24px  h3                    */
+    --fs-2xl: clamp(1.75rem, 2.6vw, 2.25rem);  /* h2    */
+    --fs-3xl: clamp(2.25rem, 4vw, 3.5rem);     /* h1 / section titles */
+    --fs-hero: clamp(3rem, 7vw, 6.5rem);       /* home hero only */
+
+    /* Spacing (4-8-16 rhythm) */
+    --sp-1: 0.25rem; --sp-2: 0.5rem; --sp-3: 0.75rem; --sp-4: 1rem;
+    --sp-5: 1.5rem;  --sp-6: 2rem;   --sp-7: 3rem;    --sp-8: 4rem;  --sp-9: 6rem;
+
+    /* Shape & motion */
+    --radius-sm: 2px; --radius: 4px; --radius-lg: 10px; --radius-pill: 999px;
+    --shadow: 0 2px 14px rgba(0,0,0,.08);
+    --shadow-lg: 0 10px 36px rgba(0,0,0,.16);
+    --ease: .22s cubic-bezier(.4,0,.2,1);
+
+    /* Layout */
+    --max: 1320px;         /* page width */
+    --max-text: 72ch;      /* comfortable reading width */
+    --header-h: 64px;
+    --gutter: clamp(1rem, 4vw, 2rem);
+  }
+}

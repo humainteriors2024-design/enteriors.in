@@ -1,0 +1,6 @@
+Images and videos for the page  /materials/plywood-guide/
+
+hero.jpg (or .png / .webp) = the main image under the title and the share image.
+Any other file: name it in plain words, e.g. l-shape-kitchen-with-breakfast-counter.jpg,
+and show it in the page with  <?= img('l-shape-kitchen-with-breakfast-counter') ?>
+The file name becomes the alt text. JPG, JPEG, PNG and WebP all work.

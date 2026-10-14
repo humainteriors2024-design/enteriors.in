@@ -1,0 +1,15 @@
+Photos for the trending designs (/trending-designs/)
+
+Each design has its own folder here, named after its key in includes/data/trends.php:
+  /assets/trending/<design-key>/
+
+Upload 7 to 10 photos per design (JPG, PNG or WebP, landscape 3:2, at least 1600 px wide).
+Name them in plain words, in the order you want them shown:
+  01-living-room-with-cane-sofa.jpg
+  02-modular-kitchen-with-island.jpg  …
+The file name becomes the alt text. As soon as a folder has photos they replace the
+SAMPLE illustrations for that design, on the design page, its card and the home page.
+
+Easiest: /admin/images.php → find "Trending design: …" → upload into slots 01 to 10.
+
+samples/ holds the drawn SAMPLE illustrations. Delete it only after every design has real photos.

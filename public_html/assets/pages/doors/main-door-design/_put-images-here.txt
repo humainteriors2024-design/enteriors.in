@@ -1,0 +1,11 @@
+Images for Main Door Design: Materials, Security, Sizes and Style
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Teak veneer main door with vertical grooves, a brass pull handle and a digital lock
+  teak-veneer-main-door-with-brass-handle.jpg   Teak veneer main door with brass handle
+  apartment-main-door-digital-lock-and-video-bell.jpgAn apartment main door with a digital lock, video doorbell and a full-height pull handle
+  teak-main-door-carved-centre-panel-brass-inlay.jpgA teak main door with a carved centre panel and brass inlay lines: contemporary Indian style
+  entrance-with-veneer-cladding-around-main-door.jpgVeneer cladding wrapping the wall around a main door, with a downlight and a granite threshold
+  main-door-and-foyer-viewed-from-inside.jpg    The main door viewed from inside, with the foyer shoe cabinet, bench and mirror beside it

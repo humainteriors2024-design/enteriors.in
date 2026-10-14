@@ -1,0 +1,11 @@
+Images for Bed Design with Storage: Sizes, Hydraulic vs Box Storage, Materials
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Queen bed with a hydraulic lift storage base and an upholstered headboard
+  hydraulic-storage-bed-open.jpg                Hydraulic storage bed open
+  queen-bed-upholstered-headboard-floating-side-tables.jpgA queen bed with an upholstered headboard and floating side tables with drawers
+  bed-base-ventilation-slots-under-mattress.jpg Ventilation slots cut into a bed platform so the mattress can breathe in humid months
+  wall-bed-folding-into-study-cabinet.jpg       A wall bed that folds up into a study cabinet, freeing the floor of a small guest room
+  bedroom-floor-plan-bed-wardrobe-clearances.jpgA bedroom plan showing bed, wardrobe and dresser with clearances for doors and drawers

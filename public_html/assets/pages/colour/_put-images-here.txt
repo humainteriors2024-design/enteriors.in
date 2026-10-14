@@ -1,0 +1,10 @@
+Images for Wall Colour Combinations: How to Choose Colours for Every Room
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Paint swatches in warm neutrals and muted greens laid on a floor plan
+  large-paint-sample-boards-on-wall.jpg         Large paint sample boards on wall
+  paint-palette-for-whole-apartment-plan.jpg    A whole-home palette laid over a 2 BHK floor plan: one neutral family throughout, accents room by room
+  colour-schedule-shade-codes-by-room.jpg       A simple colour schedule: shade name, code, finish and room, kept for touch-ups and repaints
+  earth-tone-living-room-terracotta-and-clay.jpgTerracotta and clay with warm white: an earth-tone scheme that suits Indian light and materials

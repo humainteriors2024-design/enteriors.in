@@ -1,0 +1,24 @@
+/* =====================================================================
+   ENTERIORS — 10. UTILITIES: one-job helpers
+   ===================================================================== */
+@layer utilities {
+  .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .text-center { text-align: center; }
+  .muted { color: var(--muted); }
+  .mt-0 { margin-top: 0 !important; }
+  .mt-4 { margin-top: var(--sp-4); }
+  .mt-6 { margin-top: var(--sp-6); }
+  .mt-8 { margin-top: var(--sp-8); }
+  .mb-6 { margin-bottom: var(--sp-6); }
+
+  /* Style-guide swatches (used only on /style-guide/) ------------ */
+  .swatch { display: block; height: 56px; background: var(--swatch); border-radius: var(--radius); border: 1px solid var(--line); margin-bottom: var(--sp-2); }
+  .font-sample { font-size: 2rem; line-height: 1.2; }
+  .font-sample--display { font-family: var(--font-display); letter-spacing: .04em; }
+  .font-sample--serif { font-family: var(--font-serif); }
+  .font-sample--body { font-family: var(--font-body); }
+  /* Style guide: code line shown above each block */
+  .sg-code { margin: var(--sp-6) 0 var(--sp-3); font-size: var(--fs-xs); color: var(--muted); overflow-x: auto; white-space: nowrap; }
+  .sg-code code { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: .3rem .6rem; }
+  .section--grey .sg-code code { background: var(--white); }
+}

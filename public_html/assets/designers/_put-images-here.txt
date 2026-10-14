@@ -1,0 +1,190 @@
+Images for the interior designer directory (one per firm, optional).
+Name each file exactly as below, in JPG, PNG or WebP. It appears on the firm card on every page that lists the firm.
+Use only images you have the right to use (for example, a photo the firm has given you permission to publish).
+Easiest: open /admin/images.php?dir=/assets/designers and upload each photo there (it is resized and converted for you).
+Change the file name for a firm with 'image' => 'new-name' in includes/data/designers.php.
+
+livspace.jpg                      Livspace
+homelane.jpg                      HomeLane
+designcafe.jpg                    Design Cafe
+bonito.jpg                        Bonito Designs
+dlife.jpg                         D'LIFE Home Interiors
+decorpot.jpg                      Decorpot
+asian-paints-bh.jpg               Asian Paints Beautiful Homes
+godrej-interio.jpg                Godrej Interio
+interior-company.jpg              Interior Company
+wurfel-kuche.jpg                  Würfel Küche
+nolte-kuchen.jpg                  Nolte Küchen
+kuche7.jpg                        Küche7
+officebanao.jpg                   Officebanao
+khosla-associates.jpg             Khosla Associates
+the-karighars.jpg                 The KariGhars
+architecture-paradigm.jpg         Architecture Paradigm
+imaraa.jpg                        Imaraa
+psa-elements.jpg                  PSA Elements
+hundredhands.jpg                  Hundredhands
+de-panache.jpg                    De Panache
+carafina.jpg                      Carafina
+tesor-designs.jpg                 Tesor Designs
+kuvio-studio.jpg                  Kuvio Studio
+asense-interior.jpg               Asense Interior
+cubedecors.jpg                    Cubedecors
+ideas-and-living.jpg              Ideas & Living
+homzinterio.jpg                   Homzinterio
+aerie-design.jpg                  Aerie Design
+zz-architects.jpg                 ZZ Architects
+talati-partners.jpg               Talati & Partners
+essajees-atelier.jpg              Essajees Atelier
+ravi-vazirani.jpg                 Ravi Vazirani Design Studio
+sumessh-menon.jpg                 Sumessh Menon Associates
+soar-designs.jpg                  Soar Designs
+kea-design-labs.jpg               KEA Design Labs
+namaste-design.jpg                Namaste Design
+delecon-designs.jpg               Delecon Design Co.
+studio-nirmaan.jpg                Studio Nirmaan
+urban-niche.jpg                   Urban Niche Designs
+space-fornia.jpg                  Space Fornia
+kumar-interior.jpg                Kumar & Kumar Interiors
+vinayakk-interior.jpg             Vinayakk Interior
+home-makers.jpg                   Home Makers Interior Designers & Decorators
+shilpa-interior.jpg               Shilpa Interior Designers
+alcove-studio.jpg                 Alcove Studio
+space-design-group.jpg            Space Design Group
+shivam-interiors.jpg              Shivam Interiors
+aberrant-design.jpg               Aberrant Design Studio
+mumbai-interior.jpg               Mumbai Interior
+homely-design-studio.jpg          Homely Design Studio
+earth-interior.jpg                Earth Interiors
+dreams-decor.jpg                  Dreams Decor Interiors and Exteriors
+square-deal.jpg                   Square Deal Interior
+aatish-joshi.jpg                  Aatish Joshi Interior Designer
+tanpure-interior.jpg              Tanpure Interior and Constructions
+decor-zone.jpg                    Decor Zone Interiors
+vaid-architects.jpg               VAID Architects
+indesign-studio.jpg               InDesign Studio
+w-design-studio.jpg               W Design Studio
+xclusive-interiors.jpg            Xclusive Interiors
+tint-tone-shade.jpg               Tint Tone & Shade
+happy-living.jpg                  Happy Living Interiors
+tara-design.jpg                   Tara Design Solutions
+homefy-interio.jpg                Homefy Interio
+apple-interiors.jpg               Apple Interiors
+rbn-interiors.jpg                 RBN Interiors
+ansari-architects.jpg             Ansari Architects
+space-palette.jpg                 Space Palette
+eps-interior.jpg                  EPS Interior Industries
+offcentered.jpg                   Offcentered Architects & Interior Designers
+k-square.jpg                      K Square Architects
+amer-ani.jpg                      Amer & Ani Architects
+dwellion.jpg                      Dwellion
+srishti-studio.jpg                Srishti Design Studio
+irish-interiors.jpg               Irish Interiors
+budget-interiors.jpg              Budget Interiors
+d2m-interior.jpg                  D2M Interior
+makan-interio.jpg                 Makan Interio
+zenith-interior.jpg               Zenith Interior
+saha-interiors.jpg                Saha Interiors
+studio-osmosis.jpg                Studio Osmosis
+ampm-designs.jpg                  AMPM Designs
+5-wall-studios.jpg                5 Wall Studios
+evolve-interiors.jpg              Evolve Interiors & Associates
+decor-my-place.jpg                Decor My Place
+tatsavi-spaces.jpg                Tatsavi Spaces
+mminterio.jpg                     MMInterio
+studio-di-design.jpg              Studio Di Design
+misraas.jpg                       Misraas Realty Interior Designers
+g2design.jpg                      G2Design Interior
+interiorinpune.jpg                InteriorInPune
+mr-mrs-kitchens.jpg               Mr & Mrs Kitchen
+perfect-home-decor.jpg            Perfect Home Decor
+citi-design-studio.jpg            Citi Design Studio
+essentia-environments.jpg         Essentia Environments
+chalk-studio.jpg                  Chalk Studio
+native-sutra.jpg                  Native Sutra
+sai-interior-group.jpg            Sai Interior Group
+sara-designs.jpg                  Sara Designs
+high-creation.jpg                 High Creation Interior
+hammer-tong.jpg                   Hammer & Tong
+orange-feather.jpg                Orange Feather Designs
+skf-contractor.jpg                SKF Contractor
+interior-atoz.jpg                 Interior A to Z
+corporate-interiors-india.jpg     Corporate Interiors India
+skv-india.jpg                     SKV India
+trueseed.jpg                      TrueSeed
+lxm-interior.jpg                  LXM Interior
+orange-offices.jpg                Orange Offices
+studio-lotus.jpg                  Studio Lotus
+morphogenesis.jpg                 Morphogenesis
+k2india.jpg                       K2India
+lipika-sud.jpg                    Lipika Sud Interiors
+purple-studio.jpg                 Purple Studio
+dsi-interior.jpg                  DSI Interior
+design-essentials.jpg             Design Essentials
+udc-interiors.jpg                 UDC Interiors
+karma-interiors.jpg               Karma Interiors
+baljeet-associates.jpg            Baljeet & Associates
+synergy.jpg                       Synergy Corporate Interiors
+niveeta.jpg                       Niveeta Design & Build
+hub-and-oak.jpg                   Hub & Oak Interiors
+vision-infra.jpg                  Vision Infra & Interiors
+omax-service.jpg                  Omax Service
+kalakrity.jpg                     Kalakrity Interiors
+best-luxury-interiors.jpg         Best Luxury Interiors
+ashiyaa-interio.jpg               Ashiyaa Interio
+bosky-interior.jpg                Bosky Interior
+ashiana-interiors.jpg             Ashiana Interiors
+elegant-interior.jpg              Elegant Interior
+floorsy.jpg                       Floorsy
+interiorhubs.jpg                  InteriorHubs
+rk-interior.jpg                   RK Interior
+custom-design-interiors.jpg       Custom Design Interiors
+kolkata-interior.jpg              Kolkata Interior
+ideaa-spaace.jpg                  Ideaa Spaace
+intdesign.jpg                     INTDESIGN
+monnaie.jpg                       Monnaie Architects & Interiors
+ricco-interiors.jpg               RICCO Interiors
+lorem-designs.jpg                 Lorem Designs
+liva-interiors.jpg                Liva Interiors
+4squares.jpg                      4Squares Interiors
+i5-designs.jpg                    i5 Designs
+homworks.jpg                      Homworks
+ark-architects.jpg                ARK Architects and Interior Designers
+rias-architects.jpg               RIAS Architects & Interior Designers
+ya-interiors.jpg                  YA Interiors
+access-interiors.jpg              Access Interiors
+75-services.jpg                   75 Services
+amar-dexign-scape.jpg             Amar Dexign Scape
+id-interiors.jpg                  iD Interiors and Design Studio
+sri-vinayaga-interiors.jpg        Sri Vinayaga Interiors
+vishnu-interior.jpg               Vishnu Interior
+creative-fusion.jpg               Creative Fusion
+ibuild-interiors.jpg              i Build Interiors
+livinwood.jpg                     Livinwood
+scapes-interio.jpg                Scapes Interio
+nk-interior-works.jpg             NK Interior Works
+starbricks.jpg                    Starbricks Interiors
+castelinos.jpg                    Castelino's Interiorscape
+unfold-design.jpg                 Unfold Design Architects
+inhouse-xpressions.jpg            Inhouse Xpressions
+pencil-kart.jpg                   Pencil Kart Home Interiors
+sri-vekkaliamman.jpg              Sri Vekkaliamman Interiors
+homeden.jpg                       Homeden Interior
+prasanna-constructions.jpg        Prasanna Constructions
+made-and-make.jpg                 Made & Make Interiors
+madan-interior.jpg                Madan Interior Work
+nakshathra-interio.jpg            Nakshathra Interio
+leela-interiors.jpg               Leela Interiors
+dream-home-nellore.jpg            Dream Home Interiors
+predu.jpg                         PreDu Design Studio
+architale.jpg                     Architale Constructions
+rs-tech-interiors.jpg             RS Tech Interiors
+anss-inface.jpg                   ANSS Inface
+veljhood-designers.jpg            Veljhood Designers
+home-kitchen-interiors.jpg        Home Kitchen Interiors
+vellore-interior.jpg              Vellore Interior
+well-and-wall.jpg                 Well and Wall Home Interiors & Construction
+sri-lakshmi-builders.jpg          Sri Lakshmi Builders
+gauri-khan-designs.jpg            Gauri Khan Designs
+charcoal-project.jpg              The Charcoal Project
+ashiesh-shah.jpg                  Ashiesh Shah Architecture + Design
+the-orange-lane.jpg               The Orange Lane

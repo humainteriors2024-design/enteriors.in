@@ -1,0 +1,30 @@
+/* =====================================================================
+   ENTERIORS — 8. ARTICLE PAGES (pillar, article, compare): verdict, contents list, share buttons
+   ===================================================================== */
+@layer page {
+  /* 4.9 Verdict (compare pages: "Choose X if… / Choose Y if…") --------- */
+  .verdict { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--sp-4); }
+  .verdict__option { border: 1px solid var(--line); border-top: 4px solid var(--red); border-radius: var(--radius); padding: var(--sp-5); }
+  .verdict__option:nth-child(2) { border-top-color: var(--ink); }
+  .verdict__option h3 { font-size: var(--fs-lg); margin-bottom: var(--sp-3); }
+  .verdict__option ul { padding-left: 1.2em; font-size: var(--fs-md); }
+  /* 4.10 Table of contents (sticky left column) ------------------------ */
+  .toc { border-left: 3px solid var(--red); background: var(--surface); padding: var(--sp-5) var(--sp-4); border-radius: 0 var(--radius) var(--radius) 0; }
+  .toc__title { font-size: var(--fs-xs); font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: var(--red); margin-bottom: var(--sp-3); }
+  .toc ol { list-style: none; counter-reset: toc; }
+  .toc li { counter-increment: toc; }
+  .toc a { display: flex; gap: var(--sp-2); padding: .3rem 0; font-size: var(--fs-sm); line-height: 1.4; color: var(--text); text-decoration: none; }
+  .toc a::before { content: counter(toc) '.'; color: var(--muted); min-width: 1.4em; }
+  .toc a:hover, .toc a[aria-current="true"] { color: var(--red); }
+  .toc details summary { list-style: none; cursor: pointer; }
+  @media (min-width: 1025px) { .toc details summary { pointer-events: none; } }
+  /* 4.11 Share bar (right column on desktop, bottom bar on mobile) ----- */
+  .share { display: flex; flex-direction: column; gap: var(--sp-3); align-items: center; }
+  .share a {
+    width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%;
+    background: var(--ink); color: var(--white); transition: background var(--ease), transform var(--ease);
+  }
+  .share a:hover { background: var(--red); color: var(--white); transform: translateY(-2px); }
+  .share svg { width: 18px; height: 18px; fill: currentColor; }
+  @media (max-width: 1024px) { .share { flex-direction: row; justify-content: center; } }
+}

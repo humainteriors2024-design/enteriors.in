@@ -1,0 +1,49 @@
+/* =====================================================================
+   ENTERIORS — INTERIOR DESIGNER LISTINGS (/interior-designer-near-me/, /interior-designers/...)
+   Segment badges, firm cards, comparison table and city grid.
+   Loaded by pages that set 'css' => ['designers'].
+   ===================================================================== */
+@layer page {
+  /* Segment badges: luxury · premium · mid-range · budget */
+  .seg { display: inline-block; font-size: var(--fs-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: .1rem .5rem; border-radius: var(--radius-pill); border: 1px solid var(--line); white-space: nowrap; vertical-align: middle; }
+  .seg--luxury  { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .seg--premium { background: var(--red-tint); color: var(--red-dark); border-color: rgba(200,16,46,.25); }
+  .seg--mid     { background: var(--surface); color: var(--text); }
+  .seg--budget  { background: var(--green-tint); color: var(--green); border-color: rgba(30,123,79,.25); }
+
+  /* Comparison table */
+  .designer-table caption { caption-side: bottom; text-align: left; font-size: var(--fs-sm); color: var(--muted); padding: var(--sp-2) var(--sp-3); }
+  .designer-table td a { font-weight: 600; }
+
+  /* Firm cards */
+  .designers { display: grid; gap: var(--sp-5); margin-block: var(--sp-5); }
+  .designer { border: 1px solid var(--line); border-radius: var(--radius-lg); padding: var(--sp-5); scroll-margin-top: calc(var(--header-h) + var(--sp-4)); }
+  .designer--img { display: grid; gap: var(--sp-5); grid-template-columns: minmax(0, 1fr); }
+  @media (min-width: 720px) { .designer--img { grid-template-columns: 220px minmax(0, 1fr); } }
+  .designer__img { margin: 0; }
+  .designer__img img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
+  .designer__name { font-size: var(--fs-lg); margin: 0 0 var(--sp-1); display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2); }
+  .designer__name a { color: var(--text); text-decoration: none; }
+  .designer__name a:hover { color: var(--red); }
+  .designer__meta { font-size: var(--fs-sm); color: var(--muted); margin: 0 0 var(--sp-3); }
+  .designer__note { margin: 0 0 var(--sp-3); }
+  .designer__facts { display: grid; gap: var(--sp-2); margin: 0 0 var(--sp-3); font-size: var(--fs-sm); }
+  .designer__facts > div { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: var(--sp-3); }
+  .designer__facts dt { font-weight: 600; color: var(--muted); }
+  .designer__facts dd { margin: 0; }
+  .designer__map { margin-left: var(--sp-2); font-size: var(--fs-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+  .designer__link { margin: 0; font-size: var(--fs-sm); }
+
+  /* People (famous designers article) */
+  .person { border-left: 3px solid var(--red); padding: var(--sp-2) 0 var(--sp-2) var(--sp-5); margin-block: var(--sp-6); }
+  .person h3 { margin-top: 0; }
+  .person__studio { font-size: var(--fs-sm); color: var(--muted); }
+
+  /* City selector */
+  .city-grid { margin-block: var(--sp-5); }
+  .city-grid .card__title { font-size: var(--fs-md); }
+  .designer-method p:last-child { margin-bottom: 0; }
+}
+@layer page {
+  .designer-method p + p { margin-top: var(--sp-2); }
+}

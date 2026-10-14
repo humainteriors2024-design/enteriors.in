@@ -1,0 +1,13 @@
+Images for U-Shape Kitchen Designs: The Three-Wall Workflow Machine
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: U-Shape Kitchen Designs: The Three-Wall Workflow Machine
+  spacious-u-shape-modular-kitchen-wrapping-three-walls-with-a.jpgSpacious U-shape modular kitchen wrapping three walls with a
+  magic-corner-pull-out-unit-in-a-u-shape-kitchen.jpgMagic corner pull out unit in a U-shape kitchen
+  carousel-corner-storage-unit-in-a-modular-kitchen.jpgCarousel corner storage unit in a modular kitchen
+  u-shape-kitchen-with-peninsula-and-breakfast-bar-seating.jpgU-shape kitchen with peninsula and breakfast bar seating
+  all-white-u-shape-kitchen-keeping-the-enclosed-space-bright.jpgAll white U-shape kitchen keeping the enclosed space bright
+  light-wood-and-white-two-tone-u-shape-kitchen.jpgLight wood and white two tone U-shape kitchen
+  soft-grey-u-shape-kitchen-with-light-uppers.jpgSoft grey U-shape kitchen with light uppers

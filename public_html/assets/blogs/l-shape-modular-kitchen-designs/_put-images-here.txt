@@ -1,0 +1,14 @@
+Images for L-Shape Modular Kitchen Designs: Colors, Layouts & Smart Space Ideas
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: L-Shape Modular Kitchen Designs: Colors, Layouts & Smart Space Ideas
+  open-l-shape-kitchen-connected-to-living-room-in-a-modern-ap.jpgOpen L-shape kitchen connected to living room in a modern ap
+  white-and-oak-l-shape-modular-kitchen.jpg     White and oak L-shape modular kitchen
+  white-upper-cabinets-with-walnut-lower-cabinets.jpgWhite upper cabinets with walnut lower cabinets
+  warm-toned-l-shape-kitchen-with-earthy-colour-palette.jpgWarm toned L-shape kitchen with earthy colour palette
+  l-shape-kitchen-showing-efficient-work-triangle-between-stov.jpgL-shape kitchen showing efficient work triangle between stov
+  small-white-l-shape-kitchen-with-light-wood-tones.jpgSmall white L-shape kitchen with light wood tones
+  handle-less-small-kitchen-with-slab-doors.jpg Handle less small kitchen with slab doors
+  bright-l-shape-kitchen-with-glass-front-cabinets.jpgBright L-shape kitchen with glass front cabinets

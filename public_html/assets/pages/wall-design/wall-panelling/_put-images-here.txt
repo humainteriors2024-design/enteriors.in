@@ -1,0 +1,10 @@
+Images for Wall Panelling Design: Materials, Profiles, Fixing and Cost
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Walnut veneer wall panelling with vertical grooves behind a living-room sofa
+  veneer-wall-panelling-with-grooves.jpg        Veneer wall panelling with grooves
+  upholstered-bed-back-panelling-with-reading-lights.jpgUpholstered panels at headboard height with veneer above and integrated reading lights
+  wall-panelling-batten-frame-before-boarding.jpgThe batten frame with conduits and a plywood TV backing, before the panels go on
+  smoked-oak-veneer-panelling-fine-grooves.jpg  Smoked oak veneer with fine 3 mm grooves: the calm, full-height look that has replaced busy mixed-material walls

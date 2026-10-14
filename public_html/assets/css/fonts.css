@@ -1,0 +1,11 @@
+/* ENTERIORS — 2. FONTS: self-hosted files in /assets/fonts/ (no Google request)
+   Inter      body text and labels — light, open, easy to read on phones (variable weight 100–900)
+   Fraunces   headings — a soft serif used at a light weight (variable weight 100–900)
+   Bebas Neue logo, buttons and big numbers only
+   The tiny "-rupee" files add the ₹ sign, which the standard Latin files leave out. */
+@font-face { font-family: 'Inter'; src: url('../fonts/inter.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('../fonts/inter-rupee.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; unicode-range: U+20B9; }
+@font-face { font-family: 'Fraunces'; src: url('../fonts/fraunces.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Fraunces'; src: url('../fonts/fraunces-italic.woff2') format('woff2'); font-weight: 100 900; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Fraunces'; src: url('../fonts/fraunces-rupee.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; unicode-range: U+20B9; }
+@font-face { font-family: 'Bebas Neue'; src: url('../fonts/bebas-neue.woff2') format('woff2'); font-weight: 400; font-display: swap; }

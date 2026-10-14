@@ -1,0 +1,12 @@
+Images for Stone Wall Cladding: Natural, Engineered and Faux Stone Compared
+Easiest: open /admin/images.php, find this page and upload each photo; it is resized, converted to WebP and named for you.
+By hand: upload JPG, PNG or WebP with exactly these names (the description becomes the alt text and caption).
+
+This page is waiting for:
+  hero.jpg                                      Main image: under the title, on cards and when shared (landscape, 1600 × 900 or larger). Shows: Feature wall clad in split-face slate stone with warm downlights
+  split-face-slate-stone-tv-wall.jpg            Split face slate stone TV wall
+  rajasthan-sandstone-ledge-panels.jpg          Rajasthan sandstone ledge panels in warm beige: inexpensive and handsome, but seal it against stains
+  quartzite-cladding-on-villa-facade.jpg        Quartzite cladding on a villa façade, with a coping that throws rain clear of the stone
+  grazing-light-on-split-face-slate.jpg         A narrow-beam downlight close to the wall picks out every ledge of split-face slate
+  stone-cladding-samples-slate-quartzite-sandstone.jpgSlate, quartzite and sandstone samples side by side: compare colour, texture and absorption before choosing
+  full-crate-of-quartzite-ledge-panels.jpg      Inspect a full crate of stone panels, not a single sample, to see the real colour range
