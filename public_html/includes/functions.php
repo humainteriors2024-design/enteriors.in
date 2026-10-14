@@ -18,6 +18,10 @@ function is_staging() {
   return $s = !($host === $live || $host === 'www.' . $live);
 }
 
+// Pre-launch lock (config.php → LAUNCHED) or a staging address: nothing may be indexed or tracked
+function site_locked() { return !LAUNCHED || is_staging(); }
+function robots_header() { if (site_locked() && !headers_sent()) header('X-Robots-Tag: noindex, nofollow'); }
+
 // Current URL path, always ending in /
 function current_path() {
   $p = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';

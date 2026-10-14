@@ -38,10 +38,10 @@ $page['hub_tracking'] = $hub['tracking'] ?? [];                                 
 media_folder_ready(media_dir($page), $page);                                              // every page gets its image folder automatically
 $heroImg   = media_find(MEDIA['hero_name'], media_dir($page));
 $page['image'] = $page['image'] ?? ($heroImg['url'] ?? SITE['image']);                    // share image: the page's hero, else the site default
-$noindex   = $page['noindex'] || is_staging();
+$noindex   = $page['noindex'] || site_locked();   // pre-launch lock or staging: every page is noindex
 $cssList   = array_unique(array_merge(CSS_FILES, CSS_BY_TYPE[$page['type']] ?? [], $page['css'], CSS_LAST));
 $ver       = fn($f) => @filemtime($_SERVER['DOCUMENT_ROOT'] . $f) ?: 1;   // cache-buster: changes when the file changes
-if (is_staging() && !headers_sent()) header('X-Robots-Tag: noindex, nofollow');
+robots_header();
 
 ob_start();   // lets foot.php add the contents list and heading anchors
 ?>
@@ -53,7 +53,10 @@ ob_start();   // lets foot.php add the contents list and heading anchors
   <title><?= e($fullTitle) ?></title>
   <meta name="description" content="<?= e($page['description']) ?>">
   <link rel="canonical" href="<?= e($canonical) ?>">
-  <meta name="robots" content="<?= $noindex ? 'noindex, ' . (is_staging() ? 'nofollow' : 'follow') : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' ?>">
+  <meta name="robots" content="<?= $noindex ? 'noindex, ' . (site_locked() ? 'nofollow' : 'follow') : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' ?>">
+<?php if (!LAUNCHED && !is_staging()): ?>
+  <!-- pre-launch lock (config.php → LAUNCHED = false): noindex, no tracking, no sitemap -->
+<?php endif; ?>
   <meta property="og:site_name" content="<?= e(SITE['name']) ?>">
   <meta property="og:type" content="<?= $reading ? 'article' : 'website' ?>">
   <meta property="og:title" content="<?= e($page['seo_title'] ?? $page['title']) ?>">

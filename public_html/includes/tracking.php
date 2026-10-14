@@ -1,7 +1,7 @@
 <?php
 /* =====================================================================
    ENTERIORS — TRACKING (GA4, Google Tag Manager, Google Ads, Meta Pixel, Microsoft Clarity)
-   IDs come from config.php → TRACKING. Nothing loads on staging.
+   IDs come from config.php → TRACKING. Nothing loads on staging or while config.php → LAUNCHED is false.
 
    WHICH ID A PAGE USES — most specific wins:
      1. config.php → TRACKING                          the whole site
@@ -70,7 +70,7 @@ function tracking_head($page = [], $hub = null) {
       . 'else if(/^(click_call|click_whatsapp)$/.test(g))fbq("track","Contact",{content_category:d.pillar,method:g});'
       . 'else if(g==="article_read")fbq("trackCustom","ArticleRead",{content_category:d.pillar});};'
       . "</script>\n";
-  if (is_staging()) return $h . "  <!-- staging: tracking tags are off (dataLayer and entTrack still run, so events can be checked in the browser console) -->\n";
+  if (site_locked()) return $h . "  <!-- " . (is_staging() ? 'staging' : 'pre-launch lock') . ": tracking tags are off (dataLayer and entTrack still run, so events can be checked in the browser console) -->\n";
 
   if ($t['gtm']) $h .= "  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer'," . $j($t['gtm']) . ");</script>\n";
 
@@ -93,14 +93,14 @@ function tracking_head($page = [], $hub = null) {
 
 function tracking_body($page = []) {
   $t = tracking_ids($page);
-  if (is_staging() || !$t['gtm']) return '';
+  if (site_locked() || !$t['gtm']) return '';
   return '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=' . e($t['gtm']) . '" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>' . "\n";
 }
 
 /* Server-side lead event — GA4 Measurement Protocol and Meta Conversions API.
    Runs only on the live site, only when the secret/token is set, never slows the visitor (2 s timeout). */
 function track_server_lead($lead, $eventId) {
-  if (is_staging()) return;
+  if (site_locked()) return;
   $hub = ($lead['pillar'] ?? '') ? hub($lead['pillar']) : hub_for(rtrim($lead['source'] ?: '/', '/') . '/');
   $t = tracking_ids(['hub_tracking' => $hub['tracking'] ?? []]);
   $post = function ($url, $body) {

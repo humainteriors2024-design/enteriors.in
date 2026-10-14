@@ -8,7 +8,7 @@
    everywhere — nothing breaks.
 
    Sections
-     0  Live / staging switch        6  Site facts (ratings, warranty …)
+     0  LAUNCH SWITCH, live/staging  6  Site facts (ratings, warranty …)
      1  Website name and URL         7  Services, areas served, cost links
      2  Contact details (NAP)        8  Authors, reviews, home stats
      3  Social links                 9  Image folders and formats
@@ -20,12 +20,25 @@
    Calculator prices are NOT here: includes/calc/rates.php
    ===================================================================== */
 
-/* ---------- 0. LIVE / STAGING SWITCH ----------
+/* ---------- 0. LAUNCH SWITCH — the ONE line to change on launch day ----------
+   false = PRE-LAUNCH LOCK (now): on every address, including enteriors.in —
+             • every page says noindex, nofollow (meta robots AND the X-Robots-Tag header)
+             • no tracking tags (GA4, GTM, Ads, Meta Pixel, Clarity) and no server-side lead events
+             • /sitemap.xml and /llms.txt answer "not found"; robots.txt lists no sitemap and keeps
+               Google Images out (pages stay crawlable so search engines can SEE the noindex)
+             • the footer has no Sitemap link
+           Forms keep working normally and leads are real (not marked TEST).
+   true  = LAUNCHED: the site can be indexed, tracking runs (when IDs are set), sitemap and llms.txt are on.
+   Check after flipping: open /robots.txt, /sitemap.xml and view the source of any page (meta name="robots"). */
+const LAUNCHED = false;
+
+/* ---------- 0b. LIVE / STAGING (by address) ----------
    'auto'    = live only when the site is opened on the SITE url below; any
                other address (test sub-domain, localhost, IP) is staging.
    'live'    = force live.      'staging' = force staging.
    Staging: pages are noindex, tracking tags are off, a ribbon shows at the
-   top, missing images show as labelled boxes, leads are saved as TEST. */
+   top, missing images show as labelled boxes, leads are saved as TEST.
+   (Staging is always locked, whatever LAUNCHED says.) */
 const ENV = 'auto';
 
 /* ---------- 1. WEBSITE NAME AND URL ---------- */

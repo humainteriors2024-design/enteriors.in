@@ -30,3 +30,4 @@ require_once __DIR__ . '/schema.php';
 require_once __DIR__ . '/designers.php';
 require_once __DIR__ . '/mailer.php';
 require_once __DIR__ . '/finder.php';
+robots_header();   // pre-launch lock: every response from PHP carries X-Robots-Tag: noindex, nofollow (config.php → LAUNCHED)

@@ -3,6 +3,7 @@
    Built automatically from includes/nav.php (pillars and their live pages), the calculators and
    includes/posts-data.php. Nothing to edit; it grows as you upload pages. Served via .htaccess. */
 require __DIR__ . '/includes/site.php';
+if (site_locked()) { http_response_code(404); header('Content-Type: text/plain; charset=utf-8'); echo "Not found.\n"; exit; }   // pre-launch lock (config.php → LAUNCHED)
 require_once __DIR__ . '/includes/calc/engine.php';
 header('Content-Type: text/plain; charset=utf-8');
 header('X-Robots-Tag: noindex');

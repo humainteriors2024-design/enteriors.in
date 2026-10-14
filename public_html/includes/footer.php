@@ -46,7 +46,9 @@ $icons = [
       <p>© <?= date('Y') ?> <?= e(NAP['legal_name'] ?: SITE['name']) ?>. Prices are indicative for Bangalore &amp; Hosur; actual quotes vary by site and specification.</p>
       <div class="cluster" style="--gap: var(--sp-5)">
 <?php foreach (live_links($LEGAL_LINKS) as $l) echo '<a href="' . e($l['href']) . '">' . e($l['label']) . '</a>'; ?>
+<?php if (!site_locked()): ?>
         <a href="/sitemap.xml">Sitemap</a>
+<?php endif; ?>
       </div>
       <div class="social">
 <?php foreach (array_filter(SOCIAL) as $name => $url) echo '<a href="' . e($url) . '" target="_blank" rel="noopener" aria-label="' . e(SITE['name']) . ' on ' . $name . '"><svg viewBox="0 0 24 24"><path d="' . $icons[$name] . '"/></svg></a>'; ?>

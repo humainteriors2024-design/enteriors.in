@@ -4,13 +4,15 @@
    Lists every folder that has an index.php plus every blog post in
    includes/posts-data.php, with the page's 'updated' date. Pages with
    'noindex' => true, drafts and private folders are skipped.
-   Nothing to edit when you add pages. On staging the sitemap is empty.
+   Nothing to edit when you add pages.
+   Pre-launch lock (config.php → LAUNCHED = false) and staging: answers "not found", so no sitemap is exposed.
    ===================================================================== */
 require __DIR__ . '/includes/site.php';
+if (site_locked()) { http_response_code(404); header('Content-Type: text/plain; charset=utf-8'); echo "Not found.\n"; exit; }
 $root = rtrim($_SERVER['DOCUMENT_ROOT'] ?: __DIR__, '/');
 $skip = '#^/(includes|assets|api|admin|_templates|style-guide|thank-you|blogs/[^/]+)(/|$)#';
 $urls = [];
-if (!is_staging()) {
+if (!site_locked()) {
   $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($root, FilesystemIterator::SKIP_DOTS));
   foreach ($it as $file) {
     if ($file->getFilename() !== 'index.php') continue;
