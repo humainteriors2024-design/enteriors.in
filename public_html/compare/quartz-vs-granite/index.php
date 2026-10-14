@@ -37,12 +37,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Natural vs Engineered Stone: What It Means for You</h3>
 <p>The "natural vs engineered" distinction has real-world implications far beyond origin. Natural granite carries the unique aesthetic of geological time — no two slabs are ever identical. Engineered quartz offers reproducibility: you can order matching slabs years apart and they'll look the same.</p>
 <p>From a performance standpoint, the engineering process that makes quartz eliminates porosity — granite's primary vulnerability. However, the same resins that seal quartz also limit its heat tolerance, a trade-off that has concrete consequences in busy kitchens.</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>💡<p><strong>Quick Takeaway</strong> Think of granite as a work of natural art that requires a little care, and quartz as a high-performance engineered product engineered for consistency and low maintenance.</div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span>💡<p><strong>Quick Takeaway</strong> Think of granite as a work of natural art that requires a little care, and quartz as a high-performance engineered product engineered for consistency and low maintenance.</p></div>
 <p>Section 02 — Material Science</p>
 <h2>Composition &amp; Material Structure</h2>
 <h3>Quartz: What's Inside the Slab</h3>
 <p>A typical quartz slab is composed of <strong>90–95% crushed quartz</strong> (one of nature's hardest minerals at Mohs 7), combined with polymer resins (polyester or acrylic) that act as a binder and provide color, along with pigments and sometimes glass, mirror, or metalite fragments for visual effect. The slabs are pressed under 100+ tonnes of pressure via a Bretonstone vacuum-vibro compaction process, creating a homogeneous, virtually non-porous surface.</p>
-<div class="callout"><span class="callout__title">Note</span>🔬<p><strong>VOC Note</strong> The resins used in quartz can emit low-level volatile organic compounds (VOCs) during manufacturing. High-quality brands like Caesarstone and Cambria have earned <strong>GREENGUARD Gold certification</strong>, meaning VOC emissions in use are within safe limits for homes and schools.</div>
+<div class="callout"><span class="callout__title">Note</span>🔬<p><strong>VOC Note</strong> The resins used in quartz can emit low-level volatile organic compounds (VOCs) during manufacturing. High-quality brands like Caesarstone and Cambria have earned <strong>GREENGUARD Gold certification</strong>, meaning VOC emissions in use are within safe limits for homes and schools.</p></div>
 <h3>Granite: What Millions of Years Create</h3>
 <p>Granite is primarily composed of <strong>quartz (20–60%), feldspar (10–65%), and mica</strong>, with smaller quantities of amphiboles, pyroxenes, and trace minerals. The exact mineral ratio determines the stone's color palette: high feldspar content yields pinks and reds; iron and magnesium-rich minerals produce black and grey tones; and exotic stones can include garnets, azurite, or serpentine veins.</p>
 <p>The interlocking crystal structure gives granite exceptional hardness and load-bearing strength, but also creates micro-pores at crystal boundaries — the reason granite requires periodic sealing.</p>
@@ -88,14 +88,14 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>8.5/10</p>
 <h3>Scratch Resistance in Depth</h3>
 <p>Quartz scores a <strong>7 on the Mohs hardness scale</strong> — the same as the quartz minerals it contains, and harder than most knives (steel knives are typically Mohs 5.5–6.5). Granite also rates <strong>6–7 on the Mohs scale</strong>, with variation depending on mineral composition. In practice, both surfaces resist everyday knife scratches well, but <strong>neither should be used as a cutting surface</strong> — you'll dull your knives far faster than you'll scratch the countertop.</p>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span>⚠️<p><strong>Scratch Warning</strong> Dragging gritty items (ceramic pots, sandpaper-bottomed appliances, or gravel tracked in from outdoors) across either surface can cause micro-scratches that dull the finish over time. Always lift — never drag — heavy or rough-bottomed objects.</div>
+<div class="callout callout--warn"><span class="callout__title">Watch out</span>⚠️<p><strong>Scratch Warning</strong> Dragging gritty items (ceramic pots, sandpaper-bottomed appliances, or gravel tracked in from outdoors) across either surface can cause micro-scratches that dull the finish over time. Always lift — never drag — heavy or rough-bottomed objects.</p></div>
 <p>Section 05 — Heat &amp; UV</p>
 <h2>Heat Resistance, Thermal Shock &amp; UV Resistance</h2>
 <h3>Heat Resistance: Granite Wins Clearly</h3>
 <p>This is the most practically consequential performance difference between the two materials — and the one most homeowners discover the hard way.</p>
 <p><strong>Granite</strong> is a natural stone that formed at temperatures exceeding 700°C. It can handle direct contact with hot pots and pans without damage, discoloration, or structural compromise. Professional chefs and serious home cooks who regularly work with searing-hot cast iron, dutch ovens, and sheet pans strongly prefer granite for this reason.</p>
 <p><strong>Quartz</strong> contains polymer resins that begin to degrade at approximately <strong>150°C (300°F)</strong>. A hot pot fresh off the stove (typically 200–300°C) placed directly on quartz can cause <strong>discoloration, warping, or cracking</strong> — damage that is expensive and difficult to repair. This is one of quartz's genuine weaknesses.</p>
-<div class="callout"><span class="callout__title">Note</span>🔥<p><strong>Critical Rule for Quartz Owners</strong> Always use trivets, silicone mats, or pot holders when placing hot items on quartz. Never place a slow cooker, electric skillet, or pan from the oven directly on the surface. This is not a scare tactic — thermal damage to quartz is one of the top warranty claim categories.</div>
+<div class="callout"><span class="callout__title">Note</span>🔥<p><strong>Critical Rule for Quartz Owners</strong> Always use trivets, silicone mats, or pot holders when placing hot items on quartz. Never place a slow cooker, electric skillet, or pan from the oven directly on the surface. This is not a scare tactic — thermal damage to quartz is one of the top warranty claim categories.</p></div>
 <h3>Thermal Shock Resistance</h3>
 <p>Thermal shock — rapid temperature change, such as placing a frozen pan on a hot countertop — poses a greater risk to granite than quartz. While granite handles steady heat beautifully, sudden temperature differentials can propagate cracks from existing micro-fissures. In practice, this risk is minor with normal kitchen use.</p>
 <h3>UV Resistance: Quartz Fades, Granite Doesn't</h3>
@@ -165,7 +165,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Quartz's non-porous structure means bacteria, mold, and mildew have no micro-cavities to harbor in. Studies by NSF International have found that quartz countertops support significantly lower bacterial counts than porous alternatives. Many quartz products contain <strong>antimicrobial additives</strong> (typically silver ions) baked into the slab. Silestone by Cosentino, for example, integrates Bacteriostatic HybriQ technology. Quartz is the preferred choice in commercial kitchen environments and is approved for food contact surfaces in many jurisdictions.</p>
 <h3>Granite: Safe When Sealed, Compromised When Not</h3>
 <p>Sealed granite is perfectly safe for food preparation. The risk arises with aging, cracked, or absent sealant — in these conditions, micro-pores can trap bacteria, food particles, and moisture, creating environments for microbial growth. The key is <strong>maintaining seal integrity</strong>. A simple water-bead test (if water beads on the surface, the seal is intact; if it absorbs, it's time to re-seal) should be performed every 6–12 months.</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>🦠<p><strong>Bacteria Test</strong> Any countertop material — including quartz and sealed granite — should be cleaned with a food-safe disinfectant after handling raw meat, poultry, or seafood. No countertop material is self-sanitizing, despite marketing claims.</div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span>🦠<p><strong>Bacteria Test</strong> Any countertop material — including quartz and sealed granite — should be cleaned with a food-safe disinfectant after handling raw meat, poultry, or seafood. No countertop material is self-sanitizing, despite marketing claims.</p></div>
 <p>Section 09 — Installation</p>
 <h2>Installation Complexity, Weight &amp; Seam Visibility</h2>
 <div class="table-wrap">
@@ -224,7 +224,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>Return on Investment &amp; Home Resale Value</h2>
 <p>Both quartz and granite are recognized as premium countertop upgrades that add measurable value to residential properties. Remodeling Magazine's 2025 Cost vs. Value Report consistently shows kitchen renovations featuring natural or engineered stone countertops recovering <strong>60–80%</strong> of their cost in home value.</p>
 <p><strong>Granite</strong> carries slightly stronger resale value in traditional and high-end markets where buyers specifically seek natural materials and are familiar with the prestige of stone. <strong>Quartz</strong> increasingly dominates in contemporary new-construction markets and among buyers who prioritize low maintenance. In many urban and suburban markets as of 2026, quartz is now the standard expected in premium homes — making it increasingly table-stakes rather than a differentiator.</p>
-<div class="callout"><span class="callout__title">Note</span>🏡<p><strong>Real Estate Agent Consensus (2026)</strong> Most real estate professionals report that both materials are near-equivalent from a resale standpoint in most markets. The bigger ROI driver is the quality of the overall kitchen renovation — layout, appliances, lighting, and cabinetry — rather than the countertop material choice.</div>
+<div class="callout"><span class="callout__title">Note</span>🏡<p><strong>Real Estate Agent Consensus (2026)</strong> Most real estate professionals report that both materials are near-equivalent from a resale standpoint in most markets. The bigger ROI driver is the quality of the overall kitchen renovation — layout, appliances, lighting, and cabinetry — rather than the countertop material choice.</p></div>
 <p>Section 13 — When Things Go Wrong</p>
 <h2>Repair, Refinishing &amp; Restoration</h2>
 <h3>Granite: More Repairable</h3>
@@ -403,11 +403,17 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </ul>
 <h2>The Bottom Line</h2>
 <p>Quartz wins on maintenance, hygiene, stain resistance, and design consistency. Granite wins on heat tolerance, UV stability, natural beauty, repairability, and outdoor suitability. There is no universally superior material — only the superior choice <em>for your specific kitchen, lifestyle, and priorities</em>. Use this guide to make that determination confidently.</p>
-<div class="callout"><span class="callout__title">Best Overall</span>Quartz</p>
-<div class="callout"><span class="callout__title">Best for Chefs</span>Granite</div>
-<div class="callout"><span class="callout__title">Best Maintenance</span>Quartz</div>
-<div class="callout"><span class="callout__title">Best Aesthetics</span>Granite</div>
-<p>Best OutdoorsGranite</p>
-<div class="callout"><span class="callout__title">Best Value Long-Term</span>Quartz</div></div>
-<div class="callout callout--tip"><span class="callout__title">Tip</span>📌<p><strong>Found This Guide Helpful?</strong> Share it with someone planning a kitchen renovation — and bookmark it for reference during your own decision-making process. The "right" countertop is the one that fits your life, not the one that wins the most comparison categories.</div>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>If you care most about</th><th>Choose</th></tr></thead>
+  <tbody>
+    <tr><td>Overall, for most Indian kitchens</td><td>Quartz</td></tr>
+    <tr><td>Heat from daily cooking (hot pans, tawa)</td><td>Granite</td></tr>
+    <tr><td>Low maintenance and stain resistance</td><td>Quartz</td></tr>
+    <tr><td>Natural stone look, every slab unique</td><td>Granite</td></tr>
+    <tr><td>Outdoor or sunlit counters</td><td>Granite</td></tr>
+    <tr><td>Long-term value with little upkeep</td><td>Quartz</td></tr>
+  </tbody>
+</table>
+</div>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

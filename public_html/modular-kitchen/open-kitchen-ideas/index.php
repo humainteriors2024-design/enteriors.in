@@ -248,21 +248,21 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>After hundreds of open kitchen projects, certain principles recur in every successful outcome. These are not trend-driven — they are structural rules that will remain true in 2030 as much as in 2026.</p>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><div class="callout callout--tip"><span class="callout__title">Tip</span>🔲</p>
 <h4>Zone with Materials, Not Walls</h4>
-<p>Define the kitchen zone from the living zone using a consistent material shift — same tile running through both spaces creates unity; a contrasting floor tile in the kitchen creates separation without a wall.</div>
+<p>Define the kitchen zone from the living zone using a consistent material shift — same tile running through both spaces creates unity; a contrasting floor tile in the kitchen creates separation without a wall.</p></div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>💡</p>
 <h4>Three-Layer Lighting Is Non-Negotiable</h4>
-<p>In an open kitchen, lighting must work for cooking mode AND living room mode. Dimmable circuits on separate switches let you transition from task-bright cooking to ambient-warm entertaining instantly.</div>
+<p>In an open kitchen, lighting must work for cooking mode AND living room mode. Dimmable circuits on separate switches let you transition from task-bright cooking to ambient-warm entertaining instantly.</p></div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>🌬️</p>
 <h4>Extractor Before Everything</h4>
-<p>The sequence is: ventilation budget first, cabinet budget second. An under-spec'd extractor ruins an open kitchen faster than any wrong material choice. It is the first line item — not the last.</div>
+<p>The sequence is: ventilation budget first, cabinet budget second. An under-spec'd extractor ruins an open kitchen faster than any wrong material choice. It is the first line item — not the last.</p></div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>📐</p>
 <h4>Island Clearance Is Sacred</h4>
-<p>900mm minimum on all sides of an island. 1,050mm if two people work in the kitchen simultaneously. Never compromise this for a bigger island — a tight island corridor destroys the whole open-plan feel.</div>
+<p>900mm minimum on all sides of an island. 1,050mm if two people work in the kitchen simultaneously. Never compromise this for a bigger island — a tight island corridor destroys the whole open-plan feel.</p></div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>🪵</p>
 <h4>One Warm Material Element</h4>
-<p>Stone, tile, and lacquer are cool. Every kitchen needs one warm element — timber, cane, brass, or leather-effect laminate — to prevent the space from feeling clinical rather than liveable.</div>
+<p>Stone, tile, and lacquer are cool. Every kitchen needs one warm element — timber, cane, brass, or leather-effect laminate — to prevent the space from feeling clinical rather than liveable.</p></div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>🚿</p>
 <h4>Sink Position Dictates Sightlines</h4>
-<p>In an open kitchen, position the sink so the person washing up faces the living room, not the wall. This single ergonomic decision transforms the social experience of the kitchen every single day.</div></div>
+<p>In an open kitchen, position the sink so the person washing up faces the living room, not the wall. This single ergonomic decision transforms the social experience of the kitchen every single day.</p></div></div>
 <div class="callout callout--tip"><span class="callout__title">The One Mistake That Kills Open Kitchens</span>Over 70% of unsatisfactory open kitchen outcomes we have audited share the same root cause: <strong>the design was planned for how the kitchen looks, not how it is used.</strong> A kitchen that photographs beautifully but accumulates cooking odours, has inadequate storage visible from the living room, or has surfaces that cannot survive daily cooking will be regretted within twelve months. Design for the life you actually live — then make it beautiful. Not the other way around.</div>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

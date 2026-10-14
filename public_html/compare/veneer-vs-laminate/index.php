@@ -151,7 +151,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Question 4 of 5How important is the look of real wood to you?</p>
 <p>Question 5 of 5How often will this surface actually get used?</p>
 <div class="callout"><span class="callout__title">Your verdict</span><h4>—</h4>
-<p>—</div>
+<p>—</p></div>
 <h2>The verdict for every room in your home</h2>
 <p>Generic advice fails because every room of an Indian home has different demands. Here's our specific recommendation for the seven places this question actually comes up.</p>
 <h4>Modular Kitchen</h4>

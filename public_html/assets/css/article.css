@@ -28,3 +28,10 @@
   .share svg { width: 18px; height: 18px; fill: currentColor; }
   @media (max-width: 1024px) { .share { flex-direction: row; justify-content: center; } }
 }
+
+/* Myth / reality pairs (comparison pages): two boxes side by side, stacked on phones */
+@layer page {
+  .myth-pair { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-3); margin: var(--sp-5) 0; }
+  .myth-pair .callout { margin: 0; }
+  @media (max-width: 700px) { .myth-pair { grid-template-columns: 1fr; } }
+}

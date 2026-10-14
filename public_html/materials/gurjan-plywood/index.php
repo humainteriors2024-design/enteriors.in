@@ -161,7 +161,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <div class="callout"><span class="callout__title">Note</span><h4>Good Fit</h4>
 <p>Kitchen and wardrobe carcasses, bathroom vanities, structural shelving, doors, long-term family home furniture.</p>
 <h4>Reconsider</h4>
-<p>Purely decorative low-stress panels, short-tenure rental furniture, any "Gurjan" that can't be verified by the supplier.</div>
+<p>Purely decorative low-stress panels, short-tenure rental furniture, any "Gurjan" that can't be verified by the supplier.</p></div>
 <h2>Gurjan Plywood vs Other Materials</h2>
 <h3>Gurjan vs Commercial Plywood</h3>
 <p>Commercial plywood typically uses mixed, often softer wood species and lighter bonding, making it noticeably weaker and less moisture-tolerant than genuine Gurjan over the long term.</p>
@@ -324,7 +324,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <div class="callout"><span class="callout__title">Note</span><h4>Choose Gurjan Plywood If</h4>
 <p>You're building structural carcasses for kitchens, wardrobes, or bathroom vanities in a long-term home, and you can verify the board is genuinely full-Gurjan with the right bonding grade for the room.</p>
 <h4>Choose Something Else If</h4>
-<p>You need a smooth surface for detailed routed profiles (HDHMR), a budget option for dry low-stress furniture (MDF/particle board), or you can't get the supplier to verify genuine Gurjan construction.</div>
+<p>You need a smooth surface for detailed routed profiles (HDHMR), a budget option for dry low-stress furniture (MDF/particle board), or you can't get the supplier to verify genuine Gurjan construction.</p></div>
 <p>Gurjan plywood earns its premium specifically where structural strength and long-term moisture tolerance matter most — kitchen and wardrobe carcasses, bathroom vanities, and load-bearing furniture in a home you plan to live in for decades. Its biggest real-world risk isn't the material itself but market mislabelling, which makes verification the single most valuable thing you can do before paying a Gurjan premium.</p>
 <h2>Conclusion</h2>
 <p>Genuine Gurjan plywood remains one of the strongest, most moisture-tolerant structural materials available for Indian interiors, and its 20-plus-year typical lifespan can make its higher upfront cost genuinely worthwhile in kitchens, wardrobes, and load-bearing furniture.</p>

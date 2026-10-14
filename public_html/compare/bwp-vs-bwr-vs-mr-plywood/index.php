@@ -180,14 +180,14 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h4>Utility Areas</h4>
 <p>BWP recommended due to washing machine and drainage exposure.</p>
 <div class="callout"><span class="callout__title">Note</span><h4>Premium Homes</h4>
-<p>A full BWP specification across wet and semi-wet zones for maximum long-term durability.</div>
+<p>A full BWP specification across wet and semi-wet zones for maximum long-term durability.</p></div>
 <h2>Final Verdict: Which Plywood Should You Choose?</h2>
 <h4>Choose MR Plywood If...</h4>
 <p>You're furnishing dry areas like bedrooms, study rooms, or TV units on a tighter budget.</p>
 <h4>Choose BWR Plywood If...</h4>
 <p>You want solid kitchen and dining performance without the full cost of BWP.</p>
 <div class="callout"><span class="callout__title">Note</span><h4>Choose BWP Plywood If...</h4>
-<p>You're outfitting kitchens, bathrooms, or utility areas where water exposure is a daily reality.</div>
+<p>You're outfitting kitchens, bathrooms, or utility areas where water exposure is a daily reality.</p></div>
 <h3>Recommended Choice for Bangalore Home Interiors</h3>
 <p><strong>Budget Interiors:</strong> BWR across most cabinetry. <strong>Mid-Premium Interiors:</strong> a BWR + BWP combination, with BWP reserved for wet zones. <strong>Premium Interiors:</strong> full BWP grade across kitchens, bathrooms, and utility areas for maximum long-term durability.</p>
 <h3>Related Guides from Enteriors</h3>

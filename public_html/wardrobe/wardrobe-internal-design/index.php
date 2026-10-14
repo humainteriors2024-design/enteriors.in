@@ -102,7 +102,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h4>Medium Bedroom Layout</h4>
 <p>Balanced hanging and shelf storage, dedicated accessory sections, and efficient drawer planning.</p>
 <div class="callout"><span class="callout__title">Note</span><h4>Large Bedroom Layout</h4>
-<p>Luxury storage features, full walk-in wardrobe concepts, and dedicated display or showcase areas.</div>
+<p>Luxury storage features, full walk-in wardrobe concepts, and dedicated display or showcase areas.</p></div>
 <h2>Smart Wardrobe Storage Ideas for Indian Homes</h2>
 <ul>
   <li><strong>Saree Storage Solutions:</strong> Wide, shallow shelves or specialized saree pull-out units prevent creasing.</li>

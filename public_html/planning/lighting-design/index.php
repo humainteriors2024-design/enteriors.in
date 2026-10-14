@@ -35,7 +35,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>✨</p>
 <p>Accent</p>
 <p>The layer that makes luxury homes look luxury. Spotlights on artwork, wall washers on feature walls, profile lights on joinery. This layer adds depth and completely changes the perceived quality of your interiors.</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Designer's Rule</strong><p>A room with only ambient lighting looks like an office. Add task lighting and it becomes functional. Add accent lighting and it becomes a home. All three together, on separate dimmable circuits, give you complete control over the mood of every space at every hour.</div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Designer's Rule</strong><p>A room with only ambient lighting looks like an office. Add task lighting and it becomes functional. Add accent lighting and it becomes a home. All three together, on separate dimmable circuits, give you complete control over the mood of every space at every hour.</p></div>
 <p>🏠</p>
 <p>Problem: Flat, shadowless rooms</p>
 <h4>One Central Ceiling Light</h4>
@@ -70,7 +70,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Avoid in Homes</p>
 <h3>Why Premium Designers Avoid 6500K in Homes</h3>
 <p>Cool white 6500K light mimics overcast daylight — it is energizing in workplaces but creates a clinical, institutional feel in residential spaces. It also makes skin tones appear washed out and flattens the warmth of wood, stone, and textile finishes. If your current home uses 6500K tube lights or panels, switching to 3000K is the single most impactful lighting upgrade available for under ₹5,000.</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Quick Upgrade Path</strong><p>Already installed the wrong Kelvin? In standard base fittings, simply replacing the bulb is enough. For integrated LED panels and downlights, you'll need to replace the fitting. The cost difference between a 3000K and 6500K fitting is negligible — choose correctly the first time.</div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Quick Upgrade Path</strong><p>Already installed the wrong Kelvin? In standard base fittings, simply replacing the bulb is enough. For integrated LED panels and downlights, you'll need to replace the fitting. The cost difference between a 3000K and 6500K fitting is negligible — choose correctly the first time.</p></div>
 <p>03</p>
 <h2>Living Room Lighting — India's Most Over-Lit Space</h2>
 <p>The living room is the most visited, most photographed, and most socially significant room in any Indian home — yet it's consistently the most poorly lit. Most living rooms in India suffer from uniform brightness with no drama, no depth, and no warmth.</p>
@@ -116,7 +116,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Main circuit dimmable to 10% minimum</li>
   <li>Avoid cool whites entirely in this room</li>
 </ul>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Sleep Science Insight</strong><p>Cool white light (4000K+) suppresses melatonin production, the hormone that signals your body to sleep. Switching to 2700K lighting in the bedroom one hour before sleep has the same effect as reducing screen time — and requires zero habit change. It is the most impactful bedroom upgrade available.</div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Sleep Science Insight</strong><p>Cool white light (4000K+) suppresses melatonin production, the hormone that signals your body to sleep. Switching to 2700K lighting in the bedroom one hour before sleep has the same effect as reducing screen time — and requires zero habit change. It is the most impactful bedroom upgrade available.</p></div>
 <h3>Headboard Panel Lighting</h3>
 <p>One of the defining features of a luxury bedroom is a backlit headboard — a shallow profile light embedded into the headboard panel casting a warm upward glow. It creates the visual "hotel room" effect that homeowners often describe wanting without being able to name exactly what they're missing. Use 2700K warm white LED strips in an aluminium channel for this.</p>
 <p>05</p>
@@ -179,7 +179,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Dining settings: pendant at 80%, ambients off</li>
   <li>CRI 90+ for accurate food colour rendering</li>
 </ul>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>The Pendant Height Rule</strong><p>A dining pendant hung too high becomes a ceiling fixture, not a dining fixture. The bottom of the shade should hang 70 to 80 centimetres above the tabletop — close enough to create an intimate pool of light on the table surface, far enough that seated diners don't look directly into the bulb. This single measurement transforms dining room lighting from generic to designed.</div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>The Pendant Height Rule</strong><p>A dining pendant hung too high becomes a ceiling fixture, not a dining fixture. The bottom of the shade should hang 70 to 80 centimetres above the tabletop — close enough to create an intimate pool of light on the table surface, far enough that seated diners don't look directly into the bulb. This single measurement transforms dining room lighting from generic to designed.</p></div>
 <p>07</p>
 <h2>Bathroom Lighting — Solving the Mirror Shadow Problem</h2>
 <p>The most universally terrible bathroom lighting situation: a single downlight directly above the mirror that illuminates the top of your head perfectly while casting deep shadows under your eyes, nose, and jaw. Every premium bathroom needs to solve this problem specifically.</p>
@@ -222,7 +222,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Natural light from left side — never behind screen</li>
   <li>Desk lamp brightness: independently controlled</li>
 </ul>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Video Call Lighting Fix</strong><p>Your video call light source must be in front of your face, not behind you or above you. A simple LED panel or ring light positioned at eye level, slightly to the left, at 3000–4000K creates the professional appearance associated with broadcast and studio settings. It costs under ₹2,000 and immediately changes how you appear in every professional call.</div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>Video Call Lighting Fix</strong><p>Your video call light source must be in front of your face, not behind you or above you. A simple LED panel or ring light positioned at eye level, slightly to the left, at 3000–4000K creates the professional appearance associated with broadcast and studio settings. It costs under ₹2,000 and immediately changes how you appear in every professional call.</p></div>
 <p>09</p>
 <h2>Walk-in Wardrobe Lighting — See Your Clothes as They Actually Are</h2>
 <p>A walk-in wardrobe lit with warm 2700K lighting is a beautiful space — but you'll consistently misjudge colours, choosing navy for black or grey for beige. Wardrobe lighting requires a precise Kelvin balance between function and luxury feel.</p>

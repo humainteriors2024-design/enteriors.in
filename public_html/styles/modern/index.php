@@ -76,7 +76,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Neutral backdrops allow heirloom pieces to shine</li>
   <li>White and off-white walls deflect heat and brighten rooms</li>
 </ul>
-<div class="callout"><span class="callout__title">Note</span><strong>Consultant's Note</strong><p>Modern interiors also age particularly well in the Indian climate. Unlike maximalist decor that accumulates dust and requires high maintenance, clean surfaces and minimal accessories are significantly easier to keep clean — a practical advantage that homeowners often only realise after living with the design for six months.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>Consultant's Note</strong><p>Modern interiors also age particularly well in the Indian climate. Unlike maximalist decor that accumulates dust and requires high maintenance, clean surfaces and minimal accessories are significantly easier to keep clean — a practical advantage that homeowners often only realise after living with the design for six months.</p></div>
 <p>Section 03</p>
 <h2>Modern Design By Home Type</h2>
 <p>Modern interior design manifests differently depending on the type of home. An apartment demands different priorities than a villa or a builder floor. Here's how to think about each.</p>
@@ -136,7 +136,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Your budget is very tight (modern done cheaply looks worse than other styles)</li>
   <li>You have pets that shed heavily on light upholstery</li>
 </ul>
-<div class="callout"><span class="callout__title">Note</span><strong>Designer Tip</strong><p>Families with young children can still do modern interiors. The key is material selection — textured laminates instead of high-gloss, dark grey upholstery instead of cream, closed storage for toys, and durable quartz surfaces. The style adapts; the principles don't change.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>Designer Tip</strong><p>Families with young children can still do modern interiors. The key is material selection — textured laminates instead of high-gloss, dark grey upholstery instead of cream, closed storage for toys, and durable quartz surfaces. The style adapts; the principles don't change.</p></div>
 <p>Section 05</p>
 <h2>Customer Demographics: Who Actually Chooses Modern Design in India?</h2>
 <p>Understanding your peer group — and how your specific demographic's needs should shape your design decisions — is one of the most valuable things a designer or homeowner can do before starting a project. Here are the primary buyer archetypes that gravitate toward modern interiors in India.</p>
@@ -231,7 +231,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<div class="callout"><span class="callout__title">Note</span><strong>Critical Insight for Indian Kitchens</strong><p>Indian cooking involves oil splatter, steam and heavy chopping. Choose matte over high-gloss shutters for the cooking zone — they show fewer fingerprints and hide minor scratches better. Reserve gloss finishes for the pantry section or island, where daily wear is lower.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>Critical Insight for Indian Kitchens</strong><p>Indian cooking involves oil splatter, steam and heavy chopping. Choose matte over high-gloss shutters for the cooking zone — they show fewer fingerprints and hide minor scratches better. Reserve gloss finishes for the pantry section or island, where daily wear is lower.</p></div>
 <h3>The Master Bedroom — Sanctuary, Not Showroom</h3>
 <p>The primary mistake homeowners make in modern bedrooms is over-designing them. A modern bedroom should feel like the most calming space in the home — not a showroom. The bed is the anchor, the wardrobe is the functional hero, and everything else supports a sense of peace.</p>
 <p>Headboard Wall</p>
@@ -281,7 +281,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>✨</p>
 <h4>Accent Lighting</h4>
 <p>Spotlights on art, shelf lighting for books or decorative objects, staircase step lights, landscape lights for outdoor areas. Creates depth and drama at night.</p>
-<div class="callout"><span class="callout__title">Note</span><strong>The Rule That Changes Everything</strong><p>Install dimmer switches in every room from day one. The ability to control light intensity transforms the same space from a functional daytime room to a warm evening atmosphere without changing a single piece of furniture. This costs approximately ₹300–₹600 per room in additional electrical cost — and returns that value many times over in daily quality of life.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>The Rule That Changes Everything</strong><p>Install dimmer switches in every room from day one. The ability to control light intensity transforms the same space from a functional daytime room to a warm evening atmosphere without changing a single piece of furniture. This costs approximately ₹300–₹600 per room in additional electrical cost — and returns that value many times over in daily quality of life.</p></div>
 <h3>Colour Temperature Guide for Indian Homes</h3>
 <h4>2700K — Warm White</h4>
 <p>Best for: Bedrooms, living room ambience, dining area. Creates intimacy and warmth — the most flattering light for people and food.</p>
@@ -336,7 +336,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Modular Kitchen Only (10 ft L-shape) ₹2.5L – ₹12L Entry–Mid</p>
 <p>Master Bedroom (Wardrobe + Bed + Lighting) ₹2.8L – ₹9L Entry–Mid</p>
 <p>Bathroom Renovation (Full) ₹1.8L – ₹6.5L Entry–Premium</p>
-<div class="callout"><span class="callout__title">Note</span><strong>How to Read These Numbers</strong><p>The lower end assumes Indian hardware brands, laminate shutters, standard granite countertops and builder-grade electrical. The upper end assumes imported furniture, European hardware, quartz / natural stone surfaces and a fully smart-home-integrated electrical specification. Most urban homeowners with realistic expectations land at 40–60% up from the lower number.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>How to Read These Numbers</strong><p>The lower end assumes Indian hardware brands, laminate shutters, standard granite countertops and builder-grade electrical. The upper end assumes imported furniture, European hardware, quartz / natural stone surfaces and a fully smart-home-integrated electrical specification. Most urban homeowners with realistic expectations land at 40–60% up from the lower number.</p></div>
 <h3>What Drives Cost Up (and What Doesn't)</h3>
 <h4>High-Impact Investments (Worth It)</h4>
 <ul>

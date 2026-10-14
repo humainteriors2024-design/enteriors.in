@@ -296,23 +296,23 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>How Homeowners Can Speed Up Their Interior Project</h2>
 <div class="callout callout--tip"><span class="callout__title">Tip</span><div class="callout callout--tip"><span class="callout__title">Tip</span>01</p>
 <h4>Finalise Designs Early</h4>
-<p>The sooner designs are approved, the sooner manufacturing can begin. Every day of design uncertainty is a day lost in the factory schedule.</div>
+<p>The sooner designs are approved, the sooner manufacturing can begin. Every day of design uncertainty is a day lost in the factory schedule.</p></div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>02</p>
 <h4>Approve Materials Quickly</h4>
-<p>Choose laminates, hardware, and finishes in a single session where possible. Delayed approvals are the single biggest homeowner-side cause of delays.</div>
+<p>Choose laminates, hardware, and finishes in a single session where possible. Delayed approvals are the single biggest homeowner-side cause of delays.</p></div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>03</p>
 <h4>Avoid Mid-Project Changes</h4>
-<p>Once manufacturing has started, additions are fine — but changes to already-produced items add cost and time. Trust the process.</div>
+<p>Once manufacturing has started, additions are fine — but changes to already-produced items add cost and time. Trust the process.</p></div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>04</p>
 <h4>Ensure Site Readiness</h4>
-<p>Coordinate with your civil and painting contractor early. The site should be ready to receive installation when manufacturing is complete.</div>
+<p>Coordinate with your civil and painting contractor early. The site should be ready to receive installation when manufacturing is complete.</p></div>
 <div class="callout callout--tip"><span class="callout__title">Tip</span>05</p>
 <h4>Work with Factory-Based Companies</h4>
-<p>Factory manufacturing is 30–40% faster than carpenter-based work for the same scope. It is also cleaner, more consistent, and more quality-controlled.</div></div>
+<p>Factory manufacturing is 30–40% faster than carpenter-based work for the same scope. It is also cleaner, more consistent, and more quality-controlled.</p></div></div>
 <h2>Factory Manufacturing vs Carpenter Work: Timeline Comparison</h2>
 <p>One of the most important decisions in any interior project is whether to go with a factory-based interior company like Enteriors or opt for traditional carpenter-based work. The difference in timeline, quality, and process is significant.</p>
 <div class="callout"><span class="callout__title">Note</span><h4>🏭 Factory-Made Interiors (Enteriors)</h4>
-<p>2BHK Timeline30–45 Days<br><br>3BHK Timeline45–60 Days<br><br>Manufacturing MethodCNC Precision<br><br>Site Dust &amp; MessMinimal<br><br>Quality ConsistencyUniform<br><br>WarrantyDocumented<br><br>Price TransparencyFixed Quote</div>
+<p>2BHK Timeline30–45 Days<br><br>3BHK Timeline45–60 Days<br><br>Manufacturing MethodCNC Precision<br><br>Site Dust &amp; MessMinimal<br><br>Quality ConsistencyUniform<br><br>WarrantyDocumented<br><br>Price TransparencyFixed Quote</p></div>
 <h4>🔨 Traditional Carpenter Work</h4>
 <p>2BHK Timeline60–90 Days</p>
 <p>3BHK Timeline90–120 Days</p>

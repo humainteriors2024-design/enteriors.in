@@ -147,7 +147,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <div class="callout"><span class="callout__title">Note</span><h4>Good Fit</h4>
 <p>Kitchen shutters, wardrobe doors, bathroom vanities, TV units, routed profile doors, heavy-use cabinetry.</p>
 <h4>Reconsider</h4>
-<p>Fully outdoor furniture, prolonged standing-water areas, ultra-heavy structural shelving, low-budget low-stress storage.</div>
+<p>Fully outdoor furniture, prolonged standing-water areas, ultra-heavy structural shelving, low-budget low-stress storage.</p></div>
 <h2>HDHMR vs Other Interior Materials</h2>
 <h3>HDHMR vs MDF</h3>
 <p>MDF is cheaper and adequate for dry, low-moisture furniture, but HDHMR's higher density and moisture-resistant resin give it a real durability edge in kitchens, vanities, and anywhere humidity is a daily factor.</p>
@@ -309,7 +309,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <div class="callout"><span class="callout__title">Note</span><h4>Choose HDHMR If</h4>
 <p>You're furnishing a kitchen, wardrobe, vanity, or any frequently-used cabinet that needs reliable moisture resistance and strong hardware retention, and you want routed, handle-less door profiles.</p>
 <h4>Choose Something Else If</h4>
-<p>You need furniture for fully outdoor use or constant water exposure (go with BWP plywood), or you're furnishing a dry, low-stress, budget-critical space (basic MDF or particle board is enough).</div>
+<p>You need furniture for fully outdoor use or constant water exposure (go with BWP plywood), or you're furnishing a dry, low-stress, budget-critical space (basic MDF or particle board is enough).</p></div>
 <p>HDHMR earns its premium specifically in moisture-prone, frequently-used furniture — kitchens, wardrobes, vanities — where its combination of density, moisture resistance, and machinability genuinely outperforms cheaper boards over the furniture's lifetime. It's not the universal "best" board, and treating it as one wastes money in rooms that never needed that level of performance.</p>
 <h2>Conclusion</h2>
 <p>HDHMR sits in a deliberate middle ground: stronger and more moisture-resistant than MDF or particle board, more machinable and often more affordable than premium plywood.</p>

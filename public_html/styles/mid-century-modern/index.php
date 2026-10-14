@@ -66,7 +66,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Spaces designed in this style feel calm without feeling austere. Colour psychologists point to the warm wood tones and mustard/rust accents as producing a sense of grounded optimism — a rare combination in interior design. Behavioural research also shows that low-slung furniture and open sight-lines reduce the perception of clutter, which lowers ambient stress in the room. This is one reason Mid-Century Modern is quietly preferred by people who work from home.</p>
 <div class="callout"><span class="callout__title">Note</span>"</p>
 <h4>Designer's take</h4>
-<p><strong>If a Mid-Century Modern room doesn't make you feel like sitting down within the first ten seconds of walking in, the designer got the philosophy wrong.</strong> Beauty is measured in comfort, not in how it photographs.</div>
+<p><strong>If a Mid-Century Modern room doesn't make you feel like sitting down within the first ten seconds of walking in, the designer got the philosophy wrong.</strong> Beauty is measured in comfort, not in how it photographs.</p></div>
 <p>03 · Visual Characteristics</p>
 <h2>What Mid-Century Modern looks like — the room, decoded</h2>
 <p>Ask ten people to describe a Mid-Century room and you'll get ten answers that agree on mood but disagree on specifics. Here is the decoded version — every visual lever the style pulls.</p>
@@ -245,7 +245,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Chimney: 90cm, auto-clean, 1150m³/hr suction minimum for Indian cooking. Hob: 4-burner glass or matte black. Built-in oven and microwave in the tall unit column at eye-height. Refrigerator: side-by-side or French door in stainless steel matte finish — the retro fridge look is charming but service network in India is thin, so we don't recommend it unless you're a true enthusiast.</p>
 <div class="callout"><span class="callout__title">Note</span>"</p>
 <h4>Designer's take</h4>
-<p><strong>The most successful MCM kitchens we've built keep the visible palette to three materials only:</strong> one wood, one solid colour, one stone. Everything else — appliances, hardware, backsplash — supports these three. This restraint is the entire look.</div>
+<p><strong>The most successful MCM kitchens we've built keep the visible palette to three materials only:</strong> one wood, one solid colour, one stone. Everything else — appliances, hardware, backsplash — supports these three. This restraint is the entire look.</p></div>
 <p>08 · Bedroom Design</p>
 <h2>Bedrooms that whisper — MCM as a sleep environment</h2>
 <p>The bedroom is where Mid-Century Modern is at its calmest. Everything works together to reduce visual noise: low bed, warm wood, dim lighting, minimal decor, no busy patterns. The goal is a room that helps you fall asleep in eight minutes instead of forty.</p>
@@ -661,7 +661,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <div class="callout"><span class="callout__title">Note</span>"</p>
 <h4>Designer's verdict</h4>
-<p>If you're between MCM and Scandinavian, ask whether you gravitate toward walnut or oak — walnut answers Mid-Century, oak answers Scandinavian. If you're between MCM and Japandi, ask whether you want the room to feel <strong>curated</strong> (MCM) or <strong>meditative</strong> (Japandi). Simple lens, correct choice every time.</div>
+<p>If you're between MCM and Scandinavian, ask whether you gravitate toward walnut or oak — walnut answers Mid-Century, oak answers Scandinavian. If you're between MCM and Japandi, ask whether you want the room to feel <strong>curated</strong> (MCM) or <strong>meditative</strong> (Japandi). Simple lens, correct choice every time.</p></div>
 <p>24 · Common Mistakes</p>
 <h2>Everything we've seen go wrong (and how to avoid it)</h2>
 <h3>Wrong materials</h3>
@@ -779,7 +779,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Mid-Century Modern is one of only two or three styles that don't visibly date. A well-executed MCM home from 2016 still reads current in 2026. Resale response is strong. Emotional response — the daily experience of living in the space — is what clients most consistently praise years after handover.</p>
 <div class="callout"><span class="callout__title">Note</span>"</p>
 <h4>Enteriors' final recommendation</h4>
-<p><strong>Start with the modular (kitchen + wardrobes + TV unit) done right the first time. Layer in furniture over 3–6 months. Buy one hero piece — an original or well-made replica. Live in it for 6 weeks before completing the decor.</strong> A Mid-Century Modern home built this way will look better in year 10 than in year 1. Very few styles can say the same.</div>
+<p><strong>Start with the modular (kitchen + wardrobes + TV unit) done right the first time. Layer in furniture over 3–6 months. Buy one hero piece — an original or well-made replica. Live in it for 6 weeks before completing the decor.</strong> A Mid-Century Modern home built this way will look better in year 10 than in year 1. Very few styles can say the same.</p></div>
 <p>Appendix A · EEAT Enhancement</p>
 <h2>Professional insights, checklists and expert notes</h2>
 <h3>Interior Designer notes</h3>

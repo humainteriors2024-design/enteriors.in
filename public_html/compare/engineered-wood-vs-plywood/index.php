@@ -24,7 +24,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 <p>Ask ten carpenters which material is better and you'll get ten different answers. That's because "engineered wood" isn't a single product — it's a family of panel materials, each engineered for a different purpose. <strong>MDF, HDF, particle board, blockboard, HDHMR, and OSB</strong> are all "engineered wood," but they behave very differently from each other — and from plywood.</p>
 <p>This guide breaks down the entire engineered wood family, compares each type against plywood, and gives you a clear, room-by-room recommendation for Indian homes and budgets.</p>
-<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>📌 Who this guide is for</strong><p>Homeowners planning interiors, interior designers briefing clients, and carpenters who want to help clients make better material decisions. We cover real-world performance, not just spec sheets.</div>
+<div class="callout callout--tip"><span class="callout__title">Tip</span><strong>📌 Who this guide is for</strong><p>Homeowners planning interiors, interior designers briefing clients, and carpenters who want to help clients make better material decisions. We cover real-world performance, not just spec sheets.</p></div>
 <h3>Engineered Wood</h3>
 <p>MDF · HDF · Particle Board · Blockboard · HDHMR · OSB</p>
 <p>Manufactured from wood fibres, chips, or strands compressed with adhesive resins under heat and pressure. Uniform, consistent, and engineered to solve specific problems plywood can't.</p>
@@ -52,7 +52,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>🌾</p>
 <h4>OSB (Oriented Strand Board)</h4>
 <p>Large wood strands arranged in layers. Common in western construction for wall sheathing and subfloors. Rarely used in Indian interior furniture.</p>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>⚠️ Market alert</strong><p>Low-quality particle board is often sold by unscrupulous dealers as "MDF" or even "imported engineered wood." Always ask to see the brand name, thickness spec, and density rating (MDF should be 650–800 kg/m³; particle board is typically 550–650 kg/m³). The weight difference is noticeable by hand.</div>
+<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>⚠️ Market alert</strong><p>Low-quality particle board is often sold by unscrupulous dealers as "MDF" or even "imported engineered wood." Always ask to see the brand name, thickness spec, and density rating (MDF should be 650–800 kg/m³; particle board is typically 550–650 kg/m³). The weight difference is noticeable by hand.</p></div>
 <h2>Head-to-Head Performance Ratings</h2>
 <p>This comparison uses <strong>MDF/HDHMR as the representative engineered wood</strong> since these are the most commonly used engineered panels in Indian residential interiors. Particle board would score lower; blockboard would score higher in strength.</p>
 <h4>Engineered Wood (MDF / HDHMR)</h4>
@@ -194,7 +194,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Marine Ply 18mm: ₹2,500 – ₹3,800</li>
   <li>Flexi Ply 6mm: ₹900 – ₹1,500</li>
 </ul>
-<div class="callout"><span class="callout__title">Note</span><strong>💡 Designer's cost-optimisation formula</strong><p>Top designers use this simple rule: <strong>Plywood for structure, engineered wood for surfaces.</strong> BWP carcass + HDHMR shutters is the sweet spot — you pay slightly more than all-MDF but get dramatically better longevity and finish. Going all-plywood costs 15–25% more and all-MDF will need replacing in humid zones within 5 years.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>💡 Designer's cost-optimisation formula</strong><p>Top designers use this simple rule: <strong>Plywood for structure, engineered wood for surfaces.</strong> BWP carcass + HDHMR shutters is the sweet spot — you pay slightly more than all-MDF but get dramatically better longevity and finish. Going all-plywood costs 15–25% more and all-MDF will need replacing in humid zones within 5 years.</p></div>
 <h2>Health &amp; Indoor Air Quality — What to Ask For</h2>
 <p>Both plywood and engineered wood use adhesive resins that can emit formaldehyde — a VOC (volatile organic compound) linked to respiratory irritation. This matters more in sealed, air-conditioned homes where ventilation is limited.</p>
 <ul>
@@ -203,19 +203,19 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>E2 grade</strong> — higher emission. Avoid for enclosed spaces, especially bedrooms and kids' rooms.</li>
 </ul>
 <p>Always ask your material supplier or carpenter for the emission certificate. CenturyPly, Greenply, and Duro offer E1-certified products across most of their range.</p>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>⚠️ Off-gassing is highest in the first 6 months</strong><p>Newly installed MDF or plywood cabinets will off-gas more in the first weeks after installation. Ventilate the space well, keep windows open where possible, and avoid running AC on full-recirculation mode for the first month after installation.</div>
+<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>⚠️ Off-gassing is highest in the first 6 months</strong><p>Newly installed MDF or plywood cabinets will off-gas more in the first weeks after installation. Ventilate the space well, keep windows open where possible, and avoid running AC on full-recirculation mode for the first month after installation.</p></div>
 <h2>🏆 The Verdict</h2>
 <p>The smartest approach is never choosing one material for everything — it's knowing exactly where each performs best and designing your project accordingly.</p>
 <div class="callout"><span class="callout__title">Note</span><div class="callout"><span class="callout__title">Note</span><h4>For modular kitchens</h4>
-<p>HDHMR shutters + BWP plywood carcass. Best moisture performance and structural longevity in one setup.</div>
+<p>HDHMR shutters + BWP plywood carcass. Best moisture performance and structural longevity in one setup.</p></div>
 <div class="callout"><span class="callout__title">Note</span><h4>For wardrobes</h4>
-<p>Plywood carcass + MDF or HDHMR shutters. Dry zone means less moisture pressure — focus on finish quality.</div>
+<p>Plywood carcass + MDF or HDHMR shutters. Dry zone means less moisture pressure — focus on finish quality.</p></div>
 <div class="callout"><span class="callout__title">Note</span><h4>For tight budgets</h4>
-<p>MR-grade plywood carcass + MR MDF shutters in dry zones. Do not use particle board in any wet-adjacent area.</div>
+<p>MR-grade plywood carcass + MR MDF shutters in dry zones. Do not use particle board in any wet-adjacent area.</p></div>
 <div class="callout"><span class="callout__title">Note</span><h4>For premium finish</h4>
-<p>HDHMR throughout with E0 emission grade. Pairs with acrylic, lacquer, or membrane for a truly furniture-grade result.</div>
+<p>HDHMR throughout with E0 emission grade. Pairs with acrylic, lacquer, or membrane for a truly furniture-grade result.</p></div>
 <div class="callout"><span class="callout__title">Note</span><h4>For heavy shelving</h4>
-<p>Always plywood. 19mm BWP for spans over 60cm carrying books, appliances, or ceramics.</div>
+<p>Always plywood. 19mm BWP for spans over 60cm carrying books, appliances, or ceramics.</p></div>
 <div class="callout"><span class="callout__title">Note</span><h4>For coastal / humid cities</h4>
-<p>HDHMR for all exposed surfaces; BWP plywood for structure. Standard MDF is not suitable — period.</div></div>
+<p>HDHMR for all exposed surfaces; BWP plywood for structure. Standard MDF is not suitable — period.</p></div></div>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

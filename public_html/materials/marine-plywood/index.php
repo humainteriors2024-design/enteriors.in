@@ -30,14 +30,14 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 <div class="callout"><span class="callout__title">Note</span><div class="callout"><span class="callout__title">Note</span>90-Second Verdict</p>
 <h3>Should you use BWP plywood in your home interiors?</h3>
-<p>Yes — but only where water actually touches wood. BWP (Boiling Water Proof) plywood, certified under IS 710, uses phenol formaldehyde resin that genuinely survives prolonged water immersion. It is the correct choice for <strong>modular kitchens, bathroom vanities, balcony storage</strong> and any unit near a water source.<br><br>But here's what most sales pitches skip: for bedroom wardrobes, TV units, crockery units and study tables in dry indoor spaces, BWP is an avoidable premium. BWR (IS 303) plywood handles normal Indian humidity perfectly well in these areas — at 25–40% lower cost.<br><br>The smart move is a <strong>hybrid approach</strong>: BWP where water is a real risk, BWR everywhere else. An average 2BHK in Bangalore saves ₹18,000–₹30,000 this way without compromising a single year of lifespan.</div></div>
+<p>Yes — but only where water actually touches wood. BWP (Boiling Water Proof) plywood, certified under IS 710, uses phenol formaldehyde resin that genuinely survives prolonged water immersion. It is the correct choice for <strong>modular kitchens, bathroom vanities, balcony storage</strong> and any unit near a water source.<br><br>But here's what most sales pitches skip: for bedroom wardrobes, TV units, crockery units and study tables in dry indoor spaces, BWP is an avoidable premium. BWR (IS 303) plywood handles normal Indian humidity perfectly well in these areas — at 25–40% lower cost.<br><br>The smart move is a <strong>hybrid approach</strong>: BWP where water is a real risk, BWR everywhere else. An average 2BHK in Bangalore saves ₹18,000–₹30,000 this way without compromising a single year of lifespan.</p></div></div>
 <h2>What Exactly Is BWP Plywood?</h2>
 <p>BWP stands for <strong>Boiling Water Proof</strong> — a classification of plywood that can withstand prolonged immersion in boiling water without delamination or structural failure. It is governed by <strong>IS 710:1976 (reaffirmed 2021)</strong>, the Bureau of Indian Standards specification for marine-grade plywood.</p>
 <p>The "boiling water proof" label refers specifically to the adhesive bond between plywood veneers, not to the wood itself being waterproof. The key differentiator is the resin: BWP plywood uses <strong>phenol formaldehyde (PF) resin</strong>, a thermosetting adhesive that cross-links permanently during hot-pressing and does not soften or dissolve when re-exposed to water — including boiling water.</p>
 <h3>BWP vs. "Marine Plywood" — Are They the Same?</h3>
 <p>In Indian standards terminology, yes. IS 710 covers "marine grade" plywood, and BWP is the colloquial industry name for IS 710–compliant boards. However, internationally, "marine plywood" (BS 1088, for example) often has additional requirements around species selection, void-free cores and specific face veneer grades that IS 710 does not mandate.</p>
 <p>So a board certified IS 710 BWP in India may not meet British or Australian marine-plywood specs — but for home interiors in Indian conditions, IS 710 is the relevant benchmark.</p>
-<div class="callout"><span class="callout__title">Note</span><strong>Key distinction most buyers miss:</strong><p>BWP describes the <em>glue bond's</em> water resistance, not the wood's. A BWP board with poor-quality inner veneers will still warp, swell or develop fungus if the wood itself absorbs water through exposed edges or unsealed surfaces. Edge-banding and proper finishing are non-negotiable even with BWP.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>Key distinction most buyers miss:</strong><p>BWP describes the <em>glue bond's</em> water resistance, not the wood's. A BWP board with poor-quality inner veneers will still warp, swell or develop fungus if the wood itself absorbs water through exposed edges or unsealed surfaces. Edge-banding and proper finishing are non-negotiable even with BWP.</p></div>
 <h2>IS 710:1976 — What the Standard Actually Requires</h2>
 <p>Most "BWP plywood" marketing stops at "boiling water proof." But IS 710 specifies measurable physical tests that every compliant board must pass. Understanding these tells you <em>exactly</em> what you're paying the premium for — and what it doesn't cover.</p>
 <div class="table-wrap">
@@ -56,7 +56,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<div class="callout"><span class="callout__title">Note</span><strong>EEAT note — why IS 710 matters more than brand claims:</strong><p>A brand can print "BWP" on any board. Only <strong>ISI-stamped boards with the IS 710 mark</strong> (a red/brown diamond with the licence number) have actually been third-party tested by BIS-accredited labs. If the board doesn't carry the IS 710 ISI stamp, it's a marketing claim, not a certified property. Always ask for the ISI licence number — and verify it on the BIS website.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>EEAT note — why IS 710 matters more than brand claims:</strong><p>A brand can print "BWP" on any board. Only <strong>ISI-stamped boards with the IS 710 mark</strong> (a red/brown diamond with the licence number) have actually been third-party tested by BIS-accredited labs. If the board doesn't carry the IS 710 ISI stamp, it's a marketing claim, not a certified property. Always ask for the ISI licence number — and verify it on the BIS website.</p></div>
 <h2>How BWP Plywood Is Manufactured — 7-Step Process</h2>
 <p>Understanding how BWP differs from BWR at the manufacturing level helps you spot genuine product and understand why the price premium exists. The process is materially different from step 3 onward.</p>
 <ol>
@@ -68,7 +68,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Hot Pressing:</strong> The stack enters a hydraulic hot-press at <strong>130–150°C for 8–15 minutes</strong> (depending on thickness), at 12–15 kg/cm² pressure. The heat triggers irreversible cross-linking of the PF resin. This is the step that makes the bond permanent — once cured, PF resin cannot be softened by water, steam or heat below 200°C. BWR's MF resin cures at lower temperatures and can partially reverse under prolonged moisture.</li>
   <li><strong>Trimming, Sanding &amp; Grading:</strong> Boards are trimmed to standard dimensions (8×4 ft / 7×4 ft), sanded to calibrated thickness, and inspected. ISI-certified mills stamp each board with the IS 710 mark, licence number, species, grade and thickness.</li>
 </ol>
-<div class="callout"><span class="callout__title">Note</span><strong>Why BWP costs more — the material truth:</strong><p>PF resin costs approximately ₹85–110/kg versus ₹45–60/kg for UF/MF resin. A standard 19mm 8×4 sheet uses 3.5–4.5 kg of resin. That's ₹150–225 extra in resin alone per sheet, before accounting for the costlier hardwood species and longer pressing cycles. Multiply across a 2BHK kitchen (12–15 sheets) and the raw-material premium is ₹2,000–₹3,500 — yet the retail premium is often ₹6,000–₹10,000 because it includes the ISI testing, quality control and brand margin. This is why genuine BWP costs 40–60% more than BWR, not 10–15%.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>Why BWP costs more — the material truth:</strong><p>PF resin costs approximately ₹85–110/kg versus ₹45–60/kg for UF/MF resin. A standard 19mm 8×4 sheet uses 3.5–4.5 kg of resin. That's ₹150–225 extra in resin alone per sheet, before accounting for the costlier hardwood species and longer pressing cycles. Multiply across a 2BHK kitchen (12–15 sheets) and the raw-material premium is ₹2,000–₹3,500 — yet the retail premium is often ₹6,000–₹10,000 because it includes the ISI testing, quality control and brand margin. This is why genuine BWP costs 40–60% more than BWR, not 10–15%.</p></div>
 <h2>BWP Plywood — Honest Pros &amp; Cons</h2>
 <p>Most guides list only advantages. Here's the full picture — strengths <em>and</em> limitations — so you can make a decision you won't regret in year 5.</p>
 <p>✓ Advantages</p>
@@ -91,7 +91,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Widespread counterfeiting:</strong> "BWP" is India's most faked plywood claim. Many boards labelled BWP are actually BWR or even MR with a fake stamp. Always verify ISI licence numbers.</li>
   <li><strong>Higher formaldehyde emissions (uncured):</strong> PF resin emits phenol during curing, not formaldehyde — but some low-quality BWP with inadequate curing can off-gas. Look for E1 or E0 emission ratings alongside the IS 710 mark.</li>
 </ul>
-<div class="callout"><span class="callout__title">Note</span><strong>Enteriors' honest take:</strong><p>We use BWP in every kitchen and bathroom we build — it's non-negotiable in wet zones. But we recommend BWR for wardrobes, TV units and study tables unless you're in a coastal or flood-prone area. The hybrid approach saves our clients ₹18,000–₹30,000 per 2BHK with zero quality compromise in dry rooms.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>Enteriors' honest take:</strong><p>We use BWP in every kitchen and bathroom we build — it's non-negotiable in wet zones. But we recommend BWR for wardrobes, TV units and study tables unless you're in a coastal or flood-prone area. The hybrid approach saves our clients ₹18,000–₹30,000 per 2BHK with zero quality compromise in dry rooms.</p></div>
 <h2>BWP vs BWR vs MR Plywood — The Complete Comparison</h2>
 <p>This is the comparison that actually matters when you're budgeting a home interior. Every specification below is from the relevant IS standard — not marketing material.</p>
 <div class="table-wrap">
@@ -115,7 +115,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<div class="callout"><span class="callout__title">Note</span><strong>The competitor mistake you'll find on page 1:</strong><p>Several top-ranking articles incorrectly state that BWR plywood is certified under IS 710. <strong>This is wrong.</strong> BWR is IS 303 (Type 2). IS 710 exclusively covers BWP/marine-grade plywood. If a blog conflates these, it's a reliability red flag for everything else they say about materials.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>The competitor mistake you'll find on page 1:</strong><p>Several top-ranking articles incorrectly state that BWR plywood is certified under IS 710. <strong>This is wrong.</strong> BWR is IS 303 (Type 2). IS 710 exclusively covers BWP/marine-grade plywood. If a blog conflates these, it's a reliability red flag for everything else they say about materials.</p></div>
 <h2>6 Measurable Properties That Define BWP Quality</h2>
 <p>When two sheets both say "BWP" on the label, these are the numbers that separate a ₹3,800 board from a ₹5,500 one. Ask your supplier for test certificates — any IS 710–certified mill will have them.</p>
 <div class="table-wrap">
@@ -184,7 +184,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Entertainment units / TV walls:</strong> BWR. Behind a TV in an air-conditioned living room is the driest spot in the house.</li>
   <li><strong>Loft storage:</strong> BWR or MR. Loft units are near the ceiling in the hottest, driest zone. Moisture is never a concern.</li>
 </ol>
-<div class="callout"><span class="callout__title">Note</span><strong>The hybrid-approach savings (real 2BHK example):</strong><p><strong>All-BWP 2BHK:</strong> ~45 sheets × ₹4,800 avg = ₹2,16,000 in plywood <br> <strong>Hybrid (BWP kitchen + bathroom, BWR everything else):</strong> 15 sheets BWP × ₹4,800 + 30 sheets BWR × ₹3,200 = ₹1,68,000 <br> <strong>Savings: ₹48,000</strong> — redirectable to better hardware, acrylic shutters or a full cove-ceiling. Zero lifespan compromise.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>The hybrid-approach savings (real 2BHK example):</strong><p><strong>All-BWP 2BHK:</strong> ~45 sheets × ₹4,800 avg = ₹2,16,000 in plywood <br> <strong>Hybrid (BWP kitchen + bathroom, BWR everything else):</strong> 15 sheets BWP × ₹4,800 + 30 sheets BWR × ₹3,200 = ₹1,68,000 <br> <strong>Savings: ₹48,000</strong> — redirectable to better hardware, acrylic shutters or a full cove-ceiling. Zero lifespan compromise.</p></div>
 <h2>BWP Plywood Price in India — 2026 Market Rates</h2>
 <p>Prices below are Bangalore retail (dealer to end-customer) as of June 2026. Bulk/project rates from Enteriors' factory are typically 8–12% lower due to direct sourcing.</p>
 <h3>Price by Thickness (8×4 ft sheet, ISI-certified)</h3>
@@ -239,7 +239,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h4>Archid BWP Marine</h4>
 <p>₹3,600–₹4,400 / 19mm 8×4</p>
 <p>IS 710 certified. Budget BWP with mixed hardwood core. Lower density but passes all IS 710 tests. Best for cost-constrained wet-area applications.</p>
-<div class="callout"><span class="callout__title">Note</span><strong>Always verify the ISI licence number.</strong><p>Visit <strong>bis.gov.in</strong> → "Licensee Search" → enter the licence number printed on the board. If it doesn't appear, or the licence is expired/cancelled, the board is not genuine IS 710 BWP — regardless of what's printed on it.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>Always verify the ISI licence number.</strong><p>Visit <strong>bis.gov.in</strong> → "Licensee Search" → enter the licence number printed on the board. If it doesn't appear, or the licence is expired/cancelled, the board is not genuine IS 710 BWP — regardless of what's printed on it.</p></div>
 <h2>How to Spot Fake BWP Plywood — 7-Point Detection Guide</h2>
 <p>"BWP" is the most counterfeited plywood label in India because the premium is high and visual detection is difficult. Here's how to verify before you buy — and a field test you can run with a kitchen stove.</p>
 <p>1</p>

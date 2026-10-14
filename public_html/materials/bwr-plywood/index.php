@@ -277,7 +277,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Question 4 of 5How long do you need this furniture to last?</p>
 <p>Question 5 of 5What's your budget priority?</p>
 <div class="callout"><span class="callout__title">Your recommendation</span><h4>—</h4>
-<p>—</div>
+<p>—</p></div>
 <h2>How to spot fake or substandard BWR plywood</h2>
 <ol>
   <li><strong>The ISI mark check (non-negotiable).</strong> Genuine BWR plywood carries an ISI mark stamped on the board, with the manufacturer's licence number and the IS 303 standard reference. No ISI mark = no certification = not genuine BWR. Some vendors stamp fake ISI marks — verify the licence number on the BIS website if a deal looks suspicious.</li>

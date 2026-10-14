@@ -251,7 +251,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Question 4 of 5What's the load it will carry?</p>
 <p>Question 5 of 5Who will use the furniture daily?</p>
 <div class="callout"><span class="callout__title">Your recommendation</span><h4>—</h4>
-<p>—</div>
+<p>—</p></div>
 <h2>Common problems and how to prevent them</h2>
 <p>Seven specific failure modes we see in particle board furniture, and the prevention steps that actually work.</p>
 <p>01</p>

@@ -81,7 +81,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <h2>The Moisture Story — Why It Matters Most in India</h2>
 <p>India's climate — particularly in coastal cities like Chennai, Mumbai, Kochi, and Visakhapatnam — makes moisture resistance the most critical material property. Humidity levels routinely exceed 70–80%, and kitchens see direct water splash daily.</p>
-<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>⚠️ Common mistake</strong><p>Many homeowners opt for regular MR-grade plywood to save money, then wonder why their kitchen cabinets start swelling and delaminating within 2–3 years. The extra ₹10–15 per sq ft for BWP-grade plywood or HDHMR pays back significantly in lifespan.</div>
+<div class="callout callout--warn"><span class="callout__title">Watch out</span><strong>⚠️ Common mistake</strong><p>Many homeowners opt for regular MR-grade plywood to save money, then wonder why their kitchen cabinets start swelling and delaminating within 2–3 years. The extra ₹10–15 per sq ft for BWP-grade plywood or HDHMR pays back significantly in lifespan.</p></div>
 <p>HDHMR's moisture resistance comes from its core — the resin binder is mixed uniformly throughout the board, not just applied as a surface coating. When an HDHMR panel is cut, the new exposed edge is just as moisture-resistant as the face. Plywood, even BWP grade, requires edge treatment because cut edges expose the veneer layers to direct moisture ingress.</p>
 <h2>Where to Use Each Material</h2>
 <h3>✅ Best applications for HDHMR</h3>
@@ -137,15 +137,15 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<div class="callout"><span class="callout__title">Note</span><strong>💡 Pro tip from designers</strong><p>A common cost-optimised approach used by experienced interior designers: use HDHMR for shutters and visible surfaces (where finish quality matters) and BWP plywood for carcasses and structural parts (where strength matters). This hybrid approach delivers the best of both worlds without maxing out budget.</div>
+<div class="callout"><span class="callout__title">Note</span><strong>💡 Pro tip from designers</strong><p>A common cost-optimised approach used by experienced interior designers: use HDHMR for shutters and visible surfaces (where finish quality matters) and BWP plywood for carcasses and structural parts (where strength matters). This hybrid approach delivers the best of both worlds without maxing out budget.</p></div>
 <h2>🏆 The Verdict</h2>
 <p>Neither material is universally better — the right choice depends on where in the home and what job the panel needs to do. Here's the final decision map:</p>
 <div class="callout"><span class="callout__title">Note</span><div class="callout"><span class="callout__title">Note</span><h4>For kitchens &amp; wet areas</h4>
-<p>Choose HDHMR shutters + BWP plywood carcass. Best moisture performance with structural strength.</div>
+<p>Choose HDHMR shutters + BWP plywood carcass. Best moisture performance with structural strength.</p></div>
 <div class="callout"><span class="callout__title">Note</span><h4>For wardrobes &amp; bedrooms</h4>
-<p>Plywood carcass + HDHMR shutters is the standard. Dry zone means either works for the box.</div>
+<p>Plywood carcass + HDHMR shutters is the standard. Dry zone means either works for the box.</p></div>
 <div class="callout"><span class="callout__title">Note</span><h4>For a painted finish</h4>
-<p>HDHMR every time. The surface finish quality difference is visible and significant.</div>
+<p>HDHMR every time. The surface finish quality difference is visible and significant.</p></div>
 <div class="callout"><span class="callout__title">Note</span><h4>For heavy shelving</h4>
-<p>Plywood, especially 19mm BWP. HDHMR can sag under sustained point loads on long spans.</div></div>
+<p>Plywood, especially 19mm BWP. HDHMR can sag under sustained point loads on long spans.</p></div></div>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>
