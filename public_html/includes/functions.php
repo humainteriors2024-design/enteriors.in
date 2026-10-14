@@ -179,12 +179,17 @@ function sitemap_urls() {
   $root = rtrim($_SERVER['DOCUMENT_ROOT'] ?: dirname(__DIR__), '/');
   $skip = '#^/(includes|assets|api|admin|_templates|style-guide|thank-you|verify|blogs/[^/]+)(/|$)#';
   $urls = [];
-  $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($root, FilesystemIterator::SKIP_DOTS));
-  foreach ($it as $file) {
+  $files = iterator_to_array(new RecursiveIteratorIterator(new RecursiveDirectoryIterator($root, FilesystemIterator::SKIP_DOTS)), false);
+  // a second copy of the site uploaded inside public_html (e.g. public_html/public_html/) is never listed
+  $nested = [];
+  foreach ($files as $file) if ($file->getFilename() === 'config.php' && basename($file->getPath()) === 'includes' && dirname($file->getPath()) !== $root)
+    $nested[] = str_replace($root, '', dirname($file->getPath())) . '/';
+  foreach ($files as $file) {
     if ($file->getFilename() !== 'index.php') continue;
     $dir = str_replace($root, '', $file->getPath());
     $url = ($dir === '' ? '' : $dir) . '/';
     if (preg_match($skip, $url) || str_contains($url, '/.') || str_contains($url, '/_')) continue;
+    foreach ($nested as $n) if (str_starts_with($url, $n)) continue 2;
     $src = file_get_contents($file->getPathname());
     if (preg_match("#'noindex'\s*=>\s*true|'canonical'\s*=>\s*'/#", $src)) continue;   // hidden, or points Google at another page
     $urls[$url] = preg_match("#'updated'\s*=>\s*'(\d{4}-\d{2}-\d{2})'#", $src, $m) ? $m[1] : date('Y-m-d', $file->getMTime());

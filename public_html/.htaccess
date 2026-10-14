@@ -3,6 +3,12 @@ Options -Indexes
 DirectoryIndex index.php index.html
 ErrorDocument 404 /404.php
 
+# A copy of the site or a backup uploaded INSIDE public_html by mistake is never served (no duplicate site).
+# mod_alias, not mod_rewrite: the copy's own .htaccess cannot switch this off.
+<IfModule mod_alias.c>
+  RedirectMatch 404 ^/(public_html[^/]*|enteriors\.in-main)(/|$)
+</IfModule>
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
