@@ -56,6 +56,29 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     </ul>
     <p>Want every cabinet and accessory priced separately? The <a href="/calculators/home-interior-quote/">room-by-room quote builder</a> lists 91 modules across 10 rooms with sizes you can change.</p>
 
+    <h2>Worked examples</h2>
+    <p>Full interiors in Bengaluru at the typical carpet area for each home size, worked out with the same rates as the calculator. Use them to sense-check a budget before you open the calculator.</p>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th>Home</th><th class="num">Carpet area</th><th class="num">Essential</th><th class="num">Standard</th><th class="num">Premium</th></tr></thead>
+      <tbody>
+<?php foreach (['1 BHK', '2 BHK', '3 BHK', '4 BHK'] as $h) {
+  echo '        <tr><td>' . e($h) . '</td><td class="num">' . number_format($H['sizes'][$h]) . ' sq ft</td>';
+  foreach (['essential', 'standard', 'premium'] as $g) echo '<td class="num">' . lakh(calc_home(['home' => $h, 'pkg' => $g, 'scope' => 'full', 'city' => 'Bangalore'])['total']) . '</td>';
+  echo "</tr>\n";
+} ?>
+      </tbody>
+    </table>
+    </div>
+    <p class="table-note">Full scope, including GST, no add-ons or buffer. Kitchen and wardrobes only is about half of each figure.</p>
+
+    <h2>How to read your result</h2>
+    <p>The room-wise split under your total shows where a full-interiors budget usually goes:</p>
+    <ul>
+<?php foreach ($H['split'] as [$label, $pct]) echo '      <li><strong>' . e($label) . ':</strong> about ' . $pct . "%</li>\n"; ?>
+    </ul>
+    <p>The kitchen and wardrobes together take close to half. If the total is over budget, a lower grade for the bedrooms and a simpler false ceiling usually save more than cutting the kitchen.</p>
+
     <h2>What the estimate does not include</h2>
     <ul>
       <li>Loose furniture such as sofas, beds, dining tables and mattresses</li>

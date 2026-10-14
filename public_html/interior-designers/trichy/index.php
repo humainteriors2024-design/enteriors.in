@@ -14,7 +14,7 @@ $page = [
   'eyebrow'      => 'Trichy',
   'lede'         => 'Four interior firms in Tiruchirappalli, the houses and flats they work on.',
   'published'    => '2026-10-07',
-  'updated'      => '2026-10-07',
+  'updated'      => '2026-10-14',
   'list_name'    => 'Interior designers in Trichy',
   'quick_answer' => 'Interior firms in Trichy include Inhouse Xpressions and Pencil Kart Home Interiors in Thillai Nagar, Homeden Interior, and Sri Vekkaliamman Interiors in Woraiyur. They are listed alphabetically below with their addresses.',
   'faq' => [
@@ -49,6 +49,18 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>Estimate your interior cost in Trichy</h2>
 <?= designer_costs('trichy') ?>
 
+<h2>Areas and homes in Trichy</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Area</th><th>Typical homes</th><th>Plan for</th></tr></thead>
+  <tbody>
+    <tr><td>Thillai Nagar, KK Nagar, Woraiyur</td><td>Established areas with houses and apartments</td><td>Kitchen and wardrobes; upgrades of older homes</td></tr>
+    <tr><td>Srirangam</td><td>Older houses near the temple, often renovated in stages</td><td>Renovation checks and traditional details</td></tr>
+    <tr><td>Thiruverumbur, Karumandapam and the bypass roads</td><td>Newer layouts and houses</td><td>A whole-house plan agreed with the builder</td></tr>
+  </tbody>
+</table>
+</div>
+
 <h2>Homes in Trichy and what they need</h2>
 <ul>
   <li><strong>Independent houses.</strong> Interiors often cover the whole house, including a pooja room, staircase storage and a rental floor; plan electrical and false ceilings for all floors together.</li>
@@ -56,4 +68,15 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Termites and damp.</strong> Ask for anti-termite treatment and BWP plywood near water; see <a href="/materials/marine-plywood/">marine plywood</a>.</li>
   <li><strong>Vastu.</strong> Many families plan the kitchen, pooja room and bedrooms with vastu; include it in the brief. See <a href="/vastu/kitchen-vastu/">kitchen vastu</a>.</li>
 </ul>
+
+<h2>Renovating an older Trichy house</h2>
+<p>Older houses here often have Madras terrace roofs (brick laid on wooden joists), red oxide floors and thick load-bearing walls. Sort these out before the interiors:</p>
+<ul>
+  <li><strong>Roof.</strong> Wooden joists can rot or be eaten by termites. Have them checked and repaired before a false ceiling hides them.</li>
+  <li><strong>Floors.</strong> Red oxide floors can often be restored and polished instead of being covered.</li>
+  <li><strong>Walls.</strong> Do not cut openings in load-bearing walls without a structural engineer.</li>
+  <li><strong>Wiring.</strong> Old wiring often lacks earthing and enough sockets. Plan a full rewire with a new MCB and RCCB board.</li>
+  <li><strong>Damp.</strong> Fix damp at the base of walls first, and keep a small air gap behind wardrobes on outer walls.</li>
+</ul>
+<p>Trichy's main rain comes with the northeast monsoon, roughly October to December, so the dry months from January are the easiest time for roof and plaster repairs.</p>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

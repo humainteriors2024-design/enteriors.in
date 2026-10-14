@@ -14,7 +14,7 @@ $page = [
   'eyebrow'      => 'Warangal',
   'lede'         => 'Four interior firms across Warangal and Hanamkonda, the houses they work on.',
   'published'    => '2026-10-07',
-  'updated'      => '2026-10-07',
+  'updated'      => '2026-10-14',
   'list_name'    => 'Interior designers in Warangal',
   'quick_answer' => 'Interior firms in Warangal and Hanamkonda include Prasanna Constructions (Rangampet), Made & Make Interiors, Nakshathra Interio and Madan Interior Work. They are listed alphabetically below with their addresses.',
   'faq' => [
@@ -49,6 +49,18 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>Estimate your interior cost in Warangal</h2>
 <?= designer_costs('warangal') ?>
 
+<h2>Areas and homes in Warangal</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Area</th><th>Typical homes</th><th>Plan for</th></tr></thead>
+  <tbody>
+    <tr><td>Hanamkonda: Subedari, Nakkalagutta, Balasamudram</td><td>Independent houses and most of the city's newer apartments</td><td>Kitchen, wardrobes, a TV unit and a false ceiling in the main rooms</td></tr>
+    <tr><td>Kazipet and Hunter Road</td><td>Independent houses, many with a floor let to tenants</td><td>Hard-wearing laminate finishes in the rental units</td></tr>
+    <tr><td>Old Warangal, around the fort and the station</td><td>Older houses</td><td>Checks before design: wiring, damp, termites and roof leaks</td></tr>
+  </tbody>
+</table>
+</div>
+
 <h2>Planning interiors in Warangal</h2>
 <ul>
   <li><strong>Build and interiors together.</strong> If you are building, fix the furniture layout before the electrical and plumbing points are cut; see our <a href="/planning/electrical-points/">electrical points guide</a>.</li>
@@ -56,4 +68,21 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Granite and stone.</strong> Granite is quarried in Telangana and widely used for countertops and floors; see the <a href="/materials/granite-guide/">granite guide</a>.</li>
   <li><strong>Itemised quotes.</strong> Ask for board, laminate and hardware brands by name, and compare at least three firms.</li>
 </ul>
+
+<h2>When to schedule the work</h2>
+<p>Warangal's rain comes mainly with the southwest monsoon, June to September. April and May are very hot, often above 40°C.</p>
+<ul>
+  <li><strong>Before June:</strong> finish wet work such as plaster and bathroom waterproofing, so walls are dry when the carpentry starts.</li>
+  <li><strong>During the monsoon:</strong> carpentry can carry on indoors if boards are stored dry and off the floor.</li>
+  <li><strong>In peak summer:</strong> paint and polish dry too fast at midday; ask for work in the cooler hours.</li>
+</ul>
+
+<h2>Local craft for a Warangal home</h2>
+<p>Three Telangana crafts with a Geographical Indication (GI) tag sit well in a modern home:</p>
+<ul>
+  <li><strong>Warangal durries.</strong> Flat-woven cotton rugs made in and around the city. They are light, washable and cooler underfoot than thick pile carpets.</li>
+  <li><strong>Pembarthi brassware.</strong> Sheet-metal work from Pembarthi, on the Hyderabad–Warangal highway. It suits pooja room panels, lamps and wall plates.</li>
+  <li><strong>Cheriyal scroll paintings.</strong> Colourful narrative paintings from Cheriyal, framed as art for a living or dining room.</li>
+</ul>
+<p>One or two pieces are enough; they look best against plain walls and simple furniture.</p>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

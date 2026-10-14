@@ -14,7 +14,7 @@ $page = [
   'eyebrow'      => 'Belgaum',
   'lede'         => 'Four interior and architecture firms in Belagavi, the homes they work on, and how to plan interiors for a wet monsoon.',
   'published'    => '2026-10-07',
-  'updated'      => '2026-10-07',
+  'updated'      => '2026-10-14',
   'list_name'    => 'Interior designers in Belgaum',
   'quick_answer' => 'Interior firms with a studio in Belgaum include Unfold Design Architects and Castelino\'s Interiorscape in Tilakwadi, Starbricks Interiors at Goaves Circle and Livspace in Shahapur. They are listed alphabetically below with their addresses and the work each takes on.',
   'faq' => [
@@ -49,11 +49,39 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>Estimate your interior cost in Belgaum</h2>
 <?= designer_costs('belgaum') ?>
 
+<h2>Areas and homes in Belgaum</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Area</th><th>Typical homes</th><th>Plan for</th></tr></thead>
+  <tbody>
+    <tr><td>Camp, Shahapur</td><td>Older houses and bungalows</td><td>Renovation checks: damp, roof leaks, old wiring</td></tr>
+    <tr><td>Tilakwadi, Hindwadi</td><td>Bungalows and newer apartments</td><td>Whole-house or full-flat interiors</td></tr>
+    <tr><td>Sadashiv Nagar, Bhagya Nagar and newer layouts</td><td>Independent houses and new apartment blocks</td><td>Furniture layout fixed before wiring and plumbing</td></tr>
+  </tbody>
+</table>
+</div>
+
 <h2>Planning interiors for Belgaum's climate</h2>
 <ul>
   <li><strong>Heavy monsoon.</strong> Store boards indoors and off the floor during work, seal every edge, and use BWP plywood in wet areas; see <a href="/compare/bwp-vs-bwr-vs-mr-plywood/">plywood grades</a>.</li>
   <li><strong>Cooler winters.</strong> Wooden flooring, rugs and warmer finishes suit the climate better than in hotter cities; see the <a href="/flooring/">flooring guide</a>.</li>
   <li><strong>Hardware.</strong> Damp months are hard on steel fittings; ask for branded, rust-resistant hinges and channels.</li>
   <li><strong>Houses and bungalows.</strong> For a new house, an architecture practice such as Unfold Design can plan the building and interiors together.</li>
+</ul>
+
+<h2>When to schedule the work</h2>
+<p>Belgaum's heavy rain falls from June to September. The easiest months for interior work are October to May.</p>
+<ul>
+  <li><strong>Start after the rains</strong> if you can, once walls have dried out. Damp plaster behind a new wardrobe causes trouble later.</li>
+  <li><strong>If work runs into the monsoon,</strong> keep boards indoors and off the floor, and leave extra drying time for paint and polish.</li>
+  <li><strong>Check for leaks</strong> during the first heavy rain before closing up the false ceiling.</li>
+</ul>
+
+<h2>Damp-proofing checklist</h2>
+<ul>
+  <li>Fix seepage and leaks before any carpentry. A wardrobe hides damp until it ruins the back panel.</li>
+  <li>Laminate the back of wardrobes on outer walls and keep a small air gap behind them.</li>
+  <li>Use anti-fungal paint in bathrooms and on walls that stay damp.</li>
+  <li>Fit exhaust fans in the kitchen and bathrooms, ducted outside.</li>
 </ul>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

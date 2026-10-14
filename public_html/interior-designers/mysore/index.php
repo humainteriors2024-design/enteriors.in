@@ -14,7 +14,7 @@ $page = [
   'eyebrow'      => 'Mysore',
   'lede'         => 'Four interior firms in Mysuru, the independent houses and flats they work on.',
   'published'    => '2026-10-07',
-  'updated'      => '2026-10-07',
+  'updated'      => '2026-10-14',
   'list_name'    => 'Interior designers in Mysore',
   'quick_answer' => 'In Mysore, Creative Fusion (Saraswathipuram), i Build Interiors (Hebbal Industrial Area), Livinwood (Yadavagiri) and HomeLane (Vijayanagar) take on homes across the city. They are listed alphabetically below with their addresses and the work each takes on.',
   'faq' => [
@@ -49,6 +49,18 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>Estimate your interior cost in Mysore</h2>
 <?= designer_costs('mysore') ?>
 
+<h2>Areas and homes in Mysore</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Area</th><th>Typical homes</th><th>Plan for</th></tr></thead>
+  <tbody>
+    <tr><td>Vijayanagar, Kuvempunagar, Saraswathipuram</td><td>Large residential layouts with independent houses</td><td>Whole-house interiors, often with a rental floor</td></tr>
+    <tr><td>Gokulam, Jayalakshmipuram</td><td>Older bungalows on bigger plots</td><td>Renovation and traditional details</td></tr>
+    <tr><td>Hebbal, Bogadi and the ring road</td><td>Newer apartments and layouts</td><td>Flat interiors: kitchen, wardrobes, TV unit</td></tr>
+  </tbody>
+</table>
+</div>
+
 <h2>Houses in Mysore and what they need</h2>
 <ul>
   <li><strong>Independent houses.</strong> Interiors often cover two floors, a staircase and a rental unit. Plan wiring, plumbing and the false ceiling for the whole house at once.</li>
@@ -56,5 +68,16 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Traditional details.</strong> Rosewood inlay, carved doors and pooja units are popular; see <a href="/doors/pooja-room-door-design/">pooja room door designs</a> and <a href="/styles/traditional-indian/">traditional Indian interiors</a>.</li>
   <li><strong>Mild climate.</strong> Mysuru's climate is gentler than many Indian cities, but kitchens and bathrooms still need BWP plywood and sealed edges.</li>
 </ul>
+
+<h2>Mysuru crafts in a modern home</h2>
+<p>A few local crafts can give a new home a sense of place without making it look old-fashioned:</p>
+<ul>
+  <li><strong>Rosewood inlay.</strong> Use it for one feature, such as a pooja door or a single panel, rather than whole furniture. Ask for legally sourced timber.</li>
+  <li><strong>Mysore traditional paintings.</strong> GI-tagged paintings with gold-leaf detail, framed for a pooja room or living room.</li>
+  <li><strong>Channapatna toys.</strong> Lacquered wooden toys from Channapatna, on the Bengaluru–Mysuru highway, bring colour to a kid's room or a shelf.</li>
+  <li><strong>Ganjifa cards.</strong> Small round painted cards that work well framed as a set.</li>
+</ul>
+<p>Keep the rest of the room simple so one or two pieces stand out.</p>
+
 <p>If you are comparing with firms in the state capital, see the <a href="/interior-designers/bangalore/">top 10 interior designers in Bangalore</a>.</p>
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

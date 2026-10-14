@@ -16,7 +16,7 @@ $page = [
   'seo_title'   => 'Free Interior Design Calculators',
   'crumb'       => 'Calculators',
   'description' => 'Free interior calculators for Indian homes: itemised room-by-room quote, whole-home cost, modular kitchen and wardrobe pricing, with GST. No signup.',
-  'updated'     => '2026-10-04',
+  'updated'     => '2026-10-14',
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
@@ -39,6 +39,26 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 <section class="section section--grey section--tight">
   <div class="container container--text prose">
+    <h2>Which calculator should I use?</h2>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th>Your question</th><th>Use</th><th>You need</th></tr></thead>
+      <tbody>
+        <tr><td>Roughly what will my whole home cost?</td><td><a href="/calculators/interior-cost/">Interior cost per sq ft calculator</a></td><td>Carpet area</td></tr>
+        <tr><td>What exactly should each room cost, item by item?</td><td><a href="/calculators/home-interior-quote/">Room-by-room quote builder</a></td><td>Rough wall sizes</td></tr>
+        <tr><td>Is my kitchen quote fair?</td><td><a href="/calculators/modular-kitchen/">Modular kitchen calculator</a></td><td>Counter lengths in feet</td></tr>
+        <tr><td>What should one wardrobe cost?</td><td><a href="/calculators/wardrobe-cost/">Wardrobe cost calculator</a></td><td>Wall width and height</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h2>Before you start</h2>
+    <ul>
+      <li><strong>Carpet area</strong> is the usable floor inside your walls. It is usually 70–78% of the super built-up area on the sale agreement.</li>
+      <li><strong>Measure in feet.</strong> A tape measure and a phone photo of each wall are enough for a first estimate.</li>
+      <li><strong>Pick your city.</strong> Rates are set for Bengaluru and adjusted for other cities, as labour and overheads differ.</li>
+    </ul>
+
     <h2>How to use the estimates</h2>
     <p>Each calculator uses indicative Bengaluru rates and adjusts them for your city. Every estimate is worked out on our server from one rate sheet, so all the calculators and cost guides agree with each other. Treat the result as a planning figure: it tells you whether a budget is realistic and which choices move it most. A quotation after site measurement can differ by 10–15% either way.</p>
     <ul>
