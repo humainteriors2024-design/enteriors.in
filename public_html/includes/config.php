@@ -98,7 +98,7 @@ const SOCIAL = [
    Test with ?debug_mode=1 on any page (GA4 → Admin → DebugView). docs/ga4-setup.md has every event. */
 const TRACKING_ON = true;
 const TRACKING = [
-  'ga4'               => '',                   // >>> PASTE your GA4 Measurement ID here, e.g. 'G-AB12CD34EF' (GA4 → Admin → Data streams → Web). Blank = GA4 off
+  'ga4'               => 'G-6GZMB484LL',       // GA4 Measurement ID (set 14 Oct 2026). To change it, replace only what is inside the quotes, e.g. 'G-AB12CD34EF' (GA4 → Admin → Data streams → Web). Blank = GA4 off
   'meta_pixel'        => '2229913661272596',   // Meta (Facebook) Pixel ID: PageView on every page, Lead on a verified enquiry, Contact on call / WhatsApp taps
   'gsc_verification'  => '',                   // >>> Google Search Console: paste ONLY the content="…" value of the google-site-verification HTML tag
   'bing_verification' => '',                   // Bing Webmaster Tools: the content="…" value (optional)
