@@ -31,7 +31,7 @@
    true  = LAUNCHED: the site can be indexed, sitemap and llms.txt are on.
    Analytics (GA4, Meta Pixel) has its OWN switch, TRACKING_ON in section 4, so it can run before launch.
    Check after flipping: open /robots.txt, /sitemap.xml and view the source of any page (meta name="robots"). */
-const LAUNCHED = false;
+const LAUNCHED = true;   // launched 14 Oct 2026 at the owner's request (false = back to the pre-launch lock)
 
 /* ---------- 0b. LIVE / STAGING (by address) ----------
    'auto'    = live only when the site is opened on the SITE url below; any
@@ -284,7 +284,7 @@ const FAQ_SCHEMA     = true;    // FAQPage markup: no longer a Google rich resul
    Set a password: open /admin/ once on staging, it shows the line to paste here. Blank = /admin/ is off. */
 const ADMIN = [
   'user'          => 'enteriors',
-  'password_hash' => '',
+  'password_hash' => '$2y$10$JXp7MJhTSyF6wGeOX5uEhuWVozeqEO.gMTtMvjOpRwVHemqTf2Fqi',   // set 14 Oct 2026; to change it, open /admin/ on staging with this line blanked, or ask
 ];
 const STICKY_CTA     = true;    // floating Call / Consultation buttons after scrolling
 const LEAD_DIALOG    = true;    // "Free consultation" buttons open a pop-up form instead of leaving the page
