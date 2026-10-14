@@ -100,7 +100,7 @@ const TRACKING_ON = true;
 const TRACKING = [
   'ga4'               => 'G-6GZMB484LL',       // GA4 Measurement ID (set 14 Oct 2026). To change it, replace only what is inside the quotes, e.g. 'G-AB12CD34EF' (GA4 → Admin → Data streams → Web). Blank = GA4 off
   'meta_pixel'        => '2229913661272596',   // Meta (Facebook) Pixel ID: PageView on every page, Lead on a verified enquiry, Contact on call / WhatsApp taps
-  'gsc_verification'  => '',                   // >>> Google Search Console: paste ONLY the content="…" value of the google-site-verification HTML tag
+  'gsc_verification'  => '0lH2ddfuw-r_04ZKCm2W1a2PcucEmKV5XH2CRTVdZgU',   // Google Search Console verification code (14 Oct 2026); the same code is the DNS TXT record
   'bing_verification' => '',                   // Bing Webmaster Tools: the content="…" value (optional)
   'meta_domain_verification' => '',            // Meta Business → Brand safety → Domains: the content="…" value (optional)
   'google_ads'        => '',                   // optional, later: Google Ads 'AW-XXXXXXXXXX' (loads through the same Google tag, no second tag)
