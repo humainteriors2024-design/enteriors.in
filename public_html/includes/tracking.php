@@ -10,13 +10,15 @@
      Always (even with tracking off):
        • site-verification meta tags (Search Console, Bing, Meta domain)
        • the first-visit cookie "ent_src" (utm_*, gclid, fbclid, referrer, landing page) that the server
-         reads into every lead email — see first_touch() in leads.php
+         reads into every lead email — see first_touch() in leads.php (not set on /verify/: the email link
+         is never anyone's first visit)
        • private values (?t= ?k= on the verify page, ?ref= on thank-you) are removed from the address
          bar before any tag can read them
        • window.entTrack(name, params): every event goes through it; it drops anything that looks like
          a name, email or phone number, and keeps a copy in window.entEvents (for testing in the console)
      Only when tracking_tags_on() (TRACKING_ON, live address or 'on_staging', not /admin/):
        • GA4 (gtag.js): ONE config call = ONE page_view, with page_type, content_group and site_section
+         (on /verify/ with ignore_referrer, so a lead confirmed from Gmail keeps its real source)
        • Meta Pixel: PageView; Lead on a verified enquiry; Contact on call / WhatsApp taps
      /assets/js/track.js (every page): clicks, scroll depth and form views. site.js: the form funnel.
      calc.js / finder.js: calculator_use and filter_use.
@@ -107,7 +109,7 @@ function tracking_head($page = [], $hub = null) {
     . 'var get=function(s,k){try{return s.getItem(k)}catch(e){return null}},put=function(s,k,v){try{v===null?s.removeItem(k):s.setItem(k,v)}catch(e){}};' . "\n"
     . 'var q;try{q=new URLSearchParams(L.search)}catch(e){q={get:function(){return null},has:function(){return false}}}' . "\n"
     // first visit: kept 90 days in a first-party cookie, never overwritten (first touch)
-    . 'try{if(!/(?:^|; )ent_src=/.test(d.cookie)){var o=new URLSearchParams(),r=d.referrer||"";'
+    . 'try{if(!/(?:^|; )ent_src=/.test(d.cookie)&&L.pathname!=="/verify/"){var o=new URLSearchParams(),r=d.referrer||"";'
     . '["utm_source","utm_medium","utm_campaign","utm_term","utm_content","gclid","gbraid","wbraid","fbclid"].forEach(function(k){var v=q.get(k);if(v)o.set(k,v.slice(0,200))});'
     . 'try{if(r&&new URL(r).hostname.replace(/^www\./,"")===L.hostname.replace(/^www\./,""))r=""}catch(e){r=""}'
     . 'if(r)o.set("ref",r.split("?")[0].slice(0,200));o.set("lp",L.pathname.slice(0,200));o.set("ts",Math.floor(Date.now()/1e3));'
@@ -138,7 +140,7 @@ function tracking_head($page = [], $hub = null) {
     $h .= '  <script async src="https://www.googletagmanager.com/gtag/js?id=' . e($ga4 ?: $ads) . "\"></script>\n"
         . '  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());' . "\n"
         . '  (function(P){var c={page_type:P.page_type,content_group:P.content_group,site_section:P.site_section};'
-        . 'if(P.debug)c.debug_mode=true;if(P.internal)c.traffic_type="internal";if(P.lead)gtag("set","user_properties",{lead_status:"lead"});'
+        . 'if(P.debug)c.debug_mode=true;if(P.internal)c.traffic_type="internal";if(location.pathname==="/verify/")c.ignore_referrer=true;if(P.lead)gtag("set","user_properties",{lead_status:"lead"});'
         . ($ga4 ? 'gtag("config",' . $j($ga4) . ',c);' : '') . ($ads ? 'gtag("config",' . $j($ads) . ');' : '') . '})(window.ENT_PAGE);</script>' . "\n";
   }
   // 3. Meta Pixel: the standard base code. autoConfig off = no automatic button-click / page-metadata events.
