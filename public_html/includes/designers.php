@@ -121,7 +121,7 @@ function designer_method($place = '', $extra = '') {
   $where = $place ? 'in or near ' . e($place) : 'in the city';
   return '<div class="callout callout--pillar designer-method" id="how-we-chose">'
        . '<span class="callout__title">How these firms were chosen</span>'
-       . '<p>Each firm has a studio, office or showroom ' . $where . ' with a published address or locality, its own website showing completed work, and takes on the kind of project this page covers. Firms are listed alphabetically; the order is not a ranking. We do not quote prices for the firms named here: ask each one for an itemised quotation and compare it with your own estimate from our <a href="/calculators/home-interior-quote/">interior cost calculator</a>.' . ($extra ? ' ' . e($extra) : '') . '</p>'
+       . '<p>Each firm has a studio, office or showroom ' . $where . ' with a published address or locality, its own website showing completed work, and takes on the kind of project this page covers. Firms are listed alphabetically; the order is not a ranking. We do not quote prices for the firms named here: ask each one for an itemised quotation and compare it with your own estimate from our <a href="/calculators/home-interior-quote/">interior cost calculator</a>.</p>' . ($extra ? '<p>' . e($extra) . '</p>' : '')
        . '<p>' . e($db['disclosure']) . ' Last checked ' . designers_checked() . '.</p>' . designer_finder_links() . '</div>';
 }
 

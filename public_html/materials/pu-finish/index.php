@@ -35,14 +35,14 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>PU finish is short for <strong>polyurethane finish</strong> — a multi-coat liquid coating sprayed onto a primed and sanded surface to create a hard, seamless, paint-like skin. It is not paint and it is not laminate. It sits closer to automotive coating than to either: a hardened resin shell that cures chemically rather than just drying, bonded to the substrate beneath it.</p>
 <h3>How polyurethane protects furniture</h3>
 <p>Once cured, a PU coat is essentially a thin layer of plastic. It resists scratches, water, mild chemicals and UV light far better than melamine or traditional French polish. Because each successive coat fuses into the one below, the finish reads as a single continuous surface — no joints, no edge banding, no visible seams. This is the look people pay PU pricing to get.</p>
-<h3>PU finish vs traditional polish</h3>
+<h3>How it differs from traditional polish</h3>
 <p>Traditional polish — melamine, NC lacquer, or wax-based polish — sits on top of the wood as a thin film and reveals the grain. PU does the opposite: it builds a thicker, opaque surface that hides the substrate entirely.</p>
 <p>That is why PU on MDF or HDHMR looks the same as PU on plywood — you are paying for the finish, not the board underneath. Polish is for showing off wood. PU is for shaping a furniture surface to look exactly the way you want.</p>
 <h3>Why premium designers reach for PU</h3>
 <p>Three reasons. First, design freedom — PU can be tinted to any colour, any sheen, including custom mixes that no laminate brand will stock for a single client. Second, edges — PU wraps continuously around a shutter, so the front and the edge are the same material with no banding to peel. Third, hand-feel — a well-buffed matte PU has a soft, almost suede-like touch that laminate simply does not.</p>
 <h4>In one line</h4>
 <p>PU finish is a sprayed-on, chemically cured plastic coating that gives furniture a seamless, high-end painted look — at roughly two to four times the cost of premium laminate.</p>
-<h2>Types of PU finish</h2>
+<h2>Types</h2>
 <p>"PU finish" is a category, not a single product. When you sign off on PU, you are picking on three axes at once: chemistry, packaging and application method. Each one affects price, finish quality and durability.</p>
 <h3>By chemistry: solvent-based vs water-based</h3>
 <h4>Solvent-based PU</h4>
@@ -80,7 +80,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>10–20% premium for high/mirror gloss</p>
 <h3>Textured PU</h3>
 <p>A separate category worth mentioning: textured PU adds a fine grain, suede or sandstone-like feel to the surface during the final coat. It is harder to apply, more expensive (roughly 15–25% over matte) and looks distinctly different in person than in photos. Worth specifying on one or two statement units — a tall pantry, an island front — rather than a whole kitchen.</p>
-<h2>PU finish colours available</h2>
+<h2>Colours available</h2>
 <p>One of the strongest arguments for PU finish is colour. Unlike laminate, which restricts you to whatever the brand decided to print this year, PU can be tinted to almost any RAL or NCS code your designer specifies — usually within a 24-hour lab match.</p>
 <p>White</p>
 <p>The most-ordered shade. Pure white, warm white, off-white, ivory — small undertone shifts change the whole room.</p>
@@ -95,7 +95,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Metallic PU</p>
 <p>Champagne, gun metal, brushed bronze. Specialty tier, 20–30% premium, best in small doses.</p>
 <p><strong>On custom colour matching.</strong> Most premium brands — ICA, Sirca, Milesi — will match a Pantone or RAL code with surprising accuracy. The catch is sample size: always insist on a 6"×6" sprayed sample on the actual board you're using, viewed in your home's lighting, before signing off the full job. A swatch on glossy paper will lie to you.</p>
-<h2>How PU finish is applied: the 10-step process</h2>
+<h2>How it is applied: the 10-step process</h2>
 <p>Most clients never see this happen, which is exactly why PU pricing varies so wildly. A factory PU process should look like this — if your vendor skips three or more of these steps, you are paying PU prices for sub-PU quality.</p>
 <h4>Surface preparation</h4>
 <p>Boards are inspected, edges trimmed, and any defects (chips, knots, splinters) filled. The board's moisture content is checked — anything above 8% will cause adhesion problems later.</p>
@@ -129,7 +129,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Day 7</p>
 <h4>What this means for you</h4>
 <p>A proper PU job takes 5–7 working days per unit, minimum. If a vendor promises a fully PU-finished modular kitchen in three days, they are skipping curing — and your finish will scratch and peel within a year.</p>
-<h2>Where to use PU finish in your home</h2>
+<h2>Where to use it in your home</h2>
 <p>PU finish makes sense anywhere you want a seamless painted look, where edges and joinery should disappear, and where moisture or daily wear demand a hard protective coat. It does not make sense everywhere — and choosing wisely is half the cost-saving.</p>
 <h4>Modular kitchens</h4>
 <p>The flagship use case. Shutters, tall units, island fronts, pantry doors — all classic PU territory. Recommended on the units you touch every day.</p>
@@ -151,7 +151,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>High-touch, high-traffic. PU's scratch resistance pays off here. A common upgrade from laminate, especially in apartment foyers.</p>
 <h3>Where PU is usually the wrong choice</h3>
 <p>Skip PU on internal carcass boxes (no one sees them, laminate is cheaper), on rental property kitchens (the budget rarely justifies the cost), and on any unit you genuinely plan to replace inside 5 years. PU's value is in its longevity — pay for it only where you'll actually keep it.</p>
-<h2>Pros and cons of PU finish</h2>
+<h2>Pros and cons</h2>
 <p>Every paid guide on PU lists ten advantages and never mentions a single drawback. Here is the version we actually tell clients.</p>
 <h4>What PU does well</h4>
 <ul>
@@ -173,7 +173,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Cheap PU exists and is widely sold.</strong> Single-component, brush-applied "PU" is technically PU but produces a finish closer to glossy enamel paint.</li>
   <li><strong>Strong fumes</strong> during application — solvent PU is not something you want to be present for, especially with young children at home.</li>
 </ul>
-<h2>PU finish vs other interior finishes</h2>
+<h2>Compared with other interior finishes</h2>
 <p>This is the section most homeowners skip straight to, so we'll keep it dense and honest. Each row reflects how the finishes perform in a real Indian home — not in a brochure.</p>
 <div class="table-wrap">
 <table>
@@ -196,7 +196,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>PU finish vs laminate — the most common comparison</h3>
 <p>Laminate is the default Indian kitchen surface for a reason: cost, choice and the fact that a damaged sheet can usually be swapped out without redoing the whole shutter. PU wins on appearance and feel; laminate wins on practicality and price.</p>
 <p>Our honest recommendation: laminate for the lower cabinets and tall units that take daily damage, PU for the upper-band statement surfaces — island fronts, pantry doors, the wall you see when you walk in. This hybrid approach costs 30–40% less than full PU and looks nearly identical.</p>
-<h3>PU finish vs acrylic</h3>
+<h3>PU vs acrylic</h3>
 <p>Acrylic is essentially a sheet of high-gloss plastic bonded to the board. Closer to laminate in installation, closer to PU in look. The advantages: factory-controlled gloss, predictable colour, easier to clean. The disadvantages: you cannot get matte or super-matte in acrylic (it is intrinsically glossy), and edges still need banding. Choose acrylic if you specifically want mirror gloss; choose PU if you want anything else.</p>
 <h2>PU finish cost in India (2026)</h2>
 <p>Cost is where the PU market gets murky. Quotes can vary by 3x for what is nominally the same finish, and most of that variance is real — different brands, different application methods, different number of coats. Here is what each price tier actually buys you.</p>
@@ -244,7 +244,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li>Finish often shows defects within 6–12 months</li>
 </ul>
 <p><strong>The exception.</strong> Sometimes site PU is unavoidable — a built-in panelled wall that cannot be transported, a wide custom ceiling treatment, an in-place repair. In those cases, ask the vendor for: a sealed plastic tent over the work area, a HEPA-filtered air supply, and 72 hours of clear access after the final coat. It will still not match factory quality, but it can come close.</p>
-<h2>Best PU finish brands available in India</h2>
+<h2>Best brands available in India</h2>
 <p>The brand of PU resin matters more than most homeowners realise. It affects film hardness, UV stability, colour depth, and how the finish looks five years in. Below is our honest take on the major brands available in 2026.</p>
 <p>ICA</p>
 <p>Italian · Premium</p>
@@ -270,7 +270,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Japanese-Indian · Mid-premium</p>
 <p>Increasingly common in modular kitchen factories. Decent durability, reasonable price point, good warranty terms.</p>
 <p>Standard tier</p>
-<h2>PU finish on different boards</h2>
+<h2>On different boards</h2>
 <p>The board underneath your PU finish matters far more than people realise. PU is only as stable as the board it's bonded to — a warped substrate will pull the finish with it, no matter how good the spray job was.</p>
 <h3>MDF — the standard for PU</h3>
 <p>Medium Density Fibreboard is the most common substrate for PU finish, and for good reason: its dense, uniform surface holds primer and PU coats beautifully, with no grain to telegraph through. The downside is moisture sensitivity — standard MDF swells when exposed to water. For kitchens and vanities, demand <strong>boilo-MDF</strong> or HDHMR (see below) instead.</p>
@@ -282,7 +282,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>A specific combination worth its own mention: real wood veneer pasted onto plywood, then sealed with a clear PU top coat. You get the grain of real wood with the durability of PU. This is what high-end crockery units, library walls and library-style TV units are usually built from. Premium pricing, lasting result.</p>
 <h3>Solid wood with PU</h3>
 <p>Rare in modular contexts (too expensive, too dimensionally unstable for large shutters), but used for accent furniture — dining tables, statement chairs. PU over solid wood gives a hard protective shell while preserving the wood's grain if a clear top coat is used.</p>
-<h2>How durable is PU finish — and how to care for it</h2>
+<h2>How durable it is, and how to care for it</h2>
 <p>A well-applied 2K factory PU finish should last 10–12 years before showing its age. Some of that depends on the spray; most of it depends on how you treat it.</p>
 <h3>What PU resists, and how well</h3>
 <ul>
@@ -310,7 +310,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>5. Touch test for hardness.</strong> Press a fingernail into a hidden area. A properly cured PU finish will not dent or mark.</p>
 <p><strong>6. No visible joints inside the unit.</strong> Open the shutter and check the inside edges — joinery should be clean, with no PU drips into the interior.</p>
 <p><strong>7. Door alignment.</strong> All shutters should align flush with each other when closed. Misalignment is a carpentry issue, but it shows up worse on PU than on laminate.</p>
-<h2>Mistakes homeowners make with PU finish</h2>
+<h2>Mistakes homeowners make</h2>
 <ol>
   <li><strong>Picking PU because it sounds premium.</strong> Without understanding 1K vs 2K, factory vs site, or which brand, you are buying a category, not a finish. Read the quote, ask the questions.</li>
   <li><strong>Allowing site PU because the vendor says it's fine.</strong> It is not fine. Insist on factory finish, even if it adds two weeks to delivery.</li>

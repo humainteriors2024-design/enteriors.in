@@ -47,7 +47,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>In practical terms: BWR shrugs off ambient kitchen humidity, AC condensation, light splashes, and occasional spills wiped up quickly. It does not shrug off standing water for hours, or being installed where it's in regular direct contact with water (under a leaky pipe, behind a shower wall). For that, you need BWP.</p>
 <h4>The chemistry that matters</h4>
 <p>If you remember one technical detail from this guide: BWR uses phenol-formaldehyde (PF) resin, MR uses urea-formaldehyde (UF) resin. Some vendors sell MR plywood as "BWR-equivalent" at lower prices — it isn't. The resin is the difference. Ask which resin was used; if the vendor says "UF" or doesn't know, you're being sold MR with a BWR sticker.</p>
-<h2>How BWR plywood is manufactured</h2>
+<h2>How it is made</h2>
 <p>Understanding the eight-step manufacturing process helps you tell quality BWR from cheap BWR — even before you check the IS mark.</p>
 <h4>Hardwood veneer selection</h4>
 <p>Premium BWR uses Gurjan (imported from Myanmar) or Eucalyptus hardwood veneers. Budget BWR uses mixed Indian hardwood from plantation species. Gurjan core gives higher density and screw-holding; mixed hardwood gives acceptable performance at lower cost. Both are sold as "BWR" — what's inside differs significantly.</p>
@@ -65,7 +65,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The pressed board is calibrated to precise thickness (e.g., 18mm = 17.8–18.2mm) and sanded smooth on both faces. Calibrated BWR has uniform thickness across the sheet; non-calibrated BWR varies, causing shutter alignment problems later.</p>
 <h4>Quality testing and ISI grading</h4>
 <p>Sample boards from each batch are tested per IS 303 — moisture content, glue shear strength, boiling water resistance (8-hour test), and dimensional stability. Boards that pass receive the ISI mark. Boards that fail get sold as "commercial plywood" without certification — at suspiciously low prices.</p>
-<h2>Types of BWR plywood you'll be offered</h2>
+<h2>Types you'll be offered</h2>
 <p>"BWR plywood" is a category, not a single product. Five variations are commonly sold at very different price points — and only some are right for your project.</p>
 <h4>Gurjan Core BWR</h4>
 <p>Made with imported Gurjan hardwood for both face and core veneers. Highest density (700–750 kg/m³), best screw holding, longest service life. Costs 20–30% more than mixed-hardwood BWR. Worth it for kitchens, wardrobes, and any heavy-load application.</p>
@@ -159,7 +159,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>The 85-15 hybrid rule we use with most clients</h3>
 <p>For a typical 3BHK Indian home, our standard spec mixes BWR and BWP at roughly 85% BWR and 15% BWP. The 15% goes specifically to: under-sink cabinet, cabinet above stove, bathroom vanity front, utility cabinets, balcony storage. Everything else gets BWR.</p>
 <p>The cost difference vs all-BWR is about ₹12,000–18,000 on a 3BHK; the cost saving vs all-BWP is roughly ₹35,000–55,000. The longevity outcome matches all-BWP almost exactly because failure points are protected where they actually occur.</p>
-<h2>Where BWR plywood is the right choice</h2>
+<h2>Where it is the right choice</h2>
 <p>The eight applications where BWR is genuinely the best material at its price point — not just an acceptable substitute.</p>
 <h4>Master bedroom wardrobes</h4>
 <p>Large surface area, hinge load over many years, dry indoor environment. BWR's screw holding and dimensional stability shine here. Use 18mm calibrated BWR for shutters, 18mm for carcass sides.</p>
@@ -185,7 +185,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h4>Living room furniture and panelling</h4>
 <p>Sofa frames, coffee table bases, decorative wall panels — all dry indoor applications where BWR's strength-to-cost ratio is optimal.</p>
 <p>18mm primary applications</p>
-<h2>When BWR plywood is the wrong choice</h2>
+<h2>When it is the wrong choice</h2>
 <p>Five situations where BWR will disappoint you and BWP earns its premium. The vendors who tell you "BWR works fine here" are either wrong or selling.</p>
 <h4>Under-sink kitchen cabinets</h4>
 <p>Cabinets directly under the kitchen sink see constant moisture, pipe condensation, and occasional leaks. BWR will swell at the corners within 3–5 years. BWP is the only correct call here.</p>
@@ -228,7 +228,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Full 3BHK home (all furniture):</strong> ₹2.8 – 4.5 lakhs with BWR throughout; ₹3.5 – 5.5 lakhs with BWP throughout; ₹3.0 – 4.8 lakhs with hybrid spec.</li>
 </ul>
 <p>The hybrid spec is what we recommend in 9 out of 10 client meetings — it costs only marginally more than full BWR while protecting the failure-prone zones where BWR genuinely doesn't perform.</p>
-<h2>Best BWR plywood brands in India (2026)</h2>
+<h2>Best brands in India (2026)</h2>
 <p>Six brands dominate the Indian BWR market. Here's an honest, project-tested take on each — what they're good at, what they cost, and where they're most worth specifying.</p>
 <p>CenturyPly</p>
 <p>Premium · Pan-India</p>
@@ -278,7 +278,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Question 5 of 5What's your budget priority?</p>
 <div class="callout"><span class="callout__title">Your recommendation</span><h4>—</h4>
 <p>—</p></div>
-<h2>How to spot fake or substandard BWR plywood</h2>
+<h2>How to spot fake or substandard sheets</h2>
 <ol>
   <li><strong>The ISI mark check (non-negotiable).</strong> Genuine BWR plywood carries an ISI mark stamped on the board, with the manufacturer's licence number and the IS 303 standard reference. No ISI mark = no certification = not genuine BWR. Some vendors stamp fake ISI marks — verify the licence number on the BIS website if a deal looks suspicious.</li>
   <li><strong>The edge inspection.</strong> Examine the cut edge of the plywood. Genuine BWR shows clean, tightly-bonded layers with no visible voids or gaps between veneers. Cheap BWR shows obvious gaps, knots in the core veneers, and visible air pockets — signs of poor manufacturing.</li>
@@ -297,7 +297,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>5. Use calibrated BWR for modular shutters.</strong> Modular cabinet doors need precise thickness consistency across all shutters. Calibrated BWR (18mm ± 0.2mm) costs 5–8% more but ensures shutters align flush. Non-calibrated BWR creates visible step-offs between adjacent doors.</p>
 <p><strong>6. Hinge count for heavy shutters.</strong> Standard 2-hinge installation is borderline for BWR wardrobe shutters above 600mm wide or 2000mm tall. Use 3 hinges minimum for these sizes, 4 for tall pantry shutters. Hinge failure is one of the top complaints on BWR furniture — almost always installation-related.</p>
 <p><strong>7. Apply sealant at plumbing penetration points.</strong> Where pipes pass through BWR carcasses (kitchen sink cabinet, utility area), apply silicone sealant at the cut hole. Water inevitably tracks down pipes; the sealant stops it from entering the board edge.</p>
-<h2>Myths vs facts about BWR plywood</h2>
+<h2>Myths vs facts</h2>
 <p>Four pieces of common misinformation about BWR plywood, addressed honestly.</p>
 <div class="myth-pair"><div class="callout callout--warn"><span class="callout__title">Myth 1</span><strong>"BWR plywood is fully waterproof."</strong></div>
 <div class="callout callout--tip"><span class="callout__title">Fact</span><p>BWR is highly water-resistant, not waterproof. It passes an 8-hour boiling water test, but cannot remain in standing water or direct water contact for extended periods. For that, you need BWP under IS 710.</p></div></div>

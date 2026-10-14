@@ -151,3 +151,45 @@ descriptions at a sentence or word, never mid-word, so real listings added later
 automatically.
 
 Utility pages (`/thank-you/`, `/verify/`, `/style-guide/`) are noindex and kept short on purpose.
+
+## 6. Content: easier reading and deeper thin pages (task 9)
+
+### Easier to read
+
+Many guides were migrated from an older page builder, and the move had left clutter in the text.
+That clutter was removed across about 60 pages without changing what the pages say:
+
+| Problem | Fix | Count |
+|---|---|---|
+| Section numbers fused into headings ("01 — FoundationWhat BWR plywood really is") | Plain headings (this also cleans the "On this page" list and anchor ids) | 155 headings |
+| Paragraphs over 75 words | Split at sentence boundaries; run-on "Label: text. Label: text." paragraphs became bullet lists | 150+ paragraphs |
+| Decorative leftovers shown as text: "Section 02", lone emoji, "01"/"02" step numbers, eyebrow labels above headings | Removed; step numbers moved into the heading or bold lead they belonged to | about 1,000 lines on 45 pages |
+| Broken callout boxes (boxes inside boxes, stray tags, empty gaps) | Rebuilt: myth/fact pairs side by side (stacked on phones), tip cards in a grid, card headings as box titles | 15 pages |
+| Unclosed paragraphs | Closed | 85 |
+| Summaries that only made sense in the old layout | Rebuilt as tables or two-box comparisons (quartz vs granite, pooja room budgets, matte vs glossy) | 3 pages |
+
+Result on the 169 guide and hub pages: no paragraph is longer than 80 words, the average paragraph is
+29 words and the average sentence 17 words, and no page has stray or unclosed tags in its content.
+
+**No keyword stuffing.** Six material pages repeated their keyword in almost every subheading
+("Advantages of Gurjan Plywood", "Disadvantages of Gurjan Plywood", "Where Gurjan Plywood Works
+Well", and 23 such headings on the membrane finish page). The keyword now stays in the H1 and a few
+key headings; the other 69 subheadings were shortened ("Advantages", "How it is made").
+
+**Facts checked and corrected:** the BWR plywood page wrongly described IS 303 (MR, BWR and BWP
+are all grades under IS 303); one long duco paint sentence was split.
+
+### Thin pages made useful
+
+| Page | Added |
+|---|---|
+| 11 smaller city pages (Belgaum, Erode, Madurai, Mysore, Nellore, Tirunelveli, Trichy, Vellore, Vijayawada, Vizag, Warangal) | A table of areas, the homes found there and what to plan for; which months suit the work (monsoon and peak heat); one local section each: managing the work from another city (Tirunelveli), building and interiors with one firm (Nellore), Telangana GI crafts (Warangal), local textiles (Erode), designing for the heat (Vellore), renovating older Madras-terrace houses (Trichy), damp-proofing (Belgaum), flood-prone streets (Vijayawada), Mysuru crafts (Mysore), Chettinad details (Madurai), coastal hardware table (Vizag). No firm prices, as before. |
+| /compare/ | Three comparison pages that were missing from the hub (calibrated vs normal plywood, engineered wood vs plywood, sliding vs hinged wardrobe); a quick-verdict table taken from each page's own conclusion; a "which comparison do you need" guide |
+| /calculators/ | A "which calculator should I use" table and what to measure first |
+| /calculators/interior-cost/ | Worked examples for 1–4 BHK at three grades, and how to read the room-wise split. Figures are calculated from the same rate sheet as the calculator (`includes/calc/rates.php`), so they update when the rates do |
+| /calculators/wardrobe-cost/ | Five worked examples (also from the rate sheet) and how to measure the wall |
+| /about/ | What is on the site, how firms are chosen for city pages, what happens to enquiry details, how to report a mistake |
+| /contact/ | What happens after you send the form (email check, call, consultation, quotes) and what to have ready |
+
+Pages that are short on purpose and stay short: `/thank-you/`, `/verify/`, `/privacy/`, and the
+listing pages (`/blogs/`, `/trending-designs/`, `/services/find-designer/`), whose content is the list.

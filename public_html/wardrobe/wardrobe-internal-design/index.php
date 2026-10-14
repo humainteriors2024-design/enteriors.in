@@ -73,7 +73,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Reserve open shelves for t-shirts, jeans, towels, and bed linen — items that don't need hanging but benefit from quick visual access.</p>
 <h3>Drawer Storage</h3>
 <p>Use dedicated drawers for innerwear, accessories, cosmetics, and valuables — keeping smaller items organized and out of sight.</p>
-<h2>Wardrobe Internal Design Based on User Type</h2>
+<h2>Layouts by User Type</h2>
 <h4>Men's Wardrobe Layout</h4>
 <p>Shirt storage zone, trouser storage zone, tie and belt organizer, watch storage drawer, and a dedicated shoe storage section.</p>
 <h4>Women's Wardrobe Layout</h4>
@@ -90,13 +90,13 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h3>Luxury Wardrobe Organizers</h3>
 <p>Velvet jewelry trays, dedicated watch organizers, glass display drawers, and leather storage inserts elevate both function and presentation in premium wardrobes.</p>
 <h2>Internal Design for Different Wardrobe Types</h2>
-<h3>Sliding Wardrobe Internal Design</h3>
+<h3>Sliding Wardrobes</h3>
 <p>Optimize space by keeping frequently used drawers toward the most accessible sliding panel, and arrange shelves to avoid the slight depth loss sliding tracks create.</p>
-<h3>Hinged Wardrobe Internal Design</h3>
+<h3>Hinged Wardrobes</h3>
 <p>Hinged doors offer full, simultaneous access to every section — making internal layout more flexible and easier to integrate additional accessories.</p>
-<h3>Walk-In Wardrobe Internal Design</h3>
+<h3>Walk-In Wardrobes</h3>
 <p>Island storage units, open shelving systems, luxury display storage, and integrated lighting work together to turn a walk-in into a functional dressing space.</p>
-<h2>Wardrobe Internal Design Based on Bedroom Size</h2>
+<h2>Layouts by Bedroom Size</h2>
 <h4>Small Bedroom Layout</h4>
 <p>Vertical storage utilization, multi-purpose compartments, and space-saving accessories make the most of limited width.</p>
 <h4>Medium Bedroom Layout</h4>
@@ -141,7 +141,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>For most Indian bedrooms, MR plywood internals are sufficient; BWR or BWP is worth the upgrade in coastal or high-humidity cities.</p>
-<h2>Wardrobe Internal Design Cost Factors</h2>
+<h2>What Changes the Cost</h2>
 <ul>
   <li><strong>Number of Drawers:</strong> Each additional drawer adds to both material and hardware cost.</li>
   <li><strong>Hardware Quality:</strong> Soft-close channels and branded hinges cost more but last significantly longer.</li>
@@ -150,7 +150,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <li><strong>Lighting Integration:</strong> Sensor and motion-based lighting add a modest but worthwhile cost.</li>
   <li><strong>Customization Level:</strong> Fully bespoke internal zoning costs more than standard modular configurations.</li>
 </ul>
-<h2>Common Wardrobe Internal Design Mistakes to Avoid</h2>
+<h2>Common Mistakes to Avoid</h2>
 <p>Mistake</p>
 <p><strong>Too Many Shelves</strong> — leaves clothes stacked and creased with no easy way to see what's underneath.</p>
 <p><strong>Fix:</strong> Balance shelves with drawers and hanging space based on your actual wardrobe contents.</p>
@@ -169,7 +169,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Mistake</p>
 <p><strong>Choosing Appearance Over Functionality</strong> — prioritizes a striking exterior at the expense of usable internal zoning.</p>
 <p><strong>Fix:</strong> Finalize internal layout requirements before choosing the external finish.</p>
-<h2>Wardrobe Internal Design Checklist Before Final Approval</h2>
+<h2>Checklist Before Final Approval</h2>
 <ul>
   <li>Storage requirements assessed for every family member using the wardrobe</li>
   <li>Drawer count verified against accessory and innerwear storage needs</li>

@@ -39,12 +39,12 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h2>What particle board really is</h2>
 <p>Particle board is an engineered wood panel made by compressing wood chips, sawdust, shavings, and wood industry by-products with synthetic resin (typically urea-formaldehyde) under heat and pressure. The result is a flat, uniform board — usually 9mm to 25mm thick — that's roughly half the density of plywood and roughly two-thirds the density of MDF.</p>
 <p>In the Indian market, particle board is certified under <strong>IS 3087</strong> — the Bureau of Indian Standards specification covering "Particle Boards from Wood and Other Lignocellulosic Materials". The standard defines three main grades based on intended use: <strong>General Purpose (Type 1)</strong> for dry indoor use, <strong>Moisture Resistant (Type 2)</strong> for humid but not wet conditions, and <strong>Exterior Grade (Type 3)</strong> which is rare in residential use.</p>
-<h3>The single biggest misconception about particle board</h3>
+<h3>The single biggest misconception</h3>
 <p>Many homeowners confuse particle board with MDF. They are not the same. Particle board uses larger, irregularly-shaped wood chips visible to the naked eye when you look at a cut edge; MDF uses finely refined wood fibres that look almost smooth.</p>
 <p>This difference in raw material is why particle board is cheaper, weaker, less smooth, and more vulnerable to moisture than MDF — despite both being engineered wood. If your vendor says "particle board is the same as MDF," they're either uninformed or hoping you are.</p>
 <h4>The honest framing</h4>
 <p>Particle board is the budget tier of engineered wood — and it earns that position. The right way to think about it is not "good or bad" but "right or wrong for this specific use". Used where it belongs (dry, lightweight, short-term), it's a smart choice. Used where it doesn't (wet, heavy, long-term), it fails fast.</p>
-<h2>How particle board is made</h2>
+<h2>How it is made</h2>
 <p>The 8-step manufacturing process — and why each step affects the final quality you receive at the site.</p>
 <h4>Wood waste collection</h4>
 <p>Sawmill waste, wood shavings, agricultural residue (especially eucalyptus and acacia), and recycled wood are collected. Premium brands use cleaner, more uniform wood waste; budget brands accept lower-grade mixed waste. This is the first quality difference between brands.</p>
@@ -62,7 +62,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>The hot pressed board is cooled, edge-trimmed to standard sizes (8x4 ft is the most common), and stacked. Premium brands cool in temperature-controlled chambers; budget brands cool ambient, which can cause minor warping in the final sheet.</p>
 <h4>Sanding and grading</h4>
 <p>Both faces are sanded smooth and the board is graded by density, surface quality, and emission level (E0/E1/E2). Branded boards carry the ISI mark with the IS 3087 reference; unbranded boards carry nothing — and quality varies wildly between batches.</p>
-<h2>Types of particle board you'll encounter</h2>
+<h2>Types you'll encounter</h2>
 <p>"Particle board" is a category, not a single product. Six variations are sold in India at very different price points — and choosing the wrong one for your use case is the most common particle board mistake.</p>
 <h4>Single-Layer Particle Board</h4>
 <p>Uniform particle size throughout. Cheapest tier, rougher surface, weaker structural properties. Acceptable for hidden internal carcass work where no one sees the face. Avoid for any visible surface.</p>
@@ -143,7 +143,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 <h3>How to read this table</h3>
 <p>Particle board wins exclusively on two parameters — price and weight. It loses on every other meaningful criterion. The honest read is that particle board's role in your home is narrow but real: where weight matters (RTA furniture) and where lifespan doesn't (rentals, short-term use). For everything else, the next tier up (MDF for painted work, BWR plywood for general furniture) delivers significantly better value over time.</p>
-<h2>Where particle board is genuinely the right choice</h2>
+<h2>Where it is genuinely the right choice</h2>
 <p>Despite its limitations, particle board is the smart material in four real-world situations. Pretending otherwise — claiming "always use plywood" — is just as dishonest as claiming particle board fits everywhere. Here's where it actually works.</p>
 <h4>Rental property furniture</h4>
 <p>You're furnishing for tenants who'll come and go in 1–3 year cycles. The furniture needs to survive normal use but not last decades. Particle board with quality pre-laminated finish hits exactly this brief — looks acceptable, costs 50% less than plywood, easy to replace when worn.</p>
@@ -169,7 +169,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <h4>Light-load shelving in dry indoor spaces</h4>
 <p>Decorative shelves carrying books and ornaments (not heavy storage), display units in living rooms, lightweight storage cabinets. Keep spans under 36 inches without intermediate support, and particle board performs adequately.</p>
 <p>18mm with stiff back panel</p>
-<h2>5 places to NEVER use particle board</h2>
+<h2>5 places never to use it</h2>
 <ol>
   <li><strong>Kitchen sink cabinets (and any kitchen wet zone).</strong> The cabinet directly under your kitchen sink sees pipe condensation, occasional drips, and persistent humidity. Particle board absorbs water like a sponge and swells permanently. Within 18–24 months, the bottom shelf and side panels visibly swell, the doors stop closing properly, and the laminate begins lifting. We've replaced more particle board sink cabinets than any other failure point in Indian kitchens. Spec BWP marine plywood here, no exceptions.</li>
   <li><strong>Bathroom vanities and any wet-area furniture.</strong> Bathrooms in India routinely sit at 85–95% humidity year-round, with occasional direct splashes onto vanity fronts and sides. Particle board fails at the edges first (water wicks into the chip core), then swells at corners, then delaminates. Expected lifespan: 2–4 years. BWP plywood is non-negotiable for bathroom furniture.</li>
@@ -195,7 +195,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>A real client scenario from our archive. 8x7 ft master bedroom wardrobe. Quote A: Pre-laminated particle board at ₹28,000. Quote B: BWR plywood with laminate at ₹52,000. Saving by going particle: ₹24,000.</p>
 <p>Year 5: The bottom drawer begins sticking. Year 6: Two hinges loosen, bottom edge of one shutter visibly swells. Year 7: Decision to replace. Replacement quote (now in current pricing): ₹35,000. Total spend over 7 years: ₹63,000.</p>
 <p>BWR plywood scenario for the same 7-year window: ₹52,000 with zero replacement, still going strong. Net: particle board cost ₹11,000 more, not less. The break-even point is roughly year 6 — particle board only "saves" money if you'd replace the furniture for non-failure reasons before then.</p>
-<h3>When particle board math actually works</h3>
+<h3>When the maths actually works</h3>
 <p>Particle board is the financially smart material when one of three conditions is true:</p>
 <ul>
   <li><strong>You'll move or replace within 5 years.</strong> Rental, short-stay, model home, corporate housing. The replacement happens for non-failure reasons anyway.</li>
@@ -240,10 +240,10 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>2026 price (18mm)</strong>₹18 – 30/sqft</p>
 <p><strong>Emission grade</strong>Often E2 or worse</p>
 <div class="callout"><span class="callout__title">Note</span>"Carpenter chip board" sold without manufacturer branding. Density varies wildly (often 450 kg/m³ vs branded 600+), emissions usually uncertified, no warranty. The ₹15-20/sqft "saving" costs you 30–40% of the lifespan.</div>
-<h2>Is particle board right for your project?</h2>
+<h2>Is it right for your project?</h2>
 <p>Five quick questions. We'll tell you whether particle board is genuinely the smart choice for your specific project, or whether MDF, HDHMR, or plywood would serve you better long-term.</p>
 <p>Live Decision Tool</p>
-<h3>The Particle Board Suitability Finder</h3>
+<h3>Suitability finder</h3>
 <p>Built from how we actually advise clients. Takes 60 seconds, gives you a real answer with reasoning.</p>
 <p>Question 1 of 5What are you building?</p>
 <p>Question 2 of 5How long do you need this furniture to last?</p>
@@ -270,7 +270,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p><strong>5. Avoid wet installation environments.</strong> Particle board absorbs ambient moisture during a multi-day site installation in monsoon weather. Boards installed during peak humidity can swell within weeks. Either install during drier months or store boards in dehumidified spaces until assembly.</p>
 <p><strong>6. Apply silicone sealant at plumbing penetration points.</strong> If you're installing particle board near any plumbing (even just water lines passing through a partition), seal every penetration point with silicone. Water that tracks down pipes will find any unsealed gap.</p>
 <p><strong>7. Demand the board's grade in writing.</strong> Vendors quote "particle board" without specifying brand, grade, density, or emission rating. Insist on these details in the BOQ. Without them, you have no way to verify what you've received — and counterfeit upgrades from E2 to E1 are common.</p>
-<h2>Myths vs facts about particle board</h2>
+<h2>Myths vs facts</h2>
 <p>Five pieces of common misinformation about particle board that lead to bad decisions.</p>
 <div class="myth-pair"><div class="callout callout--warn"><span class="callout__title">Myth 1</span><strong>"Particle board is the same as MDF."</strong></div>
 <div class="callout callout--tip"><span class="callout__title">Fact</span><p>They are different materials. Particle board uses larger wood chips; MDF uses finely refined wood fibres. MDF is denser, smoother, more uniform, and more moisture-tolerant. The two share the family name "engineered wood" but perform differently in every measurable way.</p></div></div>

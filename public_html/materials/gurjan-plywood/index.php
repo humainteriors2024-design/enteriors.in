@@ -42,7 +42,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Gurjan plywood is a structural plywood manufactured using veneer sheets peeled from the Gurjan tree (Dipterocarpus species), a dense hardwood native to Southeast Asia and parts of Northeast India and Myanmar, known for long, straight fibres and natural resistance to moisture and insects.</p>
 <p>Genuine Gurjan plywood uses Gurjan veneer through most or all of its internal layers, not just as a decorative face — this internal consistency is what gives it superior strength and warping resistance compared to plywood that mixes in softer, cheaper core species.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>In plain terms:</strong> Gurjan plywood is named after the actual tree species used to make it — unlike MR, BWR, or BWP, which describe the adhesive bonding rather than the wood itself. A board can technically be "BWP Gurjan plywood," combining both a strong wood species and a strong bonding grade.</div>
-<h2>How Gurjan Plywood is Manufactured</h2>
+<h2>How It Is Made</h2>
 <p>The manufacturing sequence is similar to other plywood types, but the choice of veneer species at every layer is what separates genuine Gurjan from a board merely finished with a Gurjan face.</p>
 <p>1. Gurjan logs are debarked and rotary-peeled into continuous thin veneer sheets.</p>
 <p>2. Veneer sheets are dried in controlled kilns to reduce moisture content to a stable, workable level.</p>
@@ -83,7 +83,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </table>
 </div>
 <p>Note that "Gurjan" describes the wood species used, while MR/BWR/BWP describe the adhesive bonding grade — the two are independent variables. A genuinely strong board combines a hardwood species like Gurjan with a high bonding grade like BWP, rather than relying on either factor alone.</p>
-<h2>Types &amp; Bonding Grades of Gurjan Plywood</h2>
+<h2>Types and Bonding Grades</h2>
 <h4>MR Grade Gurjan</h4>
 <p>Bonded with moisture-resistant (urea-formaldehyde based) adhesive, suitable only for dry indoor furniture with no real water exposure.</p>
 <h4>BWR Grade Gurjan</h4>
@@ -100,7 +100,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Gurjan plywood is commonly available in 6mm, 9mm, 12mm, 18mm, and 25mm thicknesses, with ply count (the number of veneer layers) increasing with thickness — typically 5-ply for 12mm sheets up to 11 or more thin layers for 19mm structural-grade sheets.</p>
 <p>More layers at a given thickness generally indicate finer veneer slicing and a more balanced, warp-resistant panel, since stress is distributed across more alternating grain directions.</p>
 <p>For load-bearing applications like wardrobe shelving or cabinet carcasses, ask specifically for the ply count, not just the thickness, since two 18mm sheets from different manufacturers can have meaningfully different internal layer counts.</p>
-<h2>Advantages of Gurjan Plywood</h2>
+<h2>Advantages</h2>
 <h4>Exceptional Structural Strength</h4>
 <p>Gurjan's dense, long-fibred hardwood gives genuine Gurjan plywood strength that outperforms most commercial and softwood-core plywood.</p>
 <h4>Strong Natural Moisture Resistance</h4>
@@ -117,7 +117,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>A reliable choice for load-bearing cabinet carcasses, shelving, and structural furniture components.</p>
 <h4>Accepts All Major Finishes Well</h4>
 <p>Smooth, stable surface bonds reliably with laminate, veneer, acrylic, and PU finishes.</p>
-<h2>Disadvantages of Gurjan Plywood</h2>
+<h2>Disadvantages</h2>
 <div class="callout"><span class="callout__title">Note</span><strong>Honest take:</strong> Gurjan's biggest real-world risk isn't the wood itself — it's market mislabelling. Even genuine Gurjan has a few legitimate limitations worth knowing before you pay a premium.</div>
 <h4>High Risk of Mislabelling</h4>
 <p>The Gurjan name is widely used loosely in the market, making verification essential before paying a premium price.</p>
@@ -131,7 +131,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Because Gurjan is sourced regionally, pricing and availability can fluctuate more than standardised commercial plywood.</p>
 <h4>Overkill for Light, Dry Applications</h4>
 <p>Paying Gurjan pricing for a dry-area bookshelf or light decorative panel often buys strength the application will never use.</p>
-<h2>Where Gurjan Plywood Works Well</h2>
+<h2>Where It Works Well</h2>
 <h4>Kitchen Cabinet Carcasses</h4>
 <p>BWP-grade Gurjan is a strong, trusted choice for the structural base of modular kitchens.</p>
 <h4>Wardrobe Carcasses</h4>
@@ -191,7 +191,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </tbody>
 </table>
 </div>
-<h2>Best Finishes for Gurjan Plywood</h2>
+<h2>Best Finishes</h2>
 <h3>Laminate</h3>
 <p>A durable, cost-effective finish that bonds reliably to Gurjan's stable, smooth-sanded surface for everyday cabinet exteriors.</p>
 <h3>Veneer</h3>
@@ -204,15 +204,15 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>Less commonly paired with Gurjan plywood directly, since membrane is typically pressed onto MDF or HDHMR cores rather than plywood, but can be used on flat plywood surfaces.</p>
 <h3>Melamine</h3>
 <p>A practical, economical finish for utility or back-of-house Gurjan plywood cabinetry not on display.</p>
-<h2>Is Gurjan Plywood Safe for Kitchens?</h2>
+<h2>Is It Safe for Kitchens?</h2>
 <p>Gurjan plywood, particularly in BWP grade, is widely regarded as one of the most reliable structural materials for modular kitchen carcasses, given its natural density and strong resistance to daily splashing, steam, and humidity.</p>
 <p>Base units directly beneath sinks still benefit from an additional sealant strip or drip tray, since even BWP-grade boiling-water-resistant bonding is not equivalent to permanent waterproofing under constant standing water.</p>
 <p>For shutters and visible fronts, Gurjan plywood is frequently paired with laminate, veneer, or PU finishing rather than left exposed, both for aesthetics and added surface protection.</p>
 <div class="callout"><span class="callout__title">Note</span><strong>Practical takeaway:</strong> BWP-grade Gurjan plywood carcasses paired with a properly sealed sink base cover the overwhelming majority of real kitchen moisture risk.</div>
-<h2>Is Gurjan Plywood Safe for Children's Furniture?</h2>
+<h2>Is It Safe for Children's Furniture?</h2>
 <p>As with any engineered or processed wood product, safety for children's furniture comes down to the adhesive's formaldehyde emission rating rather than the wood species alone — look for plywood using low-emission resin formulations, and request documentation where available.</p>
 <p>Genuine Gurjan's natural density and resistance to warping also make it a durable, long-wearing choice for actively used children's furniture such as bunk beds, study tables, and storage units. As with all furniture for children, request rounded edge profiles and confirm hardware is securely fitted to dense, well-screwed Gurjan panels.</p>
-<h2>How Long Does Gurjan Plywood Last?</h2>
+<h2>How Long Does It Last?</h2>
 <h4>Family Home</h4>
 <p>Genuine BWP-grade Gurjan plywood furniture commonly performs well for 20 to 25 years under normal household use.</p>
 <h4>Kitchen &amp; Wet Areas</h4>
@@ -273,7 +273,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <p>For furniture in a rental flat with shorter expected tenure, MR-grade plywood or HDHMR may deliver adequate performance without paying for Gurjan's full structural premium.</p>
 <h3>Coastal or High-Humidity Home</h3>
 <p>Homes in coastal or monsoon-heavy regions benefit particularly from genuine BWP Gurjan's natural moisture tolerance, where lower-grade boards tend to fail faster.</p>
-<h2>Myths vs Facts About Gurjan Plywood</h2>
+<h2>Myths vs Facts</h2>
 <div class="table-wrap">
 <table>
   <thead>
