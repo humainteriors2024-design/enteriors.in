@@ -15,10 +15,73 @@
 
 /* ---------- data ---------- */
 function places_db() { static $d; return $d ??= require __DIR__ . '/data/places.php'; }
-function trends_db() { static $d; return $d ??= require __DIR__ . '/data/trends.php'; }
+function trends_db() {   // includes/data/trends.php + the designs added at /admin/designs.php
+  static $d;
+  if ($d) return $d;
+  $d = require __DIR__ . '/data/trends.php';
+  foreach (designs_added() as $k => $x) $d['designs'][$k] = design_normalise($x);
+  return $d;
+}
 function pros_db_raw() { static $d; return $d ??= require __DIR__ . '/data/pros.php'; }   // the file only
 function pros_db()   { static $d; return $d ??= pros_db_raw(); }
 function design($key) { return trends_db()['designs'][$key] ?? null; }
+
+/* ---------- designs added from the admin form (/admin/designs.php) ----------
+   Saved one file each in the private folder one level above public_html (leads/designs/<key>.json),
+   so uploading a new copy of the website never removes them. Photos: /assets/trending/<key>/. */
+function designs_dir() { $dir = leads_dir() . '/designs'; if (!is_dir($dir)) @mkdir($dir, 0700, true); return $dir; }
+function designs_added() {
+  if (!function_exists('leads_dir')) return [];
+  $out = [];
+  foreach (glob(designs_dir() . '/*.json') ?: [] as $f) {
+    $x = json_decode((string) file_get_contents($f), true);
+    if (is_array($x) && empty($x['hidden']) && !design_missing($x)) $out[basename($f, '.json')] = $x;
+  }
+  return $out;
+}
+/* The fields every design must have so it shows up in every filter (the admin form requires them all) */
+function design_required() {
+  return ['title' => 'Title', 'company' => 'Company', 'city' => 'City', 'area' => 'Location / area', 'pincode' => 'Pincode',
+          'type' => 'Design type', 'property' => 'Property type', 'style' => 'Design style', 'budget' => 'Approximate budget'];
+}
+// the required fields a design is missing or has wrong: [field => label]
+function design_missing($d) {
+  $T = trends_db_file(); $miss = [];
+  foreach (design_required() as $k => $label) {
+    $v = $d[$k] ?? '';
+    $ok = match ($k) {
+      'company'  => is_string($v) && isset(pros_db_raw()['pros'][$v]),
+      'city'     => is_string($v) && isset(places_db()['cities'][$v]),
+      'pincode'  => (bool) preg_match('/^[1-9]\d{5}$/', (string) $v),
+      'type'     => is_string($v) && isset($T['types'][$v]),
+      'property' => is_string($v) && isset($T['properties'][$v]),
+      'style'    => is_string($v) && isset($T['styles'][$v]),
+      'budget'   => (int) $v >= 10000,
+      default    => trim((string) $v) !== '',
+    };
+    if (!$ok) $miss[$k] = $label;
+  }
+  return $miss;
+}
+function trends_db_file() { static $d; return $d ??= require __DIR__ . '/data/trends.php'; }   // the file only (lists and sample designs)
+// fill in the optional fields an added design may leave out, so every page can show it
+function design_normalise($x) {
+  $x += ['project' => '', 'designer' => '', 'bhk' => 0, 'size' => 0, 'weeks' => 0, 'added' => date('Y-m-d'), 'trending' => false,
+         'summary' => '', 'text' => [], 'highlights' => [], 'materials' => [], 'images' => [], 'palette' => 1, 'sample' => false];
+  if (empty($x['segment'])) $x['segment'] = $x['budget'] < 600000 ? 'budget' : ($x['budget'] < 1500000 ? 'mid' : ($x['budget'] < 4000000 ? 'premium' : 'luxury'));
+  if ($x['summary'] === '') $x['summary'] = $x['title'] . '.';
+  return $x;
+}
+// localities that have designs in a city (the "Location / area" filter)
+function design_areas($city) {
+  if (!$city) return [];
+  $a = [];
+  foreach (trends_db()['designs'] as $d) if ($d['city'] === $city && $d['area'] !== '') $a[] = $d['area'];
+  $a = array_values(array_unique($a));
+  sort($a);
+  return $a;
+}
+function design_pin_closeness($d, $pin) { $n = 0; $x = (string) ($d['pincode'] ?? ''); while ($n < 6 && isset($x[$n]) && $x[$n] === $pin[$n]) $n++; return $n; }
 function pro($key)    { return pros_db()['pros'][$key] ?? null; }
 function city_name($k)  { return places_db()['cities'][$k]['name'] ?? ''; }
 function city_state($k) { return places_db()['cities'][$k]['state'] ?? ''; }
@@ -171,7 +234,7 @@ function finder_has_filters($F) {
 /* ---------- facet helper: counts for one filter given every other filter ---------- */
 function finder_counts($items, $F, $facet, $matchFn, $valueFn) {
   $c = [];
-  foreach ($items as $k => $x) if ($matchFn($x, $F, $facet, $k)) foreach ((array) $valueFn($x) as $v) $c[$v] = ($c[$v] ?? 0) + 1;
+  foreach ($items as $k => $x) if ($matchFn($x, $F, $facet, $k)) foreach ((array) $valueFn($x, $k) as $v) $c[$v] = ($c[$v] ?? 0) + 1;
   return $c;
 }
 
@@ -184,6 +247,8 @@ function designs_query() {
     'q'        => finder_text($_GET['q'] ?? ''),
     'state'    => finder_one('state', array_keys($P['states'])),
     'city'     => finder_one('city', array_keys($P['cities'])),
+    'area'     => '',
+    'pin'      => preg_match('/^[1-9]\d{5}$/', $pn = trim((string) (is_scalar($_GET['pin'] ?? '') ? $_GET['pin'] ?? '' : ''))) ? $pn : '',
     'type'     => finder_list('type', array_keys($T['types'])),
     'property' => finder_list('property', array_keys($T['properties'])),
     'bhk'      => finder_list('bhk', ['1', '2', '3', '4']),   // 4 = 4 BHK and larger
@@ -195,6 +260,11 @@ function designs_query() {
   ];
   if ($F['city'] && !$F['state']) $F['state'] = city_state($F['city']);
   if ($F['city'] && city_state($F['city']) !== $F['state']) $F['city'] = '';
+  if (preg_match('/^[1-9]\d{5}$/', $F['q'])) { $F['pin'] = $F['q']; $F['q'] = ''; }   // a pincode typed in the search box
+  if ($F['city'] && is_scalar($_GET['area'] ?? null)) {   // only a locality we know in that city
+    $want = finder_norm((string) $_GET['area']);
+    foreach (design_areas($F['city']) as $a) if (finder_norm($a) === $want) $F['area'] = $a;
+  }
   return $F;
 }
 function design_haystack($d) {
@@ -208,6 +278,8 @@ function design_haystack($d) {
   ]));
 }
 function design_matches($d, $F, $skip = '', $key = '') {
+  if ($skip !== 'area' && $F['area'] && !($d['city'] === $F['city'] && finder_norm($d['area']) === finder_norm($F['area']))) return false;
+  if ($skip !== 'pin' && $F['pin'] && design_pin_closeness($d, $F['pin']) < ($F['_pin_min'] ?? 3)) return false;
   if ($skip !== 'state' && $skip !== 'city' && $F['state'] && city_state($d['city']) !== $F['state']) return false;
   if ($skip !== 'city' && $F['city'] && $d['city'] !== $F['city']) return false;
   if ($skip !== 'type' && $F['type'] && !in_array($d['type'], $F['type'], true)) return false;
@@ -219,16 +291,21 @@ function design_matches($d, $F, $skip = '', $key = '') {
   if ($skip !== 'q' && $F['q'] !== '' && !finder_text_match(design_haystack($d), finder_tokens($F['q']))) return false;
   return true;
 }
-function designs_search($F) {
+function designs_search(&$F) {
   $all = trends_db()['designs'];
   $hits = array_filter($all, fn($d) => design_matches($d, $F));
+  if ($F['pin'] && !$hits) {   // nothing in or near that pincode: widen to the same postal region (the page says so)
+    $F['_pin_min'] = 2;
+    $hits = array_filter($all, fn($d) => design_matches($d, $F));
+  }
   uksort($hits, function ($a, $b) use ($hits, $F) {
     $x = $hits[$a]; $y = $hits[$b];
+    $near = fn($d) => $F['pin'] ? design_pin_closeness($d, $F['pin']) : 0;   // with a pincode: nearest first
     return match ($F['sort']) {
       'budget-low'  => $x['budget'] <=> $y['budget'],
       'budget-high' => $y['budget'] <=> $x['budget'],
       'az'          => strcmp($x['title'], $y['title']),
-      default       => [$y['added'], (int) !empty($y['trending'])] <=> [$x['added'], (int) !empty($x['trending'])],
+      default       => [$near($y), $y['added'], (int) !empty($y['trending'])] <=> [$near($x), $x['added'], (int) !empty($x['trending'])],
     };
   });
   $m = 'design_matches';
@@ -291,6 +368,8 @@ function pros_query() {
     'seg'     => finder_list('seg', array_keys(pro_segments())),
     'req'     => finder_list('req', array_keys($D['reqs'])),
     'does'    => finder_one('does', array_keys($T['types'])),
+    'property'=> finder_list('property', array_keys($T['properties'])),
+    'style'   => finder_list('style', array_keys($T['styles'])),
     'sort'    => finder_one('sort', ['best', 'rating', 'reviews', 'experience', 'az']) ?: 'best',
     'page'    => finder_page_no(),
   ];
@@ -314,6 +393,15 @@ function pin_closeness($p, $pin) {   // shared leading digits with the nearest p
   foreach (pro_pins($p) as $x) { $n = 0; while ($n < 6 && $x[$n] === $pin[$n]) $n++; $best = max($best, $n); }
   return $best;
 }
+/* Property types and design styles a professional works on: set in pros.php ('properties', 'styles'),
+   plus those of their own trending designs (so a firm that uploads designs is found by them automatically) */
+function pro_designs_values($key, $field) {
+  static $by = null;
+  if ($by === null) { $by = []; foreach (trends_db()['designs'] as $d) { $by[$d['company']]['property'][] = $d['property']; $by[$d['company']]['style'][] = $d['style']; } }
+  return $by[$key][$field] ?? [];
+}
+function pro_properties($key, $p) { return array_values(array_unique(array_merge((array) ($p['properties'] ?? []), pro_designs_values($key, 'property')))); }
+function pro_styles($key, $p)     { return array_values(array_unique(array_merge((array) ($p['styles'] ?? []), pro_designs_values($key, 'style')))); }
 function pin_label($n) { return [6 => 'Same pincode', 5 => 'Very close', 4 => 'Nearby', 3 => 'Same district', 2 => 'Same region'][$n] ?? ''; }
 function pro_haystack($k, $p) {
   static $cache = [];
@@ -339,6 +427,8 @@ function pro_matches($p, $F, $skip = '', $key = '') {
   if ($skip !== 'seg' && $F['seg'] && !in_array($p['segment'], $F['seg'], true)) return false;
   if ($skip !== 'req' && $F['req'] && array_diff($F['req'], $p['reqs'])) return false;
   if ($F['does'] && !in_array($F['does'], $p['services'], true)) return false;
+  if ($skip !== 'property' && $F['property'] && !array_intersect($F['property'], pro_properties($key, $p))) return false;
+  if ($skip !== 'style' && $F['style'] && !array_intersect($F['style'], pro_styles($key, $p))) return false;
   if ($F['near'] !== '' && !finder_text_match(pro_haystack($key, $p), finder_tokens($F['near']))) return false;
   return true;
 }
@@ -368,6 +458,8 @@ function pros_search(&$F) {
     'city'  => finder_counts($all, $F, 'city', $m, fn($p) => $p['serves']),
     'seg'   => finder_counts($all, $F, 'seg', $m, fn($p) => $p['segment']),
     'req'   => finder_counts($all, $F, 'req', $m, fn($p) => $p['reqs']),
+    'property' => finder_counts($all, $F, 'property', $m, fn($p, $k) => pro_properties($k, $p)),
+    'style'    => finder_counts($all, $F, 'style', $m, fn($p, $k) => pro_styles($k, $p)),
   ];
   return [$hits, $counts];
 }

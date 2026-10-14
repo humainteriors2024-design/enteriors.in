@@ -16,11 +16,12 @@
      rating, reviews   average rating and number of reviews: ONLY from real, verifiable reviews
      reqs              what they offer: designer carpenter warranty factory end-to-end civil plumbing electrical free-consultation 3d-design
      warranty          years (0 = none)       services  design types (keys in trends.php)
+     properties, styles (optional) property types and design styles they work on (keys in trends.php);
+                       the property types and styles of their own trending designs are added automatically
      apartments        projects / societies they have worked in (used by "find by apartment")
-     email             PRIVATE: where enquiries are sent. Never shown on the site. Leave '' and
-                       enquiries go to LEADS['notify_email'] (config.php) with the firm's name.
+     email             PRIVATE: kept for your records, never shown on the site. Every enquiry goes to
+                       LEADS['notify_email'] (config.php) with the firm's name, for you to pass on.
      verified          true only after you have checked the firm and its email address.
-                       Enquiries go to the firm's own email only when verified is true.
    ===================================================================== */
 return [
   'checked' => '2026-10-07',

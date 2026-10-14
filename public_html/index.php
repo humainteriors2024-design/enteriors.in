@@ -99,6 +99,17 @@ $designTypes = ['modular-kitchen', 'full-home', 'living-room', 'master-bedroom',
     <div class="home-trend-types">
 <?php foreach ($designTypes as $k) echo '<a class="tag tag--pill" href="' . e(finder_url(FINDER['designs_url'], ['type' => [$k]])) . '">' . e($TD['types'][$k]['label']) . '</a>'; ?>
     </div>
+<?php /* quick filter: the same fields as the full filters on /trending-designs/ */
+      $cityOpts = array_unique(array_column($TD['designs'], 'city')); usort($cityOpts, fn($a, $b) => strcmp(city_name($a), city_name($b)));
+      $sel = fn($name, $label, $opts) => '<label class="qf__field"><span>' . e($label) . '</span><select class="input" name="' . $name . '"><option value="">Any</option>' . implode('', array_map(fn($v, $l) => '<option value="' . e($v) . '">' . e($l) . '</option>', array_keys($opts), $opts)) . '</select></label>'; ?>
+    <form class="qf" method="get" action="<?= e(FINDER['designs_url']) ?>" aria-label="Filter trending designs">
+      <?= $sel('city', 'City', array_combine($cityOpts, array_map('city_name', $cityOpts))) ?>
+      <label class="qf__field"><span>Area or pincode</span><input class="input" name="q" maxlength="40" placeholder="e.g. Whitefield or 560066" autocomplete="off"></label>
+      <?= $sel('type', 'Design type', array_map(fn($t) => $t['label'], $TD['types'])) ?>
+      <?= $sel('property', 'Property', $TD['properties']) ?>
+      <?= $sel('style', 'Style', array_map(fn($t) => $t['label'], $TD['styles'])) ?>
+      <button class="btn btn--primary" type="submit">Show designs</button>
+    </form>
     <div class="dgrid dgrid--compact">
 <?php foreach ($homeDesigns as $k => $d) echo design_card($k, $d, true, true); ?>
     </div>
@@ -141,7 +152,7 @@ $designTypes = ['modular-kitchen', 'full-home', 'living-room', 'master-bedroom',
       <ul class="ticks mt-6">
         <li>Nearest first when you search by pincode or area</li>
         <li>Filter by warranty, own factory, end-to-end, civil, plumbing and electrical work</li>
-        <li>Contact them directly after a quick email check: your details go only to them</li>
+        <li>Contact them after a quick email check: we pass your details only to the firm you choose</li>
       </ul>
       <div class="home-finder__links">
 <?php foreach (['designer' => 'Interior designers', 'freelancer' => 'Freelancers', 'contractor' => 'Contractors', 'carpenter' => 'Carpenters'] as $k => $l) echo '<a href="' . e(finder_url(FINDER['pros_url'], ['type' => [$k]])) . '">' . e($l) . ' →</a>'; ?>

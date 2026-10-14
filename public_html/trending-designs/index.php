@@ -1,7 +1,7 @@
 <?php
 /* =====================================================================
    TRENDING DESIGNS — /trending-designs/
-   Listing with filters on the left (location, design type, property type, budget, style),
+   Listing with filters on the left (state, city, location / area, pincode, design type, property type, budget, style),
    a search box (max FINDER['search_words'] words), sorting and pages. One design per page at
    /trending-designs/<key>/ (that page: includes/pages/design.php, routed by .htaccess).
      Designs ......... includes/data/trends.php   (company = a key in includes/data/pros.php)
@@ -27,7 +27,9 @@ $chips = [];
 $drop = fn($k, $v) => finder_url($base, $F, [$k => array_values(array_diff($F[$k], [$v])), 'page' => 1]);
 if ($F['q'] !== '')  $chips[] = ['“' . $F['q'] . '”', finder_url($base, $F, ['q' => '', 'page' => 1])];
 if ($F['state'])     $chips[] = [state_name($F['state']), finder_url($base, $F, ['state' => '', 'city' => '', 'page' => 1])];
-if ($F['city'])      $chips[] = [city_name($F['city']), finder_url($base, $F, ['city' => '', 'page' => 1])];
+if ($F['city'])      $chips[] = [city_name($F['city']), finder_url($base, $F, ['city' => '', 'area' => '', 'page' => 1])];
+if ($F['area'])      $chips[] = [$F['area'], finder_url($base, $F, ['area' => '', 'page' => 1])];
+if ($F['pin'])       $chips[] = ['Pincode ' . $F['pin'], finder_url($base, $F, ['pin' => '', 'page' => 1, '_pin_min' => null])];
 foreach ($F['type'] as $v)     $chips[] = [$T['types'][$v]['label'], $drop('type', $v)];
 foreach ($F['property'] as $v) $chips[] = [$T['properties'][$v], $drop('property', $v)];
 foreach ($F['bhk'] as $v)      $chips[] = [$v === '4' ? '4+ BHK' : "$v BHK", $drop('bhk', $v)];
@@ -36,7 +38,7 @@ foreach ($F['style'] as $v)    $chips[] = [$T['styles'][$v]['label'], $drop('sty
 if ($F['company'] && ($co = pro($F['company']))) $chips[] = ['By ' . $co['name'], finder_url($base, $F, ['company' => '', 'page' => 1])];
 
 /* the results block (also sent on its own to the page script when filters change) */
-$where = $F['city'] ? ' in ' . city_name($F['city']) : ($F['state'] ? ' in ' . state_name($F['state']) : '');
+$where = $F['area'] ? ' in ' . $F['area'] . ', ' . city_name($F['city']) : ($F['city'] ? ' in ' . city_name($F['city']) : ($F['state'] ? ' in ' . state_name($F['state']) : ''));
 ob_start(); ?>
 <?= finder_sample_note('designs') ?>
 <div class="fresults__bar">
@@ -51,6 +53,9 @@ ob_start(); ?>
   </label>
 </div>
 <?= finder_chips($chips, $base) ?>
+<?php if (!empty($F['_pin_min'])): ?>
+<p class="callout callout--warn">No designs in or right next to pincode <?= e($F['pin']) ?> yet, so these are from the same postal region.</p>
+<?php endif; ?>
 <?php if ($show): ?>
 <div class="dgrid">
 <?php $i = 0; foreach ($show as $k => $d) echo design_card($k, $d, $i++ > 2); ?>
@@ -69,7 +74,7 @@ if (($_SERVER['HTTP_X_FINDER'] ?? '') === '1') {   // the page script asked for 
   header('Content-Type: application/json; charset=utf-8'); header('Cache-Control: no-store'); header('Vary: X-Finder'); header('X-Robots-Tag: noindex');
   $flat = [];
   foreach ($counts as $facet => $vals) foreach ($vals as $v => $n) $flat["$facet:$v"] = $n;
-  echo json_encode(['html' => $resultsHtml, 'counts' => $flat, 'total' => $total], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+  echo json_encode(['html' => $resultsHtml, 'counts' => $flat, 'total' => $total, 'areas' => design_areas($F['city']), 'area' => $F['area']], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
   exit;
 }
 
@@ -83,7 +88,7 @@ $page = [
   'js'          => ['finder', 'enquiry'],
   'title'       => 'Trending Interior Designs: Ideas from Every State',
   'seo_title'   => 'Trending Interior Designs: Ideas by City, Style and Budget',
-  'description' => 'Trending home interior designs from across India: filter by city, room, property and budget, and see the firm, designer and approximate cost of each.',
+  'description' => 'Trending home interior designs from across India: filter by city, area, pincode, design type, property type and style, and see the firm and approximate cost.',
   'crumb'       => 'Trending Designs',
   'updated'     => $T['checked'],
   'schema_type' => 'CollectionPage',
@@ -93,8 +98,8 @@ $page = [
   'faq' => [
     'What are trending interior designs?' => 'They are recent home and room projects that show the styles, materials and layouts people are choosing now, from Japandi kitchens and pooja units with jaali doors to full 3 BHK apartments. Each one lists the city, the firm and designer, the property, the style and the approximate budget.',
     'How accurate are the budgets?' => 'Each budget is the approximate cost of that project including GST. Your cost depends on size, materials, brands and city, so use the figure as a reference and get an itemised quote. Our interior cost calculator gives an estimate for your own home.',
-    'How do I contact the designer of a design?' => 'Select Contact (to get a call back) or Mail (to send a message) on the design. Enter your name, mobile, email and location; we email you a 6-digit code to confirm the address is yours, and your enquiry is sent once you enter it.',
-    'Will my details be shared with anyone else?' => 'Only with the firm you contact, for that enquiry. Your email is verified with a one-time code so firms receive genuine enquiries, and repeated or automated messages are blocked.',
+    'How do I contact the designer of a design?' => 'Select Contact (to get a call back) or Mail (to send a message) on the design. Enter your name, mobile, email and location; we email you a 6-digit code and a link to confirm the address is yours, and your enquiry is sent once you enter the code or open the link.',
+    'Will my details be shared with anyone else?' => 'Only with the firm you contact, for that enquiry; the Enteriors team passes it on. Your email is verified first so firms receive genuine enquiries, and repeated or automated messages are blocked.',
   ],
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
@@ -108,7 +113,7 @@ $blank = array_map(fn($v) => is_array($v) ? [] : '', $F);
     <?= component('breadcrumbs', ['crumbs' => $crumbs]) ?>
     <span class="eyebrow mt-6">Trending designs · <?= count($T['designs']) ?> projects</span>
     <h1>Trending interior designs</h1>
-    <p class="subheading">Homes and rooms from every state, with the firm, designer, property, style and approximate budget. Filter by location, room, property and budget, or search in up to <?= (int) FINDER['search_words'] ?> words.</p>
+    <p class="subheading">Homes and rooms from every state, with the firm, designer, property, style and approximate budget. Filter by city, area, pincode, design type, property and style, or search in up to <?= (int) FINDER['search_words'] ?> words.</p>
     <div class="finder-search" role="search">
       <label for="fq" class="visually-hidden">Search designs</label>
       <input class="finder-search__input" id="fq" name="q" type="search" value="<?= e($F['q']) ?>" maxlength="<?= (int) FINDER['search_chars'] ?>" placeholder="Try: Japandi kitchen Pune" autocomplete="off" data-word-limit="<?= (int) FINDER['search_words'] ?>" aria-describedby="fq-hint">
@@ -125,7 +130,11 @@ $blank = array_map(fn($v) => is_array($v) ? [] : '', $F);
   <aside class="finder-filters" id="filters" aria-label="Filters">
     <div class="finder-filters__head"><p class="finder-filters__title">Filters</p><a href="<?= e($base) ?>" rel="nofollow">Clear all</a><button class="finder-filters__close" type="button" data-filter-close aria-label="Close filters">×</button></div>
 <?php
-echo f_group('Location', f_state_select($F['state'], $counts['state'], 'f-state') . f_city_select($F['city'], $counts['city'], 'f-city'));
+$areaSel = '<label class="fsel" for="f-area"><span>Location / area</span><select class="input" name="area" id="f-area" data-area-select' . ($F['city'] ? '' : ' disabled') . '><option value="">' . ($F['city'] ? 'All areas' : 'Choose a city first') . '</option>';
+foreach (design_areas($F['city']) as $a) $areaSel .= '<option' . ($a === $F['area'] ? ' selected' : '') . '>' . e($a) . '</option>';
+$areaSel .= '</select></label>';
+$pinBox = '<label class="fsel" for="f-pin"><span>Pincode <small>(nearest first)</small></span><input class="input" id="f-pin" name="pin" inputmode="numeric" pattern="[1-9][0-9]{5}" maxlength="6" value="' . e($F['pin']) . '" placeholder="e.g. 560102" autocomplete="postal-code"></label>';
+echo f_group('Location', f_state_select($F['state'], $counts['state'], 'f-state') . f_city_select($F['city'], $counts['city'], 'f-city') . $areaSel . $pinBox);
 $h = ''; foreach ($T['types'] as $k => $t) $h .= f_check('type', $k, $t['label'], in_array($k, $F['type'], true), $counts['type'][$k] ?? 0);
 echo f_group('Design type', $h);
 $h = ''; foreach ($T['properties'] as $k => $l) $h .= f_check('property', $k, $l, in_array($k, $F['property'], true), $counts['property'][$k] ?? 0);

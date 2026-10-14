@@ -7,7 +7,10 @@
    prices are placeholders, and the pictures are drawn illustrations marked SAMPLE.
    While samples are shown the pages say so and are not indexed by search engines.
 
-   Add a real project: copy one entry, give it a new key (the URL), set 'sample' => false.
+   Add a real project: the easiest way is the form at /admin/designs.php (photos included). Or copy one
+   entry here, give it a new key (the URL) and set 'sample' => false.
+   REQUIRED for every design, so it appears in every filter: title, company, city, area, pincode,
+   type, property, style and budget (/admin/designs.php checks the entries below against this).
      company    key of the professional in includes/data/pros.php (enquiries go to them)
      city, area city key and locality from includes/data/places.php
      property   apartment | villa | independent-house | penthouse | duplex | studio | row-house | office | commercial

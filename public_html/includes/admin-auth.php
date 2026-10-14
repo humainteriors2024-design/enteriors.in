@@ -1,5 +1,5 @@
 <?php
-/* ADMIN LOGIN — shared by /admin/ (reports) and /admin/images.php (image uploader).
+/* ADMIN LOGIN — shared by /admin/ (reports), /admin/images.php (image uploader) and /admin/designs.php (add a design).
    Password: config.php → ADMIN. Until a password is set, staging shows a page that makes the
    line to paste into config.php; the live site answers 404. */
 require_once __DIR__ . '/site.php';

@@ -3,7 +3,8 @@
    FIND A DESIGNER — /services/find-designer/
    Directory of interior designers, freelancers, contractors and carpenters. Find them by
    location (state, city, area), pincode (nearest first), "near me" (browser location, used only
-   on the visitor's device), apartment or society, reviews and rating, budget level and what
+   on the visitor's device), apartment or society, reviews and rating, budget level, design type,
+   property type and design style (from pros.php and their own trending designs), and what
    they offer (designer, carpenter, warranty, own factory, end-to-end, civil, plumbing,
    electrical, free consultation, 3D design). One profile per professional at
    /services/find-designer/<key>/ (includes/pages/pro.php, routed by .htaccess).
@@ -44,6 +45,8 @@ if ($F['reviews']) $chips[] = [$F['reviews'] . '+ reviews', $off(['reviews' => '
 foreach ($F['seg'] as $v) $chips[] = [$segs[$v], $drop('seg', $v)];
 foreach ($F['req'] as $v) $chips[] = [$D['reqs'][$v], $drop('req', $v)];
 if ($F['does']) $chips[] = ['Does: ' . $T['types'][$F['does']]['label'], $off(['does' => ''])];
+foreach ($F['property'] as $v) $chips[] = [$T['properties'][$v], $drop('property', $v)];
+foreach ($F['style'] as $v) $chips[] = [$T['styles'][$v]['label'], $drop('style', $v)];
 
 $where = $F['area'] ? ' in ' . $F['area'] . ', ' . city_name($F['city']) : ($F['city'] ? ' in ' . city_name($F['city']) : ($F['state'] ? ' in ' . state_name($F['state']) : ''));
 $what  = count($F['type']) === 1 ? strtolower($D['types'][$F['type'][0]]['plural']) : 'professionals';
@@ -103,7 +106,7 @@ $page = [
     'How do I find an interior designer near me?' => 'Type your area, apartment or 6-digit pincode in the search box, or select "Use my location". Results show who works closest first, with how near they are, the areas they cover, reviews, warranty and what they offer.',
     'Should I hire an interior designer, a freelancer or a contractor?' => 'A design firm designs and builds the whole interior under one contract. A freelance designer designs one-to-one and you hire the carpenter or contractor. A contractor or carpenter builds to drawings you already have. For a full home, a firm or a freelancer with a trusted team is usually easiest.',
     'What do the requirement filters mean?' => '"Designer" means they design, "Carpenter" that they have their own carpentry team, "Own factory" that kitchens and wardrobes are made in their own unit, "End-to-end" that they handle everything from design to handover, and "Civil", "Plumbing" and "Electrical" that they do that work themselves. "Free consultation" means the first meeting is free.',
-    'How do I contact a professional?' => 'Select Contact for a call back or Mail to send a message. We email you a 6-digit code to confirm your address, then send your enquiry. Your details go only to the professional you chose.',
+    'How do I contact a professional?' => 'Select Contact for a call back or Mail to send a message. We email you a 6-digit code and a link to confirm your address, then pass your enquiry to the professional you chose, and no one else.',
   ],
 ];
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
@@ -173,7 +176,11 @@ $h = ''; foreach ($segs as $k => $l) $h .= f_check('seg', $k, $l, in_array($k, $
 echo f_group('Budget level', $h);
 $h = ''; foreach ($D['reqs'] as $k => $l) $h .= f_check('req', $k, $l, in_array($k, $F['req'], true), $counts['req'][$k] ?? 0);
 echo f_group('Your requirements', $h . '<p class="fgroup__sub">Shows only those who offer every ticked item.</p>');
-echo f_group('Works on', f_select('does', 'Type of work', array_map(fn($t) => $t['label'], $T['types']), $F['does'], 'Any work', null, 'f-does'), (bool) $F['does']);
+echo f_group('Design type', f_select('does', 'Type of work', array_map(fn($t) => $t['label'], $T['types']), $F['does'], 'Any work', null, 'f-does'));
+$h = ''; foreach ($T['properties'] as $k => $l) $h .= f_check('property', $k, $l, in_array($k, $F['property'], true), $counts['property'][$k] ?? 0);
+echo f_group('Property type', $h);
+$h = ''; foreach ($T['styles'] as $k => $st) $h .= f_check('style', $k, $st['label'], in_array($k, $F['style'], true), $counts['style'][$k] ?? 0);
+echo f_group('Design style', $h, (bool) $F['style']);
 ?>
     <button class="btn btn--primary btn--block finder-apply" type="submit">Show results</button>
   </aside>
